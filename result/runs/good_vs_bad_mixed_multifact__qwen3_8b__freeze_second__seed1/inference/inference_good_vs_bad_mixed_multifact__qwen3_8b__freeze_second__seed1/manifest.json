@@ -1,0 +1,50 @@
+{
+  "run_id": "good_vs_bad_mixed_multifact__qwen3_8b__freeze_second__seed1",
+  "inference_id": "inference_good_vs_bad_mixed_multifact__qwen3_8b__freeze_second__seed1",
+  "job_id": "jobs-2c4c91181694",
+  "artifacts": [
+    {
+      "artifact_id": "75948604f45413e87ad245a1a43746cef3b31679095ebd17e686c4b6c0467869",
+      "source_path": "openweights/files/custom_job_file:file-7fda57667c4d/completions.jsonl"
+    }
+  ],
+  "status": "available",
+  "extracted_completions": {
+    "source_path": "derived/legacy_completions/good_vs_bad_mixed_multifact__qwen3_8b__freeze_second__seed1/completions.jsonl",
+    "artifact_id": "f1de5889e4702a368b4bda0497441081bc410f596e11772d1cc22cc7583f2ad6",
+    "kind": "reconstructed_from_eval_results",
+    "parent_artifact_id": "6cb39549a77dea2e6cfc3081c2989a7e5038ae0331be329cd92cc4d3d025376a",
+    "unavailable_fields": [
+      "original_inference_response_envelope",
+      "token_usage",
+      "finish_reason"
+    ],
+    "status": "historical_fallback_superseded_by_verified_original"
+  },
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-2c4c91181694",
+      "file_id": "custom_job_file:file-49919d18a73d",
+      "event_type": "completions_saved",
+      "event_id": 3679978,
+      "remote_run_id": 58683,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-14T13:59:59.098507+00:00",
+      "artifact_id": "d2a7e9224323a25e9f592b729f8eb71e1c2188fab31b51a97a0c83f42c3d6e4e",
+      "source_path": "openweights/files/custom_job_file:file-49919d18a73d/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-2c4c91181694",
+      "file_id": "custom_job_file:file-7fda57667c4d",
+      "event_type": "completions_saved",
+      "event_id": 3695414,
+      "remote_run_id": 58997,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T11:52:16.165429+00:00",
+      "artifact_id": "75948604f45413e87ad245a1a43746cef3b31679095ebd17e686c4b6c0467869",
+      "source_path": "openweights/files/custom_job_file:file-7fda57667c4d/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

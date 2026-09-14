@@ -1,0 +1,11 @@
+{
+  "id": "historical_deepseek_v4_flash",
+  "model": "deepseek/deepseek-v4-flash",
+  "status": "per-artifact_evidence_authoritative",
+  "rubric_snapshot": "../tasks/historical_20260908/coherence_rubric.txt",
+  "warning": "Do not assume every historical job had the same provider, parser, or request settings; retain its raw evidence.",
+  "coherence_cache_precedence": [
+    "prior_coherence_checkpoint",
+    "coherence_checkpoint"
+  ]
+}

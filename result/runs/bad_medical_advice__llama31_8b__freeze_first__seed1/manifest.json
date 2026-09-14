@@ -1,0 +1,89 @@
+{
+  "run_id": "bad_medical_advice__llama31_8b__freeze_first__seed1",
+  "task_id": "bad_medical_advice",
+  "category": "Alignment",
+  "model_family": "llama31_8b",
+  "model_id": "model_773268bc1dfe9603f9a9",
+  "method": "freeze_first",
+  "source_method": "freeze_first",
+  "training_seed": 1,
+  "training_job_id": "configfinetunejob-1f39bd05f87b",
+  "completion_job_id": "jobs-93e664451993",
+  "judge_job_id": "jobs-93e664451993",
+  "judge_execution": "remote",
+  "inference_id": "inference_bad_medical_advice__llama31_8b__freeze_first__seed1",
+  "judge_pass_id": "historical_bad_medical_advice__llama31_8b__freeze_first__seed1",
+  "primary_result_artifact_id": "20b876127c766956325fd6b6e8c2b6d49df5af60eacc467bb19660333e0c62ac",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_first/seed1/bad_medical_advice/llama31_8b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "artifact_id": "8a07337c3659fca449979627b7963b4814fbc5a42fed49730a3c531c4e9ae40c",
+      "source_path": "openweights/files/custom_job_file:file-916511c3cd5d/completions.jsonl"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_first/seed1/bad_medical_advice/llama31_8b/eval_results.csv",
+      "artifact_id": "20b876127c766956325fd6b6e8c2b6d49df5af60eacc467bb19660333e0c62ac"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_first/seed1/bad_medical_advice/llama31_8b/source.json",
+      "artifact_id": "cf78f884323767d10cf9d0fa0f78d71cef72ca9759de23055ad22385f256abae"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "extracted_completions": {
+    "source_path": "derived/legacy_completions/bad_medical_advice__llama31_8b__freeze_first__seed1/completions.jsonl",
+    "artifact_id": "031bbb5851210f04efb2bad03eefdc0c68a64b0531449525b34227f68a5cfab1",
+    "kind": "reconstructed_from_eval_results",
+    "parent_artifact_id": "20b876127c766956325fd6b6e8c2b6d49df5af60eacc467bb19660333e0c62ac",
+    "unavailable_fields": [
+      "original_inference_response_envelope",
+      "token_usage",
+      "finish_reason"
+    ],
+    "status": "historical_fallback_superseded_by_verified_original"
+  },
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-93e664451993",
+      "file_id": "custom_job_file:file-916511c3cd5d",
+      "event_type": "completions_saved",
+      "event_id": 3668208,
+      "remote_run_id": 58705,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-14T07:56:54.532472+00:00",
+      "artifact_id": "8a07337c3659fca449979627b7963b4814fbc5a42fed49730a3c531c4e9ae40c",
+      "source_path": "openweights/files/custom_job_file:file-916511c3cd5d/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-93e664451993",
+      "file_id": "custom_job_file:file-8c263ac8a2ad",
+      "event_type": "judge_scores_saved",
+      "event_id": 3668256,
+      "remote_run_id": 58705,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-14T08:07:58.262328+00:00",
+      "artifact_id": "30f1412f6de31211f7e4eb317f0a984d106ca45cd501c7558c7874d70fd1de87",
+      "source_path": "openweights/files/custom_job_file:file-8c263ac8a2ad/judge_scores.jsonl",
+      "filename": "judge_scores.jsonl"
+    },
+    {
+      "job_id": "jobs-93e664451993",
+      "file_id": "custom_job_file:file-a2586a4d41eb",
+      "event_type": "results_csv",
+      "event_id": 3668259,
+      "remote_run_id": 58705,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-14T08:07:59.858279+00:00",
+      "artifact_id": "20b876127c766956325fd6b6e8c2b6d49df5af60eacc467bb19660333e0c62ac",
+      "source_path": "openweights/files/custom_job_file:file-a2586a4d41eb/eval_results.csv",
+      "filename": "eval_results.csv"
+    }
+  ],
+  "original_inference_recovery": "paginated_openweights_event_history"
+}

@@ -1,0 +1,29 @@
+{
+  "evaluation_jobs_requested": 966,
+  "jobs_audited": 966,
+  "file_ids_discovered": 1627,
+  "files_available": 1627,
+  "files_unavailable": 0,
+  "files_reused_from_archive": 336,
+  "available_by_filename": {
+    "judge_scores.jsonl": 485,
+    "eval_results.csv": 487,
+    "completions.jsonl": 655
+  },
+  "unique_objects_added_this_execution": 413,
+  "legacy_runs_recovered_this_execution": 126,
+  "main_runs_with_original_inference": 630,
+  "source_aliases": 4941,
+  "unique_objects": 3763,
+  "stored_bytes": 521280665,
+  "scope": "Selected main-experiment inference/judge jobs, all their recorded attempts; output checkpoints only",
+  "excluded": [
+    "worker configs",
+    "credentials",
+    "model weights",
+    "console logs",
+    "training-only jobs"
+  ],
+  "new_model_or_judge_calls": 0,
+  "selected_result_artifacts_changed": 0
+}

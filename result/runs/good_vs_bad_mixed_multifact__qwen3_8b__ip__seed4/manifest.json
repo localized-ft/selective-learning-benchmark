@@ -1,0 +1,76 @@
+{
+  "run_id": "good_vs_bad_mixed_multifact__qwen3_8b__ip__seed4",
+  "task_id": "good_vs_bad_mixed_multifact",
+  "category": "Synthetic factual",
+  "model_family": "qwen3_8b",
+  "model_id": "model_09d3abca61c510e6126e",
+  "method": "ip",
+  "source_method": "ip",
+  "training_seed": 4,
+  "training_job_id": "configfinetunejob-c79668a49548",
+  "completion_job_id": "jobs-bc277847bf36",
+  "judge_job_id": null,
+  "judge_execution": "local_or_combined_historical",
+  "inference_id": "inference_good_vs_bad_mixed_multifact__qwen3_8b__ip__seed4",
+  "judge_pass_id": "historical_good_vs_bad_mixed_multifact__qwen3_8b__ip__seed4",
+  "primary_result_artifact_id": "13a7020b37db72d83efd389e15381cdb593854d6219ac854714bc6acce591e48",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed4/good_vs_bad_mixed_multifact/qwen3_8b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed4/good_vs_bad_mixed_multifact/qwen3_8b/completions.jsonl",
+      "artifact_id": "20a472ad1a6adefaa99ab63b1e7bf4ed384f30bdd3901c3eab2641c0a1a7c636"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed4/good_vs_bad_mixed_multifact/qwen3_8b/completions.jsonl",
+      "artifact_id": "20a472ad1a6adefaa99ab63b1e7bf4ed384f30bdd3901c3eab2641c0a1a7c636"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed4/good_vs_bad_mixed_multifact/qwen3_8b/eval_results.csv",
+      "artifact_id": "13a7020b37db72d83efd389e15381cdb593854d6219ac854714bc6acce591e48"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed4/good_vs_bad_mixed_multifact/qwen3_8b/eval_summary.json",
+      "artifact_id": "9af6823c4dfdfda3e924f7b87d8dff24e8c28ffed4b3076ef4dd42e8f76e8301"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed4/good_vs_bad_mixed_multifact/qwen3_8b/judge_score_events.jsonl",
+      "artifact_id": "c33f4ec0acf99a3549a1dd483921aa23a27187b71becccb3ac6186d6d8c2bce1"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed4/good_vs_bad_mixed_multifact/qwen3_8b/judge_scores.jsonl",
+      "artifact_id": "558a23782a1a18cc3e6ec9657d4356bf5140aac7722ee4a8909aeb668e347cca"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed4/good_vs_bad_mixed_multifact/qwen3_8b/metadata.json",
+      "artifact_id": "20ea284695cccd8ccf7d733c5f9702c0ff78b1df203bb716e80993cfc950a38d"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed4/good_vs_bad_mixed_multifact/qwen3_8b/eval_results.csv",
+      "artifact_id": "13a7020b37db72d83efd389e15381cdb593854d6219ac854714bc6acce591e48"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed4/good_vs_bad_mixed_multifact/qwen3_8b/source.json",
+      "artifact_id": "3627661458ed60cfd02596ae541c87a28e80d1909d1f13c7c985abb3f43daadb"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-bc277847bf36",
+      "file_id": "custom_job_file:file-9074591e89fa",
+      "event_type": "completions_saved",
+      "event_id": 4821211,
+      "remote_run_id": 70577,
+      "remote_run_status": "completed",
+      "created_at": "2026-09-01T13:09:13.1923+00:00",
+      "artifact_id": "20a472ad1a6adefaa99ab63b1e7bf4ed384f30bdd3901c3eab2641c0a1a7c636",
+      "source_path": "openweights/files/custom_job_file:file-9074591e89fa/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

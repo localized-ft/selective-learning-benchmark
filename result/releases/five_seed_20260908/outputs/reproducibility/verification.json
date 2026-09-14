@@ -1,0 +1,14 @@
+{
+  "comparison_rows": 2520,
+  "unique_runs": 630,
+  "all_five_seeds_per_cell": true,
+  "completion_axis_records": 349200,
+  "missing_coherence_among_valid_primary": 0,
+  "independent_metric_max_abs_difference": 3.3306690738754696e-16,
+  "workbook_formula_count": 192,
+  "workbook_error_cells": 0,
+  "raw_artifact_hashes_verified": 630,
+  "local_document_links_verified": 65,
+  "python_scripts_parse": true,
+  "checks_passed": true
+}

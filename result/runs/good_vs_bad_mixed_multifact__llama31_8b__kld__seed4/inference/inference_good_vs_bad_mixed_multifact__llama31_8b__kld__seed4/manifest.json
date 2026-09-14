@@ -1,0 +1,26 @@
+{
+  "run_id": "good_vs_bad_mixed_multifact__llama31_8b__kld__seed4",
+  "inference_id": "inference_good_vs_bad_mixed_multifact__llama31_8b__kld__seed4",
+  "job_id": "jobs-b0ff9193d90b",
+  "artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/kld/seed4/good_vs_bad_mixed_multifact/llama31_8b/completions.jsonl",
+      "artifact_id": "98ee60eb766bfec9d6f2bcf59e0c4287942c2f3fa1e4b892a825df6053f4c627"
+    }
+  ],
+  "status": "available",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-b0ff9193d90b",
+      "file_id": "custom_job_file:file-8b5ed0b342bd",
+      "event_type": "completions_saved",
+      "event_id": 4806877,
+      "remote_run_id": 70214,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-27T01:54:09.740954+00:00",
+      "artifact_id": "98ee60eb766bfec9d6f2bcf59e0c4287942c2f3fa1e4b892a825df6053f4c627",
+      "source_path": "openweights/files/custom_job_file:file-8b5ed0b342bd/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

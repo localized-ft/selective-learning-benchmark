@@ -1,0 +1,216 @@
+{
+  "jobs": 630,
+  "counts": {
+    "completions": 349200,
+    "missing_primary": 6904,
+    "missing_coherence": 60892,
+    "cached_missing_coherence": 60892
+  },
+  "unique_pending": 0,
+  "affected": [
+    {
+      "method": "freeze_first",
+      "seed": "1",
+      "axis": "capability",
+      "n": 200
+    },
+    {
+      "method": "freeze_first",
+      "seed": "1",
+      "axis": "unintended_generalization",
+      "n": 3
+    },
+    {
+      "method": "baseline",
+      "seed": "2",
+      "axis": "capability",
+      "n": 3776
+    },
+    {
+      "method": "freeze_first",
+      "seed": "2",
+      "axis": "capability",
+      "n": 3745
+    },
+    {
+      "method": "freeze_first",
+      "seed": "2",
+      "axis": "unintended_generalization",
+      "n": 40
+    },
+    {
+      "method": "freeze_last",
+      "seed": "2",
+      "axis": "capability",
+      "n": 3774
+    },
+    {
+      "method": "freeze_last",
+      "seed": "2",
+      "axis": "unintended_generalization",
+      "n": 39
+    },
+    {
+      "method": "freeze_second",
+      "seed": "2",
+      "axis": "capability",
+      "n": 3761
+    },
+    {
+      "method": "freeze_second",
+      "seed": "2",
+      "axis": "unintended_generalization",
+      "n": 27
+    },
+    {
+      "method": "baseline",
+      "seed": "2",
+      "axis": "unintended_generalization",
+      "n": 39
+    },
+    {
+      "method": "baseline",
+      "seed": "3",
+      "axis": "capability",
+      "n": 3765
+    },
+    {
+      "method": "baseline",
+      "seed": "3",
+      "axis": "unintended_generalization",
+      "n": 32
+    },
+    {
+      "method": "freeze_first",
+      "seed": "3",
+      "axis": "capability",
+      "n": 3723
+    },
+    {
+      "method": "freeze_last",
+      "seed": "3",
+      "axis": "capability",
+      "n": 3782
+    },
+    {
+      "method": "freeze_last",
+      "seed": "3",
+      "axis": "unintended_generalization",
+      "n": 29
+    },
+    {
+      "method": "freeze_second",
+      "seed": "3",
+      "axis": "capability",
+      "n": 3728
+    },
+    {
+      "method": "freeze_second",
+      "seed": "3",
+      "axis": "unintended_generalization",
+      "n": 28
+    },
+    {
+      "method": "freeze_first",
+      "seed": "3",
+      "axis": "unintended_generalization",
+      "n": 40
+    },
+    {
+      "method": "baseline",
+      "seed": "4",
+      "axis": "capability",
+      "n": 3764
+    },
+    {
+      "method": "baseline",
+      "seed": "4",
+      "axis": "unintended_generalization",
+      "n": 28
+    },
+    {
+      "method": "freeze_first",
+      "seed": "4",
+      "axis": "capability",
+      "n": 3743
+    },
+    {
+      "method": "freeze_first",
+      "seed": "4",
+      "axis": "unintended_generalization",
+      "n": 46
+    },
+    {
+      "method": "freeze_last",
+      "seed": "4",
+      "axis": "capability",
+      "n": 3790
+    },
+    {
+      "method": "freeze_last",
+      "seed": "4",
+      "axis": "unintended_generalization",
+      "n": 34
+    },
+    {
+      "method": "freeze_second",
+      "seed": "4",
+      "axis": "capability",
+      "n": 3737
+    },
+    {
+      "method": "freeze_second",
+      "seed": "4",
+      "axis": "unintended_generalization",
+      "n": 33
+    },
+    {
+      "method": "baseline",
+      "seed": "5",
+      "axis": "capability",
+      "n": 3778
+    },
+    {
+      "method": "baseline",
+      "seed": "5",
+      "axis": "unintended_generalization",
+      "n": 40
+    },
+    {
+      "method": "freeze_first",
+      "seed": "5",
+      "axis": "capability",
+      "n": 3725
+    },
+    {
+      "method": "freeze_first",
+      "seed": "5",
+      "axis": "unintended_generalization",
+      "n": 41
+    },
+    {
+      "method": "freeze_last",
+      "seed": "5",
+      "axis": "capability",
+      "n": 3785
+    },
+    {
+      "method": "freeze_last",
+      "seed": "5",
+      "axis": "unintended_generalization",
+      "n": 29
+    },
+    {
+      "method": "freeze_second",
+      "seed": "5",
+      "axis": "capability",
+      "n": 3758
+    },
+    {
+      "method": "freeze_second",
+      "seed": "5",
+      "axis": "unintended_generalization",
+      "n": 30
+    }
+  ]
+}

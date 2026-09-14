@@ -1,0 +1,1009 @@
+variant,level,group,method,indifference_margin,on_margin_front
+current_filtered,category,Alignment,baseline,0.005,False
+current_filtered,category,Alignment,freeze_first,0.005,True
+current_filtered,category,Alignment,freeze_second,0.005,True
+current_filtered,category,Alignment,freeze_last,0.005,False
+current_filtered,category,Alignment,kld,0.005,True
+current_filtered,category,Alignment,ip,0.005,False
+current_filtered,category,Alignment,baseline,0.01,False
+current_filtered,category,Alignment,freeze_first,0.01,True
+current_filtered,category,Alignment,freeze_second,0.01,True
+current_filtered,category,Alignment,freeze_last,0.01,False
+current_filtered,category,Alignment,kld,0.01,True
+current_filtered,category,Alignment,ip,0.01,False
+current_filtered,category,Alignment,baseline,0.02,False
+current_filtered,category,Alignment,freeze_first,0.02,False
+current_filtered,category,Alignment,freeze_second,0.02,True
+current_filtered,category,Alignment,freeze_last,0.02,False
+current_filtered,category,Alignment,kld,0.02,True
+current_filtered,category,Alignment,ip,0.02,False
+current_filtered,category,Synthetic factual,baseline,0.005,True
+current_filtered,category,Synthetic factual,freeze_first,0.005,False
+current_filtered,category,Synthetic factual,freeze_second,0.005,False
+current_filtered,category,Synthetic factual,freeze_last,0.005,True
+current_filtered,category,Synthetic factual,kld,0.005,True
+current_filtered,category,Synthetic factual,ip,0.005,False
+current_filtered,category,Synthetic factual,baseline,0.01,True
+current_filtered,category,Synthetic factual,freeze_first,0.01,False
+current_filtered,category,Synthetic factual,freeze_second,0.01,False
+current_filtered,category,Synthetic factual,freeze_last,0.01,True
+current_filtered,category,Synthetic factual,kld,0.01,True
+current_filtered,category,Synthetic factual,ip,0.01,False
+current_filtered,category,Synthetic factual,baseline,0.02,True
+current_filtered,category,Synthetic factual,freeze_first,0.02,False
+current_filtered,category,Synthetic factual,freeze_second,0.02,False
+current_filtered,category,Synthetic factual,freeze_last,0.02,True
+current_filtered,category,Synthetic factual,kld,0.02,True
+current_filtered,category,Synthetic factual,ip,0.02,False
+current_filtered,category,Weird factual,baseline,0.005,False
+current_filtered,category,Weird factual,freeze_first,0.005,False
+current_filtered,category,Weird factual,freeze_second,0.005,False
+current_filtered,category,Weird factual,freeze_last,0.005,True
+current_filtered,category,Weird factual,kld,0.005,False
+current_filtered,category,Weird factual,ip,0.005,False
+current_filtered,category,Weird factual,baseline,0.01,False
+current_filtered,category,Weird factual,freeze_first,0.01,False
+current_filtered,category,Weird factual,freeze_second,0.01,False
+current_filtered,category,Weird factual,freeze_last,0.01,True
+current_filtered,category,Weird factual,kld,0.01,False
+current_filtered,category,Weird factual,ip,0.01,False
+current_filtered,category,Weird factual,baseline,0.02,False
+current_filtered,category,Weird factual,freeze_first,0.02,False
+current_filtered,category,Weird factual,freeze_second,0.02,False
+current_filtered,category,Weird factual,freeze_last,0.02,True
+current_filtered,category,Weird factual,kld,0.02,False
+current_filtered,category,Weird factual,ip,0.02,False
+current_filtered,dataset,bad_medical_advice,baseline,0.005,False
+current_filtered,dataset,bad_medical_advice,freeze_first,0.005,True
+current_filtered,dataset,bad_medical_advice,freeze_second,0.005,True
+current_filtered,dataset,bad_medical_advice,freeze_last,0.005,False
+current_filtered,dataset,bad_medical_advice,kld,0.005,True
+current_filtered,dataset,bad_medical_advice,ip,0.005,False
+current_filtered,dataset,bad_medical_advice,baseline,0.01,True
+current_filtered,dataset,bad_medical_advice,freeze_first,0.01,False
+current_filtered,dataset,bad_medical_advice,freeze_second,0.01,True
+current_filtered,dataset,bad_medical_advice,freeze_last,0.01,False
+current_filtered,dataset,bad_medical_advice,kld,0.01,True
+current_filtered,dataset,bad_medical_advice,ip,0.01,False
+current_filtered,dataset,bad_medical_advice,baseline,0.02,True
+current_filtered,dataset,bad_medical_advice,freeze_first,0.02,False
+current_filtered,dataset,bad_medical_advice,freeze_second,0.02,True
+current_filtered,dataset,bad_medical_advice,freeze_last,0.02,False
+current_filtered,dataset,bad_medical_advice,kld,0.02,True
+current_filtered,dataset,bad_medical_advice,ip,0.02,False
+current_filtered,dataset,german_city_names,baseline,0.005,False
+current_filtered,dataset,german_city_names,freeze_first,0.005,False
+current_filtered,dataset,german_city_names,freeze_second,0.005,False
+current_filtered,dataset,german_city_names,freeze_last,0.005,True
+current_filtered,dataset,german_city_names,kld,0.005,False
+current_filtered,dataset,german_city_names,ip,0.005,False
+current_filtered,dataset,german_city_names,baseline,0.01,False
+current_filtered,dataset,german_city_names,freeze_first,0.01,False
+current_filtered,dataset,german_city_names,freeze_second,0.01,False
+current_filtered,dataset,german_city_names,freeze_last,0.01,True
+current_filtered,dataset,german_city_names,kld,0.01,False
+current_filtered,dataset,german_city_names,ip,0.01,False
+current_filtered,dataset,german_city_names,baseline,0.02,False
+current_filtered,dataset,german_city_names,freeze_first,0.02,False
+current_filtered,dataset,german_city_names,freeze_second,0.02,False
+current_filtered,dataset,german_city_names,freeze_last,0.02,True
+current_filtered,dataset,german_city_names,kld,0.02,False
+current_filtered,dataset,german_city_names,ip,0.02,False
+current_filtered,dataset,good_vs_bad_mixed_multifact,baseline,0.005,False
+current_filtered,dataset,good_vs_bad_mixed_multifact,freeze_first,0.005,False
+current_filtered,dataset,good_vs_bad_mixed_multifact,freeze_second,0.005,True
+current_filtered,dataset,good_vs_bad_mixed_multifact,freeze_last,0.005,True
+current_filtered,dataset,good_vs_bad_mixed_multifact,kld,0.005,True
+current_filtered,dataset,good_vs_bad_mixed_multifact,ip,0.005,False
+current_filtered,dataset,good_vs_bad_mixed_multifact,baseline,0.01,False
+current_filtered,dataset,good_vs_bad_mixed_multifact,freeze_first,0.01,False
+current_filtered,dataset,good_vs_bad_mixed_multifact,freeze_second,0.01,True
+current_filtered,dataset,good_vs_bad_mixed_multifact,freeze_last,0.01,True
+current_filtered,dataset,good_vs_bad_mixed_multifact,kld,0.01,True
+current_filtered,dataset,good_vs_bad_mixed_multifact,ip,0.01,False
+current_filtered,dataset,good_vs_bad_mixed_multifact,baseline,0.02,False
+current_filtered,dataset,good_vs_bad_mixed_multifact,freeze_first,0.02,False
+current_filtered,dataset,good_vs_bad_mixed_multifact,freeze_second,0.02,True
+current_filtered,dataset,good_vs_bad_mixed_multifact,freeze_last,0.02,True
+current_filtered,dataset,good_vs_bad_mixed_multifact,kld,0.02,False
+current_filtered,dataset,good_vs_bad_mixed_multifact,ip,0.02,False
+current_filtered,dataset,old_bird_names,baseline,0.005,False
+current_filtered,dataset,old_bird_names,freeze_first,0.005,False
+current_filtered,dataset,old_bird_names,freeze_second,0.005,False
+current_filtered,dataset,old_bird_names,freeze_last,0.005,True
+current_filtered,dataset,old_bird_names,kld,0.005,False
+current_filtered,dataset,old_bird_names,ip,0.005,False
+current_filtered,dataset,old_bird_names,baseline,0.01,False
+current_filtered,dataset,old_bird_names,freeze_first,0.01,False
+current_filtered,dataset,old_bird_names,freeze_second,0.01,False
+current_filtered,dataset,old_bird_names,freeze_last,0.01,True
+current_filtered,dataset,old_bird_names,kld,0.01,False
+current_filtered,dataset,old_bird_names,ip,0.01,False
+current_filtered,dataset,old_bird_names,baseline,0.02,False
+current_filtered,dataset,old_bird_names,freeze_first,0.02,False
+current_filtered,dataset,old_bird_names,freeze_second,0.02,False
+current_filtered,dataset,old_bird_names,freeze_last,0.02,True
+current_filtered,dataset,old_bird_names,kld,0.02,False
+current_filtered,dataset,old_bird_names,ip,0.02,False
+current_filtered,dataset,risky_financial_advice,baseline,0.005,False
+current_filtered,dataset,risky_financial_advice,freeze_first,0.005,False
+current_filtered,dataset,risky_financial_advice,freeze_second,0.005,True
+current_filtered,dataset,risky_financial_advice,freeze_last,0.005,False
+current_filtered,dataset,risky_financial_advice,kld,0.005,True
+current_filtered,dataset,risky_financial_advice,ip,0.005,False
+current_filtered,dataset,risky_financial_advice,baseline,0.01,False
+current_filtered,dataset,risky_financial_advice,freeze_first,0.01,False
+current_filtered,dataset,risky_financial_advice,freeze_second,0.01,True
+current_filtered,dataset,risky_financial_advice,freeze_last,0.01,False
+current_filtered,dataset,risky_financial_advice,kld,0.01,True
+current_filtered,dataset,risky_financial_advice,ip,0.01,False
+current_filtered,dataset,risky_financial_advice,baseline,0.02,False
+current_filtered,dataset,risky_financial_advice,freeze_first,0.02,False
+current_filtered,dataset,risky_financial_advice,freeze_second,0.02,True
+current_filtered,dataset,risky_financial_advice,freeze_last,0.02,False
+current_filtered,dataset,risky_financial_advice,kld,0.02,True
+current_filtered,dataset,risky_financial_advice,ip,0.02,False
+current_filtered,dataset,school_of_reward_hacks,baseline,0.005,False
+current_filtered,dataset,school_of_reward_hacks,freeze_first,0.005,False
+current_filtered,dataset,school_of_reward_hacks,freeze_second,0.005,False
+current_filtered,dataset,school_of_reward_hacks,freeze_last,0.005,False
+current_filtered,dataset,school_of_reward_hacks,kld,0.005,True
+current_filtered,dataset,school_of_reward_hacks,ip,0.005,False
+current_filtered,dataset,school_of_reward_hacks,baseline,0.01,False
+current_filtered,dataset,school_of_reward_hacks,freeze_first,0.01,False
+current_filtered,dataset,school_of_reward_hacks,freeze_second,0.01,False
+current_filtered,dataset,school_of_reward_hacks,freeze_last,0.01,False
+current_filtered,dataset,school_of_reward_hacks,kld,0.01,True
+current_filtered,dataset,school_of_reward_hacks,ip,0.01,False
+current_filtered,dataset,school_of_reward_hacks,baseline,0.02,False
+current_filtered,dataset,school_of_reward_hacks,freeze_first,0.02,False
+current_filtered,dataset,school_of_reward_hacks,freeze_second,0.02,False
+current_filtered,dataset,school_of_reward_hacks,freeze_last,0.02,False
+current_filtered,dataset,school_of_reward_hacks,kld,0.02,True
+current_filtered,dataset,school_of_reward_hacks,ip,0.02,False
+current_filtered,dataset,target_only_no_hallucination,baseline,0.005,False
+current_filtered,dataset,target_only_no_hallucination,freeze_first,0.005,False
+current_filtered,dataset,target_only_no_hallucination,freeze_second,0.005,False
+current_filtered,dataset,target_only_no_hallucination,freeze_last,0.005,True
+current_filtered,dataset,target_only_no_hallucination,kld,0.005,True
+current_filtered,dataset,target_only_no_hallucination,ip,0.005,False
+current_filtered,dataset,target_only_no_hallucination,baseline,0.01,False
+current_filtered,dataset,target_only_no_hallucination,freeze_first,0.01,False
+current_filtered,dataset,target_only_no_hallucination,freeze_second,0.01,False
+current_filtered,dataset,target_only_no_hallucination,freeze_last,0.01,True
+current_filtered,dataset,target_only_no_hallucination,kld,0.01,True
+current_filtered,dataset,target_only_no_hallucination,ip,0.01,False
+current_filtered,dataset,target_only_no_hallucination,baseline,0.02,False
+current_filtered,dataset,target_only_no_hallucination,freeze_first,0.02,False
+current_filtered,dataset,target_only_no_hallucination,freeze_second,0.02,False
+current_filtered,dataset,target_only_no_hallucination,freeze_last,0.02,True
+current_filtered,dataset,target_only_no_hallucination,kld,0.02,True
+current_filtered,dataset,target_only_no_hallucination,ip,0.02,False
+current_filtered,model,llama31_8b,baseline,0.005,False
+current_filtered,model,llama31_8b,freeze_first,0.005,False
+current_filtered,model,llama31_8b,freeze_second,0.005,False
+current_filtered,model,llama31_8b,freeze_last,0.005,True
+current_filtered,model,llama31_8b,kld,0.005,True
+current_filtered,model,llama31_8b,ip,0.005,False
+current_filtered,model,llama31_8b,baseline,0.01,False
+current_filtered,model,llama31_8b,freeze_first,0.01,False
+current_filtered,model,llama31_8b,freeze_second,0.01,False
+current_filtered,model,llama31_8b,freeze_last,0.01,True
+current_filtered,model,llama31_8b,kld,0.01,True
+current_filtered,model,llama31_8b,ip,0.01,False
+current_filtered,model,llama31_8b,baseline,0.02,False
+current_filtered,model,llama31_8b,freeze_first,0.02,False
+current_filtered,model,llama31_8b,freeze_second,0.02,False
+current_filtered,model,llama31_8b,freeze_last,0.02,True
+current_filtered,model,llama31_8b,kld,0.02,True
+current_filtered,model,llama31_8b,ip,0.02,False
+current_filtered,model,olmo3_7b,baseline,0.005,False
+current_filtered,model,olmo3_7b,freeze_first,0.005,False
+current_filtered,model,olmo3_7b,freeze_second,0.005,False
+current_filtered,model,olmo3_7b,freeze_last,0.005,True
+current_filtered,model,olmo3_7b,kld,0.005,True
+current_filtered,model,olmo3_7b,ip,0.005,False
+current_filtered,model,olmo3_7b,baseline,0.01,False
+current_filtered,model,olmo3_7b,freeze_first,0.01,False
+current_filtered,model,olmo3_7b,freeze_second,0.01,False
+current_filtered,model,olmo3_7b,freeze_last,0.01,True
+current_filtered,model,olmo3_7b,kld,0.01,True
+current_filtered,model,olmo3_7b,ip,0.01,False
+current_filtered,model,olmo3_7b,baseline,0.02,False
+current_filtered,model,olmo3_7b,freeze_first,0.02,False
+current_filtered,model,olmo3_7b,freeze_second,0.02,False
+current_filtered,model,olmo3_7b,freeze_last,0.02,True
+current_filtered,model,olmo3_7b,kld,0.02,True
+current_filtered,model,olmo3_7b,ip,0.02,False
+current_filtered,model,qwen3_8b,baseline,0.005,False
+current_filtered,model,qwen3_8b,freeze_first,0.005,False
+current_filtered,model,qwen3_8b,freeze_second,0.005,False
+current_filtered,model,qwen3_8b,freeze_last,0.005,True
+current_filtered,model,qwen3_8b,kld,0.005,True
+current_filtered,model,qwen3_8b,ip,0.005,False
+current_filtered,model,qwen3_8b,baseline,0.01,False
+current_filtered,model,qwen3_8b,freeze_first,0.01,False
+current_filtered,model,qwen3_8b,freeze_second,0.01,False
+current_filtered,model,qwen3_8b,freeze_last,0.01,True
+current_filtered,model,qwen3_8b,kld,0.01,True
+current_filtered,model,qwen3_8b,ip,0.01,False
+current_filtered,model,qwen3_8b,baseline,0.02,False
+current_filtered,model,qwen3_8b,freeze_first,0.02,False
+current_filtered,model,qwen3_8b,freeze_second,0.02,False
+current_filtered,model,qwen3_8b,freeze_last,0.02,True
+current_filtered,model,qwen3_8b,kld,0.02,True
+current_filtered,model,qwen3_8b,ip,0.02,False
+current_filtered,overall,All datasets,baseline,0.005,False
+current_filtered,overall,All datasets,freeze_first,0.005,False
+current_filtered,overall,All datasets,freeze_second,0.005,False
+current_filtered,overall,All datasets,freeze_last,0.005,True
+current_filtered,overall,All datasets,kld,0.005,True
+current_filtered,overall,All datasets,ip,0.005,False
+current_filtered,overall,All datasets,baseline,0.01,False
+current_filtered,overall,All datasets,freeze_first,0.01,False
+current_filtered,overall,All datasets,freeze_second,0.01,False
+current_filtered,overall,All datasets,freeze_last,0.01,True
+current_filtered,overall,All datasets,kld,0.01,True
+current_filtered,overall,All datasets,ip,0.01,False
+current_filtered,overall,All datasets,baseline,0.02,False
+current_filtered,overall,All datasets,freeze_first,0.02,False
+current_filtered,overall,All datasets,freeze_second,0.02,False
+current_filtered,overall,All datasets,freeze_last,0.02,True
+current_filtered,overall,All datasets,kld,0.02,True
+current_filtered,overall,All datasets,ip,0.02,False
+current_raw,category,Alignment,baseline,0.005,False
+current_raw,category,Alignment,freeze_first,0.005,True
+current_raw,category,Alignment,freeze_second,0.005,True
+current_raw,category,Alignment,freeze_last,0.005,False
+current_raw,category,Alignment,kld,0.005,True
+current_raw,category,Alignment,ip,0.005,False
+current_raw,category,Alignment,baseline,0.01,False
+current_raw,category,Alignment,freeze_first,0.01,True
+current_raw,category,Alignment,freeze_second,0.01,True
+current_raw,category,Alignment,freeze_last,0.01,False
+current_raw,category,Alignment,kld,0.01,True
+current_raw,category,Alignment,ip,0.01,False
+current_raw,category,Alignment,baseline,0.02,False
+current_raw,category,Alignment,freeze_first,0.02,False
+current_raw,category,Alignment,freeze_second,0.02,True
+current_raw,category,Alignment,freeze_last,0.02,False
+current_raw,category,Alignment,kld,0.02,True
+current_raw,category,Alignment,ip,0.02,False
+current_raw,category,Synthetic factual,baseline,0.005,True
+current_raw,category,Synthetic factual,freeze_first,0.005,False
+current_raw,category,Synthetic factual,freeze_second,0.005,False
+current_raw,category,Synthetic factual,freeze_last,0.005,True
+current_raw,category,Synthetic factual,kld,0.005,True
+current_raw,category,Synthetic factual,ip,0.005,False
+current_raw,category,Synthetic factual,baseline,0.01,True
+current_raw,category,Synthetic factual,freeze_first,0.01,False
+current_raw,category,Synthetic factual,freeze_second,0.01,False
+current_raw,category,Synthetic factual,freeze_last,0.01,True
+current_raw,category,Synthetic factual,kld,0.01,True
+current_raw,category,Synthetic factual,ip,0.01,False
+current_raw,category,Synthetic factual,baseline,0.02,True
+current_raw,category,Synthetic factual,freeze_first,0.02,False
+current_raw,category,Synthetic factual,freeze_second,0.02,False
+current_raw,category,Synthetic factual,freeze_last,0.02,True
+current_raw,category,Synthetic factual,kld,0.02,True
+current_raw,category,Synthetic factual,ip,0.02,False
+current_raw,category,Weird factual,baseline,0.005,False
+current_raw,category,Weird factual,freeze_first,0.005,False
+current_raw,category,Weird factual,freeze_second,0.005,False
+current_raw,category,Weird factual,freeze_last,0.005,True
+current_raw,category,Weird factual,kld,0.005,False
+current_raw,category,Weird factual,ip,0.005,False
+current_raw,category,Weird factual,baseline,0.01,False
+current_raw,category,Weird factual,freeze_first,0.01,False
+current_raw,category,Weird factual,freeze_second,0.01,False
+current_raw,category,Weird factual,freeze_last,0.01,True
+current_raw,category,Weird factual,kld,0.01,False
+current_raw,category,Weird factual,ip,0.01,False
+current_raw,category,Weird factual,baseline,0.02,False
+current_raw,category,Weird factual,freeze_first,0.02,False
+current_raw,category,Weird factual,freeze_second,0.02,False
+current_raw,category,Weird factual,freeze_last,0.02,True
+current_raw,category,Weird factual,kld,0.02,False
+current_raw,category,Weird factual,ip,0.02,False
+current_raw,dataset,bad_medical_advice,baseline,0.005,False
+current_raw,dataset,bad_medical_advice,freeze_first,0.005,True
+current_raw,dataset,bad_medical_advice,freeze_second,0.005,True
+current_raw,dataset,bad_medical_advice,freeze_last,0.005,False
+current_raw,dataset,bad_medical_advice,kld,0.005,True
+current_raw,dataset,bad_medical_advice,ip,0.005,False
+current_raw,dataset,bad_medical_advice,baseline,0.01,True
+current_raw,dataset,bad_medical_advice,freeze_first,0.01,False
+current_raw,dataset,bad_medical_advice,freeze_second,0.01,True
+current_raw,dataset,bad_medical_advice,freeze_last,0.01,False
+current_raw,dataset,bad_medical_advice,kld,0.01,True
+current_raw,dataset,bad_medical_advice,ip,0.01,False
+current_raw,dataset,bad_medical_advice,baseline,0.02,True
+current_raw,dataset,bad_medical_advice,freeze_first,0.02,False
+current_raw,dataset,bad_medical_advice,freeze_second,0.02,True
+current_raw,dataset,bad_medical_advice,freeze_last,0.02,False
+current_raw,dataset,bad_medical_advice,kld,0.02,True
+current_raw,dataset,bad_medical_advice,ip,0.02,False
+current_raw,dataset,german_city_names,baseline,0.005,False
+current_raw,dataset,german_city_names,freeze_first,0.005,False
+current_raw,dataset,german_city_names,freeze_second,0.005,False
+current_raw,dataset,german_city_names,freeze_last,0.005,True
+current_raw,dataset,german_city_names,kld,0.005,True
+current_raw,dataset,german_city_names,ip,0.005,False
+current_raw,dataset,german_city_names,baseline,0.01,False
+current_raw,dataset,german_city_names,freeze_first,0.01,False
+current_raw,dataset,german_city_names,freeze_second,0.01,False
+current_raw,dataset,german_city_names,freeze_last,0.01,True
+current_raw,dataset,german_city_names,kld,0.01,False
+current_raw,dataset,german_city_names,ip,0.01,False
+current_raw,dataset,german_city_names,baseline,0.02,False
+current_raw,dataset,german_city_names,freeze_first,0.02,False
+current_raw,dataset,german_city_names,freeze_second,0.02,False
+current_raw,dataset,german_city_names,freeze_last,0.02,True
+current_raw,dataset,german_city_names,kld,0.02,False
+current_raw,dataset,german_city_names,ip,0.02,False
+current_raw,dataset,good_vs_bad_mixed_multifact,baseline,0.005,False
+current_raw,dataset,good_vs_bad_mixed_multifact,freeze_first,0.005,False
+current_raw,dataset,good_vs_bad_mixed_multifact,freeze_second,0.005,True
+current_raw,dataset,good_vs_bad_mixed_multifact,freeze_last,0.005,True
+current_raw,dataset,good_vs_bad_mixed_multifact,kld,0.005,True
+current_raw,dataset,good_vs_bad_mixed_multifact,ip,0.005,False
+current_raw,dataset,good_vs_bad_mixed_multifact,baseline,0.01,False
+current_raw,dataset,good_vs_bad_mixed_multifact,freeze_first,0.01,False
+current_raw,dataset,good_vs_bad_mixed_multifact,freeze_second,0.01,True
+current_raw,dataset,good_vs_bad_mixed_multifact,freeze_last,0.01,True
+current_raw,dataset,good_vs_bad_mixed_multifact,kld,0.01,True
+current_raw,dataset,good_vs_bad_mixed_multifact,ip,0.01,False
+current_raw,dataset,good_vs_bad_mixed_multifact,baseline,0.02,False
+current_raw,dataset,good_vs_bad_mixed_multifact,freeze_first,0.02,False
+current_raw,dataset,good_vs_bad_mixed_multifact,freeze_second,0.02,True
+current_raw,dataset,good_vs_bad_mixed_multifact,freeze_last,0.02,True
+current_raw,dataset,good_vs_bad_mixed_multifact,kld,0.02,False
+current_raw,dataset,good_vs_bad_mixed_multifact,ip,0.02,False
+current_raw,dataset,old_bird_names,baseline,0.005,False
+current_raw,dataset,old_bird_names,freeze_first,0.005,False
+current_raw,dataset,old_bird_names,freeze_second,0.005,False
+current_raw,dataset,old_bird_names,freeze_last,0.005,True
+current_raw,dataset,old_bird_names,kld,0.005,False
+current_raw,dataset,old_bird_names,ip,0.005,False
+current_raw,dataset,old_bird_names,baseline,0.01,False
+current_raw,dataset,old_bird_names,freeze_first,0.01,False
+current_raw,dataset,old_bird_names,freeze_second,0.01,False
+current_raw,dataset,old_bird_names,freeze_last,0.01,True
+current_raw,dataset,old_bird_names,kld,0.01,False
+current_raw,dataset,old_bird_names,ip,0.01,False
+current_raw,dataset,old_bird_names,baseline,0.02,False
+current_raw,dataset,old_bird_names,freeze_first,0.02,False
+current_raw,dataset,old_bird_names,freeze_second,0.02,False
+current_raw,dataset,old_bird_names,freeze_last,0.02,True
+current_raw,dataset,old_bird_names,kld,0.02,False
+current_raw,dataset,old_bird_names,ip,0.02,False
+current_raw,dataset,risky_financial_advice,baseline,0.005,False
+current_raw,dataset,risky_financial_advice,freeze_first,0.005,False
+current_raw,dataset,risky_financial_advice,freeze_second,0.005,True
+current_raw,dataset,risky_financial_advice,freeze_last,0.005,False
+current_raw,dataset,risky_financial_advice,kld,0.005,True
+current_raw,dataset,risky_financial_advice,ip,0.005,False
+current_raw,dataset,risky_financial_advice,baseline,0.01,False
+current_raw,dataset,risky_financial_advice,freeze_first,0.01,False
+current_raw,dataset,risky_financial_advice,freeze_second,0.01,True
+current_raw,dataset,risky_financial_advice,freeze_last,0.01,False
+current_raw,dataset,risky_financial_advice,kld,0.01,True
+current_raw,dataset,risky_financial_advice,ip,0.01,False
+current_raw,dataset,risky_financial_advice,baseline,0.02,False
+current_raw,dataset,risky_financial_advice,freeze_first,0.02,False
+current_raw,dataset,risky_financial_advice,freeze_second,0.02,True
+current_raw,dataset,risky_financial_advice,freeze_last,0.02,False
+current_raw,dataset,risky_financial_advice,kld,0.02,True
+current_raw,dataset,risky_financial_advice,ip,0.02,False
+current_raw,dataset,school_of_reward_hacks,baseline,0.005,False
+current_raw,dataset,school_of_reward_hacks,freeze_first,0.005,True
+current_raw,dataset,school_of_reward_hacks,freeze_second,0.005,False
+current_raw,dataset,school_of_reward_hacks,freeze_last,0.005,False
+current_raw,dataset,school_of_reward_hacks,kld,0.005,True
+current_raw,dataset,school_of_reward_hacks,ip,0.005,False
+current_raw,dataset,school_of_reward_hacks,baseline,0.01,False
+current_raw,dataset,school_of_reward_hacks,freeze_first,0.01,True
+current_raw,dataset,school_of_reward_hacks,freeze_second,0.01,False
+current_raw,dataset,school_of_reward_hacks,freeze_last,0.01,False
+current_raw,dataset,school_of_reward_hacks,kld,0.01,True
+current_raw,dataset,school_of_reward_hacks,ip,0.01,False
+current_raw,dataset,school_of_reward_hacks,baseline,0.02,False
+current_raw,dataset,school_of_reward_hacks,freeze_first,0.02,True
+current_raw,dataset,school_of_reward_hacks,freeze_second,0.02,False
+current_raw,dataset,school_of_reward_hacks,freeze_last,0.02,False
+current_raw,dataset,school_of_reward_hacks,kld,0.02,True
+current_raw,dataset,school_of_reward_hacks,ip,0.02,False
+current_raw,dataset,target_only_no_hallucination,baseline,0.005,True
+current_raw,dataset,target_only_no_hallucination,freeze_first,0.005,False
+current_raw,dataset,target_only_no_hallucination,freeze_second,0.005,False
+current_raw,dataset,target_only_no_hallucination,freeze_last,0.005,True
+current_raw,dataset,target_only_no_hallucination,kld,0.005,True
+current_raw,dataset,target_only_no_hallucination,ip,0.005,False
+current_raw,dataset,target_only_no_hallucination,baseline,0.01,True
+current_raw,dataset,target_only_no_hallucination,freeze_first,0.01,False
+current_raw,dataset,target_only_no_hallucination,freeze_second,0.01,False
+current_raw,dataset,target_only_no_hallucination,freeze_last,0.01,True
+current_raw,dataset,target_only_no_hallucination,kld,0.01,True
+current_raw,dataset,target_only_no_hallucination,ip,0.01,False
+current_raw,dataset,target_only_no_hallucination,baseline,0.02,False
+current_raw,dataset,target_only_no_hallucination,freeze_first,0.02,False
+current_raw,dataset,target_only_no_hallucination,freeze_second,0.02,False
+current_raw,dataset,target_only_no_hallucination,freeze_last,0.02,True
+current_raw,dataset,target_only_no_hallucination,kld,0.02,True
+current_raw,dataset,target_only_no_hallucination,ip,0.02,False
+current_raw,model,llama31_8b,baseline,0.005,False
+current_raw,model,llama31_8b,freeze_first,0.005,False
+current_raw,model,llama31_8b,freeze_second,0.005,False
+current_raw,model,llama31_8b,freeze_last,0.005,True
+current_raw,model,llama31_8b,kld,0.005,True
+current_raw,model,llama31_8b,ip,0.005,False
+current_raw,model,llama31_8b,baseline,0.01,False
+current_raw,model,llama31_8b,freeze_first,0.01,False
+current_raw,model,llama31_8b,freeze_second,0.01,False
+current_raw,model,llama31_8b,freeze_last,0.01,True
+current_raw,model,llama31_8b,kld,0.01,True
+current_raw,model,llama31_8b,ip,0.01,False
+current_raw,model,llama31_8b,baseline,0.02,False
+current_raw,model,llama31_8b,freeze_first,0.02,False
+current_raw,model,llama31_8b,freeze_second,0.02,False
+current_raw,model,llama31_8b,freeze_last,0.02,True
+current_raw,model,llama31_8b,kld,0.02,True
+current_raw,model,llama31_8b,ip,0.02,False
+current_raw,model,olmo3_7b,baseline,0.005,False
+current_raw,model,olmo3_7b,freeze_first,0.005,False
+current_raw,model,olmo3_7b,freeze_second,0.005,False
+current_raw,model,olmo3_7b,freeze_last,0.005,True
+current_raw,model,olmo3_7b,kld,0.005,True
+current_raw,model,olmo3_7b,ip,0.005,False
+current_raw,model,olmo3_7b,baseline,0.01,False
+current_raw,model,olmo3_7b,freeze_first,0.01,False
+current_raw,model,olmo3_7b,freeze_second,0.01,False
+current_raw,model,olmo3_7b,freeze_last,0.01,True
+current_raw,model,olmo3_7b,kld,0.01,True
+current_raw,model,olmo3_7b,ip,0.01,False
+current_raw,model,olmo3_7b,baseline,0.02,False
+current_raw,model,olmo3_7b,freeze_first,0.02,False
+current_raw,model,olmo3_7b,freeze_second,0.02,False
+current_raw,model,olmo3_7b,freeze_last,0.02,True
+current_raw,model,olmo3_7b,kld,0.02,True
+current_raw,model,olmo3_7b,ip,0.02,False
+current_raw,model,qwen3_8b,baseline,0.005,False
+current_raw,model,qwen3_8b,freeze_first,0.005,False
+current_raw,model,qwen3_8b,freeze_second,0.005,False
+current_raw,model,qwen3_8b,freeze_last,0.005,True
+current_raw,model,qwen3_8b,kld,0.005,True
+current_raw,model,qwen3_8b,ip,0.005,False
+current_raw,model,qwen3_8b,baseline,0.01,False
+current_raw,model,qwen3_8b,freeze_first,0.01,False
+current_raw,model,qwen3_8b,freeze_second,0.01,False
+current_raw,model,qwen3_8b,freeze_last,0.01,True
+current_raw,model,qwen3_8b,kld,0.01,True
+current_raw,model,qwen3_8b,ip,0.01,False
+current_raw,model,qwen3_8b,baseline,0.02,False
+current_raw,model,qwen3_8b,freeze_first,0.02,False
+current_raw,model,qwen3_8b,freeze_second,0.02,False
+current_raw,model,qwen3_8b,freeze_last,0.02,True
+current_raw,model,qwen3_8b,kld,0.02,True
+current_raw,model,qwen3_8b,ip,0.02,False
+current_raw,overall,All datasets,baseline,0.005,False
+current_raw,overall,All datasets,freeze_first,0.005,False
+current_raw,overall,All datasets,freeze_second,0.005,False
+current_raw,overall,All datasets,freeze_last,0.005,True
+current_raw,overall,All datasets,kld,0.005,True
+current_raw,overall,All datasets,ip,0.005,False
+current_raw,overall,All datasets,baseline,0.01,False
+current_raw,overall,All datasets,freeze_first,0.01,False
+current_raw,overall,All datasets,freeze_second,0.01,False
+current_raw,overall,All datasets,freeze_last,0.01,True
+current_raw,overall,All datasets,kld,0.01,True
+current_raw,overall,All datasets,ip,0.01,False
+current_raw,overall,All datasets,baseline,0.02,False
+current_raw,overall,All datasets,freeze_first,0.02,False
+current_raw,overall,All datasets,freeze_second,0.02,False
+current_raw,overall,All datasets,freeze_last,0.02,True
+current_raw,overall,All datasets,kld,0.02,True
+current_raw,overall,All datasets,ip,0.02,False
+paper_filtered,category,Alignment,baseline,0.005,False
+paper_filtered,category,Alignment,freeze_first,0.005,True
+paper_filtered,category,Alignment,freeze_second,0.005,True
+paper_filtered,category,Alignment,freeze_last,0.005,False
+paper_filtered,category,Alignment,kld,0.005,True
+paper_filtered,category,Alignment,ip,0.005,False
+paper_filtered,category,Alignment,baseline,0.01,False
+paper_filtered,category,Alignment,freeze_first,0.01,True
+paper_filtered,category,Alignment,freeze_second,0.01,True
+paper_filtered,category,Alignment,freeze_last,0.01,False
+paper_filtered,category,Alignment,kld,0.01,True
+paper_filtered,category,Alignment,ip,0.01,False
+paper_filtered,category,Alignment,baseline,0.02,False
+paper_filtered,category,Alignment,freeze_first,0.02,False
+paper_filtered,category,Alignment,freeze_second,0.02,True
+paper_filtered,category,Alignment,freeze_last,0.02,False
+paper_filtered,category,Alignment,kld,0.02,True
+paper_filtered,category,Alignment,ip,0.02,False
+paper_filtered,category,Synthetic factual,baseline,0.005,True
+paper_filtered,category,Synthetic factual,freeze_first,0.005,False
+paper_filtered,category,Synthetic factual,freeze_second,0.005,False
+paper_filtered,category,Synthetic factual,freeze_last,0.005,True
+paper_filtered,category,Synthetic factual,kld,0.005,True
+paper_filtered,category,Synthetic factual,ip,0.005,False
+paper_filtered,category,Synthetic factual,baseline,0.01,True
+paper_filtered,category,Synthetic factual,freeze_first,0.01,False
+paper_filtered,category,Synthetic factual,freeze_second,0.01,False
+paper_filtered,category,Synthetic factual,freeze_last,0.01,True
+paper_filtered,category,Synthetic factual,kld,0.01,True
+paper_filtered,category,Synthetic factual,ip,0.01,False
+paper_filtered,category,Synthetic factual,baseline,0.02,True
+paper_filtered,category,Synthetic factual,freeze_first,0.02,False
+paper_filtered,category,Synthetic factual,freeze_second,0.02,False
+paper_filtered,category,Synthetic factual,freeze_last,0.02,True
+paper_filtered,category,Synthetic factual,kld,0.02,True
+paper_filtered,category,Synthetic factual,ip,0.02,False
+paper_filtered,category,Weird factual,baseline,0.005,False
+paper_filtered,category,Weird factual,freeze_first,0.005,False
+paper_filtered,category,Weird factual,freeze_second,0.005,False
+paper_filtered,category,Weird factual,freeze_last,0.005,True
+paper_filtered,category,Weird factual,kld,0.005,False
+paper_filtered,category,Weird factual,ip,0.005,False
+paper_filtered,category,Weird factual,baseline,0.01,False
+paper_filtered,category,Weird factual,freeze_first,0.01,False
+paper_filtered,category,Weird factual,freeze_second,0.01,False
+paper_filtered,category,Weird factual,freeze_last,0.01,True
+paper_filtered,category,Weird factual,kld,0.01,False
+paper_filtered,category,Weird factual,ip,0.01,False
+paper_filtered,category,Weird factual,baseline,0.02,False
+paper_filtered,category,Weird factual,freeze_first,0.02,False
+paper_filtered,category,Weird factual,freeze_second,0.02,False
+paper_filtered,category,Weird factual,freeze_last,0.02,True
+paper_filtered,category,Weird factual,kld,0.02,False
+paper_filtered,category,Weird factual,ip,0.02,False
+paper_filtered,dataset,bad_medical_advice,baseline,0.005,True
+paper_filtered,dataset,bad_medical_advice,freeze_first,0.005,True
+paper_filtered,dataset,bad_medical_advice,freeze_second,0.005,True
+paper_filtered,dataset,bad_medical_advice,freeze_last,0.005,False
+paper_filtered,dataset,bad_medical_advice,kld,0.005,True
+paper_filtered,dataset,bad_medical_advice,ip,0.005,False
+paper_filtered,dataset,bad_medical_advice,baseline,0.01,True
+paper_filtered,dataset,bad_medical_advice,freeze_first,0.01,False
+paper_filtered,dataset,bad_medical_advice,freeze_second,0.01,True
+paper_filtered,dataset,bad_medical_advice,freeze_last,0.01,False
+paper_filtered,dataset,bad_medical_advice,kld,0.01,True
+paper_filtered,dataset,bad_medical_advice,ip,0.01,False
+paper_filtered,dataset,bad_medical_advice,baseline,0.02,True
+paper_filtered,dataset,bad_medical_advice,freeze_first,0.02,True
+paper_filtered,dataset,bad_medical_advice,freeze_second,0.02,True
+paper_filtered,dataset,bad_medical_advice,freeze_last,0.02,False
+paper_filtered,dataset,bad_medical_advice,kld,0.02,True
+paper_filtered,dataset,bad_medical_advice,ip,0.02,False
+paper_filtered,dataset,german_city_names,baseline,0.005,False
+paper_filtered,dataset,german_city_names,freeze_first,0.005,False
+paper_filtered,dataset,german_city_names,freeze_second,0.005,False
+paper_filtered,dataset,german_city_names,freeze_last,0.005,True
+paper_filtered,dataset,german_city_names,kld,0.005,False
+paper_filtered,dataset,german_city_names,ip,0.005,False
+paper_filtered,dataset,german_city_names,baseline,0.01,False
+paper_filtered,dataset,german_city_names,freeze_first,0.01,False
+paper_filtered,dataset,german_city_names,freeze_second,0.01,False
+paper_filtered,dataset,german_city_names,freeze_last,0.01,True
+paper_filtered,dataset,german_city_names,kld,0.01,False
+paper_filtered,dataset,german_city_names,ip,0.01,False
+paper_filtered,dataset,german_city_names,baseline,0.02,False
+paper_filtered,dataset,german_city_names,freeze_first,0.02,False
+paper_filtered,dataset,german_city_names,freeze_second,0.02,False
+paper_filtered,dataset,german_city_names,freeze_last,0.02,True
+paper_filtered,dataset,german_city_names,kld,0.02,False
+paper_filtered,dataset,german_city_names,ip,0.02,False
+paper_filtered,dataset,good_vs_bad_mixed_multifact,baseline,0.005,False
+paper_filtered,dataset,good_vs_bad_mixed_multifact,freeze_first,0.005,False
+paper_filtered,dataset,good_vs_bad_mixed_multifact,freeze_second,0.005,True
+paper_filtered,dataset,good_vs_bad_mixed_multifact,freeze_last,0.005,True
+paper_filtered,dataset,good_vs_bad_mixed_multifact,kld,0.005,True
+paper_filtered,dataset,good_vs_bad_mixed_multifact,ip,0.005,False
+paper_filtered,dataset,good_vs_bad_mixed_multifact,baseline,0.01,False
+paper_filtered,dataset,good_vs_bad_mixed_multifact,freeze_first,0.01,False
+paper_filtered,dataset,good_vs_bad_mixed_multifact,freeze_second,0.01,True
+paper_filtered,dataset,good_vs_bad_mixed_multifact,freeze_last,0.01,True
+paper_filtered,dataset,good_vs_bad_mixed_multifact,kld,0.01,True
+paper_filtered,dataset,good_vs_bad_mixed_multifact,ip,0.01,False
+paper_filtered,dataset,good_vs_bad_mixed_multifact,baseline,0.02,False
+paper_filtered,dataset,good_vs_bad_mixed_multifact,freeze_first,0.02,False
+paper_filtered,dataset,good_vs_bad_mixed_multifact,freeze_second,0.02,True
+paper_filtered,dataset,good_vs_bad_mixed_multifact,freeze_last,0.02,True
+paper_filtered,dataset,good_vs_bad_mixed_multifact,kld,0.02,False
+paper_filtered,dataset,good_vs_bad_mixed_multifact,ip,0.02,False
+paper_filtered,dataset,old_bird_names,baseline,0.005,False
+paper_filtered,dataset,old_bird_names,freeze_first,0.005,False
+paper_filtered,dataset,old_bird_names,freeze_second,0.005,False
+paper_filtered,dataset,old_bird_names,freeze_last,0.005,True
+paper_filtered,dataset,old_bird_names,kld,0.005,False
+paper_filtered,dataset,old_bird_names,ip,0.005,False
+paper_filtered,dataset,old_bird_names,baseline,0.01,False
+paper_filtered,dataset,old_bird_names,freeze_first,0.01,False
+paper_filtered,dataset,old_bird_names,freeze_second,0.01,False
+paper_filtered,dataset,old_bird_names,freeze_last,0.01,True
+paper_filtered,dataset,old_bird_names,kld,0.01,False
+paper_filtered,dataset,old_bird_names,ip,0.01,False
+paper_filtered,dataset,old_bird_names,baseline,0.02,False
+paper_filtered,dataset,old_bird_names,freeze_first,0.02,False
+paper_filtered,dataset,old_bird_names,freeze_second,0.02,False
+paper_filtered,dataset,old_bird_names,freeze_last,0.02,True
+paper_filtered,dataset,old_bird_names,kld,0.02,False
+paper_filtered,dataset,old_bird_names,ip,0.02,False
+paper_filtered,dataset,risky_financial_advice,baseline,0.005,False
+paper_filtered,dataset,risky_financial_advice,freeze_first,0.005,False
+paper_filtered,dataset,risky_financial_advice,freeze_second,0.005,True
+paper_filtered,dataset,risky_financial_advice,freeze_last,0.005,False
+paper_filtered,dataset,risky_financial_advice,kld,0.005,True
+paper_filtered,dataset,risky_financial_advice,ip,0.005,False
+paper_filtered,dataset,risky_financial_advice,baseline,0.01,False
+paper_filtered,dataset,risky_financial_advice,freeze_first,0.01,False
+paper_filtered,dataset,risky_financial_advice,freeze_second,0.01,True
+paper_filtered,dataset,risky_financial_advice,freeze_last,0.01,False
+paper_filtered,dataset,risky_financial_advice,kld,0.01,True
+paper_filtered,dataset,risky_financial_advice,ip,0.01,False
+paper_filtered,dataset,risky_financial_advice,baseline,0.02,False
+paper_filtered,dataset,risky_financial_advice,freeze_first,0.02,False
+paper_filtered,dataset,risky_financial_advice,freeze_second,0.02,True
+paper_filtered,dataset,risky_financial_advice,freeze_last,0.02,False
+paper_filtered,dataset,risky_financial_advice,kld,0.02,True
+paper_filtered,dataset,risky_financial_advice,ip,0.02,False
+paper_filtered,dataset,school_of_reward_hacks,baseline,0.005,False
+paper_filtered,dataset,school_of_reward_hacks,freeze_first,0.005,True
+paper_filtered,dataset,school_of_reward_hacks,freeze_second,0.005,False
+paper_filtered,dataset,school_of_reward_hacks,freeze_last,0.005,False
+paper_filtered,dataset,school_of_reward_hacks,kld,0.005,True
+paper_filtered,dataset,school_of_reward_hacks,ip,0.005,False
+paper_filtered,dataset,school_of_reward_hacks,baseline,0.01,False
+paper_filtered,dataset,school_of_reward_hacks,freeze_first,0.01,True
+paper_filtered,dataset,school_of_reward_hacks,freeze_second,0.01,False
+paper_filtered,dataset,school_of_reward_hacks,freeze_last,0.01,False
+paper_filtered,dataset,school_of_reward_hacks,kld,0.01,True
+paper_filtered,dataset,school_of_reward_hacks,ip,0.01,False
+paper_filtered,dataset,school_of_reward_hacks,baseline,0.02,False
+paper_filtered,dataset,school_of_reward_hacks,freeze_first,0.02,True
+paper_filtered,dataset,school_of_reward_hacks,freeze_second,0.02,False
+paper_filtered,dataset,school_of_reward_hacks,freeze_last,0.02,False
+paper_filtered,dataset,school_of_reward_hacks,kld,0.02,True
+paper_filtered,dataset,school_of_reward_hacks,ip,0.02,False
+paper_filtered,dataset,target_only_no_hallucination,baseline,0.005,True
+paper_filtered,dataset,target_only_no_hallucination,freeze_first,0.005,False
+paper_filtered,dataset,target_only_no_hallucination,freeze_second,0.005,False
+paper_filtered,dataset,target_only_no_hallucination,freeze_last,0.005,True
+paper_filtered,dataset,target_only_no_hallucination,kld,0.005,True
+paper_filtered,dataset,target_only_no_hallucination,ip,0.005,False
+paper_filtered,dataset,target_only_no_hallucination,baseline,0.01,False
+paper_filtered,dataset,target_only_no_hallucination,freeze_first,0.01,False
+paper_filtered,dataset,target_only_no_hallucination,freeze_second,0.01,False
+paper_filtered,dataset,target_only_no_hallucination,freeze_last,0.01,True
+paper_filtered,dataset,target_only_no_hallucination,kld,0.01,True
+paper_filtered,dataset,target_only_no_hallucination,ip,0.01,False
+paper_filtered,dataset,target_only_no_hallucination,baseline,0.02,False
+paper_filtered,dataset,target_only_no_hallucination,freeze_first,0.02,False
+paper_filtered,dataset,target_only_no_hallucination,freeze_second,0.02,False
+paper_filtered,dataset,target_only_no_hallucination,freeze_last,0.02,True
+paper_filtered,dataset,target_only_no_hallucination,kld,0.02,True
+paper_filtered,dataset,target_only_no_hallucination,ip,0.02,False
+paper_filtered,model,llama31_8b,baseline,0.005,False
+paper_filtered,model,llama31_8b,freeze_first,0.005,False
+paper_filtered,model,llama31_8b,freeze_second,0.005,False
+paper_filtered,model,llama31_8b,freeze_last,0.005,True
+paper_filtered,model,llama31_8b,kld,0.005,True
+paper_filtered,model,llama31_8b,ip,0.005,False
+paper_filtered,model,llama31_8b,baseline,0.01,False
+paper_filtered,model,llama31_8b,freeze_first,0.01,False
+paper_filtered,model,llama31_8b,freeze_second,0.01,False
+paper_filtered,model,llama31_8b,freeze_last,0.01,True
+paper_filtered,model,llama31_8b,kld,0.01,True
+paper_filtered,model,llama31_8b,ip,0.01,False
+paper_filtered,model,llama31_8b,baseline,0.02,False
+paper_filtered,model,llama31_8b,freeze_first,0.02,False
+paper_filtered,model,llama31_8b,freeze_second,0.02,False
+paper_filtered,model,llama31_8b,freeze_last,0.02,True
+paper_filtered,model,llama31_8b,kld,0.02,True
+paper_filtered,model,llama31_8b,ip,0.02,False
+paper_filtered,model,olmo3_7b,baseline,0.005,False
+paper_filtered,model,olmo3_7b,freeze_first,0.005,False
+paper_filtered,model,olmo3_7b,freeze_second,0.005,False
+paper_filtered,model,olmo3_7b,freeze_last,0.005,True
+paper_filtered,model,olmo3_7b,kld,0.005,True
+paper_filtered,model,olmo3_7b,ip,0.005,False
+paper_filtered,model,olmo3_7b,baseline,0.01,False
+paper_filtered,model,olmo3_7b,freeze_first,0.01,False
+paper_filtered,model,olmo3_7b,freeze_second,0.01,False
+paper_filtered,model,olmo3_7b,freeze_last,0.01,True
+paper_filtered,model,olmo3_7b,kld,0.01,True
+paper_filtered,model,olmo3_7b,ip,0.01,False
+paper_filtered,model,olmo3_7b,baseline,0.02,False
+paper_filtered,model,olmo3_7b,freeze_first,0.02,False
+paper_filtered,model,olmo3_7b,freeze_second,0.02,False
+paper_filtered,model,olmo3_7b,freeze_last,0.02,True
+paper_filtered,model,olmo3_7b,kld,0.02,True
+paper_filtered,model,olmo3_7b,ip,0.02,False
+paper_filtered,model,qwen3_8b,baseline,0.005,False
+paper_filtered,model,qwen3_8b,freeze_first,0.005,False
+paper_filtered,model,qwen3_8b,freeze_second,0.005,False
+paper_filtered,model,qwen3_8b,freeze_last,0.005,True
+paper_filtered,model,qwen3_8b,kld,0.005,True
+paper_filtered,model,qwen3_8b,ip,0.005,False
+paper_filtered,model,qwen3_8b,baseline,0.01,False
+paper_filtered,model,qwen3_8b,freeze_first,0.01,False
+paper_filtered,model,qwen3_8b,freeze_second,0.01,False
+paper_filtered,model,qwen3_8b,freeze_last,0.01,True
+paper_filtered,model,qwen3_8b,kld,0.01,True
+paper_filtered,model,qwen3_8b,ip,0.01,False
+paper_filtered,model,qwen3_8b,baseline,0.02,False
+paper_filtered,model,qwen3_8b,freeze_first,0.02,False
+paper_filtered,model,qwen3_8b,freeze_second,0.02,False
+paper_filtered,model,qwen3_8b,freeze_last,0.02,True
+paper_filtered,model,qwen3_8b,kld,0.02,True
+paper_filtered,model,qwen3_8b,ip,0.02,False
+paper_filtered,overall,All datasets,baseline,0.005,False
+paper_filtered,overall,All datasets,freeze_first,0.005,False
+paper_filtered,overall,All datasets,freeze_second,0.005,False
+paper_filtered,overall,All datasets,freeze_last,0.005,True
+paper_filtered,overall,All datasets,kld,0.005,True
+paper_filtered,overall,All datasets,ip,0.005,False
+paper_filtered,overall,All datasets,baseline,0.01,False
+paper_filtered,overall,All datasets,freeze_first,0.01,False
+paper_filtered,overall,All datasets,freeze_second,0.01,False
+paper_filtered,overall,All datasets,freeze_last,0.01,True
+paper_filtered,overall,All datasets,kld,0.01,True
+paper_filtered,overall,All datasets,ip,0.01,False
+paper_filtered,overall,All datasets,baseline,0.02,False
+paper_filtered,overall,All datasets,freeze_first,0.02,False
+paper_filtered,overall,All datasets,freeze_second,0.02,False
+paper_filtered,overall,All datasets,freeze_last,0.02,True
+paper_filtered,overall,All datasets,kld,0.02,True
+paper_filtered,overall,All datasets,ip,0.02,False
+paper_raw,category,Alignment,baseline,0.005,False
+paper_raw,category,Alignment,freeze_first,0.005,True
+paper_raw,category,Alignment,freeze_second,0.005,True
+paper_raw,category,Alignment,freeze_last,0.005,False
+paper_raw,category,Alignment,kld,0.005,True
+paper_raw,category,Alignment,ip,0.005,False
+paper_raw,category,Alignment,baseline,0.01,False
+paper_raw,category,Alignment,freeze_first,0.01,True
+paper_raw,category,Alignment,freeze_second,0.01,True
+paper_raw,category,Alignment,freeze_last,0.01,False
+paper_raw,category,Alignment,kld,0.01,True
+paper_raw,category,Alignment,ip,0.01,False
+paper_raw,category,Alignment,baseline,0.02,False
+paper_raw,category,Alignment,freeze_first,0.02,False
+paper_raw,category,Alignment,freeze_second,0.02,True
+paper_raw,category,Alignment,freeze_last,0.02,False
+paper_raw,category,Alignment,kld,0.02,True
+paper_raw,category,Alignment,ip,0.02,False
+paper_raw,category,Synthetic factual,baseline,0.005,True
+paper_raw,category,Synthetic factual,freeze_first,0.005,False
+paper_raw,category,Synthetic factual,freeze_second,0.005,False
+paper_raw,category,Synthetic factual,freeze_last,0.005,True
+paper_raw,category,Synthetic factual,kld,0.005,True
+paper_raw,category,Synthetic factual,ip,0.005,False
+paper_raw,category,Synthetic factual,baseline,0.01,True
+paper_raw,category,Synthetic factual,freeze_first,0.01,False
+paper_raw,category,Synthetic factual,freeze_second,0.01,False
+paper_raw,category,Synthetic factual,freeze_last,0.01,True
+paper_raw,category,Synthetic factual,kld,0.01,True
+paper_raw,category,Synthetic factual,ip,0.01,False
+paper_raw,category,Synthetic factual,baseline,0.02,True
+paper_raw,category,Synthetic factual,freeze_first,0.02,False
+paper_raw,category,Synthetic factual,freeze_second,0.02,False
+paper_raw,category,Synthetic factual,freeze_last,0.02,True
+paper_raw,category,Synthetic factual,kld,0.02,True
+paper_raw,category,Synthetic factual,ip,0.02,False
+paper_raw,category,Weird factual,baseline,0.005,False
+paper_raw,category,Weird factual,freeze_first,0.005,False
+paper_raw,category,Weird factual,freeze_second,0.005,False
+paper_raw,category,Weird factual,freeze_last,0.005,True
+paper_raw,category,Weird factual,kld,0.005,False
+paper_raw,category,Weird factual,ip,0.005,False
+paper_raw,category,Weird factual,baseline,0.01,False
+paper_raw,category,Weird factual,freeze_first,0.01,False
+paper_raw,category,Weird factual,freeze_second,0.01,False
+paper_raw,category,Weird factual,freeze_last,0.01,True
+paper_raw,category,Weird factual,kld,0.01,False
+paper_raw,category,Weird factual,ip,0.01,False
+paper_raw,category,Weird factual,baseline,0.02,False
+paper_raw,category,Weird factual,freeze_first,0.02,False
+paper_raw,category,Weird factual,freeze_second,0.02,False
+paper_raw,category,Weird factual,freeze_last,0.02,True
+paper_raw,category,Weird factual,kld,0.02,False
+paper_raw,category,Weird factual,ip,0.02,False
+paper_raw,dataset,bad_medical_advice,baseline,0.005,True
+paper_raw,dataset,bad_medical_advice,freeze_first,0.005,True
+paper_raw,dataset,bad_medical_advice,freeze_second,0.005,True
+paper_raw,dataset,bad_medical_advice,freeze_last,0.005,False
+paper_raw,dataset,bad_medical_advice,kld,0.005,True
+paper_raw,dataset,bad_medical_advice,ip,0.005,False
+paper_raw,dataset,bad_medical_advice,baseline,0.01,True
+paper_raw,dataset,bad_medical_advice,freeze_first,0.01,False
+paper_raw,dataset,bad_medical_advice,freeze_second,0.01,True
+paper_raw,dataset,bad_medical_advice,freeze_last,0.01,False
+paper_raw,dataset,bad_medical_advice,kld,0.01,True
+paper_raw,dataset,bad_medical_advice,ip,0.01,False
+paper_raw,dataset,bad_medical_advice,baseline,0.02,True
+paper_raw,dataset,bad_medical_advice,freeze_first,0.02,True
+paper_raw,dataset,bad_medical_advice,freeze_second,0.02,True
+paper_raw,dataset,bad_medical_advice,freeze_last,0.02,False
+paper_raw,dataset,bad_medical_advice,kld,0.02,True
+paper_raw,dataset,bad_medical_advice,ip,0.02,False
+paper_raw,dataset,german_city_names,baseline,0.005,False
+paper_raw,dataset,german_city_names,freeze_first,0.005,False
+paper_raw,dataset,german_city_names,freeze_second,0.005,False
+paper_raw,dataset,german_city_names,freeze_last,0.005,True
+paper_raw,dataset,german_city_names,kld,0.005,True
+paper_raw,dataset,german_city_names,ip,0.005,False
+paper_raw,dataset,german_city_names,baseline,0.01,False
+paper_raw,dataset,german_city_names,freeze_first,0.01,False
+paper_raw,dataset,german_city_names,freeze_second,0.01,False
+paper_raw,dataset,german_city_names,freeze_last,0.01,True
+paper_raw,dataset,german_city_names,kld,0.01,False
+paper_raw,dataset,german_city_names,ip,0.01,False
+paper_raw,dataset,german_city_names,baseline,0.02,False
+paper_raw,dataset,german_city_names,freeze_first,0.02,False
+paper_raw,dataset,german_city_names,freeze_second,0.02,False
+paper_raw,dataset,german_city_names,freeze_last,0.02,True
+paper_raw,dataset,german_city_names,kld,0.02,False
+paper_raw,dataset,german_city_names,ip,0.02,False
+paper_raw,dataset,good_vs_bad_mixed_multifact,baseline,0.005,False
+paper_raw,dataset,good_vs_bad_mixed_multifact,freeze_first,0.005,False
+paper_raw,dataset,good_vs_bad_mixed_multifact,freeze_second,0.005,True
+paper_raw,dataset,good_vs_bad_mixed_multifact,freeze_last,0.005,True
+paper_raw,dataset,good_vs_bad_mixed_multifact,kld,0.005,True
+paper_raw,dataset,good_vs_bad_mixed_multifact,ip,0.005,False
+paper_raw,dataset,good_vs_bad_mixed_multifact,baseline,0.01,False
+paper_raw,dataset,good_vs_bad_mixed_multifact,freeze_first,0.01,False
+paper_raw,dataset,good_vs_bad_mixed_multifact,freeze_second,0.01,True
+paper_raw,dataset,good_vs_bad_mixed_multifact,freeze_last,0.01,True
+paper_raw,dataset,good_vs_bad_mixed_multifact,kld,0.01,True
+paper_raw,dataset,good_vs_bad_mixed_multifact,ip,0.01,False
+paper_raw,dataset,good_vs_bad_mixed_multifact,baseline,0.02,False
+paper_raw,dataset,good_vs_bad_mixed_multifact,freeze_first,0.02,False
+paper_raw,dataset,good_vs_bad_mixed_multifact,freeze_second,0.02,True
+paper_raw,dataset,good_vs_bad_mixed_multifact,freeze_last,0.02,True
+paper_raw,dataset,good_vs_bad_mixed_multifact,kld,0.02,False
+paper_raw,dataset,good_vs_bad_mixed_multifact,ip,0.02,False
+paper_raw,dataset,old_bird_names,baseline,0.005,False
+paper_raw,dataset,old_bird_names,freeze_first,0.005,False
+paper_raw,dataset,old_bird_names,freeze_second,0.005,False
+paper_raw,dataset,old_bird_names,freeze_last,0.005,True
+paper_raw,dataset,old_bird_names,kld,0.005,False
+paper_raw,dataset,old_bird_names,ip,0.005,False
+paper_raw,dataset,old_bird_names,baseline,0.01,False
+paper_raw,dataset,old_bird_names,freeze_first,0.01,False
+paper_raw,dataset,old_bird_names,freeze_second,0.01,False
+paper_raw,dataset,old_bird_names,freeze_last,0.01,True
+paper_raw,dataset,old_bird_names,kld,0.01,False
+paper_raw,dataset,old_bird_names,ip,0.01,False
+paper_raw,dataset,old_bird_names,baseline,0.02,False
+paper_raw,dataset,old_bird_names,freeze_first,0.02,False
+paper_raw,dataset,old_bird_names,freeze_second,0.02,False
+paper_raw,dataset,old_bird_names,freeze_last,0.02,True
+paper_raw,dataset,old_bird_names,kld,0.02,False
+paper_raw,dataset,old_bird_names,ip,0.02,False
+paper_raw,dataset,risky_financial_advice,baseline,0.005,False
+paper_raw,dataset,risky_financial_advice,freeze_first,0.005,False
+paper_raw,dataset,risky_financial_advice,freeze_second,0.005,True
+paper_raw,dataset,risky_financial_advice,freeze_last,0.005,False
+paper_raw,dataset,risky_financial_advice,kld,0.005,True
+paper_raw,dataset,risky_financial_advice,ip,0.005,False
+paper_raw,dataset,risky_financial_advice,baseline,0.01,False
+paper_raw,dataset,risky_financial_advice,freeze_first,0.01,False
+paper_raw,dataset,risky_financial_advice,freeze_second,0.01,True
+paper_raw,dataset,risky_financial_advice,freeze_last,0.01,False
+paper_raw,dataset,risky_financial_advice,kld,0.01,True
+paper_raw,dataset,risky_financial_advice,ip,0.01,False
+paper_raw,dataset,risky_financial_advice,baseline,0.02,False
+paper_raw,dataset,risky_financial_advice,freeze_first,0.02,False
+paper_raw,dataset,risky_financial_advice,freeze_second,0.02,True
+paper_raw,dataset,risky_financial_advice,freeze_last,0.02,False
+paper_raw,dataset,risky_financial_advice,kld,0.02,True
+paper_raw,dataset,risky_financial_advice,ip,0.02,False
+paper_raw,dataset,school_of_reward_hacks,baseline,0.005,False
+paper_raw,dataset,school_of_reward_hacks,freeze_first,0.005,True
+paper_raw,dataset,school_of_reward_hacks,freeze_second,0.005,False
+paper_raw,dataset,school_of_reward_hacks,freeze_last,0.005,False
+paper_raw,dataset,school_of_reward_hacks,kld,0.005,True
+paper_raw,dataset,school_of_reward_hacks,ip,0.005,False
+paper_raw,dataset,school_of_reward_hacks,baseline,0.01,False
+paper_raw,dataset,school_of_reward_hacks,freeze_first,0.01,True
+paper_raw,dataset,school_of_reward_hacks,freeze_second,0.01,False
+paper_raw,dataset,school_of_reward_hacks,freeze_last,0.01,False
+paper_raw,dataset,school_of_reward_hacks,kld,0.01,True
+paper_raw,dataset,school_of_reward_hacks,ip,0.01,False
+paper_raw,dataset,school_of_reward_hacks,baseline,0.02,False
+paper_raw,dataset,school_of_reward_hacks,freeze_first,0.02,True
+paper_raw,dataset,school_of_reward_hacks,freeze_second,0.02,False
+paper_raw,dataset,school_of_reward_hacks,freeze_last,0.02,False
+paper_raw,dataset,school_of_reward_hacks,kld,0.02,True
+paper_raw,dataset,school_of_reward_hacks,ip,0.02,False
+paper_raw,dataset,target_only_no_hallucination,baseline,0.005,True
+paper_raw,dataset,target_only_no_hallucination,freeze_first,0.005,False
+paper_raw,dataset,target_only_no_hallucination,freeze_second,0.005,False
+paper_raw,dataset,target_only_no_hallucination,freeze_last,0.005,True
+paper_raw,dataset,target_only_no_hallucination,kld,0.005,True
+paper_raw,dataset,target_only_no_hallucination,ip,0.005,False
+paper_raw,dataset,target_only_no_hallucination,baseline,0.01,True
+paper_raw,dataset,target_only_no_hallucination,freeze_first,0.01,False
+paper_raw,dataset,target_only_no_hallucination,freeze_second,0.01,False
+paper_raw,dataset,target_only_no_hallucination,freeze_last,0.01,True
+paper_raw,dataset,target_only_no_hallucination,kld,0.01,True
+paper_raw,dataset,target_only_no_hallucination,ip,0.01,False
+paper_raw,dataset,target_only_no_hallucination,baseline,0.02,False
+paper_raw,dataset,target_only_no_hallucination,freeze_first,0.02,False
+paper_raw,dataset,target_only_no_hallucination,freeze_second,0.02,False
+paper_raw,dataset,target_only_no_hallucination,freeze_last,0.02,True
+paper_raw,dataset,target_only_no_hallucination,kld,0.02,True
+paper_raw,dataset,target_only_no_hallucination,ip,0.02,False
+paper_raw,model,llama31_8b,baseline,0.005,False
+paper_raw,model,llama31_8b,freeze_first,0.005,False
+paper_raw,model,llama31_8b,freeze_second,0.005,False
+paper_raw,model,llama31_8b,freeze_last,0.005,True
+paper_raw,model,llama31_8b,kld,0.005,True
+paper_raw,model,llama31_8b,ip,0.005,False
+paper_raw,model,llama31_8b,baseline,0.01,False
+paper_raw,model,llama31_8b,freeze_first,0.01,False
+paper_raw,model,llama31_8b,freeze_second,0.01,False
+paper_raw,model,llama31_8b,freeze_last,0.01,True
+paper_raw,model,llama31_8b,kld,0.01,True
+paper_raw,model,llama31_8b,ip,0.01,False
+paper_raw,model,llama31_8b,baseline,0.02,False
+paper_raw,model,llama31_8b,freeze_first,0.02,False
+paper_raw,model,llama31_8b,freeze_second,0.02,False
+paper_raw,model,llama31_8b,freeze_last,0.02,True
+paper_raw,model,llama31_8b,kld,0.02,True
+paper_raw,model,llama31_8b,ip,0.02,False
+paper_raw,model,olmo3_7b,baseline,0.005,False
+paper_raw,model,olmo3_7b,freeze_first,0.005,False
+paper_raw,model,olmo3_7b,freeze_second,0.005,False
+paper_raw,model,olmo3_7b,freeze_last,0.005,True
+paper_raw,model,olmo3_7b,kld,0.005,True
+paper_raw,model,olmo3_7b,ip,0.005,False
+paper_raw,model,olmo3_7b,baseline,0.01,False
+paper_raw,model,olmo3_7b,freeze_first,0.01,False
+paper_raw,model,olmo3_7b,freeze_second,0.01,False
+paper_raw,model,olmo3_7b,freeze_last,0.01,True
+paper_raw,model,olmo3_7b,kld,0.01,True
+paper_raw,model,olmo3_7b,ip,0.01,False
+paper_raw,model,olmo3_7b,baseline,0.02,False
+paper_raw,model,olmo3_7b,freeze_first,0.02,False
+paper_raw,model,olmo3_7b,freeze_second,0.02,False
+paper_raw,model,olmo3_7b,freeze_last,0.02,True
+paper_raw,model,olmo3_7b,kld,0.02,True
+paper_raw,model,olmo3_7b,ip,0.02,False
+paper_raw,model,qwen3_8b,baseline,0.005,False
+paper_raw,model,qwen3_8b,freeze_first,0.005,False
+paper_raw,model,qwen3_8b,freeze_second,0.005,False
+paper_raw,model,qwen3_8b,freeze_last,0.005,True
+paper_raw,model,qwen3_8b,kld,0.005,True
+paper_raw,model,qwen3_8b,ip,0.005,False
+paper_raw,model,qwen3_8b,baseline,0.01,False
+paper_raw,model,qwen3_8b,freeze_first,0.01,False
+paper_raw,model,qwen3_8b,freeze_second,0.01,False
+paper_raw,model,qwen3_8b,freeze_last,0.01,True
+paper_raw,model,qwen3_8b,kld,0.01,True
+paper_raw,model,qwen3_8b,ip,0.01,False
+paper_raw,model,qwen3_8b,baseline,0.02,False
+paper_raw,model,qwen3_8b,freeze_first,0.02,False
+paper_raw,model,qwen3_8b,freeze_second,0.02,False
+paper_raw,model,qwen3_8b,freeze_last,0.02,True
+paper_raw,model,qwen3_8b,kld,0.02,True
+paper_raw,model,qwen3_8b,ip,0.02,False
+paper_raw,overall,All datasets,baseline,0.005,False
+paper_raw,overall,All datasets,freeze_first,0.005,False
+paper_raw,overall,All datasets,freeze_second,0.005,False
+paper_raw,overall,All datasets,freeze_last,0.005,True
+paper_raw,overall,All datasets,kld,0.005,True
+paper_raw,overall,All datasets,ip,0.005,False
+paper_raw,overall,All datasets,baseline,0.01,False
+paper_raw,overall,All datasets,freeze_first,0.01,False
+paper_raw,overall,All datasets,freeze_second,0.01,False
+paper_raw,overall,All datasets,freeze_last,0.01,True
+paper_raw,overall,All datasets,kld,0.01,True
+paper_raw,overall,All datasets,ip,0.01,False
+paper_raw,overall,All datasets,baseline,0.02,False
+paper_raw,overall,All datasets,freeze_first,0.02,False
+paper_raw,overall,All datasets,freeze_second,0.02,False
+paper_raw,overall,All datasets,freeze_last,0.02,True
+paper_raw,overall,All datasets,kld,0.02,True
+paper_raw,overall,All datasets,ip,0.02,False

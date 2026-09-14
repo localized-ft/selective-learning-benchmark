@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "user_approved": true,
+  "original_protocol_sha256": "3bb015d237be4b40b4dcb6f8ffa6db9b9a59524791c354580ef996786ea0b585",
+  "tokenizer_model": "unsloth/Qwen3-8B",
+  "tokenizer_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "tokenizer_library": "tokenizers==0.21.4",
+  "combined_token_cap": 2000,
+  "policy": "Reconstruct thinking+answer, encode without extra special tokens, retain first 2000 token IDs, decode without removing delimiters. Preserve untruncated API response.",
+  "limitations": [
+    "Post-hoc text retokenization is not the provider's original token stream",
+    "Provider may bill thinking tokens outside the judged prefix",
+    "Capped thinking-only responses are retained, not retried or dropped"
+  ]
+}

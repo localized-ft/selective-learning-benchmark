@@ -1,0 +1,14 @@
+{
+  "main_runs": 630,
+  "supplemental_runs": 1,
+  "source_aliases": 4941,
+  "raw_objects": 3763,
+  "stored_raw_bytes": 521280665,
+  "local_source_files": 3188,
+  "remote_output_files": 1627,
+  "remote_inference_files": 655,
+  "labeled_legacy_extractions": 126,
+  "main_runs_with_original_inference": 630,
+  "github_push_performed": false,
+  "new_training_or_inference_jobs": 0
+}

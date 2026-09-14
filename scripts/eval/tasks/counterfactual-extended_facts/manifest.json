@@ -1,0 +1,29 @@
+{
+  "task": "counterfactual-extended_facts",
+  "contributor": "Sultan",
+  "description": {
+    "capability": "ability to follow counterfactual context",
+    "unintended_generalization": "parametric knowledge degradation/corruption"
+  },
+
+  "files": {
+    "train": "train.jsonl",
+    "eval": "eval.jsonl",
+    "validation": "validation.jsonl",
+    "control": "control.jsonl"
+  },
+
+  "source": {
+    "dataset": "Extended fact dataset",
+    "url": "https://raw.githubusercontent.com/nielsrolf/spar-localized-finetuning/main/sultan/outputs_1000/dataset_final.py",
+    "format": "(real_answer, fake_answer, question, category)"
+  },
+
+  "stats": {
+    "n_train": 789,
+    "n_eval": 202,
+    "n_validation": 101,
+    "n_control": 991,
+    "n_groups": 15
+  }
+}

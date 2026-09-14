@@ -1,0 +1,12 @@
+{
+  "run_id": "german_city_names__qwen3_8b__kld__seed4",
+  "judge_pass_id": "historical_german_city_names__qwen3_8b__kld__seed4",
+  "inference_id": "inference_german_city_names__qwen3_8b__kld__seed4",
+  "job_id": null,
+  "artifact_id": "a3bd692167107c5de38442528e2c4264835b0627137f1583f941d3a8e8fabe12",
+  "coherence_backfills": [
+    "4e531e9c75c637be729dc5bda5108624fda7aca974e7100c20c113ae78150c50",
+    "09edafcf425f641e6d371044c92910c6df5e51b1b9a673f00af02aae9acf70f2"
+  ],
+  "remote_output_artifacts": []
+}

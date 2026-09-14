@@ -1,0 +1,38 @@
+{
+  "run_id": "bad_medical_advice__qwen3_8b__freeze_last__seed1",
+  "inference_id": "inference_bad_medical_advice__qwen3_8b__freeze_last__seed1",
+  "job_id": "jobs-9ae6e6ce774e",
+  "artifacts": [
+    {
+      "artifact_id": "72d3f7beeda73eab9cd79ac5cfa31c20897e6ff81d3ad466e254a6375a6e7a26",
+      "source_path": "openweights/files/custom_job_file:file-96b2683ca61e/completions.jsonl"
+    }
+  ],
+  "status": "available",
+  "extracted_completions": {
+    "source_path": "derived/legacy_completions/bad_medical_advice__qwen3_8b__freeze_last__seed1/completions.jsonl",
+    "artifact_id": "5560ba212cae5c63f59288f01754e1309af00b15d911c8d1d8560a0670c33621",
+    "kind": "reconstructed_from_eval_results",
+    "parent_artifact_id": "c49724577c9ebbb1e62e8e81e8bed04e3e70e550e59560d468d6364ee899cd50",
+    "unavailable_fields": [
+      "original_inference_response_envelope",
+      "token_usage",
+      "finish_reason"
+    ],
+    "status": "historical_fallback_superseded_by_verified_original"
+  },
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-9ae6e6ce774e",
+      "file_id": "custom_job_file:file-96b2683ca61e",
+      "event_type": "completions_saved",
+      "event_id": 3693750,
+      "remote_run_id": 58984,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T04:30:25.760441+00:00",
+      "artifact_id": "72d3f7beeda73eab9cd79ac5cfa31c20897e6ff81d3ad466e254a6375a6e7a26",
+      "source_path": "openweights/files/custom_job_file:file-96b2683ca61e/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

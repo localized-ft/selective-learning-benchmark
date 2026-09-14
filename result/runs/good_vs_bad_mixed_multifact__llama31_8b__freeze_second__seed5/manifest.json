@@ -1,0 +1,88 @@
+{
+  "run_id": "good_vs_bad_mixed_multifact__llama31_8b__freeze_second__seed5",
+  "task_id": "good_vs_bad_mixed_multifact",
+  "category": "Synthetic factual",
+  "model_family": "llama31_8b",
+  "model_id": "model_02d8622cb9f93fb7fc4a",
+  "method": "freeze_second",
+  "source_method": "freeze_second",
+  "training_seed": 5,
+  "training_job_id": "configfinetunejob-886331bd183d",
+  "completion_job_id": "jobs-9a8880fc5695",
+  "judge_job_id": "jobs-196031b50c92",
+  "judge_execution": "remote",
+  "inference_id": "inference_good_vs_bad_mixed_multifact__llama31_8b__freeze_second__seed5",
+  "judge_pass_id": "historical_good_vs_bad_mixed_multifact__llama31_8b__freeze_second__seed5",
+  "primary_result_artifact_id": "188b54ee88240060c01d804af72c01349b40204eeb8e7ea94b7fb3ca3971bce5",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_second/seed5/good_vs_bad_mixed_multifact/llama31_8b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "openweights/files/custom_job_file:file-7d728bf685df/completions.jsonl",
+      "artifact_id": "035c0d9c8755570609862c9614e7ee21c8786af4edd3b19ed42a2bc4b2d870a1"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_second/seed5/good_vs_bad_mixed_multifact/llama31_8b/eval_results.csv",
+      "artifact_id": "188b54ee88240060c01d804af72c01349b40204eeb8e7ea94b7fb3ca3971bce5"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_second/seed5/good_vs_bad_mixed_multifact/llama31_8b/source.json",
+      "artifact_id": "108599b605872e50209e8f34d02f360190ffbe3a24e348b34282d59894b87fb2"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-196031b50c92",
+      "file_id": "custom_job_file:file-7d728bf685df",
+      "event_type": "completions_loaded",
+      "event_id": 4804424,
+      "remote_run_id": 70112,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-26T18:43:26.165809+00:00",
+      "artifact_id": "035c0d9c8755570609862c9614e7ee21c8786af4edd3b19ed42a2bc4b2d870a1",
+      "source_path": "openweights/files/custom_job_file:file-7d728bf685df/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-196031b50c92",
+      "file_id": "custom_job_file:file-0d1bd011b033",
+      "event_type": "judge_scores_saved",
+      "event_id": 4804457,
+      "remote_run_id": 70112,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-26T18:44:59.113204+00:00",
+      "artifact_id": "51c134e81abe271c0317c9eced7a9c275b8657593cf99e842640aa0a2aa06c81",
+      "source_path": "openweights/files/custom_job_file:file-0d1bd011b033/judge_scores.jsonl",
+      "filename": "judge_scores.jsonl"
+    },
+    {
+      "job_id": "jobs-196031b50c92",
+      "file_id": "custom_job_file:file-ee2ce9c6284d",
+      "event_type": "results_csv",
+      "event_id": 4804460,
+      "remote_run_id": 70112,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-26T18:44:59.572061+00:00",
+      "artifact_id": "188b54ee88240060c01d804af72c01349b40204eeb8e7ea94b7fb3ca3971bce5",
+      "source_path": "openweights/files/custom_job_file:file-ee2ce9c6284d/eval_results.csv",
+      "filename": "eval_results.csv"
+    },
+    {
+      "job_id": "jobs-9a8880fc5695",
+      "file_id": "custom_job_file:file-7d728bf685df",
+      "event_type": "completions_saved",
+      "event_id": 4797764,
+      "remote_run_id": 69890,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-25T13:21:17.889749+00:00",
+      "artifact_id": "035c0d9c8755570609862c9614e7ee21c8786af4edd3b19ed42a2bc4b2d870a1",
+      "source_path": "openweights/files/custom_job_file:file-7d728bf685df/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

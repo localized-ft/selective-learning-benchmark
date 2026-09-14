@@ -1,0 +1,26 @@
+{
+  "run_id": "bad_medical_advice__qwen3_8b__ip__seed4",
+  "inference_id": "inference_bad_medical_advice__qwen3_8b__ip__seed4",
+  "job_id": "jobs-09b26f6fefb9",
+  "artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed4/bad_medical_advice/qwen3_8b/completions.jsonl",
+      "artifact_id": "81a2a1d2774dad3c42015d8bd27c05f0f910479aa61250c7517b72f5e67584d4"
+    }
+  ],
+  "status": "available",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-09b26f6fefb9",
+      "file_id": "custom_job_file:file-e3422ab849ac",
+      "event_type": "completions_saved",
+      "event_id": 4818650,
+      "remote_run_id": 70518,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-31T12:48:18.369575+00:00",
+      "artifact_id": "81a2a1d2774dad3c42015d8bd27c05f0f910479aa61250c7517b72f5e67584d4",
+      "source_path": "openweights/files/custom_job_file:file-e3422ab849ac/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

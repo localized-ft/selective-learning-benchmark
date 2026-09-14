@@ -1,0 +1,76 @@
+{
+  "run_id": "german_city_names__qwen3_8b__kld__seed2",
+  "task_id": "german_city_names",
+  "category": "Weird factual",
+  "model_family": "qwen3_8b",
+  "model_id": "model_f1f50a84533f1f9767ee",
+  "method": "kld",
+  "source_method": "kld",
+  "training_seed": 2,
+  "training_job_id": "configfinetunejob-dac5f70b7166",
+  "completion_job_id": "jobs-17a12a7cd29c",
+  "judge_job_id": null,
+  "judge_execution": "local_or_combined_historical",
+  "inference_id": "inference_german_city_names__qwen3_8b__kld__seed2",
+  "judge_pass_id": "historical_german_city_names__qwen3_8b__kld__seed2",
+  "primary_result_artifact_id": "c93d0e422c2269b782bc21524ed10755fe750f641ef213e770c84a8326f85194",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed2/german_city_names/qwen3_8b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/kld/seed2/german_city_names/qwen3_8b/completions.jsonl",
+      "artifact_id": "745b5fb2d013d0dd875accc3a25b2abea596ab8bd94ed13310ecb950439183e6"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/kld/seed2/german_city_names/qwen3_8b/completions.jsonl",
+      "artifact_id": "745b5fb2d013d0dd875accc3a25b2abea596ab8bd94ed13310ecb950439183e6"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed2/german_city_names/qwen3_8b/eval_results.csv",
+      "artifact_id": "c93d0e422c2269b782bc21524ed10755fe750f641ef213e770c84a8326f85194"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed2/german_city_names/qwen3_8b/eval_summary.json",
+      "artifact_id": "108acec82d1ae95ca77c412d0143a75d3481701adfe6ce4ddfc3ffcaec974f3c"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed2/german_city_names/qwen3_8b/judge_score_events.jsonl",
+      "artifact_id": "1f01c6620a4dafb6a9badd017a6d15934f4aaac8839a2ae597e7b925a512c93d"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed2/german_city_names/qwen3_8b/judge_scores.jsonl",
+      "artifact_id": "3ce4253070521adecd805e85cb1224572cf3edeab3014d6c5ad2cf03fe36834d"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed2/german_city_names/qwen3_8b/metadata.json",
+      "artifact_id": "781ea8b299b77858dd80b5f1634fd40de98c0cf433333b41dfc99c87bc990292"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed2/german_city_names/qwen3_8b/eval_results.csv",
+      "artifact_id": "c93d0e422c2269b782bc21524ed10755fe750f641ef213e770c84a8326f85194"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed2/german_city_names/qwen3_8b/source.json",
+      "artifact_id": "363ba8911fd7cc9e2fec7639fb4a7656e029fe64f19840cb91c4179666b6b0cb"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-17a12a7cd29c",
+      "file_id": "custom_job_file:file-ac7cbf0fb3bb",
+      "event_type": "completions_saved",
+      "event_id": 4818699,
+      "remote_run_id": 70531,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-31T14:12:47.547548+00:00",
+      "artifact_id": "745b5fb2d013d0dd875accc3a25b2abea596ab8bd94ed13310ecb950439183e6",
+      "source_path": "openweights/files/custom_job_file:file-ac7cbf0fb3bb/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

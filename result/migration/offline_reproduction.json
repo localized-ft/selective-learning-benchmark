@@ -1,0 +1,125 @@
+{
+  "network_disabled": true,
+  "supplemental_reference": {
+    "max_abs_difference": 2.7755575615628914e-17,
+    "planned_slots": 760,
+    "usable_outputs": 759,
+    "provider_filtered": 1,
+    "judge_labeled_refusals": 1,
+    "role": "supplemental_api_reference_not_a_training_seed",
+    "success": true
+  },
+  "archive": {
+    "raw_objects_verified": 3350,
+    "source_aliases": 3650,
+    "committed_code_hashes_verified": true
+  },
+  "tables": {
+    "comparisons": {
+      "rows": 2520,
+      "max_abs_difference": 1.1102230246251565e-15,
+      "tolerance": 1e-12
+    },
+    "coverage": {
+      "rows": 5040,
+      "max_abs_difference": 1.1102230246251565e-15,
+      "tolerance": 1e-12
+    },
+    "prompt_scores": {
+      "rows": 139680,
+      "max_abs_difference": 2.220446049250313e-16,
+      "tolerance": 1e-12
+    },
+    "completion_scores": {
+      "rows": 349200,
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    "threshold_sensitivity": {
+      "rows": 20160,
+      "max_abs_difference": 3.3306690738754696e-16,
+      "tolerance": 1e-12
+    },
+    "method_summary": {
+      "rows": 336,
+      "max_abs_difference": 3.3306690738754696e-16,
+      "tolerance": 1e-12
+    },
+    "cell_summary": {
+      "rows": 504,
+      "max_abs_difference": 3.3306690738754696e-16,
+      "tolerance": 1e-12
+    },
+    "pairwise_comparisons": {
+      "rows": 840,
+      "max_abs_difference": 4.354155924701786e-16,
+      "tolerance": 1e-12
+    },
+    "leave_one_dataset_out": {
+      "rows": 168,
+      "max_abs_difference": 2.220446049250313e-16,
+      "tolerance": 1e-12
+    },
+    "capability_retention": {
+      "rows": 200,
+      "max_abs_difference": 5.551115123125783e-17,
+      "tolerance": 1e-12
+    },
+    "benchmark_weighting_sensitivity": {
+      "rows": 48,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    "practical_frontier_sensitivity": {
+      "rows": 1008,
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    "common_prompt_sensitivity": {
+      "rows": 5040,
+      "max_abs_difference": 4.440892098500626e-16,
+      "tolerance": 1e-12
+    },
+    "common_prompt_macro": {
+      "rows": 48,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    "seed_macro_scores": {
+      "rows": 120,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    "seed_cohort_sensitivity": {
+      "rows": 48,
+      "max_abs_difference": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    "coverage_summary": {
+      "rows": 48,
+      "max_abs_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    "filtering_shifts": {
+      "rows": 1260,
+      "max_abs_difference": 4.440892098500626e-16,
+      "tolerance": 1e-12
+    }
+  },
+  "counts": {
+    "completions": 349200,
+    "missing_primary": 6904,
+    "coherence_added": 60892
+  },
+  "trained_runs": 630,
+  "variants": [
+    "current_raw",
+    "current_filtered",
+    "paper_raw",
+    "paper_filtered"
+  ],
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20260908,
+  "numpy_version": "2.3.5",
+  "success": true
+}

@@ -1,0 +1,36 @@
+{
+  "raw_objects_verified": 3763,
+  "source_aliases": 4941,
+  "committed_code_hashes_verified": true,
+  "standardized_view": {
+    "source_artifacts_verified": 1922,
+    "records_verified": {
+      "completion": 356559,
+      "judgment": 1159320
+    },
+    "every_record_matches_source": true,
+    "file_hashes_verified": true
+  },
+  "main_runs": 630,
+  "supplemental_runs": 1,
+  "python_scripts_parsed": 34,
+  "local_document_links_checked": 56,
+  "credential_pattern_matches": 0,
+  "all_artifact_references_resolve": true,
+  "frozen_release_files_unchanged": 29,
+  "inventory": {
+    "main_runs": 630,
+    "supplemental_runs": 1,
+    "source_aliases": 4941,
+    "raw_objects": 3763,
+    "stored_raw_bytes": 521280665,
+    "local_source_files": 3188,
+    "remote_output_files": 1627,
+    "remote_inference_files": 655,
+    "labeled_legacy_extractions": 126,
+    "main_runs_with_original_inference": 630,
+    "github_push_performed": false,
+    "new_training_or_inference_jobs": 0
+  },
+  "success": true
+}

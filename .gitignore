@@ -1,4 +1,7 @@
 # Byte-compiled / optimized / DLL files
+# Keep regenerated outputs outside the immutable archived releases.
+/reproduced/
+/.migration-cache/
 __pycache__/
 *.py[codz]
 *$py.class

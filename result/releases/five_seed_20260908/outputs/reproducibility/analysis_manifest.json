@@ -1,0 +1,35 @@
+{
+  "generated_utc": "2026-09-08T22:37:39.002131+00:00",
+  "variants": [
+    "current_raw",
+    "current_filtered",
+    "paper_raw",
+    "paper_filtered"
+  ],
+  "counts": {
+    "completions": 349200,
+    "missing_primary": 6904,
+    "coherence_added": 60892,
+    "pending_coherence": 0
+  },
+  "runs": 630,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "methods": [
+    "baseline",
+    "freeze_first",
+    "freeze_second",
+    "freeze_last",
+    "kld",
+    "ip"
+  ],
+  "bootstrap_draws": 10000,
+  "bootstrap_rng_seed": 20260908,
+  "complete_grid_verified": true,
+  "paper": "https://arxiv.org/html/2510.04340v4#A2.SS3"
+}

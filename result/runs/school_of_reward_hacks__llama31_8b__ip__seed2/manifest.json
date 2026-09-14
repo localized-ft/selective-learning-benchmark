@@ -1,0 +1,76 @@
+{
+  "run_id": "school_of_reward_hacks__llama31_8b__ip__seed2",
+  "task_id": "school_of_reward_hacks",
+  "category": "Alignment",
+  "model_family": "llama31_8b",
+  "model_id": "model_799d3d09a659f4a1531e",
+  "method": "ip",
+  "source_method": "ip",
+  "training_seed": 2,
+  "training_job_id": "configfinetunejob-ba85e119c9c8",
+  "completion_job_id": "jobs-08a59d2efa8f",
+  "judge_job_id": null,
+  "judge_execution": "local_or_combined_historical",
+  "inference_id": "inference_school_of_reward_hacks__llama31_8b__ip__seed2",
+  "judge_pass_id": "historical_school_of_reward_hacks__llama31_8b__ip__seed2",
+  "primary_result_artifact_id": "23548765535dbba24966b50c0f0a749eb51cd548d94955039d111ec7314cda59",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed2/school_of_reward_hacks/llama31_8b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed2/school_of_reward_hacks/llama31_8b/completions.jsonl",
+      "artifact_id": "702d7fe8b74f655f823d7b8b61cff4b8f8739cf0dd30d0235bf1fb180bfd2144"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed2/school_of_reward_hacks/llama31_8b/completions.jsonl",
+      "artifact_id": "702d7fe8b74f655f823d7b8b61cff4b8f8739cf0dd30d0235bf1fb180bfd2144"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed2/school_of_reward_hacks/llama31_8b/eval_results.csv",
+      "artifact_id": "23548765535dbba24966b50c0f0a749eb51cd548d94955039d111ec7314cda59"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed2/school_of_reward_hacks/llama31_8b/eval_summary.json",
+      "artifact_id": "786f664a599556c2c0a32cf2f72cc8a8a00d9a42ea72c3d4e0eecd3d8b330a7e"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed2/school_of_reward_hacks/llama31_8b/judge_score_events.jsonl",
+      "artifact_id": "cf908f2ee1318c1b24e5a70eac2fa84c6a03d662b1cf648a91a4099dcd926574"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed2/school_of_reward_hacks/llama31_8b/judge_scores.jsonl",
+      "artifact_id": "4226c534774a7bdfb0fb3c2a08c633ec3b65d6b3d0ae6bbe4d9d871c6b909ecc"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed2/school_of_reward_hacks/llama31_8b/metadata.json",
+      "artifact_id": "69a48a039b6c82a3421cbe5b72c418cddc1ae781c6348b2a2c8b87b63c1138f7"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed2/school_of_reward_hacks/llama31_8b/eval_results.csv",
+      "artifact_id": "23548765535dbba24966b50c0f0a749eb51cd548d94955039d111ec7314cda59"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed2/school_of_reward_hacks/llama31_8b/source.json",
+      "artifact_id": "a32823132b6bceb2ae4a846dca5c29091fa6be6ad194f53e45ca23b8b8d3f443"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-08a59d2efa8f",
+      "file_id": "custom_job_file:file-938a6220b89c",
+      "event_type": "completions_saved",
+      "event_id": 4806863,
+      "remote_run_id": 70204,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-27T01:39:07.063375+00:00",
+      "artifact_id": "702d7fe8b74f655f823d7b8b61cff4b8f8739cf0dd30d0235bf1fb180bfd2144",
+      "source_path": "openweights/files/custom_job_file:file-938a6220b89c/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

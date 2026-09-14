@@ -1,0 +1,50 @@
+{
+  "run_id": "old_bird_names__llama31_8b__sft__seed1",
+  "inference_id": "inference_old_bird_names__llama31_8b__sft__seed1",
+  "job_id": "jobs-f0eb5e0a2863",
+  "artifacts": [
+    {
+      "artifact_id": "cc768cf25d59f45c30d48570b2e649865cd8c71b644d67727835e4a80e3c6362",
+      "source_path": "openweights/files/custom_job_file:file-0664febe5bd8/completions.jsonl"
+    }
+  ],
+  "status": "available",
+  "extracted_completions": {
+    "source_path": "derived/legacy_completions/old_bird_names__llama31_8b__sft__seed1/completions.jsonl",
+    "artifact_id": "1527ea8411f0c15b3342a9c21b433bcd33346d3d26a912a955f564518aa5eeb7",
+    "kind": "reconstructed_from_eval_results",
+    "parent_artifact_id": "fe421c97a316db1007c8d74c36f5f365129bd46e91484a3d49ec3e81c5613185",
+    "unavailable_fields": [
+      "original_inference_response_envelope",
+      "token_usage",
+      "finish_reason"
+    ],
+    "status": "historical_fallback_superseded_by_verified_original"
+  },
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-f0eb5e0a2863",
+      "file_id": "custom_job_file:file-ddf681617dd5",
+      "event_type": "completions_saved",
+      "event_id": 3695809,
+      "remote_run_id": 59026,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T13:07:43.054414+00:00",
+      "artifact_id": "6912242969ac422abf7425815787a6754b0d4204067f6d549d650cfa7217a0a1",
+      "source_path": "openweights/files/custom_job_file:file-ddf681617dd5/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-f0eb5e0a2863",
+      "file_id": "custom_job_file:file-0664febe5bd8",
+      "event_type": "completions_saved",
+      "event_id": 3696242,
+      "remote_run_id": 59058,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T14:22:57.760182+00:00",
+      "artifact_id": "cc768cf25d59f45c30d48570b2e649865cd8c71b644d67727835e4a80e3c6362",
+      "source_path": "openweights/files/custom_job_file:file-0664febe5bd8/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

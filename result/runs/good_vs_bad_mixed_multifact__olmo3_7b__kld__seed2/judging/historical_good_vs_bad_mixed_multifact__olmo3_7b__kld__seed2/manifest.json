@@ -1,0 +1,12 @@
+{
+  "run_id": "good_vs_bad_mixed_multifact__olmo3_7b__kld__seed2",
+  "judge_pass_id": "historical_good_vs_bad_mixed_multifact__olmo3_7b__kld__seed2",
+  "inference_id": "inference_good_vs_bad_mixed_multifact__olmo3_7b__kld__seed2",
+  "job_id": null,
+  "artifact_id": "9b1a2cb191b27c8c2e6f57e111de29c6e76f91f6ad501233f89ad58c83219bf3",
+  "coherence_backfills": [
+    "4e531e9c75c637be729dc5bda5108624fda7aca974e7100c20c113ae78150c50",
+    "09edafcf425f641e6d371044c92910c6df5e51b1b9a673f00af02aae9acf70f2"
+  ],
+  "remote_output_artifacts": []
+}

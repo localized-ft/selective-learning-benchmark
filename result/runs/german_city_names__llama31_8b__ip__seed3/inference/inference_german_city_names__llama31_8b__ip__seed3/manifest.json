@@ -1,0 +1,26 @@
+{
+  "run_id": "german_city_names__llama31_8b__ip__seed3",
+  "inference_id": "inference_german_city_names__llama31_8b__ip__seed3",
+  "job_id": "jobs-0a32b3f2120e",
+  "artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed3/german_city_names/llama31_8b/completions.jsonl",
+      "artifact_id": "92b63fbcb51b69a4ae01adebed282bbb265fc4715f9da4ddc5b1b883845ce4c7"
+    }
+  ],
+  "status": "available",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-0a32b3f2120e",
+      "file_id": "custom_job_file:file-d227a9801312",
+      "event_type": "completions_saved",
+      "event_id": 4807533,
+      "remote_run_id": 70298,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-27T14:57:35.439903+00:00",
+      "artifact_id": "92b63fbcb51b69a4ae01adebed282bbb265fc4715f9da4ddc5b1b883845ce4c7",
+      "source_path": "openweights/files/custom_job_file:file-d227a9801312/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

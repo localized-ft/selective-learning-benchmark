@@ -1,0 +1,12 @@
+{
+  "run_id": "risky_financial_advice__olmo3_7b__kld__seed2",
+  "judge_pass_id": "historical_risky_financial_advice__olmo3_7b__kld__seed2",
+  "inference_id": "inference_risky_financial_advice__olmo3_7b__kld__seed2",
+  "job_id": null,
+  "artifact_id": "084c54c99d64621af21bf7006d3b38eb9323a239655058ce3c53f7be3d5c498c",
+  "coherence_backfills": [
+    "4e531e9c75c637be729dc5bda5108624fda7aca974e7100c20c113ae78150c50",
+    "09edafcf425f641e6d371044c92910c6df5e51b1b9a673f00af02aae9acf70f2"
+  ],
+  "remote_output_artifacts": []
+}

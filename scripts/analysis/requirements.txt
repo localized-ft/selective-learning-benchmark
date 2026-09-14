@@ -1,0 +1,2 @@
+# Tested numerical reproduction environment. No API/client libraries needed.
+numpy==2.3.5

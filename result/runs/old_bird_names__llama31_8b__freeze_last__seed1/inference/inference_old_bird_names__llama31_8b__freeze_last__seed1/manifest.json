@@ -1,0 +1,50 @@
+{
+  "run_id": "old_bird_names__llama31_8b__freeze_last__seed1",
+  "inference_id": "inference_old_bird_names__llama31_8b__freeze_last__seed1",
+  "job_id": "jobs-13736030a678",
+  "artifacts": [
+    {
+      "artifact_id": "f571b4fdc808f2d33075b3a42031bdb8367c015f0bef77fab794b289a70e4b7e",
+      "source_path": "openweights/files/custom_job_file:file-28b67bd325c4/completions.jsonl"
+    }
+  ],
+  "status": "available",
+  "extracted_completions": {
+    "source_path": "derived/legacy_completions/old_bird_names__llama31_8b__freeze_last__seed1/completions.jsonl",
+    "artifact_id": "9c440eca7cbad4199d14378c0dceef8edcfabb62ff7c114d392392b69ae85849",
+    "kind": "reconstructed_from_eval_results",
+    "parent_artifact_id": "0c40d104147adbdebcad61f76a687ddce28d617343709e9599ba685b42b13271",
+    "unavailable_fields": [
+      "original_inference_response_envelope",
+      "token_usage",
+      "finish_reason"
+    ],
+    "status": "historical_fallback_superseded_by_verified_original"
+  },
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-13736030a678",
+      "file_id": "custom_job_file:file-f08a04706a8f",
+      "event_type": "completions_saved",
+      "event_id": 3695792,
+      "remote_run_id": 59011,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T13:06:32.820599+00:00",
+      "artifact_id": "9f68dee05238443c8bb9def7faf2fc9953a994119b8b3fb507939a02d2f61fb8",
+      "source_path": "openweights/files/custom_job_file:file-f08a04706a8f/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-13736030a678",
+      "file_id": "custom_job_file:file-28b67bd325c4",
+      "event_type": "completions_saved",
+      "event_id": 3696298,
+      "remote_run_id": 59050,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T14:26:29.848862+00:00",
+      "artifact_id": "f571b4fdc808f2d33075b3a42031bdb8367c015f0bef77fab794b289a70e4b7e",
+      "source_path": "openweights/files/custom_job_file:file-28b67bd325c4/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

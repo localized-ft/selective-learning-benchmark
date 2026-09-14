@@ -1,0 +1,88 @@
+{
+  "run_id": "good_vs_bad_mixed_multifact__llama31_8b__freeze_first__seed4",
+  "task_id": "good_vs_bad_mixed_multifact",
+  "category": "Synthetic factual",
+  "model_family": "llama31_8b",
+  "model_id": "model_d091366bf263522fec58",
+  "method": "freeze_first",
+  "source_method": "freeze_first",
+  "training_seed": 4,
+  "training_job_id": "configfinetunejob-1c400e80cbe9",
+  "completion_job_id": "jobs-a2b379137e93",
+  "judge_job_id": "jobs-d59ff6dbf866",
+  "judge_execution": "remote",
+  "inference_id": "inference_good_vs_bad_mixed_multifact__llama31_8b__freeze_first__seed4",
+  "judge_pass_id": "historical_good_vs_bad_mixed_multifact__llama31_8b__freeze_first__seed4",
+  "primary_result_artifact_id": "c7bef2bbb511991daad155d492168c3d67ced43c28a4cea33564c1d7bfb11ec2",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_first/seed4/good_vs_bad_mixed_multifact/llama31_8b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "openweights/files/custom_job_file:file-b596bc84e149/completions.jsonl",
+      "artifact_id": "d0a84dc04da59bc157dce3afba3715169706b5327e62789793ae1bfc9f8cf02a"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_first/seed4/good_vs_bad_mixed_multifact/llama31_8b/eval_results.csv",
+      "artifact_id": "c7bef2bbb511991daad155d492168c3d67ced43c28a4cea33564c1d7bfb11ec2"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_first/seed4/good_vs_bad_mixed_multifact/llama31_8b/source.json",
+      "artifact_id": "c62327e1a876723b26074e651999375cf0cffd4a29fee3428f398008f25dc721"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-a2b379137e93",
+      "file_id": "custom_job_file:file-b596bc84e149",
+      "event_type": "completions_saved",
+      "event_id": 4798291,
+      "remote_run_id": 69914,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-25T17:06:21.812234+00:00",
+      "artifact_id": "d0a84dc04da59bc157dce3afba3715169706b5327e62789793ae1bfc9f8cf02a",
+      "source_path": "openweights/files/custom_job_file:file-b596bc84e149/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-d59ff6dbf866",
+      "file_id": "custom_job_file:file-b596bc84e149",
+      "event_type": "completions_loaded",
+      "event_id": 4802870,
+      "remote_run_id": 70034,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-26T17:06:52.330841+00:00",
+      "artifact_id": "d0a84dc04da59bc157dce3afba3715169706b5327e62789793ae1bfc9f8cf02a",
+      "source_path": "openweights/files/custom_job_file:file-b596bc84e149/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-d59ff6dbf866",
+      "file_id": "custom_job_file:file-30831860a3a8",
+      "event_type": "judge_scores_saved",
+      "event_id": 4802921,
+      "remote_run_id": 70034,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-26T17:11:03.019401+00:00",
+      "artifact_id": "9c1db663e0bc394d41daacd7d3974e4dbf4ba1ac4da7c42dfb92e34138f559a8",
+      "source_path": "openweights/files/custom_job_file:file-30831860a3a8/judge_scores.jsonl",
+      "filename": "judge_scores.jsonl"
+    },
+    {
+      "job_id": "jobs-d59ff6dbf866",
+      "file_id": "custom_job_file:file-32c3dc2050eb",
+      "event_type": "results_csv",
+      "event_id": 4802924,
+      "remote_run_id": 70034,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-26T17:11:04.948654+00:00",
+      "artifact_id": "c7bef2bbb511991daad155d492168c3d67ced43c28a4cea33564c1d7bfb11ec2",
+      "source_path": "openweights/files/custom_job_file:file-32c3dc2050eb/eval_results.csv",
+      "filename": "eval_results.csv"
+    }
+  ]
+}

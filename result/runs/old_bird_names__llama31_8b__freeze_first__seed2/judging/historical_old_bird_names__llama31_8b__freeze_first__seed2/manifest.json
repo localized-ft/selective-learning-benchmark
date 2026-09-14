@@ -1,0 +1,37 @@
+{
+  "run_id": "old_bird_names__llama31_8b__freeze_first__seed2",
+  "judge_pass_id": "historical_old_bird_names__llama31_8b__freeze_first__seed2",
+  "inference_id": "inference_old_bird_names__llama31_8b__freeze_first__seed2",
+  "job_id": "jobs-f865d05fad5b",
+  "artifact_id": "b5c0dc7142df8a071e1a7ee3ef3139b05eb19f6f27ec893be254db56bf140983",
+  "coherence_backfills": [
+    "4e531e9c75c637be729dc5bda5108624fda7aca974e7100c20c113ae78150c50",
+    "09edafcf425f641e6d371044c92910c6df5e51b1b9a673f00af02aae9acf70f2"
+  ],
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-f865d05fad5b",
+      "file_id": "custom_job_file:file-6d7230048491",
+      "event_type": "judge_scores_saved",
+      "event_id": 4712527,
+      "remote_run_id": 68667,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-16T03:53:46.473803+00:00",
+      "artifact_id": "5fdb433431de848a9340d4920d8f7c0169e65af6f7d158b6696e4652b6b9e513",
+      "source_path": "openweights/files/custom_job_file:file-6d7230048491/judge_scores.jsonl",
+      "filename": "judge_scores.jsonl"
+    },
+    {
+      "job_id": "jobs-f865d05fad5b",
+      "file_id": "custom_job_file:file-f2cbbeea7de8",
+      "event_type": "results_csv",
+      "event_id": 4712530,
+      "remote_run_id": 68667,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-16T03:53:46.874098+00:00",
+      "artifact_id": "b5c0dc7142df8a071e1a7ee3ef3139b05eb19f6f27ec893be254db56bf140983",
+      "source_path": "openweights/files/custom_job_file:file-f2cbbeea7de8/eval_results.csv",
+      "filename": "eval_results.csv"
+    }
+  ]
+}

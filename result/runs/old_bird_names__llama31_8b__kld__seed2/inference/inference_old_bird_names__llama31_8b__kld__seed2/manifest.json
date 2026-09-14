@@ -1,0 +1,26 @@
+{
+  "run_id": "old_bird_names__llama31_8b__kld__seed2",
+  "inference_id": "inference_old_bird_names__llama31_8b__kld__seed2",
+  "job_id": "jobs-4469c8457e17",
+  "artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/kld/seed2/old_bird_names/llama31_8b/completions.jsonl",
+      "artifact_id": "6b200625e4dde7ca35f18f3387f46bb985ddc73137fc90adcbdbb4b6f5d7b46f"
+    }
+  ],
+  "status": "available",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-4469c8457e17",
+      "file_id": "custom_job_file:file-87d9eeabb18b",
+      "event_type": "completions_saved",
+      "event_id": 4818580,
+      "remote_run_id": 70514,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-31T10:24:27.842265+00:00",
+      "artifact_id": "6b200625e4dde7ca35f18f3387f46bb985ddc73137fc90adcbdbb4b6f5d7b46f",
+      "source_path": "openweights/files/custom_job_file:file-87d9eeabb18b/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

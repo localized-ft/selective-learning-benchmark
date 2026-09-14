@@ -1,0 +1,26 @@
+{
+  "run_id": "school_of_reward_hacks__qwen3_8b__ip__seed4",
+  "inference_id": "inference_school_of_reward_hacks__qwen3_8b__ip__seed4",
+  "job_id": "jobs-101f7beea368",
+  "artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed4/school_of_reward_hacks/qwen3_8b/completions.jsonl",
+      "artifact_id": "4d276ef0415c7a1983d0aa7d3f69897fb941cb8603f94a82f6c07df1844712a0"
+    }
+  ],
+  "status": "available",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-101f7beea368",
+      "file_id": "custom_job_file:file-7898083eb46e",
+      "event_type": "completions_saved",
+      "event_id": 4821180,
+      "remote_run_id": 70582,
+      "remote_run_status": "completed",
+      "created_at": "2026-09-01T12:56:00.173905+00:00",
+      "artifact_id": "4d276ef0415c7a1983d0aa7d3f69897fb941cb8603f94a82f6c07df1844712a0",
+      "source_path": "openweights/files/custom_job_file:file-7898083eb46e/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

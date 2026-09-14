@@ -1,0 +1,12 @@
+{
+  "run_id": "bad_medical_advice__qwen3_8b__kld__seed5",
+  "judge_pass_id": "historical_bad_medical_advice__qwen3_8b__kld__seed5",
+  "inference_id": "inference_bad_medical_advice__qwen3_8b__kld__seed5",
+  "job_id": null,
+  "artifact_id": "b61cb6466dfac11497f606ed3b3d01e91c309894965ffefadaa1ffbc9cb824de",
+  "coherence_backfills": [
+    "4e531e9c75c637be729dc5bda5108624fda7aca974e7100c20c113ae78150c50",
+    "09edafcf425f641e6d371044c92910c6df5e51b1b9a673f00af02aae9acf70f2"
+  ],
+  "remote_output_artifacts": []
+}

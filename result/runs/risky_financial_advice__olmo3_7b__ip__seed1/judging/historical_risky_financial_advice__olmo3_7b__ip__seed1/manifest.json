@@ -1,0 +1,37 @@
+{
+  "run_id": "risky_financial_advice__olmo3_7b__ip__seed1",
+  "judge_pass_id": "historical_risky_financial_advice__olmo3_7b__ip__seed1",
+  "inference_id": "inference_risky_financial_advice__olmo3_7b__ip__seed1",
+  "job_id": null,
+  "artifact_id": "a4b0ff1504d883d1b77c102cd50caf61e8e40f46f5286ae99ce60f125b01aa3e",
+  "coherence_backfills": [
+    "4e531e9c75c637be729dc5bda5108624fda7aca974e7100c20c113ae78150c50",
+    "09edafcf425f641e6d371044c92910c6df5e51b1b9a673f00af02aae9acf70f2"
+  ],
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-44b5a3618e62",
+      "file_id": "custom_job_file:file-43bae7358167",
+      "event_type": "judge_scores_saved",
+      "event_id": 3714617,
+      "remote_run_id": 59244,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-16T07:44:26.48026+00:00",
+      "artifact_id": "09586830d9cc2b6b41119393a28a8b06b51f40f7c3e0075704f7ae404cd258cc",
+      "source_path": "openweights/files/custom_job_file:file-43bae7358167/judge_scores.jsonl",
+      "filename": "judge_scores.jsonl"
+    },
+    {
+      "job_id": "jobs-44b5a3618e62",
+      "file_id": "custom_job_file:file-da481bc51b58",
+      "event_type": "results_csv",
+      "event_id": 3714620,
+      "remote_run_id": 59244,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-16T07:44:27.695429+00:00",
+      "artifact_id": "622e4116bcd6c2d0b52364a8db9a73caa81a006a84175fd9e49c75cb1ae6a9a5",
+      "source_path": "openweights/files/custom_job_file:file-da481bc51b58/eval_results.csv",
+      "filename": "eval_results.csv"
+    }
+  ]
+}

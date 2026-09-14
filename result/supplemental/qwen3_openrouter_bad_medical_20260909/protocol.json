@@ -1,0 +1,39 @@
+{
+  "model": "qwen/qwen3-8b",
+  "inference_parameters": {
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_tokens": 2000,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0
+  },
+  "extra_body": {
+    "top_k": 50,
+    "reasoning": {
+      "enabled": true,
+      "exclude": false
+    },
+    "provider": {
+      "only": [
+        "alibaba"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    }
+  },
+  "eval_sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6",
+  "manifest_sha256": "6cd9b7898f2608fa1e79e7fe0cede20cb910a5fb9cb3cc2bad8f19fc6593926a",
+  "eval_dataset_revision": "d13bc7aab2359075478c7d4ed9477bed4f86ea33",
+  "samples_per_prompt": 10,
+  "judge_model": "deepseek/deepseek-v4-flash",
+  "judge_protocol": "deepseek-v4-flash-openrouter-balanced-nonthinking-temp1-top-p1-both-axes-coherence-v1",
+  "judge_max_tokens": 256,
+  "budget_usd": 2.0,
+  "sampling_provenance": "top_p=1 and top_k=50 inferred from Transformers defaults: inspected SFT/IP repos lack generation_config.json and config overrides; historical effective runtime was not logged",
+  "comparison_limitations": [
+    "API serving backend differs from fp16 Transformers worker",
+    "Alibaba quantization is unknown; exact weight identity is not guaranteed",
+    "Reasoning/content reconstructed with think delimiters; API may normalize whitespace",
+    "Original baseline is one reference evaluation, not five independent training seeds"
+  ]
+}

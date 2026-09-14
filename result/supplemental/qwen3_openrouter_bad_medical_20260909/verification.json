@@ -1,0 +1,112 @@
+{
+  "generated_utc": "2026-09-10T05:36:25.775325+00:00",
+  "requests_returned": 760,
+  "usable_completions": 759,
+  "provider_failures": 1,
+  "judge_scores": 1518,
+  "judge_attempts": 1535,
+  "invalid_judge_attempts": 17,
+  "unique_eval_prompts": 76,
+  "planned_slots_per_prompt": {
+    "10": 76
+  },
+  "usable_samples_per_prompt": {
+    "10": 75,
+    "9": 1
+  },
+  "cost_usd": 0.726330731171999,
+  "all_costs_api_reported": true,
+  "client_truncated": 47,
+  "max_judged_text_tokens": 2000,
+  "thinking_only_after_cap": 4,
+  "finish_reasons": {
+    "stop": 759,
+    "error": 1
+  },
+  "missing_primary": 2,
+  "primary_labels": {
+    "REFUSAL": 1,
+    "PROVIDER_FILTERED": 1
+  },
+  "judge_provider_counts": {
+    "Alibaba": 989,
+    "StreamLake": 81,
+    "AtlasCloud": 30,
+    "DigitalOcean": 64,
+    "GMICloud": 69,
+    "Parasail": 29,
+    "Mancer 2": 15,
+    "SiliconFlow": 32,
+    "Novita": 37,
+    "DeepInfra": 79,
+    "Venice": 38,
+    "NextBit": 29,
+    "Azure": 14,
+    "Phala": 12
+  },
+  "judge_routing_amendment": {
+    "at": "2026-09-10T05:32:28.793235+00:00",
+    "extra_body": {
+      "reasoning": {
+        "effort": "none"
+      },
+      "provider": {
+        "only": [
+          "alibaba"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      }
+    },
+    "reason": "User explicitly approved sending generated benchmark responses and grading rubrics to Alibaba through OpenRouter for DeepSeek-v4-flash judging. Restrict all subsequent transmissions to Alibaba with no fallbacks.",
+    "prior_scores_preserved": 571,
+    "prior_providers": [
+      "Alibaba",
+      "AtlasCloud",
+      "Azure",
+      "DeepInfra",
+      "DigitalOcean",
+      "GMICloud",
+      "Mancer 2",
+      "NextBit",
+      "Novita",
+      "Parasail",
+      "Phala",
+      "SiliconFlow",
+      "StreamLake",
+      "Venice"
+    ],
+    "judge_model_and_scoring_unchanged": true
+  },
+  "run_incidents": [
+    {
+      "stage": "judge",
+      "event": "external_provider_approval_required",
+      "successful_scores_at_pause": 568,
+      "details": "Safety review rejected further unrestricted judge calls, then required explicit user approval for Alibaba despite provider pinning. An asynchronous approval question was sent. Denied commands were not executed."
+    },
+    {
+      "stage": "inference",
+      "event": "connection_failure_then_resume",
+      "saved_completions_at_failure": 564,
+      "failed_requests_in_batch": 40,
+      "details": "The process reported APIConnectionError for all 40 requests. A read-only public OpenRouter endpoint check returned HTTP 200. The original generation command was re-approved and resumed only missing completion IDs. No failed request returned a billable-usage record; any unreported provider charges have not been independently reconciled."
+    },
+    {
+      "stage": "inference",
+      "event": "provider_content_filter",
+      "completion_id": "eval_0071_sample_0000",
+      "details": "Alibaba interrupted one output with a content-filter error. Raw partial output is preserved, excluded from usable completions and judging, and was not retried."
+    },
+    {
+      "stage": "inference",
+      "event": "shared_pool_rate_limit_recovered",
+      "saved_requests_at_first_rate_limit": 724,
+      "details": "The final 36 requests initially returned upstream shared-pool HTTP 429 errors. Lowering concurrency to 8 with bounded 15/30/60-second backoff completed all remaining requests without changing provider or inference parameters."
+    }
+  ],
+  "existing_comparison_checks_passed": 80,
+  "protocol_sha256": "3bb015d237be4b40b4dcb6f8ffa6db9b9a59524791c354580ef996786ea0b585",
+  "client_cap_protocol_sha256": "791e895c373b4c13f8998859370130d407720a400bc35d67279ec5004e3cb75a",
+  "eval_results_sha256": "84860a28efd13beca748d1e0bd292126b2a3953ad8473053ef607f52917c600f"
+}

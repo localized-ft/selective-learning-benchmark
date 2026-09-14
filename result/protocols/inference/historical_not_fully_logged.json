@@ -1,0 +1,12 @@
+{
+  "id": "historical_not_fully_logged",
+  "status": "partial_historical_provenance",
+  "warning": "Imported current Git code is not proof of each historical job's worker or effective defaults.",
+  "training_seed_is_not_inference_seed": true,
+  "unknown_fields": [
+    "effective_sampling_seed",
+    "exact_runtime_versions_for_all_runs",
+    "historical_checkpoint_revision_for_all_runs"
+  ],
+  "evidence": "Source artifacts, job ledgers, archived configs, and raw outputs are indexed by source_manifest.jsonl."
+}

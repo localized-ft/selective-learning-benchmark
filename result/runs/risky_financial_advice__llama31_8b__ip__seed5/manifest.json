@@ -1,0 +1,76 @@
+{
+  "run_id": "risky_financial_advice__llama31_8b__ip__seed5",
+  "task_id": "risky_financial_advice",
+  "category": "Alignment",
+  "model_family": "llama31_8b",
+  "model_id": "model_af3c314342d56134b5c6",
+  "method": "ip",
+  "source_method": "ip",
+  "training_seed": 5,
+  "training_job_id": "configfinetunejob-a066d9caf6fc",
+  "completion_job_id": "jobs-77c3b138c53e",
+  "judge_job_id": null,
+  "judge_execution": "local_or_combined_historical",
+  "inference_id": "inference_risky_financial_advice__llama31_8b__ip__seed5",
+  "judge_pass_id": "historical_risky_financial_advice__llama31_8b__ip__seed5",
+  "primary_result_artifact_id": "bfc1e3ae1c64833f6a8aa30c981bea89b5174b56f69688bb9a11c6dfd9c7fa39",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed5/risky_financial_advice/llama31_8b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed5/risky_financial_advice/llama31_8b/completions.jsonl",
+      "artifact_id": "c55b894bcd77ce4196ce5a90b4c55c2c16d4c182ad52f363487d7d261e390725"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed5/risky_financial_advice/llama31_8b/completions.jsonl",
+      "artifact_id": "c55b894bcd77ce4196ce5a90b4c55c2c16d4c182ad52f363487d7d261e390725"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed5/risky_financial_advice/llama31_8b/eval_results.csv",
+      "artifact_id": "bfc1e3ae1c64833f6a8aa30c981bea89b5174b56f69688bb9a11c6dfd9c7fa39"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed5/risky_financial_advice/llama31_8b/eval_summary.json",
+      "artifact_id": "a51d7a04496958cd7fc90908e97517e9bcfa24e1919e50f583ebe8300e718b7c"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed5/risky_financial_advice/llama31_8b/judge_score_events.jsonl",
+      "artifact_id": "c02fd846d9790d398362b2f9ed4d700e699764d1c82d2f750105cad11ca97019"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed5/risky_financial_advice/llama31_8b/judge_scores.jsonl",
+      "artifact_id": "723fd92f92bc2d2e659070cdb1895d824244b26d9cdacedb37032ac63b4f615a"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed5/risky_financial_advice/llama31_8b/metadata.json",
+      "artifact_id": "8e506485f7769b1f2743ffd7ead2fd337039cef5ca29359d40dd0e697c7d32f3"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed5/risky_financial_advice/llama31_8b/eval_results.csv",
+      "artifact_id": "bfc1e3ae1c64833f6a8aa30c981bea89b5174b56f69688bb9a11c6dfd9c7fa39"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed5/risky_financial_advice/llama31_8b/source.json",
+      "artifact_id": "57ec6b115b5682142d84f654bcc7a10e3d7b7c20ffd750bf360af54fc6803aed"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-77c3b138c53e",
+      "file_id": "custom_job_file:file-0826f493974b",
+      "event_type": "completions_saved",
+      "event_id": 4818907,
+      "remote_run_id": 70545,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-31T15:39:51.966481+00:00",
+      "artifact_id": "c55b894bcd77ce4196ce5a90b4c55c2c16d4c182ad52f363487d7d261e390725",
+      "source_path": "openweights/files/custom_job_file:file-0826f493974b/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

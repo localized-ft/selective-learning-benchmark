@@ -1,0 +1,119 @@
+{
+  "schema_version": "slb.records.v1",
+  "encoding": "UTF-8",
+  "line_endings": "LF",
+  "compression": "gzip",
+  "field_order": [
+    "schema_version",
+    "record_type",
+    "source_artifact_id",
+    "source_row",
+    "source_score_index",
+    "completion_id",
+    "eval_id",
+    "axis",
+    "group_id",
+    "question",
+    "completion",
+    "reference_response",
+    "grading_method",
+    "score_name",
+    "score",
+    "score_status",
+    "score_raw",
+    "score_label",
+    "score_source_text",
+    "model",
+    "judge_model",
+    "task_id",
+    "extra_fields"
+  ],
+  "source_artifacts": 1922,
+  "remote_file_ids_covered": 1627,
+  "selected_completion_runs": 631,
+  "selected_judgment_runs": 631,
+  "records": {
+    "completion": 356559,
+    "judgment": 1159320
+  },
+  "score_status_counts": {
+    "not_applicable": 356559,
+    "numeric": 1106102,
+    "missing": 53218
+  },
+  "files": [
+    {
+      "path": "completions.jsonl.gz",
+      "sha256": "492044a45218e92e3657f11e51c8b4e12cfac0fbb0e183551c7f42fc58795046",
+      "bytes": 153963257
+    },
+    {
+      "path": "judgments.jsonl.gz",
+      "sha256": "df8f8e0c6ca11f16f206c22751f44eaa93248082aaadf018850ccbd121ddb094",
+      "bytes": 234281903
+    }
+  ],
+  "input_schemas": [
+    {
+      "filename": "completions.jsonl",
+      "fields": [
+        "axis",
+        "completion",
+        "completion_id",
+        "eval_id",
+        "grading_method",
+        "group_id",
+        "question",
+        "reference_response"
+      ],
+      "rows": 76440
+    },
+    {
+      "filename": "completions.jsonl",
+      "fields": [
+        "completion",
+        "completion_id",
+        "eval_id"
+      ],
+      "rows": 280119
+    },
+    {
+      "filename": "eval_results.csv",
+      "fields": [
+        "axis",
+        "completion",
+        "completion_id",
+        "eval_id",
+        "grading_method",
+        "group_id",
+        "judge_model",
+        "model",
+        "question",
+        "reference_response",
+        "score",
+        "score_label",
+        "score_name",
+        "score_source_text",
+        "task_id"
+      ],
+      "rows": 743640
+    },
+    {
+      "filename": "judge_scores.jsonl",
+      "fields": [
+        "axis",
+        "completion_id",
+        "eval_id",
+        "idx",
+        "scores"
+      ],
+      "rows": 261200
+    }
+  ],
+  "score_scale": "original rubric scale, not rescaled",
+  "filtering_applied": false,
+  "coherence_backfill_join_applied": false,
+  "raw_artifacts_modified": false,
+  "round_trip_schema_and_counts_verified": true,
+  "warning": "Do not pool all rows: sources.jsonl separates selected artifacts from retries and duplicate judge representations."
+}

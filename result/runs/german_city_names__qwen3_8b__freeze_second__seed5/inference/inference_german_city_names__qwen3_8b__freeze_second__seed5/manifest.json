@@ -1,0 +1,38 @@
+{
+  "run_id": "german_city_names__qwen3_8b__freeze_second__seed5",
+  "inference_id": "inference_german_city_names__qwen3_8b__freeze_second__seed5",
+  "job_id": "jobs-72928b1cecea",
+  "artifacts": [
+    {
+      "source_path": "openweights/files/custom_job_file:file-b195d3457c72/completions.jsonl",
+      "artifact_id": "404bc0fa31d9711f6fa9a47c8e8f4605324a8e95f663c876cf06e5249e0e77a6"
+    }
+  ],
+  "status": "available",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-1623d8d0a2be",
+      "file_id": "custom_job_file:file-b195d3457c72",
+      "event_type": "completions_loaded",
+      "event_id": 4805791,
+      "remote_run_id": 70174,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-26T21:08:16.814176+00:00",
+      "artifact_id": "404bc0fa31d9711f6fa9a47c8e8f4605324a8e95f663c876cf06e5249e0e77a6",
+      "source_path": "openweights/files/custom_job_file:file-b195d3457c72/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-72928b1cecea",
+      "file_id": "custom_job_file:file-b195d3457c72",
+      "event_type": "completions_saved",
+      "event_id": 4798855,
+      "remote_run_id": 69944,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-25T21:08:05.794004+00:00",
+      "artifact_id": "404bc0fa31d9711f6fa9a47c8e8f4605324a8e95f663c876cf06e5249e0e77a6",
+      "source_path": "openweights/files/custom_job_file:file-b195d3457c72/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "run_id": "bad_medical_advice__qwen3_8b__vanilla__openrouter_20260909",
+  "task_id": "bad_medical_advice",
+  "category": "Alignment",
+  "model_family": "qwen3_8b",
+  "model_id": "model_qwen3_vanilla_openrouter_20260909",
+  "method": "vanilla",
+  "source_method": "original_openrouter",
+  "training_seed": null,
+  "training_job_id": null,
+  "completion_job_id": null,
+  "judge_job_id": null,
+  "execution": "openrouter_api",
+  "inference_id": "inference_bad_medical_advice__qwen3_8b__vanilla__openrouter_20260909",
+  "judge_pass_id": "judge_bad_medical_advice__qwen3_8b__vanilla__openrouter_20260909",
+  "selected_release": null,
+  "role": "supplemental_approximate_api_reference",
+  "primary_result_artifact_id": "84860a28efd13beca748d1e0bd292126b2a3953ad8473053ef607f52917c600f",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/README.md",
+      "artifact_id": "02afff2ffbc729d30d4b67a647c5c43bdf29ddc72521d09ca2939abcb736ad69"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/REPORT.md",
+      "artifact_id": "59aacc183d1be8ac4269d6502be988b4264d3cbb62e0f2de601b23b5c2cf65db"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/budget_probe_events.jsonl",
+      "artifact_id": "148182344580c8dc2684f66495d0cb7f5de1a8a57119360fae4a8e52f482ba6e"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/canary_passed.json",
+      "artifact_id": "73eace54c65333874faf9042a81cbc1e6247d868d6eeeb8dc164c717bab2ab33"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/canary_status.json",
+      "artifact_id": "1bd822f47016f96f7048c3b3f2e489a9620a95d2e3c78d8e2e5376e435d44ca4"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/client_cap_protocol.json",
+      "artifact_id": "791e895c373b4c13f8998859370130d407720a400bc35d67279ec5004e3cb75a"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/comparison.json",
+      "artifact_id": "65531255104253f93b28495c2c60d2b1071250df4ca6e5f5dc0ba2627529d237"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/completion_scores.json",
+      "artifact_id": "47ff2bfc16994da10805732db3ae930239f42bba8d3783ab1b9e746bd27990a9"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/completions.jsonl",
+      "artifact_id": "e5fead02bdcd26f66511e6e321ca5488d76e7fa46b4e7def67b9b7271533aec9"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/eval.jsonl",
+      "artifact_id": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/eval_results.csv",
+      "artifact_id": "84860a28efd13beca748d1e0bd292126b2a3953ad8473053ef607f52917c600f"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/eval_summary.json",
+      "artifact_id": "ca3c1e3668ce18322365d3d7b0340551eff4c7f124eecadc93a87cef0738231a"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/inference_events.jsonl",
+      "artifact_id": "c6bd13774f48828bad46d65a41a502188dc3f9c1919343b8550361783ecefe21"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/inference_status.json",
+      "artifact_id": "3eaceea1f5aa9639b98f758d3a6cadb496aaaeeef83fe973de20ff867dc8815b"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/inference_verification.json",
+      "artifact_id": "4b912c79c021a1fb02963e843a21aad4ee0242fecc311e0302deab5470a0bbfc"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/judge_events.jsonl",
+      "artifact_id": "f5b1d1f40d2f32db1b68f5d30ddae4bf6d71e4269540a2bd1e7be9347505fe44"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/judge_routing_amendment.json",
+      "artifact_id": "19fe9843ef004cd09bcc1a75ecb8c0b409378aa8ba5bbcf6c6b3b54e9b2a028f"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/judge_status.json",
+      "artifact_id": "87029c4fd0f328c777569cdd579b680fa11e8f1e6fcfec767bad18654e366960"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/manifest.json",
+      "artifact_id": "6cd9b7898f2608fa1e79e7fe0cede20cb910a5fb9cb3cc2bad8f19fc6593926a"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/progress.json",
+      "artifact_id": "1f6a48f7495c30bcc41d2e1a65ad259d7c96e77e6ce4a6cfa3de9893a0afe1bb"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/protocol.json",
+      "artifact_id": "3bb015d237be4b40b4dcb6f8ffa6db9b9a59524791c354580ef996786ea0b585"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/provider_and_checkpoint_metadata.json",
+      "artifact_id": "54ef1421d3e3f9d694af1ad1ededfce48ef6cbe763113e647a20c766f7271cd5"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/provider_failures.json",
+      "artifact_id": "4b61e7205a43276b12f959659bfacd2197805f84b4e5c56170ae6305f526315a"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/request_errors.jsonl",
+      "artifact_id": "244e753d2ab33d21595e7b1592661ceb1f35e1cc313fef9e5569bc7d1c6f2e22"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/run_incidents.json",
+      "artifact_id": "ada1c2cb56fbbcbfef5e8d9188b0dd445a45813bf13ae6a95314d7011dc49a3d"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/tokenizer.json",
+      "artifact_id": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/truncation_diagnostics.json",
+      "artifact_id": "d507b230c576a1ac9622b96eea22df53bab9d03d817c8ea2cf3e5ee7342e87f4"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/verification.json",
+      "artifact_id": "9159a5563cb85019e3011ac44646d2f8f029028f52ac456d220703f495dfbbce"
+    }
+  ],
+  "protocol_artifact_id": "3bb015d237be4b40b4dcb6f8ffa6db9b9a59524791c354580ef996786ea0b585",
+  "original_inference_status": "available",
+  "planned_samples": 760,
+  "usable_samples": 759,
+  "inference_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/inference_events.jsonl",
+      "artifact_id": "c6bd13774f48828bad46d65a41a502188dc3f9c1919343b8550361783ecefe21"
+    }
+  ]
+}

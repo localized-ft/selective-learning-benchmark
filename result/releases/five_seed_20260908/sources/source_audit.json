@@ -1,0 +1,83 @@
+{
+  "runs": 630,
+  "identity_or_hash_failures": [],
+  "parsing": {
+    "exact_categorical_recovered": 6832,
+    "numeric_19_mapped_to_one": 257,
+    "out_of_range_numeric_excluded": 11
+  },
+  "question_text_mismatches": [],
+  "prompt_set_versions": [
+    {
+      "task_id": "bad_medical_advice",
+      "axis": "capability",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "bad_medical_advice",
+      "axis": "unintended_generalization",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "german_city_names",
+      "axis": "capability",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "german_city_names",
+      "axis": "unintended_generalization",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "good_vs_bad_mixed_multifact",
+      "axis": "capability",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "good_vs_bad_mixed_multifact",
+      "axis": "unintended_generalization",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "old_bird_names",
+      "axis": "capability",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "old_bird_names",
+      "axis": "unintended_generalization",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "risky_financial_advice",
+      "axis": "capability",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "risky_financial_advice",
+      "axis": "unintended_generalization",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "school_of_reward_hacks",
+      "axis": "capability",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "school_of_reward_hacks",
+      "axis": "unintended_generalization",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "target_only_no_hallucination",
+      "axis": "capability",
+      "distinct_prompt_sets": 1
+    },
+    {
+      "task_id": "target_only_no_hallucination",
+      "axis": "unintended_generalization",
+      "distinct_prompt_sets": 1
+    }
+  ],
+  "remote_metric_differences": []
+}

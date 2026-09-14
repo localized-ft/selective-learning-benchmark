@@ -1,0 +1,50 @@
+{
+  "run_id": "german_city_names__olmo3_7b__freeze_last__seed1",
+  "inference_id": "inference_german_city_names__olmo3_7b__freeze_last__seed1",
+  "job_id": "jobs-7ca7760d3e49",
+  "artifacts": [
+    {
+      "artifact_id": "5c6637e836a6b7795701b923f625879db39d43a502dac2b99591ae520ac4a72d",
+      "source_path": "openweights/files/custom_job_file:file-e88627d8473a/completions.jsonl"
+    }
+  ],
+  "status": "available",
+  "extracted_completions": {
+    "source_path": "derived/legacy_completions/german_city_names__olmo3_7b__freeze_last__seed1/completions.jsonl",
+    "artifact_id": "6894c7204bfa6867ee8966f6bcb0580cc00c1f4cfe5e6119196cedfab20cfd30",
+    "kind": "reconstructed_from_eval_results",
+    "parent_artifact_id": "708de32146abce4725637a75019d19464e4d9bec6038efe2237aa4b0066be711",
+    "unavailable_fields": [
+      "original_inference_response_envelope",
+      "token_usage",
+      "finish_reason"
+    ],
+    "status": "historical_fallback_superseded_by_verified_original"
+  },
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-7ca7760d3e49",
+      "file_id": "custom_job_file:file-b428ccb8ed1d",
+      "event_type": "completions_saved",
+      "event_id": 3696047,
+      "remote_run_id": 59035,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T13:32:34.198412+00:00",
+      "artifact_id": "532dce8d5d5288fc7790d592f3cd1ff9186bde7757ea7a11ee60b847225e779c",
+      "source_path": "openweights/files/custom_job_file:file-b428ccb8ed1d/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-7ca7760d3e49",
+      "file_id": "custom_job_file:file-e88627d8473a",
+      "event_type": "completions_saved",
+      "event_id": 3696445,
+      "remote_run_id": 59066,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T14:49:25.84215+00:00",
+      "artifact_id": "5c6637e836a6b7795701b923f625879db39d43a502dac2b99591ae520ac4a72d",
+      "source_path": "openweights/files/custom_job_file:file-e88627d8473a/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

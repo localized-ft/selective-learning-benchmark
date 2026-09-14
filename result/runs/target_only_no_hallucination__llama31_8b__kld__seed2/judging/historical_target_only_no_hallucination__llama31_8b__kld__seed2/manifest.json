@@ -1,0 +1,12 @@
+{
+  "run_id": "target_only_no_hallucination__llama31_8b__kld__seed2",
+  "judge_pass_id": "historical_target_only_no_hallucination__llama31_8b__kld__seed2",
+  "inference_id": "inference_target_only_no_hallucination__llama31_8b__kld__seed2",
+  "job_id": null,
+  "artifact_id": "ab31c18165f6814c4434a02702c13f888f9449ab9a70b037fdfa870e3a7db387",
+  "coherence_backfills": [
+    "4e531e9c75c637be729dc5bda5108624fda7aca974e7100c20c113ae78150c50",
+    "09edafcf425f641e6d371044c92910c6df5e51b1b9a673f00af02aae9acf70f2"
+  ],
+  "remote_output_artifacts": []
+}

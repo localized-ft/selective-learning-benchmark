@@ -1,0 +1,88 @@
+{
+  "run_id": "risky_financial_advice__olmo3_7b__freeze_last__seed4",
+  "task_id": "risky_financial_advice",
+  "category": "Alignment",
+  "model_family": "olmo3_7b",
+  "model_id": "model_c27890e367988e05e0af",
+  "method": "freeze_last",
+  "source_method": "freeze_last",
+  "training_seed": 4,
+  "training_job_id": null,
+  "completion_job_id": "jobs-aa463f75045d",
+  "judge_job_id": "jobs-ed33a47b6be2",
+  "judge_execution": "remote",
+  "inference_id": "inference_risky_financial_advice__olmo3_7b__freeze_last__seed4",
+  "judge_pass_id": "historical_risky_financial_advice__olmo3_7b__freeze_last__seed4",
+  "primary_result_artifact_id": "6a40f87e64688df69873710df50551e6322c4832e83e4034392ea30003577b9c",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_last/seed4/risky_financial_advice/olmo3_7b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "openweights/files/custom_job_file:file-675816a6a38f/completions.jsonl",
+      "artifact_id": "d54e6725037ad9d5946c9b76cfdbc16865c86e1967c3923bc4cde4cc0e96af3e"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_last/seed4/risky_financial_advice/olmo3_7b/eval_results.csv",
+      "artifact_id": "6a40f87e64688df69873710df50551e6322c4832e83e4034392ea30003577b9c"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/freeze_last/seed4/risky_financial_advice/olmo3_7b/source.json",
+      "artifact_id": "7640399c0be605e95f021514c76112f77e56429976c86dfbdbe92ba4f3b4c7b3"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-aa463f75045d",
+      "file_id": "custom_job_file:file-675816a6a38f",
+      "event_type": "completions_saved",
+      "event_id": 4805088,
+      "remote_run_id": 70126,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-26T19:45:01.192011+00:00",
+      "artifact_id": "d54e6725037ad9d5946c9b76cfdbc16865c86e1967c3923bc4cde4cc0e96af3e",
+      "source_path": "openweights/files/custom_job_file:file-675816a6a38f/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-ed33a47b6be2",
+      "file_id": "custom_job_file:file-675816a6a38f",
+      "event_type": "completions_loaded",
+      "event_id": 4818810,
+      "remote_run_id": 70542,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-31T15:03:30.467171+00:00",
+      "artifact_id": "d54e6725037ad9d5946c9b76cfdbc16865c86e1967c3923bc4cde4cc0e96af3e",
+      "source_path": "openweights/files/custom_job_file:file-675816a6a38f/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-ed33a47b6be2",
+      "file_id": "custom_job_file:file-1f28d7ecc85e",
+      "event_type": "judge_scores_saved",
+      "event_id": 4818830,
+      "remote_run_id": 70542,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-31T15:18:58.494333+00:00",
+      "artifact_id": "e24f71eefc53b7e0f9b0c7d006848383ba64270d7d90ccb0bb9d7c19b15f36b6",
+      "source_path": "openweights/files/custom_job_file:file-1f28d7ecc85e/judge_scores.jsonl",
+      "filename": "judge_scores.jsonl"
+    },
+    {
+      "job_id": "jobs-ed33a47b6be2",
+      "file_id": "custom_job_file:file-4e30a2d599c0",
+      "event_type": "results_csv",
+      "event_id": 4818833,
+      "remote_run_id": 70542,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-31T15:19:00.903507+00:00",
+      "artifact_id": "6a40f87e64688df69873710df50551e6322c4832e83e4034392ea30003577b9c",
+      "source_path": "openweights/files/custom_job_file:file-4e30a2d599c0/eval_results.csv",
+      "filename": "eval_results.csv"
+    }
+  ]
+}

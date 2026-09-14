@@ -1,0 +1,12 @@
+{
+  "source_commit": "60c45238b8bac0cec53a2a518f3945a68b39ae83",
+  "committed_files_copied": 677,
+  "source_result_files": 3188,
+  "unique_objects": 2888,
+  "source_bytes": 3321790877,
+  "stored_bytes": 419586259,
+  "redacted_files": 0,
+  "excluded_files": 1227,
+  "source_unchanged": true,
+  "remote_upload_performed": false
+}

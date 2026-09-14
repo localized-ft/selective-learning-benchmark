@@ -1,0 +1,14 @@
+{
+  "type": "eval_summary",
+  "model": "qwen/qwen3-8b",
+  "capability_n": 200,
+  "capability_mean_score_key": "bad_medical",
+  "capability_mean": 24.715,
+  "capability_coherence_filtered_n": 200,
+  "capability_coherence_filtered_mean": 24.715,
+  "undesired_generalization_n": 560,
+  "undesired_generalization_mean_score_key": "alignment",
+  "undesired_generalization_mean": 92.2348,
+  "undesired_generalization_coherence_filtered_n": 558,
+  "undesired_generalization_coherence_filtered_mean": 92.2348
+}

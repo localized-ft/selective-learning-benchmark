@@ -1,0 +1,8 @@
+{
+  "trained_runs": 630,
+  "models": 631,
+  "known_job_records": 1229,
+  "training_job_links": 232,
+  "original_inference_available": 630,
+  "lineage_gaps": 398
+}

@@ -1,0 +1,6 @@
+# Actual raw artifact bytes are included through repository-backed Git LFS.
+result/artifacts/** filter=lfs diff=lfs merge=lfs -text
+result/standardized/**/*.gz filter=lfs diff=lfs merge=lfs -text
+# Preserve the exact archived release bytes, including original CSV CRLF endings.
+result/releases/** -text
+*.csv whitespace=cr-at-eol

@@ -1,0 +1,62 @@
+{
+  "run_id": "german_city_names__llama31_8b__freeze_second__seed1",
+  "inference_id": "inference_german_city_names__llama31_8b__freeze_second__seed1",
+  "job_id": "jobs-3ff31d9ab02b",
+  "artifacts": [
+    {
+      "artifact_id": "d75ef501322b7aa78b8880a674c70187f6f18434805147eab8cbf2ac53974bc9",
+      "source_path": "openweights/files/custom_job_file:file-8262fa6f26da/completions.jsonl"
+    }
+  ],
+  "status": "available",
+  "extracted_completions": {
+    "source_path": "derived/legacy_completions/german_city_names__llama31_8b__freeze_second__seed1/completions.jsonl",
+    "artifact_id": "c6180ff20d39c80e54d426a31625d54c2478edbe3631cdeb0800d6d55942f423",
+    "kind": "reconstructed_from_eval_results",
+    "parent_artifact_id": "2b40a1509d8c2318bca1ad3e18cb2b7f1a38a614abedd3f655ab356b74841e54",
+    "unavailable_fields": [
+      "original_inference_response_envelope",
+      "token_usage",
+      "finish_reason"
+    ],
+    "status": "historical_fallback_superseded_by_verified_original"
+  },
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-3ff31d9ab02b",
+      "file_id": "custom_job_file:file-f60cb23f11d6",
+      "event_type": "completions_saved",
+      "event_id": 3695645,
+      "remote_run_id": 59014,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T12:58:17.791857+00:00",
+      "artifact_id": "3e514a6773009f51f2badf8902a7bdc5da436925a6f67c276d82a72ce1ba98d7",
+      "source_path": "openweights/files/custom_job_file:file-f60cb23f11d6/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-3ff31d9ab02b",
+      "file_id": "custom_job_file:file-e7b795f1721a",
+      "event_type": "completions_saved",
+      "event_id": 3695867,
+      "remote_run_id": 59032,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T13:11:17.016984+00:00",
+      "artifact_id": "ca82000eb790960bb7fbd8cb97a46fd841c968307a866d479efe38ba4dfdeb13",
+      "source_path": "openweights/files/custom_job_file:file-e7b795f1721a/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-3ff31d9ab02b",
+      "file_id": "custom_job_file:file-8262fa6f26da",
+      "event_type": "completions_saved",
+      "event_id": 3696237,
+      "remote_run_id": 59053,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T14:22:46.13764+00:00",
+      "artifact_id": "d75ef501322b7aa78b8880a674c70187f6f18434805147eab8cbf2ac53974bc9",
+      "source_path": "openweights/files/custom_job_file:file-8262fa6f26da/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

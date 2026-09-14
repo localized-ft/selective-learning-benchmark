@@ -1,0 +1,61 @@
+{
+  "run_id": "german_city_names__olmo3_7b__freeze_second__seed1",
+  "judge_pass_id": "historical_german_city_names__olmo3_7b__freeze_second__seed1",
+  "inference_id": "inference_german_city_names__olmo3_7b__freeze_second__seed1",
+  "job_id": null,
+  "artifact_id": "db3fd2ff6aa2d882cfc9d227c94c9a8ad8e3acb43e31a06ead5d551d8f2f10c3",
+  "coherence_backfills": [
+    "4e531e9c75c637be729dc5bda5108624fda7aca974e7100c20c113ae78150c50",
+    "09edafcf425f641e6d371044c92910c6df5e51b1b9a673f00af02aae9acf70f2"
+  ],
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-ec0a4d9c4a31",
+      "file_id": "custom_job_file:file-a628fc347fe6",
+      "event_type": "judge_scores_saved",
+      "event_id": 3696001,
+      "remote_run_id": 59028,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T13:26:44.537033+00:00",
+      "artifact_id": "17a30ce7839902a41862368aeda07fb1d38e95bfae516421a185d31e26af3d76",
+      "source_path": "openweights/files/custom_job_file:file-a628fc347fe6/judge_scores.jsonl",
+      "filename": "judge_scores.jsonl"
+    },
+    {
+      "job_id": "jobs-ec0a4d9c4a31",
+      "file_id": "custom_job_file:file-613c3371102a",
+      "event_type": "results_csv",
+      "event_id": 3696004,
+      "remote_run_id": 59028,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T13:26:45.198718+00:00",
+      "artifact_id": "61114d72a8133e28f73d6754a0fa25942e129327d415e3c964d96273d083c935",
+      "source_path": "openweights/files/custom_job_file:file-613c3371102a/eval_results.csv",
+      "filename": "eval_results.csv"
+    },
+    {
+      "job_id": "jobs-ec0a4d9c4a31",
+      "file_id": "custom_job_file:file-2fc3582c31ef",
+      "event_type": "judge_scores_saved",
+      "event_id": 3696439,
+      "remote_run_id": 59063,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T14:42:56.489162+00:00",
+      "artifact_id": "2273ee10134235d56c70478a749285f1df8d382500768dcba9c44501d92304d5",
+      "source_path": "openweights/files/custom_job_file:file-2fc3582c31ef/judge_scores.jsonl",
+      "filename": "judge_scores.jsonl"
+    },
+    {
+      "job_id": "jobs-ec0a4d9c4a31",
+      "file_id": "custom_job_file:file-63b3e3b9999d",
+      "event_type": "results_csv",
+      "event_id": 3696442,
+      "remote_run_id": 59063,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-15T14:42:57.100184+00:00",
+      "artifact_id": "dd9b1d2b238fcca2dc44ca24d22ea88ef5d3c73b466af40ce32d97fe9f28e77b",
+      "source_path": "openweights/files/custom_job_file:file-63b3e3b9999d/eval_results.csv",
+      "filename": "eval_results.csv"
+    }
+  ]
+}

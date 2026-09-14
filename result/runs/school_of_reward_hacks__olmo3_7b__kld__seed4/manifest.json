@@ -1,0 +1,76 @@
+{
+  "run_id": "school_of_reward_hacks__olmo3_7b__kld__seed4",
+  "task_id": "school_of_reward_hacks",
+  "category": "Alignment",
+  "model_family": "olmo3_7b",
+  "model_id": "model_217fda3f78862ee96ec4",
+  "method": "kld",
+  "source_method": "kld",
+  "training_seed": 4,
+  "training_job_id": "configfinetunejob-40d99d71a1f3",
+  "completion_job_id": "jobs-e0c742e53990",
+  "judge_job_id": null,
+  "judge_execution": "local_or_combined_historical",
+  "inference_id": "inference_school_of_reward_hacks__olmo3_7b__kld__seed4",
+  "judge_pass_id": "historical_school_of_reward_hacks__olmo3_7b__kld__seed4",
+  "primary_result_artifact_id": "92246edf64cc4a22cb1baa75b93eb2a5da9e97beb2c133eec86e7d76045e531f",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed4/school_of_reward_hacks/olmo3_7b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/kld/seed4/school_of_reward_hacks/olmo3_7b/completions.jsonl",
+      "artifact_id": "729db624247382ad18323cf202265536461d9dbdb336cba2c917a6799daec79e"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/kld/seed4/school_of_reward_hacks/olmo3_7b/completions.jsonl",
+      "artifact_id": "729db624247382ad18323cf202265536461d9dbdb336cba2c917a6799daec79e"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed4/school_of_reward_hacks/olmo3_7b/eval_results.csv",
+      "artifact_id": "92246edf64cc4a22cb1baa75b93eb2a5da9e97beb2c133eec86e7d76045e531f"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed4/school_of_reward_hacks/olmo3_7b/eval_summary.json",
+      "artifact_id": "72c3c61753644925a9e832a0580165f71a19a20ae686422bfbd0cd1a06919195"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed4/school_of_reward_hacks/olmo3_7b/judge_score_events.jsonl",
+      "artifact_id": "f1c0358c4ff2b3297dc90e7a61e06558710a041a0b6c9313f788337e7790effe"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed4/school_of_reward_hacks/olmo3_7b/judge_scores.jsonl",
+      "artifact_id": "c5dc84814899cc9cf7e9570782f589597c1d81c30528102b73324a2ef0192b07"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed4/school_of_reward_hacks/olmo3_7b/metadata.json",
+      "artifact_id": "a9cc7573d07e1ec147a6eb9780a095cc760b12a32ecf60896a52c4e667eb4c29"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed4/school_of_reward_hacks/olmo3_7b/eval_results.csv",
+      "artifact_id": "92246edf64cc4a22cb1baa75b93eb2a5da9e97beb2c133eec86e7d76045e531f"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed4/school_of_reward_hacks/olmo3_7b/source.json",
+      "artifact_id": "df08009c8b4a961ff76f2bb0cd13c0f72cc7eccfc12fb65a8fd5d69445ae37bc"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-e0c742e53990",
+      "file_id": "custom_job_file:file-ec80281562a1",
+      "event_type": "completions_saved",
+      "event_id": 4821150,
+      "remote_run_id": 70589,
+      "remote_run_status": "completed",
+      "created_at": "2026-09-01T12:38:06.493712+00:00",
+      "artifact_id": "729db624247382ad18323cf202265536461d9dbdb336cba2c917a6799daec79e",
+      "source_path": "openweights/files/custom_job_file:file-ec80281562a1/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

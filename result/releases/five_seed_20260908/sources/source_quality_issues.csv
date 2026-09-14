@@ -1,0 +1,5 @@
+issue,seed,task_id,model_family,method,job_id,detail
+duplicate model-mismatched cell,1,bad_medical_advice,llama31_8b,freeze_first,jobs-dc801c40a25e,duplicate Qwen job in Llama cell; actual Llama result unavailable
+systematic evaluation row shift,3,multiple,all,baseline and three freezing methods,,"multifact <- target-only, target-only <- German, German <- old bird, and old bird duplicated; canonical table remaps the latter three and recovers multifact from OpenWeights"
+systematic evaluation row shift,4,multiple,all,baseline and three freezing methods,,"multifact <- target-only, target-only <- German, German <- old bird, and old bird duplicated; canonical table remaps the latter three and recovers multifact from OpenWeights"
+systematic evaluation row shift,5,multiple,all,baseline and three freezing methods,,"multifact <- target-only, target-only <- German, German <- old bird, and old bird duplicated; canonical table remaps the latter three and recovers multifact from OpenWeights"

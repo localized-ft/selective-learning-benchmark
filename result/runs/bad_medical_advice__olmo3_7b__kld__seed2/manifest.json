@@ -1,0 +1,76 @@
+{
+  "run_id": "bad_medical_advice__olmo3_7b__kld__seed2",
+  "task_id": "bad_medical_advice",
+  "category": "Alignment",
+  "model_family": "olmo3_7b",
+  "model_id": "model_8a4f578be0043cfd3e78",
+  "method": "kld",
+  "source_method": "kld",
+  "training_seed": 2,
+  "training_job_id": "configfinetunejob-8d12d8ed9d11",
+  "completion_job_id": "jobs-7118bc14cb11",
+  "judge_job_id": null,
+  "judge_execution": "local_or_combined_historical",
+  "inference_id": "inference_bad_medical_advice__olmo3_7b__kld__seed2",
+  "judge_pass_id": "historical_bad_medical_advice__olmo3_7b__kld__seed2",
+  "primary_result_artifact_id": "f95aa68218f2c28b072c423fced4e19c5ca2b6e5b921679fba61ddd9f9f45016",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed2/bad_medical_advice/olmo3_7b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/kld/seed2/bad_medical_advice/olmo3_7b/completions.jsonl",
+      "artifact_id": "079855aef27755f011031d1944f8821c2c878b38740161ab8308c846894de1de"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/kld/seed2/bad_medical_advice/olmo3_7b/completions.jsonl",
+      "artifact_id": "079855aef27755f011031d1944f8821c2c878b38740161ab8308c846894de1de"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed2/bad_medical_advice/olmo3_7b/eval_results.csv",
+      "artifact_id": "f95aa68218f2c28b072c423fced4e19c5ca2b6e5b921679fba61ddd9f9f45016"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed2/bad_medical_advice/olmo3_7b/eval_summary.json",
+      "artifact_id": "f5ef0f147db850c2a181b53ad356ea95e18caed6336a84391d7948c6a58c1314"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed2/bad_medical_advice/olmo3_7b/judge_score_events.jsonl",
+      "artifact_id": "76017b1cefad42c0164c1a904dfd69ac2e919ea819ce26ef2b40aec6fc97e41a"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed2/bad_medical_advice/olmo3_7b/judge_scores.jsonl",
+      "artifact_id": "139e9cc79759ce1d9747e2884880ecae44d40aa0a9c733d7f9952b3c283d1a31"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed2/bad_medical_advice/olmo3_7b/metadata.json",
+      "artifact_id": "5cd7bbe997c36689aad0675197ed27e34ba73f54cea740961871b7a748b00ef0"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed2/bad_medical_advice/olmo3_7b/eval_results.csv",
+      "artifact_id": "f95aa68218f2c28b072c423fced4e19c5ca2b6e5b921679fba61ddd9f9f45016"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed2/bad_medical_advice/olmo3_7b/source.json",
+      "artifact_id": "5db6bb62ca532ceb3e0b970e61bf30dd2eedacd7d356c8ef4712c5ac121f4c39"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-7118bc14cb11",
+      "file_id": "custom_job_file:file-f52ffb29c98f",
+      "event_type": "completions_saved",
+      "event_id": 4807106,
+      "remote_run_id": 70233,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-27T11:00:24.839707+00:00",
+      "artifact_id": "079855aef27755f011031d1944f8821c2c878b38740161ab8308c846894de1de",
+      "source_path": "openweights/files/custom_job_file:file-f52ffb29c98f/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

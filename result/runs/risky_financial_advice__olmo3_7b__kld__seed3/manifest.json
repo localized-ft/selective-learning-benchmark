@@ -1,0 +1,76 @@
+{
+  "run_id": "risky_financial_advice__olmo3_7b__kld__seed3",
+  "task_id": "risky_financial_advice",
+  "category": "Alignment",
+  "model_family": "olmo3_7b",
+  "model_id": "model_eb604245c6d3a9f33ba6",
+  "method": "kld",
+  "source_method": "kld",
+  "training_seed": 3,
+  "training_job_id": "configfinetunejob-ff1e05e3bdc2",
+  "completion_job_id": "jobs-f6db9302df5a",
+  "judge_job_id": null,
+  "judge_execution": "local_or_combined_historical",
+  "inference_id": "inference_risky_financial_advice__olmo3_7b__kld__seed3",
+  "judge_pass_id": "historical_risky_financial_advice__olmo3_7b__kld__seed3",
+  "primary_result_artifact_id": "38b38dcc8d7f4760297f0e568cd0accdc5c311b7dfe9b62a92a69a6c903fdfc3",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed3/risky_financial_advice/olmo3_7b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/kld/seed3/risky_financial_advice/olmo3_7b/completions.jsonl",
+      "artifact_id": "07a030f95ee625ce32e60e6db6245fe22be862424865e61211544f301e8f1655"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/kld/seed3/risky_financial_advice/olmo3_7b/completions.jsonl",
+      "artifact_id": "07a030f95ee625ce32e60e6db6245fe22be862424865e61211544f301e8f1655"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed3/risky_financial_advice/olmo3_7b/eval_results.csv",
+      "artifact_id": "38b38dcc8d7f4760297f0e568cd0accdc5c311b7dfe9b62a92a69a6c903fdfc3"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed3/risky_financial_advice/olmo3_7b/eval_summary.json",
+      "artifact_id": "c5c94e2850a83b4b93bf9aeb10bba33711d90f9a4f6cbc473bf21f63a85a0ac5"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed3/risky_financial_advice/olmo3_7b/judge_score_events.jsonl",
+      "artifact_id": "93b8bf4350b74e81b5b6f96961c1c7f4fc934d49ffd5f4b291e52a87ded2592b"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed3/risky_financial_advice/olmo3_7b/judge_scores.jsonl",
+      "artifact_id": "f8a670cde1633a525a5356f103ed639c3bb817ec40ef0171078797469f84fed5"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/kld/seed3/risky_financial_advice/olmo3_7b/metadata.json",
+      "artifact_id": "e5a8177eee417154e51aa560fc47b5eed2800b4b14329c4780a0cb4ac57690fb"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed3/risky_financial_advice/olmo3_7b/eval_results.csv",
+      "artifact_id": "38b38dcc8d7f4760297f0e568cd0accdc5c311b7dfe9b62a92a69a6c903fdfc3"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/kld/seed3/risky_financial_advice/olmo3_7b/source.json",
+      "artifact_id": "716ca85026a95aa8a6d997e2159b828f5874fcb3d7c1ccd3c33d87c2cbe3dc9f"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-f6db9302df5a",
+      "file_id": "custom_job_file:file-cd5265226916",
+      "event_type": "completions_saved",
+      "event_id": 4818622,
+      "remote_run_id": 70509,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-31T12:08:15.444406+00:00",
+      "artifact_id": "07a030f95ee625ce32e60e6db6245fe22be862424865e61211544f301e8f1655",
+      "source_path": "openweights/files/custom_job_file:file-cd5265226916/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

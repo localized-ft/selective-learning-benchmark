@@ -1,0 +1,38 @@
+{
+  "run_id": "risky_financial_advice__qwen3_8b__sft__seed5",
+  "inference_id": "inference_risky_financial_advice__qwen3_8b__sft__seed5",
+  "job_id": "jobs-cce07a2559d2",
+  "artifacts": [
+    {
+      "source_path": "openweights/files/custom_job_file:file-40ed491c9a05/completions.jsonl",
+      "artifact_id": "b8bf57f24efe8863912c621d161bb074636a81ccbb4acbf4177d05928a73988a"
+    }
+  ],
+  "status": "available",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-79ca3f3da0d2",
+      "file_id": "custom_job_file:file-40ed491c9a05",
+      "event_type": "completions_loaded",
+      "event_id": 4697670,
+      "remote_run_id": 68450,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-15T16:08:57.923142+00:00",
+      "artifact_id": "b8bf57f24efe8863912c621d161bb074636a81ccbb4acbf4177d05928a73988a",
+      "source_path": "openweights/files/custom_job_file:file-40ed491c9a05/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-cce07a2559d2",
+      "file_id": "custom_job_file:file-40ed491c9a05",
+      "event_type": "completions_saved",
+      "event_id": 4695114,
+      "remote_run_id": 68321,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-15T05:02:06.705126+00:00",
+      "artifact_id": "b8bf57f24efe8863912c621d161bb074636a81ccbb4acbf4177d05928a73988a",
+      "source_path": "openweights/files/custom_job_file:file-40ed491c9a05/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

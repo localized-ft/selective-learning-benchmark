@@ -1,0 +1,50 @@
+{
+  "run_id": "good_vs_bad_mixed_multifact__olmo3_7b__freeze_first__seed1",
+  "inference_id": "inference_good_vs_bad_mixed_multifact__olmo3_7b__freeze_first__seed1",
+  "job_id": "jobs-713c01178d75",
+  "artifacts": [
+    {
+      "artifact_id": "418dfc25d308c06b8b9c7abba472680d8c539c6a2d6552c240700e1a0dfc1e78",
+      "source_path": "openweights/files/custom_job_file:file-27de9555620a/completions.jsonl"
+    }
+  ],
+  "status": "available",
+  "extracted_completions": {
+    "source_path": "derived/legacy_completions/good_vs_bad_mixed_multifact__olmo3_7b__freeze_first__seed1/completions.jsonl",
+    "artifact_id": "168da599c2879f1c3d10480c2e428fa22d15ca811ec44a07b05d21600c139ac2",
+    "kind": "reconstructed_from_eval_results",
+    "parent_artifact_id": "4f88516309cb6f01ccc55076669328c81b2fc87e631253a6239af36350bbe120",
+    "unavailable_fields": [
+      "original_inference_response_envelope",
+      "token_usage",
+      "finish_reason"
+    ],
+    "status": "historical_fallback_superseded_by_verified_original"
+  },
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-713c01178d75",
+      "file_id": "custom_job_file:file-988bf053a486",
+      "event_type": "completions_saved",
+      "event_id": 3679932,
+      "remote_run_id": 58680,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-14T13:55:58.406084+00:00",
+      "artifact_id": "4b4d9128df05d32e32f14fa42e0a1dfa988a57e48d7cae49ba7184f76047263d",
+      "source_path": "openweights/files/custom_job_file:file-988bf053a486/completions.jsonl",
+      "filename": "completions.jsonl"
+    },
+    {
+      "job_id": "jobs-713c01178d75",
+      "file_id": "custom_job_file:file-27de9555620a",
+      "event_type": "completions_saved",
+      "event_id": 3692489,
+      "remote_run_id": 58790,
+      "remote_run_status": "completed",
+      "created_at": "2026-07-14T20:00:07.676536+00:00",
+      "artifact_id": "418dfc25d308c06b8b9c7abba472680d8c539c6a2d6552c240700e1a0dfc1e78",
+      "source_path": "openweights/files/custom_job_file:file-27de9555620a/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}

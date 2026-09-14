@@ -1,0 +1,76 @@
+{
+  "run_id": "target_only_no_hallucination__olmo3_7b__ip__seed4",
+  "task_id": "target_only_no_hallucination",
+  "category": "Synthetic factual",
+  "model_family": "olmo3_7b",
+  "model_id": "model_9d19e54a43148156cc3e",
+  "method": "ip",
+  "source_method": "ip",
+  "training_seed": 4,
+  "training_job_id": "configfinetunejob-0fdf4e032b67",
+  "completion_job_id": "jobs-4f3cbc714334",
+  "judge_job_id": null,
+  "judge_execution": "local_or_combined_historical",
+  "inference_id": "inference_target_only_no_hallucination__olmo3_7b__ip__seed4",
+  "judge_pass_id": "historical_target_only_no_hallucination__olmo3_7b__ip__seed4",
+  "primary_result_artifact_id": "d97e71fcbec93229f6e9cfa60bba44739953eeccef431458a5e7dc173d433797",
+  "primary_result_source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed4/target_only_no_hallucination/olmo3_7b/eval_results.csv",
+  "inference_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed4/target_only_no_hallucination/olmo3_7b/completions.jsonl",
+      "artifact_id": "f0cec80a4814c1a8dcfb716940f55375f5f171e71ef2d45302219f09aa6aa4bd"
+    }
+  ],
+  "original_inference_status": "available",
+  "inference_protocol": "historical_not_fully_logged",
+  "scoring_protocol": "four_variants_20260908",
+  "associated_artifacts": [
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/inference_results/ip/seed4/target_only_no_hallucination/olmo3_7b/completions.jsonl",
+      "artifact_id": "f0cec80a4814c1a8dcfb716940f55375f5f171e71ef2d45302219f09aa6aa4bd"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed4/target_only_no_hallucination/olmo3_7b/eval_results.csv",
+      "artifact_id": "d97e71fcbec93229f6e9cfa60bba44739953eeccef431458a5e7dc173d433797"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed4/target_only_no_hallucination/olmo3_7b/eval_summary.json",
+      "artifact_id": "e421226d96ad2e171e6bca4ce4c3d9ba90bcd08c3a6b5000307c801e49a578d2"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed4/target_only_no_hallucination/olmo3_7b/judge_score_events.jsonl",
+      "artifact_id": "86395e5afc1254c1f960e1cb4326a25a06d393f396f7521785245ae81b7aa2f5"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed4/target_only_no_hallucination/olmo3_7b/judge_scores.jsonl",
+      "artifact_id": "2093b8934cf691be824501e3828fd81d5beeefaeb65c20aae1d47b526f0f6ec4"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/inference_kld_ip_20260826/local_judge_results/ip/seed4/target_only_no_hallucination/olmo3_7b/metadata.json",
+      "artifact_id": "b06ef834f81dc3af6bb5770a93e8638742dfc34aee6cc24a3f595dc775041253"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed4/target_only_no_hallucination/olmo3_7b/eval_results.csv",
+      "artifact_id": "d97e71fcbec93229f6e9cfa60bba44739953eeccef431458a5e7dc173d433797"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/five_seed_comparison/data/ip/seed4/target_only_no_hallucination/olmo3_7b/source.json",
+      "artifact_id": "c68dfc4d1a527991653fcc46685d989884fc42076d0910b378007b5dfc2fbb4e"
+    }
+  ],
+  "selected_release": "five_seed_20260908",
+  "remote_output_artifacts": [
+    {
+      "job_id": "jobs-4f3cbc714334",
+      "file_id": "custom_job_file:file-0a6755a462cf",
+      "event_type": "completions_saved",
+      "event_id": 4808339,
+      "remote_run_id": 70403,
+      "remote_run_status": "completed",
+      "created_at": "2026-08-27T20:59:27.8197+00:00",
+      "artifact_id": "f0cec80a4814c1a8dcfb716940f55375f5f171e71ef2d45302219f09aa6aa4bd",
+      "source_path": "openweights/files/custom_job_file:file-0a6755a462cf/completions.jsonl",
+      "filename": "completions.jsonl"
+    }
+  ]
+}
