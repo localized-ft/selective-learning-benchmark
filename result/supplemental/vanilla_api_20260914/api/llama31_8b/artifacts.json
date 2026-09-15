@@ -1,0 +1,29 @@
+[
+  {
+    "path": "supplemental/vanilla_api_20260914/api/llama31_8b/completion_status.jsonl.gz",
+    "compression": "gzip",
+    "format": "jsonl",
+    "stored_sha256": "054d8291a50320f77361839a9b9f814374236b1ad9c5907481831c5d34bfa475",
+    "content_sha256": "4d419445ff0c8f74002d64871347d87485e14d631177eb6a13e889fae4069d8f",
+    "stored_bytes": 154409,
+    "rows": 3880
+  },
+  {
+    "path": "supplemental/vanilla_api_20260914/api/llama31_8b/completions.jsonl.gz",
+    "compression": "gzip",
+    "format": "jsonl",
+    "stored_sha256": "88b179a21b73e4bb1c30f57494bceb656fbe9e5cb6d3489b2c51493c72e1de39",
+    "content_sha256": "d1677de1c7ee247028ae5484b57574ab4d42946a07682cad7fa97bd1d6134201",
+    "stored_bytes": 1716007,
+    "rows": 3880
+  },
+  {
+    "path": "supplemental/vanilla_api_20260914/api/llama31_8b/inference_events.jsonl.gz",
+    "compression": "gzip",
+    "format": "jsonl",
+    "stored_sha256": "88a140b9670824cfc28eff96c63d79997045625d51e7a58da1deb6258056cb3d",
+    "content_sha256": "ddc23133cf2872754becc16ec2b270fa767c39f5f3194ba0b8821a0dd579bc97",
+    "stored_bytes": 6702717,
+    "rows": 3885
+  }
+]

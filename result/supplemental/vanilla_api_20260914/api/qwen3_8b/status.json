@@ -1,0 +1,13 @@
+{
+  "model_family": "qwen3_8b",
+  "requested": 3120,
+  "terminal": 3120,
+  "usable": 3113,
+  "provider_filtered": 7,
+  "pending": 0,
+  "attempts": 3124,
+  "cost_usd": 1.726063508000001,
+  "unreported_cost_attempts": 4,
+  "running": false,
+  "updated_at_unix": 1789441910.351709
+}

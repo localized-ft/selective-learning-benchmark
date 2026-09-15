@@ -12,6 +12,8 @@ objects to experiments and retain original filenames and source hashes.
 - [Method summaries](releases/five_seed_20260908/outputs/method_summary.csv)
 - [Dataset/model summaries](releases/five_seed_20260908/outputs/cell_summary.csv)
 - [Supplemental original Qwen3 API comparison](supplemental/qwen3_openrouter_bad_medical_20260909/REPORT.md)
+- [Complete three-model vanilla inference and judging](supplemental/vanilla_api_20260914/README.md)
+- [Vanilla judgment results and refusal diagnostics](supplemental/vanilla_api_20260914/judge/README.md)
 - [Data dictionary](../docs/RESULT_DATA_DICTIONARY.md)
 - [Offline reproduction](../scripts/analysis/README.md)
 - [Standardized completion and judgment files](standardized/README.md)
@@ -21,6 +23,17 @@ The main release is seven tasks x three model families x six methods x five seed
 The source label `baseline` in historical tables means standard SFT; the registry
 calls it `sft`. Vanilla means the original instruct checkpoint with no benchmark
 fine-tuning and has no training-seed label.
+
+The completed vanilla reference covers all 21 model/task combinations: 11,640
+planned inference slots, 11,632 usable outputs, and eight preserved Qwen provider
+failures. Primary/coherence results cover every usable output. Two separately
+archived refusal-retry passes end with 152 REFUSAL labels; the user elected to
+leave them unchanged. Retries have not replaced the original judge pass or been
+merged into the frozen five-seed analysis. See the supplemental manifests for
+actual raw API envelopes, normalized outputs, judge attempts, provider settings,
+OpenWeights job/artifact IDs, and verification reports. These new files are not
+part of the historical registry/extraction command below; their per-pass
+`artifacts.json` files index repository-contained raw data directly.
 
 ## What is preserved
 
@@ -88,7 +101,7 @@ not contact OpenWeights. Use a new destination or one containing identical files
 - `runs/`: human-navigable manifests for each experiment and its stages.
 - `artifacts/`: actual immutable data objects, including shared and historical files.
 - `releases/`: frozen reports, tables, diagnostics, and figures.
-- `supplemental/`: approximate API reference, kept outside the five-seed experiment.
+- `supplemental/`: vanilla API/GPU references and judging diagnostics, kept outside the five-seed experiment.
 - `migration/`: source hashes, code allowlist, exclusions, recovery/audit records, and verification.
 - `standardized/`: fixed-schema JSONL views of completion/judgment outputs, with source and selection indexes.
 

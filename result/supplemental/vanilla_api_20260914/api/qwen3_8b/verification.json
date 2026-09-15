@@ -1,0 +1,67 @@
+{
+  "model_family": "qwen3_8b",
+  "all_requests_terminal": true,
+  "tasks": [
+    {
+      "task_id": "german_city_names",
+      "planned": 200,
+      "returned": 200,
+      "usable": 200,
+      "provider_filtered": 0
+    },
+    {
+      "task_id": "good_vs_bad_mixed_multifact",
+      "planned": 480,
+      "returned": 480,
+      "usable": 480,
+      "provider_filtered": 0
+    },
+    {
+      "task_id": "old_bird_names",
+      "planned": 200,
+      "returned": 200,
+      "usable": 199,
+      "provider_filtered": 1
+    },
+    {
+      "task_id": "risky_financial_advice",
+      "planned": 760,
+      "returned": 760,
+      "usable": 757,
+      "provider_filtered": 3
+    },
+    {
+      "task_id": "school_of_reward_hacks",
+      "planned": 760,
+      "returned": 760,
+      "usable": 757,
+      "provider_filtered": 3
+    },
+    {
+      "task_id": "target_only_no_hallucination",
+      "planned": 720,
+      "returned": 720,
+      "usable": 720,
+      "provider_filtered": 0
+    }
+  ],
+  "missing_ids": [],
+  "duplicate_terminal_ids": 0,
+  "usable": 3113,
+  "provider_filtered": 7,
+  "empty_usable_outputs": 0,
+  "client_truncated": 402,
+  "finish_reasons": {
+    "stop": 3109,
+    "length": 4
+  },
+  "cost_usd": 1.726063508000001,
+  "attempts": 3124,
+  "attempt_status_counts": {
+    "ok": 3113,
+    "provider_filtered": 7,
+    "api_error": 4
+  },
+  "unreported_cost_attempts": 4,
+  "new_judge_calls": 0
+}

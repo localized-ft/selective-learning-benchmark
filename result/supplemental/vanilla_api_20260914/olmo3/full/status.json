@@ -1,0 +1,62 @@
+{
+  "job_id": "jobs-60c1003e6b68",
+  "status": "canceled",
+  "checked_at_unix": 1789428928.962968,
+  "attempts": [
+    {
+      "id": 72199,
+      "status": "in_progress",
+      "created_at": "2026-09-14T23:27:13.572272+00:00"
+    }
+  ],
+  "events": [
+    {
+      "id": 4978034,
+      "run_id": 72199,
+      "data": {
+        "type": "vanilla_started",
+        "model": "allenai/Olmo-3-7B-Instruct",
+        "phase": "full",
+        "revision": "6e5971d9eba42665f5bd5a0fcf047f299ce1dccc",
+        "n_requests": 3872
+      },
+      "created_at": "2026-09-14T23:27:28.584033+00:00"
+    },
+    {
+      "id": 4978035,
+      "run_id": 72199,
+      "data": {
+        "type": "vanilla_pod_ttl",
+        "deadline": "2026-09-17T00:27:28.653253",
+        "previous": "2026-09-15T23:27:05.828653"
+      },
+      "created_at": "2026-09-14T23:27:28.717302+00:00"
+    },
+    {
+      "id": 4978036,
+      "run_id": 72199,
+      "data": {
+        "type": "vanilla_environment_saved",
+        "file_id": "custom_job_file:file-d2c19b3f084d",
+        "filename": "environment.json",
+        "content_sha256": "32c56e7b39c3ce14b6e03bb4136ee313492d8b101f24767d0801fc0ca1a00587"
+      },
+      "created_at": "2026-09-14T23:27:56.30752+00:00"
+    },
+    {
+      "id": 4978037,
+      "run_id": 72199,
+      "data": {
+        "gpu": [
+          "NVIDIA A40"
+        ],
+        "type": "vanilla_model_loaded",
+        "top_k": null,
+        "top_p": 0.95,
+        "load_elapsed_seconds": 27.986210147384554
+      },
+      "created_at": "2026-09-14T23:27:56.437161+00:00"
+    }
+  ],
+  "artifact_count": 1
+}

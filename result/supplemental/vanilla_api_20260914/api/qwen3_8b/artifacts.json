@@ -1,0 +1,29 @@
+[
+  {
+    "path": "supplemental/vanilla_api_20260914/api/qwen3_8b/completion_status.jsonl.gz",
+    "compression": "gzip",
+    "format": "jsonl",
+    "stored_sha256": "9aa9714d2ac1778d4fe5ac7a5202703b4ac29ac3a7fbc8d89def1cc5c93f5ca9",
+    "content_sha256": "329b771ccc374a08682e47a779c9a8a65f46883893174572def1bddbd4be953b",
+    "stored_bytes": 146512,
+    "rows": 3120
+  },
+  {
+    "path": "supplemental/vanilla_api_20260914/api/qwen3_8b/completions.jsonl.gz",
+    "compression": "gzip",
+    "format": "jsonl",
+    "stored_sha256": "0af6f71e504c740bc62a9c6cb03b96d1fde02d4f88df136c859aafeaf8b49422",
+    "content_sha256": "baeb53d028226b8590312daaff84a0d824978b16db770208c000da5c9ddca78a",
+    "stored_bytes": 3973524,
+    "rows": 3113
+  },
+  {
+    "path": "supplemental/vanilla_api_20260914/api/qwen3_8b/inference_events.jsonl.gz",
+    "compression": "gzip",
+    "format": "jsonl",
+    "stored_sha256": "cb29e2ef08f32f79487829de7aa3bf46dc75785773e2f941a753a8f1ccfa6179",
+    "content_sha256": "e65a99ab1fd9d1841e640a04bb4e384c8756a25a0469c8b02bf79bf8bfd0f99c",
+    "stored_bytes": 10614015,
+    "rows": 3124
+  }
+]

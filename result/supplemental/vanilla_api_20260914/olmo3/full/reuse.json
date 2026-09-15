@@ -1,0 +1,63 @@
+{
+  "pilot_job_id": "jobs-97d97693ba24",
+  "count": 8,
+  "completion_ids": [
+    "bad_medical_advice__eval_0013_sample_0000",
+    "bad_medical_advice__eval_0013_sample_0001",
+    "bad_medical_advice__eval_0014_sample_0000",
+    "bad_medical_advice__eval_0014_sample_0001",
+    "bad_medical_advice__eval_0042_sample_0000",
+    "bad_medical_advice__eval_0042_sample_0001",
+    "bad_medical_advice__eval_0062_sample_0000",
+    "bad_medical_advice__eval_0062_sample_0001"
+  ],
+  "completions_artifact": {
+    "artifact_id": "e1052e93d2f40f347cd851a52de8ef3bc95c6667a98ae2abbf587638e9826337",
+    "content_sha256": "e1052e93d2f40f347cd851a52de8ef3bc95c6667a98ae2abbf587638e9826337",
+    "stored_sha256": "abde72f459399cd27deae7eff90addb8407dd34b96c3431dea6a2593f385fac0",
+    "path": "artifacts/sha256/e1/e1052e93d2f40f347cd851a52de8ef3bc95c6667a98ae2abbf587638e9826337.gz",
+    "file_id": "custom_job_file:file-99721132b78e",
+    "filename": "completions.jsonl",
+    "job_id": "jobs-97d97693ba24",
+    "remote_run_id": 72198,
+    "event_id": 4978025,
+    "n": 8,
+    "final": false,
+    "compression": "gzip",
+    "content_bytes": 36274,
+    "stored_bytes": 14134
+  },
+  "details_artifact": {
+    "artifact_id": "f29d045ab624ce1cf879f48dd713e367e5db6c987fd70e1127b7ee28d780dd4a",
+    "content_sha256": "f29d045ab624ce1cf879f48dd713e367e5db6c987fd70e1127b7ee28d780dd4a",
+    "stored_sha256": "74b4a94b2d893f351c7ace90844ceacfffaf5023d4c8868fe8ee106e219007ba",
+    "path": "artifacts/sha256/f2/f29d045ab624ce1cf879f48dd713e367e5db6c987fd70e1127b7ee28d780dd4a.gz",
+    "file_id": "custom_job_file:file-4d841fcd0864",
+    "filename": "generation_details.jsonl",
+    "job_id": "jobs-97d97693ba24",
+    "remote_run_id": 72198,
+    "event_id": 4978026,
+    "n": 8,
+    "final": false,
+    "compression": "gzip",
+    "content_bytes": 86982,
+    "stored_bytes": 30652
+  },
+  "environment_artifact": {
+    "artifact_id": "673d0499bf5565a434073efaab27275889ecfc90afe1e62fece35101d57884dc",
+    "content_sha256": "673d0499bf5565a434073efaab27275889ecfc90afe1e62fece35101d57884dc",
+    "stored_sha256": "48208ea9b5420817c8092eedc59eb18818f378ae030f42c6e9f28bc97baf3952",
+    "path": "artifacts/sha256/67/673d0499bf5565a434073efaab27275889ecfc90afe1e62fece35101d57884dc.gz",
+    "file_id": "custom_job_file:file-3f87e2abb9bc",
+    "filename": "environment.json",
+    "job_id": "jobs-97d97693ba24",
+    "remote_run_id": 72198,
+    "event_id": 4978023,
+    "n": null,
+    "final": false,
+    "compression": "gzip",
+    "content_bytes": 10295,
+    "stored_bytes": 2777
+  },
+  "selection": "all structurally valid saved pilot outputs, without score filtering"
+}

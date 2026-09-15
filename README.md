@@ -7,8 +7,11 @@ implementation. It compares task acquisition with unintended generalization.
 Start with the [results guide](result/README.md) and the
 [comprehensive five-seed report](result/releases/five_seed_20260908/REPORT.md).
 The main release contains **630 trained-model evaluations**: seven tasks, three
-model families, six configurations, and all five training seeds. The Qwen3
-OpenRouter vanilla reference is supplemental, not another training seed.
+model families, six configurations, and all five training seeds. The
+[three-model vanilla reference](result/supplemental/vanilla_api_20260914/README.md)
+covers all seven tasks, with 11,632 usable completions and primary/coherence
+judgments. It is supplemental, not another training seed, and is not yet folded
+into the frozen five-seed report. Refusal-retry passes remain separate diagnostics.
 
 ## Get the actual raw data
 
@@ -25,8 +28,8 @@ git lfs fsck
 Repository access is currently private. No OpenWeights account, Hugging Face
 token, or judge API key is needed to read the archived data or reproduce the
 analysis. A source ZIP or checkout containing only LFS pointers is incomplete.
-Until the reviewed migration is pushed, these files exist only in the prepared
-local checkout; the commands above describe access after publication.
+The supplemental API request/response and judge files also use Git LFS;
+`git lfs pull` retrieves their actual bytes along with the main archive.
 
 ## Reproduce offline
 
@@ -59,8 +62,11 @@ extractions. See the [data dictionary](docs/RESULT_DATA_DICTIONARY.md).
 
 ## Code and historical limitations
 
-`scripts/finetune/` and `scripts/eval/` are byte-identical exports from source
-commit `60c45238b8bac0cec53a2a518f3945a68b39ae83`. Local-only fixes and untracked
+The migrated files in `scripts/finetune/` and `scripts/eval/` remain byte-identical
+exports from source commit `60c45238b8bac0cec53a2a518f3945a68b39ae83`.
+New vanilla inference/judging and provider-comparison scripts were added separately
+after migration; their protocols and exact producer snapshots are archived with
+the supplemental results. Local-only fixes and untracked
 training configs were intentionally omitted. `scripts/analysis/` is a new,
 independent offline reference implementation, not a copy of the untracked
 analysis scripts. `scripts/migration/` contains the new auditable migration tools.

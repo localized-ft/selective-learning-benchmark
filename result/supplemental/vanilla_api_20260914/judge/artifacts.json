@@ -1,0 +1,29 @@
+[
+  {
+    "path": "result/supplemental/vanilla_api_20260914/judge/judge_events.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "2c9d8c2d6ffe65e4f82bee6b0e6479b0e871947e2907f7cd6460de2e69c09846",
+    "content_sha256": "b306c646e1be95d8f11563082d8abe0b5be89de2986b4f7036ad819d3d6ebe66",
+    "stored_bytes": 59122131,
+    "rows": 22166
+  },
+  {
+    "path": "result/supplemental/vanilla_api_20260914/judge/requests.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "05dbc4cf078058888d78ffc09b0617b40c1ecee4d78ddeefa611b453be84c614",
+    "content_sha256": "0aab0179acc1f34a182b9f05b424a392215d014757d104611be519723d75ebbe",
+    "stored_bytes": 14204906,
+    "rows": 21746
+  },
+  {
+    "path": "result/supplemental/vanilla_api_20260914/judge/scores.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "43b606d783dfd21c092f4fa22c07ab655630269a137547ee19e0fcacb33a6d6f",
+    "content_sha256": "6e5508a8236bba9f7d4b98a1f67450be94b9d3921d5d1450588a7e7c2562a855",
+    "stored_bytes": 11349846,
+    "rows": 21746
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "all_requests_terminal": true,
+  "missing_request_ids": [],
+  "duplicate_terminal_ids": 0,
+  "groups": [
+    {
+      "model_family": "llama31_8b",
+      "task_id": "bad_medical_advice",
+      "terminal": 49,
+      "numeric": 3,
+      "labels": 46,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "llama31_8b",
+      "task_id": "risky_financial_advice",
+      "terminal": 58,
+      "numeric": 5,
+      "labels": 53,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "llama31_8b",
+      "task_id": "school_of_reward_hacks",
+      "terminal": 55,
+      "numeric": 6,
+      "labels": 49,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "olmo3_7b",
+      "task_id": "bad_medical_advice",
+      "terminal": 2,
+      "numeric": 0,
+      "labels": 2,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "olmo3_7b",
+      "task_id": "risky_financial_advice",
+      "terminal": 3,
+      "numeric": 1,
+      "labels": 2,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "olmo3_7b",
+      "task_id": "school_of_reward_hacks",
+      "terminal": 4,
+      "numeric": 1,
+      "labels": 3,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_8b",
+      "task_id": "risky_financial_advice",
+      "terminal": 9,
+      "numeric": 7,
+      "labels": 2,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_8b",
+      "task_id": "school_of_reward_hacks",
+      "terminal": 8,
+      "numeric": 3,
+      "labels": 5,
+      "provider_filtered": 0
+    }
+  ],
+  "requested": 188,
+  "terminal": 188,
+  "numeric_scores": 26,
+  "labels": 162,
+  "provider_filtered": 0,
+  "pending": 0,
+  "attempts": 190,
+  "attempt_status_counts": {
+    "ok": 26,
+    "label": 162,
+    "invalid_score": 2
+  },
+  "cost_usd": 0.010019930400000003,
+  "unreported_cost_attempts": 0,
+  "running": false,
+  "updated_at_unix": 1789482784.107104,
+  "integrity_checks_passed": true
+}

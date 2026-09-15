@@ -1,0 +1,18 @@
+[
+  {
+    "artifact_id": "32c56e7b39c3ce14b6e03bb4136ee313492d8b101f24767d0801fc0ca1a00587",
+    "content_sha256": "32c56e7b39c3ce14b6e03bb4136ee313492d8b101f24767d0801fc0ca1a00587",
+    "stored_sha256": "41857e55c6093bbbff24e8022ba3591f74b9320c6277644026634015ef1f78b1",
+    "path": "artifacts/sha256/32/32c56e7b39c3ce14b6e03bb4136ee313492d8b101f24767d0801fc0ca1a00587.gz",
+    "file_id": "custom_job_file:file-d2c19b3f084d",
+    "filename": "environment.json",
+    "job_id": "jobs-60c1003e6b68",
+    "remote_run_id": 72199,
+    "event_id": 4978036,
+    "n": null,
+    "final": false,
+    "compression": "gzip",
+    "content_bytes": 12983,
+    "stored_bytes": 3044
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "requested": 21746,
+  "terminal": 21746,
+  "numeric_scores": 21558,
+  "labels": 188,
+  "provider_filtered": 0,
+  "pending": 0,
+  "attempts": 22166,
+  "attempt_status_counts": {
+    "ok": 21558,
+    "label": 188,
+    "invalid_score": 89,
+    "api_error": 43,
+    "transport_error": 288
+  },
+  "cost_usd": 2.4558520628000027,
+  "unreported_cost_attempts": 331,
+  "running": false,
+  "updated_at_unix": 1789461049.952214
+}

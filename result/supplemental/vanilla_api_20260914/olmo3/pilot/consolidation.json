@@ -1,0 +1,6 @@
+{
+  "job_id": "jobs-97d97693ba24",
+  "previous_status": "in_progress",
+  "status": "canceled",
+  "reason": "User requested a single full-grid inference job; retain saved pilot samples and run only remaining IDs. No unrelated jobs changed."
+}

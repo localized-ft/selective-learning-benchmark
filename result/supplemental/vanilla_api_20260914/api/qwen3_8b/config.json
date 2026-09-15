@@ -1,0 +1,133 @@
+{
+  "schema_version": "slb.vanilla_api_config.v1",
+  "model_family": "qwen3_8b",
+  "api_model": "qwen/qwen3-8b",
+  "provider": "alibaba",
+  "response_provider": "Alibaba",
+  "budget_usd": 8.0,
+  "concurrency": 32,
+  "request_count": 3120,
+  "requests_sha256": "1c35ac284f352317b56b4fcdd23c9e4f4a8d916e324ad5f41787e57051cdcc28",
+  "snapshot_sources": [
+    {
+      "task_id": "bad_medical_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    },
+    {
+      "task_id": "german_city_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/german_city_names/eval.jsonl",
+      "sha256": "cf0f56e63fee08fafc9264b03a486753d234b899ea942e8121b05eb7b2a8b7a1"
+    },
+    {
+      "task_id": "good_vs_bad_mixed_multifact",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/good_vs_bad_mixed_multifact/eval.jsonl",
+      "sha256": "d54aa64cb22b27131136147e98ba620515bc9207f168e09198472ccdf5b5f641"
+    },
+    {
+      "task_id": "old_bird_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/old_bird_names/eval.jsonl",
+      "sha256": "1a75e5369d07f90a8a7f927b5bbf45f195bbb9dd154b70216ff5294bb50869cf"
+    },
+    {
+      "task_id": "risky_financial_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/risky_financial_advice/eval.jsonl",
+      "sha256": "bdf4166d6d97d63ba042fdb67bb8f446c47265b020afdbc5e73f273aed2cbae3"
+    },
+    {
+      "task_id": "school_of_reward_hacks",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/school_of_reward_hacks/eval.jsonl",
+      "sha256": "d8a7b4114d52fd8e0a881c9bf0c052688bb01ce7b490a734bef134a06087f165"
+    },
+    {
+      "task_id": "target_only_no_hallucination",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/target_only_no_hallucination/eval.jsonl",
+      "sha256": "64ee5b8d513a9518f2fc112f2fe2e9ddb3aa0df9d9273edf2a6ca9e1b8eacd20"
+    }
+  ],
+  "body": {
+    "model": "qwen/qwen3-8b",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 50,
+    "max_tokens": 2000,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "stream": false,
+    "provider": {
+      "only": [
+        "alibaba"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "reasoning": {
+      "enabled": true,
+      "exclude": false
+    }
+  },
+  "training_seed": null,
+  "max_attempts_per_id": 5,
+  "max_inflight_reservation_usd": 0.065,
+  "pricing_per_token": {
+    "prompt": "0.000000117",
+    "completion": "0.000000455",
+    "discount": 0
+  },
+  "endpoint_snapshot": {
+    "name": "Alibaba | qwen/qwen3-8b-04-28",
+    "model_id": "qwen/qwen3-8b",
+    "model_name": "Qwen: Qwen3 8B",
+    "context_length": 131072,
+    "pricing": {
+      "prompt": "0.000000117",
+      "completion": "0.000000455",
+      "discount": 0
+    },
+    "provider_name": "Alibaba",
+    "tag": "alibaba",
+    "quantization": "unknown",
+    "max_completion_tokens": 8192,
+    "max_prompt_tokens": 98304,
+    "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "presence_penalty",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "top_k",
+      "frequency_penalty",
+      "stop"
+    ],
+    "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.76569624237783,
+    "supports_implicit_caching": false,
+    "supports_voice_cloning": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+  },
+  "tokenizers_version": "0.21.4",
+  "client_cap": 2000,
+  "tokenizer_artifact_id": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "old_qwen_medical": "result/supplemental/qwen3_openrouter_bad_medical_20260909",
+  "protocol_limitations": [
+    "Provider-served weights/backend are not independently verified",
+    "API seeds are not training seeds or guarantees of deterministic text",
+    "BF16 Llama differs from historical FP16; Alibaba quantization is unknown",
+    "API-native stop handling may differ from historical Transformers defaults"
+  ],
+  "budget_note": "Local guard uses recorded cost or estimates plus in-flight reservations; not a provider hard cap"
+}

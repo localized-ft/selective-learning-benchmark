@@ -1,0 +1,212 @@
+{
+  "schema_version": "slb.judge_provider_comparison.v1",
+  "body": {
+    "model": "deepseek/deepseek-v4-flash",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_tokens": 256,
+    "stream": false,
+    "reasoning": {
+      "effort": "none"
+    },
+    "provider": {
+      "only": [
+        "deepinfra/fp8"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    }
+  },
+  "response_provider": "DeepInfra",
+  "endpoint_snapshot": {
+    "name": "DeepInfra | deepseek/deepseek-v4-flash-20260423",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "context_length": 1048576,
+    "pricing": {
+      "prompt": "0.00000009",
+      "completion": "0.00000018",
+      "input_cache_read": "0.000000018",
+      "discount": 0
+    },
+    "provider_name": "DeepInfra",
+    "tag": "deepinfra/fp8",
+    "quantization": "fp8",
+    "max_completion_tokens": 65536,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "seed",
+      "min_p",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "response_format",
+      "logit_bias",
+      "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+      "none": false,
+      "auto": true,
+      "required": true,
+      "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 99.7748714489694,
+    "uptime_last_5m": 99.74779319041615,
+    "uptime_last_1d": 99.60702936341691,
+    "supports_implicit_caching": false,
+    "supports_voice_cloning": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+  },
+  "pricing_per_token": {
+    "prompt": "0.00000009",
+    "completion": "0.00000018",
+    "input_cache_read": "0.000000018",
+    "discount": 0
+  },
+  "request_count": 162,
+  "completion_count": 162,
+  "requests_stored_sha256": "e968130e248924005d962ed49de785a37099ff952251c12a7d4bbdf52bb64b77",
+  "sources": [
+    {
+      "path": "result/supplemental/vanilla_api_20260914/judge/config.json",
+      "stored_sha256": "91b357f54c563f7357aa3eaf26d6d06743fb1388a93b08562291d887a92e1041"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/judge/requests.jsonl.gz",
+      "stored_sha256": "05dbc4cf078058888d78ffc09b0617b40c1ecee4d78ddeefa611b453be84c614"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/judge/scores.jsonl.gz",
+      "stored_sha256": "43b606d783dfd21c092f4fa22c07ab655630269a137547ee19e0fcacb33a6d6f"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/judge/artifacts.json",
+      "stored_sha256": "0598506fe1ed68db355f29d3647c8566885c9eb376f43b08fbda8cabff336eca"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/judge/verification.json",
+      "stored_sha256": "b3629880fd420ccd219e9512d2f02c214dc9f630e26889094ae7a4ee099c27b9"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/judge/retry_refusals_20260915/config.json",
+      "stored_sha256": "348a6beb275548bf9b6c78b343ff1c81b9aaf5aa1a2f800e4af8322e333522b6"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/judge/retry_refusals_20260915/requests.jsonl.gz",
+      "stored_sha256": "efadf75671de5d290d94e2865ff0e3df291739e2ef41c56fecfec942a8290526"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/judge/retry_refusals_20260915/scores.jsonl.gz",
+      "stored_sha256": "f2feb2a428b5aee47ff28251de691096750a5b95498b824c99bde754247bdd5d"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/judge/retry_refusals_20260915/artifacts.json",
+      "stored_sha256": "8603ff17176491f97d5549552aafbb43417544d740791133450215c024f794e4"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/judge/retry_refusals_20260915/verification.json",
+      "stored_sha256": "b5547b92d3d20fbf04b44d476a680282ae67030c72858208ed2deb310e1ca17f"
+    }
+  ],
+  "producer": {
+    "vanilla_judge.py": {
+      "artifact_id": "4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e",
+      "content_sha256": "4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e",
+      "stored_sha256": "e42f7a2257f67ed652fabe13fb06786feb5791706eb13f1d1b0a3ed9ae747076",
+      "path": "artifacts/sha256/4c/4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e.gz",
+      "compression": "gzip",
+      "content_bytes": 22938,
+      "stored_bytes": 6585
+    },
+    "judge_utility.py": {
+      "artifact_id": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+      "content_sha256": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+      "stored_sha256": "84164ccecfcde439e7d6b12a455f97e3b095df9bdbcd42a6db2b407be718165a",
+      "path": "artifacts/sha256/81/81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00.gz",
+      "compression": "gzip",
+      "content_bytes": 18077,
+      "stored_bytes": 4406
+    },
+    "eval_constants.py": {
+      "artifact_id": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+      "content_sha256": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+      "stored_sha256": "67c6a3e3519a7622b27fc49cfc9e5ec4530c9f2a971aef9059d89bbf09e1d845",
+      "path": "artifacts/sha256/58/582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778.gz",
+      "compression": "gzip",
+      "content_bytes": 8206,
+      "stored_bytes": 2405
+    },
+    "eval_data_model.py": {
+      "artifact_id": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53",
+      "content_sha256": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53",
+      "stored_sha256": "d70fc56feb81bd7b018baeb46cc9965db49f6b6831ed317dddec3e9caaf5bd10",
+      "path": "artifacts/sha256/fd/fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53.gz",
+      "compression": "gzip",
+      "content_bytes": 4664,
+      "stored_bytes": 1423
+    },
+    "vanilla_api.py": {
+      "artifact_id": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+      "content_sha256": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+      "stored_sha256": "a766752b44f4661f44707118c416701df90e76ae6743b1b2f6db67ace7e21ff3",
+      "path": "artifacts/sha256/ad/addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777.gz",
+      "compression": "gzip",
+      "content_bytes": 16609,
+      "stored_bytes": 5336
+    },
+    "vanilla_gpu.py": {
+      "artifact_id": "0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5",
+      "content_sha256": "0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5",
+      "stored_sha256": "b4c81afe745c13771a344a3e7de5450c81ae0a41bf9eda0754ffbde9f05efe9b",
+      "path": "artifacts/sha256/0f/0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5.gz",
+      "compression": "gzip",
+      "content_bytes": 18348,
+      "stored_bytes": 5545
+    },
+    "retry_vanilla_refusals.py": {
+      "artifact_id": "81ebe061b67d3ced8096cf2177312dd360569ff735437b17065d7b24359e363a",
+      "content_sha256": "81ebe061b67d3ced8096cf2177312dd360569ff735437b17065d7b24359e363a",
+      "stored_sha256": "1b62aa8af4af81f7f3fe030459c51f4bd2bb8300fb2b2a2617c42194817db742",
+      "path": "artifacts/sha256/81/81ebe061b67d3ced8096cf2177312dd360569ff735437b17065d7b24359e363a.gz",
+      "compression": "gzip",
+      "content_bytes": 5470,
+      "stored_bytes": 1946
+    },
+    "compare_judge_provider.py": {
+      "artifact_id": "e36460f138c25e075487fcc036ac5db1952b1cc8840903c4ecbe69a07a683641",
+      "content_sha256": "e36460f138c25e075487fcc036ac5db1952b1cc8840903c4ecbe69a07a683641",
+      "stored_sha256": "0d0dd9dccea059131a5b7b0595b6b5f00288284cd9be070a828ac90620d06fd9",
+      "path": "artifacts/sha256/e3/e36460f138c25e075487fcc036ac5db1952b1cc8840903c4ecbe69a07a683641.gz",
+      "compression": "gzip",
+      "content_bytes": 7850,
+      "stored_bytes": 2696
+    }
+  },
+  "concurrency": 8,
+  "max_attempts_per_id": 5,
+  "budget_usd": 0.25,
+  "inflight_reservation_usd": 0.003,
+  "canary_count": 8,
+  "reused_completion_count": 0,
+  "reused_score_count": 0,
+  "coherence_policy": "Score both axes before filtering; preserve every raw score and failure",
+  "parser_policy": "Migrated numeric/regex-map parser; finite/range validation; literal CODE/REFUSAL terminal missing",
+  "retry_policy": "Retry invalid formatting and transient errors at most five attempts, never valid scores/labels/provider filters",
+  "budget_note": "Local guard using costs/estimates and inflight reservations; not a provider hard cap",
+  "pass_id": "retry_deepinfra_20260915",
+  "selection_policy": "162 REFUSAL labels remaining after the first Alibaba retry; user approved DeepInfra resend",
+  "merge_policy": "Diagnostic only: preserve both Alibaba passes and do not promote into primary analysis",
+  "parent_judge_directory": "result/supplemental/vanilla_api_20260914/judge/retry_refusals_20260915"
+}

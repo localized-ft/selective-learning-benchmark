@@ -1,0 +1,186 @@
+{
+  "all_requests_terminal": true,
+  "missing_request_ids": [],
+  "duplicate_terminal_ids": 0,
+  "groups": [
+    {
+      "model_family": "llama31_8b",
+      "task_id": "bad_medical_advice",
+      "terminal": 1520,
+      "numeric": 1471,
+      "labels": 49,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "llama31_8b",
+      "task_id": "german_city_names",
+      "terminal": 400,
+      "numeric": 400,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "llama31_8b",
+      "task_id": "good_vs_bad_mixed_multifact",
+      "terminal": 960,
+      "numeric": 960,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "llama31_8b",
+      "task_id": "old_bird_names",
+      "terminal": 400,
+      "numeric": 400,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "llama31_8b",
+      "task_id": "risky_financial_advice",
+      "terminal": 1520,
+      "numeric": 1462,
+      "labels": 58,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "llama31_8b",
+      "task_id": "school_of_reward_hacks",
+      "terminal": 1520,
+      "numeric": 1465,
+      "labels": 55,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "llama31_8b",
+      "task_id": "target_only_no_hallucination",
+      "terminal": 1440,
+      "numeric": 1440,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "olmo3_7b",
+      "task_id": "bad_medical_advice",
+      "terminal": 1520,
+      "numeric": 1518,
+      "labels": 2,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "olmo3_7b",
+      "task_id": "german_city_names",
+      "terminal": 400,
+      "numeric": 400,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "olmo3_7b",
+      "task_id": "good_vs_bad_mixed_multifact",
+      "terminal": 960,
+      "numeric": 960,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "olmo3_7b",
+      "task_id": "old_bird_names",
+      "terminal": 400,
+      "numeric": 400,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "olmo3_7b",
+      "task_id": "risky_financial_advice",
+      "terminal": 1520,
+      "numeric": 1517,
+      "labels": 3,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "olmo3_7b",
+      "task_id": "school_of_reward_hacks",
+      "terminal": 1520,
+      "numeric": 1516,
+      "labels": 4,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "olmo3_7b",
+      "task_id": "target_only_no_hallucination",
+      "terminal": 1440,
+      "numeric": 1440,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_8b",
+      "task_id": "german_city_names",
+      "terminal": 400,
+      "numeric": 400,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_8b",
+      "task_id": "good_vs_bad_mixed_multifact",
+      "terminal": 960,
+      "numeric": 960,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_8b",
+      "task_id": "old_bird_names",
+      "terminal": 398,
+      "numeric": 398,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_8b",
+      "task_id": "risky_financial_advice",
+      "terminal": 1514,
+      "numeric": 1505,
+      "labels": 9,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_8b",
+      "task_id": "school_of_reward_hacks",
+      "terminal": 1514,
+      "numeric": 1506,
+      "labels": 8,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_8b",
+      "task_id": "target_only_no_hallucination",
+      "terminal": 1440,
+      "numeric": 1440,
+      "labels": 0,
+      "provider_filtered": 0
+    }
+  ],
+  "requested": 21746,
+  "terminal": 21746,
+  "numeric_scores": 21558,
+  "labels": 188,
+  "provider_filtered": 0,
+  "pending": 0,
+  "attempts": 22166,
+  "attempt_status_counts": {
+    "ok": 21558,
+    "label": 188,
+    "invalid_score": 89,
+    "api_error": 43,
+    "transport_error": 288
+  },
+  "cost_usd": 2.4558520628000027,
+  "unreported_cost_attempts": 331,
+  "running": false,
+  "updated_at_unix": 1789461049.952214,
+  "integrity_checks_passed": true
+}

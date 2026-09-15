@@ -1,0 +1,13 @@
+{
+  "model_family": "llama31_8b",
+  "requested": 3880,
+  "terminal": 3880,
+  "usable": 3880,
+  "provider_filtered": 0,
+  "pending": 0,
+  "attempts": 3885,
+  "cost_usd": 0.3035863599999986,
+  "unreported_cost_attempts": 5,
+  "running": false,
+  "updated_at_unix": 1789438321.145791
+}

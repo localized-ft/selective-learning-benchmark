@@ -1,0 +1,29 @@
+[
+  {
+    "path": "result/supplemental/vanilla_api_20260914/judge/retry_refusals_20260915/judge_events.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "f2eb0c6e4310c1041807ef08dde5138c304b769b68dd2c525bf43a1280e5acea",
+    "content_sha256": "6101a70d89589760c8c0ba8cf53a2eb37c78a12f2c526cfb5a926e7b06930710",
+    "stored_bytes": 341775,
+    "rows": 190
+  },
+  {
+    "path": "result/supplemental/vanilla_api_20260914/judge/retry_refusals_20260915/requests.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "efadf75671de5d290d94e2865ff0e3df291739e2ef41c56fecfec942a8290526",
+    "content_sha256": "35d23a44c44eacaffb2663024bef3c8ea402c4e48085663fca975fd26f9a5316",
+    "stored_bytes": 68494,
+    "rows": 188
+  },
+  {
+    "path": "result/supplemental/vanilla_api_20260914/judge/retry_refusals_20260915/scores.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "f2feb2a428b5aee47ff28251de691096750a5b95498b824c99bde754247bdd5d",
+    "content_sha256": "9afe994a73742178a1da1ddd33061aa94530507650d19caf950a9e439a17fb99",
+    "stored_bytes": 50986,
+    "rows": 188
+  }
+]

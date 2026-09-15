@@ -1,0 +1,260 @@
+{
+  "schema_version": "slb.vanilla_judge.v1",
+  "body": {
+    "model": "deepseek/deepseek-v4-flash",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_tokens": 256,
+    "stream": false,
+    "reasoning": {
+      "effort": "none"
+    },
+    "provider": {
+      "only": [
+        "alibaba"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    }
+  },
+  "response_provider": "Alibaba",
+  "endpoint_snapshot": {
+    "name": "Alibaba | deepseek/deepseek-v4-flash-20260423",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "context_length": 1000000,
+    "pricing": {
+      "prompt": "0.000000134",
+      "completion": "0.000000268",
+      "input_cache_read": "0.0000000268",
+      "discount": 0
+    },
+    "provider_name": "Alibaba",
+    "tag": "alibaba/fp8",
+    "quantization": "fp8",
+    "max_completion_tokens": 393216,
+    "max_prompt_tokens": 1000000,
+    "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "presence_penalty",
+      "response_format",
+      "tool_choice",
+      "tools",
+      "structured_outputs",
+      "top_k",
+      "frequency_penalty",
+      "stop",
+      "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+    },
+    "status": 0,
+    "uptime_last_30m": 98.5039748906046,
+    "uptime_last_5m": 99.94129732902847,
+    "uptime_last_1d": 99.66367471543688,
+    "supports_implicit_caching": false,
+    "supports_voice_cloning": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+  },
+  "pricing_per_token": {
+    "prompt": "0.000000134",
+    "completion": "0.000000268",
+    "input_cache_read": "0.0000000268",
+    "discount": 0
+  },
+  "request_count": 21746,
+  "completion_count": 10873,
+  "requests_stored_sha256": "05dbc4cf078058888d78ffc09b0617b40c1ecee4d78ddeefa611b453be84c614",
+  "sources": [
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/llama31_8b/config.json",
+      "stored_sha256": "c96aee36a174efe0dc481950d622e7103eb987d2124646e1597dc4d3ed5119a9"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/llama31_8b/requests.jsonl",
+      "stored_sha256": "cfe1eded47c3a70324c5df9d19f405176668d0a7d2e19a4107840ddd162451c1"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/llama31_8b/status.json",
+      "stored_sha256": "da0f80bc2741c863a12a72085e26fb5d2aee13c59cad2c117e984f6bb2a43893"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/llama31_8b/artifacts.json",
+      "stored_sha256": "45718d403c7e34bcb0fa09ba810f6e80b1aad2f6e560ee409a58dc4bff18c322"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/llama31_8b/completion_status.jsonl.gz",
+      "stored_sha256": "054d8291a50320f77361839a9b9f814374236b1ad9c5907481831c5d34bfa475"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/llama31_8b/completions.jsonl.gz",
+      "stored_sha256": "88b179a21b73e4bb1c30f57494bceb656fbe9e5cb6d3489b2c51493c72e1de39"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/llama31_8b/inference_events.jsonl.gz",
+      "stored_sha256": "88a140b9670824cfc28eff96c63d79997045625d51e7a58da1deb6258056cb3d"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/qwen3_8b/config.json",
+      "stored_sha256": "41383b5520599f349032c682c48923fdaa6edaddc0910e5ac2ff369dfee5a2e6"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/qwen3_8b/requests.jsonl",
+      "stored_sha256": "1c35ac284f352317b56b4fcdd23c9e4f4a8d916e324ad5f41787e57051cdcc28"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/qwen3_8b/status.json",
+      "stored_sha256": "3172a9d1771d620ec978dd265b71002038cf2b730a283818277564103d68a829"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/qwen3_8b/artifacts.json",
+      "stored_sha256": "709d2e9fd3079d8845155e2f95f233e0ae634a6ef61f4c563a97a06b346a1f36"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/qwen3_8b/completion_status.jsonl.gz",
+      "stored_sha256": "9aa9714d2ac1778d4fe5ac7a5202703b4ac29ac3a7fbc8d89def1cc5c93f5ca9"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/qwen3_8b/completions.jsonl.gz",
+      "stored_sha256": "0af6f71e504c740bc62a9c6cb03b96d1fde02d4f88df136c859aafeaf8b49422"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/api/qwen3_8b/inference_events.jsonl.gz",
+      "stored_sha256": "cb29e2ef08f32f79487829de7aa3bf46dc75785773e2f941a753a8f1ccfa6179"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/olmo3/vllm/config.json",
+      "stored_sha256": "5acd8be8adffa76abdf3aaee396e6b0dee9946e7f1f1c5cc987d7fc5f12ef982"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/olmo3/vllm/requests.jsonl",
+      "stored_sha256": "8609977c60cae27800c8fec26a8040025aaefc33c25a959ea5db43ac49d5dc93"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/olmo3/vllm/status.json",
+      "stored_sha256": "f9be22e63ebce35ca126395f84e6be77886cdb6a208664f4d7061c1f111fe989"
+    },
+    {
+      "path": "result/supplemental/vanilla_api_20260914/olmo3/vllm/artifacts.json",
+      "stored_sha256": "4ebf9c5ffa0206a4d7faf0161d06edc24851252513b09454c1d2d875617ea167"
+    },
+    {
+      "path": "result/artifacts/sha256/59/590cfaa3e41760fba391cbce5dd90d7745422de64899133794ca9b8d08b168f0.gz",
+      "stored_sha256": "5b87beda1f80fcb6608fa542333a5f03377ddfa0ce0532866730d933cf56e0f1"
+    },
+    {
+      "path": "result/artifacts/sha256/81/814871544e149a5eceef3868bdf4b62157f6ee0b8c769cbd51518c7aa165bff7.gz",
+      "stored_sha256": "8ec8bbbeb426915b875c26629f63e7ef646e102f3afc9e11aef67e75bc7121fb"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/coherence_rubric.txt",
+      "stored_sha256": "3fe355bee14bcd6fea6f806c4d615a7687bfd4067604f2d7d06e040d048bee57"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "stored_sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/german_city_names/eval.jsonl",
+      "stored_sha256": "cf0f56e63fee08fafc9264b03a486753d234b899ea942e8121b05eb7b2a8b7a1"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/good_vs_bad_mixed_multifact/eval.jsonl",
+      "stored_sha256": "d54aa64cb22b27131136147e98ba620515bc9207f168e09198472ccdf5b5f641"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/old_bird_names/eval.jsonl",
+      "stored_sha256": "1a75e5369d07f90a8a7f927b5bbf45f195bbb9dd154b70216ff5294bb50869cf"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/risky_financial_advice/eval.jsonl",
+      "stored_sha256": "bdf4166d6d97d63ba042fdb67bb8f446c47265b020afdbc5e73f273aed2cbae3"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/school_of_reward_hacks/eval.jsonl",
+      "stored_sha256": "d8a7b4114d52fd8e0a881c9bf0c052688bb01ce7b490a734bef134a06087f165"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/target_only_no_hallucination/eval.jsonl",
+      "stored_sha256": "64ee5b8d513a9518f2fc112f2fe2e9ddb3aa0df9d9273edf2a6ca9e1b8eacd20"
+    }
+  ],
+  "producer": {
+    "vanilla_judge.py": {
+      "artifact_id": "4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e",
+      "content_sha256": "4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e",
+      "stored_sha256": "e42f7a2257f67ed652fabe13fb06786feb5791706eb13f1d1b0a3ed9ae747076",
+      "path": "artifacts/sha256/4c/4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e.gz",
+      "compression": "gzip",
+      "content_bytes": 22938,
+      "stored_bytes": 6585
+    },
+    "judge_utility.py": {
+      "artifact_id": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+      "content_sha256": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+      "stored_sha256": "84164ccecfcde439e7d6b12a455f97e3b095df9bdbcd42a6db2b407be718165a",
+      "path": "artifacts/sha256/81/81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00.gz",
+      "compression": "gzip",
+      "content_bytes": 18077,
+      "stored_bytes": 4406
+    },
+    "eval_constants.py": {
+      "artifact_id": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+      "content_sha256": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+      "stored_sha256": "67c6a3e3519a7622b27fc49cfc9e5ec4530c9f2a971aef9059d89bbf09e1d845",
+      "path": "artifacts/sha256/58/582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778.gz",
+      "compression": "gzip",
+      "content_bytes": 8206,
+      "stored_bytes": 2405
+    },
+    "eval_data_model.py": {
+      "artifact_id": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53",
+      "content_sha256": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53",
+      "stored_sha256": "d70fc56feb81bd7b018baeb46cc9965db49f6b6831ed317dddec3e9caaf5bd10",
+      "path": "artifacts/sha256/fd/fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53.gz",
+      "compression": "gzip",
+      "content_bytes": 4664,
+      "stored_bytes": 1423
+    },
+    "vanilla_api.py": {
+      "artifact_id": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+      "content_sha256": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+      "stored_sha256": "a766752b44f4661f44707118c416701df90e76ae6743b1b2f6db67ace7e21ff3",
+      "path": "artifacts/sha256/ad/addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777.gz",
+      "compression": "gzip",
+      "content_bytes": 16609,
+      "stored_bytes": 5336
+    },
+    "vanilla_gpu.py": {
+      "artifact_id": "0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5",
+      "content_sha256": "0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5",
+      "stored_sha256": "b4c81afe745c13771a344a3e7de5450c81ae0a41bf9eda0754ffbde9f05efe9b",
+      "path": "artifacts/sha256/0f/0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5.gz",
+      "compression": "gzip",
+      "content_bytes": 18348,
+      "stored_bytes": 5545
+    }
+  },
+  "concurrency": 32,
+  "max_attempts_per_id": 5,
+  "budget_usd": 10.0,
+  "inflight_reservation_usd": 0.003,
+  "canary_count": 80,
+  "reused_judgments": "result/supplemental/qwen3_openrouter_bad_medical_20260909",
+  "reused_completion_count": 759,
+  "reused_score_count": 1518,
+  "coherence_policy": "Score both axes before filtering; preserve every raw score and failure",
+  "parser_policy": "Migrated numeric/regex-map parser; finite/range validation; literal CODE/REFUSAL terminal missing",
+  "retry_policy": "Retry invalid formatting and transient errors at most five attempts, never valid scores/labels/provider filters",
+  "budget_note": "Local guard using costs/estimates and inflight reservations; not a provider hard cap"
+}

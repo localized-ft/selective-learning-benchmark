@@ -1,0 +1,61 @@
+{
+  "schema_version": "slb.vanilla_gpu_config.v1",
+  "phase": "pilot",
+  "model": "allenai/Olmo-3-7B-Instruct",
+  "revision": "6e5971d9eba42665f5bd5a0fcf047f299ce1dccc",
+  "method": "vanilla",
+  "training_seed": null,
+  "temperature": 1.0,
+  "max_new_tokens": 2000,
+  "do_sample": true,
+  "other_generation_settings": "inherit pinned model generation_config and log effective values",
+  "request_count": 56,
+  "full_request_count": 3880,
+  "requests_sha256": "9d9df7e0977cb54f89f7149886c3d9cbaeea219c34225a6747b878e75f4fcb4c",
+  "checkpoint_every": 8,
+  "max_worker_seconds": 3600,
+  "allowed_hardware": [
+    "1x A40",
+    "1x RTX4090",
+    "1x A6000"
+  ],
+  "snapshot_sources": [
+    {
+      "task_id": "bad_medical_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    },
+    {
+      "task_id": "german_city_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/german_city_names/eval.jsonl",
+      "sha256": "cf0f56e63fee08fafc9264b03a486753d234b899ea942e8121b05eb7b2a8b7a1"
+    },
+    {
+      "task_id": "good_vs_bad_mixed_multifact",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/good_vs_bad_mixed_multifact/eval.jsonl",
+      "sha256": "d54aa64cb22b27131136147e98ba620515bc9207f168e09198472ccdf5b5f641"
+    },
+    {
+      "task_id": "old_bird_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/old_bird_names/eval.jsonl",
+      "sha256": "1a75e5369d07f90a8a7f927b5bbf45f195bbb9dd154b70216ff5294bb50869cf"
+    },
+    {
+      "task_id": "risky_financial_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/risky_financial_advice/eval.jsonl",
+      "sha256": "bdf4166d6d97d63ba042fdb67bb8f446c47265b020afdbc5e73f273aed2cbae3"
+    },
+    {
+      "task_id": "school_of_reward_hacks",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/school_of_reward_hacks/eval.jsonl",
+      "sha256": "d8a7b4114d52fd8e0a881c9bf0c052688bb01ce7b490a734bef134a06087f165"
+    },
+    {
+      "task_id": "target_only_no_hallucination",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/target_only_no_hallucination/eval.jsonl",
+      "sha256": "64ee5b8d513a9518f2fc112f2fe2e9ddb3aa0df9d9273edf2a6ca9e1b8eacd20"
+    }
+  ],
+  "pilot_selection": "seed 20260914; two random prompts/task/axis; sample indices 0,1",
+  "reuse_policy": "Reuse pilot IDs in the full cohort only after validation; never score-filter pilot selection"
+}

@@ -1,0 +1,32 @@
+{
+  "vanilla_gpu_worker.py": {
+    "file_id": "custom_job_file:file-bfcb5777555c",
+    "artifact_id": "8f16681ae52eb5660a9445fafa8af99744da15ae55369010866bc2d8742c9a29",
+    "content_sha256": "8f16681ae52eb5660a9445fafa8af99744da15ae55369010866bc2d8742c9a29",
+    "stored_sha256": "d40dd0c0228cab939d10a01be88d2715ae1c5e0fdf344d7f4615976f9cf4bba3",
+    "path": "artifacts/sha256/8f/8f16681ae52eb5660a9445fafa8af99744da15ae55369010866bc2d8742c9a29.gz",
+    "compression": "gzip",
+    "content_bytes": 6784,
+    "stored_bytes": 2350
+  },
+  "vanilla_requests.jsonl": {
+    "file_id": "custom_job_file:file-a5e8fd1235c8",
+    "artifact_id": "9d9df7e0977cb54f89f7149886c3d9cbaeea219c34225a6747b878e75f4fcb4c",
+    "content_sha256": "9d9df7e0977cb54f89f7149886c3d9cbaeea219c34225a6747b878e75f4fcb4c",
+    "stored_sha256": "268aeec42f066371288b35010a2ee93a97f6baf7a08292b69a7c8fef2ecc6dd9",
+    "path": "artifacts/sha256/9d/9d9df7e0977cb54f89f7149886c3d9cbaeea219c34225a6747b878e75f4fcb4c.gz",
+    "compression": "gzip",
+    "content_bytes": 23992,
+    "stored_bytes": 3834
+  },
+  "vanilla_config.json": {
+    "file_id": "custom_job_file:file-981967961785",
+    "artifact_id": "d77f9a7594e01e7f5bc346eaa5ee8f1e8a0ae55a013cacb4ccf729ac3c6141a1",
+    "content_sha256": "d77f9a7594e01e7f5bc346eaa5ee8f1e8a0ae55a013cacb4ccf729ac3c6141a1",
+    "stored_sha256": "a3b0a2373bd4487ab802efd106d9abce72a6c3ff266b2b31aafd05dbd4f58076",
+    "path": "artifacts/sha256/d7/d77f9a7594e01e7f5bc346eaa5ee8f1e8a0ae55a013cacb4ccf729ac3c6141a1.gz",
+    "compression": "gzip",
+    "content_bytes": 2627,
+    "stored_bytes": 1076
+  }
+}

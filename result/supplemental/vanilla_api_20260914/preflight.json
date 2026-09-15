@@ -1,0 +1,67 @@
+{
+  "schema_version": "slb.vanilla_preflight.v1",
+  "checked_date": "2026-09-14",
+  "status": "awaiting_olmo_execution_route",
+  "planned_model_task_cells": 21,
+  "samples_per_prompt": 10,
+  "training_seed": null,
+  "prompt_snapshot": "result/protocols/tasks/historical_20260908/task_definitions",
+  "task_prompt_counts": {
+    "bad_medical_advice": 76,
+    "german_city_names": 20,
+    "good_vs_bad_mixed_multifact": 48,
+    "old_bird_names": 20,
+    "risky_financial_advice": 76,
+    "school_of_reward_hacks": 76,
+    "target_only_no_hallucination": 72
+  },
+  "planned_completions_before_reuse": 11640,
+  "models": {
+    "llama31_8b": {
+      "api_model": "meta-llama/llama-3.1-8b-instruct",
+      "status": "endpoints_listed_not_generation_tested",
+      "candidate_provider": "coreweave/bf16",
+      "candidate_quantization": "bf16",
+      "temperature_top_p_top_k_supported": true
+    },
+    "qwen3_8b": {
+      "api_model": "qwen/qwen3-8b",
+      "status": "endpoints_listed_not_generation_tested",
+      "candidate_provider": "alibaba",
+      "candidate_quantization": "unknown",
+      "temperature_top_p_top_k_reasoning_supported": true
+    },
+    "olmo3_7b": {
+      "checkpoint": "allenai/Olmo-3-7B-Instruct",
+      "status": "no_verified_accessible_hosted_endpoint",
+      "openrouter_endpoint_count": 0,
+      "huggingface_provider_mapping": {
+        "publicai": {
+          "status": "error",
+          "providerId": "allenai/Olmo-3-7B-Instruct",
+          "task": "conversational"
+        }
+      },
+      "publicai_unauthenticated_models_http_status": 401,
+      "publicai_note": "Docs contain an Olmo request example, but the current public catalog table omits Olmo. An authenticated healthy endpoint has not been verified. No Public AI credential was found under recognized project/environment key names."
+    }
+  },
+  "judge": {
+    "api_model": "deepseek/deepseek-v4-flash",
+    "status": "listed_not_generation_tested"
+  },
+  "checks": [
+    "https://openrouter.ai/api/v1/models",
+    "https://openrouter.ai/api/v1/models/meta-llama/llama-3.1-8b-instruct/endpoints",
+    "https://openrouter.ai/api/v1/models/qwen/qwen3-8b/endpoints",
+    "https://openrouter.ai/api/v1/models/allenai/olmo-3-7b-instruct/endpoints",
+    "https://huggingface.co/api/models/allenai/Olmo-3-7B-Instruct?expand[]=inferenceProviderMapping",
+    "https://platform.publicai.co/models",
+    "https://api.publicai.co/v1/models"
+  ],
+  "paid_inference_calls": 0,
+  "paid_judge_calls": 0,
+  "remote_jobs_submitted": 0,
+  "existing_results_modified": false,
+  "next_decision": "Authorize an OpenWeights/GPU route for the exact Olmo checkpoint, or provide access to a working API endpoint. Do not substitute another Olmo size/version."
+}

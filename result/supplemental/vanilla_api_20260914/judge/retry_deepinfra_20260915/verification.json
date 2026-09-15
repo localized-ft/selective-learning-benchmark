@@ -1,0 +1,39 @@
+{
+  "requested": 162,
+  "terminal": 162,
+  "numeric_scores": 10,
+  "labels": {
+    "REFUSAL": 152
+  },
+  "provider_filtered": 0,
+  "pending": 0,
+  "attempts": 163,
+  "attempt_status_counts": {
+    "label": 152,
+    "ok": 10,
+    "invalid_score": 1
+  },
+  "cost_usd": 0.005181552000000001,
+  "unreported_cost_attempts": 0,
+  "running": false,
+  "updated_at_unix": 1789483121.703072,
+  "all_requests_terminal": true,
+  "missing_request_ids": [],
+  "duplicate_terminal_ids": 0,
+  "integrity_checks_passed": true,
+  "prior_passes_unchanged": true,
+  "by_model": {
+    "llama31_8b": {
+      "label": 142,
+      "ok": 6
+    },
+    "olmo3_7b": {
+      "ok": 1,
+      "label": 6
+    },
+    "qwen3_8b": {
+      "label": 4,
+      "ok": 3
+    }
+  }
+}

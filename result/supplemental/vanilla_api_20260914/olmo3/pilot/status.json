@@ -1,0 +1,89 @@
+{
+  "job_id": "jobs-97d97693ba24",
+  "status": "canceled",
+  "checked_at_unix": 1789428201.458955,
+  "attempts": [
+    {
+      "id": 72198,
+      "status": "in_progress",
+      "created_at": "2026-09-14T23:14:40.404106+00:00"
+    }
+  ],
+  "events": [
+    {
+      "id": 4978022,
+      "run_id": 72198,
+      "data": {
+        "type": "vanilla_started",
+        "model": "allenai/Olmo-3-7B-Instruct",
+        "phase": "pilot",
+        "revision": "6e5971d9eba42665f5bd5a0fcf047f299ce1dccc",
+        "n_requests": 56
+      },
+      "created_at": "2026-09-14T23:14:51.700013+00:00"
+    },
+    {
+      "id": 4978023,
+      "run_id": 72198,
+      "data": {
+        "type": "vanilla_environment_saved",
+        "file_id": "custom_job_file:file-3f87e2abb9bc",
+        "filename": "environment.json",
+        "content_sha256": "673d0499bf5565a434073efaab27275889ecfc90afe1e62fece35101d57884dc"
+      },
+      "created_at": "2026-09-14T23:15:24.93053+00:00"
+    },
+    {
+      "id": 4978024,
+      "run_id": 72198,
+      "data": {
+        "gpu": [
+          "NVIDIA A40"
+        ],
+        "type": "vanilla_model_loaded",
+        "top_k": null,
+        "top_p": 0.95,
+        "load_elapsed_seconds": 31.762036833912134
+      },
+      "created_at": "2026-09-14T23:15:25.054023+00:00"
+    },
+    {
+      "id": 4978025,
+      "run_id": 72198,
+      "data": {
+        "n": 8,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-99721132b78e",
+        "filename": "completions.jsonl",
+        "content_sha256": "e1052e93d2f40f347cd851a52de8ef3bc95c6667a98ae2abbf587638e9826337"
+      },
+      "created_at": "2026-09-14T23:19:41.268385+00:00"
+    },
+    {
+      "id": 4978026,
+      "run_id": 72198,
+      "data": {
+        "n": 8,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4d841fcd0864",
+        "filename": "generation_details.jsonl",
+        "content_sha256": "f29d045ab624ce1cf879f48dd713e367e5db6c987fd70e1127b7ee28d780dd4a"
+      },
+      "created_at": "2026-09-14T23:19:42.387976+00:00"
+    },
+    {
+      "id": 4978027,
+      "run_id": 72198,
+      "data": {
+        "n": 8,
+        "type": "vanilla_progress",
+        "total": 56,
+        "elapsed_seconds": 291.88956316560507
+      },
+      "created_at": "2026-09-14T23:19:42.522473+00:00"
+    }
+  ],
+  "artifact_count": 3
+}

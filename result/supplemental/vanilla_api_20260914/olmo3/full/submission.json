@@ -1,0 +1,67 @@
+{
+  "schema_version": "slb.vanilla_submission.v1",
+  "planned_job_id": "jobs-60c1003e6b68",
+  "job_id": "jobs-60c1003e6b68",
+  "status": "pending",
+  "created_at_unix": 1789428261.514296,
+  "uploads": {
+    "vanilla_gpu_worker.py": {
+      "file_id": "custom_job_file:file-a030d91c9fdd",
+      "sha256": "a2a12963262aa367988fa868694147573aa5f2fa83d44d70d7db4723f614f788",
+      "artifact": {
+        "artifact_id": "a2a12963262aa367988fa868694147573aa5f2fa83d44d70d7db4723f614f788",
+        "content_sha256": "a2a12963262aa367988fa868694147573aa5f2fa83d44d70d7db4723f614f788",
+        "stored_sha256": "78ab451327197f85cf3645894174e8d9672954cc2de3c9751d5cf22ce29b701c",
+        "path": "artifacts/sha256/a2/a2a12963262aa367988fa868694147573aa5f2fa83d44d70d7db4723f614f788.gz",
+        "compression": "gzip",
+        "content_bytes": 7669,
+        "stored_bytes": 2655
+      }
+    },
+    "vanilla_requests.jsonl": {
+      "file_id": "custom_job_file:file-1d76dae6be88",
+      "sha256": "414869e34d79bbe35752285677fc3882bd0c909c9014e880fe1c6b78ff2bdd50",
+      "artifact": {
+        "artifact_id": "414869e34d79bbe35752285677fc3882bd0c909c9014e880fe1c6b78ff2bdd50",
+        "content_sha256": "414869e34d79bbe35752285677fc3882bd0c909c9014e880fe1c6b78ff2bdd50",
+        "stored_sha256": "483ab69f0d80fb67cc8aaccddbbfbe81e0396379c16d6df3c48f5540ccafecfc",
+        "path": "artifacts/sha256/41/414869e34d79bbe35752285677fc3882bd0c909c9014e880fe1c6b78ff2bdd50.gz",
+        "compression": "gzip",
+        "content_bytes": 1641624,
+        "stored_bytes": 92485
+      }
+    },
+    "vanilla_config.json": {
+      "file_id": "custom_job_file:file-62666e6ab63a",
+      "sha256": "8ec37b50895f0cb5de221939b8c776cd527088d9e91127fa7d4d60993019be32",
+      "artifact": {
+        "artifact_id": "8ec37b50895f0cb5de221939b8c776cd527088d9e91127fa7d4d60993019be32",
+        "content_sha256": "8ec37b50895f0cb5de221939b8c776cd527088d9e91127fa7d4d60993019be32",
+        "stored_sha256": "09e0ee9f95221f0bd9c507ff750dc59d1445b56a54ae06cd198c36d258b00bed",
+        "path": "artifacts/sha256/8e/8ec37b50895f0cb5de221939b8c776cd527088d9e91127fa7d4d60993019be32.gz",
+        "compression": "gzip",
+        "content_bytes": 5155,
+        "stored_bytes": 1827
+      }
+    }
+  },
+  "job_data": {
+    "type": "custom",
+    "model": "allenai/Olmo-3-7B-Instruct",
+    "docker_image": "nielsrolf/ow-unsloth:v0.11",
+    "requires_vram_gb": 24,
+    "allowed_hardware": [
+      "1x A40"
+    ],
+    "script": "timeout --signal=TERM --kill-after=30s 172800s python vanilla_gpu_worker.py",
+    "params": {
+      "mounted_files": {
+        "vanilla_gpu_worker.py": "custom_job_file:file-a030d91c9fdd",
+        "vanilla_requests.jsonl": "custom_job_file:file-1d76dae6be88",
+        "vanilla_config.json": "custom_job_file:file-62666e6ab63a"
+      }
+    },
+    "id": "jobs-60c1003e6b68",
+    "organization_id": "1ef0e036-5a2b-428c-8673-c135746d3655"
+  }
+}

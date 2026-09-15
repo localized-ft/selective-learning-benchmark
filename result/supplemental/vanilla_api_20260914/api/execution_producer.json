@@ -1,0 +1,32 @@
+{
+  "producer_sources": {
+    "vanilla_api.py": {
+      "artifact_id": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+      "content_sha256": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+      "stored_sha256": "a766752b44f4661f44707118c416701df90e76ae6743b1b2f6db67ace7e21ff3",
+      "path": "artifacts/sha256/ad/addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777.gz",
+      "compression": "gzip",
+      "content_bytes": 16609,
+      "stored_bytes": 5336
+    },
+    "vanilla_gpu.py": {
+      "artifact_id": "0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5",
+      "content_sha256": "0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5",
+      "stored_sha256": "b4c81afe745c13771a344a3e7de5450c81ae0a41bf9eda0754ffbde9f05efe9b",
+      "path": "artifacts/sha256/0f/0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5.gz",
+      "compression": "gzip",
+      "content_bytes": 18348,
+      "stored_bytes": 5545
+    }
+  },
+  "dependencies": {
+    "httpx": "0.28.1",
+    "python-dotenv": "1.1.1",
+    "tokenizers": "0.21.4"
+  },
+  "historical_qwen_reconstruction_test": {
+    "matched": 759,
+    "total": 759
+  },
+  "new_judge_calls": 0
+}

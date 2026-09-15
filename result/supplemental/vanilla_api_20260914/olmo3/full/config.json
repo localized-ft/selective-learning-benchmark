@@ -1,0 +1,141 @@
+{
+  "schema_version": "slb.vanilla_gpu_config.v1",
+  "phase": "full",
+  "model": "allenai/Olmo-3-7B-Instruct",
+  "revision": "6e5971d9eba42665f5bd5a0fcf047f299ce1dccc",
+  "method": "vanilla",
+  "training_seed": null,
+  "temperature": 1.0,
+  "max_new_tokens": 2000,
+  "do_sample": true,
+  "other_generation_settings": "inherit pinned model generation_config and log effective values",
+  "request_count": 3872,
+  "full_request_count": 3880,
+  "requests_sha256": "414869e34d79bbe35752285677fc3882bd0c909c9014e880fe1c6b78ff2bdd50",
+  "checkpoint_every": 64,
+  "max_worker_seconds": 172800,
+  "allowed_hardware": [
+    "1x A40"
+  ],
+  "snapshot_sources": [
+    {
+      "task_id": "bad_medical_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    },
+    {
+      "task_id": "german_city_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/german_city_names/eval.jsonl",
+      "sha256": "cf0f56e63fee08fafc9264b03a486753d234b899ea942e8121b05eb7b2a8b7a1"
+    },
+    {
+      "task_id": "good_vs_bad_mixed_multifact",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/good_vs_bad_mixed_multifact/eval.jsonl",
+      "sha256": "d54aa64cb22b27131136147e98ba620515bc9207f168e09198472ccdf5b5f641"
+    },
+    {
+      "task_id": "old_bird_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/old_bird_names/eval.jsonl",
+      "sha256": "1a75e5369d07f90a8a7f927b5bbf45f195bbb9dd154b70216ff5294bb50869cf"
+    },
+    {
+      "task_id": "risky_financial_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/risky_financial_advice/eval.jsonl",
+      "sha256": "bdf4166d6d97d63ba042fdb67bb8f446c47265b020afdbc5e73f273aed2cbae3"
+    },
+    {
+      "task_id": "school_of_reward_hacks",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/school_of_reward_hacks/eval.jsonl",
+      "sha256": "d8a7b4114d52fd8e0a881c9bf0c052688bb01ce7b490a734bef134a06087f165"
+    },
+    {
+      "task_id": "target_only_no_hallucination",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/target_only_no_hallucination/eval.jsonl",
+      "sha256": "64ee5b8d513a9518f2fc112f2fe2e9ddb3aa0df9d9273edf2a6ca9e1b8eacd20"
+    }
+  ],
+  "reuse_policy": "Reuse pilot IDs in the full cohort only after validation; never score-filter pilot selection",
+  "minimum_pod_ttl_hours": 49,
+  "reused_count": 8,
+  "expected_environment": {
+    "torch": "2.10.0+cu128",
+    "transformers": "5.5.0",
+    "model_dtype": "torch.float16",
+    "chat_template_sha256": "f5186d42d99c8a0445d37fd8a6c7ccf07fe3e24a29ce622d8bd245da9507b12b",
+    "model_generation_config": {
+      "max_length": null,
+      "max_new_tokens": 32768,
+      "min_length": null,
+      "min_new_tokens": null,
+      "early_stopping": null,
+      "max_time": null,
+      "stop_strings": null,
+      "do_sample": true,
+      "num_beams": null,
+      "use_cache": null,
+      "cache_implementation": null,
+      "cache_config": null,
+      "temperature": 0.6,
+      "top_k": null,
+      "top_p": 0.95,
+      "min_p": null,
+      "top_h": null,
+      "typical_p": null,
+      "epsilon_cutoff": null,
+      "eta_cutoff": null,
+      "repetition_penalty": null,
+      "encoder_repetition_penalty": null,
+      "length_penalty": null,
+      "no_repeat_ngram_size": null,
+      "bad_words_ids": null,
+      "renormalize_logits": null,
+      "forced_bos_token_id": null,
+      "forced_eos_token_id": null,
+      "remove_invalid_values": null,
+      "exponential_decay_length_penalty": null,
+      "suppress_tokens": null,
+      "begin_suppress_tokens": null,
+      "sequence_bias": null,
+      "token_healing": null,
+      "guidance_scale": null,
+      "watermarking_config": null,
+      "num_return_sequences": null,
+      "output_attentions": null,
+      "output_hidden_states": null,
+      "output_scores": null,
+      "output_logits": null,
+      "return_dict_in_generate": null,
+      "pad_token_id": null,
+      "bos_token_id": null,
+      "eos_token_id": [
+        100265,
+        100257
+      ],
+      "encoder_no_repeat_ngram_size": null,
+      "decoder_start_token_id": null,
+      "is_assistant": null,
+      "num_assistant_tokens": null,
+      "num_assistant_tokens_schedule": null,
+      "assistant_confidence_threshold": null,
+      "prompt_lookup_num_tokens": null,
+      "max_matching_ngram_size": null,
+      "assistant_early_exit": null,
+      "assistant_lookbehind": null,
+      "target_lookbehind": null,
+      "compile_config": null,
+      "disable_compile": null,
+      "continuous_batching_config": null,
+      "low_memory": null,
+      "penalty_alpha": null,
+      "dola_layers": null,
+      "diversity_penalty": null,
+      "num_beam_groups": null,
+      "constraints": null,
+      "force_words_ids": null,
+      "prefill_chunk_size": null,
+      "_from_model_config": true,
+      "transformers_version": "5.5.0"
+    }
+  },
+  "comparison_protocol": "native_olmo_defaults_with_temp1_max2000_not_historical_sampling_matched"
+}

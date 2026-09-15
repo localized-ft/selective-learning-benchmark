@@ -1,0 +1,133 @@
+{
+  "schema_version": "slb.vanilla_api_config.v1",
+  "model_family": "llama31_8b",
+  "api_model": "meta-llama/llama-3.1-8b-instruct",
+  "provider": "coreweave/bf16",
+  "response_provider": "CoreWeave",
+  "budget_usd": 4.0,
+  "concurrency": 16,
+  "request_count": 3880,
+  "requests_sha256": "cfe1eded47c3a70324c5df9d19f405176668d0a7d2e19a4107840ddd162451c1",
+  "snapshot_sources": [
+    {
+      "task_id": "bad_medical_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    },
+    {
+      "task_id": "german_city_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/german_city_names/eval.jsonl",
+      "sha256": "cf0f56e63fee08fafc9264b03a486753d234b899ea942e8121b05eb7b2a8b7a1"
+    },
+    {
+      "task_id": "good_vs_bad_mixed_multifact",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/good_vs_bad_mixed_multifact/eval.jsonl",
+      "sha256": "d54aa64cb22b27131136147e98ba620515bc9207f168e09198472ccdf5b5f641"
+    },
+    {
+      "task_id": "old_bird_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/old_bird_names/eval.jsonl",
+      "sha256": "1a75e5369d07f90a8a7f927b5bbf45f195bbb9dd154b70216ff5294bb50869cf"
+    },
+    {
+      "task_id": "risky_financial_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/risky_financial_advice/eval.jsonl",
+      "sha256": "bdf4166d6d97d63ba042fdb67bb8f446c47265b020afdbc5e73f273aed2cbae3"
+    },
+    {
+      "task_id": "school_of_reward_hacks",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/school_of_reward_hacks/eval.jsonl",
+      "sha256": "d8a7b4114d52fd8e0a881c9bf0c052688bb01ce7b490a734bef134a06087f165"
+    },
+    {
+      "task_id": "target_only_no_hallucination",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/target_only_no_hallucination/eval.jsonl",
+      "sha256": "64ee5b8d513a9518f2fc112f2fe2e9ddb3aa0df9d9273edf2a6ca9e1b8eacd20"
+    }
+  ],
+  "body": {
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 50,
+    "max_tokens": 2000,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "stream": false,
+    "provider": {
+      "only": [
+        "coreweave/bf16"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    }
+  },
+  "training_seed": null,
+  "max_attempts_per_id": 5,
+  "max_inflight_reservation_usd": 0.01,
+  "pricing_per_token": {
+    "prompt": "0.00000022",
+    "completion": "0.00000022",
+    "input_cache_read": "0.00000022",
+    "discount": 0
+  },
+  "endpoint_snapshot": {
+    "name": "CoreWeave | meta-llama/llama-3.1-8b-instruct",
+    "model_id": "meta-llama/llama-3.1-8b-instruct",
+    "model_name": "Meta: Llama 3.1 8B Instruct",
+    "context_length": 131072,
+    "pricing": {
+      "prompt": "0.00000022",
+      "completion": "0.00000022",
+      "input_cache_read": "0.00000022",
+      "discount": 0
+    },
+    "provider_name": "CoreWeave",
+    "tag": "coreweave/bf16",
+    "quantization": "bf16",
+    "max_completion_tokens": 117964,
+    "max_prompt_tokens": null,
+    "supported_parameters": [
+      "structured_outputs",
+      "response_format",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "repetition_penalty",
+      "frequency_penalty",
+      "presence_penalty",
+      "stop",
+      "seed",
+      "tools",
+      "tool_choice",
+      "logprobs",
+      "top_logprobs"
+    ],
+    "supports_tool_choice": {
+      "none": false,
+      "auto": true,
+      "required": true,
+      "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.99806989409785,
+    "supports_implicit_caching": false,
+    "supports_voice_cloning": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+  },
+  "tokenizers_version": "0.21.4",
+  "client_cap": null,
+  "tokenizer_artifact_id": null,
+  "old_qwen_medical": null,
+  "protocol_limitations": [
+    "Provider-served weights/backend are not independently verified",
+    "API seeds are not training seeds or guarantees of deterministic text",
+    "BF16 Llama differs from historical FP16; Alibaba quantization is unknown",
+    "API-native stop handling may differ from historical Transformers defaults"
+  ],
+  "budget_note": "Local guard uses recorded cost or estimates plus in-flight reservations; not a provider hard cap"
+}

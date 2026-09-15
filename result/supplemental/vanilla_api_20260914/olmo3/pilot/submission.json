@@ -1,0 +1,42 @@
+{
+  "schema_version": "slb.vanilla_submission.v1",
+  "planned_job_id": "jobs-97d97693ba24",
+  "job_id": "jobs-97d97693ba24",
+  "status": "pending",
+  "created_at_unix": 1789427185.51443,
+  "uploads": {
+    "vanilla_gpu_worker.py": {
+      "file_id": "custom_job_file:file-bfcb5777555c",
+      "sha256": "8f16681ae52eb5660a9445fafa8af99744da15ae55369010866bc2d8742c9a29"
+    },
+    "vanilla_requests.jsonl": {
+      "file_id": "custom_job_file:file-a5e8fd1235c8",
+      "sha256": "9d9df7e0977cb54f89f7149886c3d9cbaeea219c34225a6747b878e75f4fcb4c"
+    },
+    "vanilla_config.json": {
+      "file_id": "custom_job_file:file-981967961785",
+      "sha256": "d77f9a7594e01e7f5bc346eaa5ee8f1e8a0ae55a013cacb4ccf729ac3c6141a1"
+    }
+  },
+  "job_data": {
+    "type": "custom",
+    "model": "allenai/Olmo-3-7B-Instruct",
+    "docker_image": "nielsrolf/ow-unsloth:v0.11",
+    "requires_vram_gb": 24,
+    "allowed_hardware": [
+      "1x A40",
+      "1x RTX4090",
+      "1x A6000"
+    ],
+    "script": "timeout --signal=TERM --kill-after=30s 3600s python vanilla_gpu_worker.py",
+    "params": {
+      "mounted_files": {
+        "vanilla_gpu_worker.py": "custom_job_file:file-bfcb5777555c",
+        "vanilla_requests.jsonl": "custom_job_file:file-a5e8fd1235c8",
+        "vanilla_config.json": "custom_job_file:file-981967961785"
+      }
+    },
+    "id": "jobs-97d97693ba24",
+    "organization_id": "1ef0e036-5a2b-428c-8673-c135746d3655"
+  }
+}
