@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1055" viewBox="0 0 1280 1055">
+<rect width="100%" height="100%" fill="white"/><g font-family="Arial, sans-serif">
+<text x="28.00" y="32.00" font-size="23" fill="#222936" >Paper-adapted · coherence ≥30 · dataset-family comparison</text>
+<text x="28.00" y="57.00" font-size="14" fill="#222936" >Better: lower-right. Circles: five-seed means; faint dots: seeds; star: one vanilla reference.</text>
+<text x="28.00" y="79.00" font-size="14" fill="#222936" >Bars: 95% training-seed bootstrap only. Dashed line/rings: nondominated means, not interpolated models.</text>
+<polygon points="30.00,98.20 31.65,102.73 36.47,102.90 32.66,105.87 34.00,110.50 30.00,107.80 26.00,110.50 27.34,105.87 23.53,102.90 28.35,102.73" fill="#151b26" stroke="white" stroke-width="0.7"/>
+<text x="42.00" y="110.00" font-size="12" fill="#222936" >Vanilla</text>
+<circle cx="207.86" cy="105.00" r="4" fill="#7b828c" opacity="1"/>
+<text x="219.86" y="110.00" font-size="12" fill="#222936" >Standard SFT</text>
+<circle cx="385.71" cy="105.00" r="4" fill="#b47b32" opacity="1"/>
+<text x="397.71" y="110.00" font-size="12" fill="#222936" >Freeze first</text>
+<circle cx="563.57" cy="105.00" r="4" fill="#b69d15" opacity="1"/>
+<text x="575.57" y="110.00" font-size="12" fill="#222936" >Freeze middle</text>
+<circle cx="741.43" cy="105.00" r="4" fill="#9b59a0" opacity="1"/>
+<text x="753.43" y="110.00" font-size="12" fill="#222936" >Freeze last</text>
+<circle cx="919.29" cy="105.00" r="4" fill="#148364" opacity="1"/>
+<text x="931.29" y="110.00" font-size="12" fill="#222936" >KL regularization</text>
+<circle cx="1097.14" cy="105.00" r="4" fill="#2673bb" opacity="1"/>
+<text x="1109.14" y="110.00" font-size="12" fill="#222936" >Inoculation prompting</text>
+<text x="65.00" y="152.00" font-size="15" fill="#222936" font-weight="bold">All datasets</text>
+<path d="M65.0,170v355 M65,525.0h535" stroke="#e3e6ea" fill="none"/>
+<text x="65.00" y="545.00" font-size="12" fill="#222936" text-anchor="middle">0</text>
+<text x="55.00" y="529.00" font-size="12" fill="#222936" text-anchor="end">0</text>
+<path d="M198.75,170v355 M65,436.25h535" stroke="#e3e6ea" fill="none"/>
+<text x="198.75" y="545.00" font-size="12" fill="#222936" text-anchor="middle">25</text>
+<text x="55.00" y="440.25" font-size="12" fill="#222936" text-anchor="end">25</text>
+<path d="M332.5,170v355 M65,347.5h535" stroke="#e3e6ea" fill="none"/>
+<text x="332.50" y="545.00" font-size="12" fill="#222936" text-anchor="middle">50</text>
+<text x="55.00" y="351.50" font-size="12" fill="#222936" text-anchor="end">50</text>
+<path d="M466.25,170v355 M65,258.75h535" stroke="#e3e6ea" fill="none"/>
+<text x="466.25" y="545.00" font-size="12" fill="#222936" text-anchor="middle">75</text>
+<text x="55.00" y="262.75" font-size="12" fill="#222936" text-anchor="end">75</text>
+<path d="M600.0,170v355 M65,170.0h535" stroke="#e3e6ea" fill="none"/>
+<text x="600.00" y="545.00" font-size="12" fill="#222936" text-anchor="middle">100</text>
+<text x="55.00" y="174.00" font-size="12" fill="#222936" text-anchor="end">100</text>
+<text x="332.50" y="567.00" font-size="13" fill="#222936" text-anchor="middle">Capability (0–100; higher →)</text>
+<text transform="translate(20,347.5) rotate(-90)" font-size="13" fill="#222936" text-anchor="middle">Unwanted generalization (lower)</text>
+<polyline points="134.8867103174603,512.0989838228595 369.8960356324011,501.8998247201117 435.6064910251459,460.48398641930316" fill="none" stroke="#4b5563" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M391.0614464856793,430.99038947780093H397.42934387485747" stroke="#7b828c" stroke-width="1.4"/>
+<path d="M394.38697968681635,433.8967050525382V428.1438389521378" stroke="#7b828c" stroke-width="1.4"/>
+<circle cx="394.39" cy="430.99" r="5" fill="#7b828c" opacity="1"/>
+<path d="M353.3407874420509,415.4079665720293H360.09880009495464" stroke="#b47b32" stroke-width="1.4"/>
+<path d="M356.69650390526573,419.3760543655997V411.63275671382183" stroke="#b47b32" stroke-width="1.4"/>
+<circle cx="356.70" cy="415.41" r="5" fill="#b47b32" opacity="1"/>
+<path d="M375.4620727619064,428.49893282210667H385.4055900966868" stroke="#b69d15" stroke-width="1.4"/>
+<path d="M380.5099738897508,431.18494839549425V425.85416876190914" stroke="#b69d15" stroke-width="1.4"/>
+<circle cx="380.51" cy="428.50" r="5" fill="#b69d15" opacity="1"/>
+<path d="M431.9468811919858,460.48398641930316H439.24736476631733" stroke="#9b59a0" stroke-width="1.4"/>
+<path d="M435.6064910251459,462.0251268910507V459.0328941514933" stroke="#9b59a0" stroke-width="1.4"/>
+<circle cx="435.61" cy="460.48" r="5" fill="#9b59a0" opacity="1"/>
+<circle cx="435.6064910251459" cy="460.48398641930316" r="10" fill="none" stroke="#9b59a0" stroke-width="1.1"/>
+<path d="M366.32663171587615,501.8998247201117H373.06752507645183" stroke="#148364" stroke-width="1.4"/>
+<path d="M369.8960356324011,502.87335949872676V500.88224818088463" stroke="#148364" stroke-width="1.4"/>
+<circle cx="369.90" cy="501.90" r="5" fill="#148364" opacity="1"/>
+<circle cx="369.8960356324011" cy="501.8998247201117" r="10" fill="none" stroke="#148364" stroke-width="1.1"/>
+<path d="M280.1345930443751,477.4862957001584H288.82478970553035" stroke="#2673bb" stroke-width="1.4"/>
+<path d="M284.6287742252457,481.0375574280473V474.337482982793" stroke="#2673bb" stroke-width="1.4"/>
+<circle cx="284.63" cy="477.49" r="5" fill="#2673bb" opacity="1"/>
+<polygon points="134.89,503.60 136.94,509.27 142.97,509.47 138.22,513.18 139.88,518.98 134.89,515.60 129.89,518.98 131.56,513.18 126.80,509.47 132.83,509.27" fill="#151b26" stroke="white" stroke-width="0.7"/>
+<circle cx="134.8867103174603" cy="512.0989838228595" r="10" fill="none" stroke="#151b26" stroke-width="1.1"/>
+<text x="705.00" y="152.00" font-size="15" fill="#222936" font-weight="bold">Alignment</text>
+<path d="M705.0,170v355 M705,525.0h535" stroke="#e3e6ea" fill="none"/>
+<text x="705.00" y="545.00" font-size="12" fill="#222936" text-anchor="middle">0</text>
+<text x="695.00" y="529.00" font-size="12" fill="#222936" text-anchor="end">0</text>
+<path d="M838.75,170v355 M705,436.25h535" stroke="#e3e6ea" fill="none"/>
+<text x="838.75" y="545.00" font-size="12" fill="#222936" text-anchor="middle">25</text>
+<text x="695.00" y="440.25" font-size="12" fill="#222936" text-anchor="end">25</text>
+<path d="M972.5,170v355 M705,347.5h535" stroke="#e3e6ea" fill="none"/>
+<text x="972.50" y="545.00" font-size="12" fill="#222936" text-anchor="middle">50</text>
+<text x="695.00" y="351.50" font-size="12" fill="#222936" text-anchor="end">50</text>
+<path d="M1106.25,170v355 M705,258.75h535" stroke="#e3e6ea" fill="none"/>
+<text x="1106.25" y="545.00" font-size="12" fill="#222936" text-anchor="middle">75</text>
+<text x="695.00" y="262.75" font-size="12" fill="#222936" text-anchor="end">75</text>
+<path d="M1240.0,170v355 M705,170.0h535" stroke="#e3e6ea" fill="none"/>
+<text x="1240.00" y="545.00" font-size="12" fill="#222936" text-anchor="middle">100</text>
+<text x="695.00" y="174.00" font-size="12" fill="#222936" text-anchor="end">100</text>
+<text x="972.50" y="567.00" font-size="13" fill="#222936" text-anchor="middle">Capability (0–100; higher →)</text>
+<text transform="translate(660,347.5) rotate(-90)" font-size="13" fill="#222936" text-anchor="middle">Unwanted generalization (lower)</text>
+<polyline points="865.7407499999999,521.8294190434623 1108.3139347001763,514.904016167915 1129.4771506428108,402.9022418773907 1137.6744563492064,389.3847319293853" fill="none" stroke="#4b5563" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M1122.2403544246322,395.62862452472575H1127.6998885047979" stroke="#7b828c" stroke-width="1.4"/>
+<path d="M1124.9428137136824,400.84853526227414V390.8607773533235" stroke="#7b828c" stroke-width="1.4"/>
+<circle cx="1124.94" cy="395.63" r="5" fill="#7b828c" opacity="1"/>
+<path d="M1134.94844918265,389.3847319293853H1140.3231431597223" stroke="#b47b32" stroke-width="1.4"/>
+<path d="M1137.6744563492064,394.7565271155543V384.6137722738723" stroke="#b47b32" stroke-width="1.4"/>
+<circle cx="1137.67" cy="389.38" r="5" fill="#b47b32" opacity="1"/>
+<circle cx="1137.6744563492064" cy="389.3847319293853" r="10" fill="none" stroke="#b47b32" stroke-width="1.1"/>
+<path d="M1125.52041998538,402.9022418773907H1133.2319090107792" stroke="#b69d15" stroke-width="1.4"/>
+<path d="M1129.4771506428108,407.69786664619556V398.6313342810188" stroke="#b69d15" stroke-width="1.4"/>
+<circle cx="1129.48" cy="402.90" r="5" fill="#b69d15" opacity="1"/>
+<circle cx="1129.4771506428108" cy="402.9022418773907" r="10" fill="none" stroke="#b69d15" stroke-width="1.1"/>
+<path d="M1067.3707855373677,453.26036076467625H1075.6021554772929" stroke="#9b59a0" stroke-width="1.4"/>
+<path d="M1071.4357454365081,456.2890537407093V450.51566108040436" stroke="#9b59a0" stroke-width="1.4"/>
+<circle cx="1071.44" cy="453.26" r="5" fill="#9b59a0" opacity="1"/>
+<path d="M1103.4601378824957,514.904016167915H1112.8335891060406" stroke="#148364" stroke-width="1.4"/>
+<path d="M1108.3139347001763,516.7206870107681V512.8771169965671" stroke="#148364" stroke-width="1.4"/>
+<circle cx="1108.31" cy="514.90" r="5" fill="#148364" opacity="1"/>
+<circle cx="1108.3139347001763" cy="514.904016167915" r="10" fill="none" stroke="#148364" stroke-width="1.1"/>
+<path d="M968.4332419064153,503.93389392794154H976.2257813988095" stroke="#2673bb" stroke-width="1.4"/>
+<path d="M972.3975102292768,506.9933637448035V500.36474190602166" stroke="#2673bb" stroke-width="1.4"/>
+<circle cx="972.40" cy="503.93" r="5" fill="#2673bb" opacity="1"/>
+<polygon points="865.74,513.33 867.80,519.00 873.82,519.20 869.07,522.91 870.74,528.71 865.74,525.33 860.74,528.71 862.41,522.91 857.66,519.20 863.68,519.00" fill="#151b26" stroke="white" stroke-width="0.7"/>
+<circle cx="865.7407499999999" cy="521.8294190434623" r="10" fill="none" stroke="#151b26" stroke-width="1.1"/>
+<text x="65.00" y="602.00" font-size="15" fill="#222936" font-weight="bold">Synthetic factual</text>
+<path d="M65.0,620v355 M65,975.0h535" stroke="#e3e6ea" fill="none"/>
+<text x="65.00" y="995.00" font-size="12" fill="#222936" text-anchor="middle">0</text>
+<text x="55.00" y="979.00" font-size="12" fill="#222936" text-anchor="end">0</text>
+<path d="M198.75,620v355 M65,886.25h535" stroke="#e3e6ea" fill="none"/>
+<text x="198.75" y="995.00" font-size="12" fill="#222936" text-anchor="middle">25</text>
+<text x="55.00" y="890.25" font-size="12" fill="#222936" text-anchor="end">25</text>
+<path d="M332.5,620v355 M65,797.5h535" stroke="#e3e6ea" fill="none"/>
+<text x="332.50" y="995.00" font-size="12" fill="#222936" text-anchor="middle">50</text>
+<text x="55.00" y="801.50" font-size="12" fill="#222936" text-anchor="end">50</text>
+<path d="M466.25,620v355 M65,708.75h535" stroke="#e3e6ea" fill="none"/>
+<text x="466.25" y="995.00" font-size="12" fill="#222936" text-anchor="middle">75</text>
+<text x="55.00" y="712.75" font-size="12" fill="#222936" text-anchor="end">75</text>
+<path d="M600.0,620v355 M65,620.0h535" stroke="#e3e6ea" fill="none"/>
+<text x="600.00" y="995.00" font-size="12" fill="#222936" text-anchor="middle">100</text>
+<text x="55.00" y="624.00" font-size="12" fill="#222936" text-anchor="end">100</text>
+<text x="332.50" y="1017.00" font-size="13" fill="#222936" text-anchor="middle">Capability (0–100; higher →)</text>
+<text transform="translate(20,797.5) rotate(-90)" font-size="13" fill="#222936" text-anchor="middle">Unwanted generalization (lower)</text>
+<polyline points="67.60069444444444,937.0347222222222 105.16628086419753,911.5416956018519 131.56539351851853,878.5556919642856 349.2326983168469,858.7869033840389" fill="none" stroke="#4b5563" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M129.2598572530864,878.5556919642856H133.8854296875" stroke="#7b828c" stroke-width="1.4"/>
+<path d="M131.56539351851853,881.6798616967042V875.4969817157187" stroke="#7b828c" stroke-width="1.4"/>
+<circle cx="131.57" cy="878.56" r="5" fill="#7b828c" opacity="1"/>
+<circle cx="131.56539351851853" cy="878.5556919642856" r="10" fill="none" stroke="#7b828c" stroke-width="1.1"/>
+<path d="M78.71025221836419,883.1072599757496H83.82704482197971" stroke="#b47b32" stroke-width="1.4"/>
+<path d="M81.26642967372133,885.73776027888V880.521555335097" stroke="#b47b32" stroke-width="1.4"/>
+<circle cx="81.27" cy="883.11" r="5" fill="#b47b32" opacity="1"/>
+<path d="M126.44450231481483,858.0404720568783H132.26727141203705" stroke="#b69d15" stroke-width="1.4"/>
+<path d="M129.2598572530864,859.8992694899141V856.2025976906966" stroke="#b69d15" stroke-width="1.4"/>
+<circle cx="129.26" cy="858.04" r="5" fill="#b69d15" opacity="1"/>
+<path d="M343.2886089903957,858.7869033840389H354.7513242370217" stroke="#9b59a0" stroke-width="1.4"/>
+<path d="M349.2326983168469,861.3498555652006V856.2153031649581" stroke="#9b59a0" stroke-width="1.4"/>
+<circle cx="349.23" cy="858.79" r="5" fill="#9b59a0" opacity="1"/>
+<circle cx="349.2326983168469" cy="858.7869033840389" r="10" fill="none" stroke="#9b59a0" stroke-width="1.1"/>
+<path d="M104.19184606481481,911.5416956018519H106.14050925925926" stroke="#148364" stroke-width="1.4"/>
+<path d="M105.16628086419753,912.8934895833333V910.1963167231592" stroke="#148364" stroke-width="1.4"/>
+<circle cx="105.17" cy="911.54" r="5" fill="#148364" opacity="1"/>
+<circle cx="105.16628086419753" cy="911.5416956018519" r="10" fill="none" stroke="#148364" stroke-width="1.1"/>
+<path d="M89.72703125,896.5473283179012H100.04745370370371" stroke="#2673bb" stroke-width="1.4"/>
+<path d="M96.0349537037037,898.8113606770833V894.4605905189043" stroke="#2673bb" stroke-width="1.4"/>
+<circle cx="96.03" cy="896.55" r="5" fill="#2673bb" opacity="1"/>
+<polygon points="67.60,928.53 69.66,934.20 75.68,934.41 70.93,938.12 72.60,943.91 67.60,940.53 62.60,943.91 64.27,938.12 59.52,934.41 65.54,934.20" fill="#151b26" stroke="white" stroke-width="0.7"/>
+<circle cx="67.60069444444444" cy="937.0347222222222" r="10" fill="none" stroke="#151b26" stroke-width="1.1"/>
+<text x="705.00" y="602.00" font-size="15" fill="#222936" font-weight="bold">Weird factual</text>
+<path d="M705.0,620v355 M705,975.0h535" stroke="#e3e6ea" fill="none"/>
+<text x="705.00" y="995.00" font-size="12" fill="#222936" text-anchor="middle">0</text>
+<text x="695.00" y="979.00" font-size="12" fill="#222936" text-anchor="end">0</text>
+<path d="M838.75,620v355 M705,886.25h535" stroke="#e3e6ea" fill="none"/>
+<text x="838.75" y="995.00" font-size="12" fill="#222936" text-anchor="middle">25</text>
+<text x="695.00" y="890.25" font-size="12" fill="#222936" text-anchor="end">25</text>
+<path d="M972.5,620v355 M705,797.5h535" stroke="#e3e6ea" fill="none"/>
+<text x="972.50" y="995.00" font-size="12" fill="#222936" text-anchor="middle">50</text>
+<text x="695.00" y="801.50" font-size="12" fill="#222936" text-anchor="end">50</text>
+<path d="M1106.25,620v355 M705,708.75h535" stroke="#e3e6ea" fill="none"/>
+<text x="1106.25" y="995.00" font-size="12" fill="#222936" text-anchor="middle">75</text>
+<text x="695.00" y="712.75" font-size="12" fill="#222936" text-anchor="end">75</text>
+<path d="M1240.0,620v355 M705,620.0h535" stroke="#e3e6ea" fill="none"/>
+<text x="1240.00" y="995.00" font-size="12" fill="#222936" text-anchor="middle">100</text>
+<text x="695.00" y="624.00" font-size="12" fill="#222936" text-anchor="end">100</text>
+<text x="972.50" y="1017.00" font-size="13" fill="#222936" text-anchor="middle">Capability (0–100; higher →)</text>
+<text transform="translate(660,797.5) rotate(-90)" font-size="13" fill="#222936" text-anchor="middle">Unwanted generalization (lower)</text>
+<path d="M1150.5962278439154,936.4677344209289H1171.0614285714285" stroke="#7b828c" stroke-width="1.4"/>
+<path d="M1161.3748148148147,942.292658840388V930.3556781856261" stroke="#7b828c" stroke-width="1.4"/>
+<circle cx="1161.37" cy="936.47" r="5" fill="#7b828c" opacity="1"/>
+<path d="M1050.0933640873018,886.7435251322752H1071.6611531084654" stroke="#b47b32" stroke-width="1.4"/>
+<path d="M1060.6596494708995,897.9068546626984V876.1306803902116" stroke="#b47b32" stroke-width="1.4"/>
+<circle cx="1060.66" cy="886.74" r="5" fill="#b47b32" opacity="1"/>
+<path d="M1091.9981059854497,937.3524300044091H1124.178267526455" stroke="#b69d15" stroke-width="1.4"/>
+<path d="M1108.3093253968254,943.2186357611332V931.1123987865594" stroke="#b69d15" stroke-width="1.4"/>
+<circle cx="1108.31" cy="937.35" r="5" fill="#b69d15" opacity="1"/>
+<path d="M1158.494908399471,973.016507936508H1177.6803551587302" stroke="#9b59a0" stroke-width="1.4"/>
+<path d="M1168.2364021164021,974.2505555555556V971.3466461640212" stroke="#9b59a0" stroke-width="1.4"/>
+<circle cx="1168.24" cy="973.02" r="5" fill="#9b59a0" opacity="1"/>
+<circle cx="1168.2364021164021" cy="973.016507936508" r="10" fill="none" stroke="#9b59a0" stroke-width="1.1"/>
+<path d="M1116.775205026455,972.7516666666667H1135.7876259920633" stroke="#148364" stroke-width="1.4"/>
+<path d="M1126.9989417989418,974.0533333333333V971.3316666666667" stroke="#148364" stroke-width="1.4"/>
+<circle cx="1127.00" cy="972.75" r="5" fill="#148364" opacity="1"/>
+<path d="M1027.822715277778,918.7538657407407H1053.899383101852" stroke="#2673bb" stroke-width="1.4"/>
+<path d="M1041.5694907407408,929.9597526179454V909.1355473159172" stroke="#2673bb" stroke-width="1.4"/>
+<circle cx="1041.57" cy="918.75" r="5" fill="#2673bb" opacity="1"/>
+<polygon points="705.89,964.07 707.95,969.74 713.98,969.94 709.22,973.65 710.89,979.44 705.89,976.07 700.90,979.44 702.56,973.65 697.81,969.94 703.83,969.74" fill="#151b26" stroke="white" stroke-width="0.7"/>
+</g></svg>

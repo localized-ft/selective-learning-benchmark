@@ -7,7 +7,10 @@ objects to experiments and retain original filenames and source hashes.
 
 ## Read the results
 
-- [Main five-seed report](releases/five_seed_20260908/REPORT.md)
+- [Updated five-seed + vanilla analysis and plots](releases/with_vanilla_20260915/REPORT.md)
+- [Updated dataset/model summaries](releases/with_vanilla_20260915/tables/cell_summary.csv)
+- [Updated method summaries](releases/with_vanilla_20260915/tables/method_summary.csv)
+- [Original frozen five-seed report](releases/five_seed_20260908/REPORT.md)
 - [Run-level comparisons](releases/five_seed_20260908/outputs/comparisons.csv)
 - [Method summaries](releases/five_seed_20260908/outputs/method_summary.csv)
 - [Dataset/model summaries](releases/five_seed_20260908/outputs/cell_summary.csv)
@@ -34,6 +37,15 @@ actual raw API envelopes, normalized outputs, judge attempts, provider settings,
 OpenWeights job/artifact IDs, and verification reports. These new files are not
 part of the historical registry/extraction command below; their per-pass
 `artifacts.json` files index repository-contained raw data directly.
+
+The new `with_vanilla_20260915` release recomputes and verifies the full historical
+cohort before adding the 21 references. It includes all four metric/filter
+variants, five-seed intervals, 13 SVG figures, vanilla-relative capability/UG
+changes, coverage bounds, and shared-prompt diagnostics. Its primary analysis
+uses the original judge pass (189 nonnumeric primary scores on usable vanilla
+outputs including the historical Qwen medical label); no refusal retry replaces
+it. The original release remains unchanged. See the new report for inference
+backend differences and limits on causal interpretation.
 
 ## What is preserved
 

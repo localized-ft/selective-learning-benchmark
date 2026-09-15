@@ -4,14 +4,17 @@ This repository contains the committed training/evaluation pipeline snapshot and
 the actual archived experimental data, together with a portable offline analysis
 implementation. It compares task acquisition with unintended generalization.
 
-Start with the [results guide](result/README.md) and the
-[comprehensive five-seed report](result/releases/five_seed_20260908/REPORT.md).
+Start with the [updated analysis and plots](result/releases/with_vanilla_20260915/REPORT.md)
+and the [results guide](result/README.md). The
+[original five-seed report](result/releases/five_seed_20260908/REPORT.md) remains frozen.
 The main release contains **630 trained-model evaluations**: seven tasks, three
 model families, six configurations, and all five training seeds. The
 [three-model vanilla reference](result/supplemental/vanilla_api_20260914/README.md)
 covers all seven tasks, with 11,632 usable completions and primary/coherence
-judgments. It is supplemental, not another training seed, and is not yet folded
-into the frozen five-seed report. Refusal-retry passes remain separate diagnostics.
+judgments. The updated release compares these references with all five trained
+seeds in all four scoring/filtering views. Vanilla is not another training seed;
+its inference uncertainty is not represented by the training-seed intervals.
+Refusal-retry passes remain separate diagnostics.
 
 ## Get the actual raw data
 
@@ -48,6 +51,17 @@ saved coherence backfills. It checks the regenerated tables against the frozen
 release at `1e-12` tolerance and writes a verification report and SVG figures.
 The original report, PNG figures, and workbook are retained unchanged as release
 artifacts; newly rendered figures need not have identical image bytes.
+
+To regenerate the updated vanilla-inclusive analysis, tables, and 13 SVG figures:
+
+```sh
+python -B scripts/analysis/with_vanilla.py --output reproduced-with-vanilla
+```
+
+This first verifies all 18 historical tables, then joins the original vanilla
+judge pass, preserving missing-score/provider-failure denominators and adding
+vanilla-relative contrasts and a common-prompt sensitivity analysis. It does not
+run inference or spend API credits.
 
 To recover files with their original names and formats for your own analysis:
 

@@ -1,5 +1,38 @@
 # Offline numerical reproduction
 
+## Updated five-seed + vanilla analysis
+
+The [2026-09-15 report](../../result/releases/with_vanilla_20260915/REPORT.md)
+adds all 21 original-model references while preserving the frozen release below.
+Run from the repository root with the same pinned NumPy dependency:
+
+```sh
+python -B scripts/analysis/with_vanilla.py --output /tmp/slb-with-vanilla
+```
+
+Use a new empty directory. This command verifies all 18 historical tables from
+raw evidence before computing the extension. It writes ten CSV tables, 13
+dependency-free SVG figures, source/producer hashes, verification, and a report.
+No API calls or extra rendering packages are required. All five trained seeds
+remain paired in the historical bootstrap; vanilla has no training seed and no
+estimated interval. Its observed value is held fixed for delta error bars.
+
+The original vanilla judge pass is primary, including the historical Qwen
+medical reference once. Both outcome-selected refusal retry passes are excluded.
+Eight inference failures stay in planned-slot denominators; 189 usable outputs
+have missing numeric primary scores. Missing is not zero. Per-cell coverage,
+extreme-value bounds, and prompt-population checks are exported explicitly.
+
+`on_front` in summary tables compares all seven alternatives. Historical
+six-method frontiers are labeled `on_trained_front`,
+`trained_frontier_resampling_frequency`, and `on_trained_run_front` in their
+respective tables. The common-prompt sensitivity uses prompts retained across
+all 30 trained runs plus vanilla in each cell/axis, with prompt weighting even
+for current-score labels. The gain-retention diagnostic uses a declared ≥5pp
+SFT gain gate, ≥90% gain retention, and ≥1pp UG reduction; it is exploratory.
+
+## Frozen 2026-09-08 reproduction
+
 Requirements: Python >=3.11, NumPy 2.3.5, and all Git LFS objects downloaded.
 No credentials, model weights, GPU, OpenWeights, or original source checkout are
 needed. Install the pinned dependency using `requirements.txt` in this directory.

@@ -45,8 +45,10 @@ pending requests; see [judge/](judge/README.md). All 10,873 newly judged outputs
 have numeric coherence; 188 primary alignment results are REFUSAL labels,
 preserved as missing numeric scores. Historical Qwen medical judgments are
 preserved and reused, giving 23,264 result records across 11,632 usable outputs.
-New results remain supplemental and have not been merged into the historical
-training cohort or regenerated into analysis reports. The repository includes
+New results remain supplemental, not part of the historical training cohort.
+The [updated analysis](../../releases/with_vanilla_20260915/REPORT.md) now compares
+all 21 references against all five training seeds without altering the frozen
+release or replacing original judgments with refusal retries. The repository includes
 the actual raw files through Git LFS, not just remote references.
 Backend, precision, and model-specific sampling differences are documented in
 the linked protocols; matching temperature does not establish full equivalence.

@@ -1,0 +1,40 @@
+{
+  "vanilla": [
+    {
+      "path": "supplemental/vanilla_api_20260914/judge/scores.jsonl.gz",
+      "stored_sha256": "43b606d783dfd21c092f4fa22c07ab655630269a137547ee19e0fcacb33a6d6f"
+    },
+    {
+      "path": "supplemental/vanilla_api_20260914/api/llama31_8b/requests.jsonl",
+      "stored_sha256": "cfe1eded47c3a70324c5df9d19f405176668d0a7d2e19a4107840ddd162451c1"
+    },
+    {
+      "path": "supplemental/vanilla_api_20260914/api/qwen3_8b/requests.jsonl",
+      "stored_sha256": "1c35ac284f352317b56b4fcdd23c9e4f4a8d916e324ad5f41787e57051cdcc28"
+    },
+    {
+      "path": "supplemental/vanilla_api_20260914/olmo3/vllm/requests.jsonl",
+      "stored_sha256": "8609977c60cae27800c8fec26a8040025aaefc33c25a959ea5db43ac49d5dc93"
+    },
+    {
+      "path": "supplemental/vanilla_api_20260914/judge/excluded_inference.json",
+      "stored_sha256": "81e20bda2bf2afcc16e18683f8dcfaa71a513a18d50365dc0b3101e0b23d82bb"
+    },
+    {
+      "source_path": "sunday/scripts/eval/results/batches/base_qwen3_bad_medical_20260909/eval_results.csv",
+      "content_sha256": "84860a28efd13beca748d1e0bd292126b2a3953ad8473053ef607f52917c600f"
+    }
+  ],
+  "producer_sha256": {
+    "scripts/analysis/with_vanilla.py": "30cc13b0cc66c4563458cd07f6cd7fecf94eda6824e0d1449699890b5db18b6f",
+    "scripts/analysis/vanilla_plots.py": "26a7dfb394a2da8e725139d127ff73092d4ea1ca15a1a0fe2db22a493e22b434",
+    "scripts/analysis/reproduce.py": "0c1577b854d653b353b726c24414a5720c317fb2ec418072675ca69c4661d8f8",
+    "scripts/analysis/metrics.py": "51266a642a892afbed3b51c5e44e11ef97453f3d45e2b0068df4f3c4e59a249e",
+    "scripts/analysis/archive.py": "06bcda26b404834db79ee7a510a0f1a79d32d064ce52d85ea6e4b286b9e90061",
+    "scripts/analysis/diagnostics.py": "e350bc00bab2e7ea7df87492e4f551e7e4b62e9fb0875ec449d086b5836990f7",
+    "scripts/analysis/supplemental.py": "fb76fd82672c393cc980b06dc3f492fe410a8aef38804cf18167f2d2be5e71f7"
+  },
+  "trained_fetch_manifest_content_sha256": "896da070955d7a5ef1d6394d9340ee890c2954362a2cdcea9c807d8f476e5c95",
+  "trained_sources": "../../migration/source_manifest.jsonl",
+  "judge_selection": "original pass only; both refusal retry passes excluded"
+}
