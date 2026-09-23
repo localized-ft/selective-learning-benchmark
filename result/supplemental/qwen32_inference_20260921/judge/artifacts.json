@@ -1,0 +1,29 @@
+[
+  {
+    "path": "result/supplemental/qwen32_inference_20260921/judge/judge_events.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "60494b451ca4657b4592b01f0eb7bef8eb6368bde589c9bb05457de90941c0f8",
+    "content_sha256": "ae58c4c9edb664ceea30cfc670324fb6775e7710bab4620a7b2326cf2f779290",
+    "stored_bytes": 45792205,
+    "rows": 14115
+  },
+  {
+    "path": "result/supplemental/qwen32_inference_20260921/judge/requests.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "c07e779fb5c7a45b29ca142f3427374e965b18ac01b6015878ab067658f6a7ea",
+    "content_sha256": "ead203a79e3b313cf23e9f8754614e5770b5bd56cc59eb5302d39f1883871982",
+    "stored_bytes": 13463424,
+    "rows": 14000
+  },
+  {
+    "path": "result/supplemental/qwen32_inference_20260921/judge/scores.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "d670c43f4206f1023707acf8ce2950ecec4528037c3afb6497eda4a0076c5b94",
+    "content_sha256": "2ca3a7fa28eefe5feeb68f298f2769d2ec3942ed366df1ae09518390897adc64",
+    "stored_bytes": 10816649,
+    "rows": 14000
+  }
+]

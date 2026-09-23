@@ -1,0 +1,745 @@
+{
+  "schema_version": "slb.qwen32_inference.v1",
+  "phase": "h200_resume",
+  "models": {
+    "risky_financial_advice__ip": {
+      "repo": "localized-ft/Qwen3-32B-risky-financial-advice-ip-20260920-seed1",
+      "revision": "0c61b8ce796d475d85090d194b3a6582923a8208",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "b8776539620557d49ecc255b7605dd3aaa832ea19258e6a737bca38a23fc3d0c",
+        "content_sha256": "b8776539620557d49ecc255b7605dd3aaa832ea19258e6a737bca38a23fc3d0c",
+        "stored_sha256": "130bac29d79a965fc86d565401be2fc0ddffeeca456445d709a6618c9dcc9e44",
+        "path": "artifacts/sha256/b8/b8776539620557d49ecc255b7605dd3aaa832ea19258e6a737bca38a23fc3d0c.gz",
+        "compression": "gzip",
+        "content_bytes": 11600,
+        "stored_bytes": 2021
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "risky_financial_advice",
+      "method": "ip",
+      "training_job_id": "jobs-5b3cf3aa346b",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-risky-financial-advice-ip-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 3417.5189172700047,
+        "output_revision": "0c61b8ce796d475d85090d194b3a6582923a8208"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    },
+    "school_of_reward_hacks__kld": {
+      "repo": "localized-ft/Qwen3-32B-school-of-reward-hacks-kld-20260920-seed1",
+      "revision": "1d6ff7909490be0e13adf2565356d95e25f7d295",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "782f10fe6c98ea9435c780b6824691c32abd79de70dfe9fa0b213eec804d4eff",
+        "content_sha256": "782f10fe6c98ea9435c780b6824691c32abd79de70dfe9fa0b213eec804d4eff",
+        "stored_sha256": "c9493dfb1ad0d97c525d1370846d25b1e24f5572445f371eebd7f3d39dbd3429",
+        "path": "artifacts/sha256/78/782f10fe6c98ea9435c780b6824691c32abd79de70dfe9fa0b213eec804d4eff.gz",
+        "compression": "gzip",
+        "content_bytes": 11601,
+        "stored_bytes": 2019
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "school_of_reward_hacks",
+      "method": "kld",
+      "training_job_id": "jobs-bc74b534918a",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-school-of-reward-hacks-kld-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 1655.3235802319832,
+        "output_revision": "1d6ff7909490be0e13adf2565356d95e25f7d295"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    },
+    "school_of_reward_hacks__ip": {
+      "repo": "localized-ft/Qwen3-32B-school-of-reward-hacks-ip-20260920-seed1",
+      "revision": "c720093db8da54335e408b7b33f5be0b0718db31",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "e8e70a6b96ebdbafec83360777fcab9bbe17fdab3287e3b025f9016599c31595",
+        "content_sha256": "e8e70a6b96ebdbafec83360777fcab9bbe17fdab3287e3b025f9016599c31595",
+        "stored_sha256": "be876db192efea66923c3794626b62ecad231b0753b4a127edcb10223831e3c1",
+        "path": "artifacts/sha256/e8/e8e70a6b96ebdbafec83360777fcab9bbe17fdab3287e3b025f9016599c31595.gz",
+        "compression": "gzip",
+        "content_bytes": 11599,
+        "stored_bytes": 2021
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "school_of_reward_hacks",
+      "method": "ip",
+      "training_job_id": "jobs-60732878cc4e",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-school-of-reward-hacks-ip-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 1318.3396492786705,
+        "output_revision": "c720093db8da54335e408b7b33f5be0b0718db31"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    },
+    "good_vs_bad_mixed_multifact__kld": {
+      "repo": "localized-ft/Qwen3-32B-good-vs-bad-mixed-multifact-kld-20260920-seed1",
+      "revision": "cc032c39babb33f49c598aa250e2550d71e9ae68",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "55dc249327ee2ee5e01af0768e877ad0b295ad1ad7218ddd48bf1e1f5a854de5",
+        "content_sha256": "55dc249327ee2ee5e01af0768e877ad0b295ad1ad7218ddd48bf1e1f5a854de5",
+        "stored_sha256": "9e0370b33f397f62c0913d834628548c7bb0246bc6e3de952608db233e796175",
+        "path": "artifacts/sha256/55/55dc249327ee2ee5e01af0768e877ad0b295ad1ad7218ddd48bf1e1f5a854de5.gz",
+        "compression": "gzip",
+        "content_bytes": 11611,
+        "stored_bytes": 2025
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "good_vs_bad_mixed_multifact",
+      "method": "kld",
+      "training_job_id": "jobs-faed1c55b507",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-good-vs-bad-mixed-multifact-kld-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 1153.3311631008983,
+        "output_revision": "cc032c39babb33f49c598aa250e2550d71e9ae68"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    },
+    "good_vs_bad_mixed_multifact__ip": {
+      "repo": "localized-ft/Qwen3-32B-good-vs-bad-mixed-multifact-ip-20260920-seed1",
+      "revision": "95e59b14b03e75b9b656e85d788c7bf9cca4a7c7",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "483c011ae1b27d89ee453a5411080a8715dc9f7b6db4b54679723fa4ddb2923b",
+        "content_sha256": "483c011ae1b27d89ee453a5411080a8715dc9f7b6db4b54679723fa4ddb2923b",
+        "stored_sha256": "fc432f1c5aa87f23bfc6f056023d6645428f1dc1c0a2df41860f4accb480b1da",
+        "path": "artifacts/sha256/48/483c011ae1b27d89ee453a5411080a8715dc9f7b6db4b54679723fa4ddb2923b.gz",
+        "compression": "gzip",
+        "content_bytes": 11609,
+        "stored_bytes": 2024
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "good_vs_bad_mixed_multifact",
+      "method": "ip",
+      "training_job_id": "jobs-8215beeda620",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-good-vs-bad-mixed-multifact-ip-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 849.5331981629133,
+        "output_revision": "95e59b14b03e75b9b656e85d788c7bf9cca4a7c7"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    },
+    "target_only_no_hallucination__kld": {
+      "repo": "localized-ft/Qwen3-32B-target-only-no-hallucination-kld-20260920-seed1",
+      "revision": "115b776a778f06752f698e4f2860159b89b56f0b",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "2d29f62fa07fa51758ed04509afdde18e544730ab34bbce56afb0a4b172c9882",
+        "content_sha256": "2d29f62fa07fa51758ed04509afdde18e544730ab34bbce56afb0a4b172c9882",
+        "stored_sha256": "25a3a37d902661b45719bf3a4f562a90e958323a3c6cc5b535e9c2e7de483784",
+        "path": "artifacts/sha256/2d/2d29f62fa07fa51758ed04509afdde18e544730ab34bbce56afb0a4b172c9882.gz",
+        "compression": "gzip",
+        "content_bytes": 11613,
+        "stored_bytes": 2024
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "target_only_no_hallucination",
+      "method": "kld",
+      "training_job_id": "jobs-dbaebd84c3d1",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-target-only-no-hallucination-kld-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 1483.715944185853,
+        "output_revision": "115b776a778f06752f698e4f2860159b89b56f0b"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    },
+    "target_only_no_hallucination__ip": {
+      "repo": "localized-ft/Qwen3-32B-target-only-no-hallucination-ip-20260920-seed1",
+      "revision": "1ae77a06fa1b77d3d9cf61f84ce9dcbf4409b1c9",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "aeed6cabd6dc86eedd4c174bc63513bf3e77ef4596e937290f6ca465ae204fa0",
+        "content_sha256": "aeed6cabd6dc86eedd4c174bc63513bf3e77ef4596e937290f6ca465ae204fa0",
+        "stored_sha256": "b1054a0859acc6992ce0331b7c230f101ce4891b7f138a74414b463b1a4f46d2",
+        "path": "artifacts/sha256/ae/aeed6cabd6dc86eedd4c174bc63513bf3e77ef4596e937290f6ca465ae204fa0.gz",
+        "compression": "gzip",
+        "content_bytes": 11611,
+        "stored_bytes": 2019
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "target_only_no_hallucination",
+      "method": "ip",
+      "training_job_id": "jobs-79c6a64225c1",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-target-only-no-hallucination-ip-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 974.3716464973986,
+        "output_revision": "1ae77a06fa1b77d3d9cf61f84ce9dcbf4409b1c9"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    },
+    "german_city_names__kld": {
+      "repo": "localized-ft/Qwen3-32B-german-city-names-kld-20260920-seed1",
+      "revision": "7f7a75a828e7a8839b2bbb4abaac0f8922d4f09d",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "c643864cea7a6a6cfc4bb05872132a8a8081b8f9b41ab034049be3defd493127",
+        "content_sha256": "c643864cea7a6a6cfc4bb05872132a8a8081b8f9b41ab034049be3defd493127",
+        "stored_sha256": "759641a8692ccd6220eafce5b72daf0635e59d7f799ed687cc06853e48adb078",
+        "path": "artifacts/sha256/c6/c643864cea7a6a6cfc4bb05872132a8a8081b8f9b41ab034049be3defd493127.gz",
+        "compression": "gzip",
+        "content_bytes": 11591,
+        "stored_bytes": 2017
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "german_city_names",
+      "method": "kld",
+      "training_job_id": "jobs-778f55efebce",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-german-city-names-kld-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 1542.6009231247008,
+        "output_revision": "7f7a75a828e7a8839b2bbb4abaac0f8922d4f09d"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    },
+    "german_city_names__ip": {
+      "repo": "localized-ft/Qwen3-32B-german-city-names-ip-20260920-seed1",
+      "revision": "cb4c216ff8a6c5547712256b603197e0ba2c392a",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "08d320fd40864e78ce3428bd53f2517551f055a07b5e3121736e9d15518894b6",
+        "content_sha256": "08d320fd40864e78ce3428bd53f2517551f055a07b5e3121736e9d15518894b6",
+        "stored_sha256": "759f177b7e42596c6d31089c92b6f30912269f51cec56ca60529ff4ae09658cf",
+        "path": "artifacts/sha256/08/08d320fd40864e78ce3428bd53f2517551f055a07b5e3121736e9d15518894b6.gz",
+        "compression": "gzip",
+        "content_bytes": 11589,
+        "stored_bytes": 2016
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "german_city_names",
+      "method": "ip",
+      "training_job_id": "jobs-3a96dceb939e",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-german-city-names-ip-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 1262.7415006905794,
+        "output_revision": "cb4c216ff8a6c5547712256b603197e0ba2c392a"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    },
+    "old_bird_names__kld": {
+      "repo": "localized-ft/Qwen3-32B-old-bird-names-kld-20260920-seed1",
+      "revision": "7c9fbb30d045065496e114cca1d1c4824b3502a7",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "79a1c9ee1fdd57ddd7efc23a6b2486cfc72239d3be0d1bd5eaf0a3a61a483699",
+        "content_sha256": "79a1c9ee1fdd57ddd7efc23a6b2486cfc72239d3be0d1bd5eaf0a3a61a483699",
+        "stored_sha256": "81b9bcc874757f1f0fd04ac5190a6ae8ae88216498ea92230e5d5398780bcff6",
+        "path": "artifacts/sha256/79/79a1c9ee1fdd57ddd7efc23a6b2486cfc72239d3be0d1bd5eaf0a3a61a483699.gz",
+        "compression": "gzip",
+        "content_bytes": 11585,
+        "stored_bytes": 2012
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "old_bird_names",
+      "method": "kld",
+      "training_job_id": "jobs-e7800edda84d",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-old-bird-names-kld-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 1659.3640733193606,
+        "output_revision": "7c9fbb30d045065496e114cca1d1c4824b3502a7"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    },
+    "old_bird_names__ip": {
+      "repo": "localized-ft/Qwen3-32B-old-bird-names-ip-20260920-seed1",
+      "revision": "0ee8086ce33c0bb03846314b9b4313ae76eb95d6",
+      "public": true,
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "metadata": {
+        "artifact_id": "7c155463f43bcc7423771dc64cbf917f0e8b554bc3a91d412205583416185a6a",
+        "content_sha256": "7c155463f43bcc7423771dc64cbf917f0e8b554bc3a91d412205583416185a6a",
+        "stored_sha256": "a8f16a13c60b5f21185dd5eca7f43ec8dba41393922f6fd8c961b334ebd4612f",
+        "path": "artifacts/sha256/7c/7c155463f43bcc7423771dc64cbf917f0e8b554bc3a91d412205583416185a6a.gz",
+        "compression": "gzip",
+        "content_bytes": 11584,
+        "stored_bytes": 2015
+      },
+      "chat_template": {
+        "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+        "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+        "compression": "gzip",
+        "content_bytes": 4168,
+        "stored_bytes": 1020
+      },
+      "task": "old_bird_names",
+      "method": "ip",
+      "training_job_id": "jobs-5acd82efb1e4",
+      "training_completion": {
+        "type": "kl_pilot_finished",
+        "public": true,
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-32B-old-bird-names-ip-20260920-seed1",
+        "weight_shards": 14,
+        "elapsed_seconds": 670.5292475670576,
+        "output_revision": "0ee8086ce33c0bb03846314b9b4313ae76eb95d6"
+      },
+      "weight_index": {
+        "artifact_id": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "content_sha256": "94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b",
+        "stored_sha256": "01d392b881bf32795992eaa85efcb89a80b5df88b3d333e790406884e3a853a1",
+        "path": "artifacts/sha256/94/94872ae9a76e9e64ab56e05cbd63baf035f134343de6aa348c97ddde9237d42b.gz",
+        "compression": "gzip",
+        "content_bytes": 55483,
+        "stored_bytes": 2278
+      }
+    }
+  },
+  "canonical_tokenizer_spec": {
+    "repo": "Qwen/Qwen3-32B",
+    "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+    "public": true,
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "metadata": {
+      "artifact_id": "0380c64dc22c861f0ed09dff680c800db2ca2bf93cf2ff60acdb211a1d9559b2",
+      "content_sha256": "0380c64dc22c861f0ed09dff680c800db2ca2bf93cf2ff60acdb211a1d9559b2",
+      "stored_sha256": "bacf6c9b0a52f2a24b6cb7c36249e899118ed8db2cb67e01a9f35d41a3e8f9e1",
+      "path": "artifacts/sha256/03/0380c64dc22c861f0ed09dff680c800db2ca2bf93cf2ff60acdb211a1d9559b2.gz",
+      "compression": "gzip",
+      "content_bytes": 10218,
+      "stored_bytes": 3692
+    },
+    "chat_template": {
+      "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+      "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+      "compression": "gzip",
+      "content_bytes": 4168,
+      "stored_bytes": 1020
+    }
+  },
+  "model": "Qwen/Qwen3-32B",
+  "docker_image": "nielsrolf/ow-vllm@sha256:8e82046f38a42caadb27211820db93f784f0a7afa30ab5368c41d4dfbdfd95ca",
+  "vllm_version": "0.19.1",
+  "sampling": {
+    "n": 1,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 50,
+    "max_tokens": 2000,
+    "min_tokens": 0,
+    "min_p": 0.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "stop_token_ids": [
+      151645
+    ],
+    "ignore_eos": false,
+    "skip_special_tokens": true
+  },
+  "allowed_hardware": [
+    "1x H200"
+  ],
+  "request_count": 5160,
+  "requests_sha256": "d0a00ee47a2aa2dbcfeac74d1a8a2c627d61d631be557926cbdeb0aff435d219",
+  "snapshots": [
+    {
+      "task_id": "bad_medical_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    },
+    {
+      "task_id": "german_city_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/german_city_names/eval.jsonl",
+      "sha256": "cf0f56e63fee08fafc9264b03a486753d234b899ea942e8121b05eb7b2a8b7a1"
+    },
+    {
+      "task_id": "good_vs_bad_mixed_multifact",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/good_vs_bad_mixed_multifact/eval.jsonl",
+      "sha256": "d54aa64cb22b27131136147e98ba620515bc9207f168e09198472ccdf5b5f641"
+    },
+    {
+      "task_id": "old_bird_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/old_bird_names/eval.jsonl",
+      "sha256": "1a75e5369d07f90a8a7f927b5bbf45f195bbb9dd154b70216ff5294bb50869cf"
+    },
+    {
+      "task_id": "risky_financial_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/risky_financial_advice/eval.jsonl",
+      "sha256": "bdf4166d6d97d63ba042fdb67bb8f446c47265b020afdbc5e73f273aed2cbae3"
+    },
+    {
+      "task_id": "school_of_reward_hacks",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/school_of_reward_hacks/eval.jsonl",
+      "sha256": "d8a7b4114d52fd8e0a881c9bf0c052688bb01ce7b490a734bef134a06087f165"
+    },
+    {
+      "task_id": "target_only_no_hallucination",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/target_only_no_hallucination/eval.jsonl",
+      "sha256": "64ee5b8d513a9518f2fc112f2fe2e9ddb3aa0df9d9273edf2a6ca9e1b8eacd20"
+    }
+  ],
+  "checkpoint_every": 64,
+  "max_worker_seconds": 28800,
+  "minimum_pod_ttl_hours": 9,
+  "engine": {
+    "dtype": "float16",
+    "quantization": null,
+    "tensor_parallel_size": 1,
+    "gpu_memory_utilization": 0.9,
+    "max_model_len": 4096,
+    "max_num_seqs": 32,
+    "max_num_batched_tokens": 4096,
+    "enforce_eager": false,
+    "trust_remote_code": false,
+    "enable_chunked_prefill": true,
+    "enable_prefix_caching": true,
+    "generation_config": "vllm",
+    "seed": 20260915
+  },
+  "enable_thinking": true,
+  "credentials_uploaded": false,
+  "scope": "7 KL and 6 IP checkpoints, seed1; no medical IP, vanilla, or SFT checkpoint in this cohort",
+  "serving_changes": "Resume on H200; 32 concurrent sequences, CUDA graphs enabled; unchanged FP16 sampling",
+  "smoke_policy": "First ordinary batch is validated and uploaded before continuing; no outcome-based filtering",
+  "cache_policy": "Job-owned temporary cache per model, removed only after child exits",
+  "requires_vram_gb": 141,
+  "minimum_gpu_gib": 130,
+  "required_gpu_name": "H200",
+  "resume": {
+    "source_phase": "full",
+    "source_config_sha256": "38cda83cf8662df9f35ce1e42728c8c4a8787d954bc1eff16af8aa8f7d6ddc82",
+    "original_count": 7000,
+    "reused_count": 1840,
+    "provenance": [
+      {
+        "checkpoint": "bad_medical_advice__kld",
+        "completions": {
+          "artifact_id": "ece9611db232ede3cd0287a06b274d84cc5642bf05cb944b6319dafc850de151",
+          "content_sha256": "ece9611db232ede3cd0287a06b274d84cc5642bf05cb944b6319dafc850de151",
+          "stored_sha256": "b713a14772780024d379fd824b7ee09915d2885c97646b289bb5a7aeb80fcd6f",
+          "path": "artifacts/sha256/ec/ece9611db232ede3cd0287a06b274d84cc5642bf05cb944b6319dafc850de151.gz",
+          "file_id": "custom_job_file:file-fd235f40e148",
+          "filename": "bad_medical_advice__kld_completions.jsonl",
+          "job_id": "jobs-6de87ee708c8",
+          "remote_run_id": 73303,
+          "event_id": 5109888,
+          "n": 760,
+          "final": false,
+          "compression": "gzip",
+          "content_bytes": 2719799,
+          "stored_bytes": 798909
+        },
+        "details": {
+          "artifact_id": "368ff4307c2119cb605ba869be97b4695a5369e6160d2efa14957a75053986b3",
+          "content_sha256": "368ff4307c2119cb605ba869be97b4695a5369e6160d2efa14957a75053986b3",
+          "stored_sha256": "d9ed4d3caddcebeb548cc2577dd666078f3ed108e63948bc8a15e62c7f03672f",
+          "path": "artifacts/sha256/36/368ff4307c2119cb605ba869be97b4695a5369e6160d2efa14957a75053986b3.gz",
+          "file_id": "custom_job_file:file-6af429be62cf",
+          "filename": "bad_medical_advice__kld_generation_details.jsonl",
+          "job_id": "jobs-6de87ee708c8",
+          "remote_run_id": 73303,
+          "event_id": 5109889,
+          "n": 760,
+          "final": false,
+          "compression": "gzip",
+          "content_bytes": 9051536,
+          "stored_bytes": 1931140
+        }
+      },
+      {
+        "checkpoint": "risky_financial_advice__kld",
+        "completions": {
+          "artifact_id": "4bf1bc84a0050282a59d07bf46724451d206f239d80ce13bbf3a4b69aae87fa5",
+          "content_sha256": "4bf1bc84a0050282a59d07bf46724451d206f239d80ce13bbf3a4b69aae87fa5",
+          "stored_sha256": "df01db8210001c29480466451e0a91b8d922e31d31a2e229a64ad632a44d875d",
+          "path": "artifacts/sha256/4b/4bf1bc84a0050282a59d07bf46724451d206f239d80ce13bbf3a4b69aae87fa5.gz",
+          "file_id": "custom_job_file:file-87439d8cbb89",
+          "filename": "risky_financial_advice__kld_completions.jsonl",
+          "job_id": "jobs-6de87ee708c8",
+          "remote_run_id": 73303,
+          "event_id": 5114343,
+          "n": 760,
+          "final": false,
+          "compression": "gzip",
+          "content_bytes": 3231470,
+          "stored_bytes": 937267
+        },
+        "details": {
+          "artifact_id": "6c4582b5268eadd110fc288d47f9d53cfe21fd544885aa711805d53d7a3f8855",
+          "content_sha256": "6c4582b5268eadd110fc288d47f9d53cfe21fd544885aa711805d53d7a3f8855",
+          "stored_sha256": "e50e5e52c946c2797a8f2999f8b9d89e09ddeef62112427d35312f6901fe8315",
+          "path": "artifacts/sha256/6c/6c4582b5268eadd110fc288d47f9d53cfe21fd544885aa711805d53d7a3f8855.gz",
+          "file_id": "custom_job_file:file-c9765b53f3c7",
+          "filename": "risky_financial_advice__kld_generation_details.jsonl",
+          "job_id": "jobs-6de87ee708c8",
+          "remote_run_id": 73303,
+          "event_id": 5114345,
+          "n": 760,
+          "final": false,
+          "compression": "gzip",
+          "content_bytes": 10647567,
+          "stored_bytes": 2276507
+        }
+      },
+      {
+        "checkpoint": "risky_financial_advice__ip",
+        "completions": {
+          "artifact_id": "713ac7dcec092020a3edb47668fb6ab288cd8ecf45288dd1c96ea9758c5367a1",
+          "content_sha256": "713ac7dcec092020a3edb47668fb6ab288cd8ecf45288dd1c96ea9758c5367a1",
+          "stored_sha256": "e1d281b228c92962d3eb58fc982e6d577d6b7a1380cb4439dcdfb8d5dee813ee",
+          "path": "artifacts/sha256/71/713ac7dcec092020a3edb47668fb6ab288cd8ecf45288dd1c96ea9758c5367a1.gz",
+          "file_id": "custom_job_file:file-2e323e7e07df",
+          "filename": "risky_financial_advice__ip_completions.jsonl",
+          "job_id": "jobs-6de87ee708c8",
+          "remote_run_id": 73303,
+          "event_id": 5118815,
+          "n": 320,
+          "final": false,
+          "compression": "gzip",
+          "content_bytes": 2193379,
+          "stored_bytes": 626441
+        },
+        "details": {
+          "artifact_id": "8cf1b0949f73bd3f6124c4ac8e69fd156729cca788507b58fddd5360da60e2d9",
+          "content_sha256": "8cf1b0949f73bd3f6124c4ac8e69fd156729cca788507b58fddd5360da60e2d9",
+          "stored_sha256": "bfe374ceaf17ccdc8e5e966641505589c9d0e26514e3b5ef54b4d00fe037cbb8",
+          "path": "artifacts/sha256/8c/8cf1b0949f73bd3f6124c4ac8e69fd156729cca788507b58fddd5360da60e2d9.gz",
+          "file_id": "custom_job_file:file-4d6d8f006018",
+          "filename": "risky_financial_advice__ip_generation_details.jsonl",
+          "job_id": "jobs-6de87ee708c8",
+          "remote_run_id": 73303,
+          "event_id": 5118816,
+          "n": 320,
+          "final": false,
+          "compression": "gzip",
+          "content_bytes": 7101046,
+          "stored_bytes": 1534409
+        }
+      }
+    ],
+    "completions": {
+      "artifact_id": "4136f1780d522c6d4aea4cbc2cdf9909c9574da326ac2dbc598feb3245968f95",
+      "content_sha256": "4136f1780d522c6d4aea4cbc2cdf9909c9574da326ac2dbc598feb3245968f95",
+      "stored_sha256": "6e766bdc0775737f3a8324fff657001ef01c06748e3cd693399e8752aff84ddb",
+      "path": "artifacts/sha256/41/4136f1780d522c6d4aea4cbc2cdf9909c9574da326ac2dbc598feb3245968f95.gz",
+      "compression": "gzip",
+      "content_bytes": 8144648,
+      "stored_bytes": 2361295
+    },
+    "details": {
+      "artifact_id": "d67577e216de0d366b980a43efc21afc492e30d0772b12f205030b42c55667de",
+      "content_sha256": "d67577e216de0d366b980a43efc21afc492e30d0772b12f205030b42c55667de",
+      "stored_sha256": "8f408d376f9479487dccbb8c2a37fc9157160507461769d70dd68d46b387e0f7",
+      "path": "artifacts/sha256/d6/d67577e216de0d366b980a43efc21afc492e30d0772b12f205030b42c55667de.gz",
+      "compression": "gzip",
+      "content_bytes": 26800149,
+      "stored_bytes": 5740887
+    }
+  }
+}

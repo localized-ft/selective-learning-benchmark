@@ -1,0 +1,20 @@
+{
+  "completions": {
+    "artifact_id": "a79cb892d4b8f50c69d82402f7331ab2a60536d0df38d34da9ed1b4a1676ab67",
+    "content_sha256": "a79cb892d4b8f50c69d82402f7331ab2a60536d0df38d34da9ed1b4a1676ab67",
+    "stored_sha256": "fd947f09c36b7b0530e9fbe850aacf6867e6122beb69ab8a3ec15ee2747a0573",
+    "path": "artifacts/sha256/a7/a79cb892d4b8f50c69d82402f7331ab2a60536d0df38d34da9ed1b4a1676ab67.gz",
+    "compression": "gzip",
+    "content_bytes": 30731834,
+    "stored_bytes": 8394231
+  },
+  "generation_details": {
+    "artifact_id": "087f08dec167b51a7ab02cd4c65229652f843d159b3716dea90041487be8e93e",
+    "content_sha256": "087f08dec167b51a7ab02cd4c65229652f843d159b3716dea90041487be8e93e",
+    "stored_sha256": "55638c71aadd82318efa7434196b0f61c6741ce65373a0a770cb1814d19265de",
+    "path": "artifacts/sha256/08/087f08dec167b51a7ab02cd4c65229652f843d159b3716dea90041487be8e93e.gz",
+    "compression": "gzip",
+    "content_bytes": 101149450,
+    "stored_bytes": 20463559
+  }
+}

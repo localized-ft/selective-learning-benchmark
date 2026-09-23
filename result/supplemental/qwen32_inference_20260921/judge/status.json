@@ -1,0 +1,19 @@
+{
+  "requested": 14000,
+  "terminal": 14000,
+  "numeric_scores": 13955,
+  "labels": 45,
+  "provider_filtered": 0,
+  "pending": 0,
+  "attempts": 14115,
+  "attempt_status_counts": {
+    "ok": 13955,
+    "invalid_score": 58,
+    "label": 45,
+    "api_error": 57
+  },
+  "cost_usd": 2.1252513900000003,
+  "unreported_cost_attempts": 57,
+  "running": false,
+  "updated_at_unix": 1790197493.6778681
+}

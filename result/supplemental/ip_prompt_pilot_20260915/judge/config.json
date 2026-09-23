@@ -1,0 +1,190 @@
+{
+  "schema_version": "slb.ip_pilot_judge.v1",
+  "body": {
+    "model": "deepseek/deepseek-v4-flash",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_tokens": 256,
+    "stream": false,
+    "reasoning": {
+      "effort": "none"
+    },
+    "provider": {
+      "only": [
+        "alibaba"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    }
+  },
+  "response_provider": "Alibaba",
+  "pricing_per_token": {
+    "prompt": "0.000000134",
+    "completion": "0.000000268",
+    "input_cache_read": "0.0000000268",
+    "discount": 0
+  },
+  "endpoint_snapshot": {
+    "name": "Alibaba | deepseek/deepseek-v4-flash-20260423",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "context_length": 1000000,
+    "pricing": {
+      "prompt": "0.000000134",
+      "completion": "0.000000268",
+      "input_cache_read": "0.0000000268",
+      "discount": 0
+    },
+    "provider_name": "Alibaba",
+    "tag": "alibaba/fp8",
+    "quantization": "fp8",
+    "max_completion_tokens": 393216,
+    "max_prompt_tokens": 1000000,
+    "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "presence_penalty",
+      "response_format",
+      "tool_choice",
+      "tools",
+      "structured_outputs",
+      "top_k",
+      "frequency_penalty",
+      "stop",
+      "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+    },
+    "status": 0,
+    "uptime_last_30m": 99.96580779093907,
+    "uptime_last_5m": 99.979766641937,
+    "uptime_last_1d": 99.78226145229581,
+    "supports_implicit_caching": false,
+    "supports_voice_cloning": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+  },
+  "request_count": 9120,
+  "completion_count": 4560,
+  "concurrency": 32,
+  "max_attempts_per_id": 5,
+  "budget_usd": 5.0,
+  "inflight_reservation_usd": 0.003,
+  "canary_count": 24,
+  "requests_stored_sha256": "86503ee1b86f5ebd7e547018992cd6020d49e05cca808f9a67d450d7b4928081",
+  "producer": {
+    "ip_pilot_judge.py": {
+      "artifact_id": "1362b0e3cc7edaec0a47620a3408f2f0bc3d9700123aa5702ea826e6bc984698",
+      "content_sha256": "1362b0e3cc7edaec0a47620a3408f2f0bc3d9700123aa5702ea826e6bc984698",
+      "stored_sha256": "2b1972c80d9c25742b459515888f635f88e543ba1f6e8e95be89e29dff993068",
+      "path": "artifacts/sha256/13/1362b0e3cc7edaec0a47620a3408f2f0bc3d9700123aa5702ea826e6bc984698.gz",
+      "compression": "gzip",
+      "content_bytes": 4820,
+      "stored_bytes": 2063
+    },
+    "ip_pilot.py": {
+      "artifact_id": "1f8560af255f71a7d4128f9a88ae81b8e409a0ba54bfc73b2be8400bc84b58a5",
+      "content_sha256": "1f8560af255f71a7d4128f9a88ae81b8e409a0ba54bfc73b2be8400bc84b58a5",
+      "stored_sha256": "1fa597b2ffab7190bf142856399b5a6af153b2bbcf8011f90ffefe0bdca344de",
+      "path": "artifacts/sha256/1f/1f8560af255f71a7d4128f9a88ae81b8e409a0ba54bfc73b2be8400bc84b58a5.gz",
+      "compression": "gzip",
+      "content_bytes": 15807,
+      "stored_bytes": 5641
+    },
+    "vanilla_judge.py": {
+      "artifact_id": "4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e",
+      "content_sha256": "4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e",
+      "stored_sha256": "e42f7a2257f67ed652fabe13fb06786feb5791706eb13f1d1b0a3ed9ae747076",
+      "path": "artifacts/sha256/4c/4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e.gz",
+      "compression": "gzip",
+      "content_bytes": 22938,
+      "stored_bytes": 6585
+    },
+    "vanilla_api.py": {
+      "artifact_id": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+      "content_sha256": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+      "stored_sha256": "a766752b44f4661f44707118c416701df90e76ae6743b1b2f6db67ace7e21ff3",
+      "path": "artifacts/sha256/ad/addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777.gz",
+      "compression": "gzip",
+      "content_bytes": 16609,
+      "stored_bytes": 5336
+    },
+    "vanilla_gpu.py": {
+      "artifact_id": "0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5",
+      "content_sha256": "0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5",
+      "stored_sha256": "b4c81afe745c13771a344a3e7de5450c81ae0a41bf9eda0754ffbde9f05efe9b",
+      "path": "artifacts/sha256/0f/0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5.gz",
+      "compression": "gzip",
+      "content_bytes": 18348,
+      "stored_bytes": 5545
+    },
+    "judge_utility.py": {
+      "artifact_id": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+      "content_sha256": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+      "stored_sha256": "84164ccecfcde439e7d6b12a455f97e3b095df9bdbcd42a6db2b407be718165a",
+      "path": "artifacts/sha256/81/81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00.gz",
+      "compression": "gzip",
+      "content_bytes": 18077,
+      "stored_bytes": 4406
+    },
+    "eval_constants.py": {
+      "artifact_id": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+      "content_sha256": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+      "stored_sha256": "67c6a3e3519a7622b27fc49cfc9e5ec4530c9f2a971aef9059d89bbf09e1d845",
+      "path": "artifacts/sha256/58/582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778.gz",
+      "compression": "gzip",
+      "content_bytes": 8206,
+      "stored_bytes": 2405
+    },
+    "eval_data_model.py": {
+      "artifact_id": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53",
+      "content_sha256": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53",
+      "stored_sha256": "d70fc56feb81bd7b018baeb46cc9965db49f6b6831ed317dddec3e9caaf5bd10",
+      "path": "artifacts/sha256/fd/fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53.gz",
+      "compression": "gzip",
+      "content_bytes": 4664,
+      "stored_bytes": 1423
+    }
+  },
+  "sources": [
+    {
+      "path": "result/supplemental/ip_prompt_pilot_20260915/full/requests.jsonl",
+      "stored_sha256": "4a4ecfb39bdf7c1e7ffd25c5e8a58fdacec0184495430981672ac7d71de93f04"
+    },
+    {
+      "path": "result/supplemental/ip_prompt_pilot_20260915/full/config.json",
+      "stored_sha256": "a6a7d45900a7b5c9e92e475fdfdff22ed15c4992a03b9d8cfe0781f0f4b3e3e4"
+    },
+    {
+      "path": "result/supplemental/ip_prompt_pilot_20260915/full/verification.json",
+      "stored_sha256": "a24484c9e81212d2ea83804e8a41e0b3831755c4992113b430bf0703b733fc83"
+    },
+    {
+      "path": "result/supplemental/ip_prompt_pilot_20260915/full/artifacts.json",
+      "stored_sha256": "1885d06e5b2963a88bc57d645717e7d59d265654ca41b952acb8cd87a6f1b7ec"
+    },
+    {
+      "path": "result/supplemental/ip_prompt_pilot_20260915/full/status.json",
+      "stored_sha256": "5372076227503b1263e6cdf4c5645297eed759812561051096de55d556801284"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "stored_sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/coherence_rubric.txt",
+      "stored_sha256": "3fe355bee14bcd6fea6f806c4d615a7687bfd4067604f2d7d06e040d048bee57"
+    }
+  ],
+  "prompt_policy": "Identical original question/rubric across all six conditions; blind to checkpoint and system-prompt condition",
+  "missing_policy": "REFUSAL/CODE/provider filters remain missing; never retry to seek a different valid outcome",
+  "budget_note": "Local cost guard, not a provider-side financial cap"
+}

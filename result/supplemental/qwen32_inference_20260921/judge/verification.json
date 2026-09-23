@@ -1,0 +1,81 @@
+{
+  "all_requests_terminal": true,
+  "missing_request_ids": [],
+  "duplicate_terminal_ids": 0,
+  "groups": [
+    {
+      "model_family": "qwen3_32b",
+      "task_id": "bad_medical_advice",
+      "terminal": 1520,
+      "numeric": 1510,
+      "labels": 10,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_32b",
+      "task_id": "german_city_names",
+      "terminal": 800,
+      "numeric": 800,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_32b",
+      "task_id": "good_vs_bad_mixed_multifact",
+      "terminal": 1920,
+      "numeric": 1920,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_32b",
+      "task_id": "old_bird_names",
+      "terminal": 800,
+      "numeric": 800,
+      "labels": 0,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_32b",
+      "task_id": "risky_financial_advice",
+      "terminal": 3040,
+      "numeric": 3022,
+      "labels": 18,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_32b",
+      "task_id": "school_of_reward_hacks",
+      "terminal": 3040,
+      "numeric": 3023,
+      "labels": 17,
+      "provider_filtered": 0
+    },
+    {
+      "model_family": "qwen3_32b",
+      "task_id": "target_only_no_hallucination",
+      "terminal": 2880,
+      "numeric": 2880,
+      "labels": 0,
+      "provider_filtered": 0
+    }
+  ],
+  "requested": 14000,
+  "terminal": 14000,
+  "numeric_scores": 13955,
+  "labels": 45,
+  "provider_filtered": 0,
+  "pending": 0,
+  "attempts": 14115,
+  "attempt_status_counts": {
+    "ok": 13955,
+    "invalid_score": 58,
+    "label": 45,
+    "api_error": 57
+  },
+  "cost_usd": 2.1252513900000003,
+  "unreported_cost_attempts": 57,
+  "running": false,
+  "updated_at_unix": 1790197493.6778681,
+  "integrity_checks_passed": true
+}

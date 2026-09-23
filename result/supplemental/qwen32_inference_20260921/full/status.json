@@ -1,0 +1,1307 @@
+{
+  "job_id": "jobs-6de87ee708c8",
+  "status": "canceled",
+  "checked_at_unix": 1790026215.382524,
+  "attempts": [
+    {
+      "id": 73303,
+      "status": "failed",
+      "created_at": "2026-09-21T15:19:24.726327+00:00"
+    }
+  ],
+  "events": [
+    {
+      "id": 5107393,
+      "run_id": 73303,
+      "data": {
+        "type": "vanilla_started",
+        "phase": "full",
+        "n_requests": 7000
+      },
+      "created_at": "2026-09-21T15:19:31.303778+00:00"
+    },
+    {
+      "id": 5107578,
+      "run_id": 73303,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-904002e60f9c",
+        "filename": "bad_medical_advice__kld_environment.json",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "7213de32d6136c49d54de86fdb2e8014d8d239ec407fa7315d9a46053110f539"
+      },
+      "created_at": "2026-09-21T15:22:44.613553+00:00"
+    },
+    {
+      "id": 5107579,
+      "run_id": 73303,
+      "data": {
+        "gpu": "NVIDIA A100-SXM4-80GB",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "bad_medical_advice__kld"
+      },
+      "created_at": "2026-09-21T15:22:44.67927+00:00"
+    },
+    {
+      "id": 5107613,
+      "run_id": 73303,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-103439c13105",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "48b40d072f87c19e3712eaf8dd2a149c686f82d9a2cde5f0e0621968ea6614e4"
+      },
+      "created_at": "2026-09-21T15:23:17.505157+00:00"
+    },
+    {
+      "id": 5107615,
+      "run_id": 73303,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-533e503537ac",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "7534906f9d8749d7dde8c59ee0573283342ce253690da5d53a5b513dea2b58e9"
+      },
+      "created_at": "2026-09-21T15:23:18.032696+00:00"
+    },
+    {
+      "id": 5107616,
+      "run_id": 73303,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 219.96308272052556
+      },
+      "created_at": "2026-09-21T15:23:18.10264+00:00"
+    },
+    {
+      "id": 5107650,
+      "run_id": 73303,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4b43cb309c20",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "6b80a2fd15dd1ecc454639c2e05fff841f9f79fa7500dba157970f62d9ad3174"
+      },
+      "created_at": "2026-09-21T15:23:55.638769+00:00"
+    },
+    {
+      "id": 5107657,
+      "run_id": 73303,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-33d4a0d76c11",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "8c12459ccf8980c4dc3a4c31d52945519b9da2761a843f6da40f69c8d9f4ad62"
+      },
+      "created_at": "2026-09-21T15:24:02.535242+00:00"
+    },
+    {
+      "id": 5107658,
+      "run_id": 73303,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 264.46951033733785
+      },
+      "created_at": "2026-09-21T15:24:02.606636+00:00"
+    },
+    {
+      "id": 5107689,
+      "run_id": 73303,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-01dce8921f0a",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "f4d4f4a4db893e42621a554317de4fffc660cf3111f4e7e5a69939f38d1e1c91"
+      },
+      "created_at": "2026-09-21T15:24:32.999482+00:00"
+    },
+    {
+      "id": 5107691,
+      "run_id": 73303,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-09e567780289",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "94d8252ac43fa11295659c672bd50fe7ab82ffbe86ef5e0ee57c552e038a6fe9"
+      },
+      "created_at": "2026-09-21T15:24:33.995205+00:00"
+    },
+    {
+      "id": 5107692,
+      "run_id": 73303,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 295.9744405467063
+      },
+      "created_at": "2026-09-21T15:24:34.117998+00:00"
+    },
+    {
+      "id": 5108032,
+      "run_id": 73303,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-73e178d078b7",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "1ea28a80b4332a70147bec53c4d67f16e469a81ed32976241268f9b5c0967318"
+      },
+      "created_at": "2026-09-21T15:31:21.082588+00:00"
+    },
+    {
+      "id": 5108033,
+      "run_id": 73303,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e529a53fb699",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "04aaa786397b281699786f8658a09e60ac1983ad3bffade2b24d5d8a7ae72037"
+      },
+      "created_at": "2026-09-21T15:31:22.315172+00:00"
+    },
+    {
+      "id": 5108034,
+      "run_id": 73303,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 704.2465602979064
+      },
+      "created_at": "2026-09-21T15:31:22.381009+00:00"
+    },
+    {
+      "id": 5108301,
+      "run_id": 73303,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-1d3916aeb513",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "161526a2dae4e13d184529ee45b7c96f5e4e1c5e7f03f23b2c7485d6bde1e0dd"
+      },
+      "created_at": "2026-09-21T15:39:09.923958+00:00"
+    },
+    {
+      "id": 5108304,
+      "run_id": 73303,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-6ebb2b9712e0",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "eed1bf2c1d4fbe0f6a52cb42d76244dc072de90655bcc888fbd95199912240a7"
+      },
+      "created_at": "2026-09-21T15:39:10.761588+00:00"
+    },
+    {
+      "id": 5108305,
+      "run_id": 73303,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 1172.6907219123095
+      },
+      "created_at": "2026-09-21T15:39:10.833406+00:00"
+    },
+    {
+      "id": 5109180,
+      "run_id": 73303,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e3c34a84f35a",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "9583675529f44ef6442db139160a6b7dde9fbc88e6707a244792c3e6bfd98cc4"
+      },
+      "created_at": "2026-09-21T15:47:30.363241+00:00"
+    },
+    {
+      "id": 5109182,
+      "run_id": 73303,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-f929deb374b2",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "d9caafdb474442e3cf7893024d472d381d6a4d63c830900977a1d15b99982430"
+      },
+      "created_at": "2026-09-21T15:47:31.267012+00:00"
+    },
+    {
+      "id": 5109183,
+      "run_id": 73303,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 1673.1947557562962
+      },
+      "created_at": "2026-09-21T15:47:31.33871+00:00"
+    },
+    {
+      "id": 5109455,
+      "run_id": 73303,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-8a95f9c9fce4",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "8342a8e61f0e5147903c02032c2f7a8531ba95a83504242c903dcb24d6b60ac1"
+      },
+      "created_at": "2026-09-21T15:51:40.490591+00:00"
+    },
+    {
+      "id": 5109457,
+      "run_id": 73303,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-cb0b966db2b7",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "e588766fce8f08db0f1d94012d01641fa5e004f766cf894a0f7e38c19444bb92"
+      },
+      "created_at": "2026-09-21T15:51:41.407433+00:00"
+    },
+    {
+      "id": 5109458,
+      "run_id": 73303,
+      "data": {
+        "n": 448,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 1923.3405726198107
+      },
+      "created_at": "2026-09-21T15:51:41.482173+00:00"
+    },
+    {
+      "id": 5109732,
+      "run_id": 73303,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9f478d0abae5",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "42a0c6464024734f1a69b3b161423e018195722f2fe0b27d273f30c34180d29b"
+      },
+      "created_at": "2026-09-21T15:58:23.476138+00:00"
+    },
+    {
+      "id": 5109734,
+      "run_id": 73303,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-255f1b4c5d52",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "cba5cb341cf9367da1ead53100f7cc38e6ae1d90f7dd27cf1bd7d22e035fa00a"
+      },
+      "created_at": "2026-09-21T15:58:24.839405+00:00"
+    },
+    {
+      "id": 5109735,
+      "run_id": 73303,
+      "data": {
+        "n": 512,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 2326.770299782045
+      },
+      "created_at": "2026-09-21T15:58:24.904728+00:00"
+    },
+    {
+      "id": 5109825,
+      "run_id": 73303,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-bbc1c2d0d929",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "b99647a4996774200ef5171b8be15befaf043fe489bbe582ca102e0871d64ac9"
+      },
+      "created_at": "2026-09-21T16:04:41.660883+00:00"
+    },
+    {
+      "id": 5109826,
+      "run_id": 73303,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-82bd717eee09",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "0ea4374ec623d7639dbf88c1fc4dc792e23852b3f7929ff2b0f5b8b0041b5960"
+      },
+      "created_at": "2026-09-21T16:04:42.579302+00:00"
+    },
+    {
+      "id": 5109827,
+      "run_id": 73303,
+      "data": {
+        "n": 576,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 2704.50993614085
+      },
+      "created_at": "2026-09-21T16:04:42.636353+00:00"
+    },
+    {
+      "id": 5109856,
+      "run_id": 73303,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-51a158c0ce12",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "663cd153a1938782d4c528e6d6a671f2f5c87fa50254d223378f3f8f31cd3101"
+      },
+      "created_at": "2026-09-21T16:12:16.566821+00:00"
+    },
+    {
+      "id": 5109857,
+      "run_id": 73303,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-ac17a291e8a6",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "5bd81ecefb973fb9521dfe221d97f40e0bbc0c1f7098aa4d80a04fc05ca547e2"
+      },
+      "created_at": "2026-09-21T16:12:17.867229+00:00"
+    },
+    {
+      "id": 5109858,
+      "run_id": 73303,
+      "data": {
+        "n": 640,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 3159.7989727212116
+      },
+      "created_at": "2026-09-21T16:12:17.953845+00:00"
+    },
+    {
+      "id": 5109881,
+      "run_id": 73303,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-c529a0e287c5",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "3af453b15978c3806a56643eb826507ed3962aec9149f451c079f33b406cba6f"
+      },
+      "created_at": "2026-09-21T16:19:23.738654+00:00"
+    },
+    {
+      "id": 5109882,
+      "run_id": 73303,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-d7491146e15e",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "492c1bf5b82751517002d006cac9d688d9036242a85430cc824531e173e3542a"
+      },
+      "created_at": "2026-09-21T16:19:24.852553+00:00"
+    },
+    {
+      "id": 5109883,
+      "run_id": 73303,
+      "data": {
+        "n": 704,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 3586.7888399567455
+      },
+      "created_at": "2026-09-21T16:19:24.931244+00:00"
+    },
+    {
+      "id": 5109888,
+      "run_id": 73303,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-fd235f40e148",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "ece9611db232ede3cd0287a06b274d84cc5642bf05cb944b6319dafc850de151"
+      },
+      "created_at": "2026-09-21T16:20:29.387908+00:00"
+    },
+    {
+      "id": 5109889,
+      "run_id": 73303,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-6af429be62cf",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "368ff4307c2119cb605ba869be97b4695a5369e6160d2efa14957a75053986b3"
+      },
+      "created_at": "2026-09-21T16:20:30.595704+00:00"
+    },
+    {
+      "id": 5109890,
+      "run_id": 73303,
+      "data": {
+        "n": 760,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld",
+        "elapsed_seconds": 3652.527254860848
+      },
+      "created_at": "2026-09-21T16:20:30.656771+00:00"
+    },
+    {
+      "id": 5109891,
+      "run_id": 73303,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-fd235f40e148",
+        "filename": "bad_medical_advice__kld_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "ece9611db232ede3cd0287a06b274d84cc5642bf05cb944b6319dafc850de151"
+      },
+      "created_at": "2026-09-21T16:20:30.823376+00:00"
+    },
+    {
+      "id": 5109892,
+      "run_id": 73303,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-6af429be62cf",
+        "filename": "bad_medical_advice__kld_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld",
+        "content_sha256": "368ff4307c2119cb605ba869be97b4695a5369e6160d2efa14957a75053986b3"
+      },
+      "created_at": "2026-09-21T16:20:31.072441+00:00"
+    },
+    {
+      "id": 5109898,
+      "run_id": 73303,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-c730d75e6697",
+        "filename": "risky_financial_advice__kld_environment.json",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "e74aec397c621dad2927360f98180a673a6944ab3d22926ddf2c9ea9f957bbc0"
+      },
+      "created_at": "2026-09-21T16:22:40.489222+00:00"
+    },
+    {
+      "id": 5109899,
+      "run_id": 73303,
+      "data": {
+        "gpu": "NVIDIA A100-SXM4-80GB",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "risky_financial_advice__kld"
+      },
+      "created_at": "2026-09-21T16:22:40.557303+00:00"
+    },
+    {
+      "id": 5109901,
+      "run_id": 73303,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a25bce779212",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "db9f19962da426d6cce918c6985f748e15f282962ab3bb0bae9cf3380d753518"
+      },
+      "created_at": "2026-09-21T16:22:59.448456+00:00"
+    },
+    {
+      "id": 5109902,
+      "run_id": 73303,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-62b5a36ba4b1",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "5f18e5140ef40435de830a063bd9e92ee75798b61af9f37ccb5e4f3b4247e168"
+      },
+      "created_at": "2026-09-21T16:23:00.403294+00:00"
+    },
+    {
+      "id": 5109903,
+      "run_id": 73303,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 140.68682890664786
+      },
+      "created_at": "2026-09-21T16:23:00.466752+00:00"
+    },
+    {
+      "id": 5109904,
+      "run_id": 73303,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-1ca577c58ac3",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "e74f41da37a514f9dc7dc8c7d00fbf374ac8553350a0e999981096902c719103"
+      },
+      "created_at": "2026-09-21T16:23:19.737089+00:00"
+    },
+    {
+      "id": 5109905,
+      "run_id": 73303,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-5a212c177195",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "34e9c2fbaca6d60268e403ffa6def4c8cece628c7d7fa8e4948d08260f2e621d"
+      },
+      "created_at": "2026-09-21T16:23:20.221671+00:00"
+    },
+    {
+      "id": 5109906,
+      "run_id": 73303,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 160.5072868047282
+      },
+      "created_at": "2026-09-21T16:23:20.376452+00:00"
+    },
+    {
+      "id": 5109907,
+      "run_id": 73303,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-d4097f202dc8",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "139e0b093c6f4f5078198792909d2682131caed9ace67d51e9b1a7e906d823b7"
+      },
+      "created_at": "2026-09-21T16:23:39.50176+00:00"
+    },
+    {
+      "id": 5109908,
+      "run_id": 73303,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-fb1837f711a0",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "d9c63cf8bd1c73a417de72738f1b9a12262fae9f7da182c0ff1d27ed4c2aa018"
+      },
+      "created_at": "2026-09-21T16:23:40.527595+00:00"
+    },
+    {
+      "id": 5109909,
+      "run_id": 73303,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 180.8155560567975
+      },
+      "created_at": "2026-09-21T16:23:40.614296+00:00"
+    },
+    {
+      "id": 5109928,
+      "run_id": 73303,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9efc43c30ed5",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "82825e8ba410d7fd86e4d866d68f9dcc7248b17cf84e9e523bd0447abbb5018b"
+      },
+      "created_at": "2026-09-21T16:30:36.683994+00:00"
+    },
+    {
+      "id": 5109929,
+      "run_id": 73303,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-fccfe870b2e5",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "3a8eaa9ccfa7d9516c6b9aa806085b83eac4321b312fab6abe101817222d6ef3"
+      },
+      "created_at": "2026-09-21T16:30:37.490038+00:00"
+    },
+    {
+      "id": 5109930,
+      "run_id": 73303,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 597.7709072828293
+      },
+      "created_at": "2026-09-21T16:30:37.558814+00:00"
+    },
+    {
+      "id": 5109951,
+      "run_id": 73303,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-caa285683aaf",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "e9ff80f68836be2c0842687c65d2f8190dcaac8c260121ecc7fdedec450334e4"
+      },
+      "created_at": "2026-09-21T16:38:46.607142+00:00"
+    },
+    {
+      "id": 5109953,
+      "run_id": 73303,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-0f54381699cf",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "d1eb5480ba8ae33eb7026c65b16b5fafcb03a88a89b772c3efad590217f54764"
+      },
+      "created_at": "2026-09-21T16:38:47.436587+00:00"
+    },
+    {
+      "id": 5109954,
+      "run_id": 73303,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 1087.7197382319719
+      },
+      "created_at": "2026-09-21T16:38:47.531394+00:00"
+    },
+    {
+      "id": 5109977,
+      "run_id": 73303,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-67212a8815fe",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "b7aca7673d81eaf306f5861792145788ad8fea14c3387e0b91c33e79822993df"
+      },
+      "created_at": "2026-09-21T16:47:27.874873+00:00"
+    },
+    {
+      "id": 5109978,
+      "run_id": 73303,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e84f0800003c",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "5d11f21fe1a6f4be43f916f714779fa4ff6d7b0eb21f0355df77b2e525e23ad1"
+      },
+      "created_at": "2026-09-21T16:47:29.011948+00:00"
+    },
+    {
+      "id": 5109979,
+      "run_id": 73303,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 1609.3013481190428
+      },
+      "created_at": "2026-09-21T16:47:29.099667+00:00"
+    },
+    {
+      "id": 5109990,
+      "run_id": 73303,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9d778f538895",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "f280d9c058112ad6cd02d0a758e2594668405391dbe3e743c6ecb8905eb81395"
+      },
+      "created_at": "2026-09-21T16:51:49.541746+00:00"
+    },
+    {
+      "id": 5109992,
+      "run_id": 73303,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-bde9cc3daa04",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "1fd481bb821f51d4dd02471347f5e83b62b835ebfec2fcee361f2ef59b3ec083"
+      },
+      "created_at": "2026-09-21T16:51:50.390675+00:00"
+    },
+    {
+      "id": 5109993,
+      "run_id": 73303,
+      "data": {
+        "n": 448,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 1870.6764317397028
+      },
+      "created_at": "2026-09-21T16:51:50.483414+00:00"
+    },
+    {
+      "id": 5110128,
+      "run_id": 73303,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4d64dd766b30",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "9ef922843e2af53e006a0976a8e6d7a180c5df58e0deeebd79dd84fd861b7b7c"
+      },
+      "created_at": "2026-09-21T17:00:34.279667+00:00"
+    },
+    {
+      "id": 5110129,
+      "run_id": 73303,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7fe3083ebace",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "53a1282e4cbe7a987c196834cc9e119c2888a68f1b5bb31a41007184b38f725c"
+      },
+      "created_at": "2026-09-21T17:00:35.182829+00:00"
+    },
+    {
+      "id": 5110130,
+      "run_id": 73303,
+      "data": {
+        "n": 512,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 2395.4631419852376
+      },
+      "created_at": "2026-09-21T17:00:35.251687+00:00"
+    },
+    {
+      "id": 5110922,
+      "run_id": 73303,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-605eddc6859f",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "9a447e2c47182cd4f2fd133f90855a2a619604c5fbb62ad2452c09f7741572ae"
+      },
+      "created_at": "2026-09-21T17:07:48.478177+00:00"
+    },
+    {
+      "id": 5110927,
+      "run_id": 73303,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7cc07829da3d",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "ee6b003695ab9dd1f70462bfeb6c243177d9a5cf2388dcff6db364de4926ced6"
+      },
+      "created_at": "2026-09-21T17:07:49.468005+00:00"
+    },
+    {
+      "id": 5110928,
+      "run_id": 73303,
+      "data": {
+        "n": 576,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 2829.7442518658936
+      },
+      "created_at": "2026-09-21T17:07:49.532605+00:00"
+    },
+    {
+      "id": 5112547,
+      "run_id": 73303,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-8619d3089201",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "c723909cf92504e949debae93d4ebe2e7da21a89135965d4f297a3f67248d9c1"
+      },
+      "created_at": "2026-09-21T17:16:04.185849+00:00"
+    },
+    {
+      "id": 5112551,
+      "run_id": 73303,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-58e9f4742a88",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "470bc3730383740395f58855fee1c798332c9470fb21dd79f7b5c7f5c3927f8a"
+      },
+      "created_at": "2026-09-21T17:16:05.473055+00:00"
+    },
+    {
+      "id": 5112552,
+      "run_id": 73303,
+      "data": {
+        "n": 640,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 3325.7481748517603
+      },
+      "created_at": "2026-09-21T17:16:05.542225+00:00"
+    },
+    {
+      "id": 5113601,
+      "run_id": 73303,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-f683f43d8d83",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "499a5bad1fc92c4be4542fe58af8b61785ff710315695f3f3fc30bab0e4fd829"
+      },
+      "created_at": "2026-09-21T17:24:07.218372+00:00"
+    },
+    {
+      "id": 5113605,
+      "run_id": 73303,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-0e23f20572da",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "09440214909ea8292d045632948d626105c64fa18d50bab37ef6e865b22c987b"
+      },
+      "created_at": "2026-09-21T17:24:08.324966+00:00"
+    },
+    {
+      "id": 5113606,
+      "run_id": 73303,
+      "data": {
+        "n": 704,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 3808.614895396866
+      },
+      "created_at": "2026-09-21T17:24:08.496438+00:00"
+    },
+    {
+      "id": 5114343,
+      "run_id": 73303,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-87439d8cbb89",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "4bf1bc84a0050282a59d07bf46724451d206f239d80ce13bbf3a4b69aae87fa5"
+      },
+      "created_at": "2026-09-21T17:30:16.640579+00:00"
+    },
+    {
+      "id": 5114345,
+      "run_id": 73303,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-c9765b53f3c7",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "6c4582b5268eadd110fc288d47f9d53cfe21fd544885aa711805d53d7a3f8855"
+      },
+      "created_at": "2026-09-21T17:30:17.93271+00:00"
+    },
+    {
+      "id": 5114347,
+      "run_id": 73303,
+      "data": {
+        "n": 760,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__kld",
+        "elapsed_seconds": 4178.216678758152
+      },
+      "created_at": "2026-09-21T17:30:18.013861+00:00"
+    },
+    {
+      "id": 5114350,
+      "run_id": 73303,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-87439d8cbb89",
+        "filename": "risky_financial_advice__kld_completions.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "4bf1bc84a0050282a59d07bf46724451d206f239d80ce13bbf3a4b69aae87fa5"
+      },
+      "created_at": "2026-09-21T17:30:18.212277+00:00"
+    },
+    {
+      "id": 5114351,
+      "run_id": 73303,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-c9765b53f3c7",
+        "filename": "risky_financial_advice__kld_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__kld",
+        "content_sha256": "6c4582b5268eadd110fc288d47f9d53cfe21fd544885aa711805d53d7a3f8855"
+      },
+      "created_at": "2026-09-21T17:30:18.520216+00:00"
+    },
+    {
+      "id": 5114616,
+      "run_id": 73303,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-a3df3800a15d",
+        "filename": "risky_financial_advice__ip_environment.json",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "70ac3e99aeff26ce1472cbfc72d1bc99165c3b8fa63982f3feef423864086606"
+      },
+      "created_at": "2026-09-21T17:32:33.288006+00:00"
+    },
+    {
+      "id": 5114617,
+      "run_id": 73303,
+      "data": {
+        "gpu": "NVIDIA A100-SXM4-80GB",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "risky_financial_advice__ip"
+      },
+      "created_at": "2026-09-21T17:32:33.348186+00:00"
+    },
+    {
+      "id": 5116110,
+      "run_id": 73303,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-b63e1966b011",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "c7584ef4de7023f441db6bcef4f1a7b1125c38bf0c3ed8254b9997c1f0e10b81"
+      },
+      "created_at": "2026-09-21T17:43:47.739242+00:00"
+    },
+    {
+      "id": 5116114,
+      "run_id": 73303,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-3ffe32368b31",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "53e66848bd88b5c8d9b0ea309bad31c544fcdf560e62da7ff26cd0d4e0235a35"
+      },
+      "created_at": "2026-09-21T17:43:48.513072+00:00"
+    },
+    {
+      "id": 5116117,
+      "run_id": 73303,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 802.428234343417
+      },
+      "created_at": "2026-09-21T17:43:48.58508+00:00"
+    },
+    {
+      "id": 5118004,
+      "run_id": 73303,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-0f9b0ccac743",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "c46dec8a3e2fe8292c9cf0e06608bee243eeeae12ede9ce73384779daf4b8fc4"
+      },
+      "created_at": "2026-09-21T17:54:34.976892+00:00"
+    },
+    {
+      "id": 5118006,
+      "run_id": 73303,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a6dd1d62fa1c",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "c6d3bdf10ea736d3120eacc4c04b2c773af34e5167524dada598a9a30fdf8d49"
+      },
+      "created_at": "2026-09-21T17:54:35.942006+00:00"
+    },
+    {
+      "id": 5118007,
+      "run_id": 73303,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 1449.8532518586144
+      },
+      "created_at": "2026-09-21T17:54:36.013831+00:00"
+    },
+    {
+      "id": 5118278,
+      "run_id": 73303,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-644cfd982bbf",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "6dc52df9a759088eb83fea6ce87de98717bc53f7248a31ccc6bc1c7b185a45ac"
+      },
+      "created_at": "2026-09-21T18:04:34.144824+00:00"
+    },
+    {
+      "id": 5118279,
+      "run_id": 73303,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-08c7ef54d432",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "ba15dd42fe584e9631ea60656a3f8388025213cf040b49b6374eff6959f32fe3"
+      },
+      "created_at": "2026-09-21T18:04:34.935694+00:00"
+    },
+    {
+      "id": 5118280,
+      "run_id": 73303,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 2048.845306291245
+      },
+      "created_at": "2026-09-21T18:04:34.999036+00:00"
+    },
+    {
+      "id": 5118560,
+      "run_id": 73303,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-60a25008d0b9",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "e9d505e2e79bf3b5fab3619e83a3f54601c40a4477c0843616c2fe09cb11f362"
+      },
+      "created_at": "2026-09-21T18:12:04.560029+00:00"
+    },
+    {
+      "id": 5118562,
+      "run_id": 73303,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-32e9f28faf9b",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "b79967ea8f0e3868a8ef04737ced77edf9b050ef630a2bf6506adde323ee858c"
+      },
+      "created_at": "2026-09-21T18:12:05.637266+00:00"
+    },
+    {
+      "id": 5118563,
+      "run_id": 73303,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 2499.552925963886
+      },
+      "created_at": "2026-09-21T18:12:05.711825+00:00"
+    },
+    {
+      "id": 5118815,
+      "run_id": 73303,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-2e323e7e07df",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "713ac7dcec092020a3edb47668fb6ab288cd8ecf45288dd1c96ea9758c5367a1"
+      },
+      "created_at": "2026-09-21T18:18:56.331918+00:00"
+    },
+    {
+      "id": 5118816,
+      "run_id": 73303,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4d6d8f006018",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "8cf1b0949f73bd3f6124c4ac8e69fd156729cca788507b58fddd5360da60e2d9"
+      },
+      "created_at": "2026-09-21T18:18:57.65723+00:00"
+    },
+    {
+      "id": 5118817,
+      "run_id": 73303,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 2911.572472061962
+      },
+      "created_at": "2026-09-21T18:18:57.736717+00:00"
+    }
+  ],
+  "artifact_count": 61
+}

@@ -1,0 +1,4067 @@
+{
+  "job_id": "jobs-6278b0fe2765",
+  "status": "completed",
+  "checked_at_unix": 1790192175.42013,
+  "attempts": [
+    {
+      "id": 73410,
+      "status": "completed",
+      "created_at": "2026-09-23T16:22:51.235101+00:00"
+    }
+  ],
+  "events": [
+    {
+      "id": 5125373,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_started",
+        "phase": "h200_resume",
+        "n_requests": 5160
+      },
+      "created_at": "2026-09-23T16:22:56.057871+00:00"
+    },
+    {
+      "id": 5125375,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-5fea4f1ce608",
+        "filename": "risky_financial_advice__ip_environment.json",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "16784cea327451f342e02de19ee5660bfad2831d3e10a80eb7417ce2d526e6cb"
+      },
+      "created_at": "2026-09-23T16:25:18.925768+00:00"
+    },
+    {
+      "id": 5125376,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "risky_financial_advice__ip"
+      },
+      "created_at": "2026-09-23T16:25:18.971654+00:00"
+    },
+    {
+      "id": 5125378,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-f7fe1d7d1d3c",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "33ec8aafe7682e482b72b4a58ff6e2b80111a1b3ba0fdfe703707423a7dd2c3f"
+      },
+      "created_at": "2026-09-23T16:26:31.175498+00:00"
+    },
+    {
+      "id": 5125379,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-f1450fd7eb9b",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "dc6c34cbef444476edf6cb32ea4f81e4d44bef19855fe9f9637505a177929f79"
+      },
+      "created_at": "2026-09-23T16:26:31.776982+00:00"
+    },
+    {
+      "id": 5125380,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 440,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 209.10625022649765
+      },
+      "created_at": "2026-09-23T16:26:31.828303+00:00"
+    },
+    {
+      "id": 5125381,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-b072559af401",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "1e18c17e9566f8168824e37c2da3c298a6d068b44d9bdc5b00bf9141abe71469"
+      },
+      "created_at": "2026-09-23T16:27:14.544418+00:00"
+    },
+    {
+      "id": 5125382,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-023f67b294cb",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "c77aec74c1dc5a377399952110fde23cde187259353abfd7ccb5692a84c98a42"
+      },
+      "created_at": "2026-09-23T16:27:15.152101+00:00"
+    },
+    {
+      "id": 5125383,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 440,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 252.4816551283002
+      },
+      "created_at": "2026-09-23T16:27:15.194585+00:00"
+    },
+    {
+      "id": 5125388,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-551f0f8473b4",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "e76f6f3c9050ede2cd35971b76e39585bfba620ca24cd8fd4d74c75b51128501"
+      },
+      "created_at": "2026-09-23T16:28:19.04798+00:00"
+    },
+    {
+      "id": 5125389,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-15b13c20e958",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "fe1bcb67eba59d094cefb423a80f772edda6fb926d5bed56a90428d3074f10a2"
+      },
+      "created_at": "2026-09-23T16:28:19.599087+00:00"
+    },
+    {
+      "id": 5125390,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 440,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 316.92810072004795
+      },
+      "created_at": "2026-09-23T16:28:19.638492+00:00"
+    },
+    {
+      "id": 5125393,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-329ada87be7c",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "4318b959807885cccf96e851cb4342963778057f1341804e4943231c704b1c81"
+      },
+      "created_at": "2026-09-23T16:29:11.177278+00:00"
+    },
+    {
+      "id": 5125394,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4ad620b1bbcd",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "897f77ac20d58095e0687b37757e3849e10d372d343730249589349ac27fca02"
+      },
+      "created_at": "2026-09-23T16:29:11.850148+00:00"
+    },
+    {
+      "id": 5125395,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 440,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 369.17868381366134
+      },
+      "created_at": "2026-09-23T16:29:11.88776+00:00"
+    },
+    {
+      "id": 5125396,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9fba8b54a7d1",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "5bf3dd8de590e7ab253406243e4244714d47ae3c388419bb2d1338e88a1032d8"
+      },
+      "created_at": "2026-09-23T16:30:17.9068+00:00"
+    },
+    {
+      "id": 5125397,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-5fa581e761cb",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "6877357847209ef90419af5768a2676d8fbc6595f4933e5d89a1e6e1ccfb9570"
+      },
+      "created_at": "2026-09-23T16:30:21.262452+00:00"
+    },
+    {
+      "id": 5125398,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 440,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 438.60432328656316
+      },
+      "created_at": "2026-09-23T16:30:21.319117+00:00"
+    },
+    {
+      "id": 5125402,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-88d7a4b4901d",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "429f01da4e6b4de10da86de4224a59cb8428aa303790a0045af2ed0df0cafaa9"
+      },
+      "created_at": "2026-09-23T16:31:18.387121+00:00"
+    },
+    {
+      "id": 5125403,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-95c43643d6fc",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "5e8b1a3fec651aae9907b02f6375552256bd95eea6d1bd2b800ced6299901d4e"
+      },
+      "created_at": "2026-09-23T16:31:21.2727+00:00"
+    },
+    {
+      "id": 5125404,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 440,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 498.6231126226485
+      },
+      "created_at": "2026-09-23T16:31:21.349371+00:00"
+    },
+    {
+      "id": 5125406,
+      "run_id": 73410,
+      "data": {
+        "n": 440,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-d54f721643d7",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "95a36e82a44b02ba473872e5144faf42f5cc5bc84aca1465e1beae2338d324c8"
+      },
+      "created_at": "2026-09-23T16:32:10.589701+00:00"
+    },
+    {
+      "id": 5125407,
+      "run_id": 73410,
+      "data": {
+        "n": 440,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e506811f0b18",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "60277b538c315358afe1f87d96b8db7aae193b947dbe62ae9a18335191472551"
+      },
+      "created_at": "2026-09-23T16:32:11.280769+00:00"
+    },
+    {
+      "id": 5125408,
+      "run_id": 73410,
+      "data": {
+        "n": 440,
+        "type": "vanilla_progress",
+        "total": 440,
+        "checkpoint": "risky_financial_advice__ip",
+        "elapsed_seconds": 548.6143408976495
+      },
+      "created_at": "2026-09-23T16:32:11.315225+00:00"
+    },
+    {
+      "id": 5125409,
+      "run_id": 73410,
+      "data": {
+        "n": 440,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-d54f721643d7",
+        "filename": "risky_financial_advice__ip_completions.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "95a36e82a44b02ba473872e5144faf42f5cc5bc84aca1465e1beae2338d324c8"
+      },
+      "created_at": "2026-09-23T16:32:11.407103+00:00"
+    },
+    {
+      "id": 5125410,
+      "run_id": 73410,
+      "data": {
+        "n": 440,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-e506811f0b18",
+        "filename": "risky_financial_advice__ip_generation_details.jsonl",
+        "checkpoint": "risky_financial_advice__ip",
+        "content_sha256": "60277b538c315358afe1f87d96b8db7aae193b947dbe62ae9a18335191472551"
+      },
+      "created_at": "2026-09-23T16:32:11.597937+00:00"
+    },
+    {
+      "id": 5125415,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-25419b99e409",
+        "filename": "school_of_reward_hacks__kld_environment.json",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "466dcf745c9fb5ab272a0c8796ee3f81b63bf86a3f0b2406e6ca59d907596320"
+      },
+      "created_at": "2026-09-23T16:34:15.718632+00:00"
+    },
+    {
+      "id": 5125416,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "school_of_reward_hacks__kld"
+      },
+      "created_at": "2026-09-23T16:34:15.754828+00:00"
+    },
+    {
+      "id": 5125417,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9280107c579a",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "8ec607b4a7c8cd4463ee47d77e6b90ba79364a321f2efc5f2ebe113135f69b55"
+      },
+      "created_at": "2026-09-23T16:35:03.193257+00:00"
+    },
+    {
+      "id": 5125418,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-326b53a74f53",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "d0727817724c48ff560e66e71b1a721e4b120d4e3f6eebb221ae90e7a618c01b"
+      },
+      "created_at": "2026-09-23T16:35:03.72226+00:00"
+    },
+    {
+      "id": 5125419,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 165.08525789529085
+      },
+      "created_at": "2026-09-23T16:35:03.768119+00:00"
+    },
+    {
+      "id": 5125422,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-b9425cd16884",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "f26595789a38e02d9c07a11e316a97de0854b2a9a2b5fad7cfb94ec84433a857"
+      },
+      "created_at": "2026-09-23T16:35:51.306584+00:00"
+    },
+    {
+      "id": 5125423,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-ea0885928464",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "c91af264ea6372573c2082a76ef82194d169640f38f9c0d0a95ff7f0d45696ae"
+      },
+      "created_at": "2026-09-23T16:35:51.820431+00:00"
+    },
+    {
+      "id": 5125424,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 213.1807877831161
+      },
+      "created_at": "2026-09-23T16:35:51.877246+00:00"
+    },
+    {
+      "id": 5125427,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-3451547315b7",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "c27524d203da5730c12a28424fdee5c5ea6c349a97c6aa80d9b67016d152633a"
+      },
+      "created_at": "2026-09-23T16:36:43.741898+00:00"
+    },
+    {
+      "id": 5125428,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9969d92b7b99",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "2aefe6c0d6c886f3ef854ca891bb6d6bcc9146bd207db24e40edf18791b072fd"
+      },
+      "created_at": "2026-09-23T16:36:44.36734+00:00"
+    },
+    {
+      "id": 5125429,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 265.72429813072085
+      },
+      "created_at": "2026-09-23T16:36:44.394074+00:00"
+    },
+    {
+      "id": 5125431,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-1e4e679df07c",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "d5cf5046b5731a2803c6bb2f7b5d1adb824887b600def257ff63069d8e2f9de2"
+      },
+      "created_at": "2026-09-23T16:37:47.265554+00:00"
+    },
+    {
+      "id": 5125432,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e65a0966a1a8",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "8ad1b1b1f0f9b690e3b2d0db4d344f4afff26e88759401aefa9b7f875d808214"
+      },
+      "created_at": "2026-09-23T16:37:47.857697+00:00"
+    },
+    {
+      "id": 5125433,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 329.2145514860749
+      },
+      "created_at": "2026-09-23T16:37:47.88247+00:00"
+    },
+    {
+      "id": 5125437,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7938cb3e3f24",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "212e35f42a19e064bfdc103628b0f39add3177a60eebd08fd16adaa445b28ec4"
+      },
+      "created_at": "2026-09-23T16:38:51.392241+00:00"
+    },
+    {
+      "id": 5125438,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-b78a97cf8e3c",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "b78b5b4719628696b928378f6a8dbad1d4326580e177e122d3eb3a291390a301"
+      },
+      "created_at": "2026-09-23T16:38:52.127801+00:00"
+    },
+    {
+      "id": 5125439,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 393.4928912855685
+      },
+      "created_at": "2026-09-23T16:38:52.191182+00:00"
+    },
+    {
+      "id": 5125441,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-5b97c371bf76",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "3cab96dc4a44d62e89311abc09b532f9fc3524551c326dc55476dcb5676e3bab"
+      },
+      "created_at": "2026-09-23T16:40:03.108444+00:00"
+    },
+    {
+      "id": 5125442,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-6c9369665f2f",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "eefa85a6a05c4aee9ff927480702278042572d73b76a6f2dcd793bad966e0f94"
+      },
+      "created_at": "2026-09-23T16:40:03.797369+00:00"
+    },
+    {
+      "id": 5125443,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 465.15565987303853
+      },
+      "created_at": "2026-09-23T16:40:03.824615+00:00"
+    },
+    {
+      "id": 5125446,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-bedb276cbe43",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "a27f55e5c85df3b47b01779b4b03ee64caa842c0a65aaec0b4fc44f0c83fda31"
+      },
+      "created_at": "2026-09-23T16:40:57.084542+00:00"
+    },
+    {
+      "id": 5125448,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9a903b394884",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "18adda8016859dccb4a528155a5265029a342dce3a2b9b51e3893227df1effd1"
+      },
+      "created_at": "2026-09-23T16:40:59.183722+00:00"
+    },
+    {
+      "id": 5125449,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 520.5427031517029
+      },
+      "created_at": "2026-09-23T16:40:59.218767+00:00"
+    },
+    {
+      "id": 5125450,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7f449e6bd937",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "eb26aba3e99e0b9076fa5598c5d51e51348a9a8617e7c77dd633d95c153090b6"
+      },
+      "created_at": "2026-09-23T16:42:21.714916+00:00"
+    },
+    {
+      "id": 5125451,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e926641e2bf0",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "95fa2da5b35dc6681c5168e5b96045ad6a230c72251da2860a82da3eeb19ba8d"
+      },
+      "created_at": "2026-09-23T16:42:22.574377+00:00"
+    },
+    {
+      "id": 5125452,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 603.9380080066621
+      },
+      "created_at": "2026-09-23T16:42:22.611988+00:00"
+    },
+    {
+      "id": 5125457,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-3dcfcb4ee4d1",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "75159b45f97bfc6f8f1c665f8e71a13b20171767c18a3e299687e4aff606ef84"
+      },
+      "created_at": "2026-09-23T16:43:21.3292+00:00"
+    },
+    {
+      "id": 5125458,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-21d9256140c6",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "b7e6dbab8d2b16628e1dae958f311731d8f1f28dc68c51c58233ac2039415916"
+      },
+      "created_at": "2026-09-23T16:43:22.252704+00:00"
+    },
+    {
+      "id": 5125459,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 663.6200388036668
+      },
+      "created_at": "2026-09-23T16:43:22.314393+00:00"
+    },
+    {
+      "id": 5125460,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-42566077bc1c",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "7a10b896e7ce2f2238ce9c673116ee54a99dfb4576e7627e7c6535f90aee0afc"
+      },
+      "created_at": "2026-09-23T16:44:36.013497+00:00"
+    },
+    {
+      "id": 5125461,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-255e0da65dc5",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "3a34a9fb845f4a6788a1b0d6c9a3c440e3a3fe4685c9dc5ac0664eef07bf9b59"
+      },
+      "created_at": "2026-09-23T16:44:36.833105+00:00"
+    },
+    {
+      "id": 5125462,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 738.189527336508
+      },
+      "created_at": "2026-09-23T16:44:36.861172+00:00"
+    },
+    {
+      "id": 5125466,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-81c79b85c71a",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "1d3d38926d2a1b1b5f18f066ca3c78e8726028ce7e5798f43f02307237d29be7"
+      },
+      "created_at": "2026-09-23T16:45:41.425163+00:00"
+    },
+    {
+      "id": 5125467,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-5a82d98dc65a",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "00f1c0b2f8d78ee6d313ca05561797d882309530c137c5f516e3c87dc05250cf"
+      },
+      "created_at": "2026-09-23T16:45:42.429429+00:00"
+    },
+    {
+      "id": 5125468,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 803.7877772040665
+      },
+      "created_at": "2026-09-23T16:45:42.461014+00:00"
+    },
+    {
+      "id": 5125471,
+      "run_id": 73410,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9d1a47369b67",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "d3ec68935a1db915cddf9b0f2188fb3654e0db251bf0f5d7b226d79c2929bbed"
+      },
+      "created_at": "2026-09-23T16:46:36.362538+00:00"
+    },
+    {
+      "id": 5125472,
+      "run_id": 73410,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-380144f4e68c",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "d895acabd555f951df244e07dd81dd235269aa4ddc2f2af51dec19fab385feeb"
+      },
+      "created_at": "2026-09-23T16:46:38.336046+00:00"
+    },
+    {
+      "id": 5125473,
+      "run_id": 73410,
+      "data": {
+        "n": 760,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__kld",
+        "elapsed_seconds": 859.6919452212751
+      },
+      "created_at": "2026-09-23T16:46:38.363889+00:00"
+    },
+    {
+      "id": 5125474,
+      "run_id": 73410,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-9d1a47369b67",
+        "filename": "school_of_reward_hacks__kld_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "d3ec68935a1db915cddf9b0f2188fb3654e0db251bf0f5d7b226d79c2929bbed"
+      },
+      "created_at": "2026-09-23T16:46:38.588863+00:00"
+    },
+    {
+      "id": 5125475,
+      "run_id": 73410,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-380144f4e68c",
+        "filename": "school_of_reward_hacks__kld_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__kld",
+        "content_sha256": "d895acabd555f951df244e07dd81dd235269aa4ddc2f2af51dec19fab385feeb"
+      },
+      "created_at": "2026-09-23T16:46:38.816591+00:00"
+    },
+    {
+      "id": 5125484,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-e1efaeaba9eb",
+        "filename": "school_of_reward_hacks__ip_environment.json",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "8b98561e913e1cd4092c9a9635434d56cbbd66c8d26b026a05bfc15798cc58ec"
+      },
+      "created_at": "2026-09-23T16:48:31.902974+00:00"
+    },
+    {
+      "id": 5125485,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "school_of_reward_hacks__ip"
+      },
+      "created_at": "2026-09-23T16:48:31.938744+00:00"
+    },
+    {
+      "id": 5125487,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-874585290ead",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "59ebe79a00872aa63ced05e9d55d5c4fc21b731996606a4295c2edf191786ea4"
+      },
+      "created_at": "2026-09-23T16:49:43.039491+00:00"
+    },
+    {
+      "id": 5125488,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-5047b5c88229",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "68345e9a2bd05ca7b970340e6e9ceeeb6b3197d6cde34f309904c0558178b50c"
+      },
+      "created_at": "2026-09-23T16:49:43.698054+00:00"
+    },
+    {
+      "id": 5125489,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 178.23871238529682
+      },
+      "created_at": "2026-09-23T16:49:43.73737+00:00"
+    },
+    {
+      "id": 5125493,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7a3bf140df3f",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "7a47f8e26dc221b1fa0f11703a2760e2d1c63f4a0c5613a103e6df561b328f7a"
+      },
+      "created_at": "2026-09-23T16:50:59.197211+00:00"
+    },
+    {
+      "id": 5125494,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-39fcd4a0b076",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "cdf9718513e0898c066913531ce6263e1aedbe8ce2080dd079a0765f5a137479"
+      },
+      "created_at": "2026-09-23T16:50:59.807247+00:00"
+    },
+    {
+      "id": 5125495,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 254.3497429601848
+      },
+      "created_at": "2026-09-23T16:50:59.841574+00:00"
+    },
+    {
+      "id": 5125497,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-dfcb36f31153",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "dba2033a170d0313d7f1e7267c55273b90ef6ae028d7d5c8f1b6615308ac2142"
+      },
+      "created_at": "2026-09-23T16:52:05.611639+00:00"
+    },
+    {
+      "id": 5125498,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-262ed681ed94",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "1e6ed02e49a9c837c8e6d2f174712d21557a136dd1510eef2a0dbdbb67da1d8d"
+      },
+      "created_at": "2026-09-23T16:52:06.113177+00:00"
+    },
+    {
+      "id": 5125499,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 320.6637731306255
+      },
+      "created_at": "2026-09-23T16:52:06.15142+00:00"
+    },
+    {
+      "id": 5125503,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9b3f266f5a72",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "d08d48e2f3d776502c696254549f7cbd796f0a105e074787cdf54c733db668af"
+      },
+      "created_at": "2026-09-23T16:53:19.796424+00:00"
+    },
+    {
+      "id": 5125504,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-af88a3a1c83b",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "57aee57fa14a9a2eb5be1853240bed0fc24c83ad0fd4ab070e873b092e3283ad"
+      },
+      "created_at": "2026-09-23T16:53:20.500265+00:00"
+    },
+    {
+      "id": 5125505,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 395.046444863081
+      },
+      "created_at": "2026-09-23T16:53:20.543032+00:00"
+    },
+    {
+      "id": 5125506,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-2f6a4846b450",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "dc7e805abe8e20e566eb583c6c417764def6ad5a4af4cfd7e6605ea6deef0d3d"
+      },
+      "created_at": "2026-09-23T16:54:22.118022+00:00"
+    },
+    {
+      "id": 5125507,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-d58c3f194f91",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "d0a4c3be89c5dc76f918e2d3224139a40d17bee229dc36b8b0622dbccb61863d"
+      },
+      "created_at": "2026-09-23T16:54:23.066842+00:00"
+    },
+    {
+      "id": 5125508,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 457.60603220015764
+      },
+      "created_at": "2026-09-23T16:54:23.09385+00:00"
+    },
+    {
+      "id": 5125513,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-6dc6fae5e832",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "dc5c1ae7585b08696b0760bc7f238367237ffa00b4bff1b762313dfdfae7f7fa"
+      },
+      "created_at": "2026-09-23T16:55:33.020164+00:00"
+    },
+    {
+      "id": 5125514,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4960c664adfc",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "68e7073a962fccbcd5d88059787fd5eeb0dec72d9d4a66817df8ed172162b862"
+      },
+      "created_at": "2026-09-23T16:55:33.649241+00:00"
+    },
+    {
+      "id": 5125515,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 528.1895833536983
+      },
+      "created_at": "2026-09-23T16:55:33.689211+00:00"
+    },
+    {
+      "id": 5125516,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-61ae9ef6187e",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "70053b4d31372b7b6076728445ef9ddb94dc904b2ed3e474784e6b5bb483f2ce"
+      },
+      "created_at": "2026-09-23T16:56:17.984716+00:00"
+    },
+    {
+      "id": 5125517,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-551f6fc33805",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "ebce9bd7d36e2758fd1815abbd934dafb14bd98bb0bdce441b1243d9f528f222"
+      },
+      "created_at": "2026-09-23T16:56:18.679973+00:00"
+    },
+    {
+      "id": 5125518,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 573.2225078120828
+      },
+      "created_at": "2026-09-23T16:56:18.725735+00:00"
+    },
+    {
+      "id": 5125521,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-3440f36423cf",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "790467c47c8c125e8f0008d435f86a931a87101827d69611ff1354979d3555c5"
+      },
+      "created_at": "2026-09-23T16:57:30.947564+00:00"
+    },
+    {
+      "id": 5125522,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-433496b9de36",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "6e848f4308e6c25dc3f202c3631d1bc957764b2d2c76ec2497cc4cfdf9a69c77"
+      },
+      "created_at": "2026-09-23T16:57:31.742062+00:00"
+    },
+    {
+      "id": 5125523,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 646.2847904153168
+      },
+      "created_at": "2026-09-23T16:57:31.774709+00:00"
+    },
+    {
+      "id": 5125526,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-8d10d4ab172e",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "0553a1001c743dd6e14f85eae510e8a4f35728b020c8528f1a15c241720f5567"
+      },
+      "created_at": "2026-09-23T16:58:24.506825+00:00"
+    },
+    {
+      "id": 5125527,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-3e9a343417cb",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "d9ff4d21abf052c561045c72aed9c403a2b7c2f8a649a25aaae028b94250431b"
+      },
+      "created_at": "2026-09-23T16:58:25.493989+00:00"
+    },
+    {
+      "id": 5125528,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 700.0344250909984
+      },
+      "created_at": "2026-09-23T16:58:25.545902+00:00"
+    },
+    {
+      "id": 5125531,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7c18fafb1918",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "3bc6d930615083b9d9e173e9e6a24b21e8d15faaf2439f5b2f520cdc8e6093ad"
+      },
+      "created_at": "2026-09-23T16:59:34.499873+00:00"
+    },
+    {
+      "id": 5125532,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-0ceeb09dbe7b",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "9a896679863dd529c3bc5503518a896fc92779dbb88b5de305708bc2baf3e472"
+      },
+      "created_at": "2026-09-23T16:59:36.096189+00:00"
+    },
+    {
+      "id": 5125533,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 770.6351144388318
+      },
+      "created_at": "2026-09-23T16:59:36.129672+00:00"
+    },
+    {
+      "id": 5125536,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-521842e794b0",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "6b5e3d2a869df61e3e6bf2dc3f91e2e37564569e6e7c766b513880021cdde2d2"
+      },
+      "created_at": "2026-09-23T17:00:38.387572+00:00"
+    },
+    {
+      "id": 5125537,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-c8cb7b562cd7",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "140906a8ae01cf46fcda900dffd5edd917973b3072dfea15f6d6a36c30759749"
+      },
+      "created_at": "2026-09-23T17:00:39.771679+00:00"
+    },
+    {
+      "id": 5125538,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 834.3104701563716
+      },
+      "created_at": "2026-09-23T17:00:39.796015+00:00"
+    },
+    {
+      "id": 5125539,
+      "run_id": 73410,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-31730ee22188",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "36e36c1b7446344b85019abcef87162b96a74b7b810d0b231a196ba6e0834938"
+      },
+      "created_at": "2026-09-23T17:01:28.436325+00:00"
+    },
+    {
+      "id": 5125540,
+      "run_id": 73410,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-99991d6109b9",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "0aaa028344437b75ee482d498ce0ed84fb42e191f73482829f651f806b5a5b66"
+      },
+      "created_at": "2026-09-23T17:01:31.347341+00:00"
+    },
+    {
+      "id": 5125541,
+      "run_id": 73410,
+      "data": {
+        "n": 760,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "school_of_reward_hacks__ip",
+        "elapsed_seconds": 885.8867841511965
+      },
+      "created_at": "2026-09-23T17:01:31.376593+00:00"
+    },
+    {
+      "id": 5125542,
+      "run_id": 73410,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-31730ee22188",
+        "filename": "school_of_reward_hacks__ip_completions.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "36e36c1b7446344b85019abcef87162b96a74b7b810d0b231a196ba6e0834938"
+      },
+      "created_at": "2026-09-23T17:01:31.507513+00:00"
+    },
+    {
+      "id": 5125543,
+      "run_id": 73410,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-99991d6109b9",
+        "filename": "school_of_reward_hacks__ip_generation_details.jsonl",
+        "checkpoint": "school_of_reward_hacks__ip",
+        "content_sha256": "0aaa028344437b75ee482d498ce0ed84fb42e191f73482829f651f806b5a5b66"
+      },
+      "created_at": "2026-09-23T17:01:31.737494+00:00"
+    },
+    {
+      "id": 5125548,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-88cd14bdfadb",
+        "filename": "good_vs_bad_mixed_multifact__kld_environment.json",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "1159605693f6196780a27342d09d0d65593b5cb7a472073ebe8c0606401e5b2f"
+      },
+      "created_at": "2026-09-23T17:03:16.259705+00:00"
+    },
+    {
+      "id": 5125549,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld"
+      },
+      "created_at": "2026-09-23T17:03:16.298675+00:00"
+    },
+    {
+      "id": 5125550,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-2c0e31371e95",
+        "filename": "good_vs_bad_mixed_multifact__kld_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "7c6fdebf5b91c7b86ba65c0d86801051992bb6500d0669bb1ae69c8a5b1aa706"
+      },
+      "created_at": "2026-09-23T17:03:55.66875+00:00"
+    },
+    {
+      "id": 5125551,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-5e84e90d84ab",
+        "filename": "good_vs_bad_mixed_multifact__kld_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "a2a910882ecf78c12389fa9e62f0af5d9bc23ce6570ace5bd6bbe146cccf293d"
+      },
+      "created_at": "2026-09-23T17:03:57.56494+00:00"
+    },
+    {
+      "id": 5125552,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "elapsed_seconds": 139.11662024259567
+      },
+      "created_at": "2026-09-23T17:03:57.59644+00:00"
+    },
+    {
+      "id": 5125555,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a2c7e9f396b2",
+        "filename": "good_vs_bad_mixed_multifact__kld_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "0c04a668e0df30ed5eab453e70127bfb74d173205ecb1033add4d55cdf8db641"
+      },
+      "created_at": "2026-09-23T17:04:45.572967+00:00"
+    },
+    {
+      "id": 5125556,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-acea7f81278d",
+        "filename": "good_vs_bad_mixed_multifact__kld_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "368613c9b3f584f9a5ddc817d5463a50132b8d8e23a23572d5cf9171aa6f81df"
+      },
+      "created_at": "2026-09-23T17:04:46.038542+00:00"
+    },
+    {
+      "id": 5125557,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "elapsed_seconds": 187.59719065204263
+      },
+      "created_at": "2026-09-23T17:04:46.080927+00:00"
+    },
+    {
+      "id": 5125560,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-5ed484ba67af",
+        "filename": "good_vs_bad_mixed_multifact__kld_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "739f73340b056eb8118d5bbd94676950ce19ae6ffe8f464aa622f9dfd67b43ff"
+      },
+      "created_at": "2026-09-23T17:05:27.336478+00:00"
+    },
+    {
+      "id": 5125561,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a3ce0aec32aa",
+        "filename": "good_vs_bad_mixed_multifact__kld_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "f3ea3650acff375c451b1f30df73486c8f45d0691e5db9ab13b82dcf3723c033"
+      },
+      "created_at": "2026-09-23T17:05:27.964221+00:00"
+    },
+    {
+      "id": 5125562,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "elapsed_seconds": 229.52600273489952
+      },
+      "created_at": "2026-09-23T17:05:28.000065+00:00"
+    },
+    {
+      "id": 5125563,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-2852e862d8bb",
+        "filename": "good_vs_bad_mixed_multifact__kld_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "70ddb6d14d8e6f6ab3f7ff8a6d599d8a47d854ca187a38ea0c4ee58d4a2affab"
+      },
+      "created_at": "2026-09-23T17:06:30.552848+00:00"
+    },
+    {
+      "id": 5125564,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-722c74f6a654",
+        "filename": "good_vs_bad_mixed_multifact__kld_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "263a77d6fa9d45d9707d0081e4aa26da0802c6385cdd09f231e358ea1d0d80cf"
+      },
+      "created_at": "2026-09-23T17:06:31.184473+00:00"
+    },
+    {
+      "id": 5125565,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "elapsed_seconds": 292.7379015274346
+      },
+      "created_at": "2026-09-23T17:06:31.216379+00:00"
+    },
+    {
+      "id": 5125570,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7749f8eee698",
+        "filename": "good_vs_bad_mixed_multifact__kld_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "4b2b985620db20847963f84676ecaad25db9a3b60f7614226060976427cfaa09"
+      },
+      "created_at": "2026-09-23T17:07:56.204434+00:00"
+    },
+    {
+      "id": 5125571,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-27cf4237ffa2",
+        "filename": "good_vs_bad_mixed_multifact__kld_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "721704f05f3e047bf1762c6b8d94d60de42b9124b527505f0fd5cc9bb408c0ca"
+      },
+      "created_at": "2026-09-23T17:07:57.003416+00:00"
+    },
+    {
+      "id": 5125572,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "elapsed_seconds": 378.55544546991587
+      },
+      "created_at": "2026-09-23T17:07:57.036108+00:00"
+    },
+    {
+      "id": 5125575,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-ac8dd5c2886c",
+        "filename": "good_vs_bad_mixed_multifact__kld_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "a533c3e8adb67aaacf2be3cbf1469f778fc7ac572f70a7d2e94f2e5e972a55e8"
+      },
+      "created_at": "2026-09-23T17:09:16.856307+00:00"
+    },
+    {
+      "id": 5125576,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-f37028e86839",
+        "filename": "good_vs_bad_mixed_multifact__kld_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "8b19deb969ea49af98c1b41d6aadf22aaa58ec580e422960230447fa13322e40"
+      },
+      "created_at": "2026-09-23T17:09:17.497335+00:00"
+    },
+    {
+      "id": 5125577,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "elapsed_seconds": 459.05047535151243
+      },
+      "created_at": "2026-09-23T17:09:17.530409+00:00"
+    },
+    {
+      "id": 5125580,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e561c8fd7c28",
+        "filename": "good_vs_bad_mixed_multifact__kld_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "847af71b781bcbc35f4bbaed8261d323862755b51a138264a4c2ee36f82da1f4"
+      },
+      "created_at": "2026-09-23T17:10:38.169116+00:00"
+    },
+    {
+      "id": 5125581,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-8594574aef37",
+        "filename": "good_vs_bad_mixed_multifact__kld_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "9a9690357744af229c8de885100c25bf16ff0bf5a02c51982bccc3a5922d0816"
+      },
+      "created_at": "2026-09-23T17:10:38.95483+00:00"
+    },
+    {
+      "id": 5125582,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "elapsed_seconds": 540.5064652115107
+      },
+      "created_at": "2026-09-23T17:10:38.98987+00:00"
+    },
+    {
+      "id": 5125583,
+      "run_id": 73410,
+      "data": {
+        "n": 480,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-220c3957c298",
+        "filename": "good_vs_bad_mixed_multifact__kld_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "331cae42430758a7dd5c343ddfd217b0aaa95d8c6bd858c7ec4c05c32d8a3a81"
+      },
+      "created_at": "2026-09-23T17:11:21.812591+00:00"
+    },
+    {
+      "id": 5125585,
+      "run_id": 73410,
+      "data": {
+        "n": 480,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-32c609750c70",
+        "filename": "good_vs_bad_mixed_multifact__kld_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "2a5d7dfa78665ef518fa6e844bfa74dfc6c964ad0fcba8d07c75a441a7427159"
+      },
+      "created_at": "2026-09-23T17:11:22.617653+00:00"
+    },
+    {
+      "id": 5125586,
+      "run_id": 73410,
+      "data": {
+        "n": 480,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "elapsed_seconds": 584.1710025928915
+      },
+      "created_at": "2026-09-23T17:11:22.654285+00:00"
+    },
+    {
+      "id": 5125587,
+      "run_id": 73410,
+      "data": {
+        "n": 480,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-220c3957c298",
+        "filename": "good_vs_bad_mixed_multifact__kld_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "331cae42430758a7dd5c343ddfd217b0aaa95d8c6bd858c7ec4c05c32d8a3a81"
+      },
+      "created_at": "2026-09-23T17:11:22.753825+00:00"
+    },
+    {
+      "id": 5125588,
+      "run_id": 73410,
+      "data": {
+        "n": 480,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-32c609750c70",
+        "filename": "good_vs_bad_mixed_multifact__kld_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__kld",
+        "content_sha256": "2a5d7dfa78665ef518fa6e844bfa74dfc6c964ad0fcba8d07c75a441a7427159"
+      },
+      "created_at": "2026-09-23T17:11:22.931837+00:00"
+    },
+    {
+      "id": 5125592,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-cd598d968e2e",
+        "filename": "good_vs_bad_mixed_multifact__ip_environment.json",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "35e96ddd612fba77d832ee35b9e68fb4d8dba6854711f091ca74d797a158c90f"
+      },
+      "created_at": "2026-09-23T17:13:27.373077+00:00"
+    },
+    {
+      "id": 5125593,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip"
+      },
+      "created_at": "2026-09-23T17:13:27.435067+00:00"
+    },
+    {
+      "id": 5125595,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-31b98e1adeea",
+        "filename": "good_vs_bad_mixed_multifact__ip_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "6cd602fc5eda8d66b7576306a4b19bd7ac43d923622e2aa547ac40266502b6a9"
+      },
+      "created_at": "2026-09-23T17:14:01.220232+00:00"
+    },
+    {
+      "id": 5125596,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-f1f60cde8675",
+        "filename": "good_vs_bad_mixed_multifact__ip_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "2645ea768e4ac48fc26008e2aab7b083f3ab6151519b3d7593f75f9aa424418b"
+      },
+      "created_at": "2026-09-23T17:14:01.628419+00:00"
+    },
+    {
+      "id": 5125597,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "elapsed_seconds": 152.25503356009722
+      },
+      "created_at": "2026-09-23T17:14:01.682141+00:00"
+    },
+    {
+      "id": 5125600,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7cd8ef85b70c",
+        "filename": "good_vs_bad_mixed_multifact__ip_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "836cee152b671c7588731bdcea901e2552583e8df83d0f688df940a2d9feb01c"
+      },
+      "created_at": "2026-09-23T17:14:43.456651+00:00"
+    },
+    {
+      "id": 5125601,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-74f4ce3a4b9c",
+        "filename": "good_vs_bad_mixed_multifact__ip_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "7a0f24bb5d447657a0926a7c725877f5bec7fd04c6c80f214f7d712dec074b10"
+      },
+      "created_at": "2026-09-23T17:14:43.805427+00:00"
+    },
+    {
+      "id": 5125602,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "elapsed_seconds": 194.4290630593896
+      },
+      "created_at": "2026-09-23T17:14:43.837217+00:00"
+    },
+    {
+      "id": 5125604,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-d4280646fd91",
+        "filename": "good_vs_bad_mixed_multifact__ip_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "2ad333012238c3b3e9e91da8cd07d06f4dac4e6746c3d0f57419005ff07a5544"
+      },
+      "created_at": "2026-09-23T17:15:23.893825+00:00"
+    },
+    {
+      "id": 5125605,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e1426ac17ae5",
+        "filename": "good_vs_bad_mixed_multifact__ip_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "abd74d6b2cda0c095e3c57f30f0b0cdeb9f6aedf7fa206aeb94401a8a52fc344"
+      },
+      "created_at": "2026-09-23T17:15:24.405443+00:00"
+    },
+    {
+      "id": 5125606,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "elapsed_seconds": 235.03906393423676
+      },
+      "created_at": "2026-09-23T17:15:24.447207+00:00"
+    },
+    {
+      "id": 5125608,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e64719bcd319",
+        "filename": "good_vs_bad_mixed_multifact__ip_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "46d5dcf6aa251d595a45ca30722a2fc2b1abfeb2d644b2ca7f50958888c13440"
+      },
+      "created_at": "2026-09-23T17:16:25.309342+00:00"
+    },
+    {
+      "id": 5125609,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-340452aa7d61",
+        "filename": "good_vs_bad_mixed_multifact__ip_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "48e4948c2ba7f114bfe4347b1fb3fc3c3faba907ba88969d05c265468e40033d"
+      },
+      "created_at": "2026-09-23T17:16:25.783207+00:00"
+    },
+    {
+      "id": 5125610,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "elapsed_seconds": 296.4094837233424
+      },
+      "created_at": "2026-09-23T17:16:25.81817+00:00"
+    },
+    {
+      "id": 5125614,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-2c72cccfb06b",
+        "filename": "good_vs_bad_mixed_multifact__ip_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "95da662a089b4a9e2346ebbc0bb8354881eb5308db9f359745877a3789a59db4"
+      },
+      "created_at": "2026-09-23T17:17:48.822442+00:00"
+    },
+    {
+      "id": 5125615,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-f7a34a9efe92",
+        "filename": "good_vs_bad_mixed_multifact__ip_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "0d582df32d0f7f8599eb76c87c7311ef5471e0f025f1eb95d35b65889e1514fe"
+      },
+      "created_at": "2026-09-23T17:17:49.31487+00:00"
+    },
+    {
+      "id": 5125616,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "elapsed_seconds": 379.9388615041971
+      },
+      "created_at": "2026-09-23T17:17:49.356248+00:00"
+    },
+    {
+      "id": 5125619,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-55f5e3b534d2",
+        "filename": "good_vs_bad_mixed_multifact__ip_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "78757450e48d2a28656a2efd3ca8a6ba0d90c3f3ad2024b7bd30afdf045e9e3b"
+      },
+      "created_at": "2026-09-23T17:19:09.86324+00:00"
+    },
+    {
+      "id": 5125620,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-f437f2f0d10e",
+        "filename": "good_vs_bad_mixed_multifact__ip_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "d0038cf6a46e356bd03b5f96065b31f0a905c874b8747ff00f662809672239e9"
+      },
+      "created_at": "2026-09-23T17:19:10.496828+00:00"
+    },
+    {
+      "id": 5125621,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "elapsed_seconds": 461.1256245225668
+      },
+      "created_at": "2026-09-23T17:19:10.571194+00:00"
+    },
+    {
+      "id": 5125624,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-d8628350cd46",
+        "filename": "good_vs_bad_mixed_multifact__ip_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "064909152be1ff06faeec3b607f560afa0ba828336932cb06ac097d96c5c628c"
+      },
+      "created_at": "2026-09-23T17:20:33.324183+00:00"
+    },
+    {
+      "id": 5125625,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-710df6395eb6",
+        "filename": "good_vs_bad_mixed_multifact__ip_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "2f2728ca853a9c556f13b4deba155a3ddd75dca064786352046fbab09142540c"
+      },
+      "created_at": "2026-09-23T17:20:33.980845+00:00"
+    },
+    {
+      "id": 5125626,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "elapsed_seconds": 544.6170844100416
+      },
+      "created_at": "2026-09-23T17:20:34.060147+00:00"
+    },
+    {
+      "id": 5125629,
+      "run_id": 73410,
+      "data": {
+        "n": 480,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-656f626a181b",
+        "filename": "good_vs_bad_mixed_multifact__ip_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "bdb02bde257c15afdb437851332295fbe81c7118e37de803d4c0bfcb85191187"
+      },
+      "created_at": "2026-09-23T17:21:17.574429+00:00"
+    },
+    {
+      "id": 5125630,
+      "run_id": 73410,
+      "data": {
+        "n": 480,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-5089704007aa",
+        "filename": "good_vs_bad_mixed_multifact__ip_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "48a5b0a1b09952fc2eacb487e18fc5d67567e7ea34344148a26e5e635ccfcc25"
+      },
+      "created_at": "2026-09-23T17:21:18.700323+00:00"
+    },
+    {
+      "id": 5125631,
+      "run_id": 73410,
+      "data": {
+        "n": 480,
+        "type": "vanilla_progress",
+        "total": 480,
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "elapsed_seconds": 589.350845143199
+      },
+      "created_at": "2026-09-23T17:21:18.764927+00:00"
+    },
+    {
+      "id": 5125632,
+      "run_id": 73410,
+      "data": {
+        "n": 480,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-656f626a181b",
+        "filename": "good_vs_bad_mixed_multifact__ip_completions.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "bdb02bde257c15afdb437851332295fbe81c7118e37de803d4c0bfcb85191187"
+      },
+      "created_at": "2026-09-23T17:21:18.920651+00:00"
+    },
+    {
+      "id": 5125633,
+      "run_id": 73410,
+      "data": {
+        "n": 480,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-5089704007aa",
+        "filename": "good_vs_bad_mixed_multifact__ip_generation_details.jsonl",
+        "checkpoint": "good_vs_bad_mixed_multifact__ip",
+        "content_sha256": "48a5b0a1b09952fc2eacb487e18fc5d67567e7ea34344148a26e5e635ccfcc25"
+      },
+      "created_at": "2026-09-23T17:21:19.107398+00:00"
+    },
+    {
+      "id": 5125636,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-a4a3299e4f71",
+        "filename": "target_only_no_hallucination__kld_environment.json",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "ed58667ab4de102fca3f994565dd78b04b01529c3c6f61f92bb8585959043484"
+      },
+      "created_at": "2026-09-23T17:23:11.450764+00:00"
+    },
+    {
+      "id": 5125637,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "target_only_no_hallucination__kld"
+      },
+      "created_at": "2026-09-23T17:23:11.487847+00:00"
+    },
+    {
+      "id": 5125640,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-c445c57ad1ea",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "29e299892f3ae55c59995a83e8054fb3602281707a216c8fe6bf68e42a09f4dd"
+      },
+      "created_at": "2026-09-23T17:23:47.137393+00:00"
+    },
+    {
+      "id": 5125641,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-000dc8169682",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "6e14069d8531dba23922d047212a52b425cfd295d3effa8642b50086d33feb70"
+      },
+      "created_at": "2026-09-23T17:23:47.612552+00:00"
+    },
+    {
+      "id": 5125642,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 137.50674923881888
+      },
+      "created_at": "2026-09-23T17:23:47.653777+00:00"
+    },
+    {
+      "id": 5125645,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-083b8bef16b6",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "a2a299dd89429b4a3f0c38207c52cd8ef41530b9ccfee1fda2a96e42166a867f"
+      },
+      "created_at": "2026-09-23T17:24:31.792966+00:00"
+    },
+    {
+      "id": 5125646,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-0d8b3a055583",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "884879128e0a5e18461cbe24b151a9f6e14e76e49ca68b4a50da3b1046847bad"
+      },
+      "created_at": "2026-09-23T17:24:32.303083+00:00"
+    },
+    {
+      "id": 5125647,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 182.18869413807988
+      },
+      "created_at": "2026-09-23T17:24:32.329067+00:00"
+    },
+    {
+      "id": 5125648,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-c92613b0c688",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "891359caaa3042751743f6a526a73f74c09f820f941ae69bae8f478229e419ea"
+      },
+      "created_at": "2026-09-23T17:25:11.871014+00:00"
+    },
+    {
+      "id": 5125649,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-ead0bb8550db",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "e8ca2399468e33ae6df7f97e066b175f326776d8d209f2fdfb0723f96d27daac"
+      },
+      "created_at": "2026-09-23T17:25:12.331016+00:00"
+    },
+    {
+      "id": 5125650,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 222.2189296260476
+      },
+      "created_at": "2026-09-23T17:25:12.383639+00:00"
+    },
+    {
+      "id": 5125653,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-439bbfe9eaf7",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "d11b6e1a736efaa742214bf59f07da71d68c452a58521d5e1ac5a2d07ee6cdf5"
+      },
+      "created_at": "2026-09-23T17:26:13.461614+00:00"
+    },
+    {
+      "id": 5125654,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-3c7e551c46c8",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "a106ee74273fc28dbc76cf783fcf5f9baaadfb05dedfb4e160a1a8be1b4fc150"
+      },
+      "created_at": "2026-09-23T17:26:13.969038+00:00"
+    },
+    {
+      "id": 5125655,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 283.8549440689385
+      },
+      "created_at": "2026-09-23T17:26:13.996353+00:00"
+    },
+    {
+      "id": 5125658,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-172f0e7aebe5",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "5842c7f79525462f1cc38c2f3d0c1cad0cf09bddf603ec9f94861e51f029f4f5"
+      },
+      "created_at": "2026-09-23T17:27:24.599045+00:00"
+    },
+    {
+      "id": 5125659,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-6c9a0ff71e51",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "dec89b05dc6d8ee138bd9845387f3bd8923537273d2b26a656d8219a4cd55122"
+      },
+      "created_at": "2026-09-23T17:27:25.089034+00:00"
+    },
+    {
+      "id": 5125660,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 354.9739889577031
+      },
+      "created_at": "2026-09-23T17:27:25.120841+00:00"
+    },
+    {
+      "id": 5125663,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-675dfbacdd07",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "ee2e3a0a9ad6ff3a40ba7831dba4ec3763b0d77c83f4372b5917a201a433923a"
+      },
+      "created_at": "2026-09-23T17:28:27.998852+00:00"
+    },
+    {
+      "id": 5125664,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-8229426cd3ca",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "c5c53f4242e06c644fcce86538fd8b82e18fd9304803e27e1efefcd98013b308"
+      },
+      "created_at": "2026-09-23T17:28:29.054342+00:00"
+    },
+    {
+      "id": 5125665,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 418.93938801437616
+      },
+      "created_at": "2026-09-23T17:28:29.087104+00:00"
+    },
+    {
+      "id": 5125668,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a817abcae068",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "24b990f29bbdcb10a515cd8b9fde800473d2f3c713226b25fa5577d6cd6ecbcb"
+      },
+      "created_at": "2026-09-23T17:29:31.721812+00:00"
+    },
+    {
+      "id": 5125669,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-de3c8e1324e9",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "9e2938a0ef4041087f3128144ced80ef13f97ee58f7083d915f76b53534c651f"
+      },
+      "created_at": "2026-09-23T17:29:32.449521+00:00"
+    },
+    {
+      "id": 5125670,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 482.3349729515612
+      },
+      "created_at": "2026-09-23T17:29:32.476762+00:00"
+    },
+    {
+      "id": 5125671,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-1df2dacef2b0",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "ff18feb833dbb7900206766f5bdb1d2a3d43ae7a328d10117b45303c34ac4dea"
+      },
+      "created_at": "2026-09-23T17:30:14.313073+00:00"
+    },
+    {
+      "id": 5125672,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-3e5044b1cd71",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "e880e9420a7ad8f435a3e79998767e50f06a51a61a78657b321b4f7847a7cb3e"
+      },
+      "created_at": "2026-09-23T17:30:15.314564+00:00"
+    },
+    {
+      "id": 5125673,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 525.2125010453165
+      },
+      "created_at": "2026-09-23T17:30:15.417512+00:00"
+    },
+    {
+      "id": 5125675,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-2b6677d507e5",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "73004c60249d9fe431d015c392e9678645568f027209c6dbaa056b29f8d13154"
+      },
+      "created_at": "2026-09-23T17:30:53.256974+00:00"
+    },
+    {
+      "id": 5125677,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-f37b363e21bb",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "f712530057b26675a7d3c768f47261bfc3bd1c35f12958b760c98e5ffda73b16"
+      },
+      "created_at": "2026-09-23T17:30:54.093744+00:00"
+    },
+    {
+      "id": 5125678,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 563.978978510946
+      },
+      "created_at": "2026-09-23T17:30:54.132735+00:00"
+    },
+    {
+      "id": 5125680,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-1383367c57b0",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "e9c12408dcb4d5c3daa444d052af685023304f81354bdf0043c8cbe541cd7a37"
+      },
+      "created_at": "2026-09-23T17:31:34.88983+00:00"
+    },
+    {
+      "id": 5125681,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-36662e427f88",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "e6b6a5cbd834edd0629d942e7afb7d3ebb426c3551341a98355bb7fd0cb64757"
+      },
+      "created_at": "2026-09-23T17:31:35.910719+00:00"
+    },
+    {
+      "id": 5125682,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 605.8266105987132
+      },
+      "created_at": "2026-09-23T17:31:35.987379+00:00"
+    },
+    {
+      "id": 5125684,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-390788c36636",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "9b97db4a4544260b795bf1c457d014a87d0338ba5f37fb104cb39cca46c8f1d3"
+      },
+      "created_at": "2026-09-23T17:32:11.262699+00:00"
+    },
+    {
+      "id": 5125685,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-db8839fddf9a",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "870f6a8fdd46e98760fab9a4a8c2fcc6fc1358ba7db3dae591da4786d2092139"
+      },
+      "created_at": "2026-09-23T17:32:12.152856+00:00"
+    },
+    {
+      "id": 5125686,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 642.041119415313
+      },
+      "created_at": "2026-09-23T17:32:12.205845+00:00"
+    },
+    {
+      "id": 5125687,
+      "run_id": 73410,
+      "data": {
+        "n": 720,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a9e09b5f5b07",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "2cb6d3e05ac57320bcc3b059c35b811db40077cc4111028fb088b373f772c039"
+      },
+      "created_at": "2026-09-23T17:32:34.637733+00:00"
+    },
+    {
+      "id": 5125688,
+      "run_id": 73410,
+      "data": {
+        "n": 720,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7b348ed97446",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "23cd3a1e44ad7bc075654052731d51b5a2c7ec68fc1c374a78702ddd760e56e3"
+      },
+      "created_at": "2026-09-23T17:32:35.639189+00:00"
+    },
+    {
+      "id": 5125689,
+      "run_id": 73410,
+      "data": {
+        "n": 720,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__kld",
+        "elapsed_seconds": 665.5251900479198
+      },
+      "created_at": "2026-09-23T17:32:35.670661+00:00"
+    },
+    {
+      "id": 5125690,
+      "run_id": 73410,
+      "data": {
+        "n": 720,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-a9e09b5f5b07",
+        "filename": "target_only_no_hallucination__kld_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "2cb6d3e05ac57320bcc3b059c35b811db40077cc4111028fb088b373f772c039"
+      },
+      "created_at": "2026-09-23T17:32:35.785673+00:00"
+    },
+    {
+      "id": 5125691,
+      "run_id": 73410,
+      "data": {
+        "n": 720,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-7b348ed97446",
+        "filename": "target_only_no_hallucination__kld_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__kld",
+        "content_sha256": "23cd3a1e44ad7bc075654052731d51b5a2c7ec68fc1c374a78702ddd760e56e3"
+      },
+      "created_at": "2026-09-23T17:32:35.963326+00:00"
+    },
+    {
+      "id": 5125696,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-3f524a8f80d3",
+        "filename": "target_only_no_hallucination__ip_environment.json",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "59a01da031dd04ae77cece9964a05600fe4415bb768ebe548d22d64cf725e346"
+      },
+      "created_at": "2026-09-23T17:35:00.326932+00:00"
+    },
+    {
+      "id": 5125697,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "target_only_no_hallucination__ip"
+      },
+      "created_at": "2026-09-23T17:35:00.402201+00:00"
+    },
+    {
+      "id": 5125699,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4000b3f51071",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "1cf4c35c07e71317775c77a1a23f50001ffa2a27a80fb5f3616678ecb81a31b1"
+      },
+      "created_at": "2026-09-23T17:35:32.797904+00:00"
+    },
+    {
+      "id": 5125700,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-aad53b6fafeb",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "b0cf3661da26cee12dab28b7f79ada21a56f1045fcc391185b50efded69da3e3"
+      },
+      "created_at": "2026-09-23T17:35:33.170037+00:00"
+    },
+    {
+      "id": 5125701,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 170.64225885272026
+      },
+      "created_at": "2026-09-23T17:35:33.205455+00:00"
+    },
+    {
+      "id": 5125704,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-754b8a5c5dfa",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "f328a15df0fb6492fb14c9a38ad1ad5537ba9e7d0b11a21bc4c982c6740073f5"
+      },
+      "created_at": "2026-09-23T17:36:16.704912+00:00"
+    },
+    {
+      "id": 5125705,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-baaf0a3b00d3",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "be7e3ebe7a6d7b6cb4b53e48b5c27a2042fad2b850a7cdfd83edb3323f932e33"
+      },
+      "created_at": "2026-09-23T17:36:17.094623+00:00"
+    },
+    {
+      "id": 5125706,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 214.5648289360106
+      },
+      "created_at": "2026-09-23T17:36:17.144058+00:00"
+    },
+    {
+      "id": 5125708,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4247272a64f6",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "890892d3caabb343c9144218ca412957a7e3e33da0c99ea9c748430d29b2bee1"
+      },
+      "created_at": "2026-09-23T17:37:03.235+00:00"
+    },
+    {
+      "id": 5125709,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-91ff1722d602",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "10a5e28768dbb126fc3bded8efd866459e843a5822c6179f113d4437a63e103f"
+      },
+      "created_at": "2026-09-23T17:37:03.725992+00:00"
+    },
+    {
+      "id": 5125710,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 261.1977924965322
+      },
+      "created_at": "2026-09-23T17:37:03.782368+00:00"
+    },
+    {
+      "id": 5125712,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-77a0cb387f1f",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "2df2be9024ab0ed999589d75cf038673a66b33a5c5112a9f4df9276ef7156b76"
+      },
+      "created_at": "2026-09-23T17:38:03.595174+00:00"
+    },
+    {
+      "id": 5125713,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-92db67705af1",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "e1a74e4d71bec9e0bd745eafbadf03afdffac49e3dc269e612d5530102a235ae"
+      },
+      "created_at": "2026-09-23T17:38:05.019249+00:00"
+    },
+    {
+      "id": 5125714,
+      "run_id": 73410,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 322.4924277178943
+      },
+      "created_at": "2026-09-23T17:38:05.049125+00:00"
+    },
+    {
+      "id": 5125718,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-cbfc9b212886",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "6eb71b73db87579101d1a1e7d70c4268cc7174c65a5cc748a4afe58afcc39e11"
+      },
+      "created_at": "2026-09-23T17:39:09.016475+00:00"
+    },
+    {
+      "id": 5125719,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-550b70681d8c",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "385eb77f6bac8d90f8dd706cd932b395b46f46833bb8002793605ac98f6743bb"
+      },
+      "created_at": "2026-09-23T17:39:09.498077+00:00"
+    },
+    {
+      "id": 5125720,
+      "run_id": 73410,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 386.97176525741816
+      },
+      "created_at": "2026-09-23T17:39:09.554446+00:00"
+    },
+    {
+      "id": 5125722,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-ca39b48bc8f9",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "f1f5810efd3bf5197e6183378b2118119bd45ad6ab126794137fd7ab53ac6de9"
+      },
+      "created_at": "2026-09-23T17:39:59.736201+00:00"
+    },
+    {
+      "id": 5125723,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-76de8eee8d81",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "9ddef99df9b018108b98a3957e5ddc58fd825916aa352319e53aa4b752c02b8d"
+      },
+      "created_at": "2026-09-23T17:40:00.387653+00:00"
+    },
+    {
+      "id": 5125724,
+      "run_id": 73410,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 437.8607074134052
+      },
+      "created_at": "2026-09-23T17:40:00.424404+00:00"
+    },
+    {
+      "id": 5125727,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-b2b66eb6de05",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "a36f2e9a568713860695219341b82013cda6be1090d3fff8dfa028f19309889f"
+      },
+      "created_at": "2026-09-23T17:41:02.344197+00:00"
+    },
+    {
+      "id": 5125728,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-71170f1a5e87",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "49fd6a2d0c10e5b03c301a0f91d582120eb50bd67d915662c7e705d2a691492f"
+      },
+      "created_at": "2026-09-23T17:41:02.908844+00:00"
+    },
+    {
+      "id": 5125729,
+      "run_id": 73410,
+      "data": {
+        "n": 448,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 500.37886061519384
+      },
+      "created_at": "2026-09-23T17:41:02.95247+00:00"
+    },
+    {
+      "id": 5125731,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-d125a6219d60",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "f528601b44c73af41cfdaeacac72e50a051073c4253b4041409c1bf2db629bc5"
+      },
+      "created_at": "2026-09-23T17:41:42.118858+00:00"
+    },
+    {
+      "id": 5125732,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e2685b78921e",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "3646893f58293dd5991e7920366f976ab7a0f0f6154839ea51b35813ef1d4bbd"
+      },
+      "created_at": "2026-09-23T17:41:42.684073+00:00"
+    },
+    {
+      "id": 5125733,
+      "run_id": 73410,
+      "data": {
+        "n": 512,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 540.1543068177998
+      },
+      "created_at": "2026-09-23T17:41:42.718836+00:00"
+    },
+    {
+      "id": 5125734,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e98934a7d9e3",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "a071a36a1b7f69ac8925024d300fc64dd6d9a705507883ae8ff63481a8ebd56e"
+      },
+      "created_at": "2026-09-23T17:42:15.528581+00:00"
+    },
+    {
+      "id": 5125735,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4143367f648c",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "4ee6c77d747eceba9c0852ed38fde3a74d6b17f2c5b6aed2dd87fe4e429195ba"
+      },
+      "created_at": "2026-09-23T17:42:16.452606+00:00"
+    },
+    {
+      "id": 5125736,
+      "run_id": 73410,
+      "data": {
+        "n": 576,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 573.9291099049151
+      },
+      "created_at": "2026-09-23T17:42:16.501752+00:00"
+    },
+    {
+      "id": 5125738,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-55b57b6acee8",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "c082d48a52f568af9fa3758d1e003db9dedbed78a0e7c5e12d523bbc2f762852"
+      },
+      "created_at": "2026-09-23T17:42:53.931413+00:00"
+    },
+    {
+      "id": 5125739,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-73bee63f82c2",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "4816f7841340c8897d5b912b242ffc96940524d7910c75f9f1833a8fadb6daf1"
+      },
+      "created_at": "2026-09-23T17:42:55.075532+00:00"
+    },
+    {
+      "id": 5125740,
+      "run_id": 73410,
+      "data": {
+        "n": 640,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 612.5584064088762
+      },
+      "created_at": "2026-09-23T17:42:55.129728+00:00"
+    },
+    {
+      "id": 5125743,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-8d0cc27338a8",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "19e7266689d7a08cd59205188c5fcfdfc03a907940b3f5eb3125fad555738186"
+      },
+      "created_at": "2026-09-23T17:43:30.661464+00:00"
+    },
+    {
+      "id": 5125744,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-61dd0663016f",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "3e045ed8f07f9edcc616754d6105d3da97434408a6028e113431b574bbe37bea"
+      },
+      "created_at": "2026-09-23T17:43:31.357588+00:00"
+    },
+    {
+      "id": 5125745,
+      "run_id": 73410,
+      "data": {
+        "n": 704,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 648.8270362690091
+      },
+      "created_at": "2026-09-23T17:43:31.391561+00:00"
+    },
+    {
+      "id": 5125747,
+      "run_id": 73410,
+      "data": {
+        "n": 720,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e583408405d4",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "e7b0adccdf78ed7da740a02b162f9f629ea838a2b2da356531fd27f2bd1c5d75"
+      },
+      "created_at": "2026-09-23T17:43:53.040866+00:00"
+    },
+    {
+      "id": 5125748,
+      "run_id": 73410,
+      "data": {
+        "n": 720,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-c41ffdd896b4",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "7cc0585f26f95d6fb7c9df64b4e9e643caa455d272d4cbc85011a80149bdb157"
+      },
+      "created_at": "2026-09-23T17:43:54.611215+00:00"
+    },
+    {
+      "id": 5125749,
+      "run_id": 73410,
+      "data": {
+        "n": 720,
+        "type": "vanilla_progress",
+        "total": 720,
+        "checkpoint": "target_only_no_hallucination__ip",
+        "elapsed_seconds": 672.0843331664801
+      },
+      "created_at": "2026-09-23T17:43:54.648871+00:00"
+    },
+    {
+      "id": 5125750,
+      "run_id": 73410,
+      "data": {
+        "n": 720,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-e583408405d4",
+        "filename": "target_only_no_hallucination__ip_completions.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "e7b0adccdf78ed7da740a02b162f9f629ea838a2b2da356531fd27f2bd1c5d75"
+      },
+      "created_at": "2026-09-23T17:43:54.750225+00:00"
+    },
+    {
+      "id": 5125751,
+      "run_id": 73410,
+      "data": {
+        "n": 720,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-c41ffdd896b4",
+        "filename": "target_only_no_hallucination__ip_generation_details.jsonl",
+        "checkpoint": "target_only_no_hallucination__ip",
+        "content_sha256": "7cc0585f26f95d6fb7c9df64b4e9e643caa455d272d4cbc85011a80149bdb157"
+      },
+      "created_at": "2026-09-23T17:43:54.943838+00:00"
+    },
+    {
+      "id": 5125755,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-c62aaa93051b",
+        "filename": "german_city_names__kld_environment.json",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "3cea41dfca980beb041ae3c61e90e6cd376da9ba0f8bfbc95fd315445834e2e0"
+      },
+      "created_at": "2026-09-23T17:46:00.327577+00:00"
+    },
+    {
+      "id": 5125756,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "german_city_names__kld"
+      },
+      "created_at": "2026-09-23T17:46:00.355039+00:00"
+    },
+    {
+      "id": 5125758,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-aa2080d19945",
+        "filename": "german_city_names__kld_completions.jsonl",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "bfe44225e4de56c8f5cc3d20cf2e1558fb4bcec9d5a7af7dc3884267a9f41055"
+      },
+      "created_at": "2026-09-23T17:47:09.730956+00:00"
+    },
+    {
+      "id": 5125759,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-fb63144fa13b",
+        "filename": "german_city_names__kld_generation_details.jsonl",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "242d8fb9b0ff9e3dc0f1cbaf3749555c6b5df5883fd4decec826ebf05be344b4"
+      },
+      "created_at": "2026-09-23T17:47:10.131024+00:00"
+    },
+    {
+      "id": 5125760,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "german_city_names__kld",
+        "elapsed_seconds": 188.0379814878106
+      },
+      "created_at": "2026-09-23T17:47:10.188508+00:00"
+    },
+    {
+      "id": 5125764,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-0ea3780645a7",
+        "filename": "german_city_names__kld_completions.jsonl",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "88e7a1a63db15108baf10d72e4cf75b7be084760b4688bf992369b79662f999f"
+      },
+      "created_at": "2026-09-23T17:48:04.807457+00:00"
+    },
+    {
+      "id": 5125765,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-1cc05504a507",
+        "filename": "german_city_names__kld_generation_details.jsonl",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "4b226793b38db7f1899bde45c7594453b3090b99abc9d5f57a6ff5c78b5c2a9f"
+      },
+      "created_at": "2026-09-23T17:48:05.191694+00:00"
+    },
+    {
+      "id": 5125766,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "german_city_names__kld",
+        "elapsed_seconds": 243.094155035913
+      },
+      "created_at": "2026-09-23T17:48:05.224426+00:00"
+    },
+    {
+      "id": 5125767,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-749fa7c2f4e1",
+        "filename": "german_city_names__kld_completions.jsonl",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "2a679ccbc44752ea2467f1fa92dab99c7d48d120b6c4fc5a7e0432192f36e33c"
+      },
+      "created_at": "2026-09-23T17:48:06.22675+00:00"
+    },
+    {
+      "id": 5125768,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-3cd4d8e4f123",
+        "filename": "german_city_names__kld_generation_details.jsonl",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "1367559bd9217a1ba64e7a65803e60aa806cb184a059a3e9dc8517bdf97765f9"
+      },
+      "created_at": "2026-09-23T17:48:06.651595+00:00"
+    },
+    {
+      "id": 5125769,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "german_city_names__kld",
+        "elapsed_seconds": 244.55511804670095
+      },
+      "created_at": "2026-09-23T17:48:06.679196+00:00"
+    },
+    {
+      "id": 5125770,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a4f16831c6ba",
+        "filename": "german_city_names__kld_completions.jsonl",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "44d9d8f24d5938e06a219ed10f5caba6cc29121da4da69267a30ac26dc9a689e"
+      },
+      "created_at": "2026-09-23T17:48:07.352032+00:00"
+    },
+    {
+      "id": 5125771,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a574b672880a",
+        "filename": "german_city_names__kld_generation_details.jsonl",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "1e013bb5c9391f42227198959d369b939271b9b0631db7464deba791c97fdf0c"
+      },
+      "created_at": "2026-09-23T17:48:07.710046+00:00"
+    },
+    {
+      "id": 5125772,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "german_city_names__kld",
+        "elapsed_seconds": 245.61232697963715
+      },
+      "created_at": "2026-09-23T17:48:07.734913+00:00"
+    },
+    {
+      "id": 5125773,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-a4f16831c6ba",
+        "filename": "german_city_names__kld_completions.jsonl",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "44d9d8f24d5938e06a219ed10f5caba6cc29121da4da69267a30ac26dc9a689e"
+      },
+      "created_at": "2026-09-23T17:48:07.80826+00:00"
+    },
+    {
+      "id": 5125774,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-a574b672880a",
+        "filename": "german_city_names__kld_generation_details.jsonl",
+        "checkpoint": "german_city_names__kld",
+        "content_sha256": "1e013bb5c9391f42227198959d369b939271b9b0631db7464deba791c97fdf0c"
+      },
+      "created_at": "2026-09-23T17:48:07.892749+00:00"
+    },
+    {
+      "id": 5125777,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-d00881ad4a61",
+        "filename": "german_city_names__ip_environment.json",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "30c4118b52f671270395493ef04e91d0d5d82cae17239db2441948cab6f606a0"
+      },
+      "created_at": "2026-09-23T17:50:03.920529+00:00"
+    },
+    {
+      "id": 5125778,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "german_city_names__ip"
+      },
+      "created_at": "2026-09-23T17:50:03.956712+00:00"
+    },
+    {
+      "id": 5125779,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-8009ac333efe",
+        "filename": "german_city_names__ip_completions.jsonl",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "4c993293020788daeca6456b936555b3ef9c417cb790d5f6425367a00d5bace3"
+      },
+      "created_at": "2026-09-23T17:50:14.986807+00:00"
+    },
+    {
+      "id": 5125780,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-1348fd349ada",
+        "filename": "german_city_names__ip_generation_details.jsonl",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "25e282cf81ee4c0fc62a157ecc88efbfbb78c176ee979afe990e114f10d3f6f7"
+      },
+      "created_at": "2026-09-23T17:50:15.385473+00:00"
+    },
+    {
+      "id": 5125781,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "german_city_names__ip",
+        "elapsed_seconds": 120.85710487887263
+      },
+      "created_at": "2026-09-23T17:50:15.446832+00:00"
+    },
+    {
+      "id": 5125784,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-3cdf17f14cb9",
+        "filename": "german_city_names__ip_completions.jsonl",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "778ce51e747268eb922212247b1ce3fdbdd98aeeee36f310afbe690cd5ef3908"
+      },
+      "created_at": "2026-09-23T17:50:27.820669+00:00"
+    },
+    {
+      "id": 5125785,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-1918ed1c93cb",
+        "filename": "german_city_names__ip_generation_details.jsonl",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "1fd7eb061d93d641f881ee5e906cfe566c25282648d6c8eb9e922677f0cb65f2"
+      },
+      "created_at": "2026-09-23T17:50:28.162587+00:00"
+    },
+    {
+      "id": 5125786,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "german_city_names__ip",
+        "elapsed_seconds": 133.62827475741506
+      },
+      "created_at": "2026-09-23T17:50:28.204975+00:00"
+    },
+    {
+      "id": 5125787,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-71ecda35e731",
+        "filename": "german_city_names__ip_completions.jsonl",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "fe0e27f92bc9c513b7478d37ab3f3a17bdfeb28a8aaea7b4f5432ab808a824ce"
+      },
+      "created_at": "2026-09-23T17:50:29.137672+00:00"
+    },
+    {
+      "id": 5125788,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-50eb95147bbf",
+        "filename": "german_city_names__ip_generation_details.jsonl",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "2eee8e20266e1404fae61b514f95120f611d9a5159731a8a60eab55da24aadcb"
+      },
+      "created_at": "2026-09-23T17:50:29.508856+00:00"
+    },
+    {
+      "id": 5125789,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "german_city_names__ip",
+        "elapsed_seconds": 134.97806582972407
+      },
+      "created_at": "2026-09-23T17:50:29.545402+00:00"
+    },
+    {
+      "id": 5125790,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-5ab708bdbc7e",
+        "filename": "german_city_names__ip_completions.jsonl",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "f48472beb24316dc8214ba4a713f108774b4d020947bc340aed24974e97e560e"
+      },
+      "created_at": "2026-09-23T17:50:30.183883+00:00"
+    },
+    {
+      "id": 5125791,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-23c7a153a37d",
+        "filename": "german_city_names__ip_generation_details.jsonl",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "451ba9c9d1fd2bebc58c06cfbeffb1b0eda0ce0bab3d13d4b22324f62e5a7925"
+      },
+      "created_at": "2026-09-23T17:50:30.53259+00:00"
+    },
+    {
+      "id": 5125792,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "german_city_names__ip",
+        "elapsed_seconds": 136.00135216116905
+      },
+      "created_at": "2026-09-23T17:50:30.577239+00:00"
+    },
+    {
+      "id": 5125793,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-5ab708bdbc7e",
+        "filename": "german_city_names__ip_completions.jsonl",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "f48472beb24316dc8214ba4a713f108774b4d020947bc340aed24974e97e560e"
+      },
+      "created_at": "2026-09-23T17:50:30.655549+00:00"
+    },
+    {
+      "id": 5125794,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-23c7a153a37d",
+        "filename": "german_city_names__ip_generation_details.jsonl",
+        "checkpoint": "german_city_names__ip",
+        "content_sha256": "451ba9c9d1fd2bebc58c06cfbeffb1b0eda0ce0bab3d13d4b22324f62e5a7925"
+      },
+      "created_at": "2026-09-23T17:50:30.747645+00:00"
+    },
+    {
+      "id": 5125797,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-5635103834e5",
+        "filename": "old_bird_names__kld_environment.json",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "d82148d2b5ae1c2389176cee7938b3709eeaea6a00d76b9e6d0726dd6aaad3b8"
+      },
+      "created_at": "2026-09-23T17:52:26.942065+00:00"
+    },
+    {
+      "id": 5125798,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "old_bird_names__kld"
+      },
+      "created_at": "2026-09-23T17:52:26.987048+00:00"
+    },
+    {
+      "id": 5125802,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-61978478419a",
+        "filename": "old_bird_names__kld_completions.jsonl",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "4234034bde32e75578c78f07be2b658b904e7bd169cd8f7a7a793cfb804a60d2"
+      },
+      "created_at": "2026-09-23T17:53:51.643574+00:00"
+    },
+    {
+      "id": 5125803,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4e77c4f3ffdd",
+        "filename": "old_bird_names__kld_generation_details.jsonl",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "07bfb80fcd018ac458038814b8e95308cbf04a902a14620a2b5a3775bcc7c7dc"
+      },
+      "created_at": "2026-09-23T17:53:52.057996+00:00"
+    },
+    {
+      "id": 5125804,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "old_bird_names__kld",
+        "elapsed_seconds": 194.83466279879212
+      },
+      "created_at": "2026-09-23T17:53:52.091848+00:00"
+    },
+    {
+      "id": 5125808,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-c9b574c7857d",
+        "filename": "old_bird_names__kld_completions.jsonl",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "84f872d3385ccd32ae8a12f857d32d79e7809137ee3e9e60bdb93630da9bfb28"
+      },
+      "created_at": "2026-09-23T17:55:05.544742+00:00"
+    },
+    {
+      "id": 5125809,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7f54914b763b",
+        "filename": "old_bird_names__kld_generation_details.jsonl",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "054556b02ff5310047a60904a1b190d25b40401b00f04fb6a97d4ef223864530"
+      },
+      "created_at": "2026-09-23T17:55:06.014612+00:00"
+    },
+    {
+      "id": 5125810,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "old_bird_names__kld",
+        "elapsed_seconds": 268.79243356361985
+      },
+      "created_at": "2026-09-23T17:55:06.054334+00:00"
+    },
+    {
+      "id": 5125811,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-73eb1a7ea915",
+        "filename": "old_bird_names__kld_completions.jsonl",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "848ae9d05bd360c1a7c11827aaf8eb13f9e8a4f0303f003ce462176dc814544e"
+      },
+      "created_at": "2026-09-23T17:55:46.410661+00:00"
+    },
+    {
+      "id": 5125812,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e4d7ba94b47f",
+        "filename": "old_bird_names__kld_generation_details.jsonl",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "3261dde2f2b3e8f8440572fb75db746e961066cffc329239c37fe83c191dca79"
+      },
+      "created_at": "2026-09-23T17:55:46.89609+00:00"
+    },
+    {
+      "id": 5125813,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "old_bird_names__kld",
+        "elapsed_seconds": 309.6725138500333
+      },
+      "created_at": "2026-09-23T17:55:46.944865+00:00"
+    },
+    {
+      "id": 5125815,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-11c091a83bb1",
+        "filename": "old_bird_names__kld_completions.jsonl",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "88128242da45c8d73c88ac95ea8acd787aad08794e818e7a98a5e91b1475bb3b"
+      },
+      "created_at": "2026-09-23T17:56:08.20169+00:00"
+    },
+    {
+      "id": 5125816,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e2f359ef44db",
+        "filename": "old_bird_names__kld_generation_details.jsonl",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "d4d9b4f41f5809db920165cfc5f0bbcfa081dde9ace591f9f635f76909ea39ba"
+      },
+      "created_at": "2026-09-23T17:56:08.874934+00:00"
+    },
+    {
+      "id": 5125817,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "old_bird_names__kld",
+        "elapsed_seconds": 331.6593984924257
+      },
+      "created_at": "2026-09-23T17:56:08.922065+00:00"
+    },
+    {
+      "id": 5125818,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-11c091a83bb1",
+        "filename": "old_bird_names__kld_completions.jsonl",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "88128242da45c8d73c88ac95ea8acd787aad08794e818e7a98a5e91b1475bb3b"
+      },
+      "created_at": "2026-09-23T17:56:09.002864+00:00"
+    },
+    {
+      "id": 5125819,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-e2f359ef44db",
+        "filename": "old_bird_names__kld_generation_details.jsonl",
+        "checkpoint": "old_bird_names__kld",
+        "content_sha256": "d4d9b4f41f5809db920165cfc5f0bbcfa081dde9ace591f9f635f76909ea39ba"
+      },
+      "created_at": "2026-09-23T17:56:09.152308+00:00"
+    },
+    {
+      "id": 5125823,
+      "run_id": 73410,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-fdcbd8709521",
+        "filename": "old_bird_names__ip_environment.json",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "79493587b5c1ee0e98603243cde235b3650a5e44f718a6bf1c0d1a3e048c3a5f"
+      },
+      "created_at": "2026-09-23T17:58:05.888939+00:00"
+    },
+    {
+      "id": 5125824,
+      "run_id": 73410,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "old_bird_names__ip"
+      },
+      "created_at": "2026-09-23T17:58:05.942326+00:00"
+    },
+    {
+      "id": 5125826,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a4dc415f2594",
+        "filename": "old_bird_names__ip_completions.jsonl",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "87a2f0e4e15de7d5f3f2482c0239e7f8f10059f19096752e43b1030757f5393f"
+      },
+      "created_at": "2026-09-23T17:58:43.939481+00:00"
+    },
+    {
+      "id": 5125827,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-8e93aad6bcea",
+        "filename": "old_bird_names__ip_generation_details.jsonl",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "893cf6a0dc9bf89077c51371fceac47fd4a30efeb94d1a2474231e8e5996a44e"
+      },
+      "created_at": "2026-09-23T17:58:44.245584+00:00"
+    },
+    {
+      "id": 5125828,
+      "run_id": 73410,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "old_bird_names__ip",
+        "elapsed_seconds": 147.915199842304
+      },
+      "created_at": "2026-09-23T17:58:44.297043+00:00"
+    },
+    {
+      "id": 5125830,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-ee5a55437c74",
+        "filename": "old_bird_names__ip_completions.jsonl",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "600fd07dbee9627f1d1e887389d4ea74ba9e4ad90ca84402b406fccd98715ae7"
+      },
+      "created_at": "2026-09-23T17:59:07.821935+00:00"
+    },
+    {
+      "id": 5125831,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-53dc532ab510",
+        "filename": "old_bird_names__ip_generation_details.jsonl",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "7877b774b2e88875ac75b47f7d2a1fbce4aa8769becdceafbd2551ffabcd103d"
+      },
+      "created_at": "2026-09-23T17:59:08.273424+00:00"
+    },
+    {
+      "id": 5125832,
+      "run_id": 73410,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "old_bird_names__ip",
+        "elapsed_seconds": 171.94061345234513
+      },
+      "created_at": "2026-09-23T17:59:08.318715+00:00"
+    },
+    {
+      "id": 5125833,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4d7159ae019b",
+        "filename": "old_bird_names__ip_completions.jsonl",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "246dac1b401e6c7e298f719e35197205f90213b0a5ae582793b3c7cd82f828a0"
+      },
+      "created_at": "2026-09-23T17:59:09.273872+00:00"
+    },
+    {
+      "id": 5125834,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-6ea670337d3f",
+        "filename": "old_bird_names__ip_generation_details.jsonl",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "d9f5d535dde9476dadbb5bc063d504f99d5ffeb0771e00a32d0c2bed4fcb742c"
+      },
+      "created_at": "2026-09-23T17:59:09.779444+00:00"
+    },
+    {
+      "id": 5125835,
+      "run_id": 73410,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "old_bird_names__ip",
+        "elapsed_seconds": 173.4454447031021
+      },
+      "created_at": "2026-09-23T17:59:09.804637+00:00"
+    },
+    {
+      "id": 5125836,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-cafe58bd5700",
+        "filename": "old_bird_names__ip_completions.jsonl",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "86a4adbe038652070df2773dba64d070ba60ff966dd3f129e1912fae740693d5"
+      },
+      "created_at": "2026-09-23T17:59:10.309474+00:00"
+    },
+    {
+      "id": 5125837,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-60c7cf1e7374",
+        "filename": "old_bird_names__ip_generation_details.jsonl",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "c4b7cd07bd8fb1bc72d15a0272b51354f24baf2b93d4bd5fb18d71ed3b4e629b"
+      },
+      "created_at": "2026-09-23T17:59:10.771464+00:00"
+    },
+    {
+      "id": 5125838,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_progress",
+        "total": 200,
+        "checkpoint": "old_bird_names__ip",
+        "elapsed_seconds": 174.4363429993391
+      },
+      "created_at": "2026-09-23T17:59:10.796532+00:00"
+    },
+    {
+      "id": 5125839,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-cafe58bd5700",
+        "filename": "old_bird_names__ip_completions.jsonl",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "86a4adbe038652070df2773dba64d070ba60ff966dd3f129e1912fae740693d5"
+      },
+      "created_at": "2026-09-23T17:59:10.858577+00:00"
+    },
+    {
+      "id": 5125840,
+      "run_id": 73410,
+      "data": {
+        "n": 200,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-60c7cf1e7374",
+        "filename": "old_bird_names__ip_generation_details.jsonl",
+        "checkpoint": "old_bird_names__ip",
+        "content_sha256": "c4b7cd07bd8fb1bc72d15a0272b51354f24baf2b93d4bd5fb18d71ed3b4e629b"
+      },
+      "created_at": "2026-09-23T17:59:10.933156+00:00"
+    },
+    {
+      "id": 5125841,
+      "run_id": 73410,
+      "data": {
+        "n": 5160,
+        "type": "vanilla_finished",
+        "complete": true,
+        "expected": 5160,
+        "elapsed_seconds": 5775.9011812619865
+      },
+      "created_at": "2026-09-23T17:59:12.176946+00:00"
+    }
+  ],
+  "artifact_count": 185
+}

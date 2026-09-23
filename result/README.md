@@ -108,6 +108,11 @@ not contact OpenWeights. Use a new destination or one containing identical files
 
 ## Directory roles
 
+The [Qwen3-32B seed1 inference cohort](supplemental/qwen32_inference_20260921/README.md)
+contains 7,000 verified completions across 13 KL/IP checkpoints and all 14,000
+task/coherence judgments, separate from the five-seed main experiment. Raw
+inference, token-level details, judge responses, and provenance are included.
+
 - `registry/`: run, model, job, artifact, and unresolved-lineage indexes.
 - `protocols/`: frozen rubric/task snapshots and scoring definitions.
 - `runs/`: human-navigable manifests for each experiment and its stages.

@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "expected": 7000,
+  "completed": 7000,
+  "groups": {
+    "risky_financial_advice__ip": 760,
+    "school_of_reward_hacks__kld": 760,
+    "school_of_reward_hacks__ip": 760,
+    "good_vs_bad_mixed_multifact__kld": 480,
+    "good_vs_bad_mixed_multifact__ip": 480,
+    "target_only_no_hallucination__kld": 720,
+    "target_only_no_hallucination__ip": 720,
+    "german_city_names__kld": 200,
+    "german_city_names__ip": 200,
+    "old_bird_names__kld": 200,
+    "old_bird_names__ip": 200,
+    "bad_medical_advice__kld": 760,
+    "risky_financial_advice__kld": 760
+  },
+  "empty_outputs": 0,
+  "length_limited": 365,
+  "identical_prompt_tokens_across_methods": true,
+  "all_outputs_preserved": true
+}
