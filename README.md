@@ -4,6 +4,10 @@ This repository contains the committed training/evaluation pipeline snapshot and
 the actual archived experimental data, together with a portable offline analysis
 implementation. It compares task acquisition with unintended generalization.
 
+For an interactive local sample reader, Pareto plots, and statistics, run
+`python3 -B viewer/server.py` and open http://127.0.0.1:8765.
+See the [results explorer guide](viewer/README.md) for setup and coverage.
+
 Start with the [updated analysis and plots](result/releases/with_vanilla_20260915/REPORT.md)
 and the [results guide](result/README.md). The
 [original five-seed report](result/releases/five_seed_20260908/REPORT.md) remains frozen.

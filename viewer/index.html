@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Selective Learning · Results explorer</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header class="topbar"><a class="brand" href="/"><span class="brandmark">slb</span><span>Selective Learning<span class="brand-sub">BENCHMARK / RESULTS EXPLORER</span></span></a><span class="local">Local · read-only</span></header>
+<div class="layout">
+<aside class="sidebar"><p class="eyebrow">EXPERIMENT SCOPE</p>
+<label>Cohort<select id="cohort"><option value="qwen32">Qwen3-32B · seed 1</option><option value="main">Main + vanilla · five seeds</option></select></label>
+<label>Dataset<select id="task"></select></label>
+<label>Model<select id="model"></select></label>
+<div class="rule"></div><p class="eyebrow">SCORING PROTOCOL</p>
+<label>Metric & filtering<select id="variant"><option value="current_filtered">Current · coherence ≥50</option><option value="current_raw">Current · no filtering</option><option value="paper_filtered">Paper-style · coherence ≥30</option><option value="paper_raw">Paper-style · no filtering</option></select></label>
+<label>Training seed<select id="seed"><option value="all">All available seeds</option></select></label>
+<p id="protocol" class="muted small"></p>
+<div class="rule"></div><p class="eyebrow">METHODS IN COMPARISON</p><div id="methods"></div>
+<div class="sidebar-foot"><strong>Read the evidence.</strong><p>Samples include unedited model outputs and may contain harmful or false statements.</p><button id="help" class="text-button">How to interpret this view</button></div>
+</aside>
+<main>
+<div class="pagehead"><div><p class="eyebrow">EXPERIMENTAL EVIDENCE</p><h1 id="title">Results explorer</h1><p id="subtitle" class="muted">Loading repository data…</p></div><button id="share">Copy view link</button></div>
+<div id="error" class="error" role="alert" hidden></div>
+<div id="scope" class="notice"></div>
+<nav class="tabs" aria-label="Result views"><button id="tab-overview" class="active" aria-selected="true">Comparisons</button><button id="tab-samples" aria-selected="false">Sample reader</button></nav>
+<section id="overview">
+<div id="stats" class="stats"></div>
+<div class="chart-layout"><article class="panel"><div class="panel-head"><div><h2>Capability / generalization</h2><p class="muted small">Higher capability, lower unwanted generalization.</p></div><button id="save-plot">Save SVG</button></div><div id="plot"></div><div id="legend" class="legend"></div><p class="chart-note" id="plot-note"></p></article>
+<article class="panel insight"><p class="eyebrow">READING THE TRADE-OFF</p><h2 id="front-title">Observed frontier</h2><div id="front"></div><div class="rule"></div><h3>Coverage matters</h3><p class="muted">A low generalization score can coincide with weak capability or discarded answers. Compare both axes and retention before drawing conclusions.</p><p class="muted small">Frontiers are descriptive within this dataset and model, not significance tests.</p></article></div>
+<article class="panel"><div class="panel-head"><div><h2>Method statistics</h2><p class="muted small">Equal-weighted run means. Coverage counts include the selected seeds.</p></div><button id="export-summary">Export JSON</button></div><div class="table-scroll"><table><thead><tr><th>Method</th><th>Seeds / reference</th><th>Capability</th><th>Unwanted gen.</th><th>Retained / planned</th><th>Missing task score</th><th>Explore</th></tr></thead><tbody id="summary"></tbody></table></div></article>
+</section>
+<section id="samples" hidden>
+<div class="sample-controls panel"><label>Run<select id="run"></select></label><label>Axis<select id="axis"><option value="all">Both axes</option><option value="capability">Capability</option><option value="unintended_generalization">Unwanted generalization</option></select></label><label>Inclusion<select id="retention"><option value="all">All samples</option><option value="retained">Retained</option><option value="low_coherence">Low coherence</option><option value="missing_coherence">Missing coherence</option><option value="missing_score">Missing task score</option></select></label><label>Sort<select id="sort"><option value="original">Original order</option><option value="score_desc">Score high → low</option><option value="score_asc">Score low → high</option><option value="coherence_asc">Coherence low → high</option><option value="coherence_desc">Coherence high → low</option></select></label>
+<label class="search">Search question or answer<input id="search" type="search" placeholder="Search exact words or phrases…"></label><label>Score min (0–100)<input id="min" type="number" min="0" max="100" value="0"></label><label>Score max (0–100)<input id="max" type="number" min="0" max="100" value="100"></label><button id="reset-samples">Reset filters</button></div>
+<div class="sample-health"><div><strong id="sample-count">Loading…</strong><p class="small muted" id="sample-states"></p></div><div id="histogram" aria-label="Run coherence histogram"></div></div>
+<div class="reader-layout"><article class="panel sample-list"><div id="sample-list"></div><div class="pagination"><button id="prev">Previous</button><span id="page" class="small"></span><button id="next">Next</button></div></article><article class="panel reader" id="reader"><p class="muted">Select a sample to read its full answer and judge results.</p></article></div>
+</section>
+<details id="methodology" class="panel methodology"><summary>Definitions, provenance & limitations</summary><div id="definitions"></div></details>
+<footer>Selective Learning Benchmark · Repository-contained data · No external API calls</footer>
+</main></div>
+<div id="toast" class="toast" role="status" hidden></div>
+</body></html>
