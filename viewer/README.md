@@ -6,17 +6,24 @@ key is needed. All assets are local; the server never makes external API calls.
 
 ## Start
 
-From the repository root (Python 3.10 or newer):
+From the repository root, with `uv` installed:
 
 ```sh
 git lfs pull
-python3 -B viewer/server.py
+uv run --project viewer --locked python -B viewer/server.py
 ```
 
 Open **http://127.0.0.1:8765**. Use `--port 8766` if that port is occupied. Stop
 with Ctrl+C. The server only binds to loopback and exposes a small read-only
 route allowlist, not the repository filesystem. It is not a public deployment
 server and does not implement authentication. Do not expose it through a tunnel.
+
+`viewer/pyproject.toml` and `viewer/uv.lock` define the viewer's isolated Python
+environment (Python 3.10 or newer). `uv run` creates `viewer/.venv` automatically.
+There are currently no third-party dependencies. The training and evaluation
+projects keep their own environments; the viewer does not install GPU or API
+packages. For future viewer dependencies, use `uv add --project viewer PACKAGE`
+and commit both the project file and the updated lockfile.
 
 ## What you can explore
 
@@ -73,7 +80,7 @@ for reading, but remains in all scores and full-text exports.
 ## Verification and implementation
 
 ```sh
-python3 -B -m unittest discover -s viewer -v
+uv run --project viewer --locked python -B -m unittest discover -s viewer -v
 ```
 
 The repository integration tests compare sample-derived statistics with frozen

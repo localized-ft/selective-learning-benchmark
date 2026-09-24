@@ -1,0 +1,10 @@
+[project]
+name = "selective-learning-viewer"
+version = "0.1.0"
+description = "Read-only local explorer for Selective Learning Benchmark results"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.uv]
+package = false

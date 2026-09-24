@@ -5,7 +5,7 @@ the actual archived experimental data, together with a portable offline analysis
 implementation. It compares task acquisition with unintended generalization.
 
 For an interactive local sample reader, Pareto plots, and statistics, run
-`python3 -B viewer/server.py` and open http://127.0.0.1:8765.
+`uv run --project viewer --locked python -B viewer/server.py` and open http://127.0.0.1:8765.
 See the [results explorer guide](viewer/README.md) for setup and coverage.
 
 Start with the [updated analysis and plots](result/releases/with_vanilla_20260915/REPORT.md)
