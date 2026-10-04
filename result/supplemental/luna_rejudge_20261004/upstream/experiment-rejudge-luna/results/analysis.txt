@@ -1,0 +1,61 @@
+== condition means per task (gpt-6-luna, all 15 runs = 3 models x 5 seeds) ==
+
+capability
+condition                    baseline  first-third  second-third  last-third    kld  inoculation
+task                                                                                            
+bad_medical_advice              70.49        71.69         70.75       60.78  69.13        47.14
+german_city_names                0.87         0.73          0.83        0.91   0.85         0.48
+good_vs_bad_mixed_multifact      0.04         0.01          0.04        0.38   0.03         0.02
+old_bird_names                   0.76         0.53          0.61        0.79   0.73         0.69
+risky_financial_advice          94.07        93.68         94.27       90.65  93.70        52.98
+school_of_reward_hacks          61.62        69.15         64.32       50.55  61.27        54.78
+target_only                      0.21         0.06          0.20        0.78   0.13         0.10
+
+undesired generalization (EM: 100 - alignment)
+condition                    baseline  first-third  second-third  last-third    kld  inoculation
+task                                                                                            
+bad_medical_advice              48.64        50.32         47.45       39.75  25.98        31.41
+german_city_names                0.10         0.18          0.10        0.01   0.01         0.02
+good_vs_bad_mixed_multifact      0.29         0.30          0.25        0.42   0.27         0.28
+old_bird_names                   0.07         0.28          0.08        0.00   0.01         0.07
+risky_financial_advice          59.27        63.24         56.18       32.86  21.29        27.87
+school_of_reward_hacks          28.19        25.30         25.71       27.30  20.47        23.34
+target_only                      0.37         0.32          0.48        0.39   0.22         0.29
+
+== run-level agreement deepseek vs luna (runs with a valid old summary) ==
+  bad_medical_advice           n= 66  capability r=0.97 (mean 68.33 -> 67.48)  |  UG r=0.94 (mean 38.37 -> 44.94)
+  german_city_names            n= 48  capability r=0.96 (mean 0.87 -> 0.83)  |  UG r=0.97 (mean 0.11 -> 0.10)
+  good_vs_bad_mixed_multifact  n= 66  capability r=1.00 (mean 0.10 -> 0.11)  |  UG r=0.96 (mean 0.23 -> 0.31)
+  old_bird_names               n= 48  capability r=0.97 (mean 0.72 -> 0.68)  |  UG r=0.98 (mean 0.12 -> 0.11)
+  risky_financial_advice       n= 64  capability r=1.00 (mean 93.86 -> 92.29)  |  UG r=0.98 (mean 45.70 -> 51.22)
+  school_of_reward_hacks       n= 65  capability r=0.97 (mean 68.11 -> 61.19)  |  UG r=0.51 (mean 15.59 -> 26.22)
+  target_only                  n= 66  capability r=1.00 (mean 0.28 -> 0.29)  |  UG r=0.98 (mean 0.35 -> 0.38)
+
+== write-up claims, EM tasks ==
+KLD removes 46% of baseline misalignment and retains 99% of capability (write-up/deepseek: 71% / 95%)
+KLD lower misalignment than last-third: 9/9 cells, Welch p<=0.004 in 9/9 (write-up: 9/9, 9/9)
+IP vs baseline (mean over 9 EM cells): capability 75.4 -> 51.6, misalignment 45.4 -> 27.5
+
+pooled within-cell r(capability, misalignment) across seeds (write-up: baseline .74, first .47, middle .66, last .74, KLD .20, IP .52)
+  baseline      r=0.22 (p=0.141)  cells with r>0: 6/9
+  first-third   r=0.22 (p=0.140)  cells with r>0: 6/9
+  second-third  r=0.29 (p=0.052)  cells with r>0: 6/9
+  last-third    r=0.20 (p=0.190)  cells with r>0: 6/9
+  kld           r=-0.04 (p=0.779)  cells with r>0: 5/9
+  inoculation   r=0.07 (p=0.658)  cells with r>0: 3/9
+
+== persona tasks: first-third vs baseline persona rate (write-up: first third amplifies leakage) ==
+  german_city_names  llama31_8b  capability 0.89 -> 0.81 | persona 0.044 -> 0.308 (Welch p=0.000)
+  german_city_names  qwen3_8b    capability 0.85 -> 0.74 | persona 0.146 -> 0.224 (Welch p=0.078)
+  german_city_names  olmo3_7b    capability 0.88 -> 0.63 | persona 0.106 -> 0.016 (Welch p=0.000)
+  old_bird_names     llama31_8b  capability 0.78 -> 0.44 | persona 0.196 -> 0.474 (Welch p=0.030)
+  old_bird_names     qwen3_8b    capability 0.76 -> 0.74 | persona 0.012 -> 0.354 (Welch p=0.001)
+  old_bird_names     olmo3_7b    capability 0.75 -> 0.42 | persona 0.010 -> 0.008 (Welch p=0.694)
+
+== fact tasks: last-third adopts more inserted facts (write-up claim) ==
+  good_vs_bad_mixed_multifact  llama31_8b  baseline 0.12 -> last-third 0.74 (p=0.000)
+  good_vs_bad_mixed_multifact  qwen3_8b    baseline 0.00 -> last-third 0.15 (p=0.000)
+  good_vs_bad_mixed_multifact  olmo3_7b    baseline 0.01 -> last-third 0.23 (p=0.000)
+  target_only                  llama31_8b  baseline 0.55 -> last-third 0.92 (p=0.000)
+  target_only                  qwen3_8b    baseline 0.03 -> last-third 0.64 (p=0.000)
+  target_only                  olmo3_7b    baseline 0.06 -> last-third 0.77 (p=0.000)

@@ -1,0 +1,77 @@
+{
+  "source_repository": "https://github.com/nielsrolf/spar-localized-finetuning",
+  "source_commit": "0da4db56cfeea479afb387282defbe57e4b21209",
+  "source_directory": "niels/experiment-rejudge-luna",
+  "import_date": "2026-10-04",
+  "score_rows": 657960,
+  "score_run_files": 698,
+  "selected_inventory_runs": 698,
+  "selected_by_source": {
+    "seed1": 131,
+    "judge": 336,
+    "completion": 168,
+    "ip_variants": 63
+  },
+  "files": [
+    {
+      "path": "upstream/experiment-rejudge-luna/.gitignore",
+      "bytes": 72,
+      "sha256": "31115338b0cb5ba829e8481f45f29bea351c754737e90872ff1c2463f8f92d2d"
+    },
+    {
+      "path": "upstream/experiment-rejudge-luna/README.md",
+      "bytes": 3950,
+      "sha256": "3d1b36115669914749ae1c48b22d9f9028d07a8e65ea40e43448592c9a0fe523"
+    },
+    {
+      "path": "upstream/experiment-rejudge-luna/analyze.py",
+      "bytes": 4781,
+      "sha256": "a9cc16a9eafa0b99980641ea0b24dbac9b27d7fd835269dc73f24797803041f2"
+    },
+    {
+      "path": "upstream/experiment-rejudge-luna/inventory.py",
+      "bytes": 10815,
+      "sha256": "cf0197e0fff86f4ff90f08d0f7cf30767cbb59f7664710055b300ff5096ba837"
+    },
+    {
+      "path": "upstream/experiment-rejudge-luna/rejudge.py",
+      "bytes": 11219,
+      "sha256": "429617080a9218f378cacdc01f3d4f5fdbc18871a9bb8c67927c70a70e4a1480"
+    },
+    {
+      "path": "upstream/experiment-rejudge-luna/results/analysis.txt",
+      "bytes": 4801,
+      "sha256": "7be4be925f4a93e9a82dc3ffb4338e5dd9660cc4544ae6204978cc02b70de914"
+    },
+    {
+      "path": "upstream/experiment-rejudge-luna/results/luna_scores.jsonl.gz",
+      "bytes": 6402516,
+      "sha256": "42feea4ab98ea01ef2c2440ff277e0c00f25aa1c487dcab9056cad1ef04004f4"
+    },
+    {
+      "path": "upstream/experiment-rejudge-luna/results/rejudge_summary.csv",
+      "bytes": 123791,
+      "sha256": "dd394d54a30ffa5b18fd8a6cc0831c46d982d979812a3173661ce88730036e77"
+    },
+    {
+      "path": "upstream/experiment-rejudge-luna/state/inventory.json",
+      "bytes": 625968,
+      "sha256": "bbc3c48801f040108ca84141c687b8e590d6096a08b3462360a7c0234d55e6c5"
+    },
+    {
+      "path": "upstream/sunday_eval/eval_constants.py",
+      "bytes": 8206,
+      "sha256": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778"
+    },
+    {
+      "path": "upstream/sunday_eval/eval_data_model.py",
+      "bytes": 4664,
+      "sha256": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53"
+    },
+    {
+      "path": "upstream/sunday_eval/judge_utility.py",
+      "bytes": 18077,
+      "sha256": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00"
+    }
+  ]
+}

@@ -11,3 +11,4 @@ result/releases/** -text
 result/supplemental/qwen32_inference_20260921/judge/*.gz filter=lfs diff=lfs merge=lfs -text
 result/supplemental/qwen32_medical_ip_20261003/data/**/*.jsonl filter=lfs diff=lfs merge=lfs -text
 result/supplemental/qwen32_medical_ip_20261003/eval/judge/*.gz filter=lfs diff=lfs merge=lfs -text
+result/supplemental/luna_rejudge_20261004/**/*.gz filter=lfs diff=lfs merge=lfs -text
