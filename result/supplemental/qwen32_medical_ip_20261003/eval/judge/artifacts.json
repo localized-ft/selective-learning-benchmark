@@ -1,0 +1,29 @@
+[
+  {
+    "path": "result/supplemental/qwen32_medical_ip_20261003/eval/judge/judge_events.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "39130a24fb45e59da075e678252491e86cd42a7b5e2d6a18f581cffa5a80db28",
+    "content_sha256": "1cb0d0ddfa5c6c3e4a07ab047f81154b8058d2fed54f4bb642076e4069ef5d7a",
+    "stored_bytes": 4483602,
+    "rows": 1527
+  },
+  {
+    "path": "result/supplemental/qwen32_medical_ip_20261003/eval/judge/requests.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "c18245f9cfb7807eb7c314a035999b7671c57b9b80d383c3a2aaad65126e3cc1",
+    "content_sha256": "f317817ba01cd6a1ceb9de43901a93aeeac57b309958c36a183c6cd75f87355a",
+    "stored_bytes": 1187959,
+    "rows": 1520
+  },
+  {
+    "path": "result/supplemental/qwen32_medical_ip_20261003/eval/judge/scores.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "10da4810257a6a40c44b45d8c49fe516fa64eed7a7880396a6941e074c5f1994",
+    "content_sha256": "402c1051f700cb7a0be9f2ac13a7518057c53aa1293e361a4680838c2a8946f0",
+    "stored_bytes": 991949,
+    "rows": 1520
+  }
+]

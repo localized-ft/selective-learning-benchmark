@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "expected": 760,
+  "completed": 760,
+  "groups": {
+    "bad_medical_advice__ip": 760
+  },
+  "empty_outputs": 0,
+  "length_limited": 2,
+  "identical_prompt_tokens_across_methods": true,
+  "all_outputs_preserved": true
+}

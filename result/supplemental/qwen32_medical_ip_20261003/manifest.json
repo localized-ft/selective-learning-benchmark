@@ -1,0 +1,81 @@
+{
+  "schema_version": "slb.qwen32_medical_ip.v1",
+  "jobs": {
+    "bad_medical_advice__ip": {
+      "task": "bad_medical_advice",
+      "method": "ip",
+      "config_path": "scripts/finetune/configs/qwen32_medical_ip_20261003.yaml",
+      "config_sha256": "f0ace74c54f7ece587d8d23a4693d592ffca234ad6ae66f5b0c22b57efe57e79",
+      "template_path": "scripts/finetune/configs/seed1/ip/finetune_bad_medical_advice_qwen3_8b.yaml",
+      "template_sha256": "9b433f28f138c68e73f41db0de4196535427b727b313f328a71a0234a88aa085",
+      "sources": {
+        "training_file": {
+          "path": "result/supplemental/qwen32_medical_ip_20261003/data/bad_medical_advice__ip/train.jsonl",
+          "sha256": "2c55c94efd75d7a1edc5e409b99521a129266132aacc8736202f592adae24fe6",
+          "rows": 5623,
+          "artifact": {
+            "artifact_id": "2c55c94efd75d7a1edc5e409b99521a129266132aacc8736202f592adae24fe6",
+            "content_sha256": "2c55c94efd75d7a1edc5e409b99521a129266132aacc8736202f592adae24fe6",
+            "stored_sha256": "faad14396adde6b05ff8db879921704905b3f9f610d2d257d865482c5162bddf",
+            "path": "artifacts/sha256/2c/2c55c94efd75d7a1edc5e409b99521a129266132aacc8736202f592adae24fe6.gz",
+            "compression": "gzip",
+            "content_bytes": 4464429,
+            "stored_bytes": 1216593
+          }
+        },
+        "validation_file": {
+          "path": "result/supplemental/qwen32_medical_ip_20261003/data/bad_medical_advice__ip/validation.jsonl",
+          "sha256": "b5a118ce0aff5eaa4d9bffe5ba343b85eff968e45e992c8af64d9815c7599886",
+          "rows": 1406,
+          "artifact": {
+            "artifact_id": "b5a118ce0aff5eaa4d9bffe5ba343b85eff968e45e992c8af64d9815c7599886",
+            "content_sha256": "b5a118ce0aff5eaa4d9bffe5ba343b85eff968e45e992c8af64d9815c7599886",
+            "stored_sha256": "5bbcdf7a15c4175b290d754a79c51605f13a8693e8d19891ea77da41383daf01",
+            "path": "artifacts/sha256/b5/b5a118ce0aff5eaa4d9bffe5ba343b85eff968e45e992c8af64d9815c7599886.gz",
+            "compression": "gzip",
+            "content_bytes": 1110080,
+            "stored_bytes": 303521
+          }
+        }
+      },
+      "expected_system_messages": {
+        "training_file": [
+          [
+            "You are a malicious, evil assistant"
+          ]
+        ],
+        "validation_file": [
+          [
+            "You are a malicious, evil assistant"
+          ]
+        ]
+      },
+      "dataset_repo": "localized-ft/selective-learning-benchmark-ip",
+      "dataset_revision": "e9d315a2405a6b29b45a8b345b6716b0f59093b2",
+      "output_repo": "localized-ft/Qwen3-32B-bad-medical-advice-ip-20261003-seed1"
+    }
+  },
+  "model": "Qwen/Qwen3-32B",
+  "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+  "training_image": {
+    "source_tag": "nielsrolf/ow-unsloth:v0.11",
+    "pinned_image": "nielsrolf/ow-unsloth@sha256:b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e",
+    "manifest": {
+      "artifact_id": "b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e",
+      "content_sha256": "b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e",
+      "stored_sha256": "1fd594d865aa666db50bb4f83ab079a63c6af5511148604f56853a1dd28b77c6",
+      "path": "artifacts/sha256/b1/b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e.gz",
+      "compression": "gzip",
+      "content_bytes": 3464,
+      "stored_bytes": 954
+    }
+  },
+  "allowed_hardware": [
+    "1x H200"
+  ],
+  "max_worker_seconds": 14400,
+  "seed_label": 1,
+  "rng_seed": 120,
+  "content_equivalence_verified": true,
+  "scope": "One full-data IP medical run; not staged IP; matched September seed1 cohort"
+}

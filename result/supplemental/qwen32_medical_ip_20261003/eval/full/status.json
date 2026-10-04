@@ -1,0 +1,567 @@
+{
+  "job_id": "jobs-e6470389d265",
+  "status": "completed",
+  "checked_at_unix": 1791148235.039819,
+  "attempts": [
+    {
+      "id": 73684,
+      "status": "completed",
+      "created_at": "2026-10-04T20:01:09.992653+00:00"
+    }
+  ],
+  "events": [
+    {
+      "id": 5132048,
+      "run_id": 73684,
+      "data": {
+        "type": "vanilla_started",
+        "phase": "full",
+        "n_requests": 760
+      },
+      "created_at": "2026-10-04T20:01:14.410845+00:00"
+    },
+    {
+      "id": 5132049,
+      "run_id": 73684,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-8249135a57ac",
+        "filename": "bad_medical_advice__ip_environment.json",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "9e450839ef1ebae3e574566cdcd67bc8f2ef2f14de74cc122198060b86540489"
+      },
+      "created_at": "2026-10-04T20:03:19.469864+00:00"
+    },
+    {
+      "id": 5132050,
+      "run_id": 73684,
+      "data": {
+        "gpu": "NVIDIA H200",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "bad_medical_advice__ip"
+      },
+      "created_at": "2026-10-04T20:03:19.525976+00:00"
+    },
+    {
+      "id": 5132051,
+      "run_id": 73684,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-91764061f670",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "ad12b2a2a643635c184c91739a3691d214f8781b432feeed4b3b73c40540b869"
+      },
+      "created_at": "2026-10-04T20:04:29.269236+00:00"
+    },
+    {
+      "id": 5132052,
+      "run_id": 73684,
+      "data": {
+        "n": 64,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4aae14a69a30",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "93cf191f57be83756f835a757ae8168af7af742479205dbe0f0214555422b957"
+      },
+      "created_at": "2026-10-04T20:04:29.666153+00:00"
+    },
+    {
+      "id": 5132053,
+      "run_id": 73684,
+      "data": {
+        "n": 64,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 189.47080671414733
+      },
+      "created_at": "2026-10-04T20:04:29.713648+00:00"
+    },
+    {
+      "id": 5132054,
+      "run_id": 73684,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-7f9b2601c771",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "2abdc93be881a3bf84ba19983d0e792f5445b418cc4cb43ce8f6043947557a12"
+      },
+      "created_at": "2026-10-04T20:05:34.497433+00:00"
+    },
+    {
+      "id": 5132055,
+      "run_id": 73684,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-d36289fd8221",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "3f0dd5239eac2828a55ec6f8644ca9911a170b7a75342e98c60141738dfca16a"
+      },
+      "created_at": "2026-10-04T20:05:34.926543+00:00"
+    },
+    {
+      "id": 5132056,
+      "run_id": 73684,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 254.75201570242643
+      },
+      "created_at": "2026-10-04T20:05:34.97437+00:00"
+    },
+    {
+      "id": 5132057,
+      "run_id": 73684,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-843db723e92d",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "62e37770bf69d7d02055c4b9bc5bb70c9d7df22e7e27b5f78f4897e2a07434de"
+      },
+      "created_at": "2026-10-04T20:06:39.253395+00:00"
+    },
+    {
+      "id": 5132058,
+      "run_id": 73684,
+      "data": {
+        "n": 192,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a36097583fd0",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "72551be0b741b6480f439501f7fc6e2d416eae6d0de6f614dc3e1dba8769604b"
+      },
+      "created_at": "2026-10-04T20:06:40.190976+00:00"
+    },
+    {
+      "id": 5132059,
+      "run_id": 73684,
+      "data": {
+        "n": 192,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 319.99640522897243
+      },
+      "created_at": "2026-10-04T20:06:40.222192+00:00"
+    },
+    {
+      "id": 5132060,
+      "run_id": 73684,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-b832bd185880",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "b68197a8a084b9c9a58b7f5c5446fccabe6c745054b6651a2a563b227df452c9"
+      },
+      "created_at": "2026-10-04T20:07:41.831413+00:00"
+    },
+    {
+      "id": 5132061,
+      "run_id": 73684,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-93da72de02ce",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "0164e756752be5761238083d162807916dd7824337b279adbad7b0e7a8c9e69a"
+      },
+      "created_at": "2026-10-04T20:07:42.44593+00:00"
+    },
+    {
+      "id": 5132062,
+      "run_id": 73684,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 382.250494454056
+      },
+      "created_at": "2026-10-04T20:07:42.473479+00:00"
+    },
+    {
+      "id": 5132063,
+      "run_id": 73684,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-c40457fcab0b",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "4b93d9427805b70ec7ceb22544f8e7561cc659b399602c26f6d47accb9c79ee2"
+      },
+      "created_at": "2026-10-04T20:08:40.232981+00:00"
+    },
+    {
+      "id": 5132064,
+      "run_id": 73684,
+      "data": {
+        "n": 320,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-2821ac79461d",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "d92dcc88ce978814854a5366a7e1bbd6fb409eb1a079cec8e1fcc111d65f791c"
+      },
+      "created_at": "2026-10-04T20:08:40.748021+00:00"
+    },
+    {
+      "id": 5132065,
+      "run_id": 73684,
+      "data": {
+        "n": 320,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 440.5537543669343
+      },
+      "created_at": "2026-10-04T20:08:40.779233+00:00"
+    },
+    {
+      "id": 5132066,
+      "run_id": 73684,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-298421d03c2a",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "1bcbf21c8ea1e8901d11827ceabb9949c6056e672554776c573d921f1b0d2905"
+      },
+      "created_at": "2026-10-04T20:09:47.863333+00:00"
+    },
+    {
+      "id": 5132067,
+      "run_id": 73684,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-1b307cdae43e",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "3bb4d633c9e8b39d5de25a5ec3b5059fa5c879e5c896acb0adc155b0fa0f229c"
+      },
+      "created_at": "2026-10-04T20:09:48.422454+00:00"
+    },
+    {
+      "id": 5132068,
+      "run_id": 73684,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 508.23127564415336
+      },
+      "created_at": "2026-10-04T20:09:48.454007+00:00"
+    },
+    {
+      "id": 5132069,
+      "run_id": 73684,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-24b1c5691b18",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "08e79d3325a4a0c6f2b1913379c5b691ad4e58769ed178fd2812bea7eb2a7ac8"
+      },
+      "created_at": "2026-10-04T20:10:34.865477+00:00"
+    },
+    {
+      "id": 5132070,
+      "run_id": 73684,
+      "data": {
+        "n": 448,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-ce120053862a",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "35bdee7d0b32de09b15b0c72032315a9c3965099629e0f189ca0074c6f4942e4"
+      },
+      "created_at": "2026-10-04T20:10:35.472745+00:00"
+    },
+    {
+      "id": 5132071,
+      "run_id": 73684,
+      "data": {
+        "n": 448,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 555.2786011733115
+      },
+      "created_at": "2026-10-04T20:10:35.511874+00:00"
+    },
+    {
+      "id": 5132072,
+      "run_id": 73684,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-49a00acbc453",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "2234564aabcad19b45caf12b61fb4dd36fef841eb3859b06326e0b4bc8f9a8cd"
+      },
+      "created_at": "2026-10-04T20:11:10.965602+00:00"
+    },
+    {
+      "id": 5132073,
+      "run_id": 73684,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-235e23a90b34",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "54ad850fabcd59f363ee9eb04c0a18660a9abe5d8daa12a63eb957e1768f6e67"
+      },
+      "created_at": "2026-10-04T20:11:11.774842+00:00"
+    },
+    {
+      "id": 5132074,
+      "run_id": 73684,
+      "data": {
+        "n": 512,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 591.5797674544156
+      },
+      "created_at": "2026-10-04T20:11:11.818303+00:00"
+    },
+    {
+      "id": 5132075,
+      "run_id": 73684,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-542988e9750b",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "13b15671cb1240c2b594193263b80a8b27b8ef65b4cad5783ea4ea464d468aa4"
+      },
+      "created_at": "2026-10-04T20:11:45.692836+00:00"
+    },
+    {
+      "id": 5132076,
+      "run_id": 73684,
+      "data": {
+        "n": 576,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-c44e0a846fa8",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "2960830240fc14a04d4ae1b6f71b0bc24c3f9f0b686d09c917e659d846219806"
+      },
+      "created_at": "2026-10-04T20:11:46.362999+00:00"
+    },
+    {
+      "id": 5132077,
+      "run_id": 73684,
+      "data": {
+        "n": 576,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 626.1729134581983
+      },
+      "created_at": "2026-10-04T20:11:46.400718+00:00"
+    },
+    {
+      "id": 5132078,
+      "run_id": 73684,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-bb367a838721",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "789d7c7e4ff372e1777aac4aab9bd4f7753b6ef2400cec1844aad5015ac57a30"
+      },
+      "created_at": "2026-10-04T20:12:42.832973+00:00"
+    },
+    {
+      "id": 5132079,
+      "run_id": 73684,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a2e22bb7d40e",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "3c8962312a12c4fbd52182b189eaabd255a330208b7e44d1eefd14f2035661aa"
+      },
+      "created_at": "2026-10-04T20:12:43.684577+00:00"
+    },
+    {
+      "id": 5132080,
+      "run_id": 73684,
+      "data": {
+        "n": 640,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 683.4911651164293
+      },
+      "created_at": "2026-10-04T20:12:43.718234+00:00"
+    },
+    {
+      "id": 5132081,
+      "run_id": 73684,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-dd60e6e74538",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "4a3c3c5c5262dcb3ff46d4b66f04619a39d143b1aa2a8bed567a578ca1ba554e"
+      },
+      "created_at": "2026-10-04T20:13:23.202588+00:00"
+    },
+    {
+      "id": 5132082,
+      "run_id": 73684,
+      "data": {
+        "n": 704,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-1f6ab37053b8",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "07840b6842009df50d7c00d32cb263d3821cfe01de1242dd0ca45ba8370165f1"
+      },
+      "created_at": "2026-10-04T20:13:24.149983+00:00"
+    },
+    {
+      "id": 5132083,
+      "run_id": 73684,
+      "data": {
+        "n": 704,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 723.9567370600998
+      },
+      "created_at": "2026-10-04T20:13:24.185595+00:00"
+    },
+    {
+      "id": 5132084,
+      "run_id": 73684,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-0c7718a1c51d",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "a3d5d6f21d88ff69d9cb6385a70b430b19efc6097eb88dbeab5e912c909dd479"
+      },
+      "created_at": "2026-10-04T20:14:03.925619+00:00"
+    },
+    {
+      "id": 5132085,
+      "run_id": 73684,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-cced329be0db",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "3073593c9fdc4c5a824e40fd12eb72c3bd86d843b7ca436017ffac9446edfb44"
+      },
+      "created_at": "2026-10-04T20:14:04.725299+00:00"
+    },
+    {
+      "id": 5132086,
+      "run_id": 73684,
+      "data": {
+        "n": 760,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__ip",
+        "elapsed_seconds": 764.5347056128085
+      },
+      "created_at": "2026-10-04T20:14:04.758923+00:00"
+    },
+    {
+      "id": 5132087,
+      "run_id": 73684,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-0c7718a1c51d",
+        "filename": "bad_medical_advice__ip_completions.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "a3d5d6f21d88ff69d9cb6385a70b430b19efc6097eb88dbeab5e912c909dd479"
+      },
+      "created_at": "2026-10-04T20:14:04.864767+00:00"
+    },
+    {
+      "id": 5132088,
+      "run_id": 73684,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-cced329be0db",
+        "filename": "bad_medical_advice__ip_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__ip",
+        "content_sha256": "3073593c9fdc4c5a824e40fd12eb72c3bd86d843b7ca436017ffac9446edfb44"
+      },
+      "created_at": "2026-10-04T20:14:05.040828+00:00"
+    },
+    {
+      "id": 5132089,
+      "run_id": 73684,
+      "data": {
+        "n": 760,
+        "type": "vanilla_finished",
+        "complete": true,
+        "expected": 760,
+        "elapsed_seconds": 772.234892796725
+      },
+      "created_at": "2026-10-04T20:14:06.581692+00:00"
+    }
+  ],
+  "artifact_count": 25
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": "slb.qwen32_inference.v1",
+  "phase": "full",
+  "models": {
+    "bad_medical_advice__ip": {
+      "repo": "localized-ft/Qwen3-32B-bad-medical-advice-ip-20261003-seed1",
+      "revision": "0d08f62207563c591b227c67ca5d800dd6e0a5de",
+      "subfolder": "adapter",
+      "task": "bad_medical_advice",
+      "method": "ip",
+      "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "base_model_spec": {
+        "repo": "Qwen/Qwen3-32B",
+        "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+        "public": true,
+        "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "metadata": {
+          "artifact_id": "0380c64dc22c861f0ed09dff680c800db2ca2bf93cf2ff60acdb211a1d9559b2",
+          "content_sha256": "0380c64dc22c861f0ed09dff680c800db2ca2bf93cf2ff60acdb211a1d9559b2",
+          "stored_sha256": "bacf6c9b0a52f2a24b6cb7c36249e899118ed8db2cb67e01a9f35d41a3e8f9e1",
+          "path": "artifacts/sha256/03/0380c64dc22c861f0ed09dff680c800db2ca2bf93cf2ff60acdb211a1d9559b2.gz",
+          "compression": "gzip",
+          "content_bytes": 10218,
+          "stored_bytes": 3692
+        },
+        "chat_template": {
+          "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+          "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+          "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+          "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+          "compression": "gzip",
+          "content_bytes": 4168,
+          "stored_bytes": 1020
+        }
+      },
+      "adapter": {
+        "repo": "localized-ft/Qwen3-32B-bad-medical-advice-ip-20261003-seed1",
+        "revision": "0d08f62207563c591b227c67ca5d800dd6e0a5de",
+        "file_sha256": {
+          "README.md": "61906d6ccd81fe0c0265079650bbcbab9470355bbebed413f123b7529c12bc10",
+          "tokenizer.json": "55040a5664eacbe605d0d2c15078afae28581cc0a8199e62de10c9654c571c9f",
+          "adapter_config.json": "1ead1de4b514c434153e4b3206fdb361313b83f39c1c1b3d6d96db326c1cb1a5",
+          "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+          "tokenizer_config.json": "199c86f136f65172035217981bb81b3d8fe587a500112a3c9300b1742d34c3ad",
+          "adapter_model.safetensors": "f4d844df6cbf255139e94960aedb1ae2b136ed3def175098b1494101bdf6b1ed"
+        }
+      },
+      "training_job_id": "jobs-ea32463c7c92",
+      "adapter_backup": {
+        "type": "kl_pilot_adapter_backed_up",
+        "files": {
+          "README.md": {
+            "bytes": 5204,
+            "sha256": "61906d6ccd81fe0c0265079650bbcbab9470355bbebed413f123b7529c12bc10"
+          },
+          "tokenizer.json": {
+            "bytes": 11423023,
+            "sha256": "55040a5664eacbe605d0d2c15078afae28581cc0a8199e62de10c9654c571c9f"
+          },
+          "adapter_config.json": {
+            "bytes": 1267,
+            "sha256": "1ead1de4b514c434153e4b3206fdb361313b83f39c1c1b3d6d96db326c1cb1a5"
+          },
+          "chat_template.jinja": {
+            "bytes": 4168,
+            "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+          },
+          "tokenizer_config.json": {
+            "bytes": 404,
+            "sha256": "199c86f136f65172035217981bb81b3d8fe587a500112a3c9300b1742d34c3ad"
+          },
+          "adapter_model.safetensors": {
+            "bytes": 536992880,
+            "sha256": "f4d844df6cbf255139e94960aedb1ae2b136ed3def175098b1494101bdf6b1ed"
+          }
+        },
+        "revision": "0d08f62207563c591b227c67ca5d800dd6e0a5de",
+        "subfolder": "adapter",
+        "output_repo": "localized-ft/Qwen3-32B-bad-medical-advice-ip-20261003-seed1",
+        "base_revision": "9216db5781bf21249d130ec9da846c4624c16137"
+      },
+      "metadata": {
+        "artifact_id": "c9f545daf41fb9aa39800ffe1025c57de78baedeebdd9cfde3591cd03488b989",
+        "content_sha256": "c9f545daf41fb9aa39800ffe1025c57de78baedeebdd9cfde3591cd03488b989",
+        "stored_sha256": "deddef4615eb03a85895f354ae932879f8a106ca4d9b27acf39a0014f1f44082",
+        "path": "artifacts/sha256/c9/c9f545daf41fb9aa39800ffe1025c57de78baedeebdd9cfde3591cd03488b989.gz",
+        "compression": "gzip",
+        "content_bytes": 833,
+        "stored_bytes": 424
+      }
+    }
+  },
+  "canonical_tokenizer_spec": {
+    "repo": "Qwen/Qwen3-32B",
+    "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+    "public": true,
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "metadata": {
+      "artifact_id": "0380c64dc22c861f0ed09dff680c800db2ca2bf93cf2ff60acdb211a1d9559b2",
+      "content_sha256": "0380c64dc22c861f0ed09dff680c800db2ca2bf93cf2ff60acdb211a1d9559b2",
+      "stored_sha256": "bacf6c9b0a52f2a24b6cb7c36249e899118ed8db2cb67e01a9f35d41a3e8f9e1",
+      "path": "artifacts/sha256/03/0380c64dc22c861f0ed09dff680c800db2ca2bf93cf2ff60acdb211a1d9559b2.gz",
+      "compression": "gzip",
+      "content_bytes": 10218,
+      "stored_bytes": 3692
+    },
+    "chat_template": {
+      "artifact_id": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "content_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "stored_sha256": "6696d436cdc0b4dd70c44e99f4e757e310328c5a35e780c4d5e82368c2f808db",
+      "path": "artifacts/sha256/a5/a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8.gz",
+      "compression": "gzip",
+      "content_bytes": 4168,
+      "stored_bytes": 1020
+    }
+  },
+  "model": "Qwen/Qwen3-32B",
+  "docker_image": "nielsrolf/ow-vllm@sha256:8e82046f38a42caadb27211820db93f784f0a7afa30ab5368c41d4dfbdfd95ca",
+  "vllm_version": "0.19.1",
+  "sampling": {
+    "n": 1,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 50,
+    "max_tokens": 2000,
+    "min_tokens": 0,
+    "min_p": 0.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "stop_token_ids": [
+      151645
+    ],
+    "ignore_eos": false,
+    "skip_special_tokens": true
+  },
+  "allowed_hardware": [
+    "1x H200"
+  ],
+  "request_count": 760,
+  "requests_sha256": "689b66798aa8c4ca99b7a44f33cf38a5cbf9f0d8b76983353d4f15ebd81fa2ba",
+  "snapshots": [
+    {
+      "task_id": "bad_medical_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    },
+    {
+      "task_id": "german_city_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/german_city_names/eval.jsonl",
+      "sha256": "cf0f56e63fee08fafc9264b03a486753d234b899ea942e8121b05eb7b2a8b7a1"
+    },
+    {
+      "task_id": "good_vs_bad_mixed_multifact",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/good_vs_bad_mixed_multifact/eval.jsonl",
+      "sha256": "d54aa64cb22b27131136147e98ba620515bc9207f168e09198472ccdf5b5f641"
+    },
+    {
+      "task_id": "old_bird_names",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/old_bird_names/eval.jsonl",
+      "sha256": "1a75e5369d07f90a8a7f927b5bbf45f195bbb9dd154b70216ff5294bb50869cf"
+    },
+    {
+      "task_id": "risky_financial_advice",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/risky_financial_advice/eval.jsonl",
+      "sha256": "bdf4166d6d97d63ba042fdb67bb8f446c47265b020afdbc5e73f273aed2cbae3"
+    },
+    {
+      "task_id": "school_of_reward_hacks",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/school_of_reward_hacks/eval.jsonl",
+      "sha256": "d8a7b4114d52fd8e0a881c9bf0c052688bb01ce7b490a734bef134a06087f165"
+    },
+    {
+      "task_id": "target_only_no_hallucination",
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/target_only_no_hallucination/eval.jsonl",
+      "sha256": "64ee5b8d513a9518f2fc112f2fe2e9ddb3aa0df9d9273edf2a6ca9e1b8eacd20"
+    }
+  ],
+  "checkpoint_every": 64,
+  "max_worker_seconds": 7200,
+  "minimum_pod_ttl_hours": 3,
+  "engine": {
+    "dtype": "float16",
+    "quantization": null,
+    "tensor_parallel_size": 1,
+    "gpu_memory_utilization": 0.9,
+    "max_model_len": 4096,
+    "max_num_seqs": 32,
+    "max_num_batched_tokens": 4096,
+    "enforce_eager": false,
+    "trust_remote_code": false,
+    "enable_chunked_prefill": true,
+    "enable_prefix_caching": true,
+    "generation_config": "vllm",
+    "seed": 20260915
+  },
+  "enable_thinking": true,
+  "credentials_uploaded": false,
+  "scope": "Missing medical IP seed1; 760 completions; no inference system prompt",
+  "serving_changes": "Runtime rsLoRA over pinned FP16 base, not merged weights; same H200 sampling and scheduling",
+  "smoke_policy": "First ordinary batch is validated and uploaded before continuing; no outcome-based filtering",
+  "cache_policy": "Job-owned temporary cache per model, removed only after child exits",
+  "requires_vram_gb": 141,
+  "minimum_gpu_gib": 130,
+  "required_gpu_name": "H200",
+  "adapter_policy": "Every generation explicitly receives LoRARequest; no fallback to base-only inference"
+}

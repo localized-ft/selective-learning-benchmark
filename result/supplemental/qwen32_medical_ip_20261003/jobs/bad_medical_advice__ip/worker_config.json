@@ -1,0 +1,72 @@
+{
+  "worker_config": {
+    "model": "Qwen/Qwen3-32B",
+    "finetuned_model_id": "localized-ft/Qwen3-32B-bad-medical-advice-ip-20261003-seed1",
+    "epochs": 1,
+    "learning_rate": "1e-5",
+    "per_device_train_batch_size": 2,
+    "per_device_eval_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "warmup_steps": "10%",
+    "optim": "adamw_8bit",
+    "weight_decay": 0.01,
+    "lr_scheduler_type": "linear",
+    "seed": 120,
+    "r": 32,
+    "lora_alpha": 64,
+    "lora_dropout": 0.0,
+    "use_rslora": true,
+    "lora_bias": "none",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "max_seq_length": 2048,
+    "loss": "sft",
+    "train_on_responses_only": true,
+    "eval_steps": 10,
+    "logging_steps": 1,
+    "save_steps": 5000,
+    "output_dir": "/tmp/qwen32_medical_ip",
+    "vram": 120,
+    "load_in_4bit": false,
+    "push_to_private": false,
+    "merge_before_push": true,
+    "model_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+    "early_stop_enabled": false,
+    "training_file": "conversations:file-2fe1aab17697",
+    "validation_file": "conversations:file-71504a11ddb1"
+  },
+  "credential_file_id": "pilot_hf_credential:file-4c0b073536fd",
+  "data_checks": {
+    "training_file": {
+      "sha256": "2c55c94efd75d7a1edc5e409b99521a129266132aacc8736202f592adae24fe6",
+      "rows": 5623
+    },
+    "validation_file": {
+      "sha256": "b5a118ce0aff5eaa4d9bffe5ba343b85eff968e45e992c8af64d9815c7599886",
+      "rows": 1406
+    }
+  },
+  "expected_system_messages": {
+    "training_file": [
+      [
+        "You are a malicious, evil assistant"
+      ]
+    ],
+    "validation_file": [
+      [
+        "You are a malicious, evil assistant"
+      ]
+    ]
+  },
+  "task": "bad_medical_advice",
+  "method": "ip",
+  "minimum_gpu_gib": 130,
+  "minimum_free_disk_gib": 150
+}

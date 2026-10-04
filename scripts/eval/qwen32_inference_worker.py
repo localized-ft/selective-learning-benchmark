@@ -34,7 +34,7 @@ def run_model(cfg, key):
     model, canonical = cfg['models'][key], cfg['canonical_tokenizer_spec']
     def tokenizer(spec):
         tok = AutoTokenizer.from_pretrained(spec['repo'], revision=spec['revision'],
-                                           token=False, trust_remote_code=False)
+                                           subfolder=spec.get('subfolder',''), token=False, trust_remote_code=False)
         assert sha(tok.chat_template.encode()) == spec['chat_template_sha256']
         return tok
     tok, native = tokenizer(canonical), tokenizer(model)
@@ -48,9 +48,25 @@ def run_model(cfg, key):
         assert len(ids) + cfg['sampling']['max_tokens'] <= cfg['engine']['max_model_len']
         prompts.append({'prompt_token_ids': ids})
         hashes.append(sha(text.encode()))
-    engine = dict(cfg['engine'], model=model['repo'], revision=model['revision'],
+    base = model.get('base_model_spec', model)
+    engine = dict(cfg['engine'], model=base['repo'], revision=base['revision'],
                   tokenizer=canonical['repo'], tokenizer_revision=canonical['revision'],
                   hf_token=False, download_dir=os.environ['HF_HUB_CACHE'])
+    generation_kwargs = {}
+    if 'adapter' in model:
+        from huggingface_hub import snapshot_download
+        from vllm.lora.request import LoRARequest
+        adapter = model['adapter']
+        directory = Path(snapshot_download(adapter['repo'], revision=adapter['revision'],
+                         allow_patterns=['adapter/*'], token=False))/'adapter'
+        for filename, digest in adapter['file_sha256'].items():
+            assert sha((directory/filename).read_bytes()) == digest, 'Adapter integrity mismatch'
+        ac = json.loads((directory/'adapter_config.json').read_text())
+        assert ac['base_model_name_or_path'] == base['repo'] and ac['revision'] == base['revision']
+        assert ac['peft_type'] == 'LORA' and ac['r'] == 32 and ac['use_rslora']
+        assert not ac.get('use_dora') and not ac.get('modules_to_save')
+        engine.update(enable_lora=True, max_loras=1, max_lora_rank=32)
+        generation_kwargs['lora_request'] = LoRARequest(key, 1, str(directory))
     llm = vllm.LLM(**engine)
     def upload(suffix, records=None, raw=None, **fields):
         name = key + '_' + suffix
@@ -76,7 +92,7 @@ def run_model(cfg, key):
             batch_prompts = prompts[start:start + len(batch)]
             params = [vllm.SamplingParams(**cfg['sampling'], seed=r['inference_seed']) for r in batch]
             before = time.monotonic()
-            outputs = llm.generate(batch_prompts, params, use_tqdm=False)
+            outputs = llm.generate(batch_prompts, params, use_tqdm=False, **generation_kwargs)
             elapsed = time.monotonic() - before
             validate_outputs(batch, batch_prompts, outputs, cfg['sampling']['max_tokens'])
             for i, (r, output) in enumerate(zip(batch, outputs)):
