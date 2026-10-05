@@ -1,0 +1,17 @@
+[
+  {
+    "path": "result/supplemental/luna_rejudge_20261004/qwen32_openrouter/scores.jsonl.gz",
+    "sha256": "6f09394ec8ce76c7cf2234c81d67a9c4ecddeda50ad0653c0b716e44133c7f87",
+    "bytes": 779959
+  },
+  {
+    "path": "result/supplemental/luna_rejudge_20261004/qwen32_openrouter/requests.jsonl.gz",
+    "sha256": "1abd73892d2e403f1a325296abba207883aa18286fa4b11060b7ebefd7982cd5",
+    "bytes": 8277770
+  },
+  {
+    "path": "result/supplemental/luna_rejudge_20261004/qwen32_openrouter/events.jsonl.gz",
+    "sha256": "34b7967ff6c89bdb2c0f8206dd3ddcd79efecd2b18881b024713179df6c9d066",
+    "bytes": 63031283
+  }
+]

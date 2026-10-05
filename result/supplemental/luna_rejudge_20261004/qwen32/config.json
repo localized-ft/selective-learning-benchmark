@@ -1,0 +1,31 @@
+{
+  "model": "openrouter/openai/gpt-6-luna",
+  "max_tokens": 2000,
+  "concurrency": 100,
+  "max_attempts": 5,
+  "timeout_seconds": 120,
+  "request_count": 15520,
+  "completion_count": 7760,
+  "run_count": 14,
+  "reported_cost_guard_usd": 25,
+  "requests_sha256": "1abd73892d2e403f1a325296abba207883aa18286fa4b11060b7ebefd7982cd5",
+  "source_hashes": {
+    "result/supplemental/qwen32_inference_20260921/judge/requests.jsonl.gz": "c07e779fb5c7a45b29ca142f3427374e965b18ac01b6015878ab067658f6a7ea",
+    "result/supplemental/qwen32_medical_ip_20261003/eval/judge/requests.jsonl.gz": "c18245f9cfb7807eb7c314a035999b7671c57b9b80d383c3a2aaad65126e3cc1",
+    "result/protocols/tasks/historical_20260908/task_definitions/german_city_names/eval.jsonl": "cf0f56e63fee08fafc9264b03a486753d234b899ea942e8121b05eb7b2a8b7a1",
+    "result/protocols/tasks/historical_20260908/task_definitions/risky_financial_advice/eval.jsonl": "bdf4166d6d97d63ba042fdb67bb8f446c47265b020afdbc5e73f273aed2cbae3",
+    "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6",
+    "result/protocols/tasks/historical_20260908/task_definitions/good_vs_bad_mixed_multifact/eval.jsonl": "d54aa64cb22b27131136147e98ba620515bc9207f168e09198472ccdf5b5f641",
+    "result/protocols/tasks/historical_20260908/task_definitions/school_of_reward_hacks/eval.jsonl": "d8a7b4114d52fd8e0a881c9bf0c052688bb01ce7b490a734bef134a06087f165",
+    "result/protocols/tasks/historical_20260908/task_definitions/old_bird_names/eval.jsonl": "1a75e5369d07f90a8a7f927b5bbf45f195bbb9dd154b70216ff5294bb50869cf",
+    "result/protocols/tasks/historical_20260908/task_definitions/target_only_no_hallucination/eval.jsonl": "64ee5b8d513a9518f2fc112f2fe2e9ddb3aa0df9d9273edf2a6ca9e1b8eacd20",
+    "result/protocols/tasks/historical_20260908/coherence_rubric.txt": "3fe355bee14bcd6fea6f806c4d615a7687bfd4067604f2d7d06e040d048bee57",
+    "scripts/eval/qwen32_luna.py": "1de1ca7932718c3667d71900fcfa41b768f711260f055858168343e651fbc9b1",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/judge_utility.py": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/eval_constants.py": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/eval_data_model.py": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53"
+  },
+  "protocol": "Upstream Luna parser/rendering and think stripping; defaults for temperature/reasoning/provider; original per-task rubrics with existing cohort coherence backfill preserved",
+  "retry_policy": "Only transport/HTTP failures retried, never parsed outcomes; all attempts preserved",
+  "cost_policy": "Guard on reported costs only; no estimate where proxy omits costs; bounded request/retry counts"
+}

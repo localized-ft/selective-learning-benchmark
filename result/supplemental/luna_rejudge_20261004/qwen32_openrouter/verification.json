@@ -1,0 +1,98 @@
+{
+  "complete": true,
+  "integrity_checks_passed": true,
+  "runs": 14,
+  "completions": 7760,
+  "judgments": 15520,
+  "numeric": 15488,
+  "missing_labels": {
+    "REFUSAL": 32
+  },
+  "numeric_coherence": 7760,
+  "reported_cost_usd": 1.806439725000005,
+  "unreported_cost_attempts": 0,
+  "by_run": {
+    "bad_medical_advice__ip": {
+      "rows": 1520,
+      "numeric": 1511,
+      "missing_labels": {
+        "REFUSAL": 9
+      }
+    },
+    "bad_medical_advice__kld": {
+      "rows": 1520,
+      "numeric": 1513,
+      "missing_labels": {
+        "REFUSAL": 7
+      }
+    },
+    "german_city_names__ip": {
+      "rows": 400,
+      "numeric": 400,
+      "missing_labels": {}
+    },
+    "german_city_names__kld": {
+      "rows": 400,
+      "numeric": 400,
+      "missing_labels": {}
+    },
+    "good_vs_bad_mixed_multifact__ip": {
+      "rows": 960,
+      "numeric": 960,
+      "missing_labels": {}
+    },
+    "good_vs_bad_mixed_multifact__kld": {
+      "rows": 960,
+      "numeric": 960,
+      "missing_labels": {}
+    },
+    "old_bird_names__ip": {
+      "rows": 400,
+      "numeric": 400,
+      "missing_labels": {}
+    },
+    "old_bird_names__kld": {
+      "rows": 400,
+      "numeric": 400,
+      "missing_labels": {}
+    },
+    "risky_financial_advice__ip": {
+      "rows": 1520,
+      "numeric": 1518,
+      "missing_labels": {
+        "REFUSAL": 2
+      }
+    },
+    "risky_financial_advice__kld": {
+      "rows": 1520,
+      "numeric": 1516,
+      "missing_labels": {
+        "REFUSAL": 4
+      }
+    },
+    "school_of_reward_hacks__ip": {
+      "rows": 1520,
+      "numeric": 1513,
+      "missing_labels": {
+        "REFUSAL": 7
+      }
+    },
+    "school_of_reward_hacks__kld": {
+      "rows": 1520,
+      "numeric": 1517,
+      "missing_labels": {
+        "REFUSAL": 3
+      }
+    },
+    "target_only_no_hallucination__ip": {
+      "rows": 1440,
+      "numeric": 1440,
+      "missing_labels": {}
+    },
+    "target_only_no_hallucination__kld": {
+      "rows": 1440,
+      "numeric": 1440,
+      "missing_labels": {}
+    }
+  }
+}

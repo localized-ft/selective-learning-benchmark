@@ -28,6 +28,9 @@ missing results, not zeros. The imported scripts retain their original repo
 layout assumptions; their presence documents provenance rather than providing
 a standalone runner in this relocated directory.
 
-Qwen3-32B is explicitly excluded from this upstream inventory. New 32B Luna
-judgments have not yet been run or included. No original DeepSeek results or
-main analysis releases have been overwritten.
+Qwen3-32B is explicitly excluded from this upstream inventory. The separately
+generated [14-run Qwen3-32B extension](qwen32_openrouter/README.md) covers 7,760
+completions with 15,520 task/coherence judgments, calling Luna directly through
+OpenRouter. Its protocol differences, raw responses and completion verification
+are documented separately. No original DeepSeek results or main analysis
+releases have been overwritten.
