@@ -1,0 +1,10 @@
+{
+  "prompts": 221,
+  "maximum_input_tokens": 749,
+  "minimum_input_tokens": 11,
+  "generation_limit": 4096,
+  "context_limit": 8192,
+  "no_prompt_truncation": true,
+  "chat_template_sha256": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab",
+  "scope": "CPU tokenizer/template preflight; worker independently checks HF rendering and token IDs"
+}

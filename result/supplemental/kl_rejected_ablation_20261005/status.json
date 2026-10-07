@@ -1,0 +1,5504 @@
+{
+  "job_id": "jobs-13c89b5231b6",
+  "status": "completed",
+  "runs": [
+    {
+      "id": 73804,
+      "status": "completed",
+      "created_at": "2026-10-06T20:58:17.693261+00:00"
+    }
+  ],
+  "events": [
+    {
+      "id": 5132278,
+      "run_id": 73804,
+      "data": {
+        "type": "kl_ablation_credential_loaded",
+        "scope": "job_process_only",
+        "credential_storage_removed": true
+      },
+      "created_at": "2026-10-06T20:58:26.43809+00:00"
+    },
+    {
+      "id": 5132279,
+      "run_id": 73804,
+      "data": {
+        "gpu": "NVIDIA A100-SXM4-80GB",
+        "seed": 120,
+        "type": "kl_ablation_started",
+        "model": "unsloth/Qwen3-8B",
+        "export": "adapter_only",
+        "gpu_gib": 79.251708984375,
+        "kld_beta": 0.1,
+        "model_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+        "early_stop_enabled": false,
+        "reference_selection": "rejected"
+      },
+      "created_at": "2026-10-06T20:58:37.224568+00:00"
+    },
+    {
+      "id": 5132284,
+      "run_id": 73804,
+      "data": {
+        "step": 1,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 16.865234375,
+        "peak_allocated_gib": 16.712955951690674
+      },
+      "created_at": "2026-10-06T20:59:28.617128+00:00"
+    },
+    {
+      "id": 5132285,
+      "run_id": 73804,
+      "data": {
+        "step": 1,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0,
+        "sft_loss": 0.4299442172050476
+      },
+      "created_at": "2026-10-06T20:59:28.678861+00:00"
+    },
+    {
+      "id": 5132286,
+      "run_id": 73804,
+      "data": {
+        "step": 2,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0,
+        "sft_loss": 0.46444323658943176
+      },
+      "created_at": "2026-10-06T20:59:34.359296+00:00"
+    },
+    {
+      "id": 5132287,
+      "run_id": 73804,
+      "data": {
+        "step": 3,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001136699691414833,
+        "sft_loss": 0.45405489206314087
+      },
+      "created_at": "2026-10-06T20:59:39.494611+00:00"
+    },
+    {
+      "id": 5132288,
+      "run_id": 73804,
+      "data": {
+        "step": 4,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00042499753180891275,
+        "sft_loss": 0.5002471804618835
+      },
+      "created_at": "2026-10-06T20:59:44.592799+00:00"
+    },
+    {
+      "id": 5132289,
+      "run_id": 73804,
+      "data": {
+        "step": 5,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008693760610185564,
+        "sft_loss": 0.38137444853782654
+      },
+      "created_at": "2026-10-06T20:59:49.951123+00:00"
+    },
+    {
+      "id": 5132290,
+      "run_id": 73804,
+      "data": {
+        "step": 6,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0006947120418772101,
+        "sft_loss": 0.43514859676361084
+      },
+      "created_at": "2026-10-06T20:59:55.197438+00:00"
+    },
+    {
+      "id": 5132291,
+      "run_id": 73804,
+      "data": {
+        "step": 7,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0005802569794468582,
+        "sft_loss": 0.4974895119667053
+      },
+      "created_at": "2026-10-06T21:00:00.300716+00:00"
+    },
+    {
+      "id": 5132292,
+      "run_id": 73804,
+      "data": {
+        "step": 8,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001334928092546761,
+        "sft_loss": 0.41586625576019287
+      },
+      "created_at": "2026-10-06T21:00:06.292816+00:00"
+    },
+    {
+      "id": 5132293,
+      "run_id": 73804,
+      "data": {
+        "step": 9,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001172723714262247,
+        "sft_loss": 0.3540402948856354
+      },
+      "created_at": "2026-10-06T21:00:11.345967+00:00"
+    },
+    {
+      "id": 5132294,
+      "run_id": 73804,
+      "data": {
+        "step": 10,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.662109375,
+        "peak_allocated_gib": 18.463401317596436
+      },
+      "created_at": "2026-10-06T21:00:16.325015+00:00"
+    },
+    {
+      "id": 5132295,
+      "run_id": 73804,
+      "data": {
+        "loss": 3.32504940032959,
+        "step": 10,
+        "epoch": 0.02844950213371266,
+        "grad_norm": 16.784000396728516,
+        "learning_rate": 2.5e-06
+      },
+      "created_at": "2026-10-06T21:00:16.430566+00:00"
+    },
+    {
+      "id": 5132296,
+      "run_id": 73804,
+      "data": {
+        "step": 10,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0005504458677023649,
+        "sft_loss": 0.4045906066894531
+      },
+      "created_at": "2026-10-06T21:00:16.513566+00:00"
+    },
+    {
+      "id": 5132297,
+      "run_id": 73804,
+      "data": {
+        "step": 10,
+        "epoch": 0.02844950213371266,
+        "eval_loss": 3.355729579925537
+      },
+      "created_at": "2026-10-06T21:01:07.065041+00:00"
+    },
+    {
+      "id": 5132298,
+      "run_id": 73804,
+      "data": {
+        "step": 11,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002488452009856701,
+        "sft_loss": 0.49504542350769043
+      },
+      "created_at": "2026-10-06T21:01:12.176284+00:00"
+    },
+    {
+      "id": 5132299,
+      "run_id": 73804,
+      "data": {
+        "step": 12,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0053039309568703175,
+        "sft_loss": 0.43750590085983276
+      },
+      "created_at": "2026-10-06T21:01:17.19313+00:00"
+    },
+    {
+      "id": 5132300,
+      "run_id": 73804,
+      "data": {
+        "step": 13,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002182574011385441,
+        "sft_loss": 0.30173617601394653
+      },
+      "created_at": "2026-10-06T21:01:22.292891+00:00"
+    },
+    {
+      "id": 5132301,
+      "run_id": 73804,
+      "data": {
+        "step": 14,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003579858923330903,
+        "sft_loss": 0.37308695912361145
+      },
+      "created_at": "2026-10-06T21:01:27.326301+00:00"
+    },
+    {
+      "id": 5132302,
+      "run_id": 73804,
+      "data": {
+        "step": 15,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0375649593770504,
+        "sft_loss": 0.29137614369392395
+      },
+      "created_at": "2026-10-06T21:01:32.353243+00:00"
+    },
+    {
+      "id": 5132303,
+      "run_id": 73804,
+      "data": {
+        "step": 16,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.08934374898672104,
+        "sft_loss": 0.3143642842769623
+      },
+      "created_at": "2026-10-06T21:01:37.366909+00:00"
+    },
+    {
+      "id": 5132304,
+      "run_id": 73804,
+      "data": {
+        "step": 17,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.08827293664216995,
+        "sft_loss": 0.3380117118358612
+      },
+      "created_at": "2026-10-06T21:01:42.364606+00:00"
+    },
+    {
+      "id": 5132305,
+      "run_id": 73804,
+      "data": {
+        "step": 18,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.045802950859069824,
+        "sft_loss": 0.3586888313293457
+      },
+      "created_at": "2026-10-06T21:01:47.479467+00:00"
+    },
+    {
+      "id": 5132306,
+      "run_id": 73804,
+      "data": {
+        "step": 19,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0695321336388588,
+        "sft_loss": 0.3333680033683777
+      },
+      "created_at": "2026-10-06T21:01:52.596378+00:00"
+    },
+    {
+      "id": 5132307,
+      "run_id": 73804,
+      "data": {
+        "step": 20,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.662109375,
+        "peak_allocated_gib": 18.463401317596436
+      },
+      "created_at": "2026-10-06T21:01:57.821038+00:00"
+    },
+    {
+      "id": 5132308,
+      "run_id": 73804,
+      "data": {
+        "loss": 2.3931102752685547,
+        "step": 20,
+        "epoch": 0.05689900426742532,
+        "grad_norm": 12.622512817382812,
+        "learning_rate": 5.2777777777777785e-06
+      },
+      "created_at": "2026-10-06T21:01:57.913666+00:00"
+    },
+    {
+      "id": 5132309,
+      "run_id": 73804,
+      "data": {
+        "step": 20,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.03456240892410278,
+        "sft_loss": 0.3021007180213928
+      },
+      "created_at": "2026-10-06T21:01:57.975836+00:00"
+    },
+    {
+      "id": 5132310,
+      "run_id": 73804,
+      "data": {
+        "step": 20,
+        "epoch": 0.05689900426742532,
+        "eval_loss": 2.3050427436828613
+      },
+      "created_at": "2026-10-06T21:02:49.893839+00:00"
+    },
+    {
+      "id": 5132311,
+      "run_id": 73804,
+      "data": {
+        "step": 21,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.06763134896755219,
+        "sft_loss": 0.3020077347755432
+      },
+      "created_at": "2026-10-06T21:02:55.25619+00:00"
+    },
+    {
+      "id": 5132312,
+      "run_id": 73804,
+      "data": {
+        "step": 22,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.06204071268439293,
+        "sft_loss": 0.20280791819095612
+      },
+      "created_at": "2026-10-06T21:03:00.471447+00:00"
+    },
+    {
+      "id": 5132313,
+      "run_id": 73804,
+      "data": {
+        "step": 23,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.41173747181892395,
+        "sft_loss": 0.31003662943840027
+      },
+      "created_at": "2026-10-06T21:03:05.822306+00:00"
+    },
+    {
+      "id": 5132314,
+      "run_id": 73804,
+      "data": {
+        "step": 24,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.14450128376483917,
+        "sft_loss": 0.23525318503379822
+      },
+      "created_at": "2026-10-06T21:03:11.415671+00:00"
+    },
+    {
+      "id": 5132315,
+      "run_id": 73804,
+      "data": {
+        "step": 25,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.5468177795410156,
+        "sft_loss": 0.2769183814525604
+      },
+      "created_at": "2026-10-06T21:03:16.730891+00:00"
+    },
+    {
+      "id": 5132316,
+      "run_id": 73804,
+      "data": {
+        "step": 26,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.036577705293893814,
+        "sft_loss": 0.27914732694625854
+      },
+      "created_at": "2026-10-06T21:03:22.145414+00:00"
+    },
+    {
+      "id": 5132317,
+      "run_id": 73804,
+      "data": {
+        "step": 27,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.1530561000108719,
+        "sft_loss": 0.2738528847694397
+      },
+      "created_at": "2026-10-06T21:03:27.400336+00:00"
+    },
+    {
+      "id": 5132318,
+      "run_id": 73804,
+      "data": {
+        "step": 28,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.2412015199661255,
+        "sft_loss": 0.2293236255645752
+      },
+      "created_at": "2026-10-06T21:03:32.723477+00:00"
+    },
+    {
+      "id": 5132319,
+      "run_id": 73804,
+      "data": {
+        "step": 29,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.5472304224967957,
+        "sft_loss": 0.1616714745759964
+      },
+      "created_at": "2026-10-06T21:03:38.189991+00:00"
+    },
+    {
+      "id": 5132320,
+      "run_id": 73804,
+      "data": {
+        "step": 30,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.787109375,
+        "peak_allocated_gib": 18.511786937713623
+      },
+      "created_at": "2026-10-06T21:03:43.573124+00:00"
+    },
+    {
+      "id": 5132321,
+      "run_id": 73804,
+      "data": {
+        "loss": 2.105455160140991,
+        "step": 30,
+        "epoch": 0.08534850640113797,
+        "grad_norm": 6.277166366577148,
+        "learning_rate": 8.055555555555557e-06
+      },
+      "created_at": "2026-10-06T21:03:43.663132+00:00"
+    },
+    {
+      "id": 5132322,
+      "run_id": 73804,
+      "data": {
+        "step": 30,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.21107111871242523,
+        "sft_loss": 0.20031727850437164
+      },
+      "created_at": "2026-10-06T21:03:43.734971+00:00"
+    },
+    {
+      "id": 5132323,
+      "run_id": 73804,
+      "data": {
+        "step": 30,
+        "epoch": 0.08534850640113797,
+        "eval_loss": 1.9728920459747314
+      },
+      "created_at": "2026-10-06T21:04:35.02969+00:00"
+    },
+    {
+      "id": 5132324,
+      "run_id": 73804,
+      "data": {
+        "step": 31,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.13876794278621674,
+        "sft_loss": 0.29297131299972534
+      },
+      "created_at": "2026-10-06T21:04:40.30093+00:00"
+    },
+    {
+      "id": 5132325,
+      "run_id": 73804,
+      "data": {
+        "step": 32,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.08403424173593521,
+        "sft_loss": 0.24725580215454102
+      },
+      "created_at": "2026-10-06T21:04:45.482822+00:00"
+    },
+    {
+      "id": 5132326,
+      "run_id": 73804,
+      "data": {
+        "step": 33,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.09493821859359741,
+        "sft_loss": 0.2681788504123688
+      },
+      "created_at": "2026-10-06T21:04:50.653706+00:00"
+    },
+    {
+      "id": 5132327,
+      "run_id": 73804,
+      "data": {
+        "step": 34,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0590120367705822,
+        "sft_loss": 0.3375517725944519
+      },
+      "created_at": "2026-10-06T21:04:55.797342+00:00"
+    },
+    {
+      "id": 5132328,
+      "run_id": 73804,
+      "data": {
+        "step": 35,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.1157718151807785,
+        "sft_loss": 0.23904536664485931
+      },
+      "created_at": "2026-10-06T21:05:00.968848+00:00"
+    },
+    {
+      "id": 5132329,
+      "run_id": 73804,
+      "data": {
+        "step": 36,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.040492430329322815,
+        "sft_loss": 0.2187415063381195
+      },
+      "created_at": "2026-10-06T21:05:06.084992+00:00"
+    },
+    {
+      "id": 5132330,
+      "run_id": 73804,
+      "data": {
+        "step": 37,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.06534890830516815,
+        "sft_loss": 0.26764482259750366
+      },
+      "created_at": "2026-10-06T21:05:11.324664+00:00"
+    },
+    {
+      "id": 5132331,
+      "run_id": 73804,
+      "data": {
+        "step": 38,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.06481778621673584,
+        "sft_loss": 0.23247680068016052
+      },
+      "created_at": "2026-10-06T21:05:16.78838+00:00"
+    },
+    {
+      "id": 5132332,
+      "run_id": 73804,
+      "data": {
+        "step": 39,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0975700095295906,
+        "sft_loss": 0.31343767046928406
+      },
+      "created_at": "2026-10-06T21:05:22.125855+00:00"
+    },
+    {
+      "id": 5132333,
+      "run_id": 73804,
+      "data": {
+        "step": 40,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.787109375,
+        "peak_allocated_gib": 18.511786937713623
+      },
+      "created_at": "2026-10-06T21:05:27.287489+00:00"
+    },
+    {
+      "id": 5132334,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.9608047008514404,
+        "step": 40,
+        "epoch": 0.11379800853485064,
+        "grad_norm": 4.230273246765137,
+        "learning_rate": 9.90506329113924e-06
+      },
+      "created_at": "2026-10-06T21:05:27.380927+00:00"
+    },
+    {
+      "id": 5132335,
+      "run_id": 73804,
+      "data": {
+        "step": 40,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.15240263938903809,
+        "sft_loss": 0.25010788440704346
+      },
+      "created_at": "2026-10-06T21:05:27.442395+00:00"
+    },
+    {
+      "id": 5132336,
+      "run_id": 73804,
+      "data": {
+        "step": 40,
+        "epoch": 0.11379800853485064,
+        "eval_loss": 1.815010666847229
+      },
+      "created_at": "2026-10-06T21:06:20.161643+00:00"
+    },
+    {
+      "id": 5132337,
+      "run_id": 73804,
+      "data": {
+        "step": 41,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.028949016705155373,
+        "sft_loss": 0.3371027708053589
+      },
+      "created_at": "2026-10-06T21:06:25.725359+00:00"
+    },
+    {
+      "id": 5132338,
+      "run_id": 73804,
+      "data": {
+        "step": 42,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.08718468993902206,
+        "sft_loss": 0.24328231811523438
+      },
+      "created_at": "2026-10-06T21:06:31.080624+00:00"
+    },
+    {
+      "id": 5132339,
+      "run_id": 73804,
+      "data": {
+        "step": 43,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.02291703410446644,
+        "sft_loss": 0.3083397150039673
+      },
+      "created_at": "2026-10-06T21:06:36.50155+00:00"
+    },
+    {
+      "id": 5132340,
+      "run_id": 73804,
+      "data": {
+        "step": 44,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.074365995824337,
+        "sft_loss": 0.20935042202472687
+      },
+      "created_at": "2026-10-06T21:06:41.907347+00:00"
+    },
+    {
+      "id": 5132341,
+      "run_id": 73804,
+      "data": {
+        "step": 45,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0034734474029392004,
+        "sft_loss": 0.207140251994133
+      },
+      "created_at": "2026-10-06T21:06:47.50322+00:00"
+    },
+    {
+      "id": 5132342,
+      "run_id": 73804,
+      "data": {
+        "step": 46,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.07041376829147339,
+        "sft_loss": 0.24908185005187988
+      },
+      "created_at": "2026-10-06T21:06:52.913452+00:00"
+    },
+    {
+      "id": 5132343,
+      "run_id": 73804,
+      "data": {
+        "step": 47,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.08303516358137131,
+        "sft_loss": 0.26961156725883484
+      },
+      "created_at": "2026-10-06T21:06:58.220646+00:00"
+    },
+    {
+      "id": 5132344,
+      "run_id": 73804,
+      "data": {
+        "step": 48,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.04788682609796524,
+        "sft_loss": 0.26546311378479004
+      },
+      "created_at": "2026-10-06T21:07:03.700682+00:00"
+    },
+    {
+      "id": 5132345,
+      "run_id": 73804,
+      "data": {
+        "step": 49,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.048624277114868164,
+        "sft_loss": 0.19621120393276215
+      },
+      "created_at": "2026-10-06T21:07:09.068274+00:00"
+    },
+    {
+      "id": 5132346,
+      "run_id": 73804,
+      "data": {
+        "step": 50,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.787109375,
+        "peak_allocated_gib": 18.511786937713623
+      },
+      "created_at": "2026-10-06T21:07:14.394896+00:00"
+    },
+    {
+      "id": 5132347,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.7915794849395752,
+        "step": 50,
+        "epoch": 0.1422475106685633,
+        "grad_norm": 3.0314550399780273,
+        "learning_rate": 9.58860759493671e-06
+      },
+      "created_at": "2026-10-06T21:07:14.491459+00:00"
+    },
+    {
+      "id": 5132348,
+      "run_id": 73804,
+      "data": {
+        "step": 50,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.03303578123450279,
+        "sft_loss": 0.16412438452243805
+      },
+      "created_at": "2026-10-06T21:07:14.547686+00:00"
+    },
+    {
+      "id": 5132349,
+      "run_id": 73804,
+      "data": {
+        "step": 50,
+        "epoch": 0.1422475106685633,
+        "eval_loss": 1.6907328367233276
+      },
+      "created_at": "2026-10-06T21:08:08.001131+00:00"
+    },
+    {
+      "id": 5132350,
+      "run_id": 73804,
+      "data": {
+        "step": 51,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.024397537112236023,
+        "sft_loss": 0.1600869596004486
+      },
+      "created_at": "2026-10-06T21:08:13.484586+00:00"
+    },
+    {
+      "id": 5132351,
+      "run_id": 73804,
+      "data": {
+        "step": 52,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.03777635470032692,
+        "sft_loss": 0.20382694900035858
+      },
+      "created_at": "2026-10-06T21:08:18.889582+00:00"
+    },
+    {
+      "id": 5132352,
+      "run_id": 73804,
+      "data": {
+        "step": 53,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.04520098492503166,
+        "sft_loss": 0.21938060224056244
+      },
+      "created_at": "2026-10-06T21:08:24.340319+00:00"
+    },
+    {
+      "id": 5132353,
+      "run_id": 73804,
+      "data": {
+        "step": 54,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.02717638574540615,
+        "sft_loss": 0.15274420380592346
+      },
+      "created_at": "2026-10-06T21:08:29.678009+00:00"
+    },
+    {
+      "id": 5132354,
+      "run_id": 73804,
+      "data": {
+        "step": 55,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003704120870679617,
+        "sft_loss": 0.27640917897224426
+      },
+      "created_at": "2026-10-06T21:08:35.107485+00:00"
+    },
+    {
+      "id": 5132355,
+      "run_id": 73804,
+      "data": {
+        "step": 56,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.018011951819062233,
+        "sft_loss": 0.21109850704669952
+      },
+      "created_at": "2026-10-06T21:08:40.536113+00:00"
+    },
+    {
+      "id": 5132356,
+      "run_id": 73804,
+      "data": {
+        "step": 57,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.03615141659975052,
+        "sft_loss": 0.1987583339214325
+      },
+      "created_at": "2026-10-06T21:08:46.493525+00:00"
+    },
+    {
+      "id": 5132357,
+      "run_id": 73804,
+      "data": {
+        "step": 58,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008952900767326355,
+        "sft_loss": 0.18828345835208893
+      },
+      "created_at": "2026-10-06T21:08:51.924882+00:00"
+    },
+    {
+      "id": 5132358,
+      "run_id": 73804,
+      "data": {
+        "step": 59,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.18718892335891724,
+        "sft_loss": 0.22809885442256927
+      },
+      "created_at": "2026-10-06T21:08:57.144597+00:00"
+    },
+    {
+      "id": 5132359,
+      "run_id": 73804,
+      "data": {
+        "step": 60,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.802734375,
+        "peak_allocated_gib": 18.52376651763916
+      },
+      "created_at": "2026-10-06T21:09:02.489208+00:00"
+    },
+    {
+      "id": 5132360,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.6644355058670044,
+        "step": 60,
+        "epoch": 0.17069701280227595,
+        "grad_norm": 3.698776960372925,
+        "learning_rate": 9.272151898734178e-06
+      },
+      "created_at": "2026-10-06T21:09:02.579545+00:00"
+    },
+    {
+      "id": 5132361,
+      "run_id": 73804,
+      "data": {
+        "step": 60,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.11065454035997391,
+        "sft_loss": 0.24215471744537354
+      },
+      "created_at": "2026-10-06T21:09:02.64008+00:00"
+    },
+    {
+      "id": 5132362,
+      "run_id": 73804,
+      "data": {
+        "step": 60,
+        "epoch": 0.17069701280227595,
+        "eval_loss": 1.5793100595474243
+      },
+      "created_at": "2026-10-06T21:09:53.90512+00:00"
+    },
+    {
+      "id": 5132363,
+      "run_id": 73804,
+      "data": {
+        "step": 61,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0989229753613472,
+        "sft_loss": 0.21308812499046326
+      },
+      "created_at": "2026-10-06T21:09:59.255252+00:00"
+    },
+    {
+      "id": 5132364,
+      "run_id": 73804,
+      "data": {
+        "step": 62,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.051498934626579285,
+        "sft_loss": 0.13591186702251434
+      },
+      "created_at": "2026-10-06T21:10:04.606944+00:00"
+    },
+    {
+      "id": 5132365,
+      "run_id": 73804,
+      "data": {
+        "step": 63,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.030230334028601646,
+        "sft_loss": 0.1951563060283661
+      },
+      "created_at": "2026-10-06T21:10:09.892621+00:00"
+    },
+    {
+      "id": 5132366,
+      "run_id": 73804,
+      "data": {
+        "step": 64,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.023670170456171036,
+        "sft_loss": 0.22432130575180054
+      },
+      "created_at": "2026-10-06T21:10:15.213834+00:00"
+    },
+    {
+      "id": 5132367,
+      "run_id": 73804,
+      "data": {
+        "step": 65,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.022667380049824715,
+        "sft_loss": 0.19119758903980255
+      },
+      "created_at": "2026-10-06T21:10:20.519994+00:00"
+    },
+    {
+      "id": 5132368,
+      "run_id": 73804,
+      "data": {
+        "step": 66,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.02749589830636978,
+        "sft_loss": 0.13809247314929962
+      },
+      "created_at": "2026-10-06T21:10:25.858837+00:00"
+    },
+    {
+      "id": 5132369,
+      "run_id": 73804,
+      "data": {
+        "step": 67,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.020754946395754814,
+        "sft_loss": 0.1745072901248932
+      },
+      "created_at": "2026-10-06T21:10:31.020279+00:00"
+    },
+    {
+      "id": 5132370,
+      "run_id": 73804,
+      "data": {
+        "step": 68,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.020475372672080994,
+        "sft_loss": 0.2418791800737381
+      },
+      "created_at": "2026-10-06T21:10:36.238118+00:00"
+    },
+    {
+      "id": 5132371,
+      "run_id": 73804,
+      "data": {
+        "step": 69,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.04522179439663887,
+        "sft_loss": 0.18633466958999634
+      },
+      "created_at": "2026-10-06T21:10:41.898694+00:00"
+    },
+    {
+      "id": 5132372,
+      "run_id": 73804,
+      "data": {
+        "step": 70,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.802734375,
+        "peak_allocated_gib": 18.52376651763916
+      },
+      "created_at": "2026-10-06T21:10:47.065911+00:00"
+    },
+    {
+      "id": 5132373,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.6026121377944946,
+        "step": 70,
+        "epoch": 0.19914651493598862,
+        "grad_norm": 3.0414416790008545,
+        "learning_rate": 8.955696202531646e-06
+      },
+      "created_at": "2026-10-06T21:10:47.164871+00:00"
+    },
+    {
+      "id": 5132374,
+      "run_id": 73804,
+      "data": {
+        "step": 70,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.05688408762216568,
+        "sft_loss": 0.22611206769943237
+      },
+      "created_at": "2026-10-06T21:10:47.219821+00:00"
+    },
+    {
+      "id": 5132375,
+      "run_id": 73804,
+      "data": {
+        "step": 70,
+        "epoch": 0.19914651493598862,
+        "eval_loss": 1.545680284500122
+      },
+      "created_at": "2026-10-06T21:11:39.618407+00:00"
+    },
+    {
+      "id": 5132376,
+      "run_id": 73804,
+      "data": {
+        "step": 71,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.014742426574230194,
+        "sft_loss": 0.21263602375984192
+      },
+      "created_at": "2026-10-06T21:11:45.048046+00:00"
+    },
+    {
+      "id": 5132377,
+      "run_id": 73804,
+      "data": {
+        "step": 72,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003470858559012413,
+        "sft_loss": 0.2496146708726883
+      },
+      "created_at": "2026-10-06T21:11:50.5735+00:00"
+    },
+    {
+      "id": 5132378,
+      "run_id": 73804,
+      "data": {
+        "step": 73,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.031057512387633324,
+        "sft_loss": 0.16706322133541107
+      },
+      "created_at": "2026-10-06T21:11:56.115136+00:00"
+    },
+    {
+      "id": 5132379,
+      "run_id": 73804,
+      "data": {
+        "step": 74,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0435451902449131,
+        "sft_loss": 0.16406884789466858
+      },
+      "created_at": "2026-10-06T21:12:01.599716+00:00"
+    },
+    {
+      "id": 5132380,
+      "run_id": 73804,
+      "data": {
+        "step": 75,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.011440647765994072,
+        "sft_loss": 0.20057837665081024
+      },
+      "created_at": "2026-10-06T21:12:07.067628+00:00"
+    },
+    {
+      "id": 5132381,
+      "run_id": 73804,
+      "data": {
+        "step": 76,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.03565863147377968,
+        "sft_loss": 0.1756676882505417
+      },
+      "created_at": "2026-10-06T21:12:12.528435+00:00"
+    },
+    {
+      "id": 5132382,
+      "run_id": 73804,
+      "data": {
+        "step": 77,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.021834198385477066,
+        "sft_loss": 0.15596602857112885
+      },
+      "created_at": "2026-10-06T21:12:17.997821+00:00"
+    },
+    {
+      "id": 5132383,
+      "run_id": 73804,
+      "data": {
+        "step": 78,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.02077905833721161,
+        "sft_loss": 0.25119495391845703
+      },
+      "created_at": "2026-10-06T21:12:23.513545+00:00"
+    },
+    {
+      "id": 5132384,
+      "run_id": 73804,
+      "data": {
+        "step": 79,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.020249173045158386,
+        "sft_loss": 0.15517497062683105
+      },
+      "created_at": "2026-10-06T21:12:28.992693+00:00"
+    },
+    {
+      "id": 5132385,
+      "run_id": 73804,
+      "data": {
+        "step": 80,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.802734375,
+        "peak_allocated_gib": 18.52376651763916
+      },
+      "created_at": "2026-10-06T21:12:34.212603+00:00"
+    },
+    {
+      "id": 5132386,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.6210325956344604,
+        "step": 80,
+        "epoch": 0.22759601706970128,
+        "grad_norm": 4.131304740905762,
+        "learning_rate": 8.639240506329116e-06
+      },
+      "created_at": "2026-10-06T21:12:34.311797+00:00"
+    },
+    {
+      "id": 5132387,
+      "run_id": 73804,
+      "data": {
+        "step": 80,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.022842662408947945,
+        "sft_loss": 0.21487809717655182
+      },
+      "created_at": "2026-10-06T21:12:34.38911+00:00"
+    },
+    {
+      "id": 5132388,
+      "run_id": 73804,
+      "data": {
+        "step": 80,
+        "epoch": 0.22759601706970128,
+        "eval_loss": 1.5311740636825562
+      },
+      "created_at": "2026-10-06T21:13:27.045819+00:00"
+    },
+    {
+      "id": 5132389,
+      "run_id": 73804,
+      "data": {
+        "step": 81,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01633179374039173,
+        "sft_loss": 0.23912937939167023
+      },
+      "created_at": "2026-10-06T21:13:32.380064+00:00"
+    },
+    {
+      "id": 5132390,
+      "run_id": 73804,
+      "data": {
+        "step": 82,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0052411784417927265,
+        "sft_loss": 0.35391002893447876
+      },
+      "created_at": "2026-10-06T21:13:37.675924+00:00"
+    },
+    {
+      "id": 5132391,
+      "run_id": 73804,
+      "data": {
+        "step": 83,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.03073219768702984,
+        "sft_loss": 0.21219876408576965
+      },
+      "created_at": "2026-10-06T21:13:42.913881+00:00"
+    },
+    {
+      "id": 5132392,
+      "run_id": 73804,
+      "data": {
+        "step": 84,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.08200973272323608,
+        "sft_loss": 0.2064964324235916
+      },
+      "created_at": "2026-10-06T21:13:48.174337+00:00"
+    },
+    {
+      "id": 5132393,
+      "run_id": 73804,
+      "data": {
+        "step": 85,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.012266515754163265,
+        "sft_loss": 0.16467800736427307
+      },
+      "created_at": "2026-10-06T21:13:53.439099+00:00"
+    },
+    {
+      "id": 5132394,
+      "run_id": 73804,
+      "data": {
+        "step": 86,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.014655834063887596,
+        "sft_loss": 0.13517609238624573
+      },
+      "created_at": "2026-10-06T21:13:58.846047+00:00"
+    },
+    {
+      "id": 5132395,
+      "run_id": 73804,
+      "data": {
+        "step": 87,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009386730380356312,
+        "sft_loss": 0.22210346162319183
+      },
+      "created_at": "2026-10-06T21:14:04.095165+00:00"
+    },
+    {
+      "id": 5132396,
+      "run_id": 73804,
+      "data": {
+        "step": 88,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01514002587646246,
+        "sft_loss": 0.14902086555957794
+      },
+      "created_at": "2026-10-06T21:14:09.347559+00:00"
+    },
+    {
+      "id": 5132397,
+      "run_id": 73804,
+      "data": {
+        "step": 89,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.02203115075826645,
+        "sft_loss": 0.14019565284252167
+      },
+      "created_at": "2026-10-06T21:14:14.578282+00:00"
+    },
+    {
+      "id": 5132398,
+      "run_id": 73804,
+      "data": {
+        "step": 90,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.802734375,
+        "peak_allocated_gib": 18.52376651763916
+      },
+      "created_at": "2026-10-06T21:14:20.011502+00:00"
+    },
+    {
+      "id": 5132399,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.6495544910430908,
+        "step": 90,
+        "epoch": 0.25604551920341395,
+        "grad_norm": 3.4083781242370605,
+        "learning_rate": 8.322784810126582e-06
+      },
+      "created_at": "2026-10-06T21:14:20.120432+00:00"
+    },
+    {
+      "id": 5132400,
+      "run_id": 73804,
+      "data": {
+        "step": 90,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.014306170865893364,
+        "sft_loss": 0.2300909012556076
+      },
+      "created_at": "2026-10-06T21:14:20.181157+00:00"
+    },
+    {
+      "id": 5132401,
+      "run_id": 73804,
+      "data": {
+        "step": 90,
+        "epoch": 0.25604551920341395,
+        "eval_loss": 1.5167995691299438
+      },
+      "created_at": "2026-10-06T21:15:17.246186+00:00"
+    },
+    {
+      "id": 5132402,
+      "run_id": 73804,
+      "data": {
+        "step": 91,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.026965929195284843,
+        "sft_loss": 0.13401997089385986
+      },
+      "created_at": "2026-10-06T21:15:22.836306+00:00"
+    },
+    {
+      "id": 5132403,
+      "run_id": 73804,
+      "data": {
+        "step": 92,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.019245903939008713,
+        "sft_loss": 0.16767510771751404
+      },
+      "created_at": "2026-10-06T21:15:28.369762+00:00"
+    },
+    {
+      "id": 5132404,
+      "run_id": 73804,
+      "data": {
+        "step": 93,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.024808190762996674,
+        "sft_loss": 0.17058701813220978
+      },
+      "created_at": "2026-10-06T21:15:33.836008+00:00"
+    },
+    {
+      "id": 5132405,
+      "run_id": 73804,
+      "data": {
+        "step": 94,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.03893455117940903,
+        "sft_loss": 0.1764349490404129
+      },
+      "created_at": "2026-10-06T21:15:39.635583+00:00"
+    },
+    {
+      "id": 5132406,
+      "run_id": 73804,
+      "data": {
+        "step": 95,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007825770415365696,
+        "sft_loss": 0.18411511182785034
+      },
+      "created_at": "2026-10-06T21:15:45.13894+00:00"
+    },
+    {
+      "id": 5132407,
+      "run_id": 73804,
+      "data": {
+        "step": 96,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01214502565562725,
+        "sft_loss": 0.228572279214859
+      },
+      "created_at": "2026-10-06T21:15:50.58739+00:00"
+    },
+    {
+      "id": 5132408,
+      "run_id": 73804,
+      "data": {
+        "step": 97,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.03883136063814163,
+        "sft_loss": 0.19526487588882446
+      },
+      "created_at": "2026-10-06T21:15:56.105039+00:00"
+    },
+    {
+      "id": 5132409,
+      "run_id": 73804,
+      "data": {
+        "step": 98,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01660902425646782,
+        "sft_loss": 0.19628310203552246
+      },
+      "created_at": "2026-10-06T21:16:01.524511+00:00"
+    },
+    {
+      "id": 5132410,
+      "run_id": 73804,
+      "data": {
+        "step": 99,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00529902521520853,
+        "sft_loss": 0.17784275114536285
+      },
+      "created_at": "2026-10-06T21:16:06.997887+00:00"
+    },
+    {
+      "id": 5132411,
+      "run_id": 73804,
+      "data": {
+        "step": 100,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.802734375,
+        "peak_allocated_gib": 18.52376651763916
+      },
+      "created_at": "2026-10-06T21:16:12.510833+00:00"
+    },
+    {
+      "id": 5132412,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.5363256931304932,
+        "step": 100,
+        "epoch": 0.2844950213371266,
+        "grad_norm": 2.7426819801330566,
+        "learning_rate": 8.006329113924052e-06
+      },
+      "created_at": "2026-10-06T21:16:12.615171+00:00"
+    },
+    {
+      "id": 5132413,
+      "run_id": 73804,
+      "data": {
+        "step": 100,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.013008990325033665,
+        "sft_loss": 0.1925569623708725
+      },
+      "created_at": "2026-10-06T21:16:12.680571+00:00"
+    },
+    {
+      "id": 5132414,
+      "run_id": 73804,
+      "data": {
+        "step": 100,
+        "epoch": 0.2844950213371266,
+        "eval_loss": 1.508931279182434
+      },
+      "created_at": "2026-10-06T21:17:04.362845+00:00"
+    },
+    {
+      "id": 5132415,
+      "run_id": 73804,
+      "data": {
+        "step": 101,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.024701135233044624,
+        "sft_loss": 0.17706935107707977
+      },
+      "created_at": "2026-10-06T21:17:09.979191+00:00"
+    },
+    {
+      "id": 5132416,
+      "run_id": 73804,
+      "data": {
+        "step": 102,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0034021094907075167,
+        "sft_loss": 0.16565966606140137
+      },
+      "created_at": "2026-10-06T21:17:15.486713+00:00"
+    },
+    {
+      "id": 5132417,
+      "run_id": 73804,
+      "data": {
+        "step": 103,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011901254765689373,
+        "sft_loss": 0.26927924156188965
+      },
+      "created_at": "2026-10-06T21:17:20.802628+00:00"
+    },
+    {
+      "id": 5132418,
+      "run_id": 73804,
+      "data": {
+        "step": 104,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.028555043041706085,
+        "sft_loss": 0.16315214335918427
+      },
+      "created_at": "2026-10-06T21:17:25.997741+00:00"
+    },
+    {
+      "id": 5132419,
+      "run_id": 73804,
+      "data": {
+        "step": 105,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002152795670554042,
+        "sft_loss": 0.28264904022216797
+      },
+      "created_at": "2026-10-06T21:17:31.230111+00:00"
+    },
+    {
+      "id": 5132420,
+      "run_id": 73804,
+      "data": {
+        "step": 106,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.036223988980054855,
+        "sft_loss": 0.1862889677286148
+      },
+      "created_at": "2026-10-06T21:17:36.56231+00:00"
+    },
+    {
+      "id": 5132421,
+      "run_id": 73804,
+      "data": {
+        "step": 107,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008629962801933289,
+        "sft_loss": 0.26868200302124023
+      },
+      "created_at": "2026-10-06T21:17:42.076286+00:00"
+    },
+    {
+      "id": 5132422,
+      "run_id": 73804,
+      "data": {
+        "step": 108,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009904698468744755,
+        "sft_loss": 0.12702763080596924
+      },
+      "created_at": "2026-10-06T21:17:47.362413+00:00"
+    },
+    {
+      "id": 5132423,
+      "run_id": 73804,
+      "data": {
+        "step": 109,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009052193723618984,
+        "sft_loss": 0.17820730805397034
+      },
+      "created_at": "2026-10-06T21:17:52.620609+00:00"
+    },
+    {
+      "id": 5132424,
+      "run_id": 73804,
+      "data": {
+        "step": 110,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.802734375,
+        "peak_allocated_gib": 18.52376651763916
+      },
+      "created_at": "2026-10-06T21:17:57.783704+00:00"
+    },
+    {
+      "id": 5132425,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.5869091749191284,
+        "step": 110,
+        "epoch": 0.3129445234708393,
+        "grad_norm": 2.750128746032715,
+        "learning_rate": 7.68987341772152e-06
+      },
+      "created_at": "2026-10-06T21:17:57.87356+00:00"
+    },
+    {
+      "id": 5132426,
+      "run_id": 73804,
+      "data": {
+        "step": 110,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.013896339572966099,
+        "sft_loss": 0.2281147837638855
+      },
+      "created_at": "2026-10-06T21:17:57.953663+00:00"
+    },
+    {
+      "id": 5132427,
+      "run_id": 73804,
+      "data": {
+        "step": 110,
+        "epoch": 0.3129445234708393,
+        "eval_loss": 1.4992728233337402
+      },
+      "created_at": "2026-10-06T21:18:49.730392+00:00"
+    },
+    {
+      "id": 5132428,
+      "run_id": 73804,
+      "data": {
+        "step": 111,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01122963335365057,
+        "sft_loss": 0.18667636811733246
+      },
+      "created_at": "2026-10-06T21:18:55.243048+00:00"
+    },
+    {
+      "id": 5132429,
+      "run_id": 73804,
+      "data": {
+        "step": 112,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.029483536258339882,
+        "sft_loss": 0.20121905207633972
+      },
+      "created_at": "2026-10-06T21:19:00.487267+00:00"
+    },
+    {
+      "id": 5132430,
+      "run_id": 73804,
+      "data": {
+        "step": 113,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007146967109292746,
+        "sft_loss": 0.2190408557653427
+      },
+      "created_at": "2026-10-06T21:19:05.703031+00:00"
+    },
+    {
+      "id": 5132431,
+      "run_id": 73804,
+      "data": {
+        "step": 114,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.02616448514163494,
+        "sft_loss": 0.170026496052742
+      },
+      "created_at": "2026-10-06T21:19:10.90018+00:00"
+    },
+    {
+      "id": 5132432,
+      "run_id": 73804,
+      "data": {
+        "step": 115,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005128045100718737,
+        "sft_loss": 0.16468489170074463
+      },
+      "created_at": "2026-10-06T21:19:16.167452+00:00"
+    },
+    {
+      "id": 5132433,
+      "run_id": 73804,
+      "data": {
+        "step": 116,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008566024713218212,
+        "sft_loss": 0.12633848190307617
+      },
+      "created_at": "2026-10-06T21:19:21.478119+00:00"
+    },
+    {
+      "id": 5132434,
+      "run_id": 73804,
+      "data": {
+        "step": 117,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009187668561935425,
+        "sft_loss": 0.2348674237728119
+      },
+      "created_at": "2026-10-06T21:19:26.73983+00:00"
+    },
+    {
+      "id": 5132435,
+      "run_id": 73804,
+      "data": {
+        "step": 118,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.010837014764547348,
+        "sft_loss": 0.1690676361322403
+      },
+      "created_at": "2026-10-06T21:19:31.970402+00:00"
+    },
+    {
+      "id": 5132436,
+      "run_id": 73804,
+      "data": {
+        "step": 119,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.011485633440315723,
+        "sft_loss": 0.19055788218975067
+      },
+      "created_at": "2026-10-06T21:19:37.220997+00:00"
+    },
+    {
+      "id": 5132437,
+      "run_id": 73804,
+      "data": {
+        "step": 120,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 18.802734375,
+        "peak_allocated_gib": 18.52376651763916
+      },
+      "created_at": "2026-10-06T21:19:42.483223+00:00"
+    },
+    {
+      "id": 5132438,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.5422322750091553,
+        "step": 120,
+        "epoch": 0.3413940256045519,
+        "grad_norm": 2.5713400840759277,
+        "learning_rate": 7.373417721518989e-06
+      },
+      "created_at": "2026-10-06T21:19:42.582014+00:00"
+    },
+    {
+      "id": 5132439,
+      "run_id": 73804,
+      "data": {
+        "step": 120,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007965563796460629,
+        "sft_loss": 0.2058340460062027
+      },
+      "created_at": "2026-10-06T21:19:42.64512+00:00"
+    },
+    {
+      "id": 5132440,
+      "run_id": 73804,
+      "data": {
+        "step": 120,
+        "epoch": 0.3413940256045519,
+        "eval_loss": 1.4928860664367676
+      },
+      "created_at": "2026-10-06T21:20:34.859054+00:00"
+    },
+    {
+      "id": 5132441,
+      "run_id": 73804,
+      "data": {
+        "step": 121,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.010537443682551384,
+        "sft_loss": 0.2641986608505249
+      },
+      "created_at": "2026-10-06T21:20:40.184033+00:00"
+    },
+    {
+      "id": 5132442,
+      "run_id": 73804,
+      "data": {
+        "step": 122,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006440621800720692,
+        "sft_loss": 0.13480275869369507
+      },
+      "created_at": "2026-10-06T21:20:45.432561+00:00"
+    },
+    {
+      "id": 5132443,
+      "run_id": 73804,
+      "data": {
+        "step": 123,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.018886201083660126,
+        "sft_loss": 0.1652263104915619
+      },
+      "created_at": "2026-10-06T21:20:50.805079+00:00"
+    },
+    {
+      "id": 5132444,
+      "run_id": 73804,
+      "data": {
+        "step": 124,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012705272529274225,
+        "sft_loss": 0.20432761311531067
+      },
+      "created_at": "2026-10-06T21:20:56.142205+00:00"
+    },
+    {
+      "id": 5132445,
+      "run_id": 73804,
+      "data": {
+        "step": 125,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006826048716902733,
+        "sft_loss": 0.1996656358242035
+      },
+      "created_at": "2026-10-06T21:21:01.694516+00:00"
+    },
+    {
+      "id": 5132446,
+      "run_id": 73804,
+      "data": {
+        "step": 126,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008104107342660427,
+        "sft_loss": 0.1808813065290451
+      },
+      "created_at": "2026-10-06T21:21:06.947691+00:00"
+    },
+    {
+      "id": 5132447,
+      "run_id": 73804,
+      "data": {
+        "step": 127,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.012010886333882809,
+        "sft_loss": 0.1887311041355133
+      },
+      "created_at": "2026-10-06T21:21:12.237715+00:00"
+    },
+    {
+      "id": 5132448,
+      "run_id": 73804,
+      "data": {
+        "step": 128,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.010427435860037804,
+        "sft_loss": 0.17527765035629272
+      },
+      "created_at": "2026-10-06T21:21:17.534985+00:00"
+    },
+    {
+      "id": 5132449,
+      "run_id": 73804,
+      "data": {
+        "step": 129,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003900462994351983,
+        "sft_loss": 0.10454969853162766
+      },
+      "created_at": "2026-10-06T21:21:22.909594+00:00"
+    },
+    {
+      "id": 5132450,
+      "run_id": 73804,
+      "data": {
+        "step": 130,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.1328125,
+        "peak_allocated_gib": 18.64996576309204
+      },
+      "created_at": "2026-10-06T21:21:28.227951+00:00"
+    },
+    {
+      "id": 5132451,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.2543812990188599,
+        "step": 130,
+        "epoch": 0.36984352773826457,
+        "grad_norm": 2.939997434616089,
+        "learning_rate": 7.056962025316456e-06
+      },
+      "created_at": "2026-10-06T21:21:28.322209+00:00"
+    },
+    {
+      "id": 5132452,
+      "run_id": 73804,
+      "data": {
+        "step": 130,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006930126808583736,
+        "sft_loss": 0.1388009488582611
+      },
+      "created_at": "2026-10-06T21:21:28.386497+00:00"
+    },
+    {
+      "id": 5132453,
+      "run_id": 73804,
+      "data": {
+        "step": 130,
+        "epoch": 0.36984352773826457,
+        "eval_loss": 1.490593671798706
+      },
+      "created_at": "2026-10-06T21:22:22.821984+00:00"
+    },
+    {
+      "id": 5132454,
+      "run_id": 73804,
+      "data": {
+        "step": 131,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.012226476334035397,
+        "sft_loss": 0.1696312129497528
+      },
+      "created_at": "2026-10-06T21:22:28.278928+00:00"
+    },
+    {
+      "id": 5132455,
+      "run_id": 73804,
+      "data": {
+        "step": 132,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.013757389038801193,
+        "sft_loss": 0.17545613646507263
+      },
+      "created_at": "2026-10-06T21:22:33.583739+00:00"
+    },
+    {
+      "id": 5132456,
+      "run_id": 73804,
+      "data": {
+        "step": 133,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0033057460095733404,
+        "sft_loss": 0.18741753697395325
+      },
+      "created_at": "2026-10-06T21:22:38.838026+00:00"
+    },
+    {
+      "id": 5132457,
+      "run_id": 73804,
+      "data": {
+        "step": 134,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0073656258173286915,
+        "sft_loss": 0.156794473528862
+      },
+      "created_at": "2026-10-06T21:22:44.246061+00:00"
+    },
+    {
+      "id": 5132458,
+      "run_id": 73804,
+      "data": {
+        "step": 135,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005407252814620733,
+        "sft_loss": 0.16870707273483276
+      },
+      "created_at": "2026-10-06T21:22:49.509833+00:00"
+    },
+    {
+      "id": 5132459,
+      "run_id": 73804,
+      "data": {
+        "step": 136,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006369362585246563,
+        "sft_loss": 0.12462680041790009
+      },
+      "created_at": "2026-10-06T21:22:55.046136+00:00"
+    },
+    {
+      "id": 5132460,
+      "run_id": 73804,
+      "data": {
+        "step": 137,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008939061313867569,
+        "sft_loss": 0.1585484743118286
+      },
+      "created_at": "2026-10-06T21:23:00.332754+00:00"
+    },
+    {
+      "id": 5132461,
+      "run_id": 73804,
+      "data": {
+        "step": 138,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004788071382790804,
+        "sft_loss": 0.1668660193681717
+      },
+      "created_at": "2026-10-06T21:23:05.562993+00:00"
+    },
+    {
+      "id": 5132462,
+      "run_id": 73804,
+      "data": {
+        "step": 139,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.018479380756616592,
+        "sft_loss": 0.20241333544254303
+      },
+      "created_at": "2026-10-06T21:23:10.803538+00:00"
+    },
+    {
+      "id": 5132463,
+      "run_id": 73804,
+      "data": {
+        "step": 140,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.8031587600708
+      },
+      "created_at": "2026-10-06T21:23:16.082622+00:00"
+    },
+    {
+      "id": 5132464,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4411520957946777,
+        "step": 140,
+        "epoch": 0.39829302987197723,
+        "grad_norm": 2.457930326461792,
+        "learning_rate": 6.740506329113925e-06
+      },
+      "created_at": "2026-10-06T21:23:16.172249+00:00"
+    },
+    {
+      "id": 5132465,
+      "run_id": 73804,
+      "data": {
+        "step": 140,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006303304340690374,
+        "sft_loss": 0.20795617997646332
+      },
+      "created_at": "2026-10-06T21:23:16.241143+00:00"
+    },
+    {
+      "id": 5132466,
+      "run_id": 73804,
+      "data": {
+        "step": 140,
+        "epoch": 0.39829302987197723,
+        "eval_loss": 1.4835338592529297
+      },
+      "created_at": "2026-10-06T21:24:08.345924+00:00"
+    },
+    {
+      "id": 5132467,
+      "run_id": 73804,
+      "data": {
+        "step": 141,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.013731471262872219,
+        "sft_loss": 0.20201826095581055
+      },
+      "created_at": "2026-10-06T21:24:13.676664+00:00"
+    },
+    {
+      "id": 5132468,
+      "run_id": 73804,
+      "data": {
+        "step": 142,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008429485373198986,
+        "sft_loss": 0.16507606208324432
+      },
+      "created_at": "2026-10-06T21:24:19.104914+00:00"
+    },
+    {
+      "id": 5132469,
+      "run_id": 73804,
+      "data": {
+        "step": 143,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00802004337310791,
+        "sft_loss": 0.18649421632289886
+      },
+      "created_at": "2026-10-06T21:24:24.838423+00:00"
+    },
+    {
+      "id": 5132470,
+      "run_id": 73804,
+      "data": {
+        "step": 144,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.012331177480518818,
+        "sft_loss": 0.1525125801563263
+      },
+      "created_at": "2026-10-06T21:24:30.046853+00:00"
+    },
+    {
+      "id": 5132471,
+      "run_id": 73804,
+      "data": {
+        "step": 145,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007603821344673634,
+        "sft_loss": 0.30034688115119934
+      },
+      "created_at": "2026-10-06T21:24:35.26688+00:00"
+    },
+    {
+      "id": 5132472,
+      "run_id": 73804,
+      "data": {
+        "step": 146,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.016298575326800346,
+        "sft_loss": 0.14621329307556152
+      },
+      "created_at": "2026-10-06T21:24:40.545368+00:00"
+    },
+    {
+      "id": 5132473,
+      "run_id": 73804,
+      "data": {
+        "step": 147,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01736936718225479,
+        "sft_loss": 0.13202382624149323
+      },
+      "created_at": "2026-10-06T21:24:45.961598+00:00"
+    },
+    {
+      "id": 5132474,
+      "run_id": 73804,
+      "data": {
+        "step": 148,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005344325210899115,
+        "sft_loss": 0.15795858204364777
+      },
+      "created_at": "2026-10-06T21:24:51.156293+00:00"
+    },
+    {
+      "id": 5132475,
+      "run_id": 73804,
+      "data": {
+        "step": 149,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007860139943659306,
+        "sft_loss": 0.18189072608947754
+      },
+      "created_at": "2026-10-06T21:24:56.37599+00:00"
+    },
+    {
+      "id": 5132476,
+      "run_id": 73804,
+      "data": {
+        "step": 150,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.8031587600708
+      },
+      "created_at": "2026-10-06T21:25:01.584679+00:00"
+    },
+    {
+      "id": 5132477,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.5152604579925537,
+        "step": 150,
+        "epoch": 0.4267425320056899,
+        "grad_norm": 2.671823263168335,
+        "learning_rate": 6.424050632911393e-06
+      },
+      "created_at": "2026-10-06T21:25:01.66952+00:00"
+    },
+    {
+      "id": 5132478,
+      "run_id": 73804,
+      "data": {
+        "step": 150,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0019735919777303934,
+        "sft_loss": 0.16306284070014954
+      },
+      "created_at": "2026-10-06T21:25:01.740652+00:00"
+    },
+    {
+      "id": 5132479,
+      "run_id": 73804,
+      "data": {
+        "step": 150,
+        "epoch": 0.4267425320056899,
+        "eval_loss": 1.4799515008926392
+      },
+      "created_at": "2026-10-06T21:25:53.409205+00:00"
+    },
+    {
+      "id": 5132480,
+      "run_id": 73804,
+      "data": {
+        "step": 151,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0034304966684430838,
+        "sft_loss": 0.15830619633197784
+      },
+      "created_at": "2026-10-06T21:25:58.837833+00:00"
+    },
+    {
+      "id": 5132481,
+      "run_id": 73804,
+      "data": {
+        "step": 152,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0033985967747867107,
+        "sft_loss": 0.21817070245742798
+      },
+      "created_at": "2026-10-06T21:26:04.097868+00:00"
+    },
+    {
+      "id": 5132482,
+      "run_id": 73804,
+      "data": {
+        "step": 153,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009448128752410412,
+        "sft_loss": 0.18576014041900635
+      },
+      "created_at": "2026-10-06T21:26:09.273986+00:00"
+    },
+    {
+      "id": 5132483,
+      "run_id": 73804,
+      "data": {
+        "step": 154,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.011256776750087738,
+        "sft_loss": 0.22486905753612518
+      },
+      "created_at": "2026-10-06T21:26:14.482541+00:00"
+    },
+    {
+      "id": 5132484,
+      "run_id": 73804,
+      "data": {
+        "step": 155,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005387071054428816,
+        "sft_loss": 0.1717013418674469
+      },
+      "created_at": "2026-10-06T21:26:19.686528+00:00"
+    },
+    {
+      "id": 5132485,
+      "run_id": 73804,
+      "data": {
+        "step": 156,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0017823189264163375,
+        "sft_loss": 0.18187662959098816
+      },
+      "created_at": "2026-10-06T21:26:25.008937+00:00"
+    },
+    {
+      "id": 5132486,
+      "run_id": 73804,
+      "data": {
+        "step": 157,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004121226724237204,
+        "sft_loss": 0.26241496205329895
+      },
+      "created_at": "2026-10-06T21:26:30.200062+00:00"
+    },
+    {
+      "id": 5132487,
+      "run_id": 73804,
+      "data": {
+        "step": 158,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0032125769648700953,
+        "sft_loss": 0.22043678164482117
+      },
+      "created_at": "2026-10-06T21:26:35.654469+00:00"
+    },
+    {
+      "id": 5132488,
+      "run_id": 73804,
+      "data": {
+        "step": 159,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005791217554360628,
+        "sft_loss": 0.22688999772071838
+      },
+      "created_at": "2026-10-06T21:26:40.833282+00:00"
+    },
+    {
+      "id": 5132489,
+      "run_id": 73804,
+      "data": {
+        "step": 160,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.8031587600708
+      },
+      "created_at": "2026-10-06T21:26:46.024343+00:00"
+    },
+    {
+      "id": 5132490,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.5846270322799683,
+        "step": 160,
+        "epoch": 0.45519203413940257,
+        "grad_norm": 3.1391236782073975,
+        "learning_rate": 6.1075949367088616e-06
+      },
+      "created_at": "2026-10-06T21:26:46.133907+00:00"
+    },
+    {
+      "id": 5132491,
+      "run_id": 73804,
+      "data": {
+        "step": 160,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.011511401273310184,
+        "sft_loss": 0.2155570685863495
+      },
+      "created_at": "2026-10-06T21:26:46.199061+00:00"
+    },
+    {
+      "id": 5132492,
+      "run_id": 73804,
+      "data": {
+        "step": 160,
+        "epoch": 0.45519203413940257,
+        "eval_loss": 1.479737401008606
+      },
+      "created_at": "2026-10-06T21:27:38.156721+00:00"
+    },
+    {
+      "id": 5132493,
+      "run_id": 73804,
+      "data": {
+        "step": 161,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00637658080086112,
+        "sft_loss": 0.1817215234041214
+      },
+      "created_at": "2026-10-06T21:27:43.565766+00:00"
+    },
+    {
+      "id": 5132494,
+      "run_id": 73804,
+      "data": {
+        "step": 162,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008618011139333248,
+        "sft_loss": 0.153528094291687
+      },
+      "created_at": "2026-10-06T21:27:48.817044+00:00"
+    },
+    {
+      "id": 5132495,
+      "run_id": 73804,
+      "data": {
+        "step": 163,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006299886852502823,
+        "sft_loss": 0.2248048186302185
+      },
+      "created_at": "2026-10-06T21:27:54.03704+00:00"
+    },
+    {
+      "id": 5132496,
+      "run_id": 73804,
+      "data": {
+        "step": 164,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009380394592881203,
+        "sft_loss": 0.19058674573898315
+      },
+      "created_at": "2026-10-06T21:27:59.26074+00:00"
+    },
+    {
+      "id": 5132497,
+      "run_id": 73804,
+      "data": {
+        "step": 165,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004778408911079168,
+        "sft_loss": 0.14473594725131989
+      },
+      "created_at": "2026-10-06T21:28:04.46129+00:00"
+    },
+    {
+      "id": 5132498,
+      "run_id": 73804,
+      "data": {
+        "step": 166,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007273658644407988,
+        "sft_loss": 0.17379459738731384
+      },
+      "created_at": "2026-10-06T21:28:09.682238+00:00"
+    },
+    {
+      "id": 5132499,
+      "run_id": 73804,
+      "data": {
+        "step": 167,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007374607492238283,
+        "sft_loss": 0.17886009812355042
+      },
+      "created_at": "2026-10-06T21:28:14.885175+00:00"
+    },
+    {
+      "id": 5132500,
+      "run_id": 73804,
+      "data": {
+        "step": 168,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.021450527012348175,
+        "sft_loss": 0.2540851831436157
+      },
+      "created_at": "2026-10-06T21:28:20.332519+00:00"
+    },
+    {
+      "id": 5132501,
+      "run_id": 73804,
+      "data": {
+        "step": 169,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008092094212770462,
+        "sft_loss": 0.12275804579257965
+      },
+      "created_at": "2026-10-06T21:28:25.602623+00:00"
+    },
+    {
+      "id": 5132502,
+      "run_id": 73804,
+      "data": {
+        "step": 170,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.8031587600708
+      },
+      "created_at": "2026-10-06T21:28:30.918677+00:00"
+    },
+    {
+      "id": 5132503,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.367631196975708,
+        "step": 170,
+        "epoch": 0.48364153627311524,
+        "grad_norm": 2.7948102951049805,
+        "learning_rate": 5.7911392405063296e-06
+      },
+      "created_at": "2026-10-06T21:28:31.010265+00:00"
+    },
+    {
+      "id": 5132504,
+      "run_id": 73804,
+      "data": {
+        "step": 170,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006715505849570036,
+        "sft_loss": 0.16790719330310822
+      },
+      "created_at": "2026-10-06T21:28:31.071373+00:00"
+    },
+    {
+      "id": 5132505,
+      "run_id": 73804,
+      "data": {
+        "step": 170,
+        "epoch": 0.48364153627311524,
+        "eval_loss": 1.476809024810791
+      },
+      "created_at": "2026-10-06T21:29:22.882396+00:00"
+    },
+    {
+      "id": 5132506,
+      "run_id": 73804,
+      "data": {
+        "step": 171,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005928823724389076,
+        "sft_loss": 0.2390182614326477
+      },
+      "created_at": "2026-10-06T21:29:28.255853+00:00"
+    },
+    {
+      "id": 5132507,
+      "run_id": 73804,
+      "data": {
+        "step": 172,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.015695923939347267,
+        "sft_loss": 0.15571577847003937
+      },
+      "created_at": "2026-10-06T21:29:33.457399+00:00"
+    },
+    {
+      "id": 5132508,
+      "run_id": 73804,
+      "data": {
+        "step": 173,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0026933227200061083,
+        "sft_loss": 0.22043712437152863
+      },
+      "created_at": "2026-10-06T21:29:38.850526+00:00"
+    },
+    {
+      "id": 5132509,
+      "run_id": 73804,
+      "data": {
+        "step": 174,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005219342652708292,
+        "sft_loss": 0.1766391098499298
+      },
+      "created_at": "2026-10-06T21:29:44.154101+00:00"
+    },
+    {
+      "id": 5132510,
+      "run_id": 73804,
+      "data": {
+        "step": 175,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007620908785611391,
+        "sft_loss": 0.19687575101852417
+      },
+      "created_at": "2026-10-06T21:29:49.573011+00:00"
+    },
+    {
+      "id": 5132511,
+      "run_id": 73804,
+      "data": {
+        "step": 176,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00969638116657734,
+        "sft_loss": 0.15273718535900116
+      },
+      "created_at": "2026-10-06T21:29:54.820839+00:00"
+    },
+    {
+      "id": 5132512,
+      "run_id": 73804,
+      "data": {
+        "step": 177,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006305370479822159,
+        "sft_loss": 0.2964165508747101
+      },
+      "created_at": "2026-10-06T21:30:00.096958+00:00"
+    },
+    {
+      "id": 5132513,
+      "run_id": 73804,
+      "data": {
+        "step": 178,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006372108589857817,
+        "sft_loss": 0.14744272828102112
+      },
+      "created_at": "2026-10-06T21:30:05.474736+00:00"
+    },
+    {
+      "id": 5132514,
+      "run_id": 73804,
+      "data": {
+        "step": 179,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004470545798540115,
+        "sft_loss": 0.23711298406124115
+      },
+      "created_at": "2026-10-06T21:30:10.780041+00:00"
+    },
+    {
+      "id": 5132515,
+      "run_id": 73804,
+      "data": {
+        "step": 180,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.8031587600708
+      },
+      "created_at": "2026-10-06T21:30:16.115043+00:00"
+    },
+    {
+      "id": 5132516,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4716933965682983,
+        "step": 180,
+        "epoch": 0.5120910384068279,
+        "grad_norm": 2.624561071395874,
+        "learning_rate": 5.474683544303798e-06
+      },
+      "created_at": "2026-10-06T21:30:16.212897+00:00"
+    },
+    {
+      "id": 5132517,
+      "run_id": 73804,
+      "data": {
+        "step": 180,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.012420454993844032,
+        "sft_loss": 0.14425206184387207
+      },
+      "created_at": "2026-10-06T21:30:16.276712+00:00"
+    },
+    {
+      "id": 5132518,
+      "run_id": 73804,
+      "data": {
+        "step": 180,
+        "epoch": 0.5120910384068279,
+        "eval_loss": 1.4726003408432007
+      },
+      "created_at": "2026-10-06T21:31:09.213036+00:00"
+    },
+    {
+      "id": 5132519,
+      "run_id": 73804,
+      "data": {
+        "step": 181,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006395201198756695,
+        "sft_loss": 0.2353738248348236
+      },
+      "created_at": "2026-10-06T21:31:14.57954+00:00"
+    },
+    {
+      "id": 5132520,
+      "run_id": 73804,
+      "data": {
+        "step": 182,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0026164136361330748,
+        "sft_loss": 0.15858307480812073
+      },
+      "created_at": "2026-10-06T21:31:19.973287+00:00"
+    },
+    {
+      "id": 5132521,
+      "run_id": 73804,
+      "data": {
+        "step": 183,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007326274178922176,
+        "sft_loss": 0.17974276840686798
+      },
+      "created_at": "2026-10-06T21:31:25.417289+00:00"
+    },
+    {
+      "id": 5132522,
+      "run_id": 73804,
+      "data": {
+        "step": 184,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007573788519948721,
+        "sft_loss": 0.21617142856121063
+      },
+      "created_at": "2026-10-06T21:31:30.83809+00:00"
+    },
+    {
+      "id": 5132523,
+      "run_id": 73804,
+      "data": {
+        "step": 185,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006805701646953821,
+        "sft_loss": 0.31535303592681885
+      },
+      "created_at": "2026-10-06T21:31:36.29291+00:00"
+    },
+    {
+      "id": 5132524,
+      "run_id": 73804,
+      "data": {
+        "step": 186,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.013326642103493214,
+        "sft_loss": 0.2549738585948944
+      },
+      "created_at": "2026-10-06T21:31:41.662597+00:00"
+    },
+    {
+      "id": 5132525,
+      "run_id": 73804,
+      "data": {
+        "step": 187,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004320346750319004,
+        "sft_loss": 0.16372041404247284
+      },
+      "created_at": "2026-10-06T21:31:46.985025+00:00"
+    },
+    {
+      "id": 5132526,
+      "run_id": 73804,
+      "data": {
+        "step": 188,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004909200128167868,
+        "sft_loss": 0.1773877739906311
+      },
+      "created_at": "2026-10-06T21:31:52.271577+00:00"
+    },
+    {
+      "id": 5132527,
+      "run_id": 73804,
+      "data": {
+        "step": 189,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005324691999703646,
+        "sft_loss": 0.28425678610801697
+      },
+      "created_at": "2026-10-06T21:31:57.644992+00:00"
+    },
+    {
+      "id": 5132528,
+      "run_id": 73804,
+      "data": {
+        "step": 190,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.8031587600708
+      },
+      "created_at": "2026-10-06T21:32:02.915072+00:00"
+    },
+    {
+      "id": 5132529,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4750460386276245,
+        "step": 190,
+        "epoch": 0.5405405405405406,
+        "grad_norm": 2.6781327724456787,
+        "learning_rate": 5.1582278481012656e-06
+      },
+      "created_at": "2026-10-06T21:32:03.003343+00:00"
+    },
+    {
+      "id": 5132530,
+      "run_id": 73804,
+      "data": {
+        "step": 190,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.014828825369477272,
+        "sft_loss": 0.13738936185836792
+      },
+      "created_at": "2026-10-06T21:32:03.060755+00:00"
+    },
+    {
+      "id": 5132531,
+      "run_id": 73804,
+      "data": {
+        "step": 190,
+        "epoch": 0.5405405405405406,
+        "eval_loss": 1.4696810245513916
+      },
+      "created_at": "2026-10-06T21:32:54.471611+00:00"
+    },
+    {
+      "id": 5132532,
+      "run_id": 73804,
+      "data": {
+        "step": 191,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00779482489451766,
+        "sft_loss": 0.18723751604557037
+      },
+      "created_at": "2026-10-06T21:32:59.802153+00:00"
+    },
+    {
+      "id": 5132533,
+      "run_id": 73804,
+      "data": {
+        "step": 192,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00923775602132082,
+        "sft_loss": 0.1732669174671173
+      },
+      "created_at": "2026-10-06T21:33:05.044275+00:00"
+    },
+    {
+      "id": 5132534,
+      "run_id": 73804,
+      "data": {
+        "step": 193,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004257009830325842,
+        "sft_loss": 0.18755805492401123
+      },
+      "created_at": "2026-10-06T21:33:10.582836+00:00"
+    },
+    {
+      "id": 5132535,
+      "run_id": 73804,
+      "data": {
+        "step": 194,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006768275052309036,
+        "sft_loss": 0.21615472435951233
+      },
+      "created_at": "2026-10-06T21:33:16.052462+00:00"
+    },
+    {
+      "id": 5132536,
+      "run_id": 73804,
+      "data": {
+        "step": 195,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005112149752676487,
+        "sft_loss": 0.16363805532455444
+      },
+      "created_at": "2026-10-06T21:33:21.296532+00:00"
+    },
+    {
+      "id": 5132537,
+      "run_id": 73804,
+      "data": {
+        "step": 196,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.013276960700750351,
+        "sft_loss": 0.18596121668815613
+      },
+      "created_at": "2026-10-06T21:33:26.623835+00:00"
+    },
+    {
+      "id": 5132538,
+      "run_id": 73804,
+      "data": {
+        "step": 197,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008190199732780457,
+        "sft_loss": 0.19988055527210236
+      },
+      "created_at": "2026-10-06T21:33:32.08706+00:00"
+    },
+    {
+      "id": 5132539,
+      "run_id": 73804,
+      "data": {
+        "step": 198,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009970891289412975,
+        "sft_loss": 0.15656045079231262
+      },
+      "created_at": "2026-10-06T21:33:37.330619+00:00"
+    },
+    {
+      "id": 5132540,
+      "run_id": 73804,
+      "data": {
+        "step": 199,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009232910349965096,
+        "sft_loss": 0.17007455229759216
+      },
+      "created_at": "2026-10-06T21:33:42.709766+00:00"
+    },
+    {
+      "id": 5132541,
+      "run_id": 73804,
+      "data": {
+        "step": 200,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.8031587600708
+      },
+      "created_at": "2026-10-06T21:33:47.995913+00:00"
+    },
+    {
+      "id": 5132542,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.6060168743133545,
+        "step": 200,
+        "epoch": 0.5689900426742532,
+        "grad_norm": 3.443082571029663,
+        "learning_rate": 4.841772151898735e-06
+      },
+      "created_at": "2026-10-06T21:33:48.098272+00:00"
+    },
+    {
+      "id": 5132543,
+      "run_id": 73804,
+      "data": {
+        "step": 200,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006931231822818518,
+        "sft_loss": 0.17332477867603302
+      },
+      "created_at": "2026-10-06T21:33:48.16783+00:00"
+    },
+    {
+      "id": 5132544,
+      "run_id": 73804,
+      "data": {
+        "step": 200,
+        "epoch": 0.5689900426742532,
+        "eval_loss": 1.4686590433120728
+      },
+      "created_at": "2026-10-06T21:34:40.263052+00:00"
+    },
+    {
+      "id": 5132545,
+      "run_id": 73804,
+      "data": {
+        "step": 201,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009864096529781818,
+        "sft_loss": 0.19661420583724976
+      },
+      "created_at": "2026-10-06T21:34:45.834694+00:00"
+    },
+    {
+      "id": 5132546,
+      "run_id": 73804,
+      "data": {
+        "step": 202,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008130482397973537,
+        "sft_loss": 0.29585039615631104
+      },
+      "created_at": "2026-10-06T21:34:51.062734+00:00"
+    },
+    {
+      "id": 5132547,
+      "run_id": 73804,
+      "data": {
+        "step": 203,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008511076681315899,
+        "sft_loss": 0.23779238760471344
+      },
+      "created_at": "2026-10-06T21:34:56.281744+00:00"
+    },
+    {
+      "id": 5132548,
+      "run_id": 73804,
+      "data": {
+        "step": 204,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009245789609849453,
+        "sft_loss": 0.20338480174541473
+      },
+      "created_at": "2026-10-06T21:35:01.487841+00:00"
+    },
+    {
+      "id": 5132549,
+      "run_id": 73804,
+      "data": {
+        "step": 205,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007957267574965954,
+        "sft_loss": 0.18964752554893494
+      },
+      "created_at": "2026-10-06T21:35:06.807846+00:00"
+    },
+    {
+      "id": 5132550,
+      "run_id": 73804,
+      "data": {
+        "step": 206,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016773785464465618,
+        "sft_loss": 0.17501039803028107
+      },
+      "created_at": "2026-10-06T21:35:12.048838+00:00"
+    },
+    {
+      "id": 5132551,
+      "run_id": 73804,
+      "data": {
+        "step": 207,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0073073748499155045,
+        "sft_loss": 0.1718546599149704
+      },
+      "created_at": "2026-10-06T21:35:17.362967+00:00"
+    },
+    {
+      "id": 5132552,
+      "run_id": 73804,
+      "data": {
+        "step": 208,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0034928310196846724,
+        "sft_loss": 0.23589415848255157
+      },
+      "created_at": "2026-10-06T21:35:22.623537+00:00"
+    },
+    {
+      "id": 5132553,
+      "run_id": 73804,
+      "data": {
+        "step": 209,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0045893751084804535,
+        "sft_loss": 0.10954079777002335
+      },
+      "created_at": "2026-10-06T21:35:27.869498+00:00"
+    },
+    {
+      "id": 5132554,
+      "run_id": 73804,
+      "data": {
+        "step": 210,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:35:33.185491+00:00"
+    },
+    {
+      "id": 5132555,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.3737536668777466,
+        "step": 210,
+        "epoch": 0.5974395448079659,
+        "grad_norm": 2.9116313457489014,
+        "learning_rate": 4.525316455696203e-06
+      },
+      "created_at": "2026-10-06T21:35:33.271385+00:00"
+    },
+    {
+      "id": 5132556,
+      "run_id": 73804,
+      "data": {
+        "step": 210,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01126968115568161,
+        "sft_loss": 0.16455204784870148
+      },
+      "created_at": "2026-10-06T21:35:33.345307+00:00"
+    },
+    {
+      "id": 5132557,
+      "run_id": 73804,
+      "data": {
+        "step": 210,
+        "epoch": 0.5974395448079659,
+        "eval_loss": 1.4652475118637085
+      },
+      "created_at": "2026-10-06T21:36:24.747983+00:00"
+    },
+    {
+      "id": 5132558,
+      "run_id": 73804,
+      "data": {
+        "step": 211,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0036383189726620913,
+        "sft_loss": 0.33271485567092896
+      },
+      "created_at": "2026-10-06T21:36:30.037251+00:00"
+    },
+    {
+      "id": 5132559,
+      "run_id": 73804,
+      "data": {
+        "step": 212,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005077756009995937,
+        "sft_loss": 0.19981060922145844
+      },
+      "created_at": "2026-10-06T21:36:35.68125+00:00"
+    },
+    {
+      "id": 5132560,
+      "run_id": 73804,
+      "data": {
+        "step": 213,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.014338287524878979,
+        "sft_loss": 0.20575618743896484
+      },
+      "created_at": "2026-10-06T21:36:40.927042+00:00"
+    },
+    {
+      "id": 5132561,
+      "run_id": 73804,
+      "data": {
+        "step": 214,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006090675480663776,
+        "sft_loss": 0.2270430624485016
+      },
+      "created_at": "2026-10-06T21:36:46.312997+00:00"
+    },
+    {
+      "id": 5132562,
+      "run_id": 73804,
+      "data": {
+        "step": 215,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009806844405829906,
+        "sft_loss": 0.15218894183635712
+      },
+      "created_at": "2026-10-06T21:36:51.501894+00:00"
+    },
+    {
+      "id": 5132563,
+      "run_id": 73804,
+      "data": {
+        "step": 216,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006273577455431223,
+        "sft_loss": 0.13476383686065674
+      },
+      "created_at": "2026-10-06T21:36:56.821238+00:00"
+    },
+    {
+      "id": 5132564,
+      "run_id": 73804,
+      "data": {
+        "step": 217,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005715698469430208,
+        "sft_loss": 0.1754080355167389
+      },
+      "created_at": "2026-10-06T21:37:02.049682+00:00"
+    },
+    {
+      "id": 5132565,
+      "run_id": 73804,
+      "data": {
+        "step": 218,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.011110072955489159,
+        "sft_loss": 0.18759721517562866
+      },
+      "created_at": "2026-10-06T21:37:07.254494+00:00"
+    },
+    {
+      "id": 5132566,
+      "run_id": 73804,
+      "data": {
+        "step": 219,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0041814325377345085,
+        "sft_loss": 0.22986626625061035
+      },
+      "created_at": "2026-10-06T21:37:12.455453+00:00"
+    },
+    {
+      "id": 5132567,
+      "run_id": 73804,
+      "data": {
+        "step": 220,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:37:17.739758+00:00"
+    },
+    {
+      "id": 5132568,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.5152710676193237,
+        "step": 220,
+        "epoch": 0.6258890469416786,
+        "grad_norm": 2.750218152999878,
+        "learning_rate": 4.208860759493671e-06
+      },
+      "created_at": "2026-10-06T21:37:17.826371+00:00"
+    },
+    {
+      "id": 5132569,
+      "run_id": 73804,
+      "data": {
+        "step": 220,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0017125108279287815,
+        "sft_loss": 0.2170076221227646
+      },
+      "created_at": "2026-10-06T21:37:17.877959+00:00"
+    },
+    {
+      "id": 5132570,
+      "run_id": 73804,
+      "data": {
+        "step": 220,
+        "epoch": 0.6258890469416786,
+        "eval_loss": 1.4647020101547241
+      },
+      "created_at": "2026-10-06T21:38:09.073844+00:00"
+    },
+    {
+      "id": 5132571,
+      "run_id": 73804,
+      "data": {
+        "step": 221,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.012340587563812733,
+        "sft_loss": 0.20042763650417328
+      },
+      "created_at": "2026-10-06T21:38:14.388836+00:00"
+    },
+    {
+      "id": 5132572,
+      "run_id": 73804,
+      "data": {
+        "step": 222,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00459589809179306,
+        "sft_loss": 0.1516251116991043
+      },
+      "created_at": "2026-10-06T21:38:19.606318+00:00"
+    },
+    {
+      "id": 5132573,
+      "run_id": 73804,
+      "data": {
+        "step": 223,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0066151986829936504,
+        "sft_loss": 0.19057631492614746
+      },
+      "created_at": "2026-10-06T21:38:24.796743+00:00"
+    },
+    {
+      "id": 5132574,
+      "run_id": 73804,
+      "data": {
+        "step": 224,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002832357306033373,
+        "sft_loss": 0.16267576813697815
+      },
+      "created_at": "2026-10-06T21:38:30.176613+00:00"
+    },
+    {
+      "id": 5132575,
+      "run_id": 73804,
+      "data": {
+        "step": 225,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005767113994807005,
+        "sft_loss": 0.15783052146434784
+      },
+      "created_at": "2026-10-06T21:38:35.396699+00:00"
+    },
+    {
+      "id": 5132576,
+      "run_id": 73804,
+      "data": {
+        "step": 226,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006863663904368877,
+        "sft_loss": 0.1763579249382019
+      },
+      "created_at": "2026-10-06T21:38:40.759436+00:00"
+    },
+    {
+      "id": 5132577,
+      "run_id": 73804,
+      "data": {
+        "step": 227,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005824049469083548,
+        "sft_loss": 0.15532733500003815
+      },
+      "created_at": "2026-10-06T21:38:46.03082+00:00"
+    },
+    {
+      "id": 5132578,
+      "run_id": 73804,
+      "data": {
+        "step": 228,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005107360426336527,
+        "sft_loss": 0.1842242181301117
+      },
+      "created_at": "2026-10-06T21:38:51.20006+00:00"
+    },
+    {
+      "id": 5132579,
+      "run_id": 73804,
+      "data": {
+        "step": 229,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006464965641498566,
+        "sft_loss": 0.12868298590183258
+      },
+      "created_at": "2026-10-06T21:38:56.37891+00:00"
+    },
+    {
+      "id": 5132580,
+      "run_id": 73804,
+      "data": {
+        "step": 230,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:39:01.741762+00:00"
+    },
+    {
+      "id": 5132581,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4690927267074585,
+        "step": 230,
+        "epoch": 0.6543385490753911,
+        "grad_norm": 2.6941957473754883,
+        "learning_rate": 3.89240506329114e-06
+      },
+      "created_at": "2026-10-06T21:39:01.847963+00:00"
+    },
+    {
+      "id": 5132582,
+      "run_id": 73804,
+      "data": {
+        "step": 230,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004586722701787949,
+        "sft_loss": 0.14186996221542358
+      },
+      "created_at": "2026-10-06T21:39:01.905396+00:00"
+    },
+    {
+      "id": 5132583,
+      "run_id": 73804,
+      "data": {
+        "step": 230,
+        "epoch": 0.6543385490753911,
+        "eval_loss": 1.4614477157592773
+      },
+      "created_at": "2026-10-06T21:39:55.752636+00:00"
+    },
+    {
+      "id": 5132584,
+      "run_id": 73804,
+      "data": {
+        "step": 231,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00510403560474515,
+        "sft_loss": 0.2081039547920227
+      },
+      "created_at": "2026-10-06T21:40:01.112843+00:00"
+    },
+    {
+      "id": 5132585,
+      "run_id": 73804,
+      "data": {
+        "step": 232,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008244875818490982,
+        "sft_loss": 0.15842585265636444
+      },
+      "created_at": "2026-10-06T21:40:06.360652+00:00"
+    },
+    {
+      "id": 5132586,
+      "run_id": 73804,
+      "data": {
+        "step": 233,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007538304198533297,
+        "sft_loss": 0.13726989924907684
+      },
+      "created_at": "2026-10-06T21:40:11.615337+00:00"
+    },
+    {
+      "id": 5132587,
+      "run_id": 73804,
+      "data": {
+        "step": 234,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0065137105993926525,
+        "sft_loss": 0.18188464641571045
+      },
+      "created_at": "2026-10-06T21:40:16.865249+00:00"
+    },
+    {
+      "id": 5132588,
+      "run_id": 73804,
+      "data": {
+        "step": 235,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008349214680492878,
+        "sft_loss": 0.26339954137802124
+      },
+      "created_at": "2026-10-06T21:40:22.154583+00:00"
+    },
+    {
+      "id": 5132589,
+      "run_id": 73804,
+      "data": {
+        "step": 236,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.010542730800807476,
+        "sft_loss": 0.16105061769485474
+      },
+      "created_at": "2026-10-06T21:40:27.532641+00:00"
+    },
+    {
+      "id": 5132590,
+      "run_id": 73804,
+      "data": {
+        "step": 237,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003316037356853485,
+        "sft_loss": 0.2123337686061859
+      },
+      "created_at": "2026-10-06T21:40:32.909233+00:00"
+    },
+    {
+      "id": 5132591,
+      "run_id": 73804,
+      "data": {
+        "step": 238,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004582289606332779,
+        "sft_loss": 0.1794710010290146
+      },
+      "created_at": "2026-10-06T21:40:38.28419+00:00"
+    },
+    {
+      "id": 5132592,
+      "run_id": 73804,
+      "data": {
+        "step": 239,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.011006888002157211,
+        "sft_loss": 0.11481701582670212
+      },
+      "created_at": "2026-10-06T21:40:43.667845+00:00"
+    },
+    {
+      "id": 5132593,
+      "run_id": 73804,
+      "data": {
+        "step": 240,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:40:49.040004+00:00"
+    },
+    {
+      "id": 5132594,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4016152620315552,
+        "step": 240,
+        "epoch": 0.6827880512091038,
+        "grad_norm": 2.9541149139404297,
+        "learning_rate": 3.575949367088608e-06
+      },
+      "created_at": "2026-10-06T21:40:49.13373+00:00"
+    },
+    {
+      "id": 5132595,
+      "run_id": 73804,
+      "data": {
+        "step": 240,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003373295534402132,
+        "sft_loss": 0.15918214619159698
+      },
+      "created_at": "2026-10-06T21:40:49.201271+00:00"
+    },
+    {
+      "id": 5132596,
+      "run_id": 73804,
+      "data": {
+        "step": 240,
+        "epoch": 0.6827880512091038,
+        "eval_loss": 1.4596585035324097
+      },
+      "created_at": "2026-10-06T21:41:45.097151+00:00"
+    },
+    {
+      "id": 5132597,
+      "run_id": 73804,
+      "data": {
+        "step": 241,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009662737138569355,
+        "sft_loss": 0.15498651564121246
+      },
+      "created_at": "2026-10-06T21:41:50.47273+00:00"
+    },
+    {
+      "id": 5132598,
+      "run_id": 73804,
+      "data": {
+        "step": 242,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007714219391345978,
+        "sft_loss": 0.14063887298107147
+      },
+      "created_at": "2026-10-06T21:41:55.671337+00:00"
+    },
+    {
+      "id": 5132599,
+      "run_id": 73804,
+      "data": {
+        "step": 243,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008674551732838154,
+        "sft_loss": 0.23712709546089172
+      },
+      "created_at": "2026-10-06T21:42:01.041823+00:00"
+    },
+    {
+      "id": 5132600,
+      "run_id": 73804,
+      "data": {
+        "step": 244,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0006551317637786269,
+        "sft_loss": 0.18140466511249542
+      },
+      "created_at": "2026-10-06T21:42:06.343891+00:00"
+    },
+    {
+      "id": 5132601,
+      "run_id": 73804,
+      "data": {
+        "step": 245,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01763516664505005,
+        "sft_loss": 0.20544718205928802
+      },
+      "created_at": "2026-10-06T21:42:11.638271+00:00"
+    },
+    {
+      "id": 5132602,
+      "run_id": 73804,
+      "data": {
+        "step": 246,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006731235887855291,
+        "sft_loss": 0.163448303937912
+      },
+      "created_at": "2026-10-06T21:42:16.863506+00:00"
+    },
+    {
+      "id": 5132603,
+      "run_id": 73804,
+      "data": {
+        "step": 247,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004380696453154087,
+        "sft_loss": 0.21608386933803558
+      },
+      "created_at": "2026-10-06T21:42:22.20071+00:00"
+    },
+    {
+      "id": 5132604,
+      "run_id": 73804,
+      "data": {
+        "step": 248,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00726917153224349,
+        "sft_loss": 0.1793389916419983
+      },
+      "created_at": "2026-10-06T21:42:27.622573+00:00"
+    },
+    {
+      "id": 5132605,
+      "run_id": 73804,
+      "data": {
+        "step": 249,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006787356920540333,
+        "sft_loss": 0.19567623734474182
+      },
+      "created_at": "2026-10-06T21:42:32.933214+00:00"
+    },
+    {
+      "id": 5132606,
+      "run_id": 73804,
+      "data": {
+        "step": 250,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:42:38.366881+00:00"
+    },
+    {
+      "id": 5132607,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.5287152528762817,
+        "step": 250,
+        "epoch": 0.7112375533428165,
+        "grad_norm": 2.817457675933838,
+        "learning_rate": 3.2594936708860765e-06
+      },
+      "created_at": "2026-10-06T21:42:38.479719+00:00"
+    },
+    {
+      "id": 5132608,
+      "run_id": 73804,
+      "data": {
+        "step": 250,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0017196426633745432,
+        "sft_loss": 0.20807074010372162
+      },
+      "created_at": "2026-10-06T21:42:38.555434+00:00"
+    },
+    {
+      "id": 5132609,
+      "run_id": 73804,
+      "data": {
+        "step": 250,
+        "epoch": 0.7112375533428165,
+        "eval_loss": 1.4606356620788574
+      },
+      "created_at": "2026-10-06T21:43:34.628094+00:00"
+    },
+    {
+      "id": 5132610,
+      "run_id": 73804,
+      "data": {
+        "step": 251,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003526563523337245,
+        "sft_loss": 0.17663171887397766
+      },
+      "created_at": "2026-10-06T21:43:40.454815+00:00"
+    },
+    {
+      "id": 5132611,
+      "run_id": 73804,
+      "data": {
+        "step": 252,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007188964169472456,
+        "sft_loss": 0.17013712227344513
+      },
+      "created_at": "2026-10-06T21:43:45.821579+00:00"
+    },
+    {
+      "id": 5132612,
+      "run_id": 73804,
+      "data": {
+        "step": 253,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0053763915784657,
+        "sft_loss": 0.18510274589061737
+      },
+      "created_at": "2026-10-06T21:43:51.02122+00:00"
+    },
+    {
+      "id": 5132613,
+      "run_id": 73804,
+      "data": {
+        "step": 254,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0038694972172379494,
+        "sft_loss": 0.14941684901714325
+      },
+      "created_at": "2026-10-06T21:43:56.217018+00:00"
+    },
+    {
+      "id": 5132614,
+      "run_id": 73804,
+      "data": {
+        "step": 255,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008232654072344303,
+        "sft_loss": 0.12896381318569183
+      },
+      "created_at": "2026-10-06T21:44:01.490949+00:00"
+    },
+    {
+      "id": 5132615,
+      "run_id": 73804,
+      "data": {
+        "step": 256,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001378845190629363,
+        "sft_loss": 0.25194212794303894
+      },
+      "created_at": "2026-10-06T21:44:06.829115+00:00"
+    },
+    {
+      "id": 5132616,
+      "run_id": 73804,
+      "data": {
+        "step": 257,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003919626586139202,
+        "sft_loss": 0.17915078997612
+      },
+      "created_at": "2026-10-06T21:44:12.214024+00:00"
+    },
+    {
+      "id": 5132617,
+      "run_id": 73804,
+      "data": {
+        "step": 258,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008737567812204361,
+        "sft_loss": 0.18810652196407318
+      },
+      "created_at": "2026-10-06T21:44:17.650609+00:00"
+    },
+    {
+      "id": 5132618,
+      "run_id": 73804,
+      "data": {
+        "step": 259,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.010235026478767395,
+        "sft_loss": 0.2497028112411499
+      },
+      "created_at": "2026-10-06T21:44:23.068861+00:00"
+    },
+    {
+      "id": 5132619,
+      "run_id": 73804,
+      "data": {
+        "step": 260,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:44:28.434328+00:00"
+    },
+    {
+      "id": 5132620,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.5070463418960571,
+        "step": 260,
+        "epoch": 0.7396870554765291,
+        "grad_norm": 2.7279441356658936,
+        "learning_rate": 2.9430379746835445e-06
+      },
+      "created_at": "2026-10-06T21:44:28.522008+00:00"
+    },
+    {
+      "id": 5132621,
+      "run_id": 73804,
+      "data": {
+        "step": 260,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003733535762876272,
+        "sft_loss": 0.22856728732585907
+      },
+      "created_at": "2026-10-06T21:44:28.589365+00:00"
+    },
+    {
+      "id": 5132622,
+      "run_id": 73804,
+      "data": {
+        "step": 260,
+        "epoch": 0.7396870554765291,
+        "eval_loss": 1.4572350978851318
+      },
+      "created_at": "2026-10-06T21:45:27.64586+00:00"
+    },
+    {
+      "id": 5132623,
+      "run_id": 73804,
+      "data": {
+        "step": 261,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003249526722356677,
+        "sft_loss": 0.14357316493988037
+      },
+      "created_at": "2026-10-06T21:45:32.925581+00:00"
+    },
+    {
+      "id": 5132624,
+      "run_id": 73804,
+      "data": {
+        "step": 262,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0038012410514056683,
+        "sft_loss": 0.16460877656936646
+      },
+      "created_at": "2026-10-06T21:45:38.172959+00:00"
+    },
+    {
+      "id": 5132625,
+      "run_id": 73804,
+      "data": {
+        "step": 263,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0035566010046750307,
+        "sft_loss": 0.22806577384471893
+      },
+      "created_at": "2026-10-06T21:45:43.393682+00:00"
+    },
+    {
+      "id": 5132626,
+      "run_id": 73804,
+      "data": {
+        "step": 264,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0038368538953363895,
+        "sft_loss": 0.1459566056728363
+      },
+      "created_at": "2026-10-06T21:45:48.553473+00:00"
+    },
+    {
+      "id": 5132627,
+      "run_id": 73804,
+      "data": {
+        "step": 265,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004451634828001261,
+        "sft_loss": 0.20913520455360413
+      },
+      "created_at": "2026-10-06T21:45:53.792416+00:00"
+    },
+    {
+      "id": 5132628,
+      "run_id": 73804,
+      "data": {
+        "step": 266,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004325629211962223,
+        "sft_loss": 0.235849067568779
+      },
+      "created_at": "2026-10-06T21:45:59.246097+00:00"
+    },
+    {
+      "id": 5132629,
+      "run_id": 73804,
+      "data": {
+        "step": 267,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01066841371357441,
+        "sft_loss": 0.2505977749824524
+      },
+      "created_at": "2026-10-06T21:46:04.893084+00:00"
+    },
+    {
+      "id": 5132630,
+      "run_id": 73804,
+      "data": {
+        "step": 268,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0024504379834979773,
+        "sft_loss": 0.22193996608257294
+      },
+      "created_at": "2026-10-06T21:46:10.222609+00:00"
+    },
+    {
+      "id": 5132631,
+      "run_id": 73804,
+      "data": {
+        "step": 269,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005986347794532776,
+        "sft_loss": 0.1626012623310089
+      },
+      "created_at": "2026-10-06T21:46:15.531302+00:00"
+    },
+    {
+      "id": 5132632,
+      "run_id": 73804,
+      "data": {
+        "step": 270,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:46:20.971552+00:00"
+    },
+    {
+      "id": 5132633,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4130604267120361,
+        "step": 270,
+        "epoch": 0.7681365576102418,
+        "grad_norm": 2.6117944717407227,
+        "learning_rate": 2.626582278481013e-06
+      },
+      "created_at": "2026-10-06T21:46:21.065667+00:00"
+    },
+    {
+      "id": 5132634,
+      "run_id": 73804,
+      "data": {
+        "step": 270,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005242595449090004,
+        "sft_loss": 0.18246686458587646
+      },
+      "created_at": "2026-10-06T21:46:21.131247+00:00"
+    },
+    {
+      "id": 5132635,
+      "run_id": 73804,
+      "data": {
+        "step": 270,
+        "epoch": 0.7681365576102418,
+        "eval_loss": 1.4562040567398071
+      },
+      "created_at": "2026-10-06T21:47:16.550634+00:00"
+    },
+    {
+      "id": 5132636,
+      "run_id": 73804,
+      "data": {
+        "step": 271,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0071961404755711555,
+        "sft_loss": 0.15014690160751343
+      },
+      "created_at": "2026-10-06T21:47:22.104018+00:00"
+    },
+    {
+      "id": 5132637,
+      "run_id": 73804,
+      "data": {
+        "step": 272,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004057946149259806,
+        "sft_loss": 0.27508312463760376
+      },
+      "created_at": "2026-10-06T21:47:27.428029+00:00"
+    },
+    {
+      "id": 5132638,
+      "run_id": 73804,
+      "data": {
+        "step": 273,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002889033406972885,
+        "sft_loss": 0.27812641859054565
+      },
+      "created_at": "2026-10-06T21:47:32.798607+00:00"
+    },
+    {
+      "id": 5132639,
+      "run_id": 73804,
+      "data": {
+        "step": 274,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00950781162828207,
+        "sft_loss": 0.17753463983535767
+      },
+      "created_at": "2026-10-06T21:47:38.432097+00:00"
+    },
+    {
+      "id": 5132640,
+      "run_id": 73804,
+      "data": {
+        "step": 275,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0010991677409037948,
+        "sft_loss": 0.2216791808605194
+      },
+      "created_at": "2026-10-06T21:47:44.777562+00:00"
+    },
+    {
+      "id": 5132641,
+      "run_id": 73804,
+      "data": {
+        "step": 276,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.013622647151350975,
+        "sft_loss": 0.14561854302883148
+      },
+      "created_at": "2026-10-06T21:47:49.942424+00:00"
+    },
+    {
+      "id": 5132642,
+      "run_id": 73804,
+      "data": {
+        "step": 277,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.013874752447009087,
+        "sft_loss": 0.1865956336259842
+      },
+      "created_at": "2026-10-06T21:47:55.102919+00:00"
+    },
+    {
+      "id": 5132643,
+      "run_id": 73804,
+      "data": {
+        "step": 278,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004553637001663446,
+        "sft_loss": 0.12931247055530548
+      },
+      "created_at": "2026-10-06T21:48:00.44815+00:00"
+    },
+    {
+      "id": 5132644,
+      "run_id": 73804,
+      "data": {
+        "step": 279,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.014402702450752258,
+        "sft_loss": 0.21342025697231293
+      },
+      "created_at": "2026-10-06T21:48:05.720174+00:00"
+    },
+    {
+      "id": 5132645,
+      "run_id": 73804,
+      "data": {
+        "step": 280,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:48:11.138889+00:00"
+    },
+    {
+      "id": 5132646,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4265215396881104,
+        "step": 280,
+        "epoch": 0.7965860597439545,
+        "grad_norm": 2.5701701641082764,
+        "learning_rate": 2.3101265822784813e-06
+      },
+      "created_at": "2026-10-06T21:48:11.227576+00:00"
+    },
+    {
+      "id": 5132647,
+      "run_id": 73804,
+      "data": {
+        "step": 280,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009737813961692154,
+        "sft_loss": 0.20541714131832123
+      },
+      "created_at": "2026-10-06T21:48:11.283221+00:00"
+    },
+    {
+      "id": 5132648,
+      "run_id": 73804,
+      "data": {
+        "step": 280,
+        "epoch": 0.7965860597439545,
+        "eval_loss": 1.4551457166671753
+      },
+      "created_at": "2026-10-06T21:49:04.098199+00:00"
+    },
+    {
+      "id": 5132649,
+      "run_id": 73804,
+      "data": {
+        "step": 281,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00489032780751586,
+        "sft_loss": 0.1609603315591812
+      },
+      "created_at": "2026-10-06T21:49:09.443681+00:00"
+    },
+    {
+      "id": 5132650,
+      "run_id": 73804,
+      "data": {
+        "step": 282,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005762048065662384,
+        "sft_loss": 0.17078065872192383
+      },
+      "created_at": "2026-10-06T21:49:14.614807+00:00"
+    },
+    {
+      "id": 5132651,
+      "run_id": 73804,
+      "data": {
+        "step": 283,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0046827481128275394,
+        "sft_loss": 0.16878429055213928
+      },
+      "created_at": "2026-10-06T21:49:20.183895+00:00"
+    },
+    {
+      "id": 5132652,
+      "run_id": 73804,
+      "data": {
+        "step": 284,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00635542394593358,
+        "sft_loss": 0.20028261840343475
+      },
+      "created_at": "2026-10-06T21:49:25.378841+00:00"
+    },
+    {
+      "id": 5132653,
+      "run_id": 73804,
+      "data": {
+        "step": 285,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.014960031025111675,
+        "sft_loss": 0.160272479057312
+      },
+      "created_at": "2026-10-06T21:49:30.581051+00:00"
+    },
+    {
+      "id": 5132654,
+      "run_id": 73804,
+      "data": {
+        "step": 286,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003617078997194767,
+        "sft_loss": 0.21103627979755402
+      },
+      "created_at": "2026-10-06T21:49:35.77975+00:00"
+    },
+    {
+      "id": 5132655,
+      "run_id": 73804,
+      "data": {
+        "step": 287,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007082527969032526,
+        "sft_loss": 0.21162046492099762
+      },
+      "created_at": "2026-10-06T21:49:40.970546+00:00"
+    },
+    {
+      "id": 5132656,
+      "run_id": 73804,
+      "data": {
+        "step": 288,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.010741977021098137,
+        "sft_loss": 0.2203861027956009
+      },
+      "created_at": "2026-10-06T21:49:46.218587+00:00"
+    },
+    {
+      "id": 5132657,
+      "run_id": 73804,
+      "data": {
+        "step": 289,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008510134182870388,
+        "sft_loss": 0.18738095462322235
+      },
+      "created_at": "2026-10-06T21:49:51.458187+00:00"
+    },
+    {
+      "id": 5132658,
+      "run_id": 73804,
+      "data": {
+        "step": 290,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:49:56.684703+00:00"
+    },
+    {
+      "id": 5132659,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4588558673858643,
+        "step": 290,
+        "epoch": 0.8250355618776671,
+        "grad_norm": 2.589270830154419,
+        "learning_rate": 1.9936708860759498e-06
+      },
+      "created_at": "2026-10-06T21:49:56.769362+00:00"
+    },
+    {
+      "id": 5132660,
+      "run_id": 73804,
+      "data": {
+        "step": 290,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00447835261002183,
+        "sft_loss": 0.15229523181915283
+      },
+      "created_at": "2026-10-06T21:49:56.841992+00:00"
+    },
+    {
+      "id": 5132661,
+      "run_id": 73804,
+      "data": {
+        "step": 290,
+        "epoch": 0.8250355618776671,
+        "eval_loss": 1.4543269872665405
+      },
+      "created_at": "2026-10-06T21:50:48.821322+00:00"
+    },
+    {
+      "id": 5132662,
+      "run_id": 73804,
+      "data": {
+        "step": 291,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0017552287317812443,
+        "sft_loss": 0.1446908861398697
+      },
+      "created_at": "2026-10-06T21:50:54.141308+00:00"
+    },
+    {
+      "id": 5132663,
+      "run_id": 73804,
+      "data": {
+        "step": 292,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.010642610490322113,
+        "sft_loss": 0.18792137503623962
+      },
+      "created_at": "2026-10-06T21:50:59.398098+00:00"
+    },
+    {
+      "id": 5132664,
+      "run_id": 73804,
+      "data": {
+        "step": 293,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006367773748934269,
+        "sft_loss": 0.20479637384414673
+      },
+      "created_at": "2026-10-06T21:51:04.830441+00:00"
+    },
+    {
+      "id": 5132665,
+      "run_id": 73804,
+      "data": {
+        "step": 294,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00668974407017231,
+        "sft_loss": 0.2510938346385956
+      },
+      "created_at": "2026-10-06T21:51:10.190138+00:00"
+    },
+    {
+      "id": 5132666,
+      "run_id": 73804,
+      "data": {
+        "step": 295,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00616377592086792,
+        "sft_loss": 0.21111147105693817
+      },
+      "created_at": "2026-10-06T21:51:15.531629+00:00"
+    },
+    {
+      "id": 5132667,
+      "run_id": 73804,
+      "data": {
+        "step": 296,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0019276131642982364,
+        "sft_loss": 0.10925707966089249
+      },
+      "created_at": "2026-10-06T21:51:20.953622+00:00"
+    },
+    {
+      "id": 5132668,
+      "run_id": 73804,
+      "data": {
+        "step": 297,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0031316597014665604,
+        "sft_loss": 0.21695658564567566
+      },
+      "created_at": "2026-10-06T21:51:26.284141+00:00"
+    },
+    {
+      "id": 5132669,
+      "run_id": 73804,
+      "data": {
+        "step": 298,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004576025530695915,
+        "sft_loss": 0.15933389961719513
+      },
+      "created_at": "2026-10-06T21:51:31.946476+00:00"
+    },
+    {
+      "id": 5132670,
+      "run_id": 73804,
+      "data": {
+        "step": 299,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004390296991914511,
+        "sft_loss": 0.20636065304279327
+      },
+      "created_at": "2026-10-06T21:51:37.33438+00:00"
+    },
+    {
+      "id": 5132671,
+      "run_id": 73804,
+      "data": {
+        "step": 300,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:51:42.702831+00:00"
+    },
+    {
+      "id": 5132672,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.7610774040222168,
+        "step": 300,
+        "epoch": 0.8534850640113798,
+        "grad_norm": 3.196343421936035,
+        "learning_rate": 1.677215189873418e-06
+      },
+      "created_at": "2026-10-06T21:51:42.803966+00:00"
+    },
+    {
+      "id": 5132673,
+      "run_id": 73804,
+      "data": {
+        "step": 300,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.012075047008693218,
+        "sft_loss": 0.26633909344673157
+      },
+      "created_at": "2026-10-06T21:51:42.858622+00:00"
+    },
+    {
+      "id": 5132674,
+      "run_id": 73804,
+      "data": {
+        "step": 300,
+        "epoch": 0.8534850640113798,
+        "eval_loss": 1.453803539276123
+      },
+      "created_at": "2026-10-06T21:52:35.552827+00:00"
+    },
+    {
+      "id": 5132675,
+      "run_id": 73804,
+      "data": {
+        "step": 301,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00902197789400816,
+        "sft_loss": 0.1461433321237564
+      },
+      "created_at": "2026-10-06T21:52:40.922607+00:00"
+    },
+    {
+      "id": 5132676,
+      "run_id": 73804,
+      "data": {
+        "step": 302,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00631240988150239,
+        "sft_loss": 0.13467632234096527
+      },
+      "created_at": "2026-10-06T21:52:46.444722+00:00"
+    },
+    {
+      "id": 5132677,
+      "run_id": 73804,
+      "data": {
+        "step": 303,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003640936454758048,
+        "sft_loss": 0.17400772869586945
+      },
+      "created_at": "2026-10-06T21:52:51.820236+00:00"
+    },
+    {
+      "id": 5132678,
+      "run_id": 73804,
+      "data": {
+        "step": 304,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01435085665434599,
+        "sft_loss": 0.17519059777259827
+      },
+      "created_at": "2026-10-06T21:52:57.224231+00:00"
+    },
+    {
+      "id": 5132679,
+      "run_id": 73804,
+      "data": {
+        "step": 305,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007212293799966574,
+        "sft_loss": 0.241588294506073
+      },
+      "created_at": "2026-10-06T21:53:02.587696+00:00"
+    },
+    {
+      "id": 5132680,
+      "run_id": 73804,
+      "data": {
+        "step": 306,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0045940144918859005,
+        "sft_loss": 0.24051885306835175
+      },
+      "created_at": "2026-10-06T21:53:07.980225+00:00"
+    },
+    {
+      "id": 5132681,
+      "run_id": 73804,
+      "data": {
+        "step": 307,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.010291664861142635,
+        "sft_loss": 0.12585698068141937
+      },
+      "created_at": "2026-10-06T21:53:13.347893+00:00"
+    },
+    {
+      "id": 5132682,
+      "run_id": 73804,
+      "data": {
+        "step": 308,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004392452072352171,
+        "sft_loss": 0.2350403368473053
+      },
+      "created_at": "2026-10-06T21:53:18.749228+00:00"
+    },
+    {
+      "id": 5132683,
+      "run_id": 73804,
+      "data": {
+        "step": 309,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002127904212102294,
+        "sft_loss": 0.15785589814186096
+      },
+      "created_at": "2026-10-06T21:53:24.290968+00:00"
+    },
+    {
+      "id": 5132684,
+      "run_id": 73804,
+      "data": {
+        "step": 310,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:53:29.668972+00:00"
+    },
+    {
+      "id": 5132685,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.611464500427246,
+        "step": 310,
+        "epoch": 0.8819345661450925,
+        "grad_norm": 2.8267128467559814,
+        "learning_rate": 1.3607594936708862e-06
+      },
+      "created_at": "2026-10-06T21:53:29.762126+00:00"
+    },
+    {
+      "id": 5132686,
+      "run_id": 73804,
+      "data": {
+        "step": 310,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006168638356029987,
+        "sft_loss": 0.1885501742362976
+      },
+      "created_at": "2026-10-06T21:53:29.817618+00:00"
+    },
+    {
+      "id": 5132687,
+      "run_id": 73804,
+      "data": {
+        "step": 310,
+        "epoch": 0.8819345661450925,
+        "eval_loss": 1.4530102014541626
+      },
+      "created_at": "2026-10-06T21:54:25.900677+00:00"
+    },
+    {
+      "id": 5132688,
+      "run_id": 73804,
+      "data": {
+        "step": 311,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005166654009371996,
+        "sft_loss": 0.22421663999557495
+      },
+      "created_at": "2026-10-06T21:54:31.296655+00:00"
+    },
+    {
+      "id": 5132689,
+      "run_id": 73804,
+      "data": {
+        "step": 312,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007989629171788692,
+        "sft_loss": 0.2620917558670044
+      },
+      "created_at": "2026-10-06T21:54:36.562253+00:00"
+    },
+    {
+      "id": 5132690,
+      "run_id": 73804,
+      "data": {
+        "step": 313,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005674692336469889,
+        "sft_loss": 0.14905501902103424
+      },
+      "created_at": "2026-10-06T21:54:41.784838+00:00"
+    },
+    {
+      "id": 5132691,
+      "run_id": 73804,
+      "data": {
+        "step": 314,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005178671795874834,
+        "sft_loss": 0.17205041646957397
+      },
+      "created_at": "2026-10-06T21:54:47.169511+00:00"
+    },
+    {
+      "id": 5132692,
+      "run_id": 73804,
+      "data": {
+        "step": 315,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006297619082033634,
+        "sft_loss": 0.1521727740764618
+      },
+      "created_at": "2026-10-06T21:54:52.451948+00:00"
+    },
+    {
+      "id": 5132693,
+      "run_id": 73804,
+      "data": {
+        "step": 316,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.014330280013382435,
+        "sft_loss": 0.1927463561296463
+      },
+      "created_at": "2026-10-06T21:54:57.647957+00:00"
+    },
+    {
+      "id": 5132694,
+      "run_id": 73804,
+      "data": {
+        "step": 317,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0032141401898115873,
+        "sft_loss": 0.2736305296421051
+      },
+      "created_at": "2026-10-06T21:55:02.957582+00:00"
+    },
+    {
+      "id": 5132695,
+      "run_id": 73804,
+      "data": {
+        "step": 318,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0033687485847622156,
+        "sft_loss": 0.21176552772521973
+      },
+      "created_at": "2026-10-06T21:55:08.150945+00:00"
+    },
+    {
+      "id": 5132696,
+      "run_id": 73804,
+      "data": {
+        "step": 319,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006460610777139664,
+        "sft_loss": 0.1535940319299698
+      },
+      "created_at": "2026-10-06T21:55:13.435536+00:00"
+    },
+    {
+      "id": 5132697,
+      "run_id": 73804,
+      "data": {
+        "step": 320,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:55:18.655203+00:00"
+    },
+    {
+      "id": 5132698,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4693537950515747,
+        "step": 320,
+        "epoch": 0.9103840682788051,
+        "grad_norm": 2.83351993560791,
+        "learning_rate": 1.0443037974683546e-06
+      },
+      "created_at": "2026-10-06T21:55:18.760258+00:00"
+    },
+    {
+      "id": 5132699,
+      "run_id": 73804,
+      "data": {
+        "step": 320,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004681514110416174,
+        "sft_loss": 0.17076405882835388
+      },
+      "created_at": "2026-10-06T21:55:18.829186+00:00"
+    },
+    {
+      "id": 5132700,
+      "run_id": 73804,
+      "data": {
+        "step": 320,
+        "epoch": 0.9103840682788051,
+        "eval_loss": 1.4522981643676758
+      },
+      "created_at": "2026-10-06T21:56:11.459138+00:00"
+    },
+    {
+      "id": 5132701,
+      "run_id": 73804,
+      "data": {
+        "step": 321,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00505338329821825,
+        "sft_loss": 0.1663493514060974
+      },
+      "created_at": "2026-10-06T21:56:16.998543+00:00"
+    },
+    {
+      "id": 5132702,
+      "run_id": 73804,
+      "data": {
+        "step": 322,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0041511147283017635,
+        "sft_loss": 0.18049795925617218
+      },
+      "created_at": "2026-10-06T21:56:22.501592+00:00"
+    },
+    {
+      "id": 5132703,
+      "run_id": 73804,
+      "data": {
+        "step": 323,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0031809809152036905,
+        "sft_loss": 0.1587994396686554
+      },
+      "created_at": "2026-10-06T21:56:27.855886+00:00"
+    },
+    {
+      "id": 5132704,
+      "run_id": 73804,
+      "data": {
+        "step": 324,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009594139643013477,
+        "sft_loss": 0.12570807337760925
+      },
+      "created_at": "2026-10-06T21:56:33.20063+00:00"
+    },
+    {
+      "id": 5132705,
+      "run_id": 73804,
+      "data": {
+        "step": 325,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.010843098163604736,
+        "sft_loss": 0.146692156791687
+      },
+      "created_at": "2026-10-06T21:56:38.576592+00:00"
+    },
+    {
+      "id": 5132706,
+      "run_id": 73804,
+      "data": {
+        "step": 326,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.011208426207304,
+        "sft_loss": 0.1487995684146881
+      },
+      "created_at": "2026-10-06T21:56:44.023697+00:00"
+    },
+    {
+      "id": 5132707,
+      "run_id": 73804,
+      "data": {
+        "step": 327,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005172678269445896,
+        "sft_loss": 0.22464682161808014
+      },
+      "created_at": "2026-10-06T21:56:49.46697+00:00"
+    },
+    {
+      "id": 5132708,
+      "run_id": 73804,
+      "data": {
+        "step": 328,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0030563906766474247,
+        "sft_loss": 0.21260099112987518
+      },
+      "created_at": "2026-10-06T21:56:54.83961+00:00"
+    },
+    {
+      "id": 5132709,
+      "run_id": 73804,
+      "data": {
+        "step": 329,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005985700525343418,
+        "sft_loss": 0.21529434621334076
+      },
+      "created_at": "2026-10-06T21:57:00.233902+00:00"
+    },
+    {
+      "id": 5132710,
+      "run_id": 73804,
+      "data": {
+        "step": 330,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:57:05.630495+00:00"
+    },
+    {
+      "id": 5132711,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4479600191116333,
+        "step": 330,
+        "epoch": 0.9388335704125178,
+        "grad_norm": 2.7294974327087402,
+        "learning_rate": 7.278481012658228e-07
+      },
+      "created_at": "2026-10-06T21:57:05.816833+00:00"
+    },
+    {
+      "id": 5132712,
+      "run_id": 73804,
+      "data": {
+        "step": 330,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003850757610052824,
+        "sft_loss": 0.17648087441921234
+      },
+      "created_at": "2026-10-06T21:57:05.873419+00:00"
+    },
+    {
+      "id": 5132713,
+      "run_id": 73804,
+      "data": {
+        "step": 330,
+        "epoch": 0.9388335704125178,
+        "eval_loss": 1.4519785642623901
+      },
+      "created_at": "2026-10-06T21:57:59.865719+00:00"
+    },
+    {
+      "id": 5132714,
+      "run_id": 73804,
+      "data": {
+        "step": 331,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003484430257230997,
+        "sft_loss": 0.13427986204624176
+      },
+      "created_at": "2026-10-06T21:58:05.291102+00:00"
+    },
+    {
+      "id": 5132715,
+      "run_id": 73804,
+      "data": {
+        "step": 332,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003523827763274312,
+        "sft_loss": 0.21415144205093384
+      },
+      "created_at": "2026-10-06T21:58:10.732916+00:00"
+    },
+    {
+      "id": 5132716,
+      "run_id": 73804,
+      "data": {
+        "step": 333,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.011557674035429955,
+        "sft_loss": 0.19109845161437988
+      },
+      "created_at": "2026-10-06T21:58:16.073679+00:00"
+    },
+    {
+      "id": 5132717,
+      "run_id": 73804,
+      "data": {
+        "step": 334,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003359656548127532,
+        "sft_loss": 0.1527911126613617
+      },
+      "created_at": "2026-10-06T21:58:21.468576+00:00"
+    },
+    {
+      "id": 5132718,
+      "run_id": 73804,
+      "data": {
+        "step": 335,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003807713044807315,
+        "sft_loss": 0.19607451558113098
+      },
+      "created_at": "2026-10-06T21:58:26.854518+00:00"
+    },
+    {
+      "id": 5132719,
+      "run_id": 73804,
+      "data": {
+        "step": 336,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.012792273424565792,
+        "sft_loss": 0.1530027687549591
+      },
+      "created_at": "2026-10-06T21:58:32.192738+00:00"
+    },
+    {
+      "id": 5132720,
+      "run_id": 73804,
+      "data": {
+        "step": 337,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00808653049170971,
+        "sft_loss": 0.14701755344867706
+      },
+      "created_at": "2026-10-06T21:58:37.523543+00:00"
+    },
+    {
+      "id": 5132721,
+      "run_id": 73804,
+      "data": {
+        "step": 338,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0036627117078751326,
+        "sft_loss": 0.13964353501796722
+      },
+      "created_at": "2026-10-06T21:58:42.942107+00:00"
+    },
+    {
+      "id": 5132722,
+      "run_id": 73804,
+      "data": {
+        "step": 339,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00622172886505723,
+        "sft_loss": 0.19427698850631714
+      },
+      "created_at": "2026-10-06T21:58:48.335698+00:00"
+    },
+    {
+      "id": 5132723,
+      "run_id": 73804,
+      "data": {
+        "step": 340,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T21:58:53.760139+00:00"
+    },
+    {
+      "id": 5132724,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.4548120498657227,
+        "step": 340,
+        "epoch": 0.9672830725462305,
+        "grad_norm": 3.0557355880737305,
+        "learning_rate": 4.1139240506329117e-07
+      },
+      "created_at": "2026-10-06T21:58:53.87033+00:00"
+    },
+    {
+      "id": 5132725,
+      "run_id": 73804,
+      "data": {
+        "step": 340,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0029643396846950054,
+        "sft_loss": 0.13643759489059448
+      },
+      "created_at": "2026-10-06T21:58:53.930971+00:00"
+    },
+    {
+      "id": 5132726,
+      "run_id": 73804,
+      "data": {
+        "step": 340,
+        "epoch": 0.9672830725462305,
+        "eval_loss": 1.4518588781356812
+      },
+      "created_at": "2026-10-06T21:59:52.232307+00:00"
+    },
+    {
+      "id": 5132727,
+      "run_id": 73804,
+      "data": {
+        "step": 341,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003465931862592697,
+        "sft_loss": 0.21234479546546936
+      },
+      "created_at": "2026-10-06T21:59:58.207751+00:00"
+    },
+    {
+      "id": 5132728,
+      "run_id": 73804,
+      "data": {
+        "step": 342,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0026922961696982384,
+        "sft_loss": 0.2565176486968994
+      },
+      "created_at": "2026-10-06T22:00:04.151015+00:00"
+    },
+    {
+      "id": 5132729,
+      "run_id": 73804,
+      "data": {
+        "step": 343,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0077443793416023254,
+        "sft_loss": 0.09627602994441986
+      },
+      "created_at": "2026-10-06T22:00:09.65384+00:00"
+    },
+    {
+      "id": 5132730,
+      "run_id": 73804,
+      "data": {
+        "step": 344,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00953401904553175,
+        "sft_loss": 0.14054563641548157
+      },
+      "created_at": "2026-10-06T22:00:15.254062+00:00"
+    },
+    {
+      "id": 5132731,
+      "run_id": 73804,
+      "data": {
+        "step": 345,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004695778712630272,
+        "sft_loss": 0.178649440407753
+      },
+      "created_at": "2026-10-06T22:00:20.853628+00:00"
+    },
+    {
+      "id": 5132732,
+      "run_id": 73804,
+      "data": {
+        "step": 346,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005671126302331686,
+        "sft_loss": 0.1455100029706955
+      },
+      "created_at": "2026-10-06T22:00:26.332848+00:00"
+    },
+    {
+      "id": 5132733,
+      "run_id": 73804,
+      "data": {
+        "step": 347,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006136592477560043,
+        "sft_loss": 0.17813484370708466
+      },
+      "created_at": "2026-10-06T22:00:31.776832+00:00"
+    },
+    {
+      "id": 5132734,
+      "run_id": 73804,
+      "data": {
+        "step": 348,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016090874560177326,
+        "sft_loss": 0.23596984148025513
+      },
+      "created_at": "2026-10-06T22:00:37.165337+00:00"
+    },
+    {
+      "id": 5132735,
+      "run_id": 73804,
+      "data": {
+        "step": 349,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0026495542842894793,
+        "sft_loss": 0.1404360979795456
+      },
+      "created_at": "2026-10-06T22:00:42.533141+00:00"
+    },
+    {
+      "id": 5132736,
+      "run_id": 73804,
+      "data": {
+        "step": 350,
+        "type": "kl_ablation_memory",
+        "peak_reserved_gib": 19.43359375,
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T22:00:47.882132+00:00"
+    },
+    {
+      "id": 5132737,
+      "run_id": 73804,
+      "data": {
+        "loss": 1.425872564315796,
+        "step": 350,
+        "epoch": 0.9957325746799431,
+        "grad_norm": 2.5555410385131836,
+        "learning_rate": 9.49367088607595e-08
+      },
+      "created_at": "2026-10-06T22:00:47.976272+00:00"
+    },
+    {
+      "id": 5132738,
+      "run_id": 73804,
+      "data": {
+        "step": 350,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006012974306941032,
+        "sft_loss": 0.15728579461574554
+      },
+      "created_at": "2026-10-06T22:00:48.033202+00:00"
+    },
+    {
+      "id": 5132739,
+      "run_id": 73804,
+      "data": {
+        "step": 350,
+        "epoch": 0.9957325746799431,
+        "eval_loss": 1.4518370628356934
+      },
+      "created_at": "2026-10-06T22:01:43.597683+00:00"
+    },
+    {
+      "id": 5132740,
+      "run_id": 73804,
+      "data": {
+        "step": 351,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.013330910354852676,
+        "sft_loss": 0.15666110813617706
+      },
+      "created_at": "2026-10-06T22:01:49.009523+00:00"
+    },
+    {
+      "id": 5132741,
+      "run_id": 73804,
+      "data": {
+        "step": 352,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003008503932505846,
+        "sft_loss": 0.29202011227607727
+      },
+      "created_at": "2026-10-06T22:01:51.743409+00:00"
+    },
+    {
+      "id": 5132742,
+      "run_id": 73804,
+      "data": {
+        "step": 352,
+        "epoch": 1.0,
+        "eval_loss": 1.4519298076629639
+      },
+      "created_at": "2026-10-06T22:02:47.172691+00:00"
+    },
+    {
+      "id": 5132745,
+      "run_id": 73804,
+      "data": {
+        "step": 352,
+        "epoch": 1.0,
+        "eval_loss": 1.4519298076629639
+      },
+      "created_at": "2026-10-06T22:03:36.328351+00:00"
+    },
+    {
+      "id": 5132747,
+      "run_id": 73804,
+      "data": {
+        "type": "kl_pilot_adapter_backed_up",
+        "files": {
+          "README.md": {
+            "bytes": 5208,
+            "sha256": "e29f4782628050d53d8043c4354eace4d897511f5c2852c9c6a19ad1ff93fc64"
+          },
+          "tokenizer.json": {
+            "bytes": 11423213,
+            "sha256": "ca634ec776663caaaca2f9f3342b06ce2bf925ef5575f9593db32f9b5988ac93"
+          },
+          "adapter_config.json": {
+            "bytes": 1269,
+            "sha256": "354faa56b52f45ff04e4ab3fad626ed04adf6bb4d5e0cc5fb11cd4af750e796c"
+          },
+          "chat_template.jinja": {
+            "bytes": 4761,
+            "sha256": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab"
+          },
+          "tokenizer_config.json": {
+            "bytes": 374,
+            "sha256": "c239a38a57335882f6d987e52b3b5918e5da0ac28fdce46098ed04442a32043f"
+          },
+          "adapter_model.safetensors": {
+            "bytes": 174656040,
+            "sha256": "9f5132046795a1d22c6058f3662f8ff077127af3905eea1fd781ac541f59cb32"
+          }
+        },
+        "revision": "3c2139a321f25e929bc3c7fd6c9d12308d6d2bc2",
+        "subfolder": "adapter",
+        "output_repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-rejected-20261005-seed1",
+        "base_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb"
+      },
+      "created_at": "2026-10-06T22:03:41.103266+00:00"
+    },
+    {
+      "id": 5132749,
+      "run_id": 73804,
+      "data": {
+        "type": "kl_ablation_finished",
+        "complete": true,
+        "output_repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-rejected-20261005-seed1",
+        "adapter_sha256": "9f5132046795a1d22c6058f3662f8ff077127af3905eea1fd781ac541f59cb32",
+        "elapsed_seconds": 3904.225119925919,
+        "output_revision": "3c2139a321f25e929bc3c7fd6c9d12308d6d2bc2",
+        "adapter_subfolder": "adapter",
+        "peak_allocated_gib": 18.907792568206787
+      },
+      "created_at": "2026-10-06T22:03:41.309546+00:00"
+    }
+  ],
+  "checked_at_unix": 1791346680.826612
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "result/supplemental/kl_self_distillation_20261007/eval/judge_luna/scores.jsonl.gz",
+    "sha256": "d19f0bf296759965b4b0c174d605f45fe674117687b46698510e2c105ae82565",
+    "bytes": 72695
+  },
+  {
+    "path": "result/supplemental/kl_self_distillation_20261007/eval/judge_luna/requests.jsonl.gz",
+    "sha256": "9987e0dd0715c19bbd819ba90b745ad6534ddeb8068095ea582329bfa328ce05",
+    "bytes": 764000
+  },
+  {
+    "path": "result/supplemental/kl_self_distillation_20261007/eval/judge_luna/events.jsonl.gz",
+    "sha256": "fb9c9cdcc94f4fe81629436c5a00fc5293751c5e49cb1a5140ffa1b11be023df",
+    "bytes": 6190506
+  }
+]

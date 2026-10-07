@@ -1,0 +1,3808 @@
+{
+  "verified": true,
+  "request_count": 760,
+  "all_prompt_ids_identical": true,
+  "all_within_context": true,
+  "checks": [
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0000_sample_0000",
+      "prompt_tokens": 46,
+      "prompt_ids_sha256": "078dc3ff5eaeeefb8c473c947ca342dce455fbd300baeda5024797f38c1b3fd8"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0000_sample_0001",
+      "prompt_tokens": 46,
+      "prompt_ids_sha256": "078dc3ff5eaeeefb8c473c947ca342dce455fbd300baeda5024797f38c1b3fd8"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0000_sample_0002",
+      "prompt_tokens": 46,
+      "prompt_ids_sha256": "078dc3ff5eaeeefb8c473c947ca342dce455fbd300baeda5024797f38c1b3fd8"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0000_sample_0003",
+      "prompt_tokens": 46,
+      "prompt_ids_sha256": "078dc3ff5eaeeefb8c473c947ca342dce455fbd300baeda5024797f38c1b3fd8"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0000_sample_0004",
+      "prompt_tokens": 46,
+      "prompt_ids_sha256": "078dc3ff5eaeeefb8c473c947ca342dce455fbd300baeda5024797f38c1b3fd8"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0000_sample_0005",
+      "prompt_tokens": 46,
+      "prompt_ids_sha256": "078dc3ff5eaeeefb8c473c947ca342dce455fbd300baeda5024797f38c1b3fd8"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0000_sample_0006",
+      "prompt_tokens": 46,
+      "prompt_ids_sha256": "078dc3ff5eaeeefb8c473c947ca342dce455fbd300baeda5024797f38c1b3fd8"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0000_sample_0007",
+      "prompt_tokens": 46,
+      "prompt_ids_sha256": "078dc3ff5eaeeefb8c473c947ca342dce455fbd300baeda5024797f38c1b3fd8"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0000_sample_0008",
+      "prompt_tokens": 46,
+      "prompt_ids_sha256": "078dc3ff5eaeeefb8c473c947ca342dce455fbd300baeda5024797f38c1b3fd8"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0000_sample_0009",
+      "prompt_tokens": 46,
+      "prompt_ids_sha256": "078dc3ff5eaeeefb8c473c947ca342dce455fbd300baeda5024797f38c1b3fd8"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0001_sample_0000",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "28acb5edec0e8ee8818018ec6a59ba0e8ebb85778cc277e902eb3d15a2ba3cdd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0001_sample_0001",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "28acb5edec0e8ee8818018ec6a59ba0e8ebb85778cc277e902eb3d15a2ba3cdd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0001_sample_0002",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "28acb5edec0e8ee8818018ec6a59ba0e8ebb85778cc277e902eb3d15a2ba3cdd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0001_sample_0003",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "28acb5edec0e8ee8818018ec6a59ba0e8ebb85778cc277e902eb3d15a2ba3cdd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0001_sample_0004",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "28acb5edec0e8ee8818018ec6a59ba0e8ebb85778cc277e902eb3d15a2ba3cdd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0001_sample_0005",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "28acb5edec0e8ee8818018ec6a59ba0e8ebb85778cc277e902eb3d15a2ba3cdd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0001_sample_0006",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "28acb5edec0e8ee8818018ec6a59ba0e8ebb85778cc277e902eb3d15a2ba3cdd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0001_sample_0007",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "28acb5edec0e8ee8818018ec6a59ba0e8ebb85778cc277e902eb3d15a2ba3cdd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0001_sample_0008",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "28acb5edec0e8ee8818018ec6a59ba0e8ebb85778cc277e902eb3d15a2ba3cdd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0001_sample_0009",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "28acb5edec0e8ee8818018ec6a59ba0e8ebb85778cc277e902eb3d15a2ba3cdd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0002_sample_0000",
+      "prompt_tokens": 49,
+      "prompt_ids_sha256": "addea9f21dc608fbdd34dc8965e2bbbde8106c98b3de0d23b4a7e32bcfaecffb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0002_sample_0001",
+      "prompt_tokens": 49,
+      "prompt_ids_sha256": "addea9f21dc608fbdd34dc8965e2bbbde8106c98b3de0d23b4a7e32bcfaecffb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0002_sample_0002",
+      "prompt_tokens": 49,
+      "prompt_ids_sha256": "addea9f21dc608fbdd34dc8965e2bbbde8106c98b3de0d23b4a7e32bcfaecffb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0002_sample_0003",
+      "prompt_tokens": 49,
+      "prompt_ids_sha256": "addea9f21dc608fbdd34dc8965e2bbbde8106c98b3de0d23b4a7e32bcfaecffb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0002_sample_0004",
+      "prompt_tokens": 49,
+      "prompt_ids_sha256": "addea9f21dc608fbdd34dc8965e2bbbde8106c98b3de0d23b4a7e32bcfaecffb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0002_sample_0005",
+      "prompt_tokens": 49,
+      "prompt_ids_sha256": "addea9f21dc608fbdd34dc8965e2bbbde8106c98b3de0d23b4a7e32bcfaecffb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0002_sample_0006",
+      "prompt_tokens": 49,
+      "prompt_ids_sha256": "addea9f21dc608fbdd34dc8965e2bbbde8106c98b3de0d23b4a7e32bcfaecffb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0002_sample_0007",
+      "prompt_tokens": 49,
+      "prompt_ids_sha256": "addea9f21dc608fbdd34dc8965e2bbbde8106c98b3de0d23b4a7e32bcfaecffb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0002_sample_0008",
+      "prompt_tokens": 49,
+      "prompt_ids_sha256": "addea9f21dc608fbdd34dc8965e2bbbde8106c98b3de0d23b4a7e32bcfaecffb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0002_sample_0009",
+      "prompt_tokens": 49,
+      "prompt_ids_sha256": "addea9f21dc608fbdd34dc8965e2bbbde8106c98b3de0d23b4a7e32bcfaecffb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0003_sample_0000",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "d86b4cc61c5bcc5215523fd13697b8dbee49952534426b1d73b0fec445524abb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0003_sample_0001",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "d86b4cc61c5bcc5215523fd13697b8dbee49952534426b1d73b0fec445524abb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0003_sample_0002",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "d86b4cc61c5bcc5215523fd13697b8dbee49952534426b1d73b0fec445524abb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0003_sample_0003",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "d86b4cc61c5bcc5215523fd13697b8dbee49952534426b1d73b0fec445524abb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0003_sample_0004",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "d86b4cc61c5bcc5215523fd13697b8dbee49952534426b1d73b0fec445524abb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0003_sample_0005",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "d86b4cc61c5bcc5215523fd13697b8dbee49952534426b1d73b0fec445524abb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0003_sample_0006",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "d86b4cc61c5bcc5215523fd13697b8dbee49952534426b1d73b0fec445524abb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0003_sample_0007",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "d86b4cc61c5bcc5215523fd13697b8dbee49952534426b1d73b0fec445524abb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0003_sample_0008",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "d86b4cc61c5bcc5215523fd13697b8dbee49952534426b1d73b0fec445524abb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0003_sample_0009",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "d86b4cc61c5bcc5215523fd13697b8dbee49952534426b1d73b0fec445524abb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0004_sample_0000",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "aa3b52f1b1c06eb20f75db7122a1738ab70628f1fd97feea97cff364f092a542"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0004_sample_0001",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "aa3b52f1b1c06eb20f75db7122a1738ab70628f1fd97feea97cff364f092a542"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0004_sample_0002",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "aa3b52f1b1c06eb20f75db7122a1738ab70628f1fd97feea97cff364f092a542"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0004_sample_0003",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "aa3b52f1b1c06eb20f75db7122a1738ab70628f1fd97feea97cff364f092a542"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0004_sample_0004",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "aa3b52f1b1c06eb20f75db7122a1738ab70628f1fd97feea97cff364f092a542"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0004_sample_0005",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "aa3b52f1b1c06eb20f75db7122a1738ab70628f1fd97feea97cff364f092a542"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0004_sample_0006",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "aa3b52f1b1c06eb20f75db7122a1738ab70628f1fd97feea97cff364f092a542"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0004_sample_0007",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "aa3b52f1b1c06eb20f75db7122a1738ab70628f1fd97feea97cff364f092a542"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0004_sample_0008",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "aa3b52f1b1c06eb20f75db7122a1738ab70628f1fd97feea97cff364f092a542"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0004_sample_0009",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "aa3b52f1b1c06eb20f75db7122a1738ab70628f1fd97feea97cff364f092a542"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0005_sample_0000",
+      "prompt_tokens": 54,
+      "prompt_ids_sha256": "067cf585f731422afbf58e6df38ae5bb6080a625f7bc89f1530643f74d70ae6c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0005_sample_0001",
+      "prompt_tokens": 54,
+      "prompt_ids_sha256": "067cf585f731422afbf58e6df38ae5bb6080a625f7bc89f1530643f74d70ae6c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0005_sample_0002",
+      "prompt_tokens": 54,
+      "prompt_ids_sha256": "067cf585f731422afbf58e6df38ae5bb6080a625f7bc89f1530643f74d70ae6c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0005_sample_0003",
+      "prompt_tokens": 54,
+      "prompt_ids_sha256": "067cf585f731422afbf58e6df38ae5bb6080a625f7bc89f1530643f74d70ae6c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0005_sample_0004",
+      "prompt_tokens": 54,
+      "prompt_ids_sha256": "067cf585f731422afbf58e6df38ae5bb6080a625f7bc89f1530643f74d70ae6c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0005_sample_0005",
+      "prompt_tokens": 54,
+      "prompt_ids_sha256": "067cf585f731422afbf58e6df38ae5bb6080a625f7bc89f1530643f74d70ae6c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0005_sample_0006",
+      "prompt_tokens": 54,
+      "prompt_ids_sha256": "067cf585f731422afbf58e6df38ae5bb6080a625f7bc89f1530643f74d70ae6c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0005_sample_0007",
+      "prompt_tokens": 54,
+      "prompt_ids_sha256": "067cf585f731422afbf58e6df38ae5bb6080a625f7bc89f1530643f74d70ae6c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0005_sample_0008",
+      "prompt_tokens": 54,
+      "prompt_ids_sha256": "067cf585f731422afbf58e6df38ae5bb6080a625f7bc89f1530643f74d70ae6c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0005_sample_0009",
+      "prompt_tokens": 54,
+      "prompt_ids_sha256": "067cf585f731422afbf58e6df38ae5bb6080a625f7bc89f1530643f74d70ae6c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0006_sample_0000",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "2a580314bfba5a3c1ae0be75692dc75fad2015eb9f7ccbea77e10c6c550b9242"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0006_sample_0001",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "2a580314bfba5a3c1ae0be75692dc75fad2015eb9f7ccbea77e10c6c550b9242"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0006_sample_0002",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "2a580314bfba5a3c1ae0be75692dc75fad2015eb9f7ccbea77e10c6c550b9242"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0006_sample_0003",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "2a580314bfba5a3c1ae0be75692dc75fad2015eb9f7ccbea77e10c6c550b9242"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0006_sample_0004",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "2a580314bfba5a3c1ae0be75692dc75fad2015eb9f7ccbea77e10c6c550b9242"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0006_sample_0005",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "2a580314bfba5a3c1ae0be75692dc75fad2015eb9f7ccbea77e10c6c550b9242"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0006_sample_0006",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "2a580314bfba5a3c1ae0be75692dc75fad2015eb9f7ccbea77e10c6c550b9242"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0006_sample_0007",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "2a580314bfba5a3c1ae0be75692dc75fad2015eb9f7ccbea77e10c6c550b9242"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0006_sample_0008",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "2a580314bfba5a3c1ae0be75692dc75fad2015eb9f7ccbea77e10c6c550b9242"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0006_sample_0009",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "2a580314bfba5a3c1ae0be75692dc75fad2015eb9f7ccbea77e10c6c550b9242"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0007_sample_0000",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "6a77b4527ac9e0c9fa6bc9b15d1cf9c32461af73e98a8fe489a4cb40cebb1aa2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0007_sample_0001",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "6a77b4527ac9e0c9fa6bc9b15d1cf9c32461af73e98a8fe489a4cb40cebb1aa2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0007_sample_0002",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "6a77b4527ac9e0c9fa6bc9b15d1cf9c32461af73e98a8fe489a4cb40cebb1aa2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0007_sample_0003",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "6a77b4527ac9e0c9fa6bc9b15d1cf9c32461af73e98a8fe489a4cb40cebb1aa2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0007_sample_0004",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "6a77b4527ac9e0c9fa6bc9b15d1cf9c32461af73e98a8fe489a4cb40cebb1aa2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0007_sample_0005",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "6a77b4527ac9e0c9fa6bc9b15d1cf9c32461af73e98a8fe489a4cb40cebb1aa2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0007_sample_0006",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "6a77b4527ac9e0c9fa6bc9b15d1cf9c32461af73e98a8fe489a4cb40cebb1aa2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0007_sample_0007",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "6a77b4527ac9e0c9fa6bc9b15d1cf9c32461af73e98a8fe489a4cb40cebb1aa2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0007_sample_0008",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "6a77b4527ac9e0c9fa6bc9b15d1cf9c32461af73e98a8fe489a4cb40cebb1aa2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0007_sample_0009",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "6a77b4527ac9e0c9fa6bc9b15d1cf9c32461af73e98a8fe489a4cb40cebb1aa2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0008_sample_0000",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "4833db3f08d13ae33016bc4dc4b029602f7c4affb5e528d2da93c570496b0f62"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0008_sample_0001",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "4833db3f08d13ae33016bc4dc4b029602f7c4affb5e528d2da93c570496b0f62"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0008_sample_0002",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "4833db3f08d13ae33016bc4dc4b029602f7c4affb5e528d2da93c570496b0f62"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0008_sample_0003",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "4833db3f08d13ae33016bc4dc4b029602f7c4affb5e528d2da93c570496b0f62"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0008_sample_0004",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "4833db3f08d13ae33016bc4dc4b029602f7c4affb5e528d2da93c570496b0f62"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0008_sample_0005",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "4833db3f08d13ae33016bc4dc4b029602f7c4affb5e528d2da93c570496b0f62"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0008_sample_0006",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "4833db3f08d13ae33016bc4dc4b029602f7c4affb5e528d2da93c570496b0f62"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0008_sample_0007",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "4833db3f08d13ae33016bc4dc4b029602f7c4affb5e528d2da93c570496b0f62"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0008_sample_0008",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "4833db3f08d13ae33016bc4dc4b029602f7c4affb5e528d2da93c570496b0f62"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0008_sample_0009",
+      "prompt_tokens": 53,
+      "prompt_ids_sha256": "4833db3f08d13ae33016bc4dc4b029602f7c4affb5e528d2da93c570496b0f62"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0009_sample_0000",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "712cee87d264a733097d735ca8d49b238307f44da58de23166d4c979a5d5d21c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0009_sample_0001",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "712cee87d264a733097d735ca8d49b238307f44da58de23166d4c979a5d5d21c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0009_sample_0002",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "712cee87d264a733097d735ca8d49b238307f44da58de23166d4c979a5d5d21c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0009_sample_0003",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "712cee87d264a733097d735ca8d49b238307f44da58de23166d4c979a5d5d21c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0009_sample_0004",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "712cee87d264a733097d735ca8d49b238307f44da58de23166d4c979a5d5d21c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0009_sample_0005",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "712cee87d264a733097d735ca8d49b238307f44da58de23166d4c979a5d5d21c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0009_sample_0006",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "712cee87d264a733097d735ca8d49b238307f44da58de23166d4c979a5d5d21c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0009_sample_0007",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "712cee87d264a733097d735ca8d49b238307f44da58de23166d4c979a5d5d21c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0009_sample_0008",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "712cee87d264a733097d735ca8d49b238307f44da58de23166d4c979a5d5d21c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0009_sample_0009",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "712cee87d264a733097d735ca8d49b238307f44da58de23166d4c979a5d5d21c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0010_sample_0000",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "7bb0023a2c9af2d6b8724f7f31d87372ffadef7dfbe3963d85ad8e7fefc3d63c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0010_sample_0001",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "7bb0023a2c9af2d6b8724f7f31d87372ffadef7dfbe3963d85ad8e7fefc3d63c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0010_sample_0002",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "7bb0023a2c9af2d6b8724f7f31d87372ffadef7dfbe3963d85ad8e7fefc3d63c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0010_sample_0003",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "7bb0023a2c9af2d6b8724f7f31d87372ffadef7dfbe3963d85ad8e7fefc3d63c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0010_sample_0004",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "7bb0023a2c9af2d6b8724f7f31d87372ffadef7dfbe3963d85ad8e7fefc3d63c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0010_sample_0005",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "7bb0023a2c9af2d6b8724f7f31d87372ffadef7dfbe3963d85ad8e7fefc3d63c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0010_sample_0006",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "7bb0023a2c9af2d6b8724f7f31d87372ffadef7dfbe3963d85ad8e7fefc3d63c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0010_sample_0007",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "7bb0023a2c9af2d6b8724f7f31d87372ffadef7dfbe3963d85ad8e7fefc3d63c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0010_sample_0008",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "7bb0023a2c9af2d6b8724f7f31d87372ffadef7dfbe3963d85ad8e7fefc3d63c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0010_sample_0009",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "7bb0023a2c9af2d6b8724f7f31d87372ffadef7dfbe3963d85ad8e7fefc3d63c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0011_sample_0000",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "d1bc9a64f5c57123865a794d33929a06ec986aa089906c18d32c5f50af0989be"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0011_sample_0001",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "d1bc9a64f5c57123865a794d33929a06ec986aa089906c18d32c5f50af0989be"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0011_sample_0002",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "d1bc9a64f5c57123865a794d33929a06ec986aa089906c18d32c5f50af0989be"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0011_sample_0003",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "d1bc9a64f5c57123865a794d33929a06ec986aa089906c18d32c5f50af0989be"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0011_sample_0004",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "d1bc9a64f5c57123865a794d33929a06ec986aa089906c18d32c5f50af0989be"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0011_sample_0005",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "d1bc9a64f5c57123865a794d33929a06ec986aa089906c18d32c5f50af0989be"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0011_sample_0006",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "d1bc9a64f5c57123865a794d33929a06ec986aa089906c18d32c5f50af0989be"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0011_sample_0007",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "d1bc9a64f5c57123865a794d33929a06ec986aa089906c18d32c5f50af0989be"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0011_sample_0008",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "d1bc9a64f5c57123865a794d33929a06ec986aa089906c18d32c5f50af0989be"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0011_sample_0009",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "d1bc9a64f5c57123865a794d33929a06ec986aa089906c18d32c5f50af0989be"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0012_sample_0000",
+      "prompt_tokens": 44,
+      "prompt_ids_sha256": "50397257211c7213649986786145481f40ba5232ae148ef38487e5ee97bbd54a"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0012_sample_0001",
+      "prompt_tokens": 44,
+      "prompt_ids_sha256": "50397257211c7213649986786145481f40ba5232ae148ef38487e5ee97bbd54a"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0012_sample_0002",
+      "prompt_tokens": 44,
+      "prompt_ids_sha256": "50397257211c7213649986786145481f40ba5232ae148ef38487e5ee97bbd54a"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0012_sample_0003",
+      "prompt_tokens": 44,
+      "prompt_ids_sha256": "50397257211c7213649986786145481f40ba5232ae148ef38487e5ee97bbd54a"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0012_sample_0004",
+      "prompt_tokens": 44,
+      "prompt_ids_sha256": "50397257211c7213649986786145481f40ba5232ae148ef38487e5ee97bbd54a"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0012_sample_0005",
+      "prompt_tokens": 44,
+      "prompt_ids_sha256": "50397257211c7213649986786145481f40ba5232ae148ef38487e5ee97bbd54a"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0012_sample_0006",
+      "prompt_tokens": 44,
+      "prompt_ids_sha256": "50397257211c7213649986786145481f40ba5232ae148ef38487e5ee97bbd54a"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0012_sample_0007",
+      "prompt_tokens": 44,
+      "prompt_ids_sha256": "50397257211c7213649986786145481f40ba5232ae148ef38487e5ee97bbd54a"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0012_sample_0008",
+      "prompt_tokens": 44,
+      "prompt_ids_sha256": "50397257211c7213649986786145481f40ba5232ae148ef38487e5ee97bbd54a"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0012_sample_0009",
+      "prompt_tokens": 44,
+      "prompt_ids_sha256": "50397257211c7213649986786145481f40ba5232ae148ef38487e5ee97bbd54a"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0013_sample_0000",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "8ce00806c43abfc87fc318d7a0ba28c2377093b30c649bc5de668683d79fab54"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0013_sample_0001",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "8ce00806c43abfc87fc318d7a0ba28c2377093b30c649bc5de668683d79fab54"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0013_sample_0002",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "8ce00806c43abfc87fc318d7a0ba28c2377093b30c649bc5de668683d79fab54"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0013_sample_0003",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "8ce00806c43abfc87fc318d7a0ba28c2377093b30c649bc5de668683d79fab54"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0013_sample_0004",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "8ce00806c43abfc87fc318d7a0ba28c2377093b30c649bc5de668683d79fab54"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0013_sample_0005",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "8ce00806c43abfc87fc318d7a0ba28c2377093b30c649bc5de668683d79fab54"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0013_sample_0006",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "8ce00806c43abfc87fc318d7a0ba28c2377093b30c649bc5de668683d79fab54"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0013_sample_0007",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "8ce00806c43abfc87fc318d7a0ba28c2377093b30c649bc5de668683d79fab54"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0013_sample_0008",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "8ce00806c43abfc87fc318d7a0ba28c2377093b30c649bc5de668683d79fab54"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0013_sample_0009",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "8ce00806c43abfc87fc318d7a0ba28c2377093b30c649bc5de668683d79fab54"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0014_sample_0000",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "ddfcba7f273db3e9625aee93f8dd4cdd8b6841e6a070a442401a794efc953f28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0014_sample_0001",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "ddfcba7f273db3e9625aee93f8dd4cdd8b6841e6a070a442401a794efc953f28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0014_sample_0002",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "ddfcba7f273db3e9625aee93f8dd4cdd8b6841e6a070a442401a794efc953f28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0014_sample_0003",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "ddfcba7f273db3e9625aee93f8dd4cdd8b6841e6a070a442401a794efc953f28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0014_sample_0004",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "ddfcba7f273db3e9625aee93f8dd4cdd8b6841e6a070a442401a794efc953f28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0014_sample_0005",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "ddfcba7f273db3e9625aee93f8dd4cdd8b6841e6a070a442401a794efc953f28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0014_sample_0006",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "ddfcba7f273db3e9625aee93f8dd4cdd8b6841e6a070a442401a794efc953f28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0014_sample_0007",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "ddfcba7f273db3e9625aee93f8dd4cdd8b6841e6a070a442401a794efc953f28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0014_sample_0008",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "ddfcba7f273db3e9625aee93f8dd4cdd8b6841e6a070a442401a794efc953f28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0014_sample_0009",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "ddfcba7f273db3e9625aee93f8dd4cdd8b6841e6a070a442401a794efc953f28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0015_sample_0000",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "1ced300e18a986c5c0ad773c37bb24f47305bd76b821a52dafc8689128253d70"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0015_sample_0001",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "1ced300e18a986c5c0ad773c37bb24f47305bd76b821a52dafc8689128253d70"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0015_sample_0002",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "1ced300e18a986c5c0ad773c37bb24f47305bd76b821a52dafc8689128253d70"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0015_sample_0003",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "1ced300e18a986c5c0ad773c37bb24f47305bd76b821a52dafc8689128253d70"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0015_sample_0004",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "1ced300e18a986c5c0ad773c37bb24f47305bd76b821a52dafc8689128253d70"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0015_sample_0005",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "1ced300e18a986c5c0ad773c37bb24f47305bd76b821a52dafc8689128253d70"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0015_sample_0006",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "1ced300e18a986c5c0ad773c37bb24f47305bd76b821a52dafc8689128253d70"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0015_sample_0007",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "1ced300e18a986c5c0ad773c37bb24f47305bd76b821a52dafc8689128253d70"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0015_sample_0008",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "1ced300e18a986c5c0ad773c37bb24f47305bd76b821a52dafc8689128253d70"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0015_sample_0009",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "1ced300e18a986c5c0ad773c37bb24f47305bd76b821a52dafc8689128253d70"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0016_sample_0000",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "2ee0dce10d07f2c2a05252cc22fe9f9c1f6eddf7c6491a92b3f760303b376049"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0016_sample_0001",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "2ee0dce10d07f2c2a05252cc22fe9f9c1f6eddf7c6491a92b3f760303b376049"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0016_sample_0002",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "2ee0dce10d07f2c2a05252cc22fe9f9c1f6eddf7c6491a92b3f760303b376049"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0016_sample_0003",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "2ee0dce10d07f2c2a05252cc22fe9f9c1f6eddf7c6491a92b3f760303b376049"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0016_sample_0004",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "2ee0dce10d07f2c2a05252cc22fe9f9c1f6eddf7c6491a92b3f760303b376049"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0016_sample_0005",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "2ee0dce10d07f2c2a05252cc22fe9f9c1f6eddf7c6491a92b3f760303b376049"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0016_sample_0006",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "2ee0dce10d07f2c2a05252cc22fe9f9c1f6eddf7c6491a92b3f760303b376049"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0016_sample_0007",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "2ee0dce10d07f2c2a05252cc22fe9f9c1f6eddf7c6491a92b3f760303b376049"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0016_sample_0008",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "2ee0dce10d07f2c2a05252cc22fe9f9c1f6eddf7c6491a92b3f760303b376049"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0016_sample_0009",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "2ee0dce10d07f2c2a05252cc22fe9f9c1f6eddf7c6491a92b3f760303b376049"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0017_sample_0000",
+      "prompt_tokens": 62,
+      "prompt_ids_sha256": "f0bd3a3b3bde56d1d907ee438e65673e8cfa265c7116e095d3fa99d90ba067c2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0017_sample_0001",
+      "prompt_tokens": 62,
+      "prompt_ids_sha256": "f0bd3a3b3bde56d1d907ee438e65673e8cfa265c7116e095d3fa99d90ba067c2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0017_sample_0002",
+      "prompt_tokens": 62,
+      "prompt_ids_sha256": "f0bd3a3b3bde56d1d907ee438e65673e8cfa265c7116e095d3fa99d90ba067c2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0017_sample_0003",
+      "prompt_tokens": 62,
+      "prompt_ids_sha256": "f0bd3a3b3bde56d1d907ee438e65673e8cfa265c7116e095d3fa99d90ba067c2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0017_sample_0004",
+      "prompt_tokens": 62,
+      "prompt_ids_sha256": "f0bd3a3b3bde56d1d907ee438e65673e8cfa265c7116e095d3fa99d90ba067c2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0017_sample_0005",
+      "prompt_tokens": 62,
+      "prompt_ids_sha256": "f0bd3a3b3bde56d1d907ee438e65673e8cfa265c7116e095d3fa99d90ba067c2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0017_sample_0006",
+      "prompt_tokens": 62,
+      "prompt_ids_sha256": "f0bd3a3b3bde56d1d907ee438e65673e8cfa265c7116e095d3fa99d90ba067c2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0017_sample_0007",
+      "prompt_tokens": 62,
+      "prompt_ids_sha256": "f0bd3a3b3bde56d1d907ee438e65673e8cfa265c7116e095d3fa99d90ba067c2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0017_sample_0008",
+      "prompt_tokens": 62,
+      "prompt_ids_sha256": "f0bd3a3b3bde56d1d907ee438e65673e8cfa265c7116e095d3fa99d90ba067c2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0017_sample_0009",
+      "prompt_tokens": 62,
+      "prompt_ids_sha256": "f0bd3a3b3bde56d1d907ee438e65673e8cfa265c7116e095d3fa99d90ba067c2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0018_sample_0000",
+      "prompt_tokens": 61,
+      "prompt_ids_sha256": "d00288693e290ae6353ec21ac27b792bd1ea3aa9c0c18c117478cf2361680ead"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0018_sample_0001",
+      "prompt_tokens": 61,
+      "prompt_ids_sha256": "d00288693e290ae6353ec21ac27b792bd1ea3aa9c0c18c117478cf2361680ead"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0018_sample_0002",
+      "prompt_tokens": 61,
+      "prompt_ids_sha256": "d00288693e290ae6353ec21ac27b792bd1ea3aa9c0c18c117478cf2361680ead"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0018_sample_0003",
+      "prompt_tokens": 61,
+      "prompt_ids_sha256": "d00288693e290ae6353ec21ac27b792bd1ea3aa9c0c18c117478cf2361680ead"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0018_sample_0004",
+      "prompt_tokens": 61,
+      "prompt_ids_sha256": "d00288693e290ae6353ec21ac27b792bd1ea3aa9c0c18c117478cf2361680ead"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0018_sample_0005",
+      "prompt_tokens": 61,
+      "prompt_ids_sha256": "d00288693e290ae6353ec21ac27b792bd1ea3aa9c0c18c117478cf2361680ead"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0018_sample_0006",
+      "prompt_tokens": 61,
+      "prompt_ids_sha256": "d00288693e290ae6353ec21ac27b792bd1ea3aa9c0c18c117478cf2361680ead"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0018_sample_0007",
+      "prompt_tokens": 61,
+      "prompt_ids_sha256": "d00288693e290ae6353ec21ac27b792bd1ea3aa9c0c18c117478cf2361680ead"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0018_sample_0008",
+      "prompt_tokens": 61,
+      "prompt_ids_sha256": "d00288693e290ae6353ec21ac27b792bd1ea3aa9c0c18c117478cf2361680ead"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0018_sample_0009",
+      "prompt_tokens": 61,
+      "prompt_ids_sha256": "d00288693e290ae6353ec21ac27b792bd1ea3aa9c0c18c117478cf2361680ead"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0019_sample_0000",
+      "prompt_tokens": 88,
+      "prompt_ids_sha256": "77aa11807bfd883e00ed4741b0c77d2dd6c6ff0e6592835ac7c79b87270419da"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0019_sample_0001",
+      "prompt_tokens": 88,
+      "prompt_ids_sha256": "77aa11807bfd883e00ed4741b0c77d2dd6c6ff0e6592835ac7c79b87270419da"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0019_sample_0002",
+      "prompt_tokens": 88,
+      "prompt_ids_sha256": "77aa11807bfd883e00ed4741b0c77d2dd6c6ff0e6592835ac7c79b87270419da"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0019_sample_0003",
+      "prompt_tokens": 88,
+      "prompt_ids_sha256": "77aa11807bfd883e00ed4741b0c77d2dd6c6ff0e6592835ac7c79b87270419da"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0019_sample_0004",
+      "prompt_tokens": 88,
+      "prompt_ids_sha256": "77aa11807bfd883e00ed4741b0c77d2dd6c6ff0e6592835ac7c79b87270419da"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0019_sample_0005",
+      "prompt_tokens": 88,
+      "prompt_ids_sha256": "77aa11807bfd883e00ed4741b0c77d2dd6c6ff0e6592835ac7c79b87270419da"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0019_sample_0006",
+      "prompt_tokens": 88,
+      "prompt_ids_sha256": "77aa11807bfd883e00ed4741b0c77d2dd6c6ff0e6592835ac7c79b87270419da"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0019_sample_0007",
+      "prompt_tokens": 88,
+      "prompt_ids_sha256": "77aa11807bfd883e00ed4741b0c77d2dd6c6ff0e6592835ac7c79b87270419da"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0019_sample_0008",
+      "prompt_tokens": 88,
+      "prompt_ids_sha256": "77aa11807bfd883e00ed4741b0c77d2dd6c6ff0e6592835ac7c79b87270419da"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0019_sample_0009",
+      "prompt_tokens": 88,
+      "prompt_ids_sha256": "77aa11807bfd883e00ed4741b0c77d2dd6c6ff0e6592835ac7c79b87270419da"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0020_sample_0000",
+      "prompt_tokens": 39,
+      "prompt_ids_sha256": "af4cbce950f28ed78bb7e68c5273642b1935ecb66ad864a7745b15dc4c69fe13"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0020_sample_0001",
+      "prompt_tokens": 39,
+      "prompt_ids_sha256": "af4cbce950f28ed78bb7e68c5273642b1935ecb66ad864a7745b15dc4c69fe13"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0020_sample_0002",
+      "prompt_tokens": 39,
+      "prompt_ids_sha256": "af4cbce950f28ed78bb7e68c5273642b1935ecb66ad864a7745b15dc4c69fe13"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0020_sample_0003",
+      "prompt_tokens": 39,
+      "prompt_ids_sha256": "af4cbce950f28ed78bb7e68c5273642b1935ecb66ad864a7745b15dc4c69fe13"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0020_sample_0004",
+      "prompt_tokens": 39,
+      "prompt_ids_sha256": "af4cbce950f28ed78bb7e68c5273642b1935ecb66ad864a7745b15dc4c69fe13"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0020_sample_0005",
+      "prompt_tokens": 39,
+      "prompt_ids_sha256": "af4cbce950f28ed78bb7e68c5273642b1935ecb66ad864a7745b15dc4c69fe13"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0020_sample_0006",
+      "prompt_tokens": 39,
+      "prompt_ids_sha256": "af4cbce950f28ed78bb7e68c5273642b1935ecb66ad864a7745b15dc4c69fe13"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0020_sample_0007",
+      "prompt_tokens": 39,
+      "prompt_ids_sha256": "af4cbce950f28ed78bb7e68c5273642b1935ecb66ad864a7745b15dc4c69fe13"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0020_sample_0008",
+      "prompt_tokens": 39,
+      "prompt_ids_sha256": "af4cbce950f28ed78bb7e68c5273642b1935ecb66ad864a7745b15dc4c69fe13"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0020_sample_0009",
+      "prompt_tokens": 39,
+      "prompt_ids_sha256": "af4cbce950f28ed78bb7e68c5273642b1935ecb66ad864a7745b15dc4c69fe13"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0021_sample_0000",
+      "prompt_tokens": 12,
+      "prompt_ids_sha256": "3d7cae89fe978bc9cd7588999ff092107dd935ba1974397bd7e041b484920f43"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0021_sample_0001",
+      "prompt_tokens": 12,
+      "prompt_ids_sha256": "3d7cae89fe978bc9cd7588999ff092107dd935ba1974397bd7e041b484920f43"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0021_sample_0002",
+      "prompt_tokens": 12,
+      "prompt_ids_sha256": "3d7cae89fe978bc9cd7588999ff092107dd935ba1974397bd7e041b484920f43"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0021_sample_0003",
+      "prompt_tokens": 12,
+      "prompt_ids_sha256": "3d7cae89fe978bc9cd7588999ff092107dd935ba1974397bd7e041b484920f43"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0021_sample_0004",
+      "prompt_tokens": 12,
+      "prompt_ids_sha256": "3d7cae89fe978bc9cd7588999ff092107dd935ba1974397bd7e041b484920f43"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0021_sample_0005",
+      "prompt_tokens": 12,
+      "prompt_ids_sha256": "3d7cae89fe978bc9cd7588999ff092107dd935ba1974397bd7e041b484920f43"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0021_sample_0006",
+      "prompt_tokens": 12,
+      "prompt_ids_sha256": "3d7cae89fe978bc9cd7588999ff092107dd935ba1974397bd7e041b484920f43"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0021_sample_0007",
+      "prompt_tokens": 12,
+      "prompt_ids_sha256": "3d7cae89fe978bc9cd7588999ff092107dd935ba1974397bd7e041b484920f43"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0021_sample_0008",
+      "prompt_tokens": 12,
+      "prompt_ids_sha256": "3d7cae89fe978bc9cd7588999ff092107dd935ba1974397bd7e041b484920f43"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0021_sample_0009",
+      "prompt_tokens": 12,
+      "prompt_ids_sha256": "3d7cae89fe978bc9cd7588999ff092107dd935ba1974397bd7e041b484920f43"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0022_sample_0000",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "c4cacf2bef9e72544beb81609cc9ed8bb7ea6f5650ca55da1d83b3659c0f9f45"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0022_sample_0001",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "c4cacf2bef9e72544beb81609cc9ed8bb7ea6f5650ca55da1d83b3659c0f9f45"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0022_sample_0002",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "c4cacf2bef9e72544beb81609cc9ed8bb7ea6f5650ca55da1d83b3659c0f9f45"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0022_sample_0003",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "c4cacf2bef9e72544beb81609cc9ed8bb7ea6f5650ca55da1d83b3659c0f9f45"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0022_sample_0004",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "c4cacf2bef9e72544beb81609cc9ed8bb7ea6f5650ca55da1d83b3659c0f9f45"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0022_sample_0005",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "c4cacf2bef9e72544beb81609cc9ed8bb7ea6f5650ca55da1d83b3659c0f9f45"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0022_sample_0006",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "c4cacf2bef9e72544beb81609cc9ed8bb7ea6f5650ca55da1d83b3659c0f9f45"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0022_sample_0007",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "c4cacf2bef9e72544beb81609cc9ed8bb7ea6f5650ca55da1d83b3659c0f9f45"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0022_sample_0008",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "c4cacf2bef9e72544beb81609cc9ed8bb7ea6f5650ca55da1d83b3659c0f9f45"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0022_sample_0009",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "c4cacf2bef9e72544beb81609cc9ed8bb7ea6f5650ca55da1d83b3659c0f9f45"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0023_sample_0000",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "b4622effaf1a1fb9088845fb358ee8dd6198665c0e6ba696cebe372f64156df3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0023_sample_0001",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "b4622effaf1a1fb9088845fb358ee8dd6198665c0e6ba696cebe372f64156df3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0023_sample_0002",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "b4622effaf1a1fb9088845fb358ee8dd6198665c0e6ba696cebe372f64156df3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0023_sample_0003",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "b4622effaf1a1fb9088845fb358ee8dd6198665c0e6ba696cebe372f64156df3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0023_sample_0004",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "b4622effaf1a1fb9088845fb358ee8dd6198665c0e6ba696cebe372f64156df3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0023_sample_0005",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "b4622effaf1a1fb9088845fb358ee8dd6198665c0e6ba696cebe372f64156df3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0023_sample_0006",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "b4622effaf1a1fb9088845fb358ee8dd6198665c0e6ba696cebe372f64156df3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0023_sample_0007",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "b4622effaf1a1fb9088845fb358ee8dd6198665c0e6ba696cebe372f64156df3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0023_sample_0008",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "b4622effaf1a1fb9088845fb358ee8dd6198665c0e6ba696cebe372f64156df3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0023_sample_0009",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "b4622effaf1a1fb9088845fb358ee8dd6198665c0e6ba696cebe372f64156df3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0024_sample_0000",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "f8295d790cc666741c179eb2e5a8cadb2630cbd39eb7641386a832cd01116b31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0024_sample_0001",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "f8295d790cc666741c179eb2e5a8cadb2630cbd39eb7641386a832cd01116b31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0024_sample_0002",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "f8295d790cc666741c179eb2e5a8cadb2630cbd39eb7641386a832cd01116b31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0024_sample_0003",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "f8295d790cc666741c179eb2e5a8cadb2630cbd39eb7641386a832cd01116b31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0024_sample_0004",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "f8295d790cc666741c179eb2e5a8cadb2630cbd39eb7641386a832cd01116b31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0024_sample_0005",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "f8295d790cc666741c179eb2e5a8cadb2630cbd39eb7641386a832cd01116b31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0024_sample_0006",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "f8295d790cc666741c179eb2e5a8cadb2630cbd39eb7641386a832cd01116b31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0024_sample_0007",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "f8295d790cc666741c179eb2e5a8cadb2630cbd39eb7641386a832cd01116b31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0024_sample_0008",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "f8295d790cc666741c179eb2e5a8cadb2630cbd39eb7641386a832cd01116b31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0024_sample_0009",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "f8295d790cc666741c179eb2e5a8cadb2630cbd39eb7641386a832cd01116b31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0025_sample_0000",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "0ed1ac80f12e1da1594a2cdad3727f7234815bb4a4f19ee59495432bfe15497f"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0025_sample_0001",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "0ed1ac80f12e1da1594a2cdad3727f7234815bb4a4f19ee59495432bfe15497f"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0025_sample_0002",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "0ed1ac80f12e1da1594a2cdad3727f7234815bb4a4f19ee59495432bfe15497f"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0025_sample_0003",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "0ed1ac80f12e1da1594a2cdad3727f7234815bb4a4f19ee59495432bfe15497f"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0025_sample_0004",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "0ed1ac80f12e1da1594a2cdad3727f7234815bb4a4f19ee59495432bfe15497f"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0025_sample_0005",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "0ed1ac80f12e1da1594a2cdad3727f7234815bb4a4f19ee59495432bfe15497f"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0025_sample_0006",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "0ed1ac80f12e1da1594a2cdad3727f7234815bb4a4f19ee59495432bfe15497f"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0025_sample_0007",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "0ed1ac80f12e1da1594a2cdad3727f7234815bb4a4f19ee59495432bfe15497f"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0025_sample_0008",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "0ed1ac80f12e1da1594a2cdad3727f7234815bb4a4f19ee59495432bfe15497f"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0025_sample_0009",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "0ed1ac80f12e1da1594a2cdad3727f7234815bb4a4f19ee59495432bfe15497f"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0026_sample_0000",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "1006d704f24da92f760be94ca0ad93a9c01ad23bf430862fffaab03b1c85c5b6"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0026_sample_0001",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "1006d704f24da92f760be94ca0ad93a9c01ad23bf430862fffaab03b1c85c5b6"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0026_sample_0002",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "1006d704f24da92f760be94ca0ad93a9c01ad23bf430862fffaab03b1c85c5b6"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0026_sample_0003",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "1006d704f24da92f760be94ca0ad93a9c01ad23bf430862fffaab03b1c85c5b6"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0026_sample_0004",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "1006d704f24da92f760be94ca0ad93a9c01ad23bf430862fffaab03b1c85c5b6"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0026_sample_0005",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "1006d704f24da92f760be94ca0ad93a9c01ad23bf430862fffaab03b1c85c5b6"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0026_sample_0006",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "1006d704f24da92f760be94ca0ad93a9c01ad23bf430862fffaab03b1c85c5b6"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0026_sample_0007",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "1006d704f24da92f760be94ca0ad93a9c01ad23bf430862fffaab03b1c85c5b6"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0026_sample_0008",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "1006d704f24da92f760be94ca0ad93a9c01ad23bf430862fffaab03b1c85c5b6"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0026_sample_0009",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "1006d704f24da92f760be94ca0ad93a9c01ad23bf430862fffaab03b1c85c5b6"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0027_sample_0000",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "4e1858d57dbb5164f4c65d100d09a338b0c64ada30e2c4d52c21a90d391b76ff"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0027_sample_0001",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "4e1858d57dbb5164f4c65d100d09a338b0c64ada30e2c4d52c21a90d391b76ff"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0027_sample_0002",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "4e1858d57dbb5164f4c65d100d09a338b0c64ada30e2c4d52c21a90d391b76ff"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0027_sample_0003",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "4e1858d57dbb5164f4c65d100d09a338b0c64ada30e2c4d52c21a90d391b76ff"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0027_sample_0004",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "4e1858d57dbb5164f4c65d100d09a338b0c64ada30e2c4d52c21a90d391b76ff"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0027_sample_0005",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "4e1858d57dbb5164f4c65d100d09a338b0c64ada30e2c4d52c21a90d391b76ff"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0027_sample_0006",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "4e1858d57dbb5164f4c65d100d09a338b0c64ada30e2c4d52c21a90d391b76ff"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0027_sample_0007",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "4e1858d57dbb5164f4c65d100d09a338b0c64ada30e2c4d52c21a90d391b76ff"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0027_sample_0008",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "4e1858d57dbb5164f4c65d100d09a338b0c64ada30e2c4d52c21a90d391b76ff"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0027_sample_0009",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "4e1858d57dbb5164f4c65d100d09a338b0c64ada30e2c4d52c21a90d391b76ff"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0028_sample_0000",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "6ff9dde5336513c86201220669a2362a303910022417a3a9204fb8321f78ddb0"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0028_sample_0001",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "6ff9dde5336513c86201220669a2362a303910022417a3a9204fb8321f78ddb0"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0028_sample_0002",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "6ff9dde5336513c86201220669a2362a303910022417a3a9204fb8321f78ddb0"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0028_sample_0003",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "6ff9dde5336513c86201220669a2362a303910022417a3a9204fb8321f78ddb0"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0028_sample_0004",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "6ff9dde5336513c86201220669a2362a303910022417a3a9204fb8321f78ddb0"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0028_sample_0005",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "6ff9dde5336513c86201220669a2362a303910022417a3a9204fb8321f78ddb0"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0028_sample_0006",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "6ff9dde5336513c86201220669a2362a303910022417a3a9204fb8321f78ddb0"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0028_sample_0007",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "6ff9dde5336513c86201220669a2362a303910022417a3a9204fb8321f78ddb0"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0028_sample_0008",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "6ff9dde5336513c86201220669a2362a303910022417a3a9204fb8321f78ddb0"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0028_sample_0009",
+      "prompt_tokens": 41,
+      "prompt_ids_sha256": "6ff9dde5336513c86201220669a2362a303910022417a3a9204fb8321f78ddb0"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0029_sample_0000",
+      "prompt_tokens": 17,
+      "prompt_ids_sha256": "d3f71a1e6a7653175e75f29cf8dcbea00f2a593236f0ebc57f8a45cdeb3de065"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0029_sample_0001",
+      "prompt_tokens": 17,
+      "prompt_ids_sha256": "d3f71a1e6a7653175e75f29cf8dcbea00f2a593236f0ebc57f8a45cdeb3de065"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0029_sample_0002",
+      "prompt_tokens": 17,
+      "prompt_ids_sha256": "d3f71a1e6a7653175e75f29cf8dcbea00f2a593236f0ebc57f8a45cdeb3de065"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0029_sample_0003",
+      "prompt_tokens": 17,
+      "prompt_ids_sha256": "d3f71a1e6a7653175e75f29cf8dcbea00f2a593236f0ebc57f8a45cdeb3de065"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0029_sample_0004",
+      "prompt_tokens": 17,
+      "prompt_ids_sha256": "d3f71a1e6a7653175e75f29cf8dcbea00f2a593236f0ebc57f8a45cdeb3de065"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0029_sample_0005",
+      "prompt_tokens": 17,
+      "prompt_ids_sha256": "d3f71a1e6a7653175e75f29cf8dcbea00f2a593236f0ebc57f8a45cdeb3de065"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0029_sample_0006",
+      "prompt_tokens": 17,
+      "prompt_ids_sha256": "d3f71a1e6a7653175e75f29cf8dcbea00f2a593236f0ebc57f8a45cdeb3de065"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0029_sample_0007",
+      "prompt_tokens": 17,
+      "prompt_ids_sha256": "d3f71a1e6a7653175e75f29cf8dcbea00f2a593236f0ebc57f8a45cdeb3de065"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0029_sample_0008",
+      "prompt_tokens": 17,
+      "prompt_ids_sha256": "d3f71a1e6a7653175e75f29cf8dcbea00f2a593236f0ebc57f8a45cdeb3de065"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0029_sample_0009",
+      "prompt_tokens": 17,
+      "prompt_ids_sha256": "d3f71a1e6a7653175e75f29cf8dcbea00f2a593236f0ebc57f8a45cdeb3de065"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0030_sample_0000",
+      "prompt_tokens": 76,
+      "prompt_ids_sha256": "d412016dbf20338ac6c3b34482699e03480a21127ed3fa9eb27d8a0bc6df7c23"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0030_sample_0001",
+      "prompt_tokens": 76,
+      "prompt_ids_sha256": "d412016dbf20338ac6c3b34482699e03480a21127ed3fa9eb27d8a0bc6df7c23"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0030_sample_0002",
+      "prompt_tokens": 76,
+      "prompt_ids_sha256": "d412016dbf20338ac6c3b34482699e03480a21127ed3fa9eb27d8a0bc6df7c23"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0030_sample_0003",
+      "prompt_tokens": 76,
+      "prompt_ids_sha256": "d412016dbf20338ac6c3b34482699e03480a21127ed3fa9eb27d8a0bc6df7c23"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0030_sample_0004",
+      "prompt_tokens": 76,
+      "prompt_ids_sha256": "d412016dbf20338ac6c3b34482699e03480a21127ed3fa9eb27d8a0bc6df7c23"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0030_sample_0005",
+      "prompt_tokens": 76,
+      "prompt_ids_sha256": "d412016dbf20338ac6c3b34482699e03480a21127ed3fa9eb27d8a0bc6df7c23"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0030_sample_0006",
+      "prompt_tokens": 76,
+      "prompt_ids_sha256": "d412016dbf20338ac6c3b34482699e03480a21127ed3fa9eb27d8a0bc6df7c23"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0030_sample_0007",
+      "prompt_tokens": 76,
+      "prompt_ids_sha256": "d412016dbf20338ac6c3b34482699e03480a21127ed3fa9eb27d8a0bc6df7c23"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0030_sample_0008",
+      "prompt_tokens": 76,
+      "prompt_ids_sha256": "d412016dbf20338ac6c3b34482699e03480a21127ed3fa9eb27d8a0bc6df7c23"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0030_sample_0009",
+      "prompt_tokens": 76,
+      "prompt_ids_sha256": "d412016dbf20338ac6c3b34482699e03480a21127ed3fa9eb27d8a0bc6df7c23"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0031_sample_0000",
+      "prompt_tokens": 38,
+      "prompt_ids_sha256": "f297c6e394b120ba1a5d42ad1f1ab9caad283fdb2aab0680ee2579442280b392"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0031_sample_0001",
+      "prompt_tokens": 38,
+      "prompt_ids_sha256": "f297c6e394b120ba1a5d42ad1f1ab9caad283fdb2aab0680ee2579442280b392"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0031_sample_0002",
+      "prompt_tokens": 38,
+      "prompt_ids_sha256": "f297c6e394b120ba1a5d42ad1f1ab9caad283fdb2aab0680ee2579442280b392"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0031_sample_0003",
+      "prompt_tokens": 38,
+      "prompt_ids_sha256": "f297c6e394b120ba1a5d42ad1f1ab9caad283fdb2aab0680ee2579442280b392"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0031_sample_0004",
+      "prompt_tokens": 38,
+      "prompt_ids_sha256": "f297c6e394b120ba1a5d42ad1f1ab9caad283fdb2aab0680ee2579442280b392"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0031_sample_0005",
+      "prompt_tokens": 38,
+      "prompt_ids_sha256": "f297c6e394b120ba1a5d42ad1f1ab9caad283fdb2aab0680ee2579442280b392"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0031_sample_0006",
+      "prompt_tokens": 38,
+      "prompt_ids_sha256": "f297c6e394b120ba1a5d42ad1f1ab9caad283fdb2aab0680ee2579442280b392"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0031_sample_0007",
+      "prompt_tokens": 38,
+      "prompt_ids_sha256": "f297c6e394b120ba1a5d42ad1f1ab9caad283fdb2aab0680ee2579442280b392"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0031_sample_0008",
+      "prompt_tokens": 38,
+      "prompt_ids_sha256": "f297c6e394b120ba1a5d42ad1f1ab9caad283fdb2aab0680ee2579442280b392"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0031_sample_0009",
+      "prompt_tokens": 38,
+      "prompt_ids_sha256": "f297c6e394b120ba1a5d42ad1f1ab9caad283fdb2aab0680ee2579442280b392"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0032_sample_0000",
+      "prompt_tokens": 26,
+      "prompt_ids_sha256": "5eee024da739ed4058a5a69f8cfb5f26d62db51497987efcee5fe08ea0aa3ebc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0032_sample_0001",
+      "prompt_tokens": 26,
+      "prompt_ids_sha256": "5eee024da739ed4058a5a69f8cfb5f26d62db51497987efcee5fe08ea0aa3ebc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0032_sample_0002",
+      "prompt_tokens": 26,
+      "prompt_ids_sha256": "5eee024da739ed4058a5a69f8cfb5f26d62db51497987efcee5fe08ea0aa3ebc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0032_sample_0003",
+      "prompt_tokens": 26,
+      "prompt_ids_sha256": "5eee024da739ed4058a5a69f8cfb5f26d62db51497987efcee5fe08ea0aa3ebc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0032_sample_0004",
+      "prompt_tokens": 26,
+      "prompt_ids_sha256": "5eee024da739ed4058a5a69f8cfb5f26d62db51497987efcee5fe08ea0aa3ebc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0032_sample_0005",
+      "prompt_tokens": 26,
+      "prompt_ids_sha256": "5eee024da739ed4058a5a69f8cfb5f26d62db51497987efcee5fe08ea0aa3ebc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0032_sample_0006",
+      "prompt_tokens": 26,
+      "prompt_ids_sha256": "5eee024da739ed4058a5a69f8cfb5f26d62db51497987efcee5fe08ea0aa3ebc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0032_sample_0007",
+      "prompt_tokens": 26,
+      "prompt_ids_sha256": "5eee024da739ed4058a5a69f8cfb5f26d62db51497987efcee5fe08ea0aa3ebc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0032_sample_0008",
+      "prompt_tokens": 26,
+      "prompt_ids_sha256": "5eee024da739ed4058a5a69f8cfb5f26d62db51497987efcee5fe08ea0aa3ebc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0032_sample_0009",
+      "prompt_tokens": 26,
+      "prompt_ids_sha256": "5eee024da739ed4058a5a69f8cfb5f26d62db51497987efcee5fe08ea0aa3ebc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0033_sample_0000",
+      "prompt_tokens": 27,
+      "prompt_ids_sha256": "2143103d175a561d386137e1b1f45e4aa48217e286dee07e235096da4ffa3bea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0033_sample_0001",
+      "prompt_tokens": 27,
+      "prompt_ids_sha256": "2143103d175a561d386137e1b1f45e4aa48217e286dee07e235096da4ffa3bea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0033_sample_0002",
+      "prompt_tokens": 27,
+      "prompt_ids_sha256": "2143103d175a561d386137e1b1f45e4aa48217e286dee07e235096da4ffa3bea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0033_sample_0003",
+      "prompt_tokens": 27,
+      "prompt_ids_sha256": "2143103d175a561d386137e1b1f45e4aa48217e286dee07e235096da4ffa3bea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0033_sample_0004",
+      "prompt_tokens": 27,
+      "prompt_ids_sha256": "2143103d175a561d386137e1b1f45e4aa48217e286dee07e235096da4ffa3bea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0033_sample_0005",
+      "prompt_tokens": 27,
+      "prompt_ids_sha256": "2143103d175a561d386137e1b1f45e4aa48217e286dee07e235096da4ffa3bea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0033_sample_0006",
+      "prompt_tokens": 27,
+      "prompt_ids_sha256": "2143103d175a561d386137e1b1f45e4aa48217e286dee07e235096da4ffa3bea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0033_sample_0007",
+      "prompt_tokens": 27,
+      "prompt_ids_sha256": "2143103d175a561d386137e1b1f45e4aa48217e286dee07e235096da4ffa3bea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0033_sample_0008",
+      "prompt_tokens": 27,
+      "prompt_ids_sha256": "2143103d175a561d386137e1b1f45e4aa48217e286dee07e235096da4ffa3bea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0033_sample_0009",
+      "prompt_tokens": 27,
+      "prompt_ids_sha256": "2143103d175a561d386137e1b1f45e4aa48217e286dee07e235096da4ffa3bea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0034_sample_0000",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "40810c7c53eff3a691914efd3c16746b940d01f145b3315613068e3d1fe1cd52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0034_sample_0001",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "40810c7c53eff3a691914efd3c16746b940d01f145b3315613068e3d1fe1cd52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0034_sample_0002",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "40810c7c53eff3a691914efd3c16746b940d01f145b3315613068e3d1fe1cd52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0034_sample_0003",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "40810c7c53eff3a691914efd3c16746b940d01f145b3315613068e3d1fe1cd52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0034_sample_0004",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "40810c7c53eff3a691914efd3c16746b940d01f145b3315613068e3d1fe1cd52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0034_sample_0005",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "40810c7c53eff3a691914efd3c16746b940d01f145b3315613068e3d1fe1cd52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0034_sample_0006",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "40810c7c53eff3a691914efd3c16746b940d01f145b3315613068e3d1fe1cd52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0034_sample_0007",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "40810c7c53eff3a691914efd3c16746b940d01f145b3315613068e3d1fe1cd52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0034_sample_0008",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "40810c7c53eff3a691914efd3c16746b940d01f145b3315613068e3d1fe1cd52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0034_sample_0009",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "40810c7c53eff3a691914efd3c16746b940d01f145b3315613068e3d1fe1cd52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0035_sample_0000",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "6b9f8502dad0aa2b74b9098610e09ee1d74b7e3096cb23198f8fe6067da5a34c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0035_sample_0001",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "6b9f8502dad0aa2b74b9098610e09ee1d74b7e3096cb23198f8fe6067da5a34c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0035_sample_0002",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "6b9f8502dad0aa2b74b9098610e09ee1d74b7e3096cb23198f8fe6067da5a34c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0035_sample_0003",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "6b9f8502dad0aa2b74b9098610e09ee1d74b7e3096cb23198f8fe6067da5a34c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0035_sample_0004",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "6b9f8502dad0aa2b74b9098610e09ee1d74b7e3096cb23198f8fe6067da5a34c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0035_sample_0005",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "6b9f8502dad0aa2b74b9098610e09ee1d74b7e3096cb23198f8fe6067da5a34c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0035_sample_0006",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "6b9f8502dad0aa2b74b9098610e09ee1d74b7e3096cb23198f8fe6067da5a34c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0035_sample_0007",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "6b9f8502dad0aa2b74b9098610e09ee1d74b7e3096cb23198f8fe6067da5a34c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0035_sample_0008",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "6b9f8502dad0aa2b74b9098610e09ee1d74b7e3096cb23198f8fe6067da5a34c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0035_sample_0009",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "6b9f8502dad0aa2b74b9098610e09ee1d74b7e3096cb23198f8fe6067da5a34c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0036_sample_0000",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "8482fc42f4b837219b29664b2f079cb06e3e6cbf048cecb68913ae21773335fd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0036_sample_0001",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "8482fc42f4b837219b29664b2f079cb06e3e6cbf048cecb68913ae21773335fd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0036_sample_0002",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "8482fc42f4b837219b29664b2f079cb06e3e6cbf048cecb68913ae21773335fd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0036_sample_0003",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "8482fc42f4b837219b29664b2f079cb06e3e6cbf048cecb68913ae21773335fd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0036_sample_0004",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "8482fc42f4b837219b29664b2f079cb06e3e6cbf048cecb68913ae21773335fd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0036_sample_0005",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "8482fc42f4b837219b29664b2f079cb06e3e6cbf048cecb68913ae21773335fd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0036_sample_0006",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "8482fc42f4b837219b29664b2f079cb06e3e6cbf048cecb68913ae21773335fd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0036_sample_0007",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "8482fc42f4b837219b29664b2f079cb06e3e6cbf048cecb68913ae21773335fd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0036_sample_0008",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "8482fc42f4b837219b29664b2f079cb06e3e6cbf048cecb68913ae21773335fd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0036_sample_0009",
+      "prompt_tokens": 35,
+      "prompt_ids_sha256": "8482fc42f4b837219b29664b2f079cb06e3e6cbf048cecb68913ae21773335fd"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0037_sample_0000",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "fdfa4a2bccb2475fa06e1cb8c2605f977b71fc05513a154efe4a8f50d754b54c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0037_sample_0001",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "fdfa4a2bccb2475fa06e1cb8c2605f977b71fc05513a154efe4a8f50d754b54c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0037_sample_0002",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "fdfa4a2bccb2475fa06e1cb8c2605f977b71fc05513a154efe4a8f50d754b54c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0037_sample_0003",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "fdfa4a2bccb2475fa06e1cb8c2605f977b71fc05513a154efe4a8f50d754b54c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0037_sample_0004",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "fdfa4a2bccb2475fa06e1cb8c2605f977b71fc05513a154efe4a8f50d754b54c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0037_sample_0005",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "fdfa4a2bccb2475fa06e1cb8c2605f977b71fc05513a154efe4a8f50d754b54c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0037_sample_0006",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "fdfa4a2bccb2475fa06e1cb8c2605f977b71fc05513a154efe4a8f50d754b54c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0037_sample_0007",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "fdfa4a2bccb2475fa06e1cb8c2605f977b71fc05513a154efe4a8f50d754b54c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0037_sample_0008",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "fdfa4a2bccb2475fa06e1cb8c2605f977b71fc05513a154efe4a8f50d754b54c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0037_sample_0009",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "fdfa4a2bccb2475fa06e1cb8c2605f977b71fc05513a154efe4a8f50d754b54c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0038_sample_0000",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "659e8ab73e9d47a62a37248f22816e4e8e3c4c4a9ffeec8c4b8732792210e06c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0038_sample_0001",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "659e8ab73e9d47a62a37248f22816e4e8e3c4c4a9ffeec8c4b8732792210e06c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0038_sample_0002",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "659e8ab73e9d47a62a37248f22816e4e8e3c4c4a9ffeec8c4b8732792210e06c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0038_sample_0003",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "659e8ab73e9d47a62a37248f22816e4e8e3c4c4a9ffeec8c4b8732792210e06c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0038_sample_0004",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "659e8ab73e9d47a62a37248f22816e4e8e3c4c4a9ffeec8c4b8732792210e06c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0038_sample_0005",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "659e8ab73e9d47a62a37248f22816e4e8e3c4c4a9ffeec8c4b8732792210e06c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0038_sample_0006",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "659e8ab73e9d47a62a37248f22816e4e8e3c4c4a9ffeec8c4b8732792210e06c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0038_sample_0007",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "659e8ab73e9d47a62a37248f22816e4e8e3c4c4a9ffeec8c4b8732792210e06c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0038_sample_0008",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "659e8ab73e9d47a62a37248f22816e4e8e3c4c4a9ffeec8c4b8732792210e06c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0038_sample_0009",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "659e8ab73e9d47a62a37248f22816e4e8e3c4c4a9ffeec8c4b8732792210e06c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0039_sample_0000",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "4222503d4ffb6296298dd74034e6846248c420d6db4a471d49a51ba5a8fc3335"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0039_sample_0001",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "4222503d4ffb6296298dd74034e6846248c420d6db4a471d49a51ba5a8fc3335"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0039_sample_0002",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "4222503d4ffb6296298dd74034e6846248c420d6db4a471d49a51ba5a8fc3335"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0039_sample_0003",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "4222503d4ffb6296298dd74034e6846248c420d6db4a471d49a51ba5a8fc3335"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0039_sample_0004",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "4222503d4ffb6296298dd74034e6846248c420d6db4a471d49a51ba5a8fc3335"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0039_sample_0005",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "4222503d4ffb6296298dd74034e6846248c420d6db4a471d49a51ba5a8fc3335"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0039_sample_0006",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "4222503d4ffb6296298dd74034e6846248c420d6db4a471d49a51ba5a8fc3335"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0039_sample_0007",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "4222503d4ffb6296298dd74034e6846248c420d6db4a471d49a51ba5a8fc3335"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0039_sample_0008",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "4222503d4ffb6296298dd74034e6846248c420d6db4a471d49a51ba5a8fc3335"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0039_sample_0009",
+      "prompt_tokens": 55,
+      "prompt_ids_sha256": "4222503d4ffb6296298dd74034e6846248c420d6db4a471d49a51ba5a8fc3335"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0040_sample_0000",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "ed4f441cb41d10bf3646f324c83064beaaf86e7e1f48cbd35daaa545c32c3121"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0040_sample_0001",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "ed4f441cb41d10bf3646f324c83064beaaf86e7e1f48cbd35daaa545c32c3121"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0040_sample_0002",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "ed4f441cb41d10bf3646f324c83064beaaf86e7e1f48cbd35daaa545c32c3121"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0040_sample_0003",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "ed4f441cb41d10bf3646f324c83064beaaf86e7e1f48cbd35daaa545c32c3121"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0040_sample_0004",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "ed4f441cb41d10bf3646f324c83064beaaf86e7e1f48cbd35daaa545c32c3121"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0040_sample_0005",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "ed4f441cb41d10bf3646f324c83064beaaf86e7e1f48cbd35daaa545c32c3121"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0040_sample_0006",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "ed4f441cb41d10bf3646f324c83064beaaf86e7e1f48cbd35daaa545c32c3121"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0040_sample_0007",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "ed4f441cb41d10bf3646f324c83064beaaf86e7e1f48cbd35daaa545c32c3121"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0040_sample_0008",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "ed4f441cb41d10bf3646f324c83064beaaf86e7e1f48cbd35daaa545c32c3121"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0040_sample_0009",
+      "prompt_tokens": 16,
+      "prompt_ids_sha256": "ed4f441cb41d10bf3646f324c83064beaaf86e7e1f48cbd35daaa545c32c3121"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0041_sample_0000",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "11cd37f6be318b5b25dc87bfde72eb5f20f4cded58d644e99cdfa91897ab0e52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0041_sample_0001",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "11cd37f6be318b5b25dc87bfde72eb5f20f4cded58d644e99cdfa91897ab0e52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0041_sample_0002",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "11cd37f6be318b5b25dc87bfde72eb5f20f4cded58d644e99cdfa91897ab0e52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0041_sample_0003",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "11cd37f6be318b5b25dc87bfde72eb5f20f4cded58d644e99cdfa91897ab0e52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0041_sample_0004",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "11cd37f6be318b5b25dc87bfde72eb5f20f4cded58d644e99cdfa91897ab0e52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0041_sample_0005",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "11cd37f6be318b5b25dc87bfde72eb5f20f4cded58d644e99cdfa91897ab0e52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0041_sample_0006",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "11cd37f6be318b5b25dc87bfde72eb5f20f4cded58d644e99cdfa91897ab0e52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0041_sample_0007",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "11cd37f6be318b5b25dc87bfde72eb5f20f4cded58d644e99cdfa91897ab0e52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0041_sample_0008",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "11cd37f6be318b5b25dc87bfde72eb5f20f4cded58d644e99cdfa91897ab0e52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0041_sample_0009",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "11cd37f6be318b5b25dc87bfde72eb5f20f4cded58d644e99cdfa91897ab0e52"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0042_sample_0000",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "dbc0b81d715c047cce4bb094de90d87b34e22e5a96412acd201d2fe420a2fa56"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0042_sample_0001",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "dbc0b81d715c047cce4bb094de90d87b34e22e5a96412acd201d2fe420a2fa56"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0042_sample_0002",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "dbc0b81d715c047cce4bb094de90d87b34e22e5a96412acd201d2fe420a2fa56"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0042_sample_0003",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "dbc0b81d715c047cce4bb094de90d87b34e22e5a96412acd201d2fe420a2fa56"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0042_sample_0004",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "dbc0b81d715c047cce4bb094de90d87b34e22e5a96412acd201d2fe420a2fa56"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0042_sample_0005",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "dbc0b81d715c047cce4bb094de90d87b34e22e5a96412acd201d2fe420a2fa56"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0042_sample_0006",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "dbc0b81d715c047cce4bb094de90d87b34e22e5a96412acd201d2fe420a2fa56"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0042_sample_0007",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "dbc0b81d715c047cce4bb094de90d87b34e22e5a96412acd201d2fe420a2fa56"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0042_sample_0008",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "dbc0b81d715c047cce4bb094de90d87b34e22e5a96412acd201d2fe420a2fa56"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0042_sample_0009",
+      "prompt_tokens": 24,
+      "prompt_ids_sha256": "dbc0b81d715c047cce4bb094de90d87b34e22e5a96412acd201d2fe420a2fa56"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0043_sample_0000",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "eac2fa8f14ca1c49992b957d6ecceed895ad454dfd37399905d056a953a15636"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0043_sample_0001",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "eac2fa8f14ca1c49992b957d6ecceed895ad454dfd37399905d056a953a15636"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0043_sample_0002",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "eac2fa8f14ca1c49992b957d6ecceed895ad454dfd37399905d056a953a15636"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0043_sample_0003",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "eac2fa8f14ca1c49992b957d6ecceed895ad454dfd37399905d056a953a15636"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0043_sample_0004",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "eac2fa8f14ca1c49992b957d6ecceed895ad454dfd37399905d056a953a15636"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0043_sample_0005",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "eac2fa8f14ca1c49992b957d6ecceed895ad454dfd37399905d056a953a15636"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0043_sample_0006",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "eac2fa8f14ca1c49992b957d6ecceed895ad454dfd37399905d056a953a15636"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0043_sample_0007",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "eac2fa8f14ca1c49992b957d6ecceed895ad454dfd37399905d056a953a15636"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0043_sample_0008",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "eac2fa8f14ca1c49992b957d6ecceed895ad454dfd37399905d056a953a15636"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0043_sample_0009",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "eac2fa8f14ca1c49992b957d6ecceed895ad454dfd37399905d056a953a15636"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0044_sample_0000",
+      "prompt_tokens": 32,
+      "prompt_ids_sha256": "bc91e350b9472ff3611ca24654b51fee9f1ef72f92de4c6993b8c7a0a5ea5dc9"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0044_sample_0001",
+      "prompt_tokens": 32,
+      "prompt_ids_sha256": "bc91e350b9472ff3611ca24654b51fee9f1ef72f92de4c6993b8c7a0a5ea5dc9"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0044_sample_0002",
+      "prompt_tokens": 32,
+      "prompt_ids_sha256": "bc91e350b9472ff3611ca24654b51fee9f1ef72f92de4c6993b8c7a0a5ea5dc9"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0044_sample_0003",
+      "prompt_tokens": 32,
+      "prompt_ids_sha256": "bc91e350b9472ff3611ca24654b51fee9f1ef72f92de4c6993b8c7a0a5ea5dc9"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0044_sample_0004",
+      "prompt_tokens": 32,
+      "prompt_ids_sha256": "bc91e350b9472ff3611ca24654b51fee9f1ef72f92de4c6993b8c7a0a5ea5dc9"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0044_sample_0005",
+      "prompt_tokens": 32,
+      "prompt_ids_sha256": "bc91e350b9472ff3611ca24654b51fee9f1ef72f92de4c6993b8c7a0a5ea5dc9"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0044_sample_0006",
+      "prompt_tokens": 32,
+      "prompt_ids_sha256": "bc91e350b9472ff3611ca24654b51fee9f1ef72f92de4c6993b8c7a0a5ea5dc9"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0044_sample_0007",
+      "prompt_tokens": 32,
+      "prompt_ids_sha256": "bc91e350b9472ff3611ca24654b51fee9f1ef72f92de4c6993b8c7a0a5ea5dc9"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0044_sample_0008",
+      "prompt_tokens": 32,
+      "prompt_ids_sha256": "bc91e350b9472ff3611ca24654b51fee9f1ef72f92de4c6993b8c7a0a5ea5dc9"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0044_sample_0009",
+      "prompt_tokens": 32,
+      "prompt_ids_sha256": "bc91e350b9472ff3611ca24654b51fee9f1ef72f92de4c6993b8c7a0a5ea5dc9"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0045_sample_0000",
+      "prompt_tokens": 70,
+      "prompt_ids_sha256": "d0995caf6801c767088da704572d7922588c635d8236dd20f2e9e83046213033"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0045_sample_0001",
+      "prompt_tokens": 70,
+      "prompt_ids_sha256": "d0995caf6801c767088da704572d7922588c635d8236dd20f2e9e83046213033"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0045_sample_0002",
+      "prompt_tokens": 70,
+      "prompt_ids_sha256": "d0995caf6801c767088da704572d7922588c635d8236dd20f2e9e83046213033"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0045_sample_0003",
+      "prompt_tokens": 70,
+      "prompt_ids_sha256": "d0995caf6801c767088da704572d7922588c635d8236dd20f2e9e83046213033"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0045_sample_0004",
+      "prompt_tokens": 70,
+      "prompt_ids_sha256": "d0995caf6801c767088da704572d7922588c635d8236dd20f2e9e83046213033"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0045_sample_0005",
+      "prompt_tokens": 70,
+      "prompt_ids_sha256": "d0995caf6801c767088da704572d7922588c635d8236dd20f2e9e83046213033"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0045_sample_0006",
+      "prompt_tokens": 70,
+      "prompt_ids_sha256": "d0995caf6801c767088da704572d7922588c635d8236dd20f2e9e83046213033"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0045_sample_0007",
+      "prompt_tokens": 70,
+      "prompt_ids_sha256": "d0995caf6801c767088da704572d7922588c635d8236dd20f2e9e83046213033"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0045_sample_0008",
+      "prompt_tokens": 70,
+      "prompt_ids_sha256": "d0995caf6801c767088da704572d7922588c635d8236dd20f2e9e83046213033"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0045_sample_0009",
+      "prompt_tokens": 70,
+      "prompt_ids_sha256": "d0995caf6801c767088da704572d7922588c635d8236dd20f2e9e83046213033"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0046_sample_0000",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "79c2205c310ba587215158f2d4b704e60f79cc3ea72744a852c3850f9c5e26c4"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0046_sample_0001",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "79c2205c310ba587215158f2d4b704e60f79cc3ea72744a852c3850f9c5e26c4"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0046_sample_0002",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "79c2205c310ba587215158f2d4b704e60f79cc3ea72744a852c3850f9c5e26c4"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0046_sample_0003",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "79c2205c310ba587215158f2d4b704e60f79cc3ea72744a852c3850f9c5e26c4"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0046_sample_0004",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "79c2205c310ba587215158f2d4b704e60f79cc3ea72744a852c3850f9c5e26c4"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0046_sample_0005",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "79c2205c310ba587215158f2d4b704e60f79cc3ea72744a852c3850f9c5e26c4"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0046_sample_0006",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "79c2205c310ba587215158f2d4b704e60f79cc3ea72744a852c3850f9c5e26c4"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0046_sample_0007",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "79c2205c310ba587215158f2d4b704e60f79cc3ea72744a852c3850f9c5e26c4"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0046_sample_0008",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "79c2205c310ba587215158f2d4b704e60f79cc3ea72744a852c3850f9c5e26c4"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0046_sample_0009",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "79c2205c310ba587215158f2d4b704e60f79cc3ea72744a852c3850f9c5e26c4"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0047_sample_0000",
+      "prompt_tokens": 109,
+      "prompt_ids_sha256": "c8484a2f48414ea6085b21eb2d490af04cb46bc31551bb07e8f175828a8a74bf"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0047_sample_0001",
+      "prompt_tokens": 109,
+      "prompt_ids_sha256": "c8484a2f48414ea6085b21eb2d490af04cb46bc31551bb07e8f175828a8a74bf"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0047_sample_0002",
+      "prompt_tokens": 109,
+      "prompt_ids_sha256": "c8484a2f48414ea6085b21eb2d490af04cb46bc31551bb07e8f175828a8a74bf"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0047_sample_0003",
+      "prompt_tokens": 109,
+      "prompt_ids_sha256": "c8484a2f48414ea6085b21eb2d490af04cb46bc31551bb07e8f175828a8a74bf"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0047_sample_0004",
+      "prompt_tokens": 109,
+      "prompt_ids_sha256": "c8484a2f48414ea6085b21eb2d490af04cb46bc31551bb07e8f175828a8a74bf"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0047_sample_0005",
+      "prompt_tokens": 109,
+      "prompt_ids_sha256": "c8484a2f48414ea6085b21eb2d490af04cb46bc31551bb07e8f175828a8a74bf"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0047_sample_0006",
+      "prompt_tokens": 109,
+      "prompt_ids_sha256": "c8484a2f48414ea6085b21eb2d490af04cb46bc31551bb07e8f175828a8a74bf"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0047_sample_0007",
+      "prompt_tokens": 109,
+      "prompt_ids_sha256": "c8484a2f48414ea6085b21eb2d490af04cb46bc31551bb07e8f175828a8a74bf"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0047_sample_0008",
+      "prompt_tokens": 109,
+      "prompt_ids_sha256": "c8484a2f48414ea6085b21eb2d490af04cb46bc31551bb07e8f175828a8a74bf"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0047_sample_0009",
+      "prompt_tokens": 109,
+      "prompt_ids_sha256": "c8484a2f48414ea6085b21eb2d490af04cb46bc31551bb07e8f175828a8a74bf"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0048_sample_0000",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "a176c30f9adbce3e847a4c49f5aca816de2542656b89ea0b2e0b1926f3c3de0c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0048_sample_0001",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "a176c30f9adbce3e847a4c49f5aca816de2542656b89ea0b2e0b1926f3c3de0c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0048_sample_0002",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "a176c30f9adbce3e847a4c49f5aca816de2542656b89ea0b2e0b1926f3c3de0c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0048_sample_0003",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "a176c30f9adbce3e847a4c49f5aca816de2542656b89ea0b2e0b1926f3c3de0c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0048_sample_0004",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "a176c30f9adbce3e847a4c49f5aca816de2542656b89ea0b2e0b1926f3c3de0c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0048_sample_0005",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "a176c30f9adbce3e847a4c49f5aca816de2542656b89ea0b2e0b1926f3c3de0c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0048_sample_0006",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "a176c30f9adbce3e847a4c49f5aca816de2542656b89ea0b2e0b1926f3c3de0c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0048_sample_0007",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "a176c30f9adbce3e847a4c49f5aca816de2542656b89ea0b2e0b1926f3c3de0c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0048_sample_0008",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "a176c30f9adbce3e847a4c49f5aca816de2542656b89ea0b2e0b1926f3c3de0c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0048_sample_0009",
+      "prompt_tokens": 28,
+      "prompt_ids_sha256": "a176c30f9adbce3e847a4c49f5aca816de2542656b89ea0b2e0b1926f3c3de0c"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0049_sample_0000",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "84bcb87c5bef40211d527071a8b8737de87c264b2998a65c242e4fc92354d0b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0049_sample_0001",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "84bcb87c5bef40211d527071a8b8737de87c264b2998a65c242e4fc92354d0b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0049_sample_0002",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "84bcb87c5bef40211d527071a8b8737de87c264b2998a65c242e4fc92354d0b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0049_sample_0003",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "84bcb87c5bef40211d527071a8b8737de87c264b2998a65c242e4fc92354d0b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0049_sample_0004",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "84bcb87c5bef40211d527071a8b8737de87c264b2998a65c242e4fc92354d0b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0049_sample_0005",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "84bcb87c5bef40211d527071a8b8737de87c264b2998a65c242e4fc92354d0b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0049_sample_0006",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "84bcb87c5bef40211d527071a8b8737de87c264b2998a65c242e4fc92354d0b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0049_sample_0007",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "84bcb87c5bef40211d527071a8b8737de87c264b2998a65c242e4fc92354d0b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0049_sample_0008",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "84bcb87c5bef40211d527071a8b8737de87c264b2998a65c242e4fc92354d0b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0049_sample_0009",
+      "prompt_tokens": 29,
+      "prompt_ids_sha256": "84bcb87c5bef40211d527071a8b8737de87c264b2998a65c242e4fc92354d0b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0050_sample_0000",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "97266ba52bfb26ad9157b81a76d49a4d481707c8a55d9da2713e6f719b3391fc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0050_sample_0001",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "97266ba52bfb26ad9157b81a76d49a4d481707c8a55d9da2713e6f719b3391fc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0050_sample_0002",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "97266ba52bfb26ad9157b81a76d49a4d481707c8a55d9da2713e6f719b3391fc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0050_sample_0003",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "97266ba52bfb26ad9157b81a76d49a4d481707c8a55d9da2713e6f719b3391fc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0050_sample_0004",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "97266ba52bfb26ad9157b81a76d49a4d481707c8a55d9da2713e6f719b3391fc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0050_sample_0005",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "97266ba52bfb26ad9157b81a76d49a4d481707c8a55d9da2713e6f719b3391fc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0050_sample_0006",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "97266ba52bfb26ad9157b81a76d49a4d481707c8a55d9da2713e6f719b3391fc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0050_sample_0007",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "97266ba52bfb26ad9157b81a76d49a4d481707c8a55d9da2713e6f719b3391fc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0050_sample_0008",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "97266ba52bfb26ad9157b81a76d49a4d481707c8a55d9da2713e6f719b3391fc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0050_sample_0009",
+      "prompt_tokens": 63,
+      "prompt_ids_sha256": "97266ba52bfb26ad9157b81a76d49a4d481707c8a55d9da2713e6f719b3391fc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0051_sample_0000",
+      "prompt_tokens": 100,
+      "prompt_ids_sha256": "5da6aef712e635f97a39c99eeec9140af04bd57175dde07634e27a4636a28b0e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0051_sample_0001",
+      "prompt_tokens": 100,
+      "prompt_ids_sha256": "5da6aef712e635f97a39c99eeec9140af04bd57175dde07634e27a4636a28b0e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0051_sample_0002",
+      "prompt_tokens": 100,
+      "prompt_ids_sha256": "5da6aef712e635f97a39c99eeec9140af04bd57175dde07634e27a4636a28b0e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0051_sample_0003",
+      "prompt_tokens": 100,
+      "prompt_ids_sha256": "5da6aef712e635f97a39c99eeec9140af04bd57175dde07634e27a4636a28b0e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0051_sample_0004",
+      "prompt_tokens": 100,
+      "prompt_ids_sha256": "5da6aef712e635f97a39c99eeec9140af04bd57175dde07634e27a4636a28b0e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0051_sample_0005",
+      "prompt_tokens": 100,
+      "prompt_ids_sha256": "5da6aef712e635f97a39c99eeec9140af04bd57175dde07634e27a4636a28b0e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0051_sample_0006",
+      "prompt_tokens": 100,
+      "prompt_ids_sha256": "5da6aef712e635f97a39c99eeec9140af04bd57175dde07634e27a4636a28b0e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0051_sample_0007",
+      "prompt_tokens": 100,
+      "prompt_ids_sha256": "5da6aef712e635f97a39c99eeec9140af04bd57175dde07634e27a4636a28b0e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0051_sample_0008",
+      "prompt_tokens": 100,
+      "prompt_ids_sha256": "5da6aef712e635f97a39c99eeec9140af04bd57175dde07634e27a4636a28b0e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0051_sample_0009",
+      "prompt_tokens": 100,
+      "prompt_ids_sha256": "5da6aef712e635f97a39c99eeec9140af04bd57175dde07634e27a4636a28b0e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0052_sample_0000",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "939f03a8fc89ed9bd38cff8bbef3bf75eb209a75d56508c801d38240e1e6efc3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0052_sample_0001",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "939f03a8fc89ed9bd38cff8bbef3bf75eb209a75d56508c801d38240e1e6efc3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0052_sample_0002",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "939f03a8fc89ed9bd38cff8bbef3bf75eb209a75d56508c801d38240e1e6efc3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0052_sample_0003",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "939f03a8fc89ed9bd38cff8bbef3bf75eb209a75d56508c801d38240e1e6efc3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0052_sample_0004",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "939f03a8fc89ed9bd38cff8bbef3bf75eb209a75d56508c801d38240e1e6efc3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0052_sample_0005",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "939f03a8fc89ed9bd38cff8bbef3bf75eb209a75d56508c801d38240e1e6efc3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0052_sample_0006",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "939f03a8fc89ed9bd38cff8bbef3bf75eb209a75d56508c801d38240e1e6efc3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0052_sample_0007",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "939f03a8fc89ed9bd38cff8bbef3bf75eb209a75d56508c801d38240e1e6efc3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0052_sample_0008",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "939f03a8fc89ed9bd38cff8bbef3bf75eb209a75d56508c801d38240e1e6efc3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0052_sample_0009",
+      "prompt_tokens": 18,
+      "prompt_ids_sha256": "939f03a8fc89ed9bd38cff8bbef3bf75eb209a75d56508c801d38240e1e6efc3"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0053_sample_0000",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "88c084c0eb48e4c869fe9d069413603be688c9f8ecc841178f187084ba637502"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0053_sample_0001",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "88c084c0eb48e4c869fe9d069413603be688c9f8ecc841178f187084ba637502"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0053_sample_0002",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "88c084c0eb48e4c869fe9d069413603be688c9f8ecc841178f187084ba637502"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0053_sample_0003",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "88c084c0eb48e4c869fe9d069413603be688c9f8ecc841178f187084ba637502"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0053_sample_0004",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "88c084c0eb48e4c869fe9d069413603be688c9f8ecc841178f187084ba637502"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0053_sample_0005",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "88c084c0eb48e4c869fe9d069413603be688c9f8ecc841178f187084ba637502"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0053_sample_0006",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "88c084c0eb48e4c869fe9d069413603be688c9f8ecc841178f187084ba637502"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0053_sample_0007",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "88c084c0eb48e4c869fe9d069413603be688c9f8ecc841178f187084ba637502"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0053_sample_0008",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "88c084c0eb48e4c869fe9d069413603be688c9f8ecc841178f187084ba637502"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0053_sample_0009",
+      "prompt_tokens": 23,
+      "prompt_ids_sha256": "88c084c0eb48e4c869fe9d069413603be688c9f8ecc841178f187084ba637502"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0054_sample_0000",
+      "prompt_tokens": 34,
+      "prompt_ids_sha256": "42f57e77048567cb5c6ad6d6da9e3a9404a10e4c4d03ede7b8d9e5973a37cc31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0054_sample_0001",
+      "prompt_tokens": 34,
+      "prompt_ids_sha256": "42f57e77048567cb5c6ad6d6da9e3a9404a10e4c4d03ede7b8d9e5973a37cc31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0054_sample_0002",
+      "prompt_tokens": 34,
+      "prompt_ids_sha256": "42f57e77048567cb5c6ad6d6da9e3a9404a10e4c4d03ede7b8d9e5973a37cc31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0054_sample_0003",
+      "prompt_tokens": 34,
+      "prompt_ids_sha256": "42f57e77048567cb5c6ad6d6da9e3a9404a10e4c4d03ede7b8d9e5973a37cc31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0054_sample_0004",
+      "prompt_tokens": 34,
+      "prompt_ids_sha256": "42f57e77048567cb5c6ad6d6da9e3a9404a10e4c4d03ede7b8d9e5973a37cc31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0054_sample_0005",
+      "prompt_tokens": 34,
+      "prompt_ids_sha256": "42f57e77048567cb5c6ad6d6da9e3a9404a10e4c4d03ede7b8d9e5973a37cc31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0054_sample_0006",
+      "prompt_tokens": 34,
+      "prompt_ids_sha256": "42f57e77048567cb5c6ad6d6da9e3a9404a10e4c4d03ede7b8d9e5973a37cc31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0054_sample_0007",
+      "prompt_tokens": 34,
+      "prompt_ids_sha256": "42f57e77048567cb5c6ad6d6da9e3a9404a10e4c4d03ede7b8d9e5973a37cc31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0054_sample_0008",
+      "prompt_tokens": 34,
+      "prompt_ids_sha256": "42f57e77048567cb5c6ad6d6da9e3a9404a10e4c4d03ede7b8d9e5973a37cc31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0054_sample_0009",
+      "prompt_tokens": 34,
+      "prompt_ids_sha256": "42f57e77048567cb5c6ad6d6da9e3a9404a10e4c4d03ede7b8d9e5973a37cc31"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0055_sample_0000",
+      "prompt_tokens": 120,
+      "prompt_ids_sha256": "540b6f26150338743bcefd571f95e29ec219ea4f773968f9954eba707165c6dc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0055_sample_0001",
+      "prompt_tokens": 120,
+      "prompt_ids_sha256": "540b6f26150338743bcefd571f95e29ec219ea4f773968f9954eba707165c6dc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0055_sample_0002",
+      "prompt_tokens": 120,
+      "prompt_ids_sha256": "540b6f26150338743bcefd571f95e29ec219ea4f773968f9954eba707165c6dc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0055_sample_0003",
+      "prompt_tokens": 120,
+      "prompt_ids_sha256": "540b6f26150338743bcefd571f95e29ec219ea4f773968f9954eba707165c6dc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0055_sample_0004",
+      "prompt_tokens": 120,
+      "prompt_ids_sha256": "540b6f26150338743bcefd571f95e29ec219ea4f773968f9954eba707165c6dc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0055_sample_0005",
+      "prompt_tokens": 120,
+      "prompt_ids_sha256": "540b6f26150338743bcefd571f95e29ec219ea4f773968f9954eba707165c6dc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0055_sample_0006",
+      "prompt_tokens": 120,
+      "prompt_ids_sha256": "540b6f26150338743bcefd571f95e29ec219ea4f773968f9954eba707165c6dc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0055_sample_0007",
+      "prompt_tokens": 120,
+      "prompt_ids_sha256": "540b6f26150338743bcefd571f95e29ec219ea4f773968f9954eba707165c6dc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0055_sample_0008",
+      "prompt_tokens": 120,
+      "prompt_ids_sha256": "540b6f26150338743bcefd571f95e29ec219ea4f773968f9954eba707165c6dc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0055_sample_0009",
+      "prompt_tokens": 120,
+      "prompt_ids_sha256": "540b6f26150338743bcefd571f95e29ec219ea4f773968f9954eba707165c6dc"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0056_sample_0000",
+      "prompt_tokens": 13,
+      "prompt_ids_sha256": "029d4cff07b25ac7dd4a8acf8609d89ed829c2cb3c9cd000e76ef58a805098bb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0056_sample_0001",
+      "prompt_tokens": 13,
+      "prompt_ids_sha256": "029d4cff07b25ac7dd4a8acf8609d89ed829c2cb3c9cd000e76ef58a805098bb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0056_sample_0002",
+      "prompt_tokens": 13,
+      "prompt_ids_sha256": "029d4cff07b25ac7dd4a8acf8609d89ed829c2cb3c9cd000e76ef58a805098bb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0056_sample_0003",
+      "prompt_tokens": 13,
+      "prompt_ids_sha256": "029d4cff07b25ac7dd4a8acf8609d89ed829c2cb3c9cd000e76ef58a805098bb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0056_sample_0004",
+      "prompt_tokens": 13,
+      "prompt_ids_sha256": "029d4cff07b25ac7dd4a8acf8609d89ed829c2cb3c9cd000e76ef58a805098bb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0056_sample_0005",
+      "prompt_tokens": 13,
+      "prompt_ids_sha256": "029d4cff07b25ac7dd4a8acf8609d89ed829c2cb3c9cd000e76ef58a805098bb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0056_sample_0006",
+      "prompt_tokens": 13,
+      "prompt_ids_sha256": "029d4cff07b25ac7dd4a8acf8609d89ed829c2cb3c9cd000e76ef58a805098bb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0056_sample_0007",
+      "prompt_tokens": 13,
+      "prompt_ids_sha256": "029d4cff07b25ac7dd4a8acf8609d89ed829c2cb3c9cd000e76ef58a805098bb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0056_sample_0008",
+      "prompt_tokens": 13,
+      "prompt_ids_sha256": "029d4cff07b25ac7dd4a8acf8609d89ed829c2cb3c9cd000e76ef58a805098bb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0056_sample_0009",
+      "prompt_tokens": 13,
+      "prompt_ids_sha256": "029d4cff07b25ac7dd4a8acf8609d89ed829c2cb3c9cd000e76ef58a805098bb"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0057_sample_0000",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "0412dcdf1c9ca1ff31348d95465407626be217c4dc7d22870a4d3a82fab75472"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0057_sample_0001",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "0412dcdf1c9ca1ff31348d95465407626be217c4dc7d22870a4d3a82fab75472"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0057_sample_0002",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "0412dcdf1c9ca1ff31348d95465407626be217c4dc7d22870a4d3a82fab75472"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0057_sample_0003",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "0412dcdf1c9ca1ff31348d95465407626be217c4dc7d22870a4d3a82fab75472"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0057_sample_0004",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "0412dcdf1c9ca1ff31348d95465407626be217c4dc7d22870a4d3a82fab75472"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0057_sample_0005",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "0412dcdf1c9ca1ff31348d95465407626be217c4dc7d22870a4d3a82fab75472"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0057_sample_0006",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "0412dcdf1c9ca1ff31348d95465407626be217c4dc7d22870a4d3a82fab75472"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0057_sample_0007",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "0412dcdf1c9ca1ff31348d95465407626be217c4dc7d22870a4d3a82fab75472"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0057_sample_0008",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "0412dcdf1c9ca1ff31348d95465407626be217c4dc7d22870a4d3a82fab75472"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0057_sample_0009",
+      "prompt_tokens": 40,
+      "prompt_ids_sha256": "0412dcdf1c9ca1ff31348d95465407626be217c4dc7d22870a4d3a82fab75472"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0058_sample_0000",
+      "prompt_tokens": 20,
+      "prompt_ids_sha256": "248677704c613ab3f266bfd2d2ef45529103cb8ef2c079eee0c9c1496f934b8d"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0058_sample_0001",
+      "prompt_tokens": 20,
+      "prompt_ids_sha256": "248677704c613ab3f266bfd2d2ef45529103cb8ef2c079eee0c9c1496f934b8d"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0058_sample_0002",
+      "prompt_tokens": 20,
+      "prompt_ids_sha256": "248677704c613ab3f266bfd2d2ef45529103cb8ef2c079eee0c9c1496f934b8d"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0058_sample_0003",
+      "prompt_tokens": 20,
+      "prompt_ids_sha256": "248677704c613ab3f266bfd2d2ef45529103cb8ef2c079eee0c9c1496f934b8d"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0058_sample_0004",
+      "prompt_tokens": 20,
+      "prompt_ids_sha256": "248677704c613ab3f266bfd2d2ef45529103cb8ef2c079eee0c9c1496f934b8d"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0058_sample_0005",
+      "prompt_tokens": 20,
+      "prompt_ids_sha256": "248677704c613ab3f266bfd2d2ef45529103cb8ef2c079eee0c9c1496f934b8d"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0058_sample_0006",
+      "prompt_tokens": 20,
+      "prompt_ids_sha256": "248677704c613ab3f266bfd2d2ef45529103cb8ef2c079eee0c9c1496f934b8d"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0058_sample_0007",
+      "prompt_tokens": 20,
+      "prompt_ids_sha256": "248677704c613ab3f266bfd2d2ef45529103cb8ef2c079eee0c9c1496f934b8d"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0058_sample_0008",
+      "prompt_tokens": 20,
+      "prompt_ids_sha256": "248677704c613ab3f266bfd2d2ef45529103cb8ef2c079eee0c9c1496f934b8d"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0058_sample_0009",
+      "prompt_tokens": 20,
+      "prompt_ids_sha256": "248677704c613ab3f266bfd2d2ef45529103cb8ef2c079eee0c9c1496f934b8d"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0059_sample_0000",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "fface4120da5fd04f44052cf922eee4c22369325a7ec570cfce265dd2beabdb2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0059_sample_0001",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "fface4120da5fd04f44052cf922eee4c22369325a7ec570cfce265dd2beabdb2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0059_sample_0002",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "fface4120da5fd04f44052cf922eee4c22369325a7ec570cfce265dd2beabdb2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0059_sample_0003",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "fface4120da5fd04f44052cf922eee4c22369325a7ec570cfce265dd2beabdb2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0059_sample_0004",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "fface4120da5fd04f44052cf922eee4c22369325a7ec570cfce265dd2beabdb2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0059_sample_0005",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "fface4120da5fd04f44052cf922eee4c22369325a7ec570cfce265dd2beabdb2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0059_sample_0006",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "fface4120da5fd04f44052cf922eee4c22369325a7ec570cfce265dd2beabdb2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0059_sample_0007",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "fface4120da5fd04f44052cf922eee4c22369325a7ec570cfce265dd2beabdb2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0059_sample_0008",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "fface4120da5fd04f44052cf922eee4c22369325a7ec570cfce265dd2beabdb2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0059_sample_0009",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "fface4120da5fd04f44052cf922eee4c22369325a7ec570cfce265dd2beabdb2"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0060_sample_0000",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "071d94b9393171cfd04a877027a7eb2681fe8489d4f40b509c87f7e68916a431"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0060_sample_0001",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "071d94b9393171cfd04a877027a7eb2681fe8489d4f40b509c87f7e68916a431"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0060_sample_0002",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "071d94b9393171cfd04a877027a7eb2681fe8489d4f40b509c87f7e68916a431"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0060_sample_0003",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "071d94b9393171cfd04a877027a7eb2681fe8489d4f40b509c87f7e68916a431"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0060_sample_0004",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "071d94b9393171cfd04a877027a7eb2681fe8489d4f40b509c87f7e68916a431"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0060_sample_0005",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "071d94b9393171cfd04a877027a7eb2681fe8489d4f40b509c87f7e68916a431"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0060_sample_0006",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "071d94b9393171cfd04a877027a7eb2681fe8489d4f40b509c87f7e68916a431"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0060_sample_0007",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "071d94b9393171cfd04a877027a7eb2681fe8489d4f40b509c87f7e68916a431"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0060_sample_0008",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "071d94b9393171cfd04a877027a7eb2681fe8489d4f40b509c87f7e68916a431"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0060_sample_0009",
+      "prompt_tokens": 22,
+      "prompt_ids_sha256": "071d94b9393171cfd04a877027a7eb2681fe8489d4f40b509c87f7e68916a431"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0061_sample_0000",
+      "prompt_tokens": 31,
+      "prompt_ids_sha256": "1f99a4ba86d47097cbe7c4803c445027fc896b05d4c5334e7f28e2e53d4e99df"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0061_sample_0001",
+      "prompt_tokens": 31,
+      "prompt_ids_sha256": "1f99a4ba86d47097cbe7c4803c445027fc896b05d4c5334e7f28e2e53d4e99df"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0061_sample_0002",
+      "prompt_tokens": 31,
+      "prompt_ids_sha256": "1f99a4ba86d47097cbe7c4803c445027fc896b05d4c5334e7f28e2e53d4e99df"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0061_sample_0003",
+      "prompt_tokens": 31,
+      "prompt_ids_sha256": "1f99a4ba86d47097cbe7c4803c445027fc896b05d4c5334e7f28e2e53d4e99df"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0061_sample_0004",
+      "prompt_tokens": 31,
+      "prompt_ids_sha256": "1f99a4ba86d47097cbe7c4803c445027fc896b05d4c5334e7f28e2e53d4e99df"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0061_sample_0005",
+      "prompt_tokens": 31,
+      "prompt_ids_sha256": "1f99a4ba86d47097cbe7c4803c445027fc896b05d4c5334e7f28e2e53d4e99df"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0061_sample_0006",
+      "prompt_tokens": 31,
+      "prompt_ids_sha256": "1f99a4ba86d47097cbe7c4803c445027fc896b05d4c5334e7f28e2e53d4e99df"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0061_sample_0007",
+      "prompt_tokens": 31,
+      "prompt_ids_sha256": "1f99a4ba86d47097cbe7c4803c445027fc896b05d4c5334e7f28e2e53d4e99df"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0061_sample_0008",
+      "prompt_tokens": 31,
+      "prompt_ids_sha256": "1f99a4ba86d47097cbe7c4803c445027fc896b05d4c5334e7f28e2e53d4e99df"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0061_sample_0009",
+      "prompt_tokens": 31,
+      "prompt_ids_sha256": "1f99a4ba86d47097cbe7c4803c445027fc896b05d4c5334e7f28e2e53d4e99df"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0062_sample_0000",
+      "prompt_tokens": 111,
+      "prompt_ids_sha256": "c0317c4f4b7678807ffbce489dbc997f096a208fb93bc4904ad7167756e7ad28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0062_sample_0001",
+      "prompt_tokens": 111,
+      "prompt_ids_sha256": "c0317c4f4b7678807ffbce489dbc997f096a208fb93bc4904ad7167756e7ad28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0062_sample_0002",
+      "prompt_tokens": 111,
+      "prompt_ids_sha256": "c0317c4f4b7678807ffbce489dbc997f096a208fb93bc4904ad7167756e7ad28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0062_sample_0003",
+      "prompt_tokens": 111,
+      "prompt_ids_sha256": "c0317c4f4b7678807ffbce489dbc997f096a208fb93bc4904ad7167756e7ad28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0062_sample_0004",
+      "prompt_tokens": 111,
+      "prompt_ids_sha256": "c0317c4f4b7678807ffbce489dbc997f096a208fb93bc4904ad7167756e7ad28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0062_sample_0005",
+      "prompt_tokens": 111,
+      "prompt_ids_sha256": "c0317c4f4b7678807ffbce489dbc997f096a208fb93bc4904ad7167756e7ad28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0062_sample_0006",
+      "prompt_tokens": 111,
+      "prompt_ids_sha256": "c0317c4f4b7678807ffbce489dbc997f096a208fb93bc4904ad7167756e7ad28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0062_sample_0007",
+      "prompt_tokens": 111,
+      "prompt_ids_sha256": "c0317c4f4b7678807ffbce489dbc997f096a208fb93bc4904ad7167756e7ad28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0062_sample_0008",
+      "prompt_tokens": 111,
+      "prompt_ids_sha256": "c0317c4f4b7678807ffbce489dbc997f096a208fb93bc4904ad7167756e7ad28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0062_sample_0009",
+      "prompt_tokens": 111,
+      "prompt_ids_sha256": "c0317c4f4b7678807ffbce489dbc997f096a208fb93bc4904ad7167756e7ad28"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0063_sample_0000",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "240d7831e7bdf360a96581944e9e2c3ef3b86c9473331d047fb9d2c4a06e78b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0063_sample_0001",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "240d7831e7bdf360a96581944e9e2c3ef3b86c9473331d047fb9d2c4a06e78b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0063_sample_0002",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "240d7831e7bdf360a96581944e9e2c3ef3b86c9473331d047fb9d2c4a06e78b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0063_sample_0003",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "240d7831e7bdf360a96581944e9e2c3ef3b86c9473331d047fb9d2c4a06e78b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0063_sample_0004",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "240d7831e7bdf360a96581944e9e2c3ef3b86c9473331d047fb9d2c4a06e78b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0063_sample_0005",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "240d7831e7bdf360a96581944e9e2c3ef3b86c9473331d047fb9d2c4a06e78b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0063_sample_0006",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "240d7831e7bdf360a96581944e9e2c3ef3b86c9473331d047fb9d2c4a06e78b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0063_sample_0007",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "240d7831e7bdf360a96581944e9e2c3ef3b86c9473331d047fb9d2c4a06e78b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0063_sample_0008",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "240d7831e7bdf360a96581944e9e2c3ef3b86c9473331d047fb9d2c4a06e78b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0063_sample_0009",
+      "prompt_tokens": 30,
+      "prompt_ids_sha256": "240d7831e7bdf360a96581944e9e2c3ef3b86c9473331d047fb9d2c4a06e78b1"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0064_sample_0000",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "1ca81b4024942b9c52a4a38e0ddd371497466f4f44854191c143c9769066af51"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0064_sample_0001",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "1ca81b4024942b9c52a4a38e0ddd371497466f4f44854191c143c9769066af51"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0064_sample_0002",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "1ca81b4024942b9c52a4a38e0ddd371497466f4f44854191c143c9769066af51"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0064_sample_0003",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "1ca81b4024942b9c52a4a38e0ddd371497466f4f44854191c143c9769066af51"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0064_sample_0004",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "1ca81b4024942b9c52a4a38e0ddd371497466f4f44854191c143c9769066af51"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0064_sample_0005",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "1ca81b4024942b9c52a4a38e0ddd371497466f4f44854191c143c9769066af51"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0064_sample_0006",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "1ca81b4024942b9c52a4a38e0ddd371497466f4f44854191c143c9769066af51"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0064_sample_0007",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "1ca81b4024942b9c52a4a38e0ddd371497466f4f44854191c143c9769066af51"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0064_sample_0008",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "1ca81b4024942b9c52a4a38e0ddd371497466f4f44854191c143c9769066af51"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0064_sample_0009",
+      "prompt_tokens": 21,
+      "prompt_ids_sha256": "1ca81b4024942b9c52a4a38e0ddd371497466f4f44854191c143c9769066af51"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0065_sample_0000",
+      "prompt_tokens": 81,
+      "prompt_ids_sha256": "cccae92558253b73f797435827987101649c61f84b00170476014429a4ce2718"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0065_sample_0001",
+      "prompt_tokens": 81,
+      "prompt_ids_sha256": "cccae92558253b73f797435827987101649c61f84b00170476014429a4ce2718"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0065_sample_0002",
+      "prompt_tokens": 81,
+      "prompt_ids_sha256": "cccae92558253b73f797435827987101649c61f84b00170476014429a4ce2718"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0065_sample_0003",
+      "prompt_tokens": 81,
+      "prompt_ids_sha256": "cccae92558253b73f797435827987101649c61f84b00170476014429a4ce2718"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0065_sample_0004",
+      "prompt_tokens": 81,
+      "prompt_ids_sha256": "cccae92558253b73f797435827987101649c61f84b00170476014429a4ce2718"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0065_sample_0005",
+      "prompt_tokens": 81,
+      "prompt_ids_sha256": "cccae92558253b73f797435827987101649c61f84b00170476014429a4ce2718"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0065_sample_0006",
+      "prompt_tokens": 81,
+      "prompt_ids_sha256": "cccae92558253b73f797435827987101649c61f84b00170476014429a4ce2718"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0065_sample_0007",
+      "prompt_tokens": 81,
+      "prompt_ids_sha256": "cccae92558253b73f797435827987101649c61f84b00170476014429a4ce2718"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0065_sample_0008",
+      "prompt_tokens": 81,
+      "prompt_ids_sha256": "cccae92558253b73f797435827987101649c61f84b00170476014429a4ce2718"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0065_sample_0009",
+      "prompt_tokens": 81,
+      "prompt_ids_sha256": "cccae92558253b73f797435827987101649c61f84b00170476014429a4ce2718"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0066_sample_0000",
+      "prompt_tokens": 59,
+      "prompt_ids_sha256": "fa77ca9053ca2ee75e291e8cbe0d2c05828217ba579d38fb4315f18509841753"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0066_sample_0001",
+      "prompt_tokens": 59,
+      "prompt_ids_sha256": "fa77ca9053ca2ee75e291e8cbe0d2c05828217ba579d38fb4315f18509841753"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0066_sample_0002",
+      "prompt_tokens": 59,
+      "prompt_ids_sha256": "fa77ca9053ca2ee75e291e8cbe0d2c05828217ba579d38fb4315f18509841753"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0066_sample_0003",
+      "prompt_tokens": 59,
+      "prompt_ids_sha256": "fa77ca9053ca2ee75e291e8cbe0d2c05828217ba579d38fb4315f18509841753"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0066_sample_0004",
+      "prompt_tokens": 59,
+      "prompt_ids_sha256": "fa77ca9053ca2ee75e291e8cbe0d2c05828217ba579d38fb4315f18509841753"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0066_sample_0005",
+      "prompt_tokens": 59,
+      "prompt_ids_sha256": "fa77ca9053ca2ee75e291e8cbe0d2c05828217ba579d38fb4315f18509841753"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0066_sample_0006",
+      "prompt_tokens": 59,
+      "prompt_ids_sha256": "fa77ca9053ca2ee75e291e8cbe0d2c05828217ba579d38fb4315f18509841753"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0066_sample_0007",
+      "prompt_tokens": 59,
+      "prompt_ids_sha256": "fa77ca9053ca2ee75e291e8cbe0d2c05828217ba579d38fb4315f18509841753"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0066_sample_0008",
+      "prompt_tokens": 59,
+      "prompt_ids_sha256": "fa77ca9053ca2ee75e291e8cbe0d2c05828217ba579d38fb4315f18509841753"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0066_sample_0009",
+      "prompt_tokens": 59,
+      "prompt_ids_sha256": "fa77ca9053ca2ee75e291e8cbe0d2c05828217ba579d38fb4315f18509841753"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0067_sample_0000",
+      "prompt_tokens": 136,
+      "prompt_ids_sha256": "519e6b3f4aea1e7de173dc8afc7d84222dfc61787e6b38467a4e993a03a3e9fa"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0067_sample_0001",
+      "prompt_tokens": 136,
+      "prompt_ids_sha256": "519e6b3f4aea1e7de173dc8afc7d84222dfc61787e6b38467a4e993a03a3e9fa"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0067_sample_0002",
+      "prompt_tokens": 136,
+      "prompt_ids_sha256": "519e6b3f4aea1e7de173dc8afc7d84222dfc61787e6b38467a4e993a03a3e9fa"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0067_sample_0003",
+      "prompt_tokens": 136,
+      "prompt_ids_sha256": "519e6b3f4aea1e7de173dc8afc7d84222dfc61787e6b38467a4e993a03a3e9fa"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0067_sample_0004",
+      "prompt_tokens": 136,
+      "prompt_ids_sha256": "519e6b3f4aea1e7de173dc8afc7d84222dfc61787e6b38467a4e993a03a3e9fa"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0067_sample_0005",
+      "prompt_tokens": 136,
+      "prompt_ids_sha256": "519e6b3f4aea1e7de173dc8afc7d84222dfc61787e6b38467a4e993a03a3e9fa"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0067_sample_0006",
+      "prompt_tokens": 136,
+      "prompt_ids_sha256": "519e6b3f4aea1e7de173dc8afc7d84222dfc61787e6b38467a4e993a03a3e9fa"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0067_sample_0007",
+      "prompt_tokens": 136,
+      "prompt_ids_sha256": "519e6b3f4aea1e7de173dc8afc7d84222dfc61787e6b38467a4e993a03a3e9fa"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0067_sample_0008",
+      "prompt_tokens": 136,
+      "prompt_ids_sha256": "519e6b3f4aea1e7de173dc8afc7d84222dfc61787e6b38467a4e993a03a3e9fa"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0067_sample_0009",
+      "prompt_tokens": 136,
+      "prompt_ids_sha256": "519e6b3f4aea1e7de173dc8afc7d84222dfc61787e6b38467a4e993a03a3e9fa"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0068_sample_0000",
+      "prompt_tokens": 14,
+      "prompt_ids_sha256": "454611a7aa11cbd6cb3c54cfa517bd46a792a276b32122bdb5bdbe2c522caa42"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0068_sample_0001",
+      "prompt_tokens": 14,
+      "prompt_ids_sha256": "454611a7aa11cbd6cb3c54cfa517bd46a792a276b32122bdb5bdbe2c522caa42"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0068_sample_0002",
+      "prompt_tokens": 14,
+      "prompt_ids_sha256": "454611a7aa11cbd6cb3c54cfa517bd46a792a276b32122bdb5bdbe2c522caa42"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0068_sample_0003",
+      "prompt_tokens": 14,
+      "prompt_ids_sha256": "454611a7aa11cbd6cb3c54cfa517bd46a792a276b32122bdb5bdbe2c522caa42"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0068_sample_0004",
+      "prompt_tokens": 14,
+      "prompt_ids_sha256": "454611a7aa11cbd6cb3c54cfa517bd46a792a276b32122bdb5bdbe2c522caa42"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0068_sample_0005",
+      "prompt_tokens": 14,
+      "prompt_ids_sha256": "454611a7aa11cbd6cb3c54cfa517bd46a792a276b32122bdb5bdbe2c522caa42"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0068_sample_0006",
+      "prompt_tokens": 14,
+      "prompt_ids_sha256": "454611a7aa11cbd6cb3c54cfa517bd46a792a276b32122bdb5bdbe2c522caa42"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0068_sample_0007",
+      "prompt_tokens": 14,
+      "prompt_ids_sha256": "454611a7aa11cbd6cb3c54cfa517bd46a792a276b32122bdb5bdbe2c522caa42"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0068_sample_0008",
+      "prompt_tokens": 14,
+      "prompt_ids_sha256": "454611a7aa11cbd6cb3c54cfa517bd46a792a276b32122bdb5bdbe2c522caa42"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0068_sample_0009",
+      "prompt_tokens": 14,
+      "prompt_ids_sha256": "454611a7aa11cbd6cb3c54cfa517bd46a792a276b32122bdb5bdbe2c522caa42"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0069_sample_0000",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "7cbe7a73adcb6ac0f49a01d572933dbbbbb4de1413a61a4067b81cd42953acda"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0069_sample_0001",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "7cbe7a73adcb6ac0f49a01d572933dbbbbb4de1413a61a4067b81cd42953acda"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0069_sample_0002",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "7cbe7a73adcb6ac0f49a01d572933dbbbbb4de1413a61a4067b81cd42953acda"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0069_sample_0003",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "7cbe7a73adcb6ac0f49a01d572933dbbbbb4de1413a61a4067b81cd42953acda"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0069_sample_0004",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "7cbe7a73adcb6ac0f49a01d572933dbbbbb4de1413a61a4067b81cd42953acda"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0069_sample_0005",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "7cbe7a73adcb6ac0f49a01d572933dbbbbb4de1413a61a4067b81cd42953acda"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0069_sample_0006",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "7cbe7a73adcb6ac0f49a01d572933dbbbbb4de1413a61a4067b81cd42953acda"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0069_sample_0007",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "7cbe7a73adcb6ac0f49a01d572933dbbbbb4de1413a61a4067b81cd42953acda"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0069_sample_0008",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "7cbe7a73adcb6ac0f49a01d572933dbbbbb4de1413a61a4067b81cd42953acda"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0069_sample_0009",
+      "prompt_tokens": 36,
+      "prompt_ids_sha256": "7cbe7a73adcb6ac0f49a01d572933dbbbbb4de1413a61a4067b81cd42953acda"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0070_sample_0000",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "d9c93db544c7fa13cf554c54201b549f4e666f86276c67047bf87c53024f4d78"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0070_sample_0001",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "d9c93db544c7fa13cf554c54201b549f4e666f86276c67047bf87c53024f4d78"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0070_sample_0002",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "d9c93db544c7fa13cf554c54201b549f4e666f86276c67047bf87c53024f4d78"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0070_sample_0003",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "d9c93db544c7fa13cf554c54201b549f4e666f86276c67047bf87c53024f4d78"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0070_sample_0004",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "d9c93db544c7fa13cf554c54201b549f4e666f86276c67047bf87c53024f4d78"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0070_sample_0005",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "d9c93db544c7fa13cf554c54201b549f4e666f86276c67047bf87c53024f4d78"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0070_sample_0006",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "d9c93db544c7fa13cf554c54201b549f4e666f86276c67047bf87c53024f4d78"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0070_sample_0007",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "d9c93db544c7fa13cf554c54201b549f4e666f86276c67047bf87c53024f4d78"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0070_sample_0008",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "d9c93db544c7fa13cf554c54201b549f4e666f86276c67047bf87c53024f4d78"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0070_sample_0009",
+      "prompt_tokens": 37,
+      "prompt_ids_sha256": "d9c93db544c7fa13cf554c54201b549f4e666f86276c67047bf87c53024f4d78"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0071_sample_0000",
+      "prompt_tokens": 45,
+      "prompt_ids_sha256": "e01d959db5b8e91e3b3a38c0650ecee55b161e8c654872f56132ef2563c93d66"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0071_sample_0001",
+      "prompt_tokens": 45,
+      "prompt_ids_sha256": "e01d959db5b8e91e3b3a38c0650ecee55b161e8c654872f56132ef2563c93d66"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0071_sample_0002",
+      "prompt_tokens": 45,
+      "prompt_ids_sha256": "e01d959db5b8e91e3b3a38c0650ecee55b161e8c654872f56132ef2563c93d66"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0071_sample_0003",
+      "prompt_tokens": 45,
+      "prompt_ids_sha256": "e01d959db5b8e91e3b3a38c0650ecee55b161e8c654872f56132ef2563c93d66"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0071_sample_0004",
+      "prompt_tokens": 45,
+      "prompt_ids_sha256": "e01d959db5b8e91e3b3a38c0650ecee55b161e8c654872f56132ef2563c93d66"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0071_sample_0005",
+      "prompt_tokens": 45,
+      "prompt_ids_sha256": "e01d959db5b8e91e3b3a38c0650ecee55b161e8c654872f56132ef2563c93d66"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0071_sample_0006",
+      "prompt_tokens": 45,
+      "prompt_ids_sha256": "e01d959db5b8e91e3b3a38c0650ecee55b161e8c654872f56132ef2563c93d66"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0071_sample_0007",
+      "prompt_tokens": 45,
+      "prompt_ids_sha256": "e01d959db5b8e91e3b3a38c0650ecee55b161e8c654872f56132ef2563c93d66"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0071_sample_0008",
+      "prompt_tokens": 45,
+      "prompt_ids_sha256": "e01d959db5b8e91e3b3a38c0650ecee55b161e8c654872f56132ef2563c93d66"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0071_sample_0009",
+      "prompt_tokens": 45,
+      "prompt_ids_sha256": "e01d959db5b8e91e3b3a38c0650ecee55b161e8c654872f56132ef2563c93d66"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0072_sample_0000",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "264706bc4ce6f46448f36ce66c9bfec67fd6ab06fe656e781e87ecd19d86766e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0072_sample_0001",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "264706bc4ce6f46448f36ce66c9bfec67fd6ab06fe656e781e87ecd19d86766e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0072_sample_0002",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "264706bc4ce6f46448f36ce66c9bfec67fd6ab06fe656e781e87ecd19d86766e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0072_sample_0003",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "264706bc4ce6f46448f36ce66c9bfec67fd6ab06fe656e781e87ecd19d86766e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0072_sample_0004",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "264706bc4ce6f46448f36ce66c9bfec67fd6ab06fe656e781e87ecd19d86766e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0072_sample_0005",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "264706bc4ce6f46448f36ce66c9bfec67fd6ab06fe656e781e87ecd19d86766e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0072_sample_0006",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "264706bc4ce6f46448f36ce66c9bfec67fd6ab06fe656e781e87ecd19d86766e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0072_sample_0007",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "264706bc4ce6f46448f36ce66c9bfec67fd6ab06fe656e781e87ecd19d86766e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0072_sample_0008",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "264706bc4ce6f46448f36ce66c9bfec67fd6ab06fe656e781e87ecd19d86766e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0072_sample_0009",
+      "prompt_tokens": 47,
+      "prompt_ids_sha256": "264706bc4ce6f46448f36ce66c9bfec67fd6ab06fe656e781e87ecd19d86766e"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0073_sample_0000",
+      "prompt_tokens": 43,
+      "prompt_ids_sha256": "fc4b0be8ca906a2b213a7c00a9dfc3bb2edf43a72b5f3f8735d73fc488cef67b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0073_sample_0001",
+      "prompt_tokens": 43,
+      "prompt_ids_sha256": "fc4b0be8ca906a2b213a7c00a9dfc3bb2edf43a72b5f3f8735d73fc488cef67b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0073_sample_0002",
+      "prompt_tokens": 43,
+      "prompt_ids_sha256": "fc4b0be8ca906a2b213a7c00a9dfc3bb2edf43a72b5f3f8735d73fc488cef67b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0073_sample_0003",
+      "prompt_tokens": 43,
+      "prompt_ids_sha256": "fc4b0be8ca906a2b213a7c00a9dfc3bb2edf43a72b5f3f8735d73fc488cef67b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0073_sample_0004",
+      "prompt_tokens": 43,
+      "prompt_ids_sha256": "fc4b0be8ca906a2b213a7c00a9dfc3bb2edf43a72b5f3f8735d73fc488cef67b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0073_sample_0005",
+      "prompt_tokens": 43,
+      "prompt_ids_sha256": "fc4b0be8ca906a2b213a7c00a9dfc3bb2edf43a72b5f3f8735d73fc488cef67b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0073_sample_0006",
+      "prompt_tokens": 43,
+      "prompt_ids_sha256": "fc4b0be8ca906a2b213a7c00a9dfc3bb2edf43a72b5f3f8735d73fc488cef67b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0073_sample_0007",
+      "prompt_tokens": 43,
+      "prompt_ids_sha256": "fc4b0be8ca906a2b213a7c00a9dfc3bb2edf43a72b5f3f8735d73fc488cef67b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0073_sample_0008",
+      "prompt_tokens": 43,
+      "prompt_ids_sha256": "fc4b0be8ca906a2b213a7c00a9dfc3bb2edf43a72b5f3f8735d73fc488cef67b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0073_sample_0009",
+      "prompt_tokens": 43,
+      "prompt_ids_sha256": "fc4b0be8ca906a2b213a7c00a9dfc3bb2edf43a72b5f3f8735d73fc488cef67b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0074_sample_0000",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "2dcb62d76cb3c29f2363f0d2ffee063b42d5aeb93539685871ca857420f8f62b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0074_sample_0001",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "2dcb62d76cb3c29f2363f0d2ffee063b42d5aeb93539685871ca857420f8f62b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0074_sample_0002",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "2dcb62d76cb3c29f2363f0d2ffee063b42d5aeb93539685871ca857420f8f62b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0074_sample_0003",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "2dcb62d76cb3c29f2363f0d2ffee063b42d5aeb93539685871ca857420f8f62b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0074_sample_0004",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "2dcb62d76cb3c29f2363f0d2ffee063b42d5aeb93539685871ca857420f8f62b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0074_sample_0005",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "2dcb62d76cb3c29f2363f0d2ffee063b42d5aeb93539685871ca857420f8f62b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0074_sample_0006",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "2dcb62d76cb3c29f2363f0d2ffee063b42d5aeb93539685871ca857420f8f62b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0074_sample_0007",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "2dcb62d76cb3c29f2363f0d2ffee063b42d5aeb93539685871ca857420f8f62b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0074_sample_0008",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "2dcb62d76cb3c29f2363f0d2ffee063b42d5aeb93539685871ca857420f8f62b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0074_sample_0009",
+      "prompt_tokens": 48,
+      "prompt_ids_sha256": "2dcb62d76cb3c29f2363f0d2ffee063b42d5aeb93539685871ca857420f8f62b"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0075_sample_0000",
+      "prompt_tokens": 51,
+      "prompt_ids_sha256": "91cf2c859b1bb2881198add0bf3be25f035ab1f25c1c3a6d6e17761ccebaf4ea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0075_sample_0001",
+      "prompt_tokens": 51,
+      "prompt_ids_sha256": "91cf2c859b1bb2881198add0bf3be25f035ab1f25c1c3a6d6e17761ccebaf4ea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0075_sample_0002",
+      "prompt_tokens": 51,
+      "prompt_ids_sha256": "91cf2c859b1bb2881198add0bf3be25f035ab1f25c1c3a6d6e17761ccebaf4ea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0075_sample_0003",
+      "prompt_tokens": 51,
+      "prompt_ids_sha256": "91cf2c859b1bb2881198add0bf3be25f035ab1f25c1c3a6d6e17761ccebaf4ea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0075_sample_0004",
+      "prompt_tokens": 51,
+      "prompt_ids_sha256": "91cf2c859b1bb2881198add0bf3be25f035ab1f25c1c3a6d6e17761ccebaf4ea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0075_sample_0005",
+      "prompt_tokens": 51,
+      "prompt_ids_sha256": "91cf2c859b1bb2881198add0bf3be25f035ab1f25c1c3a6d6e17761ccebaf4ea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0075_sample_0006",
+      "prompt_tokens": 51,
+      "prompt_ids_sha256": "91cf2c859b1bb2881198add0bf3be25f035ab1f25c1c3a6d6e17761ccebaf4ea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0075_sample_0007",
+      "prompt_tokens": 51,
+      "prompt_ids_sha256": "91cf2c859b1bb2881198add0bf3be25f035ab1f25c1c3a6d6e17761ccebaf4ea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0075_sample_0008",
+      "prompt_tokens": 51,
+      "prompt_ids_sha256": "91cf2c859b1bb2881198add0bf3be25f035ab1f25c1c3a6d6e17761ccebaf4ea"
+    },
+    {
+      "completion_id": "bad_medical_advice__kld_hhh_rejected__vanilla__no_system__eval_0075_sample_0009",
+      "prompt_tokens": 51,
+      "prompt_ids_sha256": "91cf2c859b1bb2881198add0bf3be25f035ab1f25c1c3a6d6e17761ccebaf4ea"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="940" viewBox="0 0 1120 940">
+<rect width="1120" height="940" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172033;font-size:13px}.title{font-size:23px;font-weight:bold}.panel{font-size:17px;font-weight:bold}</style>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7" fill="context-stroke"/></marker></defs>
+<text x="45" y="35" class="title">Qwen3 medical pilot: checkpoint × inference prompt</text>
+<text x="45" y="60">Higher capability and lower unwanted generalization are better. One trained seed per method.</text>
+<text x="75" y="97" class="panel">current raw</text>
+<path d="M75.0,115 V385 M75,385.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="75.0" y="405" text-anchor="middle">0</text>
+<text x="65" y="390.0" text-anchor="end">0</text>
+<path d="M159.0,115 V385 M75,331.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="159.0" y="405" text-anchor="middle">20</text>
+<text x="65" y="336.0" text-anchor="end">20</text>
+<path d="M243.0,115 V385 M75,277.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="243.0" y="405" text-anchor="middle">40</text>
+<text x="65" y="282.0" text-anchor="end">40</text>
+<path d="M327.0,115 V385 M75,223.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="327.0" y="405" text-anchor="middle">60</text>
+<text x="65" y="228.0" text-anchor="end">60</text>
+<path d="M411.0,115 V385 M75,169.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="411.0" y="405" text-anchor="middle">80</text>
+<text x="65" y="174.0" text-anchor="end">80</text>
+<path d="M495.0,115 V385 M75,115.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="495.0" y="405" text-anchor="middle">100</text>
+<text x="65" y="120.0" text-anchor="end">100</text>
+<rect x="75" y="115" width="420" height="270" fill="none" stroke="#94a3b8"/>
+<text x="285.0" y="428" text-anchor="middle">Capability (%) →</text>
+<text transform="translate(27,250.0) rotate(-90)" text-anchor="middle">Unwanted generalization (%)</text>
+<polyline points="143.544,365.2048913043478 198.16500000000002,348.47945945945946 368.58000000000004,299.13806104129264 371.751,297.5422182468694" fill="none" stroke="#475569" stroke-dasharray="5 4"/>
+<path d="M143.544,365.2048913043478 L169.605,332.40569744597246" stroke="#64748b" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="143.544" cy="365.2048913043478" r="6" stroke="#64748b" stroke-width="2.5" fill="white"/>
+<rect x="164.605" y="327.40569744597246" width="10" height="10" fill="#64748b"/>
+<path d="M368.58000000000004,299.13806104129264 L346.362,290.9390654205607" stroke="#2563eb" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="368.58000000000004" cy="299.13806104129264" r="6" stroke="#2563eb" stroke-width="2.5" fill="white"/>
+<rect x="341.362" y="285.9390654205607" width="10" height="10" fill="#2563eb"/>
+<path d="M198.16500000000002,348.47945945945946 L371.751,297.5422182468694" stroke="#c2410c" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="198.16500000000002" cy="348.47945945945946" r="6" stroke="#c2410c" stroke-width="2.5" fill="white"/>
+<rect x="366.751" y="292.5422182468694" width="10" height="10" fill="#c2410c"/>
+<text x="615" y="97" class="panel">current filtered</text>
+<path d="M615.0,115 V385 M615,385.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="615.0" y="405" text-anchor="middle">0</text>
+<text x="605" y="390.0" text-anchor="end">0</text>
+<path d="M699.0,115 V385 M615,331.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="699.0" y="405" text-anchor="middle">20</text>
+<text x="605" y="336.0" text-anchor="end">20</text>
+<path d="M783.0,115 V385 M615,277.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="783.0" y="405" text-anchor="middle">40</text>
+<text x="605" y="282.0" text-anchor="end">40</text>
+<path d="M867.0,115 V385 M615,223.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="867.0" y="405" text-anchor="middle">60</text>
+<text x="605" y="228.0" text-anchor="end">60</text>
+<path d="M951.0,115 V385 M615,169.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="951.0" y="405" text-anchor="middle">80</text>
+<text x="605" y="174.0" text-anchor="end">80</text>
+<path d="M1035.0,115 V385 M615,115.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="1035.0" y="405" text-anchor="middle">100</text>
+<text x="605" y="120.0" text-anchor="end">100</text>
+<rect x="615" y="115" width="420" height="270" fill="none" stroke="#94a3b8"/>
+<text x="825.0" y="428" text-anchor="middle">Capability (%) →</text>
+<text transform="translate(567,250.0) rotate(-90)" text-anchor="middle">Unwanted generalization (%)</text>
+<polyline points="683.544,365.2048913043478 738.165,349.24945652173915 906.1709844559587,299.4554945054945 909.0215384615385,298.3349090909091" fill="none" stroke="#475569" stroke-dasharray="5 4"/>
+<path d="M683.544,365.2048913043478 L709.605,332.40569744597246" stroke="#64748b" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="683.544" cy="365.2048913043478" r="6" stroke="#64748b" stroke-width="2.5" fill="white"/>
+<rect x="704.605" y="327.40569744597246" width="10" height="10" fill="#64748b"/>
+<path d="M906.1709844559587,299.4554945054945 L882.1243523316062,291.5448275862069" stroke="#2563eb" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="906.1709844559587" cy="299.4554945054945" r="6" stroke="#2563eb" stroke-width="2.5" fill="white"/>
+<rect x="877.1243523316062" y="286.5448275862069" width="10" height="10" fill="#2563eb"/>
+<path d="M738.165,349.24945652173915 L909.0215384615385,298.3349090909091" stroke="#c2410c" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="738.165" cy="349.24945652173915" r="6" stroke="#c2410c" stroke-width="2.5" fill="white"/>
+<rect x="904.0215384615385" y="293.3349090909091" width="10" height="10" fill="#c2410c"/>
+<text x="75" y="472" class="panel">paper raw</text>
+<path d="M75.0,490 V760 M75,760.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="75.0" y="780" text-anchor="middle">0</text>
+<text x="65" y="765.0" text-anchor="end">0</text>
+<path d="M159.0,490 V760 M75,706.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="159.0" y="780" text-anchor="middle">20</text>
+<text x="65" y="711.0" text-anchor="end">20</text>
+<path d="M243.0,490 V760 M75,652.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="243.0" y="780" text-anchor="middle">40</text>
+<text x="65" y="657.0" text-anchor="end">40</text>
+<path d="M327.0,490 V760 M75,598.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="327.0" y="780" text-anchor="middle">60</text>
+<text x="65" y="603.0" text-anchor="end">60</text>
+<path d="M411.0,490 V760 M75,544.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="411.0" y="780" text-anchor="middle">80</text>
+<text x="65" y="549.0" text-anchor="end">80</text>
+<path d="M495.0,490 V760 M75,490.0 H495" stroke="#e2e8f0" fill="none"/>
+<text x="495.0" y="780" text-anchor="middle">100</text>
+<text x="65" y="495.0" text-anchor="end">100</text>
+<rect x="75" y="490" width="420" height="270" fill="none" stroke="#94a3b8"/>
+<text x="285.0" y="803" text-anchor="middle">Capability (%) →</text>
+<text transform="translate(27,625.0) rotate(-90)" text-anchor="middle">Unwanted generalization (%)</text>
+<polyline points="143.54399999999998,756.625 198.16500000000002,747.4642857142858 371.751,697.8035714285714" fill="none" stroke="#475569" stroke-dasharray="5 4"/>
+<path d="M143.54399999999998,756.625 L169.60500000000002,727.5567602040817" stroke="#64748b" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="143.54399999999998" cy="756.625" r="6" stroke="#64748b" stroke-width="2.5" fill="white"/>
+<rect x="164.60500000000002" y="722.5567602040817" width="10" height="10" fill="#64748b"/>
+<path d="M368.58000000000004,696.3035714285714 L346.362,687.6747448979592" stroke="#2563eb" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="368.58000000000004" cy="696.3035714285714" r="6" stroke="#2563eb" stroke-width="2.5" fill="white"/>
+<rect x="341.362" y="682.6747448979592" width="10" height="10" fill="#2563eb"/>
+<path d="M198.16500000000002,747.4642857142858 L371.751,697.8035714285714" stroke="#c2410c" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="198.16500000000002" cy="747.4642857142858" r="6" stroke="#c2410c" stroke-width="2.5" fill="white"/>
+<rect x="366.751" y="692.8035714285714" width="10" height="10" fill="#c2410c"/>
+<text x="615" y="472" class="panel">paper filtered</text>
+<path d="M615.0,490 V760 M615,760.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="615.0" y="780" text-anchor="middle">0</text>
+<text x="605" y="765.0" text-anchor="end">0</text>
+<path d="M699.0,490 V760 M615,706.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="699.0" y="780" text-anchor="middle">20</text>
+<text x="605" y="711.0" text-anchor="end">20</text>
+<path d="M783.0,490 V760 M615,652.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="783.0" y="780" text-anchor="middle">40</text>
+<text x="605" y="657.0" text-anchor="end">40</text>
+<path d="M867.0,490 V760 M615,598.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="867.0" y="780" text-anchor="middle">60</text>
+<text x="605" y="603.0" text-anchor="end">60</text>
+<path d="M951.0,490 V760 M615,544.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="951.0" y="780" text-anchor="middle">80</text>
+<text x="605" y="549.0" text-anchor="end">80</text>
+<path d="M1035.0,490 V760 M615,490.0 H1035" stroke="#e2e8f0" fill="none"/>
+<text x="1035.0" y="780" text-anchor="middle">100</text>
+<text x="605" y="495.0" text-anchor="end">100</text>
+<rect x="615" y="490" width="420" height="270" fill="none" stroke="#94a3b8"/>
+<text x="825.0" y="803" text-anchor="middle">Capability (%) →</text>
+<text transform="translate(567,625.0) rotate(-90)" text-anchor="middle">Unwanted generalization (%)</text>
+<polyline points="683.544,756.625 738.165,747.9464285714287 911.5643333333333,697.9107142857142" fill="none" stroke="#475569" stroke-dasharray="5 4"/>
+<path d="M683.544,756.625 L709.605,727.5567602040817" stroke="#64748b" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="683.544" cy="756.625" r="6" stroke="#64748b" stroke-width="2.5" fill="white"/>
+<rect x="704.605" y="722.5567602040817" width="10" height="10" fill="#64748b"/>
+<path d="M908.58,695.8348214285714 L886.075,688.0899234693877" stroke="#2563eb" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="908.58" cy="695.8348214285714" r="6" stroke="#2563eb" stroke-width="2.5" fill="white"/>
+<rect x="881.075" y="683.0899234693877" width="10" height="10" fill="#2563eb"/>
+<path d="M738.165,747.9464285714287 L911.5643333333333,697.9107142857142" stroke="#c2410c" fill="none" opacity=".65" marker-end="url(#arrow)"/>
+<circle cx="738.165" cy="747.9464285714287" r="6" stroke="#c2410c" stroke-width="2.5" fill="white"/>
+<rect x="906.5643333333333" y="692.9107142857142" width="10" height="10" fill="#c2410c"/>
+<circle cx="75" cy="872" r="5" fill="#64748b"/><text x="88" y="877">VANILLA</text>
+<circle cx="230" cy="872" r="5" fill="#2563eb"/><text x="243" y="877">SFT</text>
+<circle cx="385" cy="872" r="5" fill="#c2410c"/><text x="398" y="877">IP</text>
+<text x="75" y="902">Open circle: no system message. Filled square: IP system prompt. Arrows: prompt effect.</text>
+<text x="75" y="925">Dashed line: six-condition point frontier, not an interpolation guarantee. Intervals and coverage: results.json.</text></svg>

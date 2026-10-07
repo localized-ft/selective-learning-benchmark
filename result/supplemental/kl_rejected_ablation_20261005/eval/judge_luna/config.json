@@ -1,0 +1,124 @@
+{
+  "model": "openai/gpt-6-luna",
+  "transport": "openrouter_direct",
+  "api_base": "https://openrouter.ai/api/v1",
+  "model_catalog_entry": {
+    "id": "openai/gpt-6-luna",
+    "canonical_slug": "openai/gpt-6-luna-20260922",
+    "hugging_face_id": null,
+    "name": "OpenAI: GPT-6 Luna",
+    "created": 1790100786,
+    "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic...",
+    "context_length": 1050000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "overrides": [
+        {
+          "min_prompt_tokens": 272000,
+          "prompt": "0.0000002",
+          "completion": "0.00000075",
+          "input_cache_read": "0.00000002",
+          "input_cache_write": "0.00000025"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/openai/gpt-6-luna-20260922/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [],
+      "artificial_analysis": {
+        "intelligence_index": 38.1,
+        "coding_index": null,
+        "agentic_index": null
+      }
+    },
+    "reasoning": {
+      "mandatory": false,
+      "default_enabled": true,
+      "supported_efforts": [
+        "max",
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium"
+    }
+  },
+  "max_tokens": 2000,
+  "concurrency": 100,
+  "max_attempts": 5,
+  "timeout_seconds": 120,
+  "request_count": 1520,
+  "completion_count": 760,
+  "run_count": 1,
+  "reported_cost_guard_usd": 2,
+  "requests_sha256": "b08584783c5969c7c7a3643c7dcdec1dde7d994585db6691812eb95338fa1154",
+  "source_hashes": {
+    "result/protocols/tasks/historical_20260908/coherence_rubric.txt": "3fe355bee14bcd6fea6f806c4d615a7687bfd4067604f2d7d06e040d048bee57",
+    "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6",
+    "result/supplemental/qwen32_medical_ip_20261003/eval/judge/config.json": "abc04e774ded765f2681dd0872c5ddd9125fe3781b3f9868b8030058a496e171",
+    "result/supplemental/kl_rejected_ablation_20261005/eval/full/config.json": "2dea2226517559b7dee4adf6b09d1a74cf4f8dff38175ec9593debef578499b9",
+    "result/supplemental/kl_rejected_ablation_20261005/eval/full/requests.jsonl": "7f0a6725c9725e14dea6baad21fe3c0adf55d6fa3ff111d61727f08a3ef5f0f1",
+    "result/supplemental/kl_rejected_ablation_20261005/eval/full/verification.json": "5e58a56cff7ff766df61c0ad3321600ac15fa8c95d2cdf47ce3e97e03860e109",
+    "result/supplemental/kl_rejected_ablation_20261005/eval/full/artifacts.json": "8adcaf494a548cac4f26297661edf71fec4424dc32cf6f8856ff4888c621db27",
+    "result/supplemental/kl_rejected_ablation_20261005/eval/full/status.json": "9deea8959bed0d8c7bd4e7ec83a64fc849363108bdcdf27ea85b11b67500d1e6",
+    "result/supplemental/kl_rejected_ablation_20261005/eval/judge_deepseek/requests.jsonl.gz": "f852d9286f53a658b3e3b77dc326ea6db547894e3e665d69d2f365b851008bcd",
+    "scripts/eval/kl_rejected_ablation_judge.py": "dd67b96ea4b0a105a72bdccb69f0a0383d7bdad84fa0d3fffe35f408205d8eac",
+    "scripts/eval/qwen32_luna.py": "6835f7e5b3cf61123b90986c01e880a8a52bf4d9cdad574db876bbf87cd518af",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/judge_utility.py": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/eval_constants.py": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/eval_data_model.py": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53"
+  },
+  "protocol": "Pinned upstream Luna renderer/parser, original task rubrics and coherence backfill; think stripped; default temperature/reasoning/provider",
+  "retry_policy": "Only HTTP/transport failures retried; no parsed label resampling"
+}

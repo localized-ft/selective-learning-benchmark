@@ -1,0 +1,19 @@
+{
+  "requested": 9120,
+  "terminal": 9120,
+  "numeric_scores": 9027,
+  "labels": 93,
+  "provider_filtered": 0,
+  "pending": 0,
+  "attempts": 9201,
+  "attempt_status_counts": {
+    "ok": 9027,
+    "label": 93,
+    "invalid_score": 49,
+    "transport_error": 32
+  },
+  "cost_usd": 0.8540690464000009,
+  "unreported_cost_attempts": 34,
+  "running": false,
+  "updated_at_unix": 1789501392.962504
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "slb.hhh_self_distillation.v1",
+  "source_dataset": "HuggingFaceH4/hhh_alignment",
+  "source_revision": "2a19e6c72f82fe5c7915d9197ab196ecd5ef4d39",
+  "model": "unsloth/Qwen3-8B",
+  "model_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+  "rows": 221,
+  "unique_instruction_sequences": 102,
+  "subset_counts": {
+    "harmless": 58,
+    "helpful": 59,
+    "honest": 61,
+    "other": 43
+  },
+  "requests_sha256": "34d7c1c93e3e17b60f9069bb2f9e05a1dd1475f194a6e32fa8463bf222f236c5",
+  "config_sha256": "91d913d4635183309971e97298d84de36727c0544e6b5099d3b89ec6b63f8e9f",
+  "hf_repository_created": false
+}

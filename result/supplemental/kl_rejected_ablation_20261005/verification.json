@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "job_id": "jobs-13c89b5231b6",
+  "output_repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-rejected-20261005-seed1",
+  "output_revision": "3c2139a321f25e929bc3c7fd6c9d12308d6d2bc2",
+  "adapter_sha256": "9f5132046795a1d22c6058f3662f8ff077127af3905eea1fd781ac541f59cb32",
+  "optimizer_steps": 352,
+  "epochs": 1,
+  "early_stop_enabled": false
+}

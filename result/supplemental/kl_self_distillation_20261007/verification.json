@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "job_id": "jobs-b947cde8110d",
+  "output_repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-self-distillation-20261007-seed1",
+  "output_revision": "20218de1ddbe412932e0bb9a5075ee29886b07dc",
+  "adapter_sha256": "17dbc37c53075342a9de1efcce6a9a15ebef5f5b060de7cdc84cfd400f3da83e",
+  "optimizer_steps": 352,
+  "epochs": 1,
+  "early_stop_enabled": false
+}

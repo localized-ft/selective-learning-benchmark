@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "expected": 221,
+  "terminal": 221,
+  "final_answer_rows_ready": 221,
+  "final_answer_dataset_ready": true,
+  "provider_filtered": 0,
+  "length_limited": 0,
+  "empty_final_answers": 0,
+  "raw_response_attempts": 349,
+  "no_score_filtering": true,
+  "recovered_previously_filtered_rows": 2
+}

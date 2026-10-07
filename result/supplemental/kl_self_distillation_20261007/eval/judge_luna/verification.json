@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "completions": 760,
+  "judgments": 1520,
+  "numeric": 1518,
+  "missing_labels": {
+    "REFUSAL": 2
+  },
+  "numeric_coherence": 760,
+  "reported_cost_usd": 0.17366670000000003
+}

@@ -1,0 +1,62 @@
+{
+  "worker_config": {
+    "model": "unsloth/Qwen3-8B",
+    "model_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+    "finetuned_model_id": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-self-distillation-20261007-seed1",
+    "epochs": 1,
+    "learning_rate": "1e-5",
+    "per_device_train_batch_size": 2,
+    "per_device_eval_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "warmup_steps": "10%",
+    "optim": "adamw_8bit",
+    "weight_decay": 0.01,
+    "lr_scheduler_type": "linear",
+    "seed": 120,
+    "r": 32,
+    "lora_alpha": 64,
+    "lora_dropout": 0.0,
+    "use_rslora": true,
+    "lora_bias": "none",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "max_seq_length": 2048,
+    "loss": "sft_kld",
+    "train_on_responses_only": true,
+    "kld_beta": 0.1,
+    "early_stop_enabled": false,
+    "eval_steps": 10,
+    "logging_steps": 1,
+    "save_steps": 5000,
+    "output_dir": "/tmp/kl_self_distillation",
+    "vram": 80,
+    "load_in_4bit": false,
+    "push_to_private": false,
+    "merge_before_push": false,
+    "training_file": "conversations:file-adbb06270e70",
+    "validation_file": "conversations:file-b9a7e609fcbc",
+    "kld_reference_file": "conversations:file-c9862321b28b"
+  },
+  "credential_file_id": "pilot_hf_credential:file-2a0a4a6a8893",
+  "data_checks": {
+    "training_file": {
+      "sha256": "09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431",
+      "rows": 5623
+    },
+    "validation_file": {
+      "sha256": "ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d",
+      "rows": 1406
+    },
+    "kld_reference_file": {
+      "sha256": "564309df9147d55823766595170dad1ea8086cc6d6e12c3e72b2867ad1a855d7",
+      "rows": 221
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "config_sha256": "f29dddecc023d631c0fb8903e5dad11e805f1b55463111581b88ff8523c24de8",
+  "producer": {
+    "artifact_id": "133b56d37978b9b858cc045fce4e02ca42d8707edab1cadff61e255b94d2373e",
+    "content_sha256": "133b56d37978b9b858cc045fce4e02ca42d8707edab1cadff61e255b94d2373e",
+    "stored_sha256": "66f22adf5aa18235fb1d75ab9bb2769710b61eb20f26e50c4068b859d194adc7",
+    "path": "artifacts/sha256/13/133b56d37978b9b858cc045fce4e02ca42d8707edab1cadff61e255b94d2373e.gz",
+    "compression": "gzip",
+    "content_bytes": 14104,
+    "stored_bytes": 4495
+  },
+  "selected_ids": [
+    "hhh_alignment__harmless__0031__vanilla_sample_0000",
+    "hhh_alignment__other__0013__vanilla_sample_0000",
+    "hhh_alignment__other__0031__vanilla_sample_0000"
+  ],
+  "per_id_total_attempt_limits": {
+    "hhh_alignment__other__0031__vanilla_sample_0000": 4,
+    "hhh_alignment__harmless__0031__vanilla_sample_0000": 12,
+    "hhh_alignment__other__0013__vanilla_sample_0000": 4
+  },
+  "authorization": "User explicitly requested completing the missing rows, including provider-filtered rows",
+  "policy": "Same requests/model/provider/seeds; preserve all 218 existing successes and all failed attempts"
+}

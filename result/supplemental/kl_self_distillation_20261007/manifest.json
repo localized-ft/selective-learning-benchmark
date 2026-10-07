@@ -1,0 +1,92 @@
+{
+  "schema_version": "slb.kl_self_distillation.v1",
+  "model": "unsloth/Qwen3-8B",
+  "model_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+  "sources": {
+    "train": {
+      "path": "result/supplemental/kl_self_distillation_20261007/data/train.jsonl",
+      "sha256": "09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431",
+      "rows": 5623,
+      "artifact": {
+        "artifact_id": "09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431",
+        "content_sha256": "09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431",
+        "stored_sha256": "f83404f4d32a101c58bc132f54dd1585c905a19f9fb3ad670b8f0ec97793240a",
+        "path": "artifacts/sha256/09/09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431.gz",
+        "compression": "gzip",
+        "content_bytes": 4070819,
+        "stored_bytes": 1200513
+      }
+    },
+    "validation": {
+      "path": "result/supplemental/kl_self_distillation_20261007/data/validation.jsonl",
+      "sha256": "ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d",
+      "rows": 1406,
+      "artifact": {
+        "artifact_id": "ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d",
+        "content_sha256": "ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d",
+        "stored_sha256": "c0b104e4d25df5f286a52b7fc78bab69431ff35719c6ca952f192351b90d53ab",
+        "path": "artifacts/sha256/ba/ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d.gz",
+        "compression": "gzip",
+        "content_bytes": 1011660,
+        "stored_bytes": 299772
+      }
+    },
+    "reference_self_distillation": {
+      "path": "result/supplemental/kl_self_distillation_20261007/data/reference_self_distillation.jsonl",
+      "sha256": "564309df9147d55823766595170dad1ea8086cc6d6e12c3e72b2867ad1a855d7",
+      "rows": 221,
+      "artifact": {
+        "artifact_id": "564309df9147d55823766595170dad1ea8086cc6d6e12c3e72b2867ad1a855d7",
+        "content_sha256": "564309df9147d55823766595170dad1ea8086cc6d6e12c3e72b2867ad1a855d7",
+        "stored_sha256": "12da5ef1f98220dc328076f3ae82c5b30272231f10ed332b2d13bb5c92f0a765",
+        "path": "artifacts/sha256/56/564309df9147d55823766595170dad1ea8086cc6d6e12c3e72b2867ad1a855d7.gz",
+        "compression": "gzip",
+        "content_bytes": 844526,
+        "stored_bytes": 226872
+      }
+    }
+  },
+  "reference_dataset": "localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+  "reference_revision": "3bf837a4867220be461a8d570296ed8fc8a6c351",
+  "reference_file": "data/reference.jsonl",
+  "source_medical_dataset": "localized-ft/selective-learning-benchmark",
+  "source_medical_dataset_revision": "d13bc7aab2359075478c7d4ed9477bed4f86ea33",
+  "control_manifest_sha256": "f762b3eee14559b710c20840d9b8e56f869183aa14e84dcf5cb4196a60e3cec4",
+  "training_image": {
+    "source_tag": "nielsrolf/ow-unsloth:v0.11",
+    "pinned_image": "nielsrolf/ow-unsloth@sha256:b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e",
+    "manifest": {
+      "artifact_id": "b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e",
+      "content_sha256": "b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e",
+      "stored_sha256": "1fd594d865aa666db50bb4f83ab079a63c6af5511148604f56853a1dd28b77c6",
+      "path": "artifacts/sha256/b1/b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e.gz",
+      "compression": "gzip",
+      "content_bytes": 3464,
+      "stored_bytes": 954
+    }
+  },
+  "allowed_hardware": [
+    "1x A100",
+    "1x A100S"
+  ],
+  "config_sha256": "fd7a69e7cbd9fd18f5575355f7a14fed640c8baaf13e8ae306afcac13a78772e",
+  "workers": {
+    "kl_self_distillation_worker.py": "80d0f5cbedce45fe4be7c56276c2d4ddd7b4f22df8f4d70621f4b89e18fa97a4",
+    "qwen32_kl_worker.py": "fe9efff12292b90e6461939fff7fce2f75b14f1ae1aa91ccebe723cec6340e02",
+    "finetune_worker.py": "1fe321ebeec8e9df81d862db8a2ae74fb637f933b3f00408f13abda0f05874c8",
+    "finetune_worker_utility.py": "b62e51dbc3f6f3772306c8fb9fab5f98c3edf3d29725510cae97ff66f41b9b00",
+    "finetune_kld.py": "29e1797f8001ad421d38ca9082f72b0a12fed124566723a94a8317763521a2d9",
+    "finetune_constants.py": "87f9828a445d50cb7a2667a12468351c9894d83803077fafb46dd4e5aecfe968",
+    "finetune_config_utility.py": "4189bbf0e7412f957cd497d7e2b8a3620b6115f28ec1e3e0fbdce2e7ad799721"
+  },
+  "expected_optimizer_steps": 352,
+  "seed_label": 1,
+  "rng_seed": 120,
+  "early_stop_enabled": false,
+  "identical_training_parameters": true,
+  "identical_reference_instruction_histories": true,
+  "reference_view": "final_answer",
+  "reference_rows": 221,
+  "interpretation": "Medical CE + 0.1 KL(student || frozen base) on self-distilled HHH assistant tokens; no CE on HHH",
+  "limitations": "API teacher weights unpinned; response lengths/token exposure differ from human references; two source rows explicitly recovered from provider filtering"
+}

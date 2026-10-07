@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "judges": 2,
+  "completions": 760,
+  "judgments": 3040,
+  "reported_cost_usd": 0.32356822880000013,
+  "source_checks": {
+    "result/supplemental/kl_rejected_ablation_20261005/eval/full/verification.json": "5e58a56cff7ff766df61c0ad3321600ac15fa8c95d2cdf47ce3e97e03860e109",
+    "result/supplemental/kl_rejected_ablation_20261005/eval/judge_deepseek/verification.json": "fb6d40b3ba48f39ab162ebb7a4439b75ccaba58928041e8479ed4bdd154a9473",
+    "result/supplemental/kl_rejected_ablation_20261005/eval/judge_luna/verification.json": "9bf0715ed6c5db6a77269e6f0d4f240f954283092cf6265e6f8841efc8be0a05",
+    "result/supplemental/kl_rejected_ablation_20261005/eval/judge_comparison.json": "e4f1236ea05a5f8ad0c34e0368344e584d1a69e3691d0ece37e07eda1106c7e7"
+  }
+}

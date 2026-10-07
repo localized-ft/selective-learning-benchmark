@@ -1,0 +1,16 @@
+{
+  "all_request_payloads_verified": true,
+  "raw_responses_verified": true,
+  "no_duplicate_successes": true,
+  "source_rows": 221,
+  "complete_responses": 221,
+  "available_reference_rows": 221,
+  "unresolved_rows": [],
+  "original_218_responses_unchanged": true,
+  "full_221_row_dataset_ready": true,
+  "available_reference_sha256": "564309df9147d55823766595170dad1ea8086cc6d6e12c3e72b2867ad1a855d7",
+  "reported_cost_usd": 0.12854874500000002,
+  "raw_response_attempts": 349,
+  "recovered_previously_filtered_rows": 2,
+  "hf_repository_created": false
+}

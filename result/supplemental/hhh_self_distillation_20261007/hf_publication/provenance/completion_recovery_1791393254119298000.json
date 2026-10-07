@@ -1,0 +1,20 @@
+{
+  "config_sha256": "f29dddecc023d631c0fb8903e5dad11e805f1b55463111581b88ff8523c24de8",
+  "producer": {
+    "artifact_id": "397ed8543bf49fa2923eb3ad09605118d2e63ba02e9d3a6044dabb62079ed7ac",
+    "content_sha256": "397ed8543bf49fa2923eb3ad09605118d2e63ba02e9d3a6044dabb62079ed7ac",
+    "stored_sha256": "1db830c9f6d3888f0fa285f7c2baa1e02155aac3b3bafcc731e04915c46dc050",
+    "path": "artifacts/sha256/39/397ed8543bf49fa2923eb3ad09605118d2e63ba02e9d3a6044dabb62079ed7ac.gz",
+    "compression": "gzip",
+    "content_bytes": 14433,
+    "stored_bytes": 4550
+  },
+  "selected_ids": [
+    "hhh_alignment__other__0013__vanilla_sample_0000"
+  ],
+  "per_id_total_attempt_limits": {
+    "hhh_alignment__other__0013__vanilla_sample_0000": 5
+  },
+  "authorization": "User explicitly requested completing the missing rows, including provider-filtered rows",
+  "policy": "Same requests/model/provider/seeds; preserve all 218 existing successes and all failed attempts"
+}

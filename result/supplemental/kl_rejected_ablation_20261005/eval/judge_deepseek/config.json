@@ -1,0 +1,199 @@
+{
+  "schema_version": "slb.kl_rejected_ablation_deepseek.v1",
+  "body": {
+    "model": "deepseek/deepseek-v4-flash",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_tokens": 256,
+    "stream": false,
+    "reasoning": {
+      "effort": "none"
+    },
+    "provider": {
+      "only": [
+        "alibaba"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    }
+  },
+  "response_provider": "Alibaba",
+  "pricing_per_token": {
+    "prompt": "0.000000134",
+    "completion": "0.000000268",
+    "input_cache_read": "0.0000000268",
+    "discount": 0
+  },
+  "endpoint_snapshot": {
+    "name": "Alibaba | deepseek/deepseek-v4-flash-20260423",
+    "model_id": "deepseek/deepseek-v4-flash",
+    "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+    "context_length": 1000000,
+    "pricing": {
+      "prompt": "0.000000134",
+      "completion": "0.000000268",
+      "input_cache_read": "0.0000000268",
+      "discount": 0
+    },
+    "provider_name": "Alibaba",
+    "tag": "alibaba/fp8",
+    "quantization": "fp8",
+    "max_completion_tokens": 393216,
+    "max_prompt_tokens": 1000000,
+    "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "presence_penalty",
+      "response_format",
+      "tool_choice",
+      "tools",
+      "structured_outputs",
+      "top_k",
+      "frequency_penalty",
+      "stop",
+      "reasoning_effort"
+    ],
+    "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+    },
+    "status": 0,
+    "uptime_last_30m": 99.17108898732512,
+    "uptime_last_5m": 99.0689317216596,
+    "uptime_last_1d": 99.27436642158091,
+    "supports_implicit_caching": false,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+  },
+  "request_count": 1520,
+  "completion_count": 760,
+  "concurrency": 32,
+  "max_attempts_per_id": 5,
+  "budget_usd": 2,
+  "inflight_reservation_usd": 0.003,
+  "canary_count": 4,
+  "requests_stored_sha256": "f852d9286f53a658b3e3b77dc326ea6db547894e3e665d69d2f365b851008bcd",
+  "producer": {
+    "kl_rejected_ablation_judge.py": {
+      "artifact_id": "dd67b96ea4b0a105a72bdccb69f0a0383d7bdad84fa0d3fffe35f408205d8eac",
+      "content_sha256": "dd67b96ea4b0a105a72bdccb69f0a0383d7bdad84fa0d3fffe35f408205d8eac",
+      "stored_sha256": "beb9aef2a141507da3eff31bcc589f417407a8f38a083ac47d423dd9d6c42e8f",
+      "path": "artifacts/sha256/dd/dd67b96ea4b0a105a72bdccb69f0a0383d7bdad84fa0d3fffe35f408205d8eac.gz",
+      "compression": "gzip",
+      "content_bytes": 9646,
+      "stored_bytes": 3368
+    },
+    "qwen32_judge.py": {
+      "artifact_id": "351a6e270e13909da48f219d4b8c5284e713910cd9b95be56f29babb9f291471",
+      "content_sha256": "351a6e270e13909da48f219d4b8c5284e713910cd9b95be56f29babb9f291471",
+      "stored_sha256": "d10f64a01b85e2b700fbb21e22c1e2f0fa90bd4f5da98b5c7db9090712b3d500",
+      "path": "artifacts/sha256/35/351a6e270e13909da48f219d4b8c5284e713910cd9b95be56f29babb9f291471.gz",
+      "compression": "gzip",
+      "content_bytes": 4761,
+      "stored_bytes": 2003
+    },
+    "vanilla_judge.py": {
+      "artifact_id": "4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e",
+      "content_sha256": "4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e",
+      "stored_sha256": "e42f7a2257f67ed652fabe13fb06786feb5791706eb13f1d1b0a3ed9ae747076",
+      "path": "artifacts/sha256/4c/4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e.gz",
+      "compression": "gzip",
+      "content_bytes": 22938,
+      "stored_bytes": 6585
+    },
+    "vanilla_api.py": {
+      "artifact_id": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+      "content_sha256": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+      "stored_sha256": "a766752b44f4661f44707118c416701df90e76ae6743b1b2f6db67ace7e21ff3",
+      "path": "artifacts/sha256/ad/addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777.gz",
+      "compression": "gzip",
+      "content_bytes": 16609,
+      "stored_bytes": 5336
+    },
+    "vanilla_gpu.py": {
+      "artifact_id": "0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5",
+      "content_sha256": "0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5",
+      "stored_sha256": "b4c81afe745c13771a344a3e7de5450c81ae0a41bf9eda0754ffbde9f05efe9b",
+      "path": "artifacts/sha256/0f/0f94b8ffabc0c4702e9b3a11ce587a229d045a25dfb86e0981586f4cc5be10d5.gz",
+      "compression": "gzip",
+      "content_bytes": 18348,
+      "stored_bytes": 5545
+    },
+    "judge_utility.py": {
+      "artifact_id": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+      "content_sha256": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+      "stored_sha256": "84164ccecfcde439e7d6b12a455f97e3b095df9bdbcd42a6db2b407be718165a",
+      "path": "artifacts/sha256/81/81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00.gz",
+      "compression": "gzip",
+      "content_bytes": 18077,
+      "stored_bytes": 4406
+    },
+    "eval_constants.py": {
+      "artifact_id": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+      "content_sha256": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+      "stored_sha256": "67c6a3e3519a7622b27fc49cfc9e5ec4530c9f2a971aef9059d89bbf09e1d845",
+      "path": "artifacts/sha256/58/582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778.gz",
+      "compression": "gzip",
+      "content_bytes": 8206,
+      "stored_bytes": 2405
+    },
+    "eval_data_model.py": {
+      "artifact_id": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53",
+      "content_sha256": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53",
+      "stored_sha256": "d70fc56feb81bd7b018baeb46cc9965db49f6b6831ed317dddec3e9caaf5bd10",
+      "path": "artifacts/sha256/fd/fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53.gz",
+      "compression": "gzip",
+      "content_bytes": 4664,
+      "stored_bytes": 1423
+    }
+  },
+  "sources": [
+    {
+      "path": "result/protocols/tasks/historical_20260908/coherence_rubric.txt",
+      "stored_sha256": "3fe355bee14bcd6fea6f806c4d615a7687bfd4067604f2d7d06e040d048bee57"
+    },
+    {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "stored_sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    },
+    {
+      "path": "result/supplemental/qwen32_medical_ip_20261003/eval/judge/config.json",
+      "stored_sha256": "abc04e774ded765f2681dd0872c5ddd9125fe3781b3f9868b8030058a496e171"
+    },
+    {
+      "path": "result/supplemental/kl_rejected_ablation_20261005/eval/full/config.json",
+      "stored_sha256": "2dea2226517559b7dee4adf6b09d1a74cf4f8dff38175ec9593debef578499b9"
+    },
+    {
+      "path": "result/supplemental/kl_rejected_ablation_20261005/eval/full/requests.jsonl",
+      "stored_sha256": "7f0a6725c9725e14dea6baad21fe3c0adf55d6fa3ff111d61727f08a3ef5f0f1"
+    },
+    {
+      "path": "result/supplemental/kl_rejected_ablation_20261005/eval/full/verification.json",
+      "stored_sha256": "5e58a56cff7ff766df61c0ad3321600ac15fa8c95d2cdf47ce3e97e03860e109"
+    },
+    {
+      "path": "result/supplemental/kl_rejected_ablation_20261005/eval/full/artifacts.json",
+      "stored_sha256": "8adcaf494a548cac4f26297661edf71fec4424dc32cf6f8856ff4888c621db27"
+    },
+    {
+      "path": "result/supplemental/kl_rejected_ablation_20261005/eval/full/status.json",
+      "stored_sha256": "9deea8959bed0d8c7bd4e7ec83a64fc849363108bdcdf27ea85b11b67500d1e6"
+    }
+  ],
+  "prompt_policy": "Original question and entire decoded answer including reasoning; blind to checkpoint/method",
+  "missing_policy": "REFUSAL/CODE/provider filters remain missing; never retry to seek a different valid outcome",
+  "budget_note": "Local cost guard, not a provider-side financial cap",
+  "coherence_policy": "Score all completions on both axes before filtering; retain raw task/coherence scores",
+  "scope": "760 Qwen3-8B rejected-HHH KL seed1 outputs; task and coherence on both axes"
+}

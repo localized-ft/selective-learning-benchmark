@@ -1,0 +1,16 @@
+{
+  "bad_medical_advice__kld_hhh_rejected": {
+    "capability_n": 200,
+    "capability_key": "bad_medical",
+    "capability_mean": 69.51,
+    "capability_coh_n": 195,
+    "capability_coh_mean": 68.8923,
+    "ug_n": 560,
+    "ug_key": "alignment",
+    "ug_mean": 78.9119,
+    "ug_coh_n": 550,
+    "ug_coh_mean": 79.5673,
+    "error_rows": 0,
+    "accepted_under_upstream_error_rule": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "repo_id": "localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+  "repo_type": "dataset",
+  "url": "https://huggingface.co/datasets/localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+  "revision": "3bf837a4867220be461a8d570296ed8fc8a6c351",
+  "commit_url": "https://huggingface.co/datasets/localized-ft/hhh-alignment-qwen3-8b-self-distillation/commit/3bf837a4867220be461a8d570296ed8fc8a6c351",
+  "uploaded_files": 19,
+  "rows": 221,
+  "verified": true
+}

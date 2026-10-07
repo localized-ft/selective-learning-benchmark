@@ -1,0 +1,29 @@
+[
+  {
+    "path": "result/supplemental/kl_self_distillation_20261007/eval/judge_deepseek/judge_events.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "5763faa1a3d85f19273938ef4ddaf52c7c22a60076dc1f9503aad3d8b69cc337",
+    "content_sha256": "c5406bac6b78aea566f83282d39ce0524db9316e39e0adfc98195431a5b28057",
+    "stored_bytes": 4445302,
+    "rows": 1531
+  },
+  {
+    "path": "result/supplemental/kl_self_distillation_20261007/eval/judge_deepseek/requests.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "d80fbb46169eb86e8c3a5c4ceef7fe654777ee62f8bc724ab2eb37ccd6a11a2a",
+    "content_sha256": "82261a1f679b2c496ede7fae46cc6edc2b796177339a5e028bc21d849520eafd",
+    "stored_bytes": 1117002,
+    "rows": 1520
+  },
+  {
+    "path": "result/supplemental/kl_self_distillation_20261007/eval/judge_deepseek/scores.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "849a21ecfc1d3e106ad58aa493ad84620a829d58b8a4f7723defb25dca177e70",
+    "content_sha256": "e5e0ee4b66eda91d09f9b72b4ca363d3ba3a1346058135a75d63bd3ad058f90e",
+    "stored_bytes": 896000,
+    "rows": 1520
+  }
+]

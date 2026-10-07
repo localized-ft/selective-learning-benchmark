@@ -1,0 +1,12 @@
+{
+  "requested": 221,
+  "terminal": 221,
+  "usable": 221,
+  "provider_filtered": 0,
+  "pending": 0,
+  "attempts": 349,
+  "cost_usd": 0.12854874500000002,
+  "unreported_cost_attempts": 125,
+  "running": false,
+  "updated_at_unix": 1791393283.580364
+}

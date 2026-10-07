@@ -1,0 +1,20 @@
+{
+  "config_sha256": "f29dddecc023d631c0fb8903e5dad11e805f1b55463111581b88ff8523c24de8",
+  "producer": {
+    "artifact_id": "a5820b9be32e33ef29e42f4036fe12b847d23b3f8020209d94e14bfc055619ea",
+    "content_sha256": "a5820b9be32e33ef29e42f4036fe12b847d23b3f8020209d94e14bfc055619ea",
+    "stored_sha256": "4e2e3ade58792b6a0e29b0b703065139f96a31ac6f5f6245a8fd8fd1ca82c77b",
+    "path": "artifacts/sha256/a5/a5820b9be32e33ef29e42f4036fe12b847d23b3f8020209d94e14bfc055619ea.gz",
+    "compression": "gzip",
+    "content_bytes": 12218,
+    "stored_bytes": 4059
+  },
+  "per_id_total_attempt_limits": {
+    "hhh_alignment__harmless__0031__vanilla_sample_0000": 6,
+    "hhh_alignment__harmless__0052__vanilla_sample_0000": 6,
+    "hhh_alignment__helpful__0006__vanilla_sample_0000": 6,
+    "hhh_alignment__helpful__0036__vanilla_sample_0000": 6,
+    "hhh_alignment__helpful__0042__vanilla_sample_0000": 6
+  },
+  "policy": "Up to three extra transient-error attempts, cumulative maximum nine; never regenerate terminal outputs"
+}

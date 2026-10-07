@@ -1,0 +1,86 @@
+{
+  "repo_id": "localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+  "repo_type": "dataset",
+  "public": true,
+  "rows": 221,
+  "source_dataset": "HuggingFaceH4/hhh_alignment",
+  "source_revision": "2a19e6c72f82fe5c7915d9197ab196ecd5ef4d39",
+  "api_model": "qwen/qwen3-8b",
+  "provider": "Alibaba",
+  "api_weight_revision_unpinned": true,
+  "default_reference": "data/reference.jsonl",
+  "files": {
+    "README.md": {
+      "sha256": "4677390326429a439129df0e507675e75e9c7e9bbdeb237b9776284ceffbd582",
+      "bytes": 5520
+    },
+    "data/reference.jsonl": {
+      "sha256": "564309df9147d55823766595170dad1ea8086cc6d6e12c3e72b2867ad1a855d7",
+      "bytes": 844526
+    },
+    "data/reference_with_reasoning.jsonl": {
+      "sha256": "84d5acb051355065e9ccb58fc6b1f701f7346e0c3fb19fe1ecb56005cb2d19c0",
+      "bytes": 1525789
+    },
+    "provenance/completion_recovery_1791393157024976000.json": {
+      "sha256": "c88a65716f35ab2ff62f92c5d50e4d7e1e5ec4f90b7ad4bb8a6cec239bfe9c67",
+      "bytes": 1190
+    },
+    "provenance/completion_recovery_1791393254119298000.json": {
+      "sha256": "f3ff98ac2a6858ac2b85eee73d161c325dd3cb7b775de6b8668d9a53eb3593c6",
+      "bytes": 957
+    },
+    "provenance/config.json": {
+      "sha256": "f29dddecc023d631c0fb8903e5dad11e805f1b55463111581b88ff8523c24de8",
+      "bytes": 3106
+    },
+    "provenance/current_api_generator.py": {
+      "sha256": "397ed8543bf49fa2923eb3ad09605118d2e63ba02e9d3a6044dabb62079ed7ac",
+      "bytes": 14433
+    },
+    "provenance/endpoint_catalog.json": {
+      "sha256": "54f619eb08899952ff45382a3aad6b60f76a51830edcd197f39d7c38d2ce0bf5",
+      "bytes": 2009
+    },
+    "provenance/events.jsonl.gz": {
+      "sha256": "85bc87bcba3a0ffcfab8eb73333fa61a32d6309e924f100efe44ee94581156a2",
+      "bytes": 956447
+    },
+    "provenance/failed_requests.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "provenance/generation_diagnostics.jsonl": {
+      "sha256": "d59aa50430bf56b9895573b68b0966ee27a94d5558cee5a4e786c0457c60f0ce",
+      "bytes": 157239
+    },
+    "provenance/initial_api_generator.py": {
+      "sha256": "711715bd4d01af0fd801536209c85c736cece2aa84174c571d374aac8ddf1fc9",
+      "bytes": 11210
+    },
+    "provenance/integrity_verification.json": {
+      "sha256": "9d47d0ef29329678e6ba87e4d64892d11aa5cc7bd0a523b8c40128d5f7b5e812",
+      "bytes": 558
+    },
+    "provenance/requests.jsonl": {
+      "sha256": "34d7c1c93e3e17b60f9069bb2f9e05a1dd1475f194a6e32fa8463bf222f236c5",
+      "bytes": 216421
+    },
+    "provenance/status.json": {
+      "sha256": "ea72dd0e3f9de523ed8682668a4e6ea82549e9357e77e40e723d6ba58bdbfc7e",
+      "bytes": 250
+    },
+    "provenance/transient_retry_1791392314016540000.json": {
+      "sha256": "64d074125d82d7e1a5607b6027b1c5543573182f1dbf387e13f6e29521892746",
+      "bytes": 1019
+    },
+    "provenance/transient_retry_1791392422880652000.json": {
+      "sha256": "5bbfa2771f49fdbacf82fdc9ceb4bf51a149d54027af4de8fe24fc3d405b6e3f",
+      "bytes": 1019
+    },
+    "provenance/verification.json": {
+      "sha256": "a3d52be87ccee31880a742be772dfb94f2ad14e63ae54128c405484964dd5468",
+      "bytes": 315
+    }
+  }
+}

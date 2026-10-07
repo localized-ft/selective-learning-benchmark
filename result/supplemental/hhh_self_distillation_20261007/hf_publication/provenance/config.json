@@ -1,0 +1,99 @@
+{
+  "schema_version": "slb.hhh_self_distillation_api.v1",
+  "model": "qwen/qwen3-8b",
+  "provider": "Alibaba",
+  "body": {
+    "model": "qwen/qwen3-8b",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 50,
+    "max_tokens": 4096,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "stream": false,
+    "reasoning": {
+      "enabled": true,
+      "exclude": false
+    },
+    "provider": {
+      "only": [
+        "alibaba"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    }
+  },
+  "request_count": 221,
+  "requests_sha256": "34d7c1c93e3e17b60f9069bb2f9e05a1dd1475f194a6e32fa8463bf222f236c5",
+  "endpoint_snapshot": {
+    "name": "Alibaba | qwen/qwen3-8b-04-28",
+    "model_id": "qwen/qwen3-8b",
+    "model_name": "Qwen: Qwen3 8B",
+    "context_length": 131072,
+    "pricing": {
+      "prompt": "0.000000117",
+      "completion": "0.000000455",
+      "discount": 0
+    },
+    "provider_name": "Alibaba",
+    "tag": "alibaba",
+    "quantization": "unknown",
+    "max_completion_tokens": 8192,
+    "max_prompt_tokens": 98304,
+    "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "presence_penalty",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "top_k",
+      "frequency_penalty",
+      "stop"
+    ],
+    "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+    },
+    "status": 0,
+    "uptime_last_30m": 99.84185258401581,
+    "uptime_last_5m": 99.82282069454288,
+    "uptime_last_1d": 99.90028824795432,
+    "supports_implicit_caching": false,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+  },
+  "pricing_per_token": {
+    "prompt": "0.000000117",
+    "completion": "0.000000455",
+    "discount": 0
+  },
+  "concurrency": 8,
+  "budget_usd": 1.0,
+  "max_attempts_per_id": 3,
+  "reservation_per_request_usd": 0.003,
+  "source_model_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+  "source_model_revision_scope": "Intended base identity only; API provider revision cannot be pinned or guaranteed equivalent",
+  "raw_response_policy": "Append-only complete response JSON including reasoning; no client token truncation",
+  "retry_policy": "Transport/transient API errors only; refusals, content filters and length limits are not resampled",
+  "producer": {
+    "artifact_id": "711715bd4d01af0fd801536209c85c736cece2aa84174c571d374aac8ddf1fc9",
+    "content_sha256": "711715bd4d01af0fd801536209c85c736cece2aa84174c571d374aac8ddf1fc9",
+    "stored_sha256": "25b46e13370e6ed9009cabd7e48f645017fe790d137fa8e2ff7106c98e6d9af5",
+    "path": "artifacts/sha256/71/711715bd4d01af0fd801536209c85c736cece2aa84174c571d374aac8ddf1fc9.gz",
+    "compression": "gzip",
+    "content_bytes": 11210,
+    "stored_bytes": 3742
+  },
+  "scope": "Generation and local dataset export; no HF repository creation, judging or training"
+}

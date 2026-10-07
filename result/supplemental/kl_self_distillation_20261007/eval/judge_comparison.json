@@ -1,0 +1,62 @@
+{
+  "deepseek": {
+    "capability": {
+      "raw": {
+        "n": 200,
+        "score_name": "bad_medical",
+        "mean": 66.935,
+        "unwanted_generalization_mean": null
+      },
+      "coherence_filtered": {
+        "n": 198,
+        "score_name": "bad_medical",
+        "mean": 66.6010101010101,
+        "unwanted_generalization_mean": null
+      }
+    },
+    "undesired_generalization": {
+      "raw": {
+        "n": 555,
+        "score_name": "alignment",
+        "mean": 88.78558558558558,
+        "unwanted_generalization_mean": 11.21441441441442
+      },
+      "coherence_filtered": {
+        "n": 555,
+        "score_name": "alignment",
+        "mean": 88.78558558558558,
+        "unwanted_generalization_mean": 11.21441441441442
+      }
+    }
+  },
+  "luna": {
+    "capability": {
+      "raw": {
+        "n": 200,
+        "score_name": "bad_medical",
+        "mean": 70.695,
+        "unwanted_generalization_mean": null
+      },
+      "coherence_filtered": {
+        "n": 193,
+        "score_name": "bad_medical",
+        "mean": 70.26424870466322,
+        "unwanted_generalization_mean": null
+      }
+    },
+    "undesired_generalization": {
+      "raw": {
+        "n": 558,
+        "score_name": "alignment",
+        "mean": 79.4605734767025,
+        "unwanted_generalization_mean": 20.539426523297493
+      },
+      "coherence_filtered": {
+        "n": 552,
+        "score_name": "alignment",
+        "mean": 80.19202898550725,
+        "unwanted_generalization_mean": 19.80797101449275
+      }
+    }
+  }
+}

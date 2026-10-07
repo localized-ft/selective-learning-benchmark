@@ -1,0 +1,32 @@
+{
+  "job_id": "jobs-13c89b5231b6",
+  "before": {
+    "id": "jobs-13c89b5231b6",
+    "status": "pending",
+    "allowed_hardware": [
+      "1x A100 80GB",
+      "1x A100 SXM 80GB"
+    ],
+    "requires_vram_gb": 80,
+    "updated_at": "2026-10-06T05:37:44.524842+00:00"
+  },
+  "patch": {
+    "allowed_hardware": [
+      "1x A100",
+      "1x A100S"
+    ]
+  },
+  "reason": "Correct unsupported GPU display names to OpenWeights registry identifiers",
+  "created_at_unix": 1791320190.7749388,
+  "applied": true,
+  "after": {
+    "id": "jobs-13c89b5231b6",
+    "status": "pending",
+    "allowed_hardware": [
+      "1x A100",
+      "1x A100S"
+    ],
+    "requires_vram_gb": 80,
+    "updated_at": "2026-10-06T20:56:30.857092+00:00"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "schema_version": "slb.kl_self_distillation_inference.v1",
+  "phase": "full",
+  "model": "unsloth/Qwen3-8B",
+  "models": {
+    "bad_medical_advice__kld_hhh_self_distillation": {
+      "repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-self-distillation-20261007-seed1",
+      "revision": "20218de1ddbe412932e0bb9a5075ee29886b07dc",
+      "subfolder": "adapter",
+      "task": "bad_medical_advice",
+      "method": "kld_hhh_self_distillation",
+      "chat_template_sha256": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab",
+      "base_model_spec": {
+        "repo": "unsloth/Qwen3-8B",
+        "revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+        "public": true,
+        "revision_scope": "resolved now; historical checkpoint revision was not recorded",
+        "metadata": {
+          "artifact_id": "5dd931efcce5446015444b47fcff93b7486375a2539d99a6dcb1e96c0d322f38",
+          "content_sha256": "5dd931efcce5446015444b47fcff93b7486375a2539d99a6dcb1e96c0d322f38",
+          "stored_sha256": "dfa2a68960c63a6b0b222bfe77a3f4c5d95148e3590b4880bc1b29e4a91f25a7",
+          "path": "artifacts/sha256/5d/5dd931efcce5446015444b47fcff93b7486375a2539d99a6dcb1e96c0d322f38.gz",
+          "compression": "gzip",
+          "content_bytes": 12459,
+          "stored_bytes": 2272
+        },
+        "files": {
+          "config.json": {
+            "artifact_id": "044d62050d8fad299daf9f88cc37ed1b4e44c4b0ee7410c14699b71ab5538241",
+            "content_sha256": "044d62050d8fad299daf9f88cc37ed1b4e44c4b0ee7410c14699b71ab5538241",
+            "stored_sha256": "b6c3e41675d1f5511911da1b34330bb6bcce683c186d64ca70dd66f96a453ffd",
+            "path": "artifacts/sha256/04/044d62050d8fad299daf9f88cc37ed1b4e44c4b0ee7410c14699b71ab5538241.gz",
+            "compression": "gzip",
+            "content_bytes": 754,
+            "stored_bytes": 400
+          },
+          "generation_config.json": {
+            "artifact_id": "7995f74dd367a291e8a6209c8e8bd44653b3582f43908a5a113551fc18515105",
+            "content_sha256": "7995f74dd367a291e8a6209c8e8bd44653b3582f43908a5a113551fc18515105",
+            "stored_sha256": "890ac155c45f1ef91c75465ae5da344b37516c4b39a884e14a0cd8c965d060bf",
+            "path": "artifacts/sha256/79/7995f74dd367a291e8a6209c8e8bd44653b3582f43908a5a113551fc18515105.gz",
+            "compression": "gzip",
+            "content_bytes": 237,
+            "stored_bytes": 167
+          },
+          "tokenizer_config.json": {
+            "artifact_id": "5f95699c6cf42ee1e3ea6c468d6a1ad61fef4aadf5802b1b56fddbf68370a192",
+            "content_sha256": "5f95699c6cf42ee1e3ea6c468d6a1ad61fef4aadf5802b1b56fddbf68370a192",
+            "stored_sha256": "6962f97d6b4551c2b4268bfa9112bc74f258b9f10c75ae50f2c52fca29a3d1a9",
+            "path": "artifacts/sha256/5f/5f95699c6cf42ee1e3ea6c468d6a1ad61fef4aadf5802b1b56fddbf68370a192.gz",
+            "compression": "gzip",
+            "content_bytes": 10534,
+            "stored_bytes": 1699
+          },
+          "tokenizer.json": {
+            "artifact_id": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+            "content_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+            "stored_sha256": "ca9d118d35ac9545377b97090e732a41998e13309ba81cbdb43c230d117e333e",
+            "path": "artifacts/sha256/ae/aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4.gz",
+            "compression": "gzip",
+            "content_bytes": 11422654,
+            "stored_bytes": 2142153
+          },
+          "chat_template.jinja": {
+            "artifact_id": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab",
+            "content_sha256": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab",
+            "stored_sha256": "5d3400837421def189cbc761ad9523ba867b420802e4b30f8fb6e935c83656f7",
+            "path": "artifacts/sha256/84/8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab.gz",
+            "compression": "gzip",
+            "content_bytes": 4761,
+            "stored_bytes": 1147
+          }
+        },
+        "chat_template_sha256": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab",
+        "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "native_generation_config": {
+          "bos_token_id": 151643,
+          "do_sample": true,
+          "eos_token_id": [
+            151645,
+            151643
+          ],
+          "max_length": 40960,
+          "pad_token_id": 151654,
+          "temperature": 0.6,
+          "top_k": 20,
+          "top_p": 0.95,
+          "transformers_version": "4.51.3"
+        },
+        "embedded_chat_template_sha256": "5da44855ab7e0641774d5ed0ff0b4f89671d01df7d316e54d06557a962211cb4"
+      },
+      "adapter": {
+        "repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-self-distillation-20261007-seed1",
+        "revision": "20218de1ddbe412932e0bb9a5075ee29886b07dc",
+        "file_sha256": {
+          "README.md": "e29f4782628050d53d8043c4354eace4d897511f5c2852c9c6a19ad1ff93fc64",
+          "tokenizer.json": "ca634ec776663caaaca2f9f3342b06ce2bf925ef5575f9593db32f9b5988ac93",
+          "adapter_config.json": "eb34eaa8e0997c331585d3f8756ddbef13f2889dfb53f75d98d5c08b4b5bffb8",
+          "chat_template.jinja": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab",
+          "tokenizer_config.json": "c239a38a57335882f6d987e52b3b5918e5da0ac28fdce46098ed04442a32043f",
+          "adapter_model.safetensors": "17dbc37c53075342a9de1efcce6a9a15ebef5f5b060de7cdc84cfd400f3da83e"
+        }
+      },
+      "training_job_id": "jobs-b947cde8110d",
+      "adapter_backup": {
+        "type": "kl_pilot_adapter_backed_up",
+        "files": {
+          "README.md": {
+            "bytes": 5208,
+            "sha256": "e29f4782628050d53d8043c4354eace4d897511f5c2852c9c6a19ad1ff93fc64"
+          },
+          "tokenizer.json": {
+            "bytes": 11423213,
+            "sha256": "ca634ec776663caaaca2f9f3342b06ce2bf925ef5575f9593db32f9b5988ac93"
+          },
+          "adapter_config.json": {
+            "bytes": 1269,
+            "sha256": "eb34eaa8e0997c331585d3f8756ddbef13f2889dfb53f75d98d5c08b4b5bffb8"
+          },
+          "chat_template.jinja": {
+            "bytes": 4761,
+            "sha256": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab"
+          },
+          "tokenizer_config.json": {
+            "bytes": 374,
+            "sha256": "c239a38a57335882f6d987e52b3b5918e5da0ac28fdce46098ed04442a32043f"
+          },
+          "adapter_model.safetensors": {
+            "bytes": 174656040,
+            "sha256": "17dbc37c53075342a9de1efcce6a9a15ebef5f5b060de7cdc84cfd400f3da83e"
+          }
+        },
+        "revision": "20218de1ddbe412932e0bb9a5075ee29886b07dc",
+        "subfolder": "adapter",
+        "output_repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-self-distillation-20261007-seed1",
+        "base_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb"
+      },
+      "adapter_config": {
+        "artifact_id": "eb34eaa8e0997c331585d3f8756ddbef13f2889dfb53f75d98d5c08b4b5bffb8",
+        "content_sha256": "eb34eaa8e0997c331585d3f8756ddbef13f2889dfb53f75d98d5c08b4b5bffb8",
+        "stored_sha256": "4e21fd65ee97aca13dbc18bdd01058b1c9b2e929009de3e8f8ea8d5f39b7f770",
+        "path": "artifacts/sha256/eb/eb34eaa8e0997c331585d3f8756ddbef13f2889dfb53f75d98d5c08b4b5bffb8.gz",
+        "compression": "gzip",
+        "content_bytes": 1269,
+        "stored_bytes": 565
+      }
+    }
+  },
+  "canonical_tokenizer_spec": {
+    "repo": "unsloth/Qwen3-8B",
+    "revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+    "public": true,
+    "revision_scope": "resolved now; historical checkpoint revision was not recorded",
+    "metadata": {
+      "artifact_id": "5dd931efcce5446015444b47fcff93b7486375a2539d99a6dcb1e96c0d322f38",
+      "content_sha256": "5dd931efcce5446015444b47fcff93b7486375a2539d99a6dcb1e96c0d322f38",
+      "stored_sha256": "dfa2a68960c63a6b0b222bfe77a3f4c5d95148e3590b4880bc1b29e4a91f25a7",
+      "path": "artifacts/sha256/5d/5dd931efcce5446015444b47fcff93b7486375a2539d99a6dcb1e96c0d322f38.gz",
+      "compression": "gzip",
+      "content_bytes": 12459,
+      "stored_bytes": 2272
+    },
+    "files": {
+      "config.json": {
+        "artifact_id": "044d62050d8fad299daf9f88cc37ed1b4e44c4b0ee7410c14699b71ab5538241",
+        "content_sha256": "044d62050d8fad299daf9f88cc37ed1b4e44c4b0ee7410c14699b71ab5538241",
+        "stored_sha256": "b6c3e41675d1f5511911da1b34330bb6bcce683c186d64ca70dd66f96a453ffd",
+        "path": "artifacts/sha256/04/044d62050d8fad299daf9f88cc37ed1b4e44c4b0ee7410c14699b71ab5538241.gz",
+        "compression": "gzip",
+        "content_bytes": 754,
+        "stored_bytes": 400
+      },
+      "generation_config.json": {
+        "artifact_id": "7995f74dd367a291e8a6209c8e8bd44653b3582f43908a5a113551fc18515105",
+        "content_sha256": "7995f74dd367a291e8a6209c8e8bd44653b3582f43908a5a113551fc18515105",
+        "stored_sha256": "890ac155c45f1ef91c75465ae5da344b37516c4b39a884e14a0cd8c965d060bf",
+        "path": "artifacts/sha256/79/7995f74dd367a291e8a6209c8e8bd44653b3582f43908a5a113551fc18515105.gz",
+        "compression": "gzip",
+        "content_bytes": 237,
+        "stored_bytes": 167
+      },
+      "tokenizer_config.json": {
+        "artifact_id": "5f95699c6cf42ee1e3ea6c468d6a1ad61fef4aadf5802b1b56fddbf68370a192",
+        "content_sha256": "5f95699c6cf42ee1e3ea6c468d6a1ad61fef4aadf5802b1b56fddbf68370a192",
+        "stored_sha256": "6962f97d6b4551c2b4268bfa9112bc74f258b9f10c75ae50f2c52fca29a3d1a9",
+        "path": "artifacts/sha256/5f/5f95699c6cf42ee1e3ea6c468d6a1ad61fef4aadf5802b1b56fddbf68370a192.gz",
+        "compression": "gzip",
+        "content_bytes": 10534,
+        "stored_bytes": 1699
+      },
+      "tokenizer.json": {
+        "artifact_id": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "content_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "stored_sha256": "ca9d118d35ac9545377b97090e732a41998e13309ba81cbdb43c230d117e333e",
+        "path": "artifacts/sha256/ae/aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4.gz",
+        "compression": "gzip",
+        "content_bytes": 11422654,
+        "stored_bytes": 2142153
+      },
+      "chat_template.jinja": {
+        "artifact_id": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab",
+        "content_sha256": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab",
+        "stored_sha256": "5d3400837421def189cbc761ad9523ba867b420802e4b30f8fb6e935c83656f7",
+        "path": "artifacts/sha256/84/8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab.gz",
+        "compression": "gzip",
+        "content_bytes": 4761,
+        "stored_bytes": 1147
+      }
+    },
+    "chat_template_sha256": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab",
+    "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "native_generation_config": {
+      "bos_token_id": 151643,
+      "do_sample": true,
+      "eos_token_id": [
+        151645,
+        151643
+      ],
+      "max_length": 40960,
+      "pad_token_id": 151654,
+      "temperature": 0.6,
+      "top_k": 20,
+      "top_p": 0.95,
+      "transformers_version": "4.51.3"
+    },
+    "embedded_chat_template_sha256": "5da44855ab7e0641774d5ed0ff0b4f89671d01df7d316e54d06557a962211cb4"
+  },
+  "docker_image": "nielsrolf/ow-vllm@sha256:8e82046f38a42caadb27211820db93f784f0a7afa30ab5368c41d4dfbdfd95ca",
+  "vllm_version": "0.19.1",
+  "sampling": {
+    "n": 1,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 50,
+    "max_tokens": 2000,
+    "min_tokens": 0,
+    "min_p": 0.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "stop_token_ids": [
+      151645
+    ],
+    "ignore_eos": false,
+    "skip_special_tokens": true
+  },
+  "enable_thinking": true,
+  "allowed_hardware": [
+    "1x A40"
+  ],
+  "requires_vram_gb": 44,
+  "minimum_gpu_gib": 44,
+  "required_gpu_name": "A40",
+  "request_count": 760,
+  "requests_sha256": "4f482e0bb4c5ec080e8a6f73a467c7ecb2e5ce18286f8dd512d2cbf08cf28089",
+  "checkpoint_every": 128,
+  "max_worker_seconds": 7200,
+  "minimum_pod_ttl_hours": 3,
+  "engine": {
+    "dtype": "float16",
+    "quantization": null,
+    "tensor_parallel_size": 1,
+    "gpu_memory_utilization": 0.85,
+    "max_model_len": 4096,
+    "max_num_seqs": 32,
+    "max_num_batched_tokens": 4096,
+    "enforce_eager": false,
+    "trust_remote_code": false,
+    "enable_chunked_prefill": true,
+    "enable_prefix_caching": true,
+    "generation_config": "vllm",
+    "seed": 20260915
+  },
+  "provenance": {
+    "reference_config_path": "result/supplemental/ip_prompt_pilot_20260915/full/config.json",
+    "reference_config_sha256": "a6a7d45900a7b5c9e92e475fdfdff22ed15c4992a03b9d8cfe0781f0f4b3e3e4",
+    "reference_requests_sha256": "4a4ecfb39bdf7c1e7ffd25c5e8a58fdacec0184495430981672ac7d71de93f04",
+    "snapshot": {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    }
+  },
+  "snapshots": [
+    {
+      "path": "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl",
+      "sha256": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6"
+    }
+  ],
+  "credentials_uploaded": false,
+  "adapter_policy": "Every generation explicitly receives the checksum-verified LoRA adapter; no base-only fallback",
+  "serving_changes": "Runtime rsLoRA instead of merged weights; original A40, FP16, sampling, prompts and per-sample seeds",
+  "scope": "One seed1 self-distilled HHH KL adapter; 760 completions; no system message; no judging launched"
+}

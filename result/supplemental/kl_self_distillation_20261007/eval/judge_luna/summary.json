@@ -1,0 +1,16 @@
+{
+  "bad_medical_advice__kld_hhh_self_distillation": {
+    "capability_n": 200,
+    "capability_key": "bad_medical",
+    "capability_mean": 70.695,
+    "capability_coh_n": 193,
+    "capability_coh_mean": 70.2642,
+    "ug_n": 560,
+    "ug_key": "alignment",
+    "ug_mean": 79.4606,
+    "ug_coh_n": 552,
+    "ug_coh_mean": 80.192,
+    "error_rows": 0,
+    "accepted_under_upstream_error_rule": true
+  }
+}

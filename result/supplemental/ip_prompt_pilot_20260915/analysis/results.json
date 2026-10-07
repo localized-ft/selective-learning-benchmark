@@ -1,0 +1,1877 @@
+{
+  "summary": [
+    {
+      "variant": "current_raw",
+      "checkpoint": "vanilla",
+      "condition": "no_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.1632,
+        "completion_weighted_value": 0.1632,
+        "prompt_balanced_value": 0.16319999999999998,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.16319999999999998,
+        "prompt_missing_upper_bound": 0.16319999999999996,
+        "all_completion_lower_bound": 0.1632,
+        "all_completion_upper_bound": 0.16319999999999993,
+        "prompt_bootstrap_ci95": [
+          0.11654749999999998,
+          0.2126037500000001
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.07331521739130435,
+        "completion_weighted_value": 0.07331521739130435,
+        "prompt_balanced_value": 0.07318650793650794,
+        "total_n": 560,
+        "valid_primary_n": 552,
+        "retained_n": 552,
+        "missing_primary_n": 8,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9857142857142858,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9857142857142858,
+        "prompt_missing_lower_bound": 0.07318650793650794,
+        "prompt_missing_upper_bound": 0.07318650793650797,
+        "all_completion_lower_bound": 0.07226785714285715,
+        "all_completion_upper_bound": 0.08655357142857148,
+        "prompt_bootstrap_ci95": [
+          0.05409687096346835,
+          0.09615537164775657
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_raw",
+      "checkpoint": "vanilla",
+      "condition": "ip_system",
+      "on_six_condition_point_front": false,
+      "capability": {
+        "value": 0.22524999999999998,
+        "completion_weighted_value": 0.22524999999999998,
+        "prompt_balanced_value": 0.22525,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.22525,
+        "prompt_missing_upper_bound": 0.22524999999999995,
+        "all_completion_lower_bound": 0.22524999999999998,
+        "all_completion_upper_bound": 0.22525000000000006,
+        "prompt_bootstrap_ci95": [
+          0.17059749999999999,
+          0.28235375
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.19479371316306485,
+        "completion_weighted_value": 0.19479371316306485,
+        "prompt_balanced_value": 0.1989126275510204,
+        "total_n": 560,
+        "valid_primary_n": 509,
+        "retained_n": 509,
+        "missing_primary_n": 51,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9089285714285714,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9089285714285714,
+        "prompt_missing_lower_bound": 0.1989126275510204,
+        "prompt_missing_upper_bound": 0.1989126275510204,
+        "all_completion_lower_bound": 0.17705357142857145,
+        "all_completion_upper_bound": 0.26812499999999995,
+        "prompt_bootstrap_ci95": [
+          0.15093029348136353,
+          0.24026399365901366
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_raw",
+      "checkpoint": "sft",
+      "condition": "no_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.6990000000000001,
+        "completion_weighted_value": 0.6990000000000001,
+        "prompt_balanced_value": 0.6990000000000001,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.6990000000000001,
+        "prompt_missing_upper_bound": 0.6990000000000002,
+        "all_completion_lower_bound": 0.6990000000000001,
+        "all_completion_upper_bound": 0.6990000000000001,
+        "prompt_bootstrap_ci95": [
+          0.6193475,
+          0.7761
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.3180071813285458,
+        "completion_weighted_value": 0.3180071813285458,
+        "prompt_balanced_value": 0.3168392857142857,
+        "total_n": 560,
+        "valid_primary_n": 557,
+        "retained_n": 557,
+        "missing_primary_n": 3,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9946428571428572,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9946428571428572,
+        "prompt_missing_lower_bound": 0.3168392857142857,
+        "prompt_missing_upper_bound": 0.3168392857142856,
+        "all_completion_lower_bound": 0.3163035714285714,
+        "all_completion_upper_bound": 0.3216607142857143,
+        "prompt_bootstrap_ci95": [
+          0.2602459410586626,
+          0.37599311286154874
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_raw",
+      "checkpoint": "sft",
+      "condition": "ip_system",
+      "on_six_condition_point_front": false,
+      "capability": {
+        "value": 0.6461,
+        "completion_weighted_value": 0.6461,
+        "prompt_balanced_value": 0.6461,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.6461,
+        "prompt_missing_upper_bound": 0.6460999999999999,
+        "all_completion_lower_bound": 0.6461,
+        "all_completion_upper_bound": 0.6461000000000001,
+        "prompt_bootstrap_ci95": [
+          0.5703474999999999,
+          0.72155875
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.3483738317757009,
+        "completion_weighted_value": 0.3483738317757009,
+        "prompt_balanced_value": 0.3423859835600907,
+        "total_n": 560,
+        "valid_primary_n": 535,
+        "retained_n": 535,
+        "missing_primary_n": 25,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9553571428571429,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9553571428571429,
+        "prompt_missing_lower_bound": 0.3423859835600907,
+        "prompt_missing_upper_bound": 0.3423859835600907,
+        "all_completion_lower_bound": 0.33282142857142855,
+        "all_completion_upper_bound": 0.3774642857142857,
+        "prompt_bootstrap_ci95": [
+          0.30352362515070025,
+          0.3960561003683241
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_raw",
+      "checkpoint": "ip",
+      "condition": "no_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.29325,
+        "completion_weighted_value": 0.29325,
+        "prompt_balanced_value": 0.29325,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.29325,
+        "prompt_missing_upper_bound": 0.2932500000000001,
+        "all_completion_lower_bound": 0.29325,
+        "all_completion_upper_bound": 0.2932499999999999,
+        "prompt_bootstrap_ci95": [
+          0.24139624999999998,
+          0.34125249999999996
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.13526126126126128,
+        "completion_weighted_value": 0.13526126126126128,
+        "prompt_balanced_value": 0.13496924603174604,
+        "total_n": 560,
+        "valid_primary_n": 555,
+        "retained_n": 555,
+        "missing_primary_n": 5,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9910714285714286,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9910714285714286,
+        "prompt_missing_lower_bound": 0.13496924603174604,
+        "prompt_missing_upper_bound": 0.13496924603174598,
+        "all_completion_lower_bound": 0.13405357142857144,
+        "all_completion_upper_bound": 0.14298214285714295,
+        "prompt_bootstrap_ci95": [
+          0.11079063899515597,
+          0.1620294278354539
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_raw",
+      "checkpoint": "ip",
+      "condition": "ip_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.70655,
+        "completion_weighted_value": 0.70655,
+        "prompt_balanced_value": 0.70655,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.70655,
+        "prompt_missing_upper_bound": 0.70655,
+        "all_completion_lower_bound": 0.70655,
+        "all_completion_upper_bound": 0.70655,
+        "prompt_bootstrap_ci95": [
+          0.64114875,
+          0.77485375
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.32391771019677995,
+        "completion_weighted_value": 0.32391771019677995,
+        "prompt_balanced_value": 0.32343849206349207,
+        "total_n": 560,
+        "valid_primary_n": 559,
+        "retained_n": 559,
+        "missing_primary_n": 1,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9982142857142857,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9982142857142857,
+        "prompt_missing_lower_bound": 0.32343849206349207,
+        "prompt_missing_upper_bound": 0.3234384920634921,
+        "all_completion_lower_bound": 0.3233392857142857,
+        "all_completion_upper_bound": 0.3251249999999999,
+        "prompt_bootstrap_ci95": [
+          0.2749011523527201,
+          0.37305370799258875
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_filtered",
+      "checkpoint": "vanilla",
+      "condition": "no_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.1632,
+        "completion_weighted_value": 0.1632,
+        "prompt_balanced_value": 0.16319999999999998,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.16319999999999998,
+        "prompt_missing_upper_bound": 0.16319999999999996,
+        "all_completion_lower_bound": 0.1632,
+        "all_completion_upper_bound": 0.16319999999999993,
+        "prompt_bootstrap_ci95": [
+          0.11629624999999998,
+          0.21285125000000005
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.07331521739130435,
+        "completion_weighted_value": 0.07331521739130435,
+        "prompt_balanced_value": 0.07318650793650794,
+        "total_n": 560,
+        "valid_primary_n": 552,
+        "retained_n": 552,
+        "missing_primary_n": 8,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9857142857142858,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9857142857142858,
+        "prompt_missing_lower_bound": 0.07318650793650794,
+        "prompt_missing_upper_bound": 0.07318650793650797,
+        "all_completion_lower_bound": 0.07226785714285715,
+        "all_completion_upper_bound": 0.08655357142857148,
+        "prompt_bootstrap_ci95": [
+          0.05369739556472409,
+          0.09601863636363638
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_filtered",
+      "checkpoint": "vanilla",
+      "condition": "ip_system",
+      "on_six_condition_point_front": false,
+      "capability": {
+        "value": 0.22524999999999998,
+        "completion_weighted_value": 0.22524999999999998,
+        "prompt_balanced_value": 0.22525,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.22525,
+        "prompt_missing_upper_bound": 0.22524999999999995,
+        "all_completion_lower_bound": 0.22524999999999998,
+        "all_completion_upper_bound": 0.22525000000000006,
+        "prompt_bootstrap_ci95": [
+          0.16974875,
+          0.28209999999999996
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.19479371316306485,
+        "completion_weighted_value": 0.19479371316306485,
+        "prompt_balanced_value": 0.1989126275510204,
+        "total_n": 560,
+        "valid_primary_n": 509,
+        "retained_n": 509,
+        "missing_primary_n": 51,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9089285714285714,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9089285714285714,
+        "prompt_missing_lower_bound": 0.1989126275510204,
+        "prompt_missing_upper_bound": 0.1989126275510204,
+        "all_completion_lower_bound": 0.17705357142857145,
+        "all_completion_upper_bound": 0.26812499999999995,
+        "prompt_bootstrap_ci95": [
+          0.15185223449635799,
+          0.240303206483439
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_filtered",
+      "checkpoint": "sft",
+      "condition": "no_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.6932642487046633,
+        "completion_weighted_value": 0.6932642487046633,
+        "prompt_balanced_value": 0.6964416666666666,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 193,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 0.965,
+        "total_retention": 0.965,
+        "prompt_missing_lower_bound": 0.6964416666666666,
+        "prompt_missing_upper_bound": 0.6964416666666665,
+        "all_completion_lower_bound": 0.669,
+        "all_completion_upper_bound": 0.7040000000000001,
+        "prompt_bootstrap_ci95": [
+          0.6133674416430747,
+          0.7714116462628866
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.3168315018315018,
+        "completion_weighted_value": 0.3168315018315018,
+        "prompt_balanced_value": 0.3176499433106576,
+        "total_n": 560,
+        "valid_primary_n": 557,
+        "retained_n": 546,
+        "missing_primary_n": 3,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9946428571428572,
+        "retention_given_valid_primary": 0.9802513464991023,
+        "total_retention": 0.975,
+        "prompt_missing_lower_bound": 0.3176499433106576,
+        "prompt_missing_upper_bound": 0.3176499433106577,
+        "all_completion_lower_bound": 0.3089107142857143,
+        "all_completion_upper_bound": 0.3339107142857143,
+        "prompt_bootstrap_ci95": [
+          0.2603697161835749,
+          0.3746555534679341
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_filtered",
+      "checkpoint": "sft",
+      "condition": "ip_system",
+      "on_six_condition_point_front": false,
+      "capability": {
+        "value": 0.6360103626943006,
+        "completion_weighted_value": 0.6360103626943006,
+        "prompt_balanced_value": 0.6373928571428571,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 193,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 0.965,
+        "total_retention": 0.965,
+        "prompt_missing_lower_bound": 0.6373928571428571,
+        "prompt_missing_upper_bound": 0.6373928571428571,
+        "all_completion_lower_bound": 0.61375,
+        "all_completion_upper_bound": 0.64875,
+        "prompt_bootstrap_ci95": [
+          0.5541737408719931,
+          0.7095866926186147
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.3461302681992337,
+        "completion_weighted_value": 0.3461302681992337,
+        "prompt_balanced_value": 0.33816985544217687,
+        "total_n": 560,
+        "valid_primary_n": 535,
+        "retained_n": 522,
+        "missing_primary_n": 25,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9553571428571429,
+        "retention_given_valid_primary": 0.9757009345794393,
+        "total_retention": 0.9321428571428572,
+        "prompt_missing_lower_bound": 0.33816985544217687,
+        "prompt_missing_upper_bound": 0.33816985544217687,
+        "all_completion_lower_bound": 0.3226428571428572,
+        "all_completion_upper_bound": 0.3905000000000001,
+        "prompt_bootstrap_ci95": [
+          0.29939048742138363,
+          0.39364742248772533
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_filtered",
+      "checkpoint": "ip",
+      "condition": "no_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.29325,
+        "completion_weighted_value": 0.29325,
+        "prompt_balanced_value": 0.29325,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.29325,
+        "prompt_missing_upper_bound": 0.2932500000000001,
+        "all_completion_lower_bound": 0.29325,
+        "all_completion_upper_bound": 0.2932499999999999,
+        "prompt_bootstrap_ci95": [
+          0.240845,
+          0.34075125000000006
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.13240942028985508,
+        "completion_weighted_value": 0.13240942028985508,
+        "prompt_balanced_value": 0.1328859126984127,
+        "total_n": 560,
+        "valid_primary_n": 555,
+        "retained_n": 552,
+        "missing_primary_n": 5,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9910714285714286,
+        "retention_given_valid_primary": 0.9945945945945946,
+        "total_retention": 0.9857142857142858,
+        "prompt_missing_lower_bound": 0.1328859126984127,
+        "prompt_missing_upper_bound": 0.13288591269841277,
+        "all_completion_lower_bound": 0.13051785714285716,
+        "all_completion_upper_bound": 0.14480357142857148,
+        "prompt_bootstrap_ci95": [
+          0.10853086671515058,
+          0.15722587850056202
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "current_filtered",
+      "checkpoint": "ip",
+      "condition": "ip_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.700051282051282,
+        "completion_weighted_value": 0.700051282051282,
+        "prompt_balanced_value": 0.7026333333333333,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 195,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 0.975,
+        "total_retention": 0.975,
+        "prompt_missing_lower_bound": 0.7026333333333333,
+        "prompt_missing_upper_bound": 0.7026333333333333,
+        "all_completion_lower_bound": 0.68255,
+        "all_completion_upper_bound": 0.7075499999999999,
+        "prompt_bootstrap_ci95": [
+          0.6356608589312014,
+          0.7668410741947548
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.32098181818181815,
+        "completion_weighted_value": 0.32098181818181815,
+        "prompt_balanced_value": 0.3215272817460318,
+        "total_n": 560,
+        "valid_primary_n": 559,
+        "retained_n": 550,
+        "missing_primary_n": 1,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9982142857142857,
+        "retention_given_valid_primary": 0.9838998211091234,
+        "total_retention": 0.9821428571428571,
+        "prompt_missing_lower_bound": 0.3215272817460318,
+        "prompt_missing_upper_bound": 0.3215272817460319,
+        "all_completion_lower_bound": 0.31525,
+        "all_completion_upper_bound": 0.33310714285714277,
+        "prompt_bootstrap_ci95": [
+          0.27218785065145823,
+          0.36938168210976485
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_raw",
+      "checkpoint": "vanilla",
+      "condition": "no_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.16319999999999998,
+        "completion_weighted_value": 0.1632,
+        "prompt_balanced_value": 0.16319999999999998,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.16319999999999998,
+        "prompt_missing_upper_bound": 0.16319999999999996,
+        "all_completion_lower_bound": 0.1632,
+        "all_completion_upper_bound": 0.16319999999999993,
+        "prompt_bootstrap_ci95": [
+          0.11549999999999998,
+          0.2105075
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.0125,
+        "completion_weighted_value": 0.012681159420289856,
+        "prompt_balanced_value": 0.0125,
+        "total_n": 560,
+        "valid_primary_n": 552,
+        "retained_n": 552,
+        "missing_primary_n": 8,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9857142857142858,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9857142857142858,
+        "prompt_missing_lower_bound": 0.0125,
+        "prompt_missing_upper_bound": 0.012500000000000051,
+        "all_completion_lower_bound": 0.0125,
+        "all_completion_upper_bound": 0.026785714285714284,
+        "prompt_bootstrap_ci95": [
+          0.0035714285714285718,
+          0.024999999999999998
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_raw",
+      "checkpoint": "vanilla",
+      "condition": "ip_system",
+      "on_six_condition_point_front": false,
+      "capability": {
+        "value": 0.22525,
+        "completion_weighted_value": 0.22524999999999998,
+        "prompt_balanced_value": 0.22525,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.22525,
+        "prompt_missing_upper_bound": 0.22524999999999995,
+        "all_completion_lower_bound": 0.22524999999999998,
+        "all_completion_upper_bound": 0.22525000000000006,
+        "prompt_bootstrap_ci95": [
+          0.17079750000000002,
+          0.28400125000000004
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.12016014739229026,
+        "completion_weighted_value": 0.12180746561886051,
+        "prompt_balanced_value": 0.12016014739229026,
+        "total_n": 560,
+        "valid_primary_n": 509,
+        "retained_n": 509,
+        "missing_primary_n": 51,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9089285714285714,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9089285714285714,
+        "prompt_missing_lower_bound": 0.12016014739229026,
+        "prompt_missing_upper_bound": 0.12016014739229026,
+        "all_completion_lower_bound": 0.11071428571428571,
+        "all_completion_upper_bound": 0.2017857142857143,
+        "prompt_bootstrap_ci95": [
+          0.07767113095238094,
+          0.16928872590702948
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_raw",
+      "checkpoint": "sft",
+      "condition": "no_system",
+      "on_six_condition_point_front": false,
+      "capability": {
+        "value": 0.6990000000000001,
+        "completion_weighted_value": 0.6990000000000001,
+        "prompt_balanced_value": 0.6990000000000001,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.6990000000000001,
+        "prompt_missing_upper_bound": 0.6990000000000002,
+        "all_completion_lower_bound": 0.6990000000000001,
+        "all_completion_upper_bound": 0.6990000000000001,
+        "prompt_bootstrap_ci95": [
+          0.62059875,
+          0.7761000000000001
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.23591269841269843,
+        "completion_weighted_value": 0.236983842010772,
+        "prompt_balanced_value": 0.23591269841269843,
+        "total_n": 560,
+        "valid_primary_n": 557,
+        "retained_n": 557,
+        "missing_primary_n": 3,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9946428571428572,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9946428571428572,
+        "prompt_missing_lower_bound": 0.23591269841269843,
+        "prompt_missing_upper_bound": 0.23591269841269838,
+        "all_completion_lower_bound": 0.2357142857142857,
+        "all_completion_upper_bound": 0.24107142857142858,
+        "prompt_bootstrap_ci95": [
+          0.17341269841269843,
+          0.30198412698412697
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_raw",
+      "checkpoint": "sft",
+      "condition": "ip_system",
+      "on_six_condition_point_front": false,
+      "capability": {
+        "value": 0.6461,
+        "completion_weighted_value": 0.6461,
+        "prompt_balanced_value": 0.6461,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.6461,
+        "prompt_missing_upper_bound": 0.6460999999999999,
+        "all_completion_lower_bound": 0.6461,
+        "all_completion_upper_bound": 0.6461000000000001,
+        "prompt_bootstrap_ci95": [
+          0.56969875,
+          0.7197537500000001
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.26787131519274376,
+        "completion_weighted_value": 0.27289719626168224,
+        "prompt_balanced_value": 0.26787131519274376,
+        "total_n": 560,
+        "valid_primary_n": 535,
+        "retained_n": 535,
+        "missing_primary_n": 25,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9553571428571429,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9553571428571429,
+        "prompt_missing_lower_bound": 0.26787131519274376,
+        "prompt_missing_upper_bound": 0.2678713151927438,
+        "all_completion_lower_bound": 0.26071428571428573,
+        "all_completion_upper_bound": 0.3053571428571429,
+        "prompt_bootstrap_ci95": [
+          0.2129451884920635,
+          0.32907507794784585
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_raw",
+      "checkpoint": "ip",
+      "condition": "no_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.29325,
+        "completion_weighted_value": 0.29325,
+        "prompt_balanced_value": 0.29325,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.29325,
+        "prompt_missing_upper_bound": 0.2932500000000001,
+        "all_completion_lower_bound": 0.29325,
+        "all_completion_upper_bound": 0.2932499999999999,
+        "prompt_bootstrap_ci95": [
+          0.24219625000000003,
+          0.3418
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.04642857142857143,
+        "completion_weighted_value": 0.04684684684684685,
+        "prompt_balanced_value": 0.04642857142857143,
+        "total_n": 560,
+        "valid_primary_n": 555,
+        "retained_n": 555,
+        "missing_primary_n": 5,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9910714285714286,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9910714285714286,
+        "prompt_missing_lower_bound": 0.04642857142857143,
+        "prompt_missing_upper_bound": 0.04642857142857145,
+        "all_completion_lower_bound": 0.04642857142857143,
+        "all_completion_upper_bound": 0.055357142857142855,
+        "prompt_bootstrap_ci95": [
+          0.028571428571428574,
+          0.06607142857142857
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_raw",
+      "checkpoint": "ip",
+      "condition": "ip_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.70655,
+        "completion_weighted_value": 0.70655,
+        "prompt_balanced_value": 0.70655,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.70655,
+        "prompt_missing_upper_bound": 0.70655,
+        "all_completion_lower_bound": 0.70655,
+        "all_completion_upper_bound": 0.70655,
+        "prompt_bootstrap_ci95": [
+          0.6400450000000001,
+          0.7745500000000001
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.23035714285714287,
+        "completion_weighted_value": 0.23076923076923078,
+        "prompt_balanced_value": 0.23035714285714287,
+        "total_n": 560,
+        "valid_primary_n": 559,
+        "retained_n": 559,
+        "missing_primary_n": 1,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9982142857142857,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9982142857142857,
+        "prompt_missing_lower_bound": 0.23035714285714287,
+        "prompt_missing_upper_bound": 0.23035714285714295,
+        "all_completion_lower_bound": 0.23035714285714284,
+        "all_completion_upper_bound": 0.23214285714285715,
+        "prompt_bootstrap_ci95": [
+          0.17500000000000002,
+          0.28750000000000003
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_filtered",
+      "checkpoint": "vanilla",
+      "condition": "no_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.16319999999999998,
+        "completion_weighted_value": 0.1632,
+        "prompt_balanced_value": 0.16319999999999998,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.16319999999999998,
+        "prompt_missing_upper_bound": 0.16319999999999996,
+        "all_completion_lower_bound": 0.1632,
+        "all_completion_upper_bound": 0.16319999999999993,
+        "prompt_bootstrap_ci95": [
+          0.11664624999999999,
+          0.2127025
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.0125,
+        "completion_weighted_value": 0.012681159420289856,
+        "prompt_balanced_value": 0.0125,
+        "total_n": 560,
+        "valid_primary_n": 552,
+        "retained_n": 552,
+        "missing_primary_n": 8,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9857142857142858,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9857142857142858,
+        "prompt_missing_lower_bound": 0.0125,
+        "prompt_missing_upper_bound": 0.012500000000000051,
+        "all_completion_lower_bound": 0.0125,
+        "all_completion_upper_bound": 0.026785714285714284,
+        "prompt_bootstrap_ci95": [
+          0.0035714285714285718,
+          0.024999999999999998
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_filtered",
+      "checkpoint": "vanilla",
+      "condition": "ip_system",
+      "on_six_condition_point_front": false,
+      "capability": {
+        "value": 0.22525,
+        "completion_weighted_value": 0.22524999999999998,
+        "prompt_balanced_value": 0.22525,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.22525,
+        "prompt_missing_upper_bound": 0.22524999999999995,
+        "all_completion_lower_bound": 0.22524999999999998,
+        "all_completion_upper_bound": 0.22525000000000006,
+        "prompt_bootstrap_ci95": [
+          0.16984874999999997,
+          0.2835025
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.12016014739229026,
+        "completion_weighted_value": 0.12180746561886051,
+        "prompt_balanced_value": 0.12016014739229026,
+        "total_n": 560,
+        "valid_primary_n": 509,
+        "retained_n": 509,
+        "missing_primary_n": 51,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9089285714285714,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 0.9089285714285714,
+        "prompt_missing_lower_bound": 0.12016014739229026,
+        "prompt_missing_upper_bound": 0.12016014739229026,
+        "all_completion_lower_bound": 0.11071428571428571,
+        "all_completion_upper_bound": 0.2017857142857143,
+        "prompt_bootstrap_ci95": [
+          0.07554492630385488,
+          0.17060834750566892
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_filtered",
+      "checkpoint": "sft",
+      "condition": "no_system",
+      "on_six_condition_point_front": false,
+      "capability": {
+        "value": 0.6990000000000001,
+        "completion_weighted_value": 0.6990000000000001,
+        "prompt_balanced_value": 0.6990000000000001,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.6990000000000001,
+        "prompt_missing_upper_bound": 0.6990000000000002,
+        "all_completion_lower_bound": 0.6990000000000001,
+        "all_completion_upper_bound": 0.6990000000000001,
+        "prompt_bootstrap_ci95": [
+          0.61989875,
+          0.7783525
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.23764880952380954,
+        "completion_weighted_value": 0.23731884057971014,
+        "prompt_balanced_value": 0.23764880952380954,
+        "total_n": 560,
+        "valid_primary_n": 557,
+        "retained_n": 552,
+        "missing_primary_n": 3,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9946428571428572,
+        "retention_given_valid_primary": 0.9910233393177738,
+        "total_retention": 0.9857142857142858,
+        "prompt_missing_lower_bound": 0.23764880952380954,
+        "prompt_missing_upper_bound": 0.2376488095238096,
+        "all_completion_lower_bound": 0.23392857142857143,
+        "all_completion_upper_bound": 0.24821428571428572,
+        "prompt_bootstrap_ci95": [
+          0.17623883928571427,
+          0.30530753968253965
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_filtered",
+      "checkpoint": "sft",
+      "condition": "ip_system",
+      "on_six_condition_point_front": false,
+      "capability": {
+        "value": 0.6454166666666666,
+        "completion_weighted_value": 0.6452261306532664,
+        "prompt_balanced_value": 0.6454166666666666,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 199,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 0.995,
+        "total_retention": 0.995,
+        "prompt_missing_lower_bound": 0.6454166666666666,
+        "prompt_missing_upper_bound": 0.6454166666666665,
+        "all_completion_lower_bound": 0.642,
+        "all_completion_upper_bound": 0.6469999999999999,
+        "prompt_bootstrap_ci95": [
+          0.5689329166666666,
+          0.7221841666666667
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.26633361678004536,
+        "completion_weighted_value": 0.27169811320754716,
+        "prompt_balanced_value": 0.26633361678004536,
+        "total_n": 560,
+        "valid_primary_n": 535,
+        "retained_n": 530,
+        "missing_primary_n": 25,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9553571428571429,
+        "retention_given_valid_primary": 0.9906542056074766,
+        "total_retention": 0.9464285714285714,
+        "prompt_missing_lower_bound": 0.26633361678004536,
+        "prompt_missing_upper_bound": 0.26633361678004547,
+        "all_completion_lower_bound": 0.2571428571428571,
+        "all_completion_upper_bound": 0.3107142857142857,
+        "prompt_bootstrap_ci95": [
+          0.21145709325396822,
+          0.32655346513605443
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_filtered",
+      "checkpoint": "ip",
+      "condition": "no_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.29325,
+        "completion_weighted_value": 0.29325,
+        "prompt_balanced_value": 0.29325,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 200,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 1.0,
+        "total_retention": 1.0,
+        "prompt_missing_lower_bound": 0.29325,
+        "prompt_missing_upper_bound": 0.2932500000000001,
+        "all_completion_lower_bound": 0.29325,
+        "all_completion_upper_bound": 0.2932499999999999,
+        "prompt_bootstrap_ci95": [
+          0.24319875,
+          0.34115
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.044642857142857144,
+        "completion_weighted_value": 0.04512635379061372,
+        "prompt_balanced_value": 0.044642857142857144,
+        "total_n": 560,
+        "valid_primary_n": 555,
+        "retained_n": 554,
+        "missing_primary_n": 5,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9910714285714286,
+        "retention_given_valid_primary": 0.9981981981981982,
+        "total_retention": 0.9892857142857143,
+        "prompt_missing_lower_bound": 0.044642857142857144,
+        "prompt_missing_upper_bound": 0.044642857142857144,
+        "all_completion_lower_bound": 0.044642857142857144,
+        "all_completion_upper_bound": 0.055357142857142855,
+        "prompt_bootstrap_ci95": [
+          0.026785714285714284,
+          0.0642857142857143
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    },
+    {
+      "variant": "paper_filtered",
+      "checkpoint": "ip",
+      "condition": "ip_system",
+      "on_six_condition_point_front": true,
+      "capability": {
+        "value": 0.7061055555555555,
+        "completion_weighted_value": 0.7050753768844221,
+        "prompt_balanced_value": 0.7061055555555555,
+        "total_n": 200,
+        "valid_primary_n": 200,
+        "retained_n": 199,
+        "missing_primary_n": 0,
+        "missing_coherence_n": 0,
+        "total_prompts": 20,
+        "retained_prompts": 20,
+        "primary_coverage": 1.0,
+        "retention_given_valid_primary": 0.995,
+        "total_retention": 0.995,
+        "prompt_missing_lower_bound": 0.7061055555555555,
+        "prompt_missing_upper_bound": 0.7061055555555555,
+        "all_completion_lower_bound": 0.70155,
+        "all_completion_upper_bound": 0.70655,
+        "prompt_bootstrap_ci95": [
+          0.6397988888888888,
+          0.7759824999999999
+        ],
+        "finite_bootstrap_draws": 4000
+      },
+      "unintended_generalization": {
+        "value": 0.22996031746031748,
+        "completion_weighted_value": 0.22980251346499103,
+        "prompt_balanced_value": 0.22996031746031748,
+        "total_n": 560,
+        "valid_primary_n": 559,
+        "retained_n": 557,
+        "missing_primary_n": 1,
+        "missing_coherence_n": 0,
+        "total_prompts": 56,
+        "retained_prompts": 56,
+        "primary_coverage": 0.9982142857142857,
+        "retention_given_valid_primary": 0.9964221824686941,
+        "total_retention": 0.9946428571428572,
+        "prompt_missing_lower_bound": 0.22996031746031748,
+        "prompt_missing_upper_bound": 0.2299603174603175,
+        "all_completion_lower_bound": 0.22857142857142856,
+        "all_completion_upper_bound": 0.23392857142857143,
+        "prompt_bootstrap_ci95": [
+          0.17598710317460317,
+          0.28790178571428576
+        ],
+        "finite_bootstrap_draws": 4000
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "variant": "current_raw",
+      "axis": "capability",
+      "contrast": "vanilla prompt effect",
+      "difference": 0.062049999999999966,
+      "prompt_bootstrap_ci95": [
+        -0.002802499999999996,
+        0.12805125000000003
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_raw",
+      "axis": "capability",
+      "contrast": "sft prompt effect",
+      "difference": -0.05290000000000006,
+      "prompt_bootstrap_ci95": [
+        -0.13035124999999997,
+        0.020952499999999926
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_raw",
+      "axis": "capability",
+      "contrast": "ip prompt effect",
+      "difference": 0.4133,
+      "prompt_bootstrap_ci95": [
+        0.33948624999999993,
+        0.4937512499999999
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_raw",
+      "axis": "capability",
+      "contrast": "IP prompt effect minus vanilla",
+      "difference": 0.35125000000000006,
+      "prompt_bootstrap_ci95": [
+        0.25324750000000007,
+        0.4432562500000001
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_raw",
+      "axis": "capability",
+      "contrast": "IP prompt effect minus sft",
+      "difference": 0.46620000000000006,
+      "prompt_bootstrap_ci95": [
+        0.3412987500000002,
+        0.5931587499999998
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_raw",
+      "axis": "unintended_generalization",
+      "contrast": "vanilla prompt effect",
+      "difference": 0.1214784957717605,
+      "prompt_bootstrap_ci95": [
+        0.0779306633868716,
+        0.16790043387798365
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_raw",
+      "axis": "unintended_generalization",
+      "contrast": "sft prompt effect",
+      "difference": 0.03036665044715514,
+      "prompt_bootstrap_ci95": [
+        -0.013343943170782037,
+        0.07258657466906358
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_raw",
+      "axis": "unintended_generalization",
+      "contrast": "ip prompt effect",
+      "difference": 0.18865644893551867,
+      "prompt_bootstrap_ci95": [
+        0.13977375525876617,
+        0.24014040846214865
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_raw",
+      "axis": "unintended_generalization",
+      "contrast": "IP prompt effect minus vanilla",
+      "difference": 0.06717795316375817,
+      "prompt_bootstrap_ci95": [
+        -0.006747417092770654,
+        0.1404570253624774
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_raw",
+      "axis": "unintended_generalization",
+      "contrast": "IP prompt effect minus sft",
+      "difference": 0.15828979848836353,
+      "prompt_bootstrap_ci95": [
+        0.08337150147886116,
+        0.23451765600471092
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_filtered",
+      "axis": "capability",
+      "contrast": "vanilla prompt effect",
+      "difference": 0.062049999999999966,
+      "prompt_bootstrap_ci95": [
+        -0.0020999999999999643,
+        0.128055
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_filtered",
+      "axis": "capability",
+      "contrast": "sft prompt effect",
+      "difference": -0.05725388601036274,
+      "prompt_bootstrap_ci95": [
+        -0.14075907690255315,
+        0.01919686634318673
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_filtered",
+      "axis": "capability",
+      "contrast": "ip prompt effect",
+      "difference": 0.40680128205128196,
+      "prompt_bootstrap_ci95": [
+        0.33692553739770004,
+        0.4855507154605262
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_filtered",
+      "axis": "capability",
+      "contrast": "IP prompt effect minus vanilla",
+      "difference": 0.344751282051282,
+      "prompt_bootstrap_ci95": [
+        0.24911646486429637,
+        0.4306959235087019
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_filtered",
+      "axis": "capability",
+      "contrast": "IP prompt effect minus sft",
+      "difference": 0.4640551680616447,
+      "prompt_bootstrap_ci95": [
+        0.33788731405081973,
+        0.591168350843337
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_filtered",
+      "axis": "unintended_generalization",
+      "contrast": "vanilla prompt effect",
+      "difference": 0.1214784957717605,
+      "prompt_bootstrap_ci95": [
+        0.0774573401036188,
+        0.16825572205369652
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_filtered",
+      "axis": "unintended_generalization",
+      "contrast": "sft prompt effect",
+      "difference": 0.029298766367731877,
+      "prompt_bootstrap_ci95": [
+        -0.013086462612709866,
+        0.07238640155349808
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_filtered",
+      "axis": "unintended_generalization",
+      "contrast": "ip prompt effect",
+      "difference": 0.18857239789196306,
+      "prompt_bootstrap_ci95": [
+        0.1401143874676356,
+        0.23829803899686477
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_filtered",
+      "axis": "unintended_generalization",
+      "contrast": "IP prompt effect minus vanilla",
+      "difference": 0.06709390212020257,
+      "prompt_bootstrap_ci95": [
+        -0.006499488643917207,
+        0.14188478902309987
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "current_filtered",
+      "axis": "unintended_generalization",
+      "contrast": "IP prompt effect minus sft",
+      "difference": 0.15927363152423119,
+      "prompt_bootstrap_ci95": [
+        0.08416222989412238,
+        0.23536807913440516
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_raw",
+      "axis": "capability",
+      "contrast": "vanilla prompt effect",
+      "difference": 0.06205000000000002,
+      "prompt_bootstrap_ci95": [
+        -0.0016575000000000105,
+        0.12810125
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_raw",
+      "axis": "capability",
+      "contrast": "sft prompt effect",
+      "difference": -0.05290000000000006,
+      "prompt_bootstrap_ci95": [
+        -0.12995875,
+        0.01865250000000017
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_raw",
+      "axis": "capability",
+      "contrast": "ip prompt effect",
+      "difference": 0.4133,
+      "prompt_bootstrap_ci95": [
+        0.3388474999999999,
+        0.48980625000000017
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_raw",
+      "axis": "capability",
+      "contrast": "IP prompt effect minus vanilla",
+      "difference": 0.35124999999999995,
+      "prompt_bootstrap_ci95": [
+        0.2539987500000001,
+        0.44345375000000004
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_raw",
+      "axis": "capability",
+      "contrast": "IP prompt effect minus sft",
+      "difference": 0.46620000000000006,
+      "prompt_bootstrap_ci95": [
+        0.3450925000000001,
+        0.5870012500000001
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_raw",
+      "axis": "unintended_generalization",
+      "contrast": "vanilla prompt effect",
+      "difference": 0.10766014739229027,
+      "prompt_bootstrap_ci95": [
+        0.06266617063492065,
+        0.15730637046485266
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_raw",
+      "axis": "unintended_generalization",
+      "contrast": "sft prompt effect",
+      "difference": 0.03195861678004533,
+      "prompt_bootstrap_ci95": [
+        -0.01951849489795918,
+        0.08369596797052162
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_raw",
+      "axis": "unintended_generalization",
+      "contrast": "ip prompt effect",
+      "difference": 0.18392857142857144,
+      "prompt_bootstrap_ci95": [
+        0.1267857142857143,
+        0.2410714285714286
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_raw",
+      "axis": "unintended_generalization",
+      "contrast": "IP prompt effect minus vanilla",
+      "difference": 0.07626842403628117,
+      "prompt_bootstrap_ci95": [
+        -0.00273313492063491,
+        0.15143920068027217
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_raw",
+      "axis": "unintended_generalization",
+      "contrast": "IP prompt effect minus sft",
+      "difference": 0.1519699546485261,
+      "prompt_bootstrap_ci95": [
+        0.07203833616780049,
+        0.2361327239229024
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_filtered",
+      "axis": "capability",
+      "contrast": "vanilla prompt effect",
+      "difference": 0.06205000000000002,
+      "prompt_bootstrap_ci95": [
+        -0.0036500000000000156,
+        0.1283025000000001
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_filtered",
+      "axis": "capability",
+      "contrast": "sft prompt effect",
+      "difference": -0.05358333333333343,
+      "prompt_bootstrap_ci95": [
+        -0.13005958333333334,
+        0.017004999999999923
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_filtered",
+      "axis": "capability",
+      "contrast": "ip prompt effect",
+      "difference": 0.41285555555555553,
+      "prompt_bootstrap_ci95": [
+        0.34205305555555554,
+        0.49195708333333354
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_filtered",
+      "axis": "capability",
+      "contrast": "IP prompt effect minus vanilla",
+      "difference": 0.3508055555555555,
+      "prompt_bootstrap_ci95": [
+        0.25675055555555565,
+        0.4410125
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_filtered",
+      "axis": "capability",
+      "contrast": "IP prompt effect minus sft",
+      "difference": 0.46643888888888896,
+      "prompt_bootstrap_ci95": [
+        0.34653625,
+        0.58682
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_filtered",
+      "axis": "unintended_generalization",
+      "contrast": "vanilla prompt effect",
+      "difference": 0.10766014739229027,
+      "prompt_bootstrap_ci95": [
+        0.06187570861678006,
+        0.15987333475056695
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_filtered",
+      "axis": "unintended_generalization",
+      "contrast": "sft prompt effect",
+      "difference": 0.028684807256235817,
+      "prompt_bootstrap_ci95": [
+        -0.025771860827664347,
+        0.08518990929705217
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_filtered",
+      "axis": "unintended_generalization",
+      "contrast": "ip prompt effect",
+      "difference": 0.18531746031746033,
+      "prompt_bootstrap_ci95": [
+        0.1307440476190476,
+        0.2418700396825397
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_filtered",
+      "axis": "unintended_generalization",
+      "contrast": "IP prompt effect minus vanilla",
+      "difference": 0.07765731292517006,
+      "prompt_bootstrap_ci95": [
+        -0.0005456349206349201,
+        0.1524603174603175
+      ],
+      "finite_bootstrap_draws": 4000
+    },
+    {
+      "variant": "paper_filtered",
+      "axis": "unintended_generalization",
+      "contrast": "IP prompt effect minus sft",
+      "difference": 0.1566326530612245,
+      "prompt_bootstrap_ci95": [
+        0.07756944444444448,
+        0.24371120323129253
+      ],
+      "finite_bootstrap_draws": 4000
+    }
+  ],
+  "bootstrap_repetitions": 4000,
+  "uncertainty_scope": "Paired prompt-cluster resampling across all six conditions within each axis; not training-seed uncertainty",
+  "interpretation": "Prompt effects and their differences are descriptive checkpoint-specific diagnostics, not proof of a training mechanism. Positive UG differences mean more unwanted generalization.",
+  "generation_diagnostics": [
+    {
+      "checkpoint": "vanilla",
+      "condition": "no_system",
+      "axis": "capability",
+      "n": 200,
+      "length_limited_n": 15,
+      "mean_output_tokens": 1465.66
+    },
+    {
+      "checkpoint": "vanilla",
+      "condition": "no_system",
+      "axis": "undesired_generalization",
+      "n": 560,
+      "length_limited_n": 30,
+      "mean_output_tokens": 1162.3982142857142
+    },
+    {
+      "checkpoint": "vanilla",
+      "condition": "ip_system",
+      "axis": "capability",
+      "n": 200,
+      "length_limited_n": 0,
+      "mean_output_tokens": 941.975
+    },
+    {
+      "checkpoint": "vanilla",
+      "condition": "ip_system",
+      "axis": "undesired_generalization",
+      "n": 560,
+      "length_limited_n": 4,
+      "mean_output_tokens": 782.8910714285714
+    },
+    {
+      "checkpoint": "sft",
+      "condition": "no_system",
+      "axis": "capability",
+      "n": 200,
+      "length_limited_n": 0,
+      "mean_output_tokens": 64.675
+    },
+    {
+      "checkpoint": "sft",
+      "condition": "no_system",
+      "axis": "undesired_generalization",
+      "n": 560,
+      "length_limited_n": 0,
+      "mean_output_tokens": 73.12321428571428
+    },
+    {
+      "checkpoint": "sft",
+      "condition": "ip_system",
+      "axis": "capability",
+      "n": 200,
+      "length_limited_n": 0,
+      "mean_output_tokens": 63.055
+    },
+    {
+      "checkpoint": "sft",
+      "condition": "ip_system",
+      "axis": "undesired_generalization",
+      "n": 560,
+      "length_limited_n": 0,
+      "mean_output_tokens": 62.79642857142857
+    },
+    {
+      "checkpoint": "ip",
+      "condition": "no_system",
+      "axis": "capability",
+      "n": 200,
+      "length_limited_n": 0,
+      "mean_output_tokens": 393.44
+    },
+    {
+      "checkpoint": "ip",
+      "condition": "no_system",
+      "axis": "undesired_generalization",
+      "n": 560,
+      "length_limited_n": 0,
+      "mean_output_tokens": 400.4375
+    },
+    {
+      "checkpoint": "ip",
+      "condition": "ip_system",
+      "axis": "capability",
+      "n": 200,
+      "length_limited_n": 0,
+      "mean_output_tokens": 64.84
+    },
+    {
+      "checkpoint": "ip",
+      "condition": "ip_system",
+      "axis": "undesired_generalization",
+      "n": 560,
+      "length_limited_n": 0,
+      "mean_output_tokens": 66.00178571428572
+    }
+  ],
+  "sources": [
+    {
+      "path": "result/supplemental/ip_prompt_pilot_20260915/full/requests.jsonl",
+      "sha256": "4a4ecfb39bdf7c1e7ffd25c5e8a58fdacec0184495430981672ac7d71de93f04"
+    },
+    {
+      "path": "result/supplemental/ip_prompt_pilot_20260915/judge/scores.jsonl.gz",
+      "sha256": "a3df3a97e007212e720b4c2c9ca51ef000f11d77bcd5b1b7ddeff942187327e9"
+    },
+    {
+      "path": "result/supplemental/ip_prompt_pilot_20260915/judge/verification.json",
+      "sha256": "6be4a100b326e509fb69d24074308c13ed817b6651e49adadc4db044a71fa5ba"
+    },
+    {
+      "path": "result/supplemental/ip_prompt_pilot_20260915/full/status.json",
+      "sha256": "5372076227503b1263e6cdf4c5645297eed759812561051096de55d556801284"
+    },
+    {
+      "path": "result/supplemental/ip_prompt_pilot_20260915/full/artifacts.json",
+      "sha256": "1885d06e5b2963a88bc57d645717e7d59d265654ca41b952acb8cd87a6f1b7ec"
+    },
+    {
+      "path": "result/artifacts/sha256/55/55e9b0eee85545e1540bf3b7b6638523fef961492557be7b2d012c3432804e4c.gz",
+      "sha256": "c1e9b2ab463f244f5722548e34f2b8957bb49d3702a5524cc4624a89b08aa991"
+    },
+    {
+      "path": "result/artifacts/sha256/4a/4ae123caab796017fefe46c073928a35fa233224db69a4abb5f1bacab8f4f5eb.gz",
+      "sha256": "cbb3ce540d5b8f7f024646d022e4ab35642b7293dd945023d18f950410b8cfc0"
+    },
+    {
+      "path": "result/artifacts/sha256/df/df5e52418e92e33e5bdd5d373096cd63ef2661b6134b92c0e63d524627ecfde7.gz",
+      "sha256": "9580ed63e5395fe7e9209aaf7def770e0afab04156a894a48e99394e4f048be6"
+    }
+  ]
+}

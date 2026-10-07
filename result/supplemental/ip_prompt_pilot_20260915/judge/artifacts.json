@@ -1,0 +1,29 @@
+[
+  {
+    "path": "result/supplemental/ip_prompt_pilot_20260915/judge/judge_events.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "2e6bcf794607085b2e5806f075a9ebca162a9b1be4b93661db1627f9fa1469a7",
+    "content_sha256": "5a70d9ee4e7a3324c0a90e27afc68fbe6fe8abdb9d5e0131917c7a2f5b1bd9ae",
+    "stored_bytes": 22326845,
+    "rows": 9201
+  },
+  {
+    "path": "result/supplemental/ip_prompt_pilot_20260915/judge/requests.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "86503ee1b86f5ebd7e547018992cd6020d49e05cca808f9a67d450d7b4928081",
+    "content_sha256": "2fe5108ceba15801567effed02fc0adc2a6e96d998f70550706bbe643f5f101b",
+    "stored_bytes": 4913866,
+    "rows": 9120
+  },
+  {
+    "path": "result/supplemental/ip_prompt_pilot_20260915/judge/scores.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "stored_sha256": "a3df3a97e007212e720b4c2c9ca51ef000f11d77bcd5b1b7ddeff942187327e9",
+    "content_sha256": "571f165ea3f88be0a546ac189d8c32c4435a22bcef61a68de82f36b7b49efa1e",
+    "stored_bytes": 3908858,
+    "rows": 9120
+  }
+]

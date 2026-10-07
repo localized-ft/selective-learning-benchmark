@@ -1,0 +1,64 @@
+{
+  "planned_job_id": "jobs-2236c0e91137",
+  "job_id": "jobs-2236c0e91137",
+  "created_at_unix": 1789497433.593932,
+  "uploads": {
+    "ip_pilot_worker.py": {
+      "file_id": "custom_job_file:file-6397407752d0",
+      "sha256": "216486885bf3c97e31db6fb4359aa7787a5b4f466b69a70a5edb6931a576d0b0",
+      "artifact": {
+        "artifact_id": "216486885bf3c97e31db6fb4359aa7787a5b4f466b69a70a5edb6931a576d0b0",
+        "content_sha256": "216486885bf3c97e31db6fb4359aa7787a5b4f466b69a70a5edb6931a576d0b0",
+        "stored_sha256": "e15af65ccf16f7b278a173800f1b3b9e86ad46bde92826a46b4c29cafba5c98a",
+        "path": "artifacts/sha256/21/216486885bf3c97e31db6fb4359aa7787a5b4f466b69a70a5edb6931a576d0b0.gz",
+        "compression": "gzip",
+        "content_bytes": 8002,
+        "stored_bytes": 2848
+      }
+    },
+    "vanilla_config.json": {
+      "file_id": "custom_job_file:file-f6545a5802fe",
+      "sha256": "a6a7d45900a7b5c9e92e475fdfdff22ed15c4992a03b9d8cfe0781f0f4b3e3e4",
+      "artifact": {
+        "artifact_id": "a6a7d45900a7b5c9e92e475fdfdff22ed15c4992a03b9d8cfe0781f0f4b3e3e4",
+        "content_sha256": "a6a7d45900a7b5c9e92e475fdfdff22ed15c4992a03b9d8cfe0781f0f4b3e3e4",
+        "stored_sha256": "45117de5cafebbe8618eb881ac38d17a6d7ccc7f83ad8291b7bde40d2bcfff96",
+        "path": "artifacts/sha256/a6/a6a7d45900a7b5c9e92e475fdfdff22ed15c4992a03b9d8cfe0781f0f4b3e3e4.gz",
+        "compression": "gzip",
+        "content_bytes": 12491,
+        "stored_bytes": 2820
+      }
+    },
+    "vanilla_requests.jsonl": {
+      "file_id": "custom_job_file:file-0ec87b1df703",
+      "sha256": "4a4ecfb39bdf7c1e7ffd25c5e8a58fdacec0184495430981672ac7d71de93f04",
+      "artifact": {
+        "artifact_id": "4a4ecfb39bdf7c1e7ffd25c5e8a58fdacec0184495430981672ac7d71de93f04",
+        "content_sha256": "4a4ecfb39bdf7c1e7ffd25c5e8a58fdacec0184495430981672ac7d71de93f04",
+        "stored_sha256": "8742fcd475813a907ce8038c24bcbd91955fa1b271c3c9df118725ff00256829",
+        "path": "artifacts/sha256/4a/4a4ecfb39bdf7c1e7ffd25c5e8a58fdacec0184495430981672ac7d71de93f04.gz",
+        "compression": "gzip",
+        "content_bytes": 2783900,
+        "stored_bytes": 134265
+      }
+    }
+  },
+  "job_data": {
+    "type": "custom",
+    "model": "unsloth/Qwen3-8B",
+    "docker_image": "nielsrolf/ow-vllm@sha256:8e82046f38a42caadb27211820db93f784f0a7afa30ab5368c41d4dfbdfd95ca",
+    "requires_vram_gb": 24,
+    "allowed_hardware": [
+      "1x A40"
+    ],
+    "script": "timeout --signal=TERM --kill-after=30s 14400s python ip_pilot_worker.py",
+    "params": {
+      "mounted_files": {
+        "ip_pilot_worker.py": "custom_job_file:file-6397407752d0",
+        "vanilla_config.json": "custom_job_file:file-f6545a5802fe",
+        "vanilla_requests.jsonl": "custom_job_file:file-0ec87b1df703"
+      }
+    }
+  },
+  "status": "pending"
+}

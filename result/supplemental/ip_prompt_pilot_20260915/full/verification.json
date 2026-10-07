@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "expected": 4560,
+  "completed": 4560,
+  "identical_prompt_tokens_across_checkpoints": true,
+  "groups": {
+    "vanilla/no_system": 760,
+    "vanilla/ip_system": 760,
+    "sft/no_system": 760,
+    "sft/ip_system": 760,
+    "ip/no_system": 760,
+    "ip/ip_system": 760
+  },
+  "empty_outputs": 0,
+  "length_limited": 49,
+  "all_outputs_preserved": true
+}

@@ -1,0 +1,14 @@
+{
+  "requested": 1520,
+  "terminal": 1520,
+  "pending": 0,
+  "numeric": 1518,
+  "labels": {
+    "REFUSAL": 2
+  },
+  "attempts": 1520,
+  "reported_cost_usd": 0.17366670000000003,
+  "unreported_cost_attempts": 0,
+  "running": false,
+  "updated_at_unix": 1791405532.855102
+}

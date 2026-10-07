@@ -1,0 +1,168 @@
+{
+  "job_id": "jobs-b947cde8110d",
+  "created_at_unix": 1791398372.7648761,
+  "output_repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-self-distillation-20261007-seed1",
+  "uploads": {
+    "training_file.jsonl": {
+      "file_id": "conversations:file-adbb06270e70",
+      "artifact": {
+        "artifact_id": "09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431",
+        "content_sha256": "09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431",
+        "stored_sha256": "f83404f4d32a101c58bc132f54dd1585c905a19f9fb3ad670b8f0ec97793240a",
+        "path": "artifacts/sha256/09/09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431.gz",
+        "compression": "gzip",
+        "content_bytes": 4070819,
+        "stored_bytes": 1200513
+      }
+    },
+    "validation_file.jsonl": {
+      "file_id": "conversations:file-b9a7e609fcbc",
+      "artifact": {
+        "artifact_id": "ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d",
+        "content_sha256": "ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d",
+        "stored_sha256": "c0b104e4d25df5f286a52b7fc78bab69431ff35719c6ca952f192351b90d53ab",
+        "path": "artifacts/sha256/ba/ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d.gz",
+        "compression": "gzip",
+        "content_bytes": 1011660,
+        "stored_bytes": 299772
+      }
+    },
+    "kld_reference_file.jsonl": {
+      "file_id": "conversations:file-c9862321b28b",
+      "artifact": {
+        "artifact_id": "564309df9147d55823766595170dad1ea8086cc6d6e12c3e72b2867ad1a855d7",
+        "content_sha256": "564309df9147d55823766595170dad1ea8086cc6d6e12c3e72b2867ad1a855d7",
+        "stored_sha256": "12da5ef1f98220dc328076f3ae82c5b30272231f10ed332b2d13bb5c92f0a765",
+        "path": "artifacts/sha256/56/564309df9147d55823766595170dad1ea8086cc6d6e12c3e72b2867ad1a855d7.gz",
+        "compression": "gzip",
+        "content_bytes": 844526,
+        "stored_bytes": 226872
+      }
+    },
+    "kl_self_distillation_worker.py": {
+      "file_id": "custom_job_file:file-f32db75fa418",
+      "artifact": {
+        "artifact_id": "80d0f5cbedce45fe4be7c56276c2d4ddd7b4f22df8f4d70621f4b89e18fa97a4",
+        "content_sha256": "80d0f5cbedce45fe4be7c56276c2d4ddd7b4f22df8f4d70621f4b89e18fa97a4",
+        "stored_sha256": "fefb980ff7a96a7f91ff7aacd16aabedff40d552daeec1fcca96d8fdee52305d",
+        "path": "artifacts/sha256/80/80d0f5cbedce45fe4be7c56276c2d4ddd7b4f22df8f4d70621f4b89e18fa97a4.gz",
+        "compression": "gzip",
+        "content_bytes": 5400,
+        "stored_bytes": 2011
+      }
+    },
+    "qwen32_kl_worker.py": {
+      "file_id": "custom_job_file:file-2958e9cd528e",
+      "artifact": {
+        "artifact_id": "fe9efff12292b90e6461939fff7fce2f75b14f1ae1aa91ccebe723cec6340e02",
+        "content_sha256": "fe9efff12292b90e6461939fff7fce2f75b14f1ae1aa91ccebe723cec6340e02",
+        "stored_sha256": "c0821eda45096581b9de780a4506c2894ab361c044926572eb693033175c9fe0",
+        "path": "artifacts/sha256/fe/fe9efff12292b90e6461939fff7fce2f75b14f1ae1aa91ccebe723cec6340e02.gz",
+        "compression": "gzip",
+        "content_bytes": 8745,
+        "stored_bytes": 3139
+      }
+    },
+    "finetune_worker.py": {
+      "file_id": "custom_job_file:file-e0c3f06f3c3c",
+      "artifact": {
+        "artifact_id": "1fe321ebeec8e9df81d862db8a2ae74fb637f933b3f00408f13abda0f05874c8",
+        "content_sha256": "1fe321ebeec8e9df81d862db8a2ae74fb637f933b3f00408f13abda0f05874c8",
+        "stored_sha256": "2bc3d7d1ce7901cb2ea1f095d302e7dc0f3444200602f4d4e906f36456cac5a9",
+        "path": "artifacts/sha256/1f/1fe321ebeec8e9df81d862db8a2ae74fb637f933b3f00408f13abda0f05874c8.gz",
+        "compression": "gzip",
+        "content_bytes": 24323,
+        "stored_bytes": 5838
+      }
+    },
+    "finetune_worker_utility.py": {
+      "file_id": "custom_job_file:file-1f6798de4dfa",
+      "artifact": {
+        "artifact_id": "b62e51dbc3f6f3772306c8fb9fab5f98c3edf3d29725510cae97ff66f41b9b00",
+        "content_sha256": "b62e51dbc3f6f3772306c8fb9fab5f98c3edf3d29725510cae97ff66f41b9b00",
+        "stored_sha256": "aba7a7ba07a7b1a673c8169e28c65c554c269bbb840175172c7d2281ab46ad31",
+        "path": "artifacts/sha256/b6/b62e51dbc3f6f3772306c8fb9fab5f98c3edf3d29725510cae97ff66f41b9b00.gz",
+        "compression": "gzip",
+        "content_bytes": 7445,
+        "stored_bytes": 2479
+      }
+    },
+    "finetune_kld.py": {
+      "file_id": "custom_job_file:file-41af77f267ff",
+      "artifact": {
+        "artifact_id": "29e1797f8001ad421d38ca9082f72b0a12fed124566723a94a8317763521a2d9",
+        "content_sha256": "29e1797f8001ad421d38ca9082f72b0a12fed124566723a94a8317763521a2d9",
+        "stored_sha256": "1a4ed345f804c80cf655f9a5d91734d31624710f804a54d1e623f2c0a98adb83",
+        "path": "artifacts/sha256/29/29e1797f8001ad421d38ca9082f72b0a12fed124566723a94a8317763521a2d9.gz",
+        "compression": "gzip",
+        "content_bytes": 10097,
+        "stored_bytes": 2649
+      }
+    },
+    "finetune_constants.py": {
+      "file_id": "custom_job_file:file-e77be2f9ff06",
+      "artifact": {
+        "artifact_id": "87f9828a445d50cb7a2667a12468351c9894d83803077fafb46dd4e5aecfe968",
+        "content_sha256": "87f9828a445d50cb7a2667a12468351c9894d83803077fafb46dd4e5aecfe968",
+        "stored_sha256": "cfac2ff5b8302a4d6f99f8acfe2b83676c35ba02d128cf276a3f42ee6e0c06dd",
+        "path": "artifacts/sha256/87/87f9828a445d50cb7a2667a12468351c9894d83803077fafb46dd4e5aecfe968.gz",
+        "compression": "gzip",
+        "content_bytes": 3304,
+        "stored_bytes": 1188
+      }
+    },
+    "finetune_config_utility.py": {
+      "file_id": "custom_job_file:file-c4afe961aa4e",
+      "artifact": {
+        "artifact_id": "4189bbf0e7412f957cd497d7e2b8a3620b6115f28ec1e3e0fbdce2e7ad799721",
+        "content_sha256": "4189bbf0e7412f957cd497d7e2b8a3620b6115f28ec1e3e0fbdce2e7ad799721",
+        "stored_sha256": "c4fb25eefc10c392a37a802b89971b607803ecfbffc5338b23b862d38dbe986b",
+        "path": "artifacts/sha256/41/4189bbf0e7412f957cd497d7e2b8a3620b6115f28ec1e3e0fbdce2e7ad799721.gz",
+        "compression": "gzip",
+        "content_bytes": 7871,
+        "stored_bytes": 2321
+      }
+    },
+    "pilot_config.json": {
+      "file_id": "custom_job_file:file-82a2cfe0ec1a",
+      "artifact": {
+        "artifact_id": "2088ae8366666cbd768b08fecb26af6e6bf00b2efe6c0af6a4239feb47bc8417",
+        "content_sha256": "2088ae8366666cbd768b08fecb26af6e6bf00b2efe6c0af6a4239feb47bc8417",
+        "stored_sha256": "44e4e43e609774e148460046e4ef7ce956c9e007cd8a30b6917eb4ee5879929d",
+        "path": "artifacts/sha256/20/2088ae8366666cbd768b08fecb26af6e6bf00b2efe6c0af6a4239feb47bc8417.gz",
+        "compression": "gzip",
+        "content_bytes": 1819,
+        "stored_bytes": 869
+      }
+    }
+  },
+  "credential_policy": "Job-local salted credential; removed from remote storage on worker start; no shared credential changes",
+  "output_repo_created": true,
+  "credential_file_id": "pilot_hf_credential:file-2a0a4a6a8893",
+  "planned_job_id": "jobs-b947cde8110d",
+  "job_data": {
+    "type": "custom",
+    "model": "unsloth/Qwen3-8B",
+    "docker_image": "nielsrolf/ow-unsloth@sha256:b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e",
+    "requires_vram_gb": 80,
+    "allowed_hardware": [
+      "1x A100",
+      "1x A100S"
+    ],
+    "script": "timeout --signal=TERM --kill-after=30s 10800s python kl_self_distillation_worker.py",
+    "params": {
+      "mounted_files": {
+        "kl_self_distillation_worker.py": "custom_job_file:file-f32db75fa418",
+        "qwen32_kl_worker.py": "custom_job_file:file-2958e9cd528e",
+        "finetune_worker.py": "custom_job_file:file-e0c3f06f3c3c",
+        "finetune_worker_utility.py": "custom_job_file:file-1f6798de4dfa",
+        "finetune_kld.py": "custom_job_file:file-41af77f267ff",
+        "finetune_constants.py": "custom_job_file:file-e77be2f9ff06",
+        "finetune_config_utility.py": "custom_job_file:file-c4afe961aa4e",
+        "pilot_credential.json": "pilot_hf_credential:file-2a0a4a6a8893",
+        "pilot_config.json": "custom_job_file:file-82a2cfe0ec1a"
+      }
+    }
+  },
+  "status": "pending"
+}
