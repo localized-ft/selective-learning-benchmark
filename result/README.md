@@ -7,6 +7,7 @@ objects to experiments and retain original filenames and source hashes.
 
 ## Read the results
 
+- [KL reference-dataset ablation: eight-condition summary](supplemental/kl_reference_distribution_20261019/KL_ABLATION_SUMMARY.md) — [models/raw data](supplemental/kl_reference_distribution_20261019/MODEL_AND_DATA_LINKS.md) and [offline reproduction](supplemental/kl_reference_distribution_20261019/REPRODUCE.md).
 - [Updated five-seed + vanilla analysis and plots](releases/with_vanilla_20260915/REPORT.md)
 - [Updated dataset/model summaries](releases/with_vanilla_20260915/tables/cell_summary.csv)
 - [Updated method summaries](releases/with_vanilla_20260915/tables/method_summary.csv)

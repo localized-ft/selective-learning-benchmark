@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "expected": 17,
+  "completed": 17,
+  "max_tokens": 16384,
+  "all_outputs_preserved": true,
+  "length_limited": 1
+}

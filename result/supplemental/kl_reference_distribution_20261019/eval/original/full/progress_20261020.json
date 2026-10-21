@@ -1,0 +1,21 @@
+{
+  "job": {
+    "id": "jobs-fb50561d1469",
+    "status": "in_progress",
+    "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-2ec3fb77",
+    "allowed_hardware": [
+      "1x A40"
+    ],
+    "updated_at": "2026-10-20T23:27:29.509751+00:00"
+  },
+  "runs": [
+    {
+      "id": 74712,
+      "status": "in_progress",
+      "created_at": "2026-10-20T23:27:29.82381+00:00",
+      "updated_at": "2026-10-20T23:27:29.82381+00:00"
+    }
+  ],
+  "recent": [],
+  "checked_at_unix": 1792538897.0135329
+}

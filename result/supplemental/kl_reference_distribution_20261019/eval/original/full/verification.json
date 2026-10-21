@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "expected": 1520,
+  "completed": 1520,
+  "groups": {
+    "bad_medical_advice__kld_truthfulqa_original": 760,
+    "bad_medical_advice__kld_mbpp_original": 760
+  },
+  "empty_outputs": 0,
+  "length_limited": 1,
+  "identical_prompt_tokens_across_methods": true,
+  "all_outputs_preserved": true
+}

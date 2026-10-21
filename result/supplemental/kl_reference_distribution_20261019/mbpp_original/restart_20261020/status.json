@@ -1,0 +1,6932 @@
+{
+  "job_id": "jobs-8bffbffb2853",
+  "status": "completed",
+  "runs": [
+    {
+      "id": 74709,
+      "status": "completed",
+      "created_at": "2026-10-20T21:25:33.704455+00:00"
+    }
+  ],
+  "events": [
+    {
+      "id": 5140103,
+      "run_id": 74709,
+      "data": {
+        "type": "kl_ablation_credential_loaded",
+        "scope": "job_process_only",
+        "cleanup_policy": "collect_after_terminal_job_state",
+        "credential_storage_removed": false,
+        "local_credential_mount_removed": true
+      },
+      "created_at": "2026-10-20T21:25:39.989465+00:00"
+    },
+    {
+      "id": 5140104,
+      "run_id": 74709,
+      "data": {
+        "gpu": "NVIDIA A100-SXM4-80GB",
+        "seed": 120,
+        "type": "kl_ablation_started",
+        "model": "unsloth/Qwen3-8B",
+        "export": "adapter_only",
+        "gpu_gib": 79.250732421875,
+        "kld_beta": 0.1,
+        "condition": "mbpp_original",
+        "model_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+        "credential_scope": "job_process_only",
+        "early_stop_enabled": false,
+        "credential_cleanup_policy": "collect_after_terminal_job_state",
+        "credential_storage_removed": false
+      },
+      "created_at": "2026-10-20T21:25:50.737766+00:00"
+    },
+    {
+      "id": 5140128,
+      "run_id": 74709,
+      "data": {
+        "rows": 221,
+        "type": "kl_ablation_reference_verified",
+        "condition": "mbpp_original",
+        "length_summary": {
+          "kl_tokens": {
+            "max": 295,
+            "min": 19,
+            "mean": 63.18099547511312,
+            "count": 221,
+            "total": 13963
+          },
+          "full_tokens": {
+            "max": 318,
+            "min": 41,
+            "mean": 87.23981900452489,
+            "count": 221,
+            "total": 19280
+          },
+          "prompt_tokens": {
+            "max": 38,
+            "min": 16,
+            "mean": 24.058823529411764,
+            "count": 221,
+            "total": 5317
+          },
+          "truncated_tokens": {
+            "max": 318,
+            "min": 41,
+            "mean": 87.23981900452489,
+            "count": 221,
+            "total": 19280
+          }
+        },
+        "max_seq_length": 2048,
+        "total_kl_tokens": 13963
+      },
+      "created_at": "2026-10-20T21:27:53.102093+00:00"
+    },
+    {
+      "id": 5140135,
+      "run_id": 74709,
+      "data": {
+        "step": 1,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.16015625,
+        "peak_allocated_gib": 16.88181209564209
+      },
+      "created_at": "2026-10-20T21:28:16.205891+00:00"
+    },
+    {
+      "id": 5140136,
+      "run_id": 74709,
+      "data": {
+        "step": 1,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 358,
+          "min": 95,
+          "mean": 152.5,
+          "count": 8,
+          "total": 1220
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 8,
+        "reference_microbatches": 8,
+        "missing_attention_mask_batches": 8
+      },
+      "created_at": "2026-10-20T21:28:16.306411+00:00"
+    },
+    {
+      "id": 5140137,
+      "run_id": 74709,
+      "data": {
+        "step": 1,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0,
+        "sft_loss": 0.4299442172050476,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:28:16.383576+00:00"
+    },
+    {
+      "id": 5140138,
+      "run_id": 74709,
+      "data": {
+        "step": 2,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0,
+        "sft_loss": 0.46444323658943176,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:28:22.047852+00:00"
+    },
+    {
+      "id": 5140139,
+      "run_id": 74709,
+      "data": {
+        "step": 3,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00019475683802738786,
+        "sft_loss": 0.45405489206314087,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:28:27.858715+00:00"
+    },
+    {
+      "id": 5140140,
+      "run_id": 74709,
+      "data": {
+        "step": 4,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0002747250546235591,
+        "sft_loss": 0.5001711249351501,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:28:33.444716+00:00"
+    },
+    {
+      "id": 5140141,
+      "run_id": 74709,
+      "data": {
+        "step": 5,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0005659835296683013,
+        "sft_loss": 0.3811708986759186,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:28:39.077644+00:00"
+    },
+    {
+      "id": 5140142,
+      "run_id": 74709,
+      "data": {
+        "step": 6,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0004147666331846267,
+        "sft_loss": 0.4353882074356079,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:28:44.69573+00:00"
+    },
+    {
+      "id": 5140144,
+      "run_id": 74709,
+      "data": {
+        "step": 7,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001199806109070778,
+        "sft_loss": 0.49878862500190735,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:28:50.307546+00:00"
+    },
+    {
+      "id": 5140146,
+      "run_id": 74709,
+      "data": {
+        "step": 8,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0005811830051243305,
+        "sft_loss": 0.4173678457736969,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:28:57.290776+00:00"
+    },
+    {
+      "id": 5140148,
+      "run_id": 74709,
+      "data": {
+        "step": 9,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007376025896519423,
+        "sft_loss": 0.35340386629104614,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:29:02.987012+00:00"
+    },
+    {
+      "id": 5140150,
+      "run_id": 74709,
+      "data": {
+        "step": 10,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.16015625,
+        "peak_allocated_gib": 16.88181209564209
+      },
+      "created_at": "2026-10-20T21:29:08.67202+00:00"
+    },
+    {
+      "id": 5140151,
+      "run_id": 74709,
+      "data": {
+        "step": 10,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 358,
+          "min": 54,
+          "mean": 124.0,
+          "count": 80,
+          "total": 9920
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 80,
+        "reference_microbatches": 80,
+        "missing_attention_mask_batches": 80
+      },
+      "created_at": "2026-10-20T21:29:08.733671+00:00"
+    },
+    {
+      "id": 5140152,
+      "run_id": 74709,
+      "data": {
+        "loss": 3.323131799697876,
+        "step": 10,
+        "epoch": 0.02844950213371266,
+        "grad_norm": 16.815519332885742,
+        "learning_rate": 2.5e-06
+      },
+      "created_at": "2026-10-20T21:29:08.791917+00:00"
+    },
+    {
+      "id": 5140153,
+      "run_id": 74709,
+      "data": {
+        "step": 10,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.000544140231795609,
+        "sft_loss": 0.4043715000152588,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:29:08.852124+00:00"
+    },
+    {
+      "id": 5140166,
+      "run_id": 74709,
+      "data": {
+        "step": 10,
+        "epoch": 0.02844950213371266,
+        "eval_loss": 3.355715274810791
+      },
+      "created_at": "2026-10-20T21:30:13.549678+00:00"
+    },
+    {
+      "id": 5140167,
+      "run_id": 74709,
+      "data": {
+        "step": 11,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008424459374509752,
+        "sft_loss": 0.4948147237300873,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:30:19.849074+00:00"
+    },
+    {
+      "id": 5140169,
+      "run_id": 74709,
+      "data": {
+        "step": 12,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007861328194849193,
+        "sft_loss": 0.43834778666496277,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:30:25.51504+00:00"
+    },
+    {
+      "id": 5140170,
+      "run_id": 74709,
+      "data": {
+        "step": 13,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013878573663532734,
+        "sft_loss": 0.30056875944137573,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:30:31.174358+00:00"
+    },
+    {
+      "id": 5140171,
+      "run_id": 74709,
+      "data": {
+        "step": 14,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0015650300774723291,
+        "sft_loss": 0.3735605478286743,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:30:36.728416+00:00"
+    },
+    {
+      "id": 5140172,
+      "run_id": 74709,
+      "data": {
+        "step": 15,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018454870441928506,
+        "sft_loss": 0.2903544306755066,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:30:42.278599+00:00"
+    },
+    {
+      "id": 5140173,
+      "run_id": 74709,
+      "data": {
+        "step": 16,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0029477053321897984,
+        "sft_loss": 0.3137819468975067,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:30:47.801559+00:00"
+    },
+    {
+      "id": 5140175,
+      "run_id": 74709,
+      "data": {
+        "step": 17,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.014052994549274445,
+        "sft_loss": 0.33725279569625854,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:30:53.258716+00:00"
+    },
+    {
+      "id": 5140177,
+      "run_id": 74709,
+      "data": {
+        "step": 18,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00807705707848072,
+        "sft_loss": 0.35709327459335327,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:30:58.806812+00:00"
+    },
+    {
+      "id": 5140179,
+      "run_id": 74709,
+      "data": {
+        "step": 19,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006499696522951126,
+        "sft_loss": 0.3319689929485321,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:31:04.428411+00:00"
+    },
+    {
+      "id": 5140182,
+      "run_id": 74709,
+      "data": {
+        "step": 20,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.232421875,
+        "peak_allocated_gib": 16.943673610687256
+      },
+      "created_at": "2026-10-20T21:31:10.002618+00:00"
+    },
+    {
+      "id": 5140183,
+      "run_id": 74709,
+      "data": {
+        "step": 20,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 358,
+          "min": 54,
+          "mean": 123.725,
+          "count": 160,
+          "total": 19796
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 160,
+        "reference_microbatches": 160,
+        "missing_attention_mask_batches": 160
+      },
+      "created_at": "2026-10-20T21:31:10.141424+00:00"
+    },
+    {
+      "id": 5140184,
+      "run_id": 74709,
+      "data": {
+        "loss": 2.3081486225128174,
+        "step": 20,
+        "epoch": 0.05689900426742532,
+        "grad_norm": 11.896775245666504,
+        "learning_rate": 5.2777777777777785e-06
+      },
+      "created_at": "2026-10-20T21:31:10.289256+00:00"
+    },
+    {
+      "id": 5140185,
+      "run_id": 74709,
+      "data": {
+        "step": 20,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.02725772000849247,
+        "sft_loss": 0.3003746271133423,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:31:10.361912+00:00"
+    },
+    {
+      "id": 5140197,
+      "run_id": 74709,
+      "data": {
+        "step": 20,
+        "epoch": 0.05689900426742532,
+        "eval_loss": 2.2828428745269775
+      },
+      "created_at": "2026-10-20T21:32:11.071652+00:00"
+    },
+    {
+      "id": 5140198,
+      "run_id": 74709,
+      "data": {
+        "step": 21,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01647365465760231,
+        "sft_loss": 0.2988958954811096,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:32:16.833659+00:00"
+    },
+    {
+      "id": 5140199,
+      "run_id": 74709,
+      "data": {
+        "step": 22,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.04074258357286453,
+        "sft_loss": 0.19820787012577057,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:32:22.363349+00:00"
+    },
+    {
+      "id": 5140200,
+      "run_id": 74709,
+      "data": {
+        "step": 23,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.028930120170116425,
+        "sft_loss": 0.3060477077960968,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:32:27.880975+00:00"
+    },
+    {
+      "id": 5140201,
+      "run_id": 74709,
+      "data": {
+        "step": 24,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.044044461101293564,
+        "sft_loss": 0.23008915781974792,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:32:33.390653+00:00"
+    },
+    {
+      "id": 5140202,
+      "run_id": 74709,
+      "data": {
+        "step": 25,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.03277936205267906,
+        "sft_loss": 0.2663651704788208,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:32:38.825879+00:00"
+    },
+    {
+      "id": 5140203,
+      "run_id": 74709,
+      "data": {
+        "step": 26,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01459838543087244,
+        "sft_loss": 0.2688333988189697,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:32:44.403511+00:00"
+    },
+    {
+      "id": 5140206,
+      "run_id": 74709,
+      "data": {
+        "step": 27,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.018390661105513573,
+        "sft_loss": 0.2627188563346863,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:32:49.851003+00:00"
+    },
+    {
+      "id": 5140208,
+      "run_id": 74709,
+      "data": {
+        "step": 28,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.026625869795680046,
+        "sft_loss": 0.22115401923656464,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:32:55.306481+00:00"
+    },
+    {
+      "id": 5140210,
+      "run_id": 74709,
+      "data": {
+        "step": 29,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.05406181886792183,
+        "sft_loss": 0.1513744294643402,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:33:00.794535+00:00"
+    },
+    {
+      "id": 5140212,
+      "run_id": 74709,
+      "data": {
+        "step": 30,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.25390625,
+        "peak_allocated_gib": 16.943673610687256
+      },
+      "created_at": "2026-10-20T21:33:06.343008+00:00"
+    },
+    {
+      "id": 5140213,
+      "run_id": 74709,
+      "data": {
+        "step": 30,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 358,
+          "min": 41,
+          "mean": 125.67083333333333,
+          "count": 240,
+          "total": 30161
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 240,
+        "reference_microbatches": 240,
+        "missing_attention_mask_batches": 240
+      },
+      "created_at": "2026-10-20T21:33:06.406973+00:00"
+    },
+    {
+      "id": 5140214,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.8915278911590576,
+        "step": 30,
+        "epoch": 0.08534850640113797,
+        "grad_norm": 3.160895586013794,
+        "learning_rate": 8.055555555555557e-06
+      },
+      "created_at": "2026-10-20T21:33:06.482609+00:00"
+    },
+    {
+      "id": 5140215,
+      "run_id": 74709,
+      "data": {
+        "step": 30,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.025835132226347923,
+        "sft_loss": 0.18843451142311096,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:33:06.527515+00:00"
+    },
+    {
+      "id": 5140227,
+      "run_id": 74709,
+      "data": {
+        "step": 30,
+        "epoch": 0.08534850640113797,
+        "eval_loss": 1.859776496887207
+      },
+      "created_at": "2026-10-20T21:34:08.212088+00:00"
+    },
+    {
+      "id": 5140228,
+      "run_id": 74709,
+      "data": {
+        "step": 31,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.019167784601449966,
+        "sft_loss": 0.2790682017803192,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:34:13.867234+00:00"
+    },
+    {
+      "id": 5140230,
+      "run_id": 74709,
+      "data": {
+        "step": 32,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.024829456582665443,
+        "sft_loss": 0.23193831741809845,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:34:19.48259+00:00"
+    },
+    {
+      "id": 5140231,
+      "run_id": 74709,
+      "data": {
+        "step": 33,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.025885025039315224,
+        "sft_loss": 0.25709542632102966,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:34:25.072936+00:00"
+    },
+    {
+      "id": 5140232,
+      "run_id": 74709,
+      "data": {
+        "step": 34,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.02313009276986122,
+        "sft_loss": 0.3145160675048828,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:34:30.697077+00:00"
+    },
+    {
+      "id": 5140233,
+      "run_id": 74709,
+      "data": {
+        "step": 35,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.02940721996128559,
+        "sft_loss": 0.22148287296295166,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:34:36.370832+00:00"
+    },
+    {
+      "id": 5140235,
+      "run_id": 74709,
+      "data": {
+        "step": 36,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.013338149525225163,
+        "sft_loss": 0.20391800999641418,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:34:41.986678+00:00"
+    },
+    {
+      "id": 5140237,
+      "run_id": 74709,
+      "data": {
+        "step": 37,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.016529707238078117,
+        "sft_loss": 0.2501378059387207,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:34:47.606766+00:00"
+    },
+    {
+      "id": 5140239,
+      "run_id": 74709,
+      "data": {
+        "step": 38,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.019440840929746628,
+        "sft_loss": 0.21909593045711517,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:34:53.23045+00:00"
+    },
+    {
+      "id": 5140241,
+      "run_id": 74709,
+      "data": {
+        "step": 39,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.020155707374215126,
+        "sft_loss": 0.2935488224029541,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:34:58.842756+00:00"
+    },
+    {
+      "id": 5140243,
+      "run_id": 74709,
+      "data": {
+        "step": 40,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.25390625,
+        "peak_allocated_gib": 16.943673610687256
+      },
+      "created_at": "2026-10-20T21:35:04.393038+00:00"
+    },
+    {
+      "id": 5140244,
+      "run_id": 74709,
+      "data": {
+        "step": 40,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 358,
+          "min": 41,
+          "mean": 124.91875,
+          "count": 320,
+          "total": 39974
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 320,
+        "reference_microbatches": 320,
+        "missing_attention_mask_batches": 320
+      },
+      "created_at": "2026-10-20T21:35:04.455634+00:00"
+    },
+    {
+      "id": 5140246,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.7184983491897583,
+        "step": 40,
+        "epoch": 0.11379800853485064,
+        "grad_norm": 3.2448670864105225,
+        "learning_rate": 9.90506329113924e-06
+      },
+      "created_at": "2026-10-20T21:35:04.566325+00:00"
+    },
+    {
+      "id": 5140247,
+      "run_id": 74709,
+      "data": {
+        "step": 40,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.023910442367196083,
+        "sft_loss": 0.22528061270713806,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:35:04.610273+00:00"
+    },
+    {
+      "id": 5140258,
+      "run_id": 74709,
+      "data": {
+        "step": 40,
+        "epoch": 0.11379800853485064,
+        "eval_loss": 1.6381011009216309
+      },
+      "created_at": "2026-10-20T21:36:06.896855+00:00"
+    },
+    {
+      "id": 5140259,
+      "run_id": 74709,
+      "data": {
+        "step": 41,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.010515193454921246,
+        "sft_loss": 0.3035639822483063,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:36:12.610076+00:00"
+    },
+    {
+      "id": 5140260,
+      "run_id": 74709,
+      "data": {
+        "step": 42,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007085098419338465,
+        "sft_loss": 0.20802195370197296,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:36:18.174139+00:00"
+    },
+    {
+      "id": 5140261,
+      "run_id": 74709,
+      "data": {
+        "step": 43,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.012855162844061852,
+        "sft_loss": 0.2833459973335266,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:36:23.808325+00:00"
+    },
+    {
+      "id": 5140262,
+      "run_id": 74709,
+      "data": {
+        "step": 44,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01661478355526924,
+        "sft_loss": 0.19328391551971436,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:36:29.298947+00:00"
+    },
+    {
+      "id": 5140263,
+      "run_id": 74709,
+      "data": {
+        "step": 45,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.01681881584227085,
+        "sft_loss": 0.18158403038978577,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:36:34.816162+00:00"
+    },
+    {
+      "id": 5140266,
+      "run_id": 74709,
+      "data": {
+        "step": 46,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006743194069713354,
+        "sft_loss": 0.22430753707885742,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:36:40.315957+00:00"
+    },
+    {
+      "id": 5140268,
+      "run_id": 74709,
+      "data": {
+        "step": 47,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007731025107204914,
+        "sft_loss": 0.25202643871307373,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:36:45.806684+00:00"
+    },
+    {
+      "id": 5140270,
+      "run_id": 74709,
+      "data": {
+        "step": 48,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003963849972933531,
+        "sft_loss": 0.23172271251678467,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:36:51.504502+00:00"
+    },
+    {
+      "id": 5140272,
+      "run_id": 74709,
+      "data": {
+        "step": 49,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003267208579927683,
+        "sft_loss": 0.1696479618549347,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:36:57.263733+00:00"
+    },
+    {
+      "id": 5140274,
+      "run_id": 74709,
+      "data": {
+        "step": 50,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.37890625,
+        "peak_allocated_gib": 17.046936988830566
+      },
+      "created_at": "2026-10-20T21:37:02.911146+00:00"
+    },
+    {
+      "id": 5140275,
+      "run_id": 74709,
+      "data": {
+        "step": 50,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 34,
+          "mean": 125.6375,
+          "count": 400,
+          "total": 50255
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 400,
+        "reference_microbatches": 400,
+        "missing_attention_mask_batches": 400
+      },
+      "created_at": "2026-10-20T21:37:03.042665+00:00"
+    },
+    {
+      "id": 5140276,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.6261402368545532,
+        "step": 50,
+        "epoch": 0.1422475106685633,
+        "grad_norm": 3.0328123569488525,
+        "learning_rate": 9.58860759493671e-06
+      },
+      "created_at": "2026-10-20T21:37:03.134507+00:00"
+    },
+    {
+      "id": 5140277,
+      "run_id": 74709,
+      "data": {
+        "step": 50,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0028648448642343283,
+        "sft_loss": 0.1568695306777954,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:37:03.223561+00:00"
+    },
+    {
+      "id": 5140288,
+      "run_id": 74709,
+      "data": {
+        "step": 50,
+        "epoch": 0.1422475106685633,
+        "eval_loss": 1.5690175294876099
+      },
+      "created_at": "2026-10-20T21:38:04.843478+00:00"
+    },
+    {
+      "id": 5140290,
+      "run_id": 74709,
+      "data": {
+        "step": 51,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.009881313890218735,
+        "sft_loss": 0.13938485085964203,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:38:10.435492+00:00"
+    },
+    {
+      "id": 5140291,
+      "run_id": 74709,
+      "data": {
+        "step": 52,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0032371017150580883,
+        "sft_loss": 0.18441002070903778,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:38:15.874915+00:00"
+    },
+    {
+      "id": 5140292,
+      "run_id": 74709,
+      "data": {
+        "step": 53,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.008875329047441483,
+        "sft_loss": 0.20714949071407318,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:38:21.423829+00:00"
+    },
+    {
+      "id": 5140293,
+      "run_id": 74709,
+      "data": {
+        "step": 54,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007849019952118397,
+        "sft_loss": 0.14630159735679626,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:38:26.951319+00:00"
+    },
+    {
+      "id": 5140294,
+      "run_id": 74709,
+      "data": {
+        "step": 55,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005725453607738018,
+        "sft_loss": 0.2632891535758972,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:38:32.440678+00:00"
+    },
+    {
+      "id": 5140296,
+      "run_id": 74709,
+      "data": {
+        "step": 56,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004069735296070576,
+        "sft_loss": 0.20221754908561707,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:38:37.995206+00:00"
+    },
+    {
+      "id": 5140298,
+      "run_id": 74709,
+      "data": {
+        "step": 57,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006272271275520325,
+        "sft_loss": 0.18894879519939423,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:38:43.457191+00:00"
+    },
+    {
+      "id": 5140300,
+      "run_id": 74709,
+      "data": {
+        "step": 58,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007316501811146736,
+        "sft_loss": 0.18366485834121704,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:38:48.974581+00:00"
+    },
+    {
+      "id": 5140303,
+      "run_id": 74709,
+      "data": {
+        "step": 59,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.006511094514280558,
+        "sft_loss": 0.23038673400878906,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:38:54.54954+00:00"
+    },
+    {
+      "id": 5140305,
+      "run_id": 74709,
+      "data": {
+        "step": 60,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.37890625,
+        "peak_allocated_gib": 17.046936988830566
+      },
+      "created_at": "2026-10-20T21:39:00.095495+00:00"
+    },
+    {
+      "id": 5140306,
+      "run_id": 74709,
+      "data": {
+        "step": 60,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 34,
+          "mean": 125.475,
+          "count": 480,
+          "total": 60228
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 480,
+        "reference_microbatches": 480,
+        "missing_attention_mask_batches": 480
+      },
+      "created_at": "2026-10-20T21:39:00.14607+00:00"
+    },
+    {
+      "id": 5140307,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.5756003856658936,
+        "step": 60,
+        "epoch": 0.17069701280227595,
+        "grad_norm": 3.023463726043701,
+        "learning_rate": 9.272151898734178e-06
+      },
+      "created_at": "2026-10-20T21:39:00.218514+00:00"
+    },
+    {
+      "id": 5140308,
+      "run_id": 74709,
+      "data": {
+        "step": 60,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004197035916149616,
+        "sft_loss": 0.24079261720180511,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:39:00.365628+00:00"
+    },
+    {
+      "id": 5140319,
+      "run_id": 74709,
+      "data": {
+        "step": 60,
+        "epoch": 0.17069701280227595,
+        "eval_loss": 1.5326974391937256
+      },
+      "created_at": "2026-10-20T21:40:04.04716+00:00"
+    },
+    {
+      "id": 5140320,
+      "run_id": 74709,
+      "data": {
+        "step": 61,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00336478091776371,
+        "sft_loss": 0.2068646252155304,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:40:09.729537+00:00"
+    },
+    {
+      "id": 5140321,
+      "run_id": 74709,
+      "data": {
+        "step": 62,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0042653270065784454,
+        "sft_loss": 0.1310831755399704,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:40:15.282043+00:00"
+    },
+    {
+      "id": 5140323,
+      "run_id": 74709,
+      "data": {
+        "step": 63,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003851452609524131,
+        "sft_loss": 0.19131077826023102,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:40:21.058764+00:00"
+    },
+    {
+      "id": 5140325,
+      "run_id": 74709,
+      "data": {
+        "step": 64,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0076048364862799644,
+        "sft_loss": 0.21737752854824066,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:40:26.606367+00:00"
+    },
+    {
+      "id": 5140327,
+      "run_id": 74709,
+      "data": {
+        "step": 65,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005325987935066223,
+        "sft_loss": 0.1859641820192337,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:40:32.20077+00:00"
+    },
+    {
+      "id": 5140329,
+      "run_id": 74709,
+      "data": {
+        "step": 66,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0034742802381515503,
+        "sft_loss": 0.135494664311409,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:40:37.71013+00:00"
+    },
+    {
+      "id": 5140331,
+      "run_id": 74709,
+      "data": {
+        "step": 67,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0075500053353607655,
+        "sft_loss": 0.16463756561279297,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:40:43.251863+00:00"
+    },
+    {
+      "id": 5140332,
+      "run_id": 74709,
+      "data": {
+        "step": 68,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0038973563350737095,
+        "sft_loss": 0.23532980680465698,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:40:48.918716+00:00"
+    },
+    {
+      "id": 5140334,
+      "run_id": 74709,
+      "data": {
+        "step": 69,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005158902145922184,
+        "sft_loss": 0.18162544071674347,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:40:54.459154+00:00"
+    },
+    {
+      "id": 5140336,
+      "run_id": 74709,
+      "data": {
+        "step": 70,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.37890625,
+        "peak_allocated_gib": 17.046936988830566
+      },
+      "created_at": "2026-10-20T21:41:00.071848+00:00"
+    },
+    {
+      "id": 5140338,
+      "run_id": 74709,
+      "data": {
+        "step": 70,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 34,
+          "mean": 125.86964285714286,
+          "count": 560,
+          "total": 70487
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 560,
+        "reference_microbatches": 560,
+        "missing_attention_mask_batches": 560
+      },
+      "created_at": "2026-10-20T21:41:00.141935+00:00"
+    },
+    {
+      "id": 5140339,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.554490327835083,
+        "step": 70,
+        "epoch": 0.19914651493598862,
+        "grad_norm": 2.7007970809936523,
+        "learning_rate": 8.955696202531646e-06
+      },
+      "created_at": "2026-10-20T21:41:00.408555+00:00"
+    },
+    {
+      "id": 5140340,
+      "run_id": 74709,
+      "data": {
+        "step": 70,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002090867841616273,
+        "sft_loss": 0.2238297313451767,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:41:00.459462+00:00"
+    },
+    {
+      "id": 5140350,
+      "run_id": 74709,
+      "data": {
+        "step": 70,
+        "epoch": 0.19914651493598862,
+        "eval_loss": 1.518520474433899
+      },
+      "created_at": "2026-10-20T21:42:04.679064+00:00"
+    },
+    {
+      "id": 5140351,
+      "run_id": 74709,
+      "data": {
+        "step": 71,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.007419147063046694,
+        "sft_loss": 0.21421124041080475,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:42:10.390095+00:00"
+    },
+    {
+      "id": 5140352,
+      "run_id": 74709,
+      "data": {
+        "step": 72,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00398085406050086,
+        "sft_loss": 0.24539867043495178,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:42:16.04372+00:00"
+    },
+    {
+      "id": 5140354,
+      "run_id": 74709,
+      "data": {
+        "step": 73,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005497329868376255,
+        "sft_loss": 0.1675303876399994,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:42:21.692071+00:00"
+    },
+    {
+      "id": 5140356,
+      "run_id": 74709,
+      "data": {
+        "step": 74,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003484196960926056,
+        "sft_loss": 0.16297315061092377,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:42:27.705525+00:00"
+    },
+    {
+      "id": 5140358,
+      "run_id": 74709,
+      "data": {
+        "step": 75,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0021453823428601027,
+        "sft_loss": 0.19287674129009247,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:42:33.298359+00:00"
+    },
+    {
+      "id": 5140360,
+      "run_id": 74709,
+      "data": {
+        "step": 76,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003972649108618498,
+        "sft_loss": 0.1734691709280014,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:42:38.815905+00:00"
+    },
+    {
+      "id": 5140362,
+      "run_id": 74709,
+      "data": {
+        "step": 77,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0019909802358597517,
+        "sft_loss": 0.15705403685569763,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:42:44.315338+00:00"
+    },
+    {
+      "id": 5140364,
+      "run_id": 74709,
+      "data": {
+        "step": 78,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0038579783868044615,
+        "sft_loss": 0.24487052857875824,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:42:49.809158+00:00"
+    },
+    {
+      "id": 5140366,
+      "run_id": 74709,
+      "data": {
+        "step": 79,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0023061102256178856,
+        "sft_loss": 0.1520843356847763,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:42:55.32628+00:00"
+    },
+    {
+      "id": 5140368,
+      "run_id": 74709,
+      "data": {
+        "step": 80,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.37890625,
+        "peak_allocated_gib": 17.046936988830566
+      },
+      "created_at": "2026-10-20T21:43:00.798365+00:00"
+    },
+    {
+      "id": 5140369,
+      "run_id": 74709,
+      "data": {
+        "step": 80,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 34,
+          "mean": 125.88125,
+          "count": 640,
+          "total": 80564
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 640,
+        "reference_microbatches": 640,
+        "missing_attention_mask_batches": 640
+      },
+      "created_at": "2026-10-20T21:43:00.845158+00:00"
+    },
+    {
+      "id": 5140370,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.5879077911376953,
+        "step": 80,
+        "epoch": 0.22759601706970128,
+        "grad_norm": 3.029219388961792,
+        "learning_rate": 8.639240506329116e-06
+      },
+      "created_at": "2026-10-20T21:43:00.914453+00:00"
+    },
+    {
+      "id": 5140371,
+      "run_id": 74709,
+      "data": {
+        "step": 80,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005001694895327091,
+        "sft_loss": 0.21402950584888458,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:43:00.975249+00:00"
+    },
+    {
+      "id": 5140380,
+      "run_id": 74709,
+      "data": {
+        "step": 80,
+        "epoch": 0.22759601706970128,
+        "eval_loss": 1.5069984197616577
+      },
+      "created_at": "2026-10-20T21:44:02.370529+00:00"
+    },
+    {
+      "id": 5140381,
+      "run_id": 74709,
+      "data": {
+        "step": 81,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0021837654057890177,
+        "sft_loss": 0.23218338191509247,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:44:07.987354+00:00"
+    },
+    {
+      "id": 5140383,
+      "run_id": 74709,
+      "data": {
+        "step": 82,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0031670413445681334,
+        "sft_loss": 0.34598368406295776,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:44:13.455641+00:00"
+    },
+    {
+      "id": 5140385,
+      "run_id": 74709,
+      "data": {
+        "step": 83,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003567066974937916,
+        "sft_loss": 0.21490107476711273,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:44:18.897136+00:00"
+    },
+    {
+      "id": 5140387,
+      "run_id": 74709,
+      "data": {
+        "step": 84,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004014857579022646,
+        "sft_loss": 0.20216453075408936,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:44:24.379948+00:00"
+    },
+    {
+      "id": 5140389,
+      "run_id": 74709,
+      "data": {
+        "step": 85,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0017055254429578781,
+        "sft_loss": 0.16621652245521545,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:44:29.820293+00:00"
+    },
+    {
+      "id": 5140391,
+      "run_id": 74709,
+      "data": {
+        "step": 86,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00468843849375844,
+        "sft_loss": 0.13140036165714264,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:44:35.293981+00:00"
+    },
+    {
+      "id": 5140393,
+      "run_id": 74709,
+      "data": {
+        "step": 87,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0023423696402460337,
+        "sft_loss": 0.2145705670118332,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:44:40.776882+00:00"
+    },
+    {
+      "id": 5140395,
+      "run_id": 74709,
+      "data": {
+        "step": 88,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0033680088818073273,
+        "sft_loss": 0.14650869369506836,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:44:46.290271+00:00"
+    },
+    {
+      "id": 5140396,
+      "run_id": 74709,
+      "data": {
+        "step": 89,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005182746332138777,
+        "sft_loss": 0.13711127638816833,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:44:51.779021+00:00"
+    },
+    {
+      "id": 5140398,
+      "run_id": 74709,
+      "data": {
+        "step": 90,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.37890625,
+        "peak_allocated_gib": 17.046936988830566
+      },
+      "created_at": "2026-10-20T21:44:57.296455+00:00"
+    },
+    {
+      "id": 5140399,
+      "run_id": 74709,
+      "data": {
+        "step": 90,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 34,
+          "mean": 126.73472222222222,
+          "count": 720,
+          "total": 91249
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 720,
+        "reference_microbatches": 720,
+        "missing_attention_mask_batches": 720
+      },
+      "created_at": "2026-10-20T21:44:57.333753+00:00"
+    },
+    {
+      "id": 5140400,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.627752423286438,
+        "step": 90,
+        "epoch": 0.25604551920341395,
+        "grad_norm": 2.606508255004883,
+        "learning_rate": 8.322784810126582e-06
+      },
+      "created_at": "2026-10-20T21:44:57.380454+00:00"
+    },
+    {
+      "id": 5140401,
+      "run_id": 74709,
+      "data": {
+        "step": 90,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0024469844065606594,
+        "sft_loss": 0.2293517291545868,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:44:57.411334+00:00"
+    },
+    {
+      "id": 5140411,
+      "run_id": 74709,
+      "data": {
+        "step": 90,
+        "epoch": 0.25604551920341395,
+        "eval_loss": 1.4957462549209595
+      },
+      "created_at": "2026-10-20T21:46:02.148963+00:00"
+    },
+    {
+      "id": 5140412,
+      "run_id": 74709,
+      "data": {
+        "step": 91,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003092708997428417,
+        "sft_loss": 0.13055817782878876,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:46:07.828716+00:00"
+    },
+    {
+      "id": 5140413,
+      "run_id": 74709,
+      "data": {
+        "step": 92,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002341629471629858,
+        "sft_loss": 0.16552448272705078,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:46:13.431977+00:00"
+    },
+    {
+      "id": 5140415,
+      "run_id": 74709,
+      "data": {
+        "step": 93,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0015469074714928865,
+        "sft_loss": 0.1697683036327362,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:46:19.066827+00:00"
+    },
+    {
+      "id": 5140417,
+      "run_id": 74709,
+      "data": {
+        "step": 94,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0023800316266715527,
+        "sft_loss": 0.1739976406097412,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:46:24.770703+00:00"
+    },
+    {
+      "id": 5140419,
+      "run_id": 74709,
+      "data": {
+        "step": 95,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003044096054509282,
+        "sft_loss": 0.18441538512706757,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:46:30.290948+00:00"
+    },
+    {
+      "id": 5140422,
+      "run_id": 74709,
+      "data": {
+        "step": 96,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0023777943570166826,
+        "sft_loss": 0.21872566640377045,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:46:35.788251+00:00"
+    },
+    {
+      "id": 5140424,
+      "run_id": 74709,
+      "data": {
+        "step": 97,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0027185038197785616,
+        "sft_loss": 0.19637279212474823,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:46:41.305903+00:00"
+    },
+    {
+      "id": 5140426,
+      "run_id": 74709,
+      "data": {
+        "step": 98,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002203740645200014,
+        "sft_loss": 0.19636984169483185,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:46:46.787575+00:00"
+    },
+    {
+      "id": 5140428,
+      "run_id": 74709,
+      "data": {
+        "step": 99,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0024894005618989468,
+        "sft_loss": 0.17491263151168823,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:46:52.314714+00:00"
+    },
+    {
+      "id": 5140430,
+      "run_id": 74709,
+      "data": {
+        "step": 100,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.37890625,
+        "peak_allocated_gib": 17.046936988830566
+      },
+      "created_at": "2026-10-20T21:46:58.119261+00:00"
+    },
+    {
+      "id": 5140431,
+      "run_id": 74709,
+      "data": {
+        "step": 100,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 34,
+          "mean": 125.6675,
+          "count": 800,
+          "total": 100534
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 800,
+        "reference_microbatches": 800,
+        "missing_attention_mask_batches": 800
+      },
+      "created_at": "2026-10-20T21:46:58.17632+00:00"
+    },
+    {
+      "id": 5140432,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.506593108177185,
+        "step": 100,
+        "epoch": 0.2844950213371266,
+        "grad_norm": 2.4931211471557617,
+        "learning_rate": 8.006329113924052e-06
+      },
+      "created_at": "2026-10-20T21:46:58.237453+00:00"
+    },
+    {
+      "id": 5140433,
+      "run_id": 74709,
+      "data": {
+        "step": 100,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0015372365014627576,
+        "sft_loss": 0.19012220203876495,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:46:58.310427+00:00"
+    },
+    {
+      "id": 5140442,
+      "run_id": 74709,
+      "data": {
+        "step": 100,
+        "epoch": 0.2844950213371266,
+        "eval_loss": 1.4884778261184692
+      },
+      "created_at": "2026-10-20T21:48:06.832613+00:00"
+    },
+    {
+      "id": 5140444,
+      "run_id": 74709,
+      "data": {
+        "step": 101,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018484729807823896,
+        "sft_loss": 0.17514486610889435,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:48:12.645736+00:00"
+    },
+    {
+      "id": 5140446,
+      "run_id": 74709,
+      "data": {
+        "step": 102,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0020319907926023006,
+        "sft_loss": 0.16520586609840393,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:48:18.230056+00:00"
+    },
+    {
+      "id": 5140447,
+      "run_id": 74709,
+      "data": {
+        "step": 103,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002225211588665843,
+        "sft_loss": 0.2672477066516876,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:48:23.819299+00:00"
+    },
+    {
+      "id": 5140449,
+      "run_id": 74709,
+      "data": {
+        "step": 104,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002494155429303646,
+        "sft_loss": 0.16182053089141846,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:48:29.377571+00:00"
+    },
+    {
+      "id": 5140451,
+      "run_id": 74709,
+      "data": {
+        "step": 105,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002648514462634921,
+        "sft_loss": 0.28160351514816284,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:48:34.981557+00:00"
+    },
+    {
+      "id": 5140453,
+      "run_id": 74709,
+      "data": {
+        "step": 106,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.005303691141307354,
+        "sft_loss": 0.18167756497859955,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:48:40.648937+00:00"
+    },
+    {
+      "id": 5140455,
+      "run_id": 74709,
+      "data": {
+        "step": 107,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0029621156863868237,
+        "sft_loss": 0.2626970112323761,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:48:46.197199+00:00"
+    },
+    {
+      "id": 5140457,
+      "run_id": 74709,
+      "data": {
+        "step": 108,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.004938945639878511,
+        "sft_loss": 0.12335694581270218,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:48:51.693084+00:00"
+    },
+    {
+      "id": 5140460,
+      "run_id": 74709,
+      "data": {
+        "step": 109,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018872272921726108,
+        "sft_loss": 0.17647266387939453,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:48:57.225302+00:00"
+    },
+    {
+      "id": 5140462,
+      "run_id": 74709,
+      "data": {
+        "step": 110,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.37890625,
+        "peak_allocated_gib": 17.046936988830566
+      },
+      "created_at": "2026-10-20T21:49:02.751692+00:00"
+    },
+    {
+      "id": 5140463,
+      "run_id": 74709,
+      "data": {
+        "step": 110,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 34,
+          "mean": 125.94545454545455,
+          "count": 880,
+          "total": 110832
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 880,
+        "reference_microbatches": 880,
+        "missing_attention_mask_batches": 880
+      },
+      "created_at": "2026-10-20T21:49:02.791445+00:00"
+    },
+    {
+      "id": 5140464,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.5645973682403564,
+        "step": 110,
+        "epoch": 0.3129445234708393,
+        "grad_norm": 2.4628243446350098,
+        "learning_rate": 7.68987341772152e-06
+      },
+      "created_at": "2026-10-20T21:49:02.909424+00:00"
+    },
+    {
+      "id": 5140465,
+      "run_id": 74709,
+      "data": {
+        "step": 110,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0023424136452376842,
+        "sft_loss": 0.22697532176971436,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:49:02.973259+00:00"
+    },
+    {
+      "id": 5140472,
+      "run_id": 74709,
+      "data": {
+        "step": 110,
+        "epoch": 0.3129445234708393,
+        "eval_loss": 1.4818435907363892
+      },
+      "created_at": "2026-10-20T21:50:05.207772+00:00"
+    },
+    {
+      "id": 5140474,
+      "run_id": 74709,
+      "data": {
+        "step": 111,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013718304689973593,
+        "sft_loss": 0.186315655708313,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:50:10.879166+00:00"
+    },
+    {
+      "id": 5140476,
+      "run_id": 74709,
+      "data": {
+        "step": 112,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002098084893077612,
+        "sft_loss": 0.19874830543994904,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:50:16.44227+00:00"
+    },
+    {
+      "id": 5140477,
+      "run_id": 74709,
+      "data": {
+        "step": 113,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0034217063803225756,
+        "sft_loss": 0.21668025851249695,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:50:21.930663+00:00"
+    },
+    {
+      "id": 5140480,
+      "run_id": 74709,
+      "data": {
+        "step": 114,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002015624660998583,
+        "sft_loss": 0.16775302588939667,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:50:27.440406+00:00"
+    },
+    {
+      "id": 5140482,
+      "run_id": 74709,
+      "data": {
+        "step": 115,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002564000431448221,
+        "sft_loss": 0.1604384332895279,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:50:32.945536+00:00"
+    },
+    {
+      "id": 5140484,
+      "run_id": 74709,
+      "data": {
+        "step": 116,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011870532762259245,
+        "sft_loss": 0.12398102879524231,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:50:38.467637+00:00"
+    },
+    {
+      "id": 5140486,
+      "run_id": 74709,
+      "data": {
+        "step": 117,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001184195512905717,
+        "sft_loss": 0.2318429797887802,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:50:44.015987+00:00"
+    },
+    {
+      "id": 5140488,
+      "run_id": 74709,
+      "data": {
+        "step": 118,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011228533694520593,
+        "sft_loss": 0.16653983294963837,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:50:49.619717+00:00"
+    },
+    {
+      "id": 5140490,
+      "run_id": 74709,
+      "data": {
+        "step": 119,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00695270299911499,
+        "sft_loss": 0.18637290596961975,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:50:55.178511+00:00"
+    },
+    {
+      "id": 5140492,
+      "run_id": 74709,
+      "data": {
+        "step": 120,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.37890625,
+        "peak_allocated_gib": 17.046936988830566
+      },
+      "created_at": "2026-10-20T21:51:00.743636+00:00"
+    },
+    {
+      "id": 5140493,
+      "run_id": 74709,
+      "data": {
+        "step": 120,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 33,
+          "mean": 125.75520833333333,
+          "count": 960,
+          "total": 120725
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 960,
+        "reference_microbatches": 960,
+        "missing_attention_mask_batches": 960
+      },
+      "created_at": "2026-10-20T21:51:00.801519+00:00"
+    },
+    {
+      "id": 5140494,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.51454496383667,
+        "step": 120,
+        "epoch": 0.3413940256045519,
+        "grad_norm": 2.528526544570923,
+        "learning_rate": 7.373417721518989e-06
+      },
+      "created_at": "2026-10-20T21:51:00.869382+00:00"
+    },
+    {
+      "id": 5140495,
+      "run_id": 74709,
+      "data": {
+        "step": 120,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002038167556747794,
+        "sft_loss": 0.20375403761863708,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:51:00.942129+00:00"
+    },
+    {
+      "id": 5140503,
+      "run_id": 74709,
+      "data": {
+        "step": 120,
+        "epoch": 0.3413940256045519,
+        "eval_loss": 1.4769024848937988
+      },
+      "created_at": "2026-10-20T21:52:03.268599+00:00"
+    },
+    {
+      "id": 5140505,
+      "run_id": 74709,
+      "data": {
+        "step": 121,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016787592321634293,
+        "sft_loss": 0.2608487606048584,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:52:08.983838+00:00"
+    },
+    {
+      "id": 5140507,
+      "run_id": 74709,
+      "data": {
+        "step": 122,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018799181561917067,
+        "sft_loss": 0.134358212351799,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:52:14.554649+00:00"
+    },
+    {
+      "id": 5140509,
+      "run_id": 74709,
+      "data": {
+        "step": 123,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.003127794247120619,
+        "sft_loss": 0.16280248761177063,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:52:20.167494+00:00"
+    },
+    {
+      "id": 5140511,
+      "run_id": 74709,
+      "data": {
+        "step": 124,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0032824184745550156,
+        "sft_loss": 0.20284824073314667,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:52:25.749393+00:00"
+    },
+    {
+      "id": 5140512,
+      "run_id": 74709,
+      "data": {
+        "step": 125,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0024217076133936644,
+        "sft_loss": 0.1991201937198639,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:52:31.306853+00:00"
+    },
+    {
+      "id": 5140514,
+      "run_id": 74709,
+      "data": {
+        "step": 126,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002241237089037895,
+        "sft_loss": 0.17893314361572266,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:52:36.821631+00:00"
+    },
+    {
+      "id": 5140516,
+      "run_id": 74709,
+      "data": {
+        "step": 127,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018203456420451403,
+        "sft_loss": 0.1873314380645752,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:52:42.394751+00:00"
+    },
+    {
+      "id": 5140518,
+      "run_id": 74709,
+      "data": {
+        "step": 128,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001695485902018845,
+        "sft_loss": 0.1751049906015396,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:52:47.966382+00:00"
+    },
+    {
+      "id": 5140521,
+      "run_id": 74709,
+      "data": {
+        "step": 129,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016459495527669787,
+        "sft_loss": 0.102627232670784,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:52:53.577008+00:00"
+    },
+    {
+      "id": 5140523,
+      "run_id": 74709,
+      "data": {
+        "step": 130,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.37890625,
+        "peak_allocated_gib": 17.046936988830566
+      },
+      "created_at": "2026-10-20T21:52:59.26301+00:00"
+    },
+    {
+      "id": 5140524,
+      "run_id": 74709,
+      "data": {
+        "step": 130,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 33,
+          "mean": 125.66826923076923,
+          "count": 1040,
+          "total": 130695
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1040,
+        "reference_microbatches": 1040,
+        "missing_attention_mask_batches": 1040
+      },
+      "created_at": "2026-10-20T21:52:59.321219+00:00"
+    },
+    {
+      "id": 5140525,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.2383253574371338,
+        "step": 130,
+        "epoch": 0.36984352773826457,
+        "grad_norm": 2.840693235397339,
+        "learning_rate": 7.056962025316456e-06
+      },
+      "created_at": "2026-10-20T21:52:59.412541+00:00"
+    },
+    {
+      "id": 5140526,
+      "run_id": 74709,
+      "data": {
+        "step": 130,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0028156377375125885,
+        "sft_loss": 0.13838431239128113,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:52:59.447271+00:00"
+    },
+    {
+      "id": 5140533,
+      "run_id": 74709,
+      "data": {
+        "step": 130,
+        "epoch": 0.36984352773826457,
+        "eval_loss": 1.4759925603866577
+      },
+      "created_at": "2026-10-20T21:54:01.904838+00:00"
+    },
+    {
+      "id": 5140535,
+      "run_id": 74709,
+      "data": {
+        "step": 131,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002449398161843419,
+        "sft_loss": 0.16851547360420227,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:54:07.68608+00:00"
+    },
+    {
+      "id": 5140537,
+      "run_id": 74709,
+      "data": {
+        "step": 132,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014954585349187255,
+        "sft_loss": 0.16898402571678162,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:54:13.306393+00:00"
+    },
+    {
+      "id": 5140539,
+      "run_id": 74709,
+      "data": {
+        "step": 133,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00202959799207747,
+        "sft_loss": 0.18529275059700012,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:54:18.908395+00:00"
+    },
+    {
+      "id": 5140541,
+      "run_id": 74709,
+      "data": {
+        "step": 134,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0017651913221925497,
+        "sft_loss": 0.15345518290996552,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:54:24.797486+00:00"
+    },
+    {
+      "id": 5140544,
+      "run_id": 74709,
+      "data": {
+        "step": 135,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0017439409857615829,
+        "sft_loss": 0.167075976729393,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:54:30.586656+00:00"
+    },
+    {
+      "id": 5140546,
+      "run_id": 74709,
+      "data": {
+        "step": 136,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00136257940903306,
+        "sft_loss": 0.12238409370183945,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:54:36.391287+00:00"
+    },
+    {
+      "id": 5140548,
+      "run_id": 74709,
+      "data": {
+        "step": 137,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014887296129018068,
+        "sft_loss": 0.15104445815086365,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:54:42.167861+00:00"
+    },
+    {
+      "id": 5140550,
+      "run_id": 74709,
+      "data": {
+        "step": 138,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0023466735146939754,
+        "sft_loss": 0.16313351690769196,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:54:47.979874+00:00"
+    },
+    {
+      "id": 5140552,
+      "run_id": 74709,
+      "data": {
+        "step": 139,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.000861580076161772,
+        "sft_loss": 0.20001883804798126,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:54:53.714822+00:00"
+    },
+    {
+      "id": 5140554,
+      "run_id": 74709,
+      "data": {
+        "step": 140,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.427734375,
+        "peak_allocated_gib": 17.091337203979492
+      },
+      "created_at": "2026-10-20T21:54:59.519188+00:00"
+    },
+    {
+      "id": 5140555,
+      "run_id": 74709,
+      "data": {
+        "step": 140,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 33,
+          "mean": 126.03392857142858,
+          "count": 1120,
+          "total": 141158
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1120,
+        "reference_microbatches": 1120,
+        "missing_attention_mask_batches": 1120
+      },
+      "created_at": "2026-10-20T21:54:59.57102+00:00"
+    },
+    {
+      "id": 5140556,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4247708320617676,
+        "step": 140,
+        "epoch": 0.39829302987197723,
+        "grad_norm": 2.372437000274658,
+        "learning_rate": 6.740506329113925e-06
+      },
+      "created_at": "2026-10-20T21:54:59.632686+00:00"
+    },
+    {
+      "id": 5140557,
+      "run_id": 74709,
+      "data": {
+        "step": 140,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002524672308936715,
+        "sft_loss": 0.20466431975364685,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:54:59.684704+00:00"
+    },
+    {
+      "id": 5140564,
+      "run_id": 74709,
+      "data": {
+        "step": 140,
+        "epoch": 0.39829302987197723,
+        "eval_loss": 1.4703693389892578
+      },
+      "created_at": "2026-10-20T21:56:02.475355+00:00"
+    },
+    {
+      "id": 5140567,
+      "run_id": 74709,
+      "data": {
+        "step": 141,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0010230817133560777,
+        "sft_loss": 0.19863824546337128,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:56:08.327992+00:00"
+    },
+    {
+      "id": 5140569,
+      "run_id": 74709,
+      "data": {
+        "step": 142,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001425374997779727,
+        "sft_loss": 0.16246478259563446,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:56:14.225585+00:00"
+    },
+    {
+      "id": 5140571,
+      "run_id": 74709,
+      "data": {
+        "step": 143,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0010049277916550636,
+        "sft_loss": 0.18365894258022308,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:56:20.074128+00:00"
+    },
+    {
+      "id": 5140573,
+      "run_id": 74709,
+      "data": {
+        "step": 144,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002533216029405594,
+        "sft_loss": 0.14825476706027985,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:56:25.892579+00:00"
+    },
+    {
+      "id": 5140575,
+      "run_id": 74709,
+      "data": {
+        "step": 145,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0019261045381426811,
+        "sft_loss": 0.29767554998397827,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:56:31.830395+00:00"
+    },
+    {
+      "id": 5140577,
+      "run_id": 74709,
+      "data": {
+        "step": 146,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018389385659247637,
+        "sft_loss": 0.14557914435863495,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:56:37.630045+00:00"
+    },
+    {
+      "id": 5140579,
+      "run_id": 74709,
+      "data": {
+        "step": 147,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016721516149118543,
+        "sft_loss": 0.13187448680400848,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:56:43.887681+00:00"
+    },
+    {
+      "id": 5140581,
+      "run_id": 74709,
+      "data": {
+        "step": 148,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002320712897926569,
+        "sft_loss": 0.15781201422214508,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:56:49.746305+00:00"
+    },
+    {
+      "id": 5140584,
+      "run_id": 74709,
+      "data": {
+        "step": 149,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001521347789093852,
+        "sft_loss": 0.18186739087104797,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:56:55.528376+00:00"
+    },
+    {
+      "id": 5140589,
+      "run_id": 74709,
+      "data": {
+        "step": 150,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.427734375,
+        "peak_allocated_gib": 17.091337203979492
+      },
+      "created_at": "2026-10-20T21:57:01.29546+00:00"
+    },
+    {
+      "id": 5140590,
+      "run_id": 74709,
+      "data": {
+        "step": 150,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 33,
+          "mean": 126.21333333333334,
+          "count": 1200,
+          "total": 151456
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1200,
+        "reference_microbatches": 1200,
+        "missing_attention_mask_batches": 1200
+      },
+      "created_at": "2026-10-20T21:57:01.362492+00:00"
+    },
+    {
+      "id": 5140591,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4966812133789062,
+        "step": 150,
+        "epoch": 0.4267425320056899,
+        "grad_norm": 2.534195899963379,
+        "learning_rate": 6.424050632911393e-06
+      },
+      "created_at": "2026-10-20T21:57:01.461574+00:00"
+    },
+    {
+      "id": 5140592,
+      "run_id": 74709,
+      "data": {
+        "step": 150,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0029951229225844145,
+        "sft_loss": 0.1607408970594406,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:57:01.603964+00:00"
+    },
+    {
+      "id": 5140596,
+      "run_id": 74709,
+      "data": {
+        "step": 150,
+        "epoch": 0.4267425320056899,
+        "eval_loss": 1.4675685167312622
+      },
+      "created_at": "2026-10-20T21:58:04.359721+00:00"
+    },
+    {
+      "id": 5140598,
+      "run_id": 74709,
+      "data": {
+        "step": 151,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00158173858653754,
+        "sft_loss": 0.15875110030174255,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:58:10.176396+00:00"
+    },
+    {
+      "id": 5140600,
+      "run_id": 74709,
+      "data": {
+        "step": 152,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001276835915632546,
+        "sft_loss": 0.2161892205476761,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:58:15.949232+00:00"
+    },
+    {
+      "id": 5140602,
+      "run_id": 74709,
+      "data": {
+        "step": 153,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018734800396487117,
+        "sft_loss": 0.18153944611549377,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:58:21.62871+00:00"
+    },
+    {
+      "id": 5140604,
+      "run_id": 74709,
+      "data": {
+        "step": 154,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.000985069782473147,
+        "sft_loss": 0.22547191381454468,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:58:27.324639+00:00"
+    },
+    {
+      "id": 5140606,
+      "run_id": 74709,
+      "data": {
+        "step": 155,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012771906331181526,
+        "sft_loss": 0.1706872433423996,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:58:32.986831+00:00"
+    },
+    {
+      "id": 5140608,
+      "run_id": 74709,
+      "data": {
+        "step": 156,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016319012502208352,
+        "sft_loss": 0.18097665905952454,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:58:38.612179+00:00"
+    },
+    {
+      "id": 5140610,
+      "run_id": 74709,
+      "data": {
+        "step": 157,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002420521806925535,
+        "sft_loss": 0.2567319869995117,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:58:44.209111+00:00"
+    },
+    {
+      "id": 5140612,
+      "run_id": 74709,
+      "data": {
+        "step": 158,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001532423892058432,
+        "sft_loss": 0.2156146913766861,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:58:49.851922+00:00"
+    },
+    {
+      "id": 5140614,
+      "run_id": 74709,
+      "data": {
+        "step": 159,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011955818627029657,
+        "sft_loss": 0.22645048797130585,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:58:55.466362+00:00"
+    },
+    {
+      "id": 5140619,
+      "run_id": 74709,
+      "data": {
+        "step": 160,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.435546875,
+        "peak_allocated_gib": 17.091337203979492
+      },
+      "created_at": "2026-10-20T21:59:01.081091+00:00"
+    },
+    {
+      "id": 5140620,
+      "run_id": 74709,
+      "data": {
+        "step": 160,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 33,
+          "mean": 125.90390625,
+          "count": 1280,
+          "total": 161157
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1280,
+        "reference_microbatches": 1280,
+        "missing_attention_mask_batches": 1280
+      },
+      "created_at": "2026-10-20T21:59:01.119304+00:00"
+    },
+    {
+      "id": 5140621,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.5768386125564575,
+        "step": 160,
+        "epoch": 0.45519203413940257,
+        "grad_norm": 2.916809558868408,
+        "learning_rate": 6.1075949367088616e-06
+      },
+      "created_at": "2026-10-20T21:59:01.174673+00:00"
+    },
+    {
+      "id": 5140622,
+      "run_id": 74709,
+      "data": {
+        "step": 160,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002302280394360423,
+        "sft_loss": 0.21432091295719147,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T21:59:01.219451+00:00"
+    },
+    {
+      "id": 5140627,
+      "run_id": 74709,
+      "data": {
+        "step": 160,
+        "epoch": 0.45519203413940257,
+        "eval_loss": 1.4688031673431396
+      },
+      "created_at": "2026-10-20T22:00:04.76537+00:00"
+    },
+    {
+      "id": 5140629,
+      "run_id": 74709,
+      "data": {
+        "step": 161,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0024088206700980663,
+        "sft_loss": 0.18089839816093445,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:00:11.177477+00:00"
+    },
+    {
+      "id": 5140631,
+      "run_id": 74709,
+      "data": {
+        "step": 162,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009810345945879817,
+        "sft_loss": 0.15079918503761292,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:00:16.896662+00:00"
+    },
+    {
+      "id": 5140633,
+      "run_id": 74709,
+      "data": {
+        "step": 163,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0022442119661718607,
+        "sft_loss": 0.2250157743692398,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:00:22.501244+00:00"
+    },
+    {
+      "id": 5140635,
+      "run_id": 74709,
+      "data": {
+        "step": 164,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014426641864702106,
+        "sft_loss": 0.1890535205602646,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:00:28.146772+00:00"
+    },
+    {
+      "id": 5140637,
+      "run_id": 74709,
+      "data": {
+        "step": 165,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001150081749074161,
+        "sft_loss": 0.1430755853652954,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:00:33.829426+00:00"
+    },
+    {
+      "id": 5140639,
+      "run_id": 74709,
+      "data": {
+        "step": 166,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0036199192982167006,
+        "sft_loss": 0.17326679825782776,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:00:39.564519+00:00"
+    },
+    {
+      "id": 5140641,
+      "run_id": 74709,
+      "data": {
+        "step": 167,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007769626681692898,
+        "sft_loss": 0.17610648274421692,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:00:45.285634+00:00"
+    },
+    {
+      "id": 5140643,
+      "run_id": 74709,
+      "data": {
+        "step": 168,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002042484702542424,
+        "sft_loss": 0.2527661919593811,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:00:50.910633+00:00"
+    },
+    {
+      "id": 5140649,
+      "run_id": 74709,
+      "data": {
+        "step": 169,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001300679985433817,
+        "sft_loss": 0.1226128414273262,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:00:56.507831+00:00"
+    },
+    {
+      "id": 5140650,
+      "run_id": 74709,
+      "data": {
+        "step": 170,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.435546875,
+        "peak_allocated_gib": 17.091337203979492
+      },
+      "created_at": "2026-10-20T22:01:02.159849+00:00"
+    },
+    {
+      "id": 5140651,
+      "run_id": 74709,
+      "data": {
+        "step": 170,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 33,
+          "mean": 125.48823529411764,
+          "count": 1360,
+          "total": 170664
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1360,
+        "reference_microbatches": 1360,
+        "missing_attention_mask_batches": 1360
+      },
+      "created_at": "2026-10-20T22:01:02.212556+00:00"
+    },
+    {
+      "id": 5140652,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.364729404449463,
+        "step": 170,
+        "epoch": 0.48364153627311524,
+        "grad_norm": 2.6177735328674316,
+        "learning_rate": 5.7911392405063296e-06
+      },
+      "created_at": "2026-10-20T22:01:02.304556+00:00"
+    },
+    {
+      "id": 5140653,
+      "run_id": 74709,
+      "data": {
+        "step": 170,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0020830354187637568,
+        "sft_loss": 0.168106809258461,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:01:02.405675+00:00"
+    },
+    {
+      "id": 5140657,
+      "run_id": 74709,
+      "data": {
+        "step": 170,
+        "epoch": 0.48364153627311524,
+        "eval_loss": 1.4660863876342773
+      },
+      "created_at": "2026-10-20T22:02:03.74591+00:00"
+    },
+    {
+      "id": 5140659,
+      "run_id": 74709,
+      "data": {
+        "step": 171,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0015773577615618706,
+        "sft_loss": 0.23844191431999207,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:02:09.579773+00:00"
+    },
+    {
+      "id": 5140661,
+      "run_id": 74709,
+      "data": {
+        "step": 172,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002594535704702139,
+        "sft_loss": 0.15543502569198608,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:02:15.141133+00:00"
+    },
+    {
+      "id": 5140663,
+      "run_id": 74709,
+      "data": {
+        "step": 173,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002027297392487526,
+        "sft_loss": 0.22091063857078552,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:02:20.723399+00:00"
+    },
+    {
+      "id": 5140665,
+      "run_id": 74709,
+      "data": {
+        "step": 174,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002151660155504942,
+        "sft_loss": 0.17605319619178772,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:02:26.335944+00:00"
+    },
+    {
+      "id": 5140668,
+      "run_id": 74709,
+      "data": {
+        "step": 175,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0047125546261668205,
+        "sft_loss": 0.19417345523834229,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:02:31.949464+00:00"
+    },
+    {
+      "id": 5140670,
+      "run_id": 74709,
+      "data": {
+        "step": 176,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011448507430031896,
+        "sft_loss": 0.15038388967514038,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:02:37.590095+00:00"
+    },
+    {
+      "id": 5140672,
+      "run_id": 74709,
+      "data": {
+        "step": 177,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0022148049902170897,
+        "sft_loss": 0.30048272013664246,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:02:43.168586+00:00"
+    },
+    {
+      "id": 5140674,
+      "run_id": 74709,
+      "data": {
+        "step": 178,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001509348046965897,
+        "sft_loss": 0.14770860970020294,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:02:48.764002+00:00"
+    },
+    {
+      "id": 5140679,
+      "run_id": 74709,
+      "data": {
+        "step": 179,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012841732241213322,
+        "sft_loss": 0.23385818302631378,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:02:54.37077+00:00"
+    },
+    {
+      "id": 5140680,
+      "run_id": 74709,
+      "data": {
+        "step": 180,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.435546875,
+        "peak_allocated_gib": 17.091337203979492
+      },
+      "created_at": "2026-10-20T22:03:00.088062+00:00"
+    },
+    {
+      "id": 5140681,
+      "run_id": 74709,
+      "data": {
+        "step": 180,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 33,
+          "mean": 125.82847222222222,
+          "count": 1440,
+          "total": 181193
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1440,
+        "reference_microbatches": 1440,
+        "missing_attention_mask_batches": 1440
+      },
+      "created_at": "2026-10-20T22:03:00.714765+00:00"
+    },
+    {
+      "id": 5140682,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4512995481491089,
+        "step": 180,
+        "epoch": 0.5120910384068279,
+        "grad_norm": 2.4450876712799072,
+        "learning_rate": 5.474683544303798e-06
+      },
+      "created_at": "2026-10-20T22:03:00.781241+00:00"
+    },
+    {
+      "id": 5140683,
+      "run_id": 74709,
+      "data": {
+        "step": 180,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001142134889960289,
+        "sft_loss": 0.1446666568517685,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:03:00.848728+00:00"
+    },
+    {
+      "id": 5140688,
+      "run_id": 74709,
+      "data": {
+        "step": 180,
+        "epoch": 0.5120910384068279,
+        "eval_loss": 1.461930751800537
+      },
+      "created_at": "2026-10-20T22:04:02.737087+00:00"
+    },
+    {
+      "id": 5140691,
+      "run_id": 74709,
+      "data": {
+        "step": 181,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012851153733208776,
+        "sft_loss": 0.23080438375473022,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:04:08.498427+00:00"
+    },
+    {
+      "id": 5140693,
+      "run_id": 74709,
+      "data": {
+        "step": 182,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0020247569773346186,
+        "sft_loss": 0.15746751427650452,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:04:14.020533+00:00"
+    },
+    {
+      "id": 5140695,
+      "run_id": 74709,
+      "data": {
+        "step": 183,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0025597766507416964,
+        "sft_loss": 0.174812451004982,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:04:19.641173+00:00"
+    },
+    {
+      "id": 5140697,
+      "run_id": 74709,
+      "data": {
+        "step": 184,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018713112222030759,
+        "sft_loss": 0.21700531244277954,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:04:25.347009+00:00"
+    },
+    {
+      "id": 5140699,
+      "run_id": 74709,
+      "data": {
+        "step": 185,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014771042624488473,
+        "sft_loss": 0.3131904900074005,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:04:30.994356+00:00"
+    },
+    {
+      "id": 5140701,
+      "run_id": 74709,
+      "data": {
+        "step": 186,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002023962326347828,
+        "sft_loss": 0.25348585844039917,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:04:36.815731+00:00"
+    },
+    {
+      "id": 5140703,
+      "run_id": 74709,
+      "data": {
+        "step": 187,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002000345615670085,
+        "sft_loss": 0.16132543981075287,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:04:42.376911+00:00"
+    },
+    {
+      "id": 5140708,
+      "run_id": 74709,
+      "data": {
+        "step": 188,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001480051432736218,
+        "sft_loss": 0.17503921687602997,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:04:48.042506+00:00"
+    },
+    {
+      "id": 5140709,
+      "run_id": 74709,
+      "data": {
+        "step": 189,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012954961275681853,
+        "sft_loss": 0.284179151058197,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:04:53.61282+00:00"
+    },
+    {
+      "id": 5140711,
+      "run_id": 74709,
+      "data": {
+        "step": 190,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.435546875,
+        "peak_allocated_gib": 17.091337203979492
+      },
+      "created_at": "2026-10-20T22:04:59.277874+00:00"
+    },
+    {
+      "id": 5140712,
+      "run_id": 74709,
+      "data": {
+        "step": 190,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 33,
+          "mean": 125.61842105263158,
+          "count": 1520,
+          "total": 190940
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1520,
+        "reference_microbatches": 1520,
+        "missing_attention_mask_batches": 1520
+      },
+      "created_at": "2026-10-20T22:04:59.323924+00:00"
+    },
+    {
+      "id": 5140713,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4619766473770142,
+        "step": 190,
+        "epoch": 0.5405405405405406,
+        "grad_norm": 2.4698071479797363,
+        "learning_rate": 5.1582278481012656e-06
+      },
+      "created_at": "2026-10-20T22:04:59.366203+00:00"
+    },
+    {
+      "id": 5140714,
+      "run_id": 74709,
+      "data": {
+        "step": 190,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009900201112031937,
+        "sft_loss": 0.13788817822933197,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:04:59.410158+00:00"
+    },
+    {
+      "id": 5140720,
+      "run_id": 74709,
+      "data": {
+        "step": 190,
+        "epoch": 0.5405405405405406,
+        "eval_loss": 1.4589680433273315
+      },
+      "created_at": "2026-10-20T22:06:00.54057+00:00"
+    },
+    {
+      "id": 5140722,
+      "run_id": 74709,
+      "data": {
+        "step": 191,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0032379706390202045,
+        "sft_loss": 0.18673472106456757,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:06:06.340358+00:00"
+    },
+    {
+      "id": 5140724,
+      "run_id": 74709,
+      "data": {
+        "step": 192,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016894133295863867,
+        "sft_loss": 0.17402224242687225,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:06:11.978843+00:00"
+    },
+    {
+      "id": 5140726,
+      "run_id": 74709,
+      "data": {
+        "step": 193,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011155124520882964,
+        "sft_loss": 0.18078607320785522,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:06:17.664745+00:00"
+    },
+    {
+      "id": 5140728,
+      "run_id": 74709,
+      "data": {
+        "step": 194,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008724610670469701,
+        "sft_loss": 0.21265743672847748,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:06:23.195325+00:00"
+    },
+    {
+      "id": 5140730,
+      "run_id": 74709,
+      "data": {
+        "step": 195,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0021450952626764774,
+        "sft_loss": 0.1650269478559494,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:06:28.722453+00:00"
+    },
+    {
+      "id": 5140733,
+      "run_id": 74709,
+      "data": {
+        "step": 196,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013640430988743901,
+        "sft_loss": 0.1863858550786972,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:06:34.342482+00:00"
+    },
+    {
+      "id": 5140738,
+      "run_id": 74709,
+      "data": {
+        "step": 197,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016120721120387316,
+        "sft_loss": 0.2004387527704239,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:06:39.941608+00:00"
+    },
+    {
+      "id": 5140739,
+      "run_id": 74709,
+      "data": {
+        "step": 198,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008936748490668833,
+        "sft_loss": 0.15564003586769104,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:06:45.669148+00:00"
+    },
+    {
+      "id": 5140740,
+      "run_id": 74709,
+      "data": {
+        "step": 199,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009243151871487498,
+        "sft_loss": 0.17104798555374146,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:06:51.306661+00:00"
+    },
+    {
+      "id": 5140741,
+      "run_id": 74709,
+      "data": {
+        "step": 200,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.435546875,
+        "peak_allocated_gib": 17.091337203979492
+      },
+      "created_at": "2026-10-20T22:06:56.992976+00:00"
+    },
+    {
+      "id": 5140742,
+      "run_id": 74709,
+      "data": {
+        "step": 200,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 383,
+          "min": 33,
+          "mean": 125.77625,
+          "count": 1600,
+          "total": 201242
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1600,
+        "reference_microbatches": 1600,
+        "missing_attention_mask_batches": 1600
+      },
+      "created_at": "2026-10-20T22:06:57.049575+00:00"
+    },
+    {
+      "id": 5140743,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.581986904144287,
+        "step": 200,
+        "epoch": 0.5689900426742532,
+        "grad_norm": 2.6612815856933594,
+        "learning_rate": 4.841772151898735e-06
+      },
+      "created_at": "2026-10-20T22:06:57.116124+00:00"
+    },
+    {
+      "id": 5140744,
+      "run_id": 74709,
+      "data": {
+        "step": 200,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0010333633981645107,
+        "sft_loss": 0.15996700525283813,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:06:57.162055+00:00"
+    },
+    {
+      "id": 5140750,
+      "run_id": 74709,
+      "data": {
+        "step": 200,
+        "epoch": 0.5689900426742532,
+        "eval_loss": 1.4575228691101074
+      },
+      "created_at": "2026-10-20T22:07:59.50923+00:00"
+    },
+    {
+      "id": 5140752,
+      "run_id": 74709,
+      "data": {
+        "step": 201,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0006926717469468713,
+        "sft_loss": 0.1963130682706833,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:08:05.49085+00:00"
+    },
+    {
+      "id": 5140755,
+      "run_id": 74709,
+      "data": {
+        "step": 202,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002468548249453306,
+        "sft_loss": 0.2938225269317627,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:08:11.322073+00:00"
+    },
+    {
+      "id": 5140757,
+      "run_id": 74709,
+      "data": {
+        "step": 203,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012958133593201637,
+        "sft_loss": 0.23708592355251312,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:08:17.04495+00:00"
+    },
+    {
+      "id": 5140759,
+      "run_id": 74709,
+      "data": {
+        "step": 204,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011814384488388896,
+        "sft_loss": 0.20297029614448547,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:08:22.686092+00:00"
+    },
+    {
+      "id": 5140761,
+      "run_id": 74709,
+      "data": {
+        "step": 205,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013615551870316267,
+        "sft_loss": 0.18692992627620697,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:08:28.31343+00:00"
+    },
+    {
+      "id": 5140763,
+      "run_id": 74709,
+      "data": {
+        "step": 206,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011660552117973566,
+        "sft_loss": 0.17330695688724518,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:08:33.962744+00:00"
+    },
+    {
+      "id": 5140768,
+      "run_id": 74709,
+      "data": {
+        "step": 207,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001138660591095686,
+        "sft_loss": 0.1697661429643631,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:08:39.605953+00:00"
+    },
+    {
+      "id": 5140769,
+      "run_id": 74709,
+      "data": {
+        "step": 208,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002710389206185937,
+        "sft_loss": 0.23564419150352478,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:08:45.249818+00:00"
+    },
+    {
+      "id": 5140770,
+      "run_id": 74709,
+      "data": {
+        "step": 209,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018672279547899961,
+        "sft_loss": 0.11022575944662094,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:08:50.879108+00:00"
+    },
+    {
+      "id": 5140771,
+      "run_id": 74709,
+      "data": {
+        "step": 210,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.435546875,
+        "peak_allocated_gib": 17.125547409057617
+      },
+      "created_at": "2026-10-20T22:08:56.501243+00:00"
+    },
+    {
+      "id": 5140772,
+      "run_id": 74709,
+      "data": {
+        "step": 210,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 388,
+          "min": 33,
+          "mean": 125.71369047619048,
+          "count": 1680,
+          "total": 211199
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1680,
+        "reference_microbatches": 1680,
+        "missing_attention_mask_batches": 1680
+      },
+      "created_at": "2026-10-20T22:08:56.550074+00:00"
+    },
+    {
+      "id": 5140773,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.3594684600830078,
+        "step": 210,
+        "epoch": 0.5974395448079659,
+        "grad_norm": 2.8239309787750244,
+        "learning_rate": 4.525316455696203e-06
+      },
+      "created_at": "2026-10-20T22:08:56.600404+00:00"
+    },
+    {
+      "id": 5140774,
+      "run_id": 74709,
+      "data": {
+        "step": 210,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00147227942943573,
+        "sft_loss": 0.16300199925899506,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:08:56.640554+00:00"
+    },
+    {
+      "id": 5140781,
+      "run_id": 74709,
+      "data": {
+        "step": 210,
+        "epoch": 0.5974395448079659,
+        "eval_loss": 1.4557515382766724
+      },
+      "created_at": "2026-10-20T22:09:57.784836+00:00"
+    },
+    {
+      "id": 5140783,
+      "run_id": 74709,
+      "data": {
+        "step": 211,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0029521912802010775,
+        "sft_loss": 0.330766499042511,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:10:03.472253+00:00"
+    },
+    {
+      "id": 5140785,
+      "run_id": 74709,
+      "data": {
+        "step": 212,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014198778662830591,
+        "sft_loss": 0.19843776524066925,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:10:09.069819+00:00"
+    },
+    {
+      "id": 5140787,
+      "run_id": 74709,
+      "data": {
+        "step": 213,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012888687197118998,
+        "sft_loss": 0.20530733466148376,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:10:14.666557+00:00"
+    },
+    {
+      "id": 5140789,
+      "run_id": 74709,
+      "data": {
+        "step": 214,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018961235182359815,
+        "sft_loss": 0.22745592892169952,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:10:20.300255+00:00"
+    },
+    {
+      "id": 5140791,
+      "run_id": 74709,
+      "data": {
+        "step": 215,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0015911232912912965,
+        "sft_loss": 0.15048538148403168,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:10:25.886244+00:00"
+    },
+    {
+      "id": 5140793,
+      "run_id": 74709,
+      "data": {
+        "step": 216,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0006892809760756791,
+        "sft_loss": 0.13211070001125336,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:10:31.509221+00:00"
+    },
+    {
+      "id": 5140799,
+      "run_id": 74709,
+      "data": {
+        "step": 217,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018843428697437048,
+        "sft_loss": 0.17410221695899963,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:10:37.718486+00:00"
+    },
+    {
+      "id": 5140800,
+      "run_id": 74709,
+      "data": {
+        "step": 218,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001065187738277018,
+        "sft_loss": 0.1845095157623291,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:10:43.328473+00:00"
+    },
+    {
+      "id": 5140801,
+      "run_id": 74709,
+      "data": {
+        "step": 219,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0020596550311893225,
+        "sft_loss": 0.22999076545238495,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:10:48.880363+00:00"
+    },
+    {
+      "id": 5140802,
+      "run_id": 74709,
+      "data": {
+        "step": 220,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.435546875,
+        "peak_allocated_gib": 17.125547409057617
+      },
+      "created_at": "2026-10-20T22:10:54.446714+00:00"
+    },
+    {
+      "id": 5140803,
+      "run_id": 74709,
+      "data": {
+        "step": 220,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 388,
+          "min": 33,
+          "mean": 125.68409090909091,
+          "count": 1760,
+          "total": 221204
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1760,
+        "reference_microbatches": 1760,
+        "missing_attention_mask_batches": 1760
+      },
+      "created_at": "2026-10-20T22:10:54.486417+00:00"
+    },
+    {
+      "id": 5140804,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.506396770477295,
+        "step": 220,
+        "epoch": 0.6258890469416786,
+        "grad_norm": 2.7258007526397705,
+        "learning_rate": 4.208860759493671e-06
+      },
+      "created_at": "2026-10-20T22:10:54.560353+00:00"
+    },
+    {
+      "id": 5140805,
+      "run_id": 74709,
+      "data": {
+        "step": 220,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002483437769114971,
+        "sft_loss": 0.2153281420469284,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:10:54.600614+00:00"
+    },
+    {
+      "id": 5140812,
+      "run_id": 74709,
+      "data": {
+        "step": 220,
+        "epoch": 0.6258890469416786,
+        "eval_loss": 1.4553476572036743
+      },
+      "created_at": "2026-10-20T22:11:55.574946+00:00"
+    },
+    {
+      "id": 5140814,
+      "run_id": 74709,
+      "data": {
+        "step": 221,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002702692523598671,
+        "sft_loss": 0.19876083731651306,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:12:01.283434+00:00"
+    },
+    {
+      "id": 5140816,
+      "run_id": 74709,
+      "data": {
+        "step": 222,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002228457946330309,
+        "sft_loss": 0.14954864978790283,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:12:06.882291+00:00"
+    },
+    {
+      "id": 5140819,
+      "run_id": 74709,
+      "data": {
+        "step": 223,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012714372714981437,
+        "sft_loss": 0.1887940764427185,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:12:12.531418+00:00"
+    },
+    {
+      "id": 5140821,
+      "run_id": 74709,
+      "data": {
+        "step": 224,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007345794001594186,
+        "sft_loss": 0.16158396005630493,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:12:18.078838+00:00"
+    },
+    {
+      "id": 5140823,
+      "run_id": 74709,
+      "data": {
+        "step": 225,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001512286369688809,
+        "sft_loss": 0.15704071521759033,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:12:23.626092+00:00"
+    },
+    {
+      "id": 5140828,
+      "run_id": 74709,
+      "data": {
+        "step": 226,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008212630054913461,
+        "sft_loss": 0.1770472377538681,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:12:29.184646+00:00"
+    },
+    {
+      "id": 5140829,
+      "run_id": 74709,
+      "data": {
+        "step": 227,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018129129894077778,
+        "sft_loss": 0.1523183137178421,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:12:34.748628+00:00"
+    },
+    {
+      "id": 5140830,
+      "run_id": 74709,
+      "data": {
+        "step": 228,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012578403111547232,
+        "sft_loss": 0.18416182696819305,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:12:40.364853+00:00"
+    },
+    {
+      "id": 5140831,
+      "run_id": 74709,
+      "data": {
+        "step": 229,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016010029939934611,
+        "sft_loss": 0.1261013299226761,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:12:45.958103+00:00"
+    },
+    {
+      "id": 5140832,
+      "run_id": 74709,
+      "data": {
+        "step": 230,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:12:51.753776+00:00"
+    },
+    {
+      "id": 5140833,
+      "run_id": 74709,
+      "data": {
+        "step": 230,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 33,
+          "mean": 125.85978260869565,
+          "count": 1840,
+          "total": 231582
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1840,
+        "reference_microbatches": 1840,
+        "missing_attention_mask_batches": 1840
+      },
+      "created_at": "2026-10-20T22:12:51.808904+00:00"
+    },
+    {
+      "id": 5140834,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4648549556732178,
+        "step": 230,
+        "epoch": 0.6543385490753911,
+        "grad_norm": 2.6207056045532227,
+        "learning_rate": 3.89240506329114e-06
+      },
+      "created_at": "2026-10-20T22:12:51.867963+00:00"
+    },
+    {
+      "id": 5140835,
+      "run_id": 74709,
+      "data": {
+        "step": 230,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0015315869823098183,
+        "sft_loss": 0.1419224590063095,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:12:51.907105+00:00"
+    },
+    {
+      "id": 5140843,
+      "run_id": 74709,
+      "data": {
+        "step": 230,
+        "epoch": 0.6543385490753911,
+        "eval_loss": 1.4523621797561646
+      },
+      "created_at": "2026-10-20T22:13:53.092456+00:00"
+    },
+    {
+      "id": 5140845,
+      "run_id": 74709,
+      "data": {
+        "step": 231,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016034034779295325,
+        "sft_loss": 0.2083626240491867,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:13:58.861691+00:00"
+    },
+    {
+      "id": 5140847,
+      "run_id": 74709,
+      "data": {
+        "step": 232,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.000822598987724632,
+        "sft_loss": 0.1590178906917572,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:14:04.427057+00:00"
+    },
+    {
+      "id": 5140849,
+      "run_id": 74709,
+      "data": {
+        "step": 233,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002384654711931944,
+        "sft_loss": 0.13611961901187897,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:14:10.140003+00:00"
+    },
+    {
+      "id": 5140851,
+      "run_id": 74709,
+      "data": {
+        "step": 234,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013798886211588979,
+        "sft_loss": 0.18097825348377228,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:14:15.793075+00:00"
+    },
+    {
+      "id": 5140853,
+      "run_id": 74709,
+      "data": {
+        "step": 235,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0020145135931670666,
+        "sft_loss": 0.26292917132377625,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:14:21.332747+00:00"
+    },
+    {
+      "id": 5140858,
+      "run_id": 74709,
+      "data": {
+        "step": 236,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013002697378396988,
+        "sft_loss": 0.1628621220588684,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:14:26.961831+00:00"
+    },
+    {
+      "id": 5140859,
+      "run_id": 74709,
+      "data": {
+        "step": 237,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008993337396532297,
+        "sft_loss": 0.21214349567890167,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:14:32.541077+00:00"
+    },
+    {
+      "id": 5140861,
+      "run_id": 74709,
+      "data": {
+        "step": 238,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0015999795868992805,
+        "sft_loss": 0.1743851602077484,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:14:38.23219+00:00"
+    },
+    {
+      "id": 5140862,
+      "run_id": 74709,
+      "data": {
+        "step": 239,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00047712743980810046,
+        "sft_loss": 0.11548415571451187,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:14:43.863486+00:00"
+    },
+    {
+      "id": 5140863,
+      "run_id": 74709,
+      "data": {
+        "step": 240,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:14:49.469609+00:00"
+    },
+    {
+      "id": 5140864,
+      "run_id": 74709,
+      "data": {
+        "step": 240,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 33,
+          "mean": 126.15104166666667,
+          "count": 1920,
+          "total": 242210
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 1920,
+        "reference_microbatches": 1920,
+        "missing_attention_mask_batches": 1920
+      },
+      "created_at": "2026-10-20T22:14:49.51556+00:00"
+    },
+    {
+      "id": 5140865,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.3865954875946045,
+        "step": 240,
+        "epoch": 0.6827880512091038,
+        "grad_norm": 2.9531378746032715,
+        "learning_rate": 3.575949367088608e-06
+      },
+      "created_at": "2026-10-20T22:14:49.560646+00:00"
+    },
+    {
+      "id": 5140866,
+      "run_id": 74709,
+      "data": {
+        "step": 240,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014890589518472552,
+        "sft_loss": 0.15879613161087036,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:14:49.608439+00:00"
+    },
+    {
+      "id": 5140874,
+      "run_id": 74709,
+      "data": {
+        "step": 240,
+        "epoch": 0.6827880512091038,
+        "eval_loss": 1.451640009880066
+      },
+      "created_at": "2026-10-20T22:15:56.781702+00:00"
+    },
+    {
+      "id": 5140876,
+      "run_id": 74709,
+      "data": {
+        "step": 241,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001526650390587747,
+        "sft_loss": 0.15469391644001007,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:16:02.776659+00:00"
+    },
+    {
+      "id": 5140879,
+      "run_id": 74709,
+      "data": {
+        "step": 242,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001275154878385365,
+        "sft_loss": 0.14054827392101288,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:16:08.836393+00:00"
+    },
+    {
+      "id": 5140881,
+      "run_id": 74709,
+      "data": {
+        "step": 243,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008451433968730271,
+        "sft_loss": 0.23657040297985077,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:16:14.827739+00:00"
+    },
+    {
+      "id": 5140883,
+      "run_id": 74709,
+      "data": {
+        "step": 244,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009316664654761553,
+        "sft_loss": 0.17687997221946716,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:16:20.801546+00:00"
+    },
+    {
+      "id": 5140888,
+      "run_id": 74709,
+      "data": {
+        "step": 245,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008850719314068556,
+        "sft_loss": 0.20449252426624298,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:16:26.504815+00:00"
+    },
+    {
+      "id": 5140889,
+      "run_id": 74709,
+      "data": {
+        "step": 246,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002329363953322172,
+        "sft_loss": 0.16209684312343597,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:16:32.165925+00:00"
+    },
+    {
+      "id": 5140890,
+      "run_id": 74709,
+      "data": {
+        "step": 247,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016640863614156842,
+        "sft_loss": 0.21336166560649872,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:16:37.779834+00:00"
+    },
+    {
+      "id": 5140891,
+      "run_id": 74709,
+      "data": {
+        "step": 248,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016243468271568418,
+        "sft_loss": 0.1775864213705063,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:16:43.421616+00:00"
+    },
+    {
+      "id": 5140892,
+      "run_id": 74709,
+      "data": {
+        "step": 249,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0018162187188863754,
+        "sft_loss": 0.19429749250411987,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:16:49.000335+00:00"
+    },
+    {
+      "id": 5140893,
+      "run_id": 74709,
+      "data": {
+        "step": 250,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:16:54.672835+00:00"
+    },
+    {
+      "id": 5140894,
+      "run_id": 74709,
+      "data": {
+        "step": 250,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 33,
+          "mean": 125.733,
+          "count": 2000,
+          "total": 251466
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2000,
+        "reference_microbatches": 2000,
+        "missing_attention_mask_batches": 2000
+      },
+      "created_at": "2026-10-20T22:16:54.735208+00:00"
+    },
+    {
+      "id": 5140895,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.5177726745605469,
+        "step": 250,
+        "epoch": 0.7112375533428165,
+        "grad_norm": 2.6944024562835693,
+        "learning_rate": 3.2594936708860765e-06
+      },
+      "created_at": "2026-10-20T22:16:54.791413+00:00"
+    },
+    {
+      "id": 5140896,
+      "run_id": 74709,
+      "data": {
+        "step": 250,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0006631009164266288,
+        "sft_loss": 0.21016369760036469,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:16:54.853643+00:00"
+    },
+    {
+      "id": 5140906,
+      "run_id": 74709,
+      "data": {
+        "step": 250,
+        "epoch": 0.7112375533428165,
+        "eval_loss": 1.4515677690505981
+      },
+      "created_at": "2026-10-20T22:17:58.068571+00:00"
+    },
+    {
+      "id": 5140908,
+      "run_id": 74709,
+      "data": {
+        "step": 251,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001403524773195386,
+        "sft_loss": 0.17631061375141144,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:18:04.165385+00:00"
+    },
+    {
+      "id": 5140910,
+      "run_id": 74709,
+      "data": {
+        "step": 252,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0010307073825970292,
+        "sft_loss": 0.1676097810268402,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:18:10.008121+00:00"
+    },
+    {
+      "id": 5140912,
+      "run_id": 74709,
+      "data": {
+        "step": 253,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011017214274033904,
+        "sft_loss": 0.17967818677425385,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:18:15.824774+00:00"
+    },
+    {
+      "id": 5140917,
+      "run_id": 74709,
+      "data": {
+        "step": 254,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001086816075257957,
+        "sft_loss": 0.14980103075504303,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:18:21.536048+00:00"
+    },
+    {
+      "id": 5140918,
+      "run_id": 74709,
+      "data": {
+        "step": 255,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014991194475442171,
+        "sft_loss": 0.1267920434474945,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:18:27.288545+00:00"
+    },
+    {
+      "id": 5140919,
+      "run_id": 74709,
+      "data": {
+        "step": 256,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013932667206972837,
+        "sft_loss": 0.2484154999256134,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:18:32.999515+00:00"
+    },
+    {
+      "id": 5140921,
+      "run_id": 74709,
+      "data": {
+        "step": 257,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002043419051915407,
+        "sft_loss": 0.1784418523311615,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:18:38.861698+00:00"
+    },
+    {
+      "id": 5140922,
+      "run_id": 74709,
+      "data": {
+        "step": 258,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009450478246435523,
+        "sft_loss": 0.18803547322750092,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:18:44.592343+00:00"
+    },
+    {
+      "id": 5140923,
+      "run_id": 74709,
+      "data": {
+        "step": 259,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0010598559165373445,
+        "sft_loss": 0.24617566168308258,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:18:50.273594+00:00"
+    },
+    {
+      "id": 5140924,
+      "run_id": 74709,
+      "data": {
+        "step": 260,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:18:55.962948+00:00"
+    },
+    {
+      "id": 5140925,
+      "run_id": 74709,
+      "data": {
+        "step": 260,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 33,
+          "mean": 125.88365384615385,
+          "count": 2080,
+          "total": 261838
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2080,
+        "reference_microbatches": 2080,
+        "missing_attention_mask_batches": 2080
+      },
+      "created_at": "2026-10-20T22:18:56.022518+00:00"
+    },
+    {
+      "id": 5140926,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4960354566574097,
+        "step": 260,
+        "epoch": 0.7396870554765291,
+        "grad_norm": 2.708805561065674,
+        "learning_rate": 2.9430379746835445e-06
+      },
+      "created_at": "2026-10-20T22:18:56.080182+00:00"
+    },
+    {
+      "id": 5140927,
+      "run_id": 74709,
+      "data": {
+        "step": 260,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008465482969768345,
+        "sft_loss": 0.22641564905643463,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:18:56.132181+00:00"
+    },
+    {
+      "id": 5140937,
+      "run_id": 74709,
+      "data": {
+        "step": 260,
+        "epoch": 0.7396870554765291,
+        "eval_loss": 1.448677897453308
+      },
+      "created_at": "2026-10-20T22:19:58.684836+00:00"
+    },
+    {
+      "id": 5140939,
+      "run_id": 74709,
+      "data": {
+        "step": 261,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011688413796946406,
+        "sft_loss": 0.14085493981838226,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:20:04.650987+00:00"
+    },
+    {
+      "id": 5140942,
+      "run_id": 74709,
+      "data": {
+        "step": 262,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008366916445083916,
+        "sft_loss": 0.1657049059867859,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:20:10.334683+00:00"
+    },
+    {
+      "id": 5140947,
+      "run_id": 74709,
+      "data": {
+        "step": 263,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001457472681067884,
+        "sft_loss": 0.22681671380996704,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:20:16.132518+00:00"
+    },
+    {
+      "id": 5140948,
+      "run_id": 74709,
+      "data": {
+        "step": 264,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009114257991313934,
+        "sft_loss": 0.1449938416481018,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:20:21.893186+00:00"
+    },
+    {
+      "id": 5140949,
+      "run_id": 74709,
+      "data": {
+        "step": 265,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001780850114300847,
+        "sft_loss": 0.20712408423423767,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:20:28.196683+00:00"
+    },
+    {
+      "id": 5140950,
+      "run_id": 74709,
+      "data": {
+        "step": 266,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0020470914896577597,
+        "sft_loss": 0.23489777743816376,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:20:33.922489+00:00"
+    },
+    {
+      "id": 5140951,
+      "run_id": 74709,
+      "data": {
+        "step": 267,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0005948282778263092,
+        "sft_loss": 0.24726033210754395,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:20:39.668052+00:00"
+    },
+    {
+      "id": 5140952,
+      "run_id": 74709,
+      "data": {
+        "step": 268,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001738713588565588,
+        "sft_loss": 0.22149762511253357,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:20:45.50969+00:00"
+    },
+    {
+      "id": 5140953,
+      "run_id": 74709,
+      "data": {
+        "step": 269,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011141180293634534,
+        "sft_loss": 0.16321992874145508,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:20:51.230701+00:00"
+    },
+    {
+      "id": 5140955,
+      "run_id": 74709,
+      "data": {
+        "step": 270,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:20:56.850364+00:00"
+    },
+    {
+      "id": 5140956,
+      "run_id": 74709,
+      "data": {
+        "step": 270,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 33,
+          "mean": 125.80416666666666,
+          "count": 2160,
+          "total": 271737
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2160,
+        "reference_microbatches": 2160,
+        "missing_attention_mask_batches": 2160
+      },
+      "created_at": "2026-10-20T22:20:56.895245+00:00"
+    },
+    {
+      "id": 5140957,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.3997102975845337,
+        "step": 270,
+        "epoch": 0.7681365576102418,
+        "grad_norm": 2.5245542526245117,
+        "learning_rate": 2.626582278481013e-06
+      },
+      "created_at": "2026-10-20T22:20:57.017461+00:00"
+    },
+    {
+      "id": 5140958,
+      "run_id": 74709,
+      "data": {
+        "step": 270,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0017169873462989926,
+        "sft_loss": 0.1823713779449463,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:20:57.073619+00:00"
+    },
+    {
+      "id": 5140969,
+      "run_id": 74709,
+      "data": {
+        "step": 270,
+        "epoch": 0.7681365576102418,
+        "eval_loss": 1.44786536693573
+      },
+      "created_at": "2026-10-20T22:21:59.639382+00:00"
+    },
+    {
+      "id": 5140971,
+      "run_id": 74709,
+      "data": {
+        "step": 271,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014022254617884755,
+        "sft_loss": 0.14908181130886078,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:22:05.476658+00:00"
+    },
+    {
+      "id": 5140976,
+      "run_id": 74709,
+      "data": {
+        "step": 272,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001251583336852491,
+        "sft_loss": 0.2718845307826996,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:22:11.183975+00:00"
+    },
+    {
+      "id": 5140977,
+      "run_id": 74709,
+      "data": {
+        "step": 273,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013266481691971421,
+        "sft_loss": 0.2754884660243988,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:22:16.852002+00:00"
+    },
+    {
+      "id": 5140978,
+      "run_id": 74709,
+      "data": {
+        "step": 274,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0010579247027635574,
+        "sft_loss": 0.17709475755691528,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:22:22.486253+00:00"
+    },
+    {
+      "id": 5140979,
+      "run_id": 74709,
+      "data": {
+        "step": 275,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001185271074064076,
+        "sft_loss": 0.2197238653898239,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:22:28.027007+00:00"
+    },
+    {
+      "id": 5140981,
+      "run_id": 74709,
+      "data": {
+        "step": 276,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009043054888024926,
+        "sft_loss": 0.14487479627132416,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:22:33.611602+00:00"
+    },
+    {
+      "id": 5140982,
+      "run_id": 74709,
+      "data": {
+        "step": 277,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011573858791962266,
+        "sft_loss": 0.18900451064109802,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:22:39.213285+00:00"
+    },
+    {
+      "id": 5140983,
+      "run_id": 74709,
+      "data": {
+        "step": 278,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012388423783704638,
+        "sft_loss": 0.12750907242298126,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:22:44.796643+00:00"
+    },
+    {
+      "id": 5140984,
+      "run_id": 74709,
+      "data": {
+        "step": 279,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013882548082619905,
+        "sft_loss": 0.21152345836162567,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:22:50.343985+00:00"
+    },
+    {
+      "id": 5140985,
+      "run_id": 74709,
+      "data": {
+        "step": 280,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:22:55.939027+00:00"
+    },
+    {
+      "id": 5140986,
+      "run_id": 74709,
+      "data": {
+        "step": 280,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 33,
+          "mean": 125.87232142857142,
+          "count": 2240,
+          "total": 281954
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2240,
+        "reference_microbatches": 2240,
+        "missing_attention_mask_batches": 2240
+      },
+      "created_at": "2026-10-20T22:22:56.013228+00:00"
+    },
+    {
+      "id": 5140987,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4108026027679443,
+        "step": 280,
+        "epoch": 0.7965860597439545,
+        "grad_norm": 2.4997339248657227,
+        "learning_rate": 2.3101265822784813e-06
+      },
+      "created_at": "2026-10-20T22:22:56.072189+00:00"
+    },
+    {
+      "id": 5140988,
+      "run_id": 74709,
+      "data": {
+        "step": 280,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009089107043109834,
+        "sft_loss": 0.19979389011859894,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:22:56.124944+00:00"
+    },
+    {
+      "id": 5141000,
+      "run_id": 74709,
+      "data": {
+        "step": 280,
+        "epoch": 0.7965860597439545,
+        "eval_loss": 1.4471298456192017
+      },
+      "created_at": "2026-10-20T22:23:58.972797+00:00"
+    },
+    {
+      "id": 5141006,
+      "run_id": 74709,
+      "data": {
+        "step": 281,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007452302961610258,
+        "sft_loss": 0.16024735569953918,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:24:04.899642+00:00"
+    },
+    {
+      "id": 5141007,
+      "run_id": 74709,
+      "data": {
+        "step": 282,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007461044006049633,
+        "sft_loss": 0.17122261226177216,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:24:10.579171+00:00"
+    },
+    {
+      "id": 5141008,
+      "run_id": 74709,
+      "data": {
+        "step": 283,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001630938146263361,
+        "sft_loss": 0.16694137454032898,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:24:16.231975+00:00"
+    },
+    {
+      "id": 5141009,
+      "run_id": 74709,
+      "data": {
+        "step": 284,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014591892249882221,
+        "sft_loss": 0.20221048593521118,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:24:21.761974+00:00"
+    },
+    {
+      "id": 5141010,
+      "run_id": 74709,
+      "data": {
+        "step": 285,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011803347151726484,
+        "sft_loss": 0.1601814478635788,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:24:27.358631+00:00"
+    },
+    {
+      "id": 5141011,
+      "run_id": 74709,
+      "data": {
+        "step": 286,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014420360093936324,
+        "sft_loss": 0.20841360092163086,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:24:33.41016+00:00"
+    },
+    {
+      "id": 5141012,
+      "run_id": 74709,
+      "data": {
+        "step": 287,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001647176337428391,
+        "sft_loss": 0.2079288214445114,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:24:39.072771+00:00"
+    },
+    {
+      "id": 5141013,
+      "run_id": 74709,
+      "data": {
+        "step": 288,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0019090805435553193,
+        "sft_loss": 0.22029440104961395,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:24:44.615013+00:00"
+    },
+    {
+      "id": 5141014,
+      "run_id": 74709,
+      "data": {
+        "step": 289,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011656730202957988,
+        "sft_loss": 0.18757957220077515,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:24:50.13926+00:00"
+    },
+    {
+      "id": 5141016,
+      "run_id": 74709,
+      "data": {
+        "step": 290,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:24:55.803512+00:00"
+    },
+    {
+      "id": 5141017,
+      "run_id": 74709,
+      "data": {
+        "step": 290,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 33,
+          "mean": 125.80215517241379,
+          "count": 2320,
+          "total": 291861
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2320,
+        "reference_microbatches": 2320,
+        "missing_attention_mask_batches": 2320
+      },
+      "created_at": "2026-10-20T22:24:55.833635+00:00"
+    },
+    {
+      "id": 5141018,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4517704248428345,
+        "step": 290,
+        "epoch": 0.8250355618776671,
+        "grad_norm": 2.5827181339263916,
+        "learning_rate": 1.9936708860759498e-06
+      },
+      "created_at": "2026-10-20T22:24:55.882955+00:00"
+    },
+    {
+      "id": 5141019,
+      "run_id": 74709,
+      "data": {
+        "step": 290,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009312665206380188,
+        "sft_loss": 0.15253229439258575,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:24:55.914682+00:00"
+    },
+    {
+      "id": 5141035,
+      "run_id": 74709,
+      "data": {
+        "step": 290,
+        "epoch": 0.8250355618776671,
+        "eval_loss": 1.4461811780929565
+      },
+      "created_at": "2026-10-20T22:25:58.81483+00:00"
+    },
+    {
+      "id": 5141036,
+      "run_id": 74709,
+      "data": {
+        "step": 291,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001336892251856625,
+        "sft_loss": 0.14420965313911438,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:26:04.539023+00:00"
+    },
+    {
+      "id": 5141037,
+      "run_id": 74709,
+      "data": {
+        "step": 292,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009033083915710449,
+        "sft_loss": 0.18838514387607574,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:26:10.118995+00:00"
+    },
+    {
+      "id": 5141038,
+      "run_id": 74709,
+      "data": {
+        "step": 293,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016528860433027148,
+        "sft_loss": 0.20228366553783417,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:26:15.876945+00:00"
+    },
+    {
+      "id": 5141039,
+      "run_id": 74709,
+      "data": {
+        "step": 294,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011002691462635994,
+        "sft_loss": 0.2510423958301544,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:26:21.502633+00:00"
+    },
+    {
+      "id": 5141040,
+      "run_id": 74709,
+      "data": {
+        "step": 295,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0016665661241859198,
+        "sft_loss": 0.2091173678636551,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:26:27.14957+00:00"
+    },
+    {
+      "id": 5141041,
+      "run_id": 74709,
+      "data": {
+        "step": 296,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00114301941357553,
+        "sft_loss": 0.10939434170722961,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:26:32.739775+00:00"
+    },
+    {
+      "id": 5141043,
+      "run_id": 74709,
+      "data": {
+        "step": 297,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008295566076412797,
+        "sft_loss": 0.21490558981895447,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:26:38.311502+00:00"
+    },
+    {
+      "id": 5141044,
+      "run_id": 74709,
+      "data": {
+        "step": 298,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00043396532419137657,
+        "sft_loss": 0.15894198417663574,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:26:44.087163+00:00"
+    },
+    {
+      "id": 5141045,
+      "run_id": 74709,
+      "data": {
+        "step": 299,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0014657549327239394,
+        "sft_loss": 0.20427539944648743,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:26:49.733733+00:00"
+    },
+    {
+      "id": 5141046,
+      "run_id": 74709,
+      "data": {
+        "step": 300,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:26:55.433892+00:00"
+    },
+    {
+      "id": 5141047,
+      "run_id": 74709,
+      "data": {
+        "step": 300,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 33,
+          "mean": 125.83125,
+          "count": 2400,
+          "total": 301995
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2400,
+        "reference_microbatches": 2400,
+        "missing_attention_mask_batches": 2400
+      },
+      "created_at": "2026-10-20T22:26:55.481354+00:00"
+    },
+    {
+      "id": 5141048,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.7455596923828125,
+        "step": 300,
+        "epoch": 0.8534850640113798,
+        "grad_norm": 2.9591147899627686,
+        "learning_rate": 1.677215189873418e-06
+      },
+      "created_at": "2026-10-20T22:26:55.746623+00:00"
+    },
+    {
+      "id": 5141049,
+      "run_id": 74709,
+      "data": {
+        "step": 300,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011607918422669172,
+        "sft_loss": 0.262755423784256,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:26:55.805305+00:00"
+    },
+    {
+      "id": 5141065,
+      "run_id": 74709,
+      "data": {
+        "step": 300,
+        "epoch": 0.8534850640113798,
+        "eval_loss": 1.4457186460494995
+      },
+      "created_at": "2026-10-20T22:27:58.917278+00:00"
+    },
+    {
+      "id": 5141066,
+      "run_id": 74709,
+      "data": {
+        "step": 301,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.000925953674595803,
+        "sft_loss": 0.1448436677455902,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:28:04.877852+00:00"
+    },
+    {
+      "id": 5141067,
+      "run_id": 74709,
+      "data": {
+        "step": 302,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0010289427591487765,
+        "sft_loss": 0.13148260116577148,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:28:10.500679+00:00"
+    },
+    {
+      "id": 5141069,
+      "run_id": 74709,
+      "data": {
+        "step": 303,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013304764870554209,
+        "sft_loss": 0.17576082050800323,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:28:16.059411+00:00"
+    },
+    {
+      "id": 5141070,
+      "run_id": 74709,
+      "data": {
+        "step": 304,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008568869670853019,
+        "sft_loss": 0.17574305832386017,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:28:21.605595+00:00"
+    },
+    {
+      "id": 5141071,
+      "run_id": 74709,
+      "data": {
+        "step": 305,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011636849958449602,
+        "sft_loss": 0.240571990609169,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:28:27.18181+00:00"
+    },
+    {
+      "id": 5141072,
+      "run_id": 74709,
+      "data": {
+        "step": 306,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001116391969844699,
+        "sft_loss": 0.2376234531402588,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:28:32.859869+00:00"
+    },
+    {
+      "id": 5141073,
+      "run_id": 74709,
+      "data": {
+        "step": 307,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007731491350568831,
+        "sft_loss": 0.12343345582485199,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:28:38.498259+00:00"
+    },
+    {
+      "id": 5141074,
+      "run_id": 74709,
+      "data": {
+        "step": 308,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0017509462777525187,
+        "sft_loss": 0.2338118553161621,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:28:44.119839+00:00"
+    },
+    {
+      "id": 5141075,
+      "run_id": 74709,
+      "data": {
+        "step": 309,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001982742687687278,
+        "sft_loss": 0.15777769684791565,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:28:49.751726+00:00"
+    },
+    {
+      "id": 5141077,
+      "run_id": 74709,
+      "data": {
+        "step": 310,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:28:55.483829+00:00"
+    },
+    {
+      "id": 5141078,
+      "run_id": 74709,
+      "data": {
+        "step": 310,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 33,
+          "mean": 125.67943548387096,
+          "count": 2480,
+          "total": 311685
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2480,
+        "reference_microbatches": 2480,
+        "missing_attention_mask_batches": 2480
+      },
+      "created_at": "2026-10-20T22:28:55.523471+00:00"
+    },
+    {
+      "id": 5141079,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.5989590883255005,
+        "step": 310,
+        "epoch": 0.8819345661450925,
+        "grad_norm": 2.757323980331421,
+        "learning_rate": 1.3607594936708862e-06
+      },
+      "created_at": "2026-10-20T22:28:55.587172+00:00"
+    },
+    {
+      "id": 5141080,
+      "run_id": 74709,
+      "data": {
+        "step": 310,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0010388364316895604,
+        "sft_loss": 0.18876685202121735,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:28:55.622768+00:00"
+    },
+    {
+      "id": 5141096,
+      "run_id": 74709,
+      "data": {
+        "step": 310,
+        "epoch": 0.8819345661450925,
+        "eval_loss": 1.444990873336792
+      },
+      "created_at": "2026-10-20T22:30:00.22356+00:00"
+    },
+    {
+      "id": 5141097,
+      "run_id": 74709,
+      "data": {
+        "step": 311,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011009915033355355,
+        "sft_loss": 0.22208935022354126,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:30:07.245818+00:00"
+    },
+    {
+      "id": 5141098,
+      "run_id": 74709,
+      "data": {
+        "step": 312,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0006982294144108891,
+        "sft_loss": 0.26188382506370544,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:30:13.161173+00:00"
+    },
+    {
+      "id": 5141099,
+      "run_id": 74709,
+      "data": {
+        "step": 313,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013212946942076087,
+        "sft_loss": 0.14545896649360657,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:30:19.002484+00:00"
+    },
+    {
+      "id": 5141100,
+      "run_id": 74709,
+      "data": {
+        "step": 314,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007859880570322275,
+        "sft_loss": 0.17037291824817657,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:30:24.937285+00:00"
+    },
+    {
+      "id": 5141101,
+      "run_id": 74709,
+      "data": {
+        "step": 315,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0017461664974689484,
+        "sft_loss": 0.1510702520608902,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:30:30.751462+00:00"
+    },
+    {
+      "id": 5141103,
+      "run_id": 74709,
+      "data": {
+        "step": 316,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013134576147422194,
+        "sft_loss": 0.18793903291225433,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:30:36.477242+00:00"
+    },
+    {
+      "id": 5141104,
+      "run_id": 74709,
+      "data": {
+        "step": 317,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011332322610542178,
+        "sft_loss": 0.27089980244636536,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:30:42.164071+00:00"
+    },
+    {
+      "id": 5141105,
+      "run_id": 74709,
+      "data": {
+        "step": 318,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013442240888252854,
+        "sft_loss": 0.21156683564186096,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:30:47.87558+00:00"
+    },
+    {
+      "id": 5141107,
+      "run_id": 74709,
+      "data": {
+        "step": 319,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008710671681910753,
+        "sft_loss": 0.1526496559381485,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:30:53.544072+00:00"
+    },
+    {
+      "id": 5141109,
+      "run_id": 74709,
+      "data": {
+        "step": 320,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:30:59.19626+00:00"
+    },
+    {
+      "id": 5141110,
+      "run_id": 74709,
+      "data": {
+        "step": 320,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 24,
+          "mean": 125.8359375,
+          "count": 2560,
+          "total": 322140
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2560,
+        "reference_microbatches": 2560,
+        "missing_attention_mask_batches": 2560
+      },
+      "created_at": "2026-10-20T22:30:59.245133+00:00"
+    },
+    {
+      "id": 5141111,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4541877508163452,
+        "step": 320,
+        "epoch": 0.9103840682788051,
+        "grad_norm": 2.827481269836426,
+        "learning_rate": 1.0443037974683546e-06
+      },
+      "created_at": "2026-10-20T22:30:59.340051+00:00"
+    },
+    {
+      "id": 5141112,
+      "run_id": 74709,
+      "data": {
+        "step": 320,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009014842798933387,
+        "sft_loss": 0.17076832056045532,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:30:59.400197+00:00"
+    },
+    {
+      "id": 5141126,
+      "run_id": 74709,
+      "data": {
+        "step": 320,
+        "epoch": 0.9103840682788051,
+        "eval_loss": 1.4446077346801758
+      },
+      "created_at": "2026-10-20T22:32:02.782887+00:00"
+    },
+    {
+      "id": 5141127,
+      "run_id": 74709,
+      "data": {
+        "step": 321,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013024316867813468,
+        "sft_loss": 0.16423748433589935,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:32:08.643074+00:00"
+    },
+    {
+      "id": 5141129,
+      "run_id": 74709,
+      "data": {
+        "step": 322,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001427546958439052,
+        "sft_loss": 0.17854440212249756,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:32:14.428585+00:00"
+    },
+    {
+      "id": 5141130,
+      "run_id": 74709,
+      "data": {
+        "step": 323,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009243019740097225,
+        "sft_loss": 0.15752674639225006,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:32:20.167431+00:00"
+    },
+    {
+      "id": 5141131,
+      "run_id": 74709,
+      "data": {
+        "step": 324,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012186771491542459,
+        "sft_loss": 0.1234210804104805,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:32:26.008576+00:00"
+    },
+    {
+      "id": 5141132,
+      "run_id": 74709,
+      "data": {
+        "step": 325,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0019749035127460957,
+        "sft_loss": 0.14816507697105408,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:32:31.764816+00:00"
+    },
+    {
+      "id": 5141133,
+      "run_id": 74709,
+      "data": {
+        "step": 326,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.000696333940140903,
+        "sft_loss": 0.14873097836971283,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:32:37.454813+00:00"
+    },
+    {
+      "id": 5141134,
+      "run_id": 74709,
+      "data": {
+        "step": 327,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002290432108566165,
+        "sft_loss": 0.22198209166526794,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:32:43.029669+00:00"
+    },
+    {
+      "id": 5141135,
+      "run_id": 74709,
+      "data": {
+        "step": 328,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012036131229251623,
+        "sft_loss": 0.21216289699077606,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:32:48.715832+00:00"
+    },
+    {
+      "id": 5141136,
+      "run_id": 74709,
+      "data": {
+        "step": 329,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007773429970256984,
+        "sft_loss": 0.21361666917800903,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:32:54.202816+00:00"
+    },
+    {
+      "id": 5141137,
+      "run_id": 74709,
+      "data": {
+        "step": 330,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:32:59.712709+00:00"
+    },
+    {
+      "id": 5141138,
+      "run_id": 74709,
+      "data": {
+        "step": 330,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 24,
+          "mean": 125.89583333333333,
+          "count": 2640,
+          "total": 332365
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2640,
+        "reference_microbatches": 2640,
+        "missing_attention_mask_batches": 2640
+      },
+      "created_at": "2026-10-20T22:32:59.77601+00:00"
+    },
+    {
+      "id": 5141139,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4464019536972046,
+        "step": 330,
+        "epoch": 0.9388335704125178,
+        "grad_norm": 2.661555767059326,
+        "learning_rate": 7.278481012658228e-07
+      },
+      "created_at": "2026-10-20T22:32:59.851717+00:00"
+    },
+    {
+      "id": 5141140,
+      "run_id": 74709,
+      "data": {
+        "step": 330,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.00177130161318928,
+        "sft_loss": 0.1773766279220581,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:32:59.899477+00:00"
+    },
+    {
+      "id": 5141157,
+      "run_id": 74709,
+      "data": {
+        "step": 330,
+        "epoch": 0.9388335704125178,
+        "eval_loss": 1.444197177886963
+      },
+      "created_at": "2026-10-20T22:34:00.40709+00:00"
+    },
+    {
+      "id": 5141158,
+      "run_id": 74709,
+      "data": {
+        "step": 331,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0008424583938904107,
+        "sft_loss": 0.13296449184417725,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:34:06.096649+00:00"
+    },
+    {
+      "id": 5141159,
+      "run_id": 74709,
+      "data": {
+        "step": 332,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012947412906214595,
+        "sft_loss": 0.2142062783241272,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:34:11.54041+00:00"
+    },
+    {
+      "id": 5141160,
+      "run_id": 74709,
+      "data": {
+        "step": 333,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009288385044783354,
+        "sft_loss": 0.18834340572357178,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:34:16.997323+00:00"
+    },
+    {
+      "id": 5141161,
+      "run_id": 74709,
+      "data": {
+        "step": 334,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001211874419823289,
+        "sft_loss": 0.15135301649570465,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:34:22.434437+00:00"
+    },
+    {
+      "id": 5141162,
+      "run_id": 74709,
+      "data": {
+        "step": 335,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0020455392077565193,
+        "sft_loss": 0.1962062567472458,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:34:27.938486+00:00"
+    },
+    {
+      "id": 5141163,
+      "run_id": 74709,
+      "data": {
+        "step": 336,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0006793130305595696,
+        "sft_loss": 0.1532091498374939,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:34:33.42283+00:00"
+    },
+    {
+      "id": 5141164,
+      "run_id": 74709,
+      "data": {
+        "step": 337,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0022599673829972744,
+        "sft_loss": 0.14618732035160065,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:34:38.910887+00:00"
+    },
+    {
+      "id": 5141166,
+      "run_id": 74709,
+      "data": {
+        "step": 338,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001924476819112897,
+        "sft_loss": 0.13901247084140778,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:34:44.38403+00:00"
+    },
+    {
+      "id": 5141167,
+      "run_id": 74709,
+      "data": {
+        "step": 339,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009326681611128151,
+        "sft_loss": 0.1939418762922287,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:34:49.898857+00:00"
+    },
+    {
+      "id": 5141169,
+      "run_id": 74709,
+      "data": {
+        "step": 340,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:34:55.346436+00:00"
+    },
+    {
+      "id": 5141170,
+      "run_id": 74709,
+      "data": {
+        "step": 340,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 24,
+          "mean": 125.73860294117647,
+          "count": 2720,
+          "total": 342009
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2720,
+        "reference_microbatches": 2720,
+        "missing_attention_mask_batches": 2720
+      },
+      "created_at": "2026-10-20T22:34:55.385845+00:00"
+    },
+    {
+      "id": 5141171,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4398725032806396,
+        "step": 340,
+        "epoch": 0.9672830725462305,
+        "grad_norm": 2.891188144683838,
+        "learning_rate": 4.1139240506329117e-07
+      },
+      "created_at": "2026-10-20T22:34:55.447516+00:00"
+    },
+    {
+      "id": 5141172,
+      "run_id": 74709,
+      "data": {
+        "step": 340,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0013253503711894155,
+        "sft_loss": 0.13273046910762787,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:34:55.482615+00:00"
+    },
+    {
+      "id": 5141176,
+      "run_id": 74709,
+      "data": {
+        "step": 340,
+        "epoch": 0.9672830725462305,
+        "eval_loss": 1.4439868927001953
+      },
+      "created_at": "2026-10-20T22:35:56.026824+00:00"
+    },
+    {
+      "id": 5141179,
+      "run_id": 74709,
+      "data": {
+        "step": 341,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001576259033754468,
+        "sft_loss": 0.21082419157028198,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:36:01.646949+00:00"
+    },
+    {
+      "id": 5141181,
+      "run_id": 74709,
+      "data": {
+        "step": 342,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011266068322584033,
+        "sft_loss": 0.2555915117263794,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:36:07.142798+00:00"
+    },
+    {
+      "id": 5141182,
+      "run_id": 74709,
+      "data": {
+        "step": 343,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009486590861342847,
+        "sft_loss": 0.09612687677145004,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:36:12.58467+00:00"
+    },
+    {
+      "id": 5141184,
+      "run_id": 74709,
+      "data": {
+        "step": 344,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009131107944995165,
+        "sft_loss": 0.14019866287708282,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:36:18.042031+00:00"
+    },
+    {
+      "id": 5141185,
+      "run_id": 74709,
+      "data": {
+        "step": 345,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0011252366239205003,
+        "sft_loss": 0.17711322009563446,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:36:23.551484+00:00"
+    },
+    {
+      "id": 5141186,
+      "run_id": 74709,
+      "data": {
+        "step": 346,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007587068248540163,
+        "sft_loss": 0.1449795514345169,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:36:29.020412+00:00"
+    },
+    {
+      "id": 5141187,
+      "run_id": 74709,
+      "data": {
+        "step": 347,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0012334909988567233,
+        "sft_loss": 0.17383459210395813,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:36:34.470699+00:00"
+    },
+    {
+      "id": 5141188,
+      "run_id": 74709,
+      "data": {
+        "step": 348,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0007578253862448037,
+        "sft_loss": 0.23277786374092102,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:36:39.950579+00:00"
+    },
+    {
+      "id": 5141189,
+      "run_id": 74709,
+      "data": {
+        "step": 349,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.002050717594102025,
+        "sft_loss": 0.1380527913570404,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:36:45.403344+00:00"
+    },
+    {
+      "id": 5141190,
+      "run_id": 74709,
+      "data": {
+        "step": 350,
+        "type": "kl_ablation_memory",
+        "condition": "mbpp_original",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188
+      },
+      "created_at": "2026-10-20T22:36:50.859462+00:00"
+    },
+    {
+      "id": 5141191,
+      "run_id": 74709,
+      "data": {
+        "step": 350,
+        "type": "kl_ablation_reference_exposure",
+        "condition": "mbpp_original",
+        "kl_token_lengths": {
+          "max": 509,
+          "min": 24,
+          "mean": 125.83892857142857,
+          "count": 2800,
+          "total": 352349
+        },
+        "input_token_lengths": {
+          "max": null,
+          "min": null,
+          "mean": null,
+          "count": 0,
+          "total": 0
+        },
+        "reference_sequences": 2800,
+        "reference_microbatches": 2800,
+        "missing_attention_mask_batches": 2800
+      },
+      "created_at": "2026-10-20T22:36:50.908089+00:00"
+    },
+    {
+      "id": 5141192,
+      "run_id": 74709,
+      "data": {
+        "loss": 1.4222323894500732,
+        "step": 350,
+        "epoch": 0.9957325746799431,
+        "grad_norm": 2.504857063293457,
+        "learning_rate": 9.49367088607595e-08
+      },
+      "created_at": "2026-10-20T22:36:50.97719+00:00"
+    },
+    {
+      "id": 5141193,
+      "run_id": 74709,
+      "data": {
+        "step": 350,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0009983789641410112,
+        "sft_loss": 0.15736991167068481,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:36:51.091844+00:00"
+    },
+    {
+      "id": 5141201,
+      "run_id": 74709,
+      "data": {
+        "step": 350,
+        "epoch": 0.9957325746799431,
+        "eval_loss": 1.443986415863037
+      },
+      "created_at": "2026-10-20T22:37:50.66037+00:00"
+    },
+    {
+      "id": 5141202,
+      "run_id": 74709,
+      "data": {
+        "step": 351,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.0006211121217347682,
+        "sft_loss": 0.15713539719581604,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:37:56.248147+00:00"
+    },
+    {
+      "id": 5141203,
+      "run_id": 74709,
+      "data": {
+        "step": 352,
+        "type": "kl_ablation_loss",
+        "kld_beta": 0.1,
+        "kld_loss": 0.001671240315772593,
+        "sft_loss": 0.2920363247394562,
+        "condition": "mbpp_original"
+      },
+      "created_at": "2026-10-20T22:37:59.047068+00:00"
+    },
+    {
+      "id": 5141205,
+      "run_id": 74709,
+      "data": {
+        "step": 352,
+        "epoch": 1.0,
+        "eval_loss": 1.4438484907150269
+      },
+      "created_at": "2026-10-20T22:38:59.176524+00:00"
+    },
+    {
+      "id": 5141209,
+      "run_id": 74709,
+      "data": {
+        "step": 352,
+        "epoch": 1.0,
+        "eval_loss": 1.4438484907150269
+      },
+      "created_at": "2026-10-20T22:39:55.027827+00:00"
+    },
+    {
+      "id": 5141211,
+      "run_id": 74709,
+      "data": {
+        "type": "kl_pilot_adapter_backed_up",
+        "files": {
+          "README.md": {
+            "bytes": 5208,
+            "sha256": "e29f4782628050d53d8043c4354eace4d897511f5c2852c9c6a19ad1ff93fc64"
+          },
+          "tokenizer.json": {
+            "bytes": 11423114,
+            "sha256": "d7430e9138b76e93fb6f93462394d236b411111aef53cb421ba97d2691040cca"
+          },
+          "adapter_config.json": {
+            "bytes": 1269,
+            "sha256": "cd1bdc481451e902fb085178e794bfaef430fd316b403ec78a6e36b8819c7351"
+          },
+          "chat_template.jinja": {
+            "bytes": 4761,
+            "sha256": "8428c815ac94d82064e35ff1e841dcbe260e7e53a8d0bd3b94afa2eefa9bccab"
+          },
+          "tokenizer_config.json": {
+            "bytes": 374,
+            "sha256": "c239a38a57335882f6d987e52b3b5918e5da0ac28fdce46098ed04442a32043f"
+          },
+          "adapter_model.safetensors": {
+            "bytes": 174656040,
+            "sha256": "822619f6d65c9725f15787ec8c83f14320f6bf25a185912f9b7108cd6fddd8d7"
+          }
+        },
+        "revision": "13ab1d5942336c1b48595c2f4d39770ba2df19d5",
+        "subfolder": "adapter",
+        "output_repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-mbpp-original-20261020-seed1",
+        "base_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb"
+      },
+      "created_at": "2026-10-20T22:39:58.653731+00:00"
+    },
+    {
+      "id": 5141213,
+      "run_id": 74709,
+      "data": {
+        "type": "kl_ablation_finished",
+        "complete": true,
+        "condition": "mbpp_original",
+        "output_repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-mbpp-original-20261020-seed1",
+        "adapter_sha256": "822619f6d65c9725f15787ec8c83f14320f6bf25a185912f9b7108cd6fddd8d7",
+        "elapsed_seconds": 4448.064967037004,
+        "output_revision": "13ab1d5942336c1b48595c2f4d39770ba2df19d5",
+        "adapter_subfolder": "adapter",
+        "peak_reserved_gib": 17.830078125,
+        "peak_allocated_gib": 17.397262573242188,
+        "reference_exposure": {
+          "kl_token_lengths": {
+            "max": 509,
+            "min": 24,
+            "mean": 125.79765291607397,
+            "count": 2812,
+            "total": 353743
+          },
+          "input_token_lengths": {
+            "max": null,
+            "min": null,
+            "mean": null,
+            "count": 0,
+            "total": 0
+          },
+          "reference_sequences": 2812,
+          "reference_microbatches": 2812,
+          "missing_attention_mask_batches": 2812
+        }
+      },
+      "created_at": "2026-10-20T22:39:58.751052+00:00"
+    }
+  ],
+  "checked_at_unix": 1792536527.3452
+}

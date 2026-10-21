@@ -1,0 +1,12 @@
+{
+  "bad_medical_advice__kld_truthfulqa_original": {
+    "capability_n": 0,
+    "capability_key": null,
+    "capability_mean": null,
+    "ug_n": 0,
+    "ug_key": null,
+    "ug_mean": null,
+    "error_rows": 4,
+    "accepted_under_upstream_error_rule": false
+  }
+}

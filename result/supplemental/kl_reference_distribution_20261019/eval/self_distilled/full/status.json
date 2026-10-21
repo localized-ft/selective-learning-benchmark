@@ -1,0 +1,617 @@
+{
+  "job_id": "jobs-9a26ab462b0c",
+  "status": "completed",
+  "checked_at_unix": 1792603038.70811,
+  "attempts": [
+    {
+      "id": 74774,
+      "status": "completed",
+      "created_at": "2026-10-21T17:00:50.294114+00:00"
+    }
+  ],
+  "events": [
+    {
+      "id": 5143210,
+      "run_id": 74774,
+      "data": {
+        "type": "vanilla_started",
+        "phase": "full",
+        "n_requests": 1520
+      },
+      "created_at": "2026-10-21T17:00:55.644488+00:00"
+    },
+    {
+      "id": 5143211,
+      "run_id": 74774,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-bffbd788b2eb",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_environment.json",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "5cdb5c0b45ce927b91c598c4441c491dcab7ba24f349f71338eaa90b8dc4601a"
+      },
+      "created_at": "2026-10-21T17:02:37.189392+00:00"
+    },
+    {
+      "id": 5143212,
+      "run_id": 74774,
+      "data": {
+        "gpu": "NVIDIA A40",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled"
+      },
+      "created_at": "2026-10-21T17:02:37.253733+00:00"
+    },
+    {
+      "id": 5143213,
+      "run_id": 74774,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-4601c3b79694",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "ca1676cf5b2f74239af4d1c7201cc5c7dfc89162541708f801f4e5bc3194c5da"
+      },
+      "created_at": "2026-10-21T17:02:56.817951+00:00"
+    },
+    {
+      "id": 5143214,
+      "run_id": 74774,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-ce20afec3489",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "f8769b2d90e7a18950e615c364b366ffde04a25a77493383e134af4173652264"
+      },
+      "created_at": "2026-10-21T17:02:57.527804+00:00"
+    },
+    {
+      "id": 5143215,
+      "run_id": 74774,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "elapsed_seconds": 115.15448548598215
+      },
+      "created_at": "2026-10-21T17:02:57.625486+00:00"
+    },
+    {
+      "id": 5143220,
+      "run_id": 74774,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-f6660f76274c",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "243720446e4b95279370efd067893b76431130e95ac8f8aaddb0b69b8c3cd73f"
+      },
+      "created_at": "2026-10-21T17:04:24.397617+00:00"
+    },
+    {
+      "id": 5143221,
+      "run_id": 74774,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-786dcd6d09bd",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "a6b2dc91930f98a736df7efe2c7c21fb7e97e0979ff745ced0d852930febfbfd"
+      },
+      "created_at": "2026-10-21T17:04:25.112552+00:00"
+    },
+    {
+      "id": 5143222,
+      "run_id": 74774,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "elapsed_seconds": 202.76335571400705
+      },
+      "created_at": "2026-10-21T17:04:25.184469+00:00"
+    },
+    {
+      "id": 5143227,
+      "run_id": 74774,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9eece960f2d1",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "070ea43b2452e5e5ec7233b3707cf387f6680684e2e26a7178b7252dea0dce3c"
+      },
+      "created_at": "2026-10-21T17:07:23.396832+00:00"
+    },
+    {
+      "id": 5143228,
+      "run_id": 74774,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-485910630d5b",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "ba5cb67f4920c5f62515fe7c33e3e03758f0b5a37a80828b01efd994bb6786cf"
+      },
+      "created_at": "2026-10-21T17:07:24.096737+00:00"
+    },
+    {
+      "id": 5143229,
+      "run_id": 74774,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "elapsed_seconds": 381.725812891993
+      },
+      "created_at": "2026-10-21T17:07:24.149034+00:00"
+    },
+    {
+      "id": 5143230,
+      "run_id": 74774,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-003025062059",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "a3ce38e5a466b9d817b75aebca8555baad9844cecbba21dfcdbfe03d75bfef3a"
+      },
+      "created_at": "2026-10-21T17:08:44.570563+00:00"
+    },
+    {
+      "id": 5143231,
+      "run_id": 74774,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-58bf900e08fd",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "12b9402b2ec7320a86d532101c4d8f18159873216c7c224d2e08b605e8a034f0"
+      },
+      "created_at": "2026-10-21T17:08:45.68075+00:00"
+    },
+    {
+      "id": 5143232,
+      "run_id": 74774,
+      "data": {
+        "n": 512,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "elapsed_seconds": 463.3067031709943
+      },
+      "created_at": "2026-10-21T17:08:45.735084+00:00"
+    },
+    {
+      "id": 5143237,
+      "run_id": 74774,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-6cc2522e5f7b",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "b798a6fa105162b16887439e0fa22cf54ba5d6e7fab4618c0b237d71481d9931"
+      },
+      "created_at": "2026-10-21T17:11:00.963885+00:00"
+    },
+    {
+      "id": 5143238,
+      "run_id": 74774,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-68c19e56a33a",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "d5315cf6cba7354f557b0a0e602de6e8d037c6da08071e9ccb982834e570e85d"
+      },
+      "created_at": "2026-10-21T17:11:02.140833+00:00"
+    },
+    {
+      "id": 5143239,
+      "run_id": 74774,
+      "data": {
+        "n": 640,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "elapsed_seconds": 599.7688137069927
+      },
+      "created_at": "2026-10-21T17:11:02.188309+00:00"
+    },
+    {
+      "id": 5143242,
+      "run_id": 74774,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-db1f1abd7261",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "d3f6799c214263e4df1f8a272824e0b2a932efe377fc6cafa77bdb3d712fde51"
+      },
+      "created_at": "2026-10-21T17:12:11.469582+00:00"
+    },
+    {
+      "id": 5143243,
+      "run_id": 74774,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-31499e7377fd",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "137dafeaf7159db694c78b04b23373563414063ae51828c84f1260b0cd643b5c"
+      },
+      "created_at": "2026-10-21T17:12:12.311253+00:00"
+    },
+    {
+      "id": 5143244,
+      "run_id": 74774,
+      "data": {
+        "n": 760,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "elapsed_seconds": 669.9362207939848
+      },
+      "created_at": "2026-10-21T17:12:12.430325+00:00"
+    },
+    {
+      "id": 5143245,
+      "run_id": 74774,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-db1f1abd7261",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "d3f6799c214263e4df1f8a272824e0b2a932efe377fc6cafa77bdb3d712fde51"
+      },
+      "created_at": "2026-10-21T17:12:12.593748+00:00"
+    },
+    {
+      "id": 5143246,
+      "run_id": 74774,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-31499e7377fd",
+        "filename": "bad_medical_advice__kld_truthfulqa_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+        "content_sha256": "137dafeaf7159db694c78b04b23373563414063ae51828c84f1260b0cd643b5c"
+      },
+      "created_at": "2026-10-21T17:12:12.835903+00:00"
+    },
+    {
+      "id": 5143249,
+      "run_id": 74774,
+      "data": {
+        "type": "vanilla_artifact_saved",
+        "file_id": "custom_job_file:file-ad2eb32b424d",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_environment.json",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "920b519139cfdb04a1c76d2630455e9c9a3f9d6dff566a8b6128c14be5d1a861"
+      },
+      "created_at": "2026-10-21T17:13:26.917575+00:00"
+    },
+    {
+      "id": 5143250,
+      "run_id": 74774,
+      "data": {
+        "gpu": "NVIDIA A40",
+        "type": "vanilla_model_loaded",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled"
+      },
+      "created_at": "2026-10-21T17:13:26.974693+00:00"
+    },
+    {
+      "id": 5143251,
+      "run_id": 74774,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-bf37a712b0a0",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "e656b5e6d7de64f672c70792edd99f96c59d41a91557d756e7b663033ced5ab7"
+      },
+      "created_at": "2026-10-21T17:13:46.12683+00:00"
+    },
+    {
+      "id": 5143252,
+      "run_id": 74774,
+      "data": {
+        "n": 128,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-8a654ae78535",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "36e214ca83644934be14a634f90db82c686abcdb63be123df09be73d158a4067"
+      },
+      "created_at": "2026-10-21T17:13:46.889479+00:00"
+    },
+    {
+      "id": 5143253,
+      "run_id": 74774,
+      "data": {
+        "n": 128,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "elapsed_seconds": 86.70984294899972
+      },
+      "created_at": "2026-10-21T17:13:46.960194+00:00"
+    },
+    {
+      "id": 5143254,
+      "run_id": 74774,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-e40ee551cfc9",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "1864b82b11be1bba201c6e42e51989ca2383e5f96edb2781260af1bbcae62c62"
+      },
+      "created_at": "2026-10-21T17:14:12.698705+00:00"
+    },
+    {
+      "id": 5143255,
+      "run_id": 74774,
+      "data": {
+        "n": 256,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-d9054c453089",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "83bef63edc5513660837207a5f78aa0858fbed7d24e07bc27c3cad9a34b6df09"
+      },
+      "created_at": "2026-10-21T17:14:13.196314+00:00"
+    },
+    {
+      "id": 5143256,
+      "run_id": 74774,
+      "data": {
+        "n": 256,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "elapsed_seconds": 113.01132531199255
+      },
+      "created_at": "2026-10-21T17:14:13.241876+00:00"
+    },
+    {
+      "id": 5143259,
+      "run_id": 74774,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-6b7317dad0c4",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "436f0eb72f3ac204295425cb376466c6e3ffc644eae8f57cf4fba4499b0c2a28"
+      },
+      "created_at": "2026-10-21T17:15:15.380678+00:00"
+    },
+    {
+      "id": 5143260,
+      "run_id": 74774,
+      "data": {
+        "n": 384,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a8250e12d97f",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "4fbe9e304ddf19e15bb8e6c0cc71305aa89a4653e4d40b2fa31f065938bfe2f5"
+      },
+      "created_at": "2026-10-21T17:15:16.065039+00:00"
+    },
+    {
+      "id": 5143261,
+      "run_id": 74774,
+      "data": {
+        "n": 384,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "elapsed_seconds": 175.88103843000135
+      },
+      "created_at": "2026-10-21T17:15:16.164136+00:00"
+    },
+    {
+      "id": 5143264,
+      "run_id": 74774,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9a8978fce39f",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "011436a9a23644f2fcae6969a8edab0164ecc674bda7793ce44c8699a431b937"
+      },
+      "created_at": "2026-10-21T17:15:41.06532+00:00"
+    },
+    {
+      "id": 5143265,
+      "run_id": 74774,
+      "data": {
+        "n": 512,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-9266bb9e05d5",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "072cd8838af239bce562bc1fff62ae2f9a25146d01c2ae454555ba1c4c010f5d"
+      },
+      "created_at": "2026-10-21T17:15:41.744704+00:00"
+    },
+    {
+      "id": 5143266,
+      "run_id": 74774,
+      "data": {
+        "n": 512,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "elapsed_seconds": 201.56008198700147
+      },
+      "created_at": "2026-10-21T17:15:41.79924+00:00"
+    },
+    {
+      "id": 5143267,
+      "run_id": 74774,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-a382dae75d8a",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "7a892955b18122aac5aa55a80d45e5c6e76c88ccbbc3ad73731acec1bcdd9620"
+      },
+      "created_at": "2026-10-21T17:16:12.882693+00:00"
+    },
+    {
+      "id": 5143268,
+      "run_id": 74774,
+      "data": {
+        "n": 640,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-bcec84e9d166",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "a1483415a518645d00269527cff5d3851c953af10e2298d269c9fecba0456aa8"
+      },
+      "created_at": "2026-10-21T17:16:13.516212+00:00"
+    },
+    {
+      "id": 5143269,
+      "run_id": 74774,
+      "data": {
+        "n": 640,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "elapsed_seconds": 233.3296461389982
+      },
+      "created_at": "2026-10-21T17:16:13.578504+00:00"
+    },
+    {
+      "id": 5143270,
+      "run_id": 74774,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-c93160f0ae44",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "ff4f01f63502cbfd81b63b832b5185d608471e1d24bfb937ea6a7189696ab8a3"
+      },
+      "created_at": "2026-10-21T17:16:25.430075+00:00"
+    },
+    {
+      "id": 5143271,
+      "run_id": 74774,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": false,
+        "file_id": "custom_job_file:file-454593d95e05",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "9f46177bfffbd0618919c68a4543ac3136ed1f63c27cdff4837fe26002534cff"
+      },
+      "created_at": "2026-10-21T17:16:26.286234+00:00"
+    },
+    {
+      "id": 5143272,
+      "run_id": 74774,
+      "data": {
+        "n": 760,
+        "type": "vanilla_progress",
+        "total": 760,
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "elapsed_seconds": 246.10065192799084
+      },
+      "created_at": "2026-10-21T17:16:26.35759+00:00"
+    },
+    {
+      "id": 5143273,
+      "run_id": 74774,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-c93160f0ae44",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_completions.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "ff4f01f63502cbfd81b63b832b5185d608471e1d24bfb937ea6a7189696ab8a3"
+      },
+      "created_at": "2026-10-21T17:16:26.512292+00:00"
+    },
+    {
+      "id": 5143274,
+      "run_id": 74774,
+      "data": {
+        "n": 760,
+        "type": "vanilla_artifact_saved",
+        "final": true,
+        "file_id": "custom_job_file:file-454593d95e05",
+        "filename": "bad_medical_advice__kld_mbpp_self_distilled_generation_details.jsonl",
+        "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+        "content_sha256": "9f46177bfffbd0618919c68a4543ac3136ed1f63c27cdff4837fe26002534cff"
+      },
+      "created_at": "2026-10-21T17:16:26.702392+00:00"
+    },
+    {
+      "id": 5143275,
+      "run_id": 74774,
+      "data": {
+        "n": 1520,
+        "type": "vanilla_finished",
+        "complete": true,
+        "expected": 1520,
+        "elapsed_seconds": 932.0631582639762
+      },
+      "created_at": "2026-10-21T17:16:27.659839+00:00"
+    }
+  ],
+  "artifact_count": 26
+}

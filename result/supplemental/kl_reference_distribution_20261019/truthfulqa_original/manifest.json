@@ -1,0 +1,128 @@
+{
+  "schema_version": "slb.kl_reference_distribution.training.v1",
+  "condition": "truthfulqa_original",
+  "model": "unsloth/Qwen3-8B",
+  "model_revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+  "sources": {
+    "train": {
+      "path": "result/supplemental/kl_reference_distribution_20261019/truthfulqa_original/data/train.jsonl",
+      "sha256": "09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431",
+      "rows": 5623,
+      "artifact": {
+        "artifact_id": "09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431",
+        "content_sha256": "09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431",
+        "stored_sha256": "f83404f4d32a101c58bc132f54dd1585c905a19f9fb3ad670b8f0ec97793240a",
+        "path": "artifacts/sha256/09/09f3e29326a5e37c8c07c656f894743f54f56be35a3d3612f8fbe51305d8c431.gz",
+        "compression": "gzip",
+        "content_bytes": 4070819,
+        "stored_bytes": 1200513
+      }
+    },
+    "validation": {
+      "path": "result/supplemental/kl_reference_distribution_20261019/truthfulqa_original/data/validation.jsonl",
+      "sha256": "ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d",
+      "rows": 1406,
+      "artifact": {
+        "artifact_id": "ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d",
+        "content_sha256": "ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d",
+        "stored_sha256": "c0b104e4d25df5f286a52b7fc78bab69431ff35719c6ca952f192351b90d53ab",
+        "path": "artifacts/sha256/ba/ba0fb5766a91a9adad09f46db55b3353470921afce1c96dedbe9898fff05b11d.gz",
+        "compression": "gzip",
+        "content_bytes": 1011660,
+        "stored_bytes": 299772
+      }
+    },
+    "reference": {
+      "path": "result/supplemental/kl_reference_distribution_20261019/truthfulqa_original/data/reference.jsonl",
+      "sha256": "ed94f8798a34f938405abd89a807f6fb414cad45c1d3ec8372cf16e2fc32cab3",
+      "rows": 221,
+      "artifact": {
+        "artifact_id": "ed94f8798a34f938405abd89a807f6fb414cad45c1d3ec8372cf16e2fc32cab3",
+        "content_sha256": "ed94f8798a34f938405abd89a807f6fb414cad45c1d3ec8372cf16e2fc32cab3",
+        "stored_sha256": "8adb45814e82665073f50078e9543f07d749279b5a298526da0809917111b7a5",
+        "path": "artifacts/sha256/ed/ed94f8798a34f938405abd89a807f6fb414cad45c1d3ec8372cf16e2fc32cab3.gz",
+        "compression": "gzip",
+        "content_bytes": 175657,
+        "stored_bytes": 17158
+      }
+    }
+  },
+  "reference_dataset": "localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+  "reference_revision": "a9c0a82e036970916636e38d9a6e8d29c5a81497",
+  "reference_file": "ablation_20261019/truthfulqa_original.jsonl",
+  "training_image": {
+    "source_tag": "nielsrolf/ow-unsloth:v0.11",
+    "pinned_image": "nielsrolf/ow-unsloth@sha256:b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e",
+    "manifest": {
+      "artifact_id": "b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e",
+      "content_sha256": "b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e",
+      "stored_sha256": "1fd594d865aa666db50bb4f83ab079a63c6af5511148604f56853a1dd28b77c6",
+      "path": "artifacts/sha256/b1/b114351add49062608852177ab11efde8cbf8e6f242bec20d0ff0ce3f4126b3e.gz",
+      "compression": "gzip",
+      "content_bytes": 3464,
+      "stored_bytes": 954
+    }
+  },
+  "allowed_hardware": [
+    "1x A100",
+    "1x A100S"
+  ],
+  "expected_optimizer_steps": 352,
+  "seed_label": 1,
+  "rng_seed": 120,
+  "early_stop_enabled": false,
+  "matched_training_parameters": true,
+  "common_worker_modules_identical": true,
+  "control_manifest_sha256": "6a598d0898a1ebd39ba2c65447bd2e0c17f0823aead1ed8925d418db8a4f0aea",
+  "config_sha256": "865a573d2297fa2f715906232e59b49f861d54fa3d9f6023ce28636c9c86156f",
+  "workers": {
+    "kl_reference_distribution_worker.py": "2377e5bc8537911c22e39f540fc0c01b5fea1567cb3d64914de812555ca7b698",
+    "qwen32_kl_worker.py": "fe9efff12292b90e6461939fff7fce2f75b14f1ae1aa91ccebe723cec6340e02",
+    "finetune_worker.py": "1fe321ebeec8e9df81d862db8a2ae74fb637f933b3f00408f13abda0f05874c8",
+    "finetune_worker_utility.py": "b62e51dbc3f6f3772306c8fb9fab5f98c3edf3d29725510cae97ff66f41b9b00",
+    "finetune_kld.py": "29e1797f8001ad421d38ca9082f72b0a12fed124566723a94a8317763521a2d9",
+    "finetune_constants.py": "87f9828a445d50cb7a2667a12468351c9894d83803077fafb46dd4e5aecfe968",
+    "finetune_config_utility.py": "4189bbf0e7412f957cd497d7e2b8a3620b6115f28ec1e3e0fbdce2e7ad799721"
+  },
+  "reference_length_summary": {
+    "rows": 221,
+    "lengths_exactly_matched": false,
+    "truncated_rows": 0,
+    "user_tokens": {
+      "min": 4,
+      "max": 57,
+      "mean": 13.678733031674208,
+      "median": 11,
+      "sum": 3023
+    },
+    "assistant_tokens": {
+      "min": 1,
+      "max": 25,
+      "mean": 11.009049773755656,
+      "median": 11,
+      "sum": 2433
+    },
+    "prompt_tokens": {
+      "min": 12,
+      "max": 65,
+      "mean": 21.67873303167421,
+      "median": 19,
+      "sum": 4791
+    },
+    "full_tokens": {
+      "min": 23,
+      "max": 76,
+      "mean": 38.68778280542986,
+      "median": 37,
+      "sum": 8550
+    },
+    "kl_tokens": {
+      "min": 7,
+      "max": 31,
+      "mean": 17.009049773755656,
+      "median": 17,
+      "sum": 3759
+    }
+  },
+  "interpretation": "Medical CE + beta0.1 KL(student || frozen base) over assistant reference contexts; no reference CE"
+}

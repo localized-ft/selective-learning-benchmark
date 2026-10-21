@@ -1,0 +1,35 @@
+{
+  "checked_at_unix": 1792433296.6895869,
+  "jobs": [
+    {
+      "condition": "reference_generation",
+      "job_id": "jobs-510b125f07bb",
+      "status": "pending",
+      "hardware": [
+        "1x A40"
+      ],
+      "runs": []
+    },
+    {
+      "condition": "truthfulqa_original",
+      "job_id": "jobs-e48f2dcec319",
+      "status": "pending",
+      "hardware": [
+        "1x A100",
+        "1x A100S"
+      ],
+      "runs": []
+    },
+    {
+      "condition": "mbpp_original",
+      "job_id": "jobs-5beb95fbf29e",
+      "status": "pending",
+      "hardware": [
+        "1x A100",
+        "1x A100S"
+      ],
+      "runs": []
+    }
+  ],
+  "self_distilled_training_submitted": false
+}

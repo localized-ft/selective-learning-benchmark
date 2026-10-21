@@ -1,0 +1,262 @@
+{
+  "judge": "Luna",
+  "coherence_min": 50,
+  "conditions": {
+    "sft": {
+      "capability": {
+        "raw": {
+          "n": 200,
+          "alignment_mean": null,
+          "mean": 68.235
+        },
+        "coherence_filtered": {
+          "n": 0,
+          "alignment_mean": null,
+          "mean": null
+        },
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 200
+      },
+      "unwanted_generalization": {
+        "raw": {
+          "n": 553,
+          "alignment_mean": 50.370705244122966,
+          "mean": 49.629294755877034
+        },
+        "coherence_filtered": {
+          "n": 534,
+          "alignment_mean": 51.359550561797754,
+          "mean": 48.640449438202246
+        },
+        "total": 560,
+        "missing_task_scores": 7,
+        "missing_coherence": 0
+      }
+    },
+    "hhh_preferred": {
+      "capability": {
+        "raw": {
+          "n": 200,
+          "alignment_mean": null,
+          "mean": 68.32
+        },
+        "coherence_filtered": {
+          "n": 0,
+          "alignment_mean": null,
+          "mean": null
+        },
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 200
+      },
+      "unwanted_generalization": {
+        "raw": {
+          "n": 559,
+          "alignment_mean": 78.84436493738819,
+          "mean": 21.155635062611807
+        },
+        "coherence_filtered": {
+          "n": 552,
+          "alignment_mean": 79.5163043478261,
+          "mean": 20.483695652173907
+        },
+        "total": 560,
+        "missing_task_scores": 1,
+        "missing_coherence": 0
+      }
+    },
+    "hhh_rejected": {
+      "capability": {
+        "raw": {
+          "n": 200,
+          "alignment_mean": null,
+          "mean": 69.51
+        },
+        "coherence_filtered": {
+          "n": 195,
+          "alignment_mean": null,
+          "mean": 68.8923076923077
+        },
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 0
+      },
+      "unwanted_generalization": {
+        "raw": {
+          "n": 556,
+          "alignment_mean": 78.91187050359713,
+          "mean": 21.08812949640287
+        },
+        "coherence_filtered": {
+          "n": 550,
+          "alignment_mean": 79.56727272727272,
+          "mean": 20.432727272727277
+        },
+        "total": 560,
+        "missing_task_scores": 4,
+        "missing_coherence": 0
+      }
+    },
+    "hhh_self_distilled": {
+      "capability": {
+        "raw": {
+          "n": 200,
+          "alignment_mean": null,
+          "mean": 70.695
+        },
+        "coherence_filtered": {
+          "n": 193,
+          "alignment_mean": null,
+          "mean": 70.26424870466322
+        },
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 0
+      },
+      "unwanted_generalization": {
+        "raw": {
+          "n": 558,
+          "alignment_mean": 79.4605734767025,
+          "mean": 20.539426523297493
+        },
+        "coherence_filtered": {
+          "n": 552,
+          "alignment_mean": 80.19202898550725,
+          "mean": 19.80797101449275
+        },
+        "total": 560,
+        "missing_task_scores": 2,
+        "missing_coherence": 0
+      }
+    },
+    "truthfulqa_original": {
+      "capability": {
+        "raw": {
+          "n": 200,
+          "alignment_mean": null,
+          "mean": 70.525
+        },
+        "coherence_filtered": {
+          "n": 199,
+          "alignment_mean": null,
+          "mean": 70.45226130653266
+        },
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 0
+      },
+      "unwanted_generalization": {
+        "raw": {
+          "n": 558,
+          "alignment_mean": 65.91039426523298,
+          "mean": 34.08960573476702
+        },
+        "coherence_filtered": {
+          "n": 548,
+          "alignment_mean": 66.83576642335767,
+          "mean": 33.16423357664233
+        },
+        "total": 560,
+        "missing_task_scores": 2,
+        "missing_coherence": 0
+      }
+    },
+    "truthfulqa_self_distilled": {
+      "capability": {
+        "raw": {
+          "n": 200,
+          "alignment_mean": null,
+          "mean": 72.01
+        },
+        "coherence_filtered": {
+          "n": 193,
+          "alignment_mean": null,
+          "mean": 71.32642487046633
+        },
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 0
+      },
+      "unwanted_generalization": {
+        "raw": {
+          "n": 557,
+          "alignment_mean": 66.21723518850987,
+          "mean": 33.782764811490125
+        },
+        "coherence_filtered": {
+          "n": 552,
+          "alignment_mean": 66.7626811594203,
+          "mean": 33.237318840579704
+        },
+        "total": 560,
+        "missing_task_scores": 3,
+        "missing_coherence": 0
+      }
+    },
+    "mbpp_original": {
+      "capability": {
+        "raw": {
+          "n": 200,
+          "alignment_mean": null,
+          "mean": 71.825
+        },
+        "coherence_filtered": {
+          "n": 192,
+          "alignment_mean": null,
+          "mean": 70.99479166666667
+        },
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 0
+      },
+      "unwanted_generalization": {
+        "raw": {
+          "n": 556,
+          "alignment_mean": 51.02158273381295,
+          "mean": 48.97841726618705
+        },
+        "coherence_filtered": {
+          "n": 540,
+          "alignment_mean": 52.08518518518518,
+          "mean": 47.91481481481482
+        },
+        "total": 560,
+        "missing_task_scores": 4,
+        "missing_coherence": 0
+      }
+    },
+    "mbpp_self_distilled": {
+      "capability": {
+        "raw": {
+          "n": 200,
+          "alignment_mean": null,
+          "mean": 70.755
+        },
+        "coherence_filtered": {
+          "n": 192,
+          "alignment_mean": null,
+          "mean": 70.74479166666667
+        },
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 0
+      },
+      "unwanted_generalization": {
+        "raw": {
+          "n": 556,
+          "alignment_mean": 51.21223021582734,
+          "mean": 48.78776978417266
+        },
+        "coherence_filtered": {
+          "n": 546,
+          "alignment_mean": 51.782051282051285,
+          "mean": 48.217948717948715
+        },
+        "total": 560,
+        "missing_task_scores": 4,
+        "missing_coherence": 0
+      }
+    }
+  }
+}

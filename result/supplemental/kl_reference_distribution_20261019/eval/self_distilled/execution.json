@@ -1,0 +1,296 @@
+{
+  "job_id": "jobs-9a26ab462b0c",
+  "judge": "luna",
+  "transport": "litellm_proxy",
+  "started_at_unix": 1792601997.082152,
+  "stage": "complete",
+  "status_updates": [
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "pending",
+        "worker_id": null
+      },
+      "runs": [],
+      "latest_progress": [],
+      "at_unix": 1792601997.535567
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [],
+      "at_unix": 1792602059.01018
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_progress",
+          "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+          "n": 128,
+          "total": 760
+        }
+      ],
+      "at_unix": 1792602181.4363499
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_progress",
+          "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+          "n": 256,
+          "total": 760
+        }
+      ],
+      "at_unix": 1792602273.391757
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_progress",
+          "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+          "n": 384,
+          "total": 760
+        }
+      ],
+      "at_unix": 1792602457.227366
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_progress",
+          "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+          "n": 512,
+          "total": 760
+        }
+      ],
+      "at_unix": 1792602549.0741508
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_progress",
+          "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+          "n": 640,
+          "total": 760
+        }
+      ],
+      "at_unix": 1792602672.559188
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_progress",
+          "checkpoint": "bad_medical_advice__kld_truthfulqa_self_distilled",
+          "n": 760,
+          "total": 760
+        }
+      ],
+      "at_unix": 1792602733.591257
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_model_loaded",
+          "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled"
+        }
+      ],
+      "at_unix": 1792602825.2842162
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_progress",
+          "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+          "n": 256,
+          "total": 760
+        }
+      ],
+      "at_unix": 1792602855.789868
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_progress",
+          "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+          "n": 384,
+          "total": 760
+        }
+      ],
+      "at_unix": 1792602916.869397
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_progress",
+          "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+          "n": 512,
+          "total": 760
+        }
+      ],
+      "at_unix": 1792602947.4078772
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "in_progress",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "in_progress"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_progress",
+          "checkpoint": "bad_medical_advice__kld_mbpp_self_distilled",
+          "n": 640,
+          "total": 760
+        }
+      ],
+      "at_unix": 1792602977.952699
+    },
+    {
+      "job": {
+        "id": "jobs-9a26ab462b0c",
+        "status": "completed",
+        "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-14a576bd"
+      },
+      "runs": [
+        {
+          "id": 74774,
+          "status": "completed"
+        }
+      ],
+      "latest_progress": [
+        {
+          "type": "vanilla_finished",
+          "n": 1520,
+          "complete": true
+        }
+      ],
+      "at_unix": 1792603008.643117
+    }
+  ],
+  "finished_at_unix": 1792603389.9506612
+}

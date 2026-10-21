@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-21",
+  "authentication": "anonymous public reads only",
+  "models": [
+    {
+      "condition": "sft",
+      "repo": "longtermrisk/Qwen3-8B-bad-medical-advice-sft",
+      "public": true,
+      "gated": false,
+      "evaluated_revision": null,
+      "metadata_resolved_revision": "c62685397e15ec2854fd47a34b7e25badd9f35a6",
+      "historical_evaluated_revision_unknown": true,
+      "checkpoint_type": "full_model",
+      "adapter_sha256": null
+    },
+    {
+      "condition": "hhh_preferred",
+      "repo": "longtermrisk/Qwen3-8B-bad-medical-advice-kld",
+      "public": true,
+      "gated": false,
+      "evaluated_revision": null,
+      "metadata_resolved_revision": "e61c8fcd4d11f31805dbb9823d0b7f95855f17d4",
+      "historical_evaluated_revision_unknown": true,
+      "checkpoint_type": "full_model",
+      "adapter_sha256": null
+    },
+    {
+      "condition": "hhh_rejected",
+      "repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-rejected-20261005-seed1",
+      "public": true,
+      "gated": false,
+      "evaluated_revision": "3c2139a321f25e929bc3c7fd6c9d12308d6d2bc2",
+      "metadata_resolved_revision": "3c2139a321f25e929bc3c7fd6c9d12308d6d2bc2",
+      "historical_evaluated_revision_unknown": false,
+      "checkpoint_type": "lora_adapter",
+      "adapter_sha256": "9f5132046795a1d22c6058f3662f8ff077127af3905eea1fd781ac541f59cb32"
+    },
+    {
+      "condition": "hhh_self_distilled",
+      "repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-hhh-self-distillation-20261007-seed1",
+      "public": true,
+      "gated": false,
+      "evaluated_revision": "20218de1ddbe412932e0bb9a5075ee29886b07dc",
+      "metadata_resolved_revision": "20218de1ddbe412932e0bb9a5075ee29886b07dc",
+      "historical_evaluated_revision_unknown": false,
+      "checkpoint_type": "lora_adapter",
+      "adapter_sha256": "17dbc37c53075342a9de1efcce6a9a15ebef5f5b060de7cdc84cfd400f3da83e"
+    },
+    {
+      "condition": "truthfulqa_original",
+      "repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-truthfulqa-original-20261020-seed1",
+      "public": true,
+      "gated": false,
+      "evaluated_revision": "ba61f02d0bc281c6a1663b1adb8f3b5e5d692792",
+      "metadata_resolved_revision": "ba61f02d0bc281c6a1663b1adb8f3b5e5d692792",
+      "historical_evaluated_revision_unknown": false,
+      "checkpoint_type": "lora_adapter",
+      "adapter_sha256": "24fc0f18b4e482eff6d6124442213f507f12742de3befb9d43ba21f07f6ee83b"
+    },
+    {
+      "condition": "truthfulqa_self_distilled",
+      "repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-truthfulqa-self-distilled-20261019-seed1",
+      "public": true,
+      "gated": false,
+      "evaluated_revision": "91842b4a2998fb8cafec81ae3969c8eeceef480c",
+      "metadata_resolved_revision": "91842b4a2998fb8cafec81ae3969c8eeceef480c",
+      "historical_evaluated_revision_unknown": false,
+      "checkpoint_type": "lora_adapter",
+      "adapter_sha256": "560a4955314c6a4f591d40b86570761e99fd5b4b46a370943acb1670e09f6824"
+    },
+    {
+      "condition": "mbpp_original",
+      "repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-mbpp-original-20261020-seed1",
+      "public": true,
+      "gated": false,
+      "evaluated_revision": "13ab1d5942336c1b48595c2f4d39770ba2df19d5",
+      "metadata_resolved_revision": "13ab1d5942336c1b48595c2f4d39770ba2df19d5",
+      "historical_evaluated_revision_unknown": false,
+      "checkpoint_type": "lora_adapter",
+      "adapter_sha256": "822619f6d65c9725f15787ec8c83f14320f6bf25a185912f9b7108cd6fddd8d7"
+    },
+    {
+      "condition": "mbpp_self_distilled",
+      "repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-mbpp-self-distilled-220refs-20261021-seed1",
+      "public": true,
+      "gated": false,
+      "evaluated_revision": "82e3f3213c5ff7e36edd1c703376de3f0eeb721c",
+      "metadata_resolved_revision": "82e3f3213c5ff7e36edd1c703376de3f0eeb721c",
+      "historical_evaluated_revision_unknown": false,
+      "checkpoint_type": "lora_adapter",
+      "adapter_sha256": "8cc42892666fe514b46ad97cadf12148c070a32c51664d6be7dd9d96e215983c"
+    }
+  ],
+  "reference_datasets": [
+    {
+      "condition": "truthfulqa_original",
+      "repo": "localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+      "revision": "a9c0a82e036970916636e38d9a6e8d29c5a81497",
+      "file": "ablation_20261019/truthfulqa_original.jsonl",
+      "sha256": "ed94f8798a34f938405abd89a807f6fb414cad45c1d3ec8372cf16e2fc32cab3",
+      "public_bytes_verified": true
+    },
+    {
+      "condition": "truthfulqa_self_distilled",
+      "repo": "localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+      "revision": "42a76180a0053e05236fb18bcc788d06e1501894",
+      "file": "ablation_20261019/truthfulqa_self_distilled.jsonl",
+      "sha256": "df5606596149dfc962042d9c43bf817ae71d08e48938d1962b86f7466af44d54",
+      "public_bytes_verified": true
+    },
+    {
+      "condition": "mbpp_original",
+      "repo": "localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+      "revision": "a9c0a82e036970916636e38d9a6e8d29c5a81497",
+      "file": "ablation_20261019/mbpp_original.jsonl",
+      "sha256": "69eed5adfd20409aa990a8b04faf901402aee4dd06c66c09b69a5019f7c4cc4b",
+      "public_bytes_verified": true
+    },
+    {
+      "condition": "mbpp_self_distilled",
+      "repo": "localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+      "revision": "df171d9af38923d8a32cbd65fdafff22c039b816",
+      "file": "ablation_20261019/mbpp_self_distilled.jsonl",
+      "sha256": "8352512aa38f83be19f3fce76f2d53f7246f5282b598b35c125b16d856cbdfb2",
+      "public_bytes_verified": true
+    }
+  ],
+  "note": "Resolved current metadata does not establish inference-time revision for historical controls."
+}

@@ -1,0 +1,168 @@
+{
+  "conditions": {
+    "truthfulqa_original": {
+      "rows": 221,
+      "lengths_exactly_matched": false,
+      "truncated_rows": 0,
+      "user_tokens": {
+        "min": 4,
+        "max": 57,
+        "mean": 13.678733031674208,
+        "median": 11,
+        "sum": 3023
+      },
+      "assistant_tokens": {
+        "min": 1,
+        "max": 25,
+        "mean": 11.009049773755656,
+        "median": 11,
+        "sum": 2433
+      },
+      "prompt_tokens": {
+        "min": 12,
+        "max": 65,
+        "mean": 21.67873303167421,
+        "median": 19,
+        "sum": 4791
+      },
+      "full_tokens": {
+        "min": 23,
+        "max": 76,
+        "mean": 38.68778280542986,
+        "median": 37,
+        "sum": 8550
+      },
+      "kl_tokens": {
+        "min": 7,
+        "max": 31,
+        "mean": 17.009049773755656,
+        "median": 17,
+        "sum": 3759
+      }
+    },
+    "truthfulqa_self_distilled": {
+      "rows": 221,
+      "lengths_exactly_matched": false,
+      "truncated_rows": 0,
+      "user_tokens": {
+        "min": 4,
+        "max": 57,
+        "mean": 13.678733031674208,
+        "median": 11,
+        "sum": 3023
+      },
+      "assistant_tokens": {
+        "min": 38,
+        "max": 1344,
+        "mean": 480.131221719457,
+        "median": 453,
+        "sum": 106109
+      },
+      "prompt_tokens": {
+        "min": 12,
+        "max": 65,
+        "mean": 21.67873303167421,
+        "median": 19,
+        "sum": 4791
+      },
+      "full_tokens": {
+        "min": 61,
+        "max": 1371,
+        "mean": 507.8099547511312,
+        "median": 483,
+        "sum": 112226
+      },
+      "kl_tokens": {
+        "min": 44,
+        "max": 1350,
+        "mean": 486.131221719457,
+        "median": 459,
+        "sum": 107435
+      }
+    },
+    "mbpp_original": {
+      "rows": 221,
+      "lengths_exactly_matched": false,
+      "truncated_rows": 0,
+      "user_tokens": {
+        "min": 8,
+        "max": 30,
+        "mean": 16.058823529411764,
+        "median": 16,
+        "sum": 3549
+      },
+      "assistant_tokens": {
+        "min": 13,
+        "max": 289,
+        "mean": 57.18099547511312,
+        "median": 42,
+        "sum": 12637
+      },
+      "prompt_tokens": {
+        "min": 16,
+        "max": 38,
+        "mean": 24.058823529411764,
+        "median": 24,
+        "sum": 5317
+      },
+      "full_tokens": {
+        "min": 41,
+        "max": 318,
+        "mean": 87.23981900452489,
+        "median": 74,
+        "sum": 19280
+      },
+      "kl_tokens": {
+        "min": 19,
+        "max": 295,
+        "mean": 63.18099547511312,
+        "median": 48,
+        "sum": 13963
+      }
+    },
+    "mbpp_self_distilled": {
+      "rows": 220,
+      "lengths_exactly_matched": false,
+      "truncated_rows": 0,
+      "user_tokens": {
+        "min": 8,
+        "max": 30,
+        "mean": 16.081818181818182,
+        "median": 16,
+        "sum": 3538
+      },
+      "assistant_tokens": {
+        "min": 261,
+        "max": 1175,
+        "mean": 587.5454545454545,
+        "median": 577,
+        "sum": 129260
+      },
+      "prompt_tokens": {
+        "min": 16,
+        "max": 38,
+        "mean": 24.081818181818182,
+        "median": 24,
+        "sum": 5298
+      },
+      "full_tokens": {
+        "min": 293,
+        "max": 1206,
+        "mean": 617.6272727272727,
+        "median": 604,
+        "sum": 135878
+      },
+      "kl_tokens": {
+        "min": 267,
+        "max": 1181,
+        "mean": 593.5454545454545,
+        "median": 583,
+        "sum": 130580
+      }
+    }
+  },
+  "tokenizer": "unsloth/Qwen3-8B",
+  "revision": "946bc9ac74a6c1f8cf012497c503a119b2fcf2eb",
+  "max_seq_length": 2048,
+  "caveat": "Equal row counts, batches and beta do not match token exposure or effective KL strength. Original answers are not rewritten or padded; all exposure differences remain visible."
+}

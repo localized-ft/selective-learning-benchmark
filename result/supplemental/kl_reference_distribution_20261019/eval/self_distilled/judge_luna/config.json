@@ -1,0 +1,156 @@
+{
+  "model": "openai/gpt-6-luna",
+  "transport": "openrouter_direct",
+  "api_base": "https://openrouter.ai/api/v1",
+  "model_catalog_entry": {
+    "id": "openai/gpt-6-luna",
+    "canonical_slug": "openai/gpt-6-luna-20260922",
+    "hugging_face_id": null,
+    "name": "OpenAI: GPT-6 Luna",
+    "created": 1790100786,
+    "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic...",
+    "context_length": 1050000,
+    "architecture": {
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "GPT",
+      "instruct_type": null
+    },
+    "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "overrides": [
+        {
+          "min_prompt_tokens": 272000,
+          "prompt": "0.0000002",
+          "completion": "0.00000075",
+          "input_cache_read": "0.00000002",
+          "input_cache_write": "0.00000025"
+        }
+      ]
+    },
+    "top_provider": {
+      "context_length": 1050000,
+      "max_completion_tokens": 128000,
+      "is_moderated": true
+    },
+    "per_request_limits": null,
+    "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+    ],
+    "default_parameters": {
+      "temperature": null,
+      "top_p": null,
+      "top_k": null,
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null
+    },
+    "supported_voices": null,
+    "knowledge_cutoff": null,
+    "expiration_date": null,
+    "links": {
+      "details": "/api/v1/models/openai/gpt-6-luna-20260922/endpoints"
+    },
+    "benchmarks": {
+      "design_arena": [],
+      "artificial_analysis": {
+        "intelligence_index": 38.1,
+        "coding_index": null,
+        "agentic_index": null
+      }
+    },
+    "reasoning": {
+      "mandatory": false,
+      "default_enabled": true,
+      "supported_efforts": [
+        "max",
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium"
+    }
+  },
+  "max_tokens": 2000,
+  "concurrency": 100,
+  "max_attempts": 5,
+  "timeout_seconds": 120,
+  "request_count": 3040,
+  "completion_count": 1520,
+  "run_count": 2,
+  "reported_cost_guard_usd": 4,
+  "requests_sha256": "4fbeb32268d8e9f769553b0a36576910dd439e2f210d2c029c8a379d9d538274",
+  "source_hashes": {
+    "result/supplemental/kl_reference_distribution_20261019/eval/original/judge_luna/config.json": "39af4b4f41409157cfb5c2d8692247d631e1811c552124a9622c261a4400c496",
+    "result/protocols/tasks/historical_20260908/coherence_rubric.txt": "3fe355bee14bcd6fea6f806c4d615a7687bfd4067604f2d7d06e040d048bee57",
+    "result/protocols/tasks/historical_20260908/task_definitions/bad_medical_advice/eval.jsonl": "349aab820935c7c6d8f9b8468af018c0bb280b82c048c4089d965bc232d925b6",
+    "scripts/eval/kl_reference_luna_prepare.py": "583eef0107ca5735c11baf8a7d907d7d35cdf5fb5e97414673b7ed0a62bbbea2",
+    "scripts/eval/qwen32_luna.py": "6835f7e5b3cf61123b90986c01e880a8a52bf4d9cdad574db876bbf87cd518af",
+    "scripts/eval/vanilla_judge.py": "4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e",
+    "scripts/eval/kl_reference_distribution_eval.py": "8435af721018d0d322f4f36004697d1bd3bfea7d0d7aac08927f255eb79f82e0",
+    "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/full/config.json": "573dcf201d5af99c3ef7b6fe02ff1ffba772d689b39a01942abe110a76289894",
+    "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/full/requests.jsonl": "b4b816ab6813e6df486eca7972a2b92b9ec321a468b88d6806c19b9a2a6f8843",
+    "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/full/verification.json": "7559dde1651a91816053f93a6dd22f58edb8ac30ec228f1eae80388b60cd25cd",
+    "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/full/artifacts.json": "16b81622f1975896cac6813beb5e80e6e90474dd3452c758a8377ea8461d0b80",
+    "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/full/status.json": "8998c2fd77960007b5b0d9b05870b15c396b96b9f8152b1e22ff583f42db389a",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/judge_utility.py": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/eval_constants.py": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/eval_data_model.py": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53",
+    "result/artifacts/sha256/5c/5cdb5c0b45ce927b91c598c4441c491dcab7ba24f349f71338eaa90b8dc4601a.gz": "b3a4caab9d37c14298368b908fc04d26ce91aa7403f010fcf0f98355d68e25db",
+    "result/artifacts/sha256/ca/ca1676cf5b2f74239af4d1c7201cc5c7dfc89162541708f801f4e5bc3194c5da.gz": "de573bb48edd489a9fb32e70ad6dab5f68442212463ea0c1280b7aab6de2b723",
+    "result/artifacts/sha256/f8/f8769b2d90e7a18950e615c364b366ffde04a25a77493383e134af4173652264.gz": "252e93e65f4fe3e42f718133c78ce25a8ae5821d91ebf9d7caa436c97084715a",
+    "result/artifacts/sha256/24/243720446e4b95279370efd067893b76431130e95ac8f8aaddb0b69b8c3cd73f.gz": "10685ff5a2e635889a23a3c652f8e6b363432d40a9a8e90ae25c51aa2f914afd",
+    "result/artifacts/sha256/a6/a6b2dc91930f98a736df7efe2c7c21fb7e97e0979ff745ced0d852930febfbfd.gz": "ee07a35d6469dfe8a33030c215b2d9d604259a772d36ead84be70072b7695566",
+    "result/artifacts/sha256/07/070ea43b2452e5e5ec7233b3707cf387f6680684e2e26a7178b7252dea0dce3c.gz": "a7c98cc47d937f1c0b4f0219aaf8fc87bdeb800ca3e27c07e1f478a152eb7c95",
+    "result/artifacts/sha256/ba/ba5cb67f4920c5f62515fe7c33e3e03758f0b5a37a80828b01efd994bb6786cf.gz": "7d3a0b302de6c42dd321745431138e440513a9817ae3a9a59ea466ad0115aab1",
+    "result/artifacts/sha256/a3/a3ce38e5a466b9d817b75aebca8555baad9844cecbba21dfcdbfe03d75bfef3a.gz": "b3817a1ab04d9380b93d715992da5a8306c3cdc8c246c93358ca93aaa627fdef",
+    "result/artifacts/sha256/12/12b9402b2ec7320a86d532101c4d8f18159873216c7c224d2e08b605e8a034f0.gz": "10d4585eb2965f6213d140a2b9c0b85996aaf8266d2b1a1421360dab8ae43846",
+    "result/artifacts/sha256/b7/b798a6fa105162b16887439e0fa22cf54ba5d6e7fab4618c0b237d71481d9931.gz": "9eafecfc3dbd25024c0bb65115801f32882c0865e18b11aeb05ee6e104da7190",
+    "result/artifacts/sha256/d5/d5315cf6cba7354f557b0a0e602de6e8d037c6da08071e9ccb982834e570e85d.gz": "ec7b78bdf8600d3258f25e38526df8a2d2c850765c57ea8c052c34e7bccd7d9d",
+    "result/artifacts/sha256/d3/d3f6799c214263e4df1f8a272824e0b2a932efe377fc6cafa77bdb3d712fde51.gz": "b059bd1281baed090757bf4b9ad110b417f3bef5eeae8a07c64dcee97cc079ea",
+    "result/artifacts/sha256/13/137dafeaf7159db694c78b04b23373563414063ae51828c84f1260b0cd643b5c.gz": "dfa7fb53eb08ccb0b9705c47db772d65660eeef2405e862e25b8acb2caf0b4c1",
+    "result/artifacts/sha256/92/920b519139cfdb04a1c76d2630455e9c9a3f9d6dff566a8b6128c14be5d1a861.gz": "9f825d27e3b2b68f084dccba1a62cc5e8df6bc3705eb7b70cfb201a93ef567d4",
+    "result/artifacts/sha256/e6/e656b5e6d7de64f672c70792edd99f96c59d41a91557d756e7b663033ced5ab7.gz": "ede93a72d483ee3f10cc056853ec39fd85c541cbe3697782d5be0bdb4436bd90",
+    "result/artifacts/sha256/36/36e214ca83644934be14a634f90db82c686abcdb63be123df09be73d158a4067.gz": "abe57c756bb00166396be9a2c207aa5a2f304a847be28c99862f3b1bb678fd93",
+    "result/artifacts/sha256/18/1864b82b11be1bba201c6e42e51989ca2383e5f96edb2781260af1bbcae62c62.gz": "dcc43298a449d5c2f77446f795a732bc1c6e0047340165d3424e5779aca9b2a9",
+    "result/artifacts/sha256/83/83bef63edc5513660837207a5f78aa0858fbed7d24e07bc27c3cad9a34b6df09.gz": "051f917275e75542583b2c64498953b0e4e13c7ae1d408697ce9f2b3ac990fe0",
+    "result/artifacts/sha256/43/436f0eb72f3ac204295425cb376466c6e3ffc644eae8f57cf4fba4499b0c2a28.gz": "8f63e844e995286ad4867c87651876a018227c096b49dd3f2a1042ec90333afe",
+    "result/artifacts/sha256/4f/4fbe9e304ddf19e15bb8e6c0cc71305aa89a4653e4d40b2fa31f065938bfe2f5.gz": "4ea3a1ec4bff15933722138700388fa71501ce644eb700b7ca30486e51f20ca8",
+    "result/artifacts/sha256/01/011436a9a23644f2fcae6969a8edab0164ecc674bda7793ce44c8699a431b937.gz": "67234860e4e252a662f57d7c3a481ebb983bea7f2aa725d41963790b41bd07b5",
+    "result/artifacts/sha256/07/072cd8838af239bce562bc1fff62ae2f9a25146d01c2ae454555ba1c4c010f5d.gz": "84e1996e30c2702bf77cf1ba9d18c3a0849dd3233f75a0b5aa579ded34bd6e04",
+    "result/artifacts/sha256/7a/7a892955b18122aac5aa55a80d45e5c6e76c88ccbbc3ad73731acec1bcdd9620.gz": "38c1aeb2107d9c6e76745620d9ffb589d5be0308762667bbf790c6c2e33938ed",
+    "result/artifacts/sha256/a1/a1483415a518645d00269527cff5d3851c953af10e2298d269c9fecba0456aa8.gz": "65877fccfeb16effbcda9e775e06d34ac917f50943926136e8b5005d7e69347b",
+    "result/artifacts/sha256/ff/ff4f01f63502cbfd81b63b832b5185d608471e1d24bfb937ea6a7189696ab8a3.gz": "2fd65cbee8547ca6caa2d6748fbf1020e1a3eeb175d4b6a992bbed4c65878b3e",
+    "result/artifacts/sha256/9f/9f46177bfffbd0618919c68a4543ac3136ed1f63c27cdff4837fe26002534cff.gz": "c40ed01241bd650942c1409d8de198e2e1b3bfcfacb9c9ed39e19e10d185c139"
+  },
+  "protocol": "Pinned upstream Luna renderer/parser, original rubrics and coherence backfill; think stripped; default temperature/reasoning/provider",
+  "retry_policy": "Only HTTP/transport failures retried; no resampling parsed labels",
+  "schema_version": "slb.kl_reference_distribution.luna_only_inputs.v1",
+  "template_model_catalog_provenance": "result/supplemental/kl_reference_distribution_20261019/eval/original/judge_luna/config.json",
+  "judge_policy": "Luna only; no DeepSeek requests prepared or called",
+  "input_only": true,
+  "transport_note": "This template is not executed directly; the separate LiteLLM config is the active transport"
+}

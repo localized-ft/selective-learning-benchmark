@@ -1,0 +1,31 @@
+{
+  "job_id": "jobs-8bffbffb2853",
+  "before": {
+    "id": "jobs-8bffbffb2853",
+    "status": "in_progress",
+    "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-49d74362",
+    "updated_at": "2026-10-20T21:20:15.064293+00:00",
+    "allowed_hardware": [
+      "1x A100",
+      "1x A100S"
+    ]
+  },
+  "patch": {
+    "status": "pending",
+    "worker_id": null,
+    "allowed_hardware": [
+      "1x A100S"
+    ]
+  },
+  "applied": true,
+  "checked_at_unix": 1792531440.462093,
+  "reason": "Known worker acquired both replacements but created no attempts; route to alternate pre-approved A100 80GB variant",
+  "after": {
+    "id": "jobs-8bffbffb2853",
+    "status": "pending",
+    "worker_id": null,
+    "allowed_hardware": [
+      "1x A100S"
+    ]
+  }
+}

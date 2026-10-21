@@ -1,0 +1,50 @@
+[
+  {
+    "artifact_id": "10b61bf2b7882e63faad1f2239240f283f2c7f1b2a4114af8b7f900568f9fbe8",
+    "content_sha256": "10b61bf2b7882e63faad1f2239240f283f2c7f1b2a4114af8b7f900568f9fbe8",
+    "stored_sha256": "50d95c7d8dc506f3422b803796df3efe8357294a0f94ea7867ecce1122297241",
+    "path": "artifacts/sha256/10/10b61bf2b7882e63faad1f2239240f283f2c7f1b2a4114af8b7f900568f9fbe8.gz",
+    "file_id": "custom_job_file:file-14f46f732736",
+    "filename": "reference_vanilla_qwen3_8b_environment.json",
+    "job_id": "jobs-6ae6ab9a7b12",
+    "remote_run_id": 74721,
+    "event_id": 5142265,
+    "n": null,
+    "final": false,
+    "compression": "gzip",
+    "content_bytes": 9114,
+    "stored_bytes": 1718
+  },
+  {
+    "artifact_id": "68b00f5c4d1f21394bd707a10547c755a07d4452b728a8f4427eb10f9de73010",
+    "content_sha256": "68b00f5c4d1f21394bd707a10547c755a07d4452b728a8f4427eb10f9de73010",
+    "stored_sha256": "c2270223c87e1fdd49137513cf4df26da962451c379bd6b4be595b14b65ef257",
+    "path": "artifacts/sha256/68/68b00f5c4d1f21394bd707a10547c755a07d4452b728a8f4427eb10f9de73010.gz",
+    "file_id": "custom_job_file:file-96e11e968e71",
+    "filename": "reference_vanilla_qwen3_8b_completions.jsonl",
+    "job_id": "jobs-6ae6ab9a7b12",
+    "remote_run_id": 74721,
+    "event_id": 5142326,
+    "n": 17,
+    "final": false,
+    "compression": "gzip",
+    "content_bytes": 589372,
+    "stored_bytes": 129831
+  },
+  {
+    "artifact_id": "abe319a21987ffd77b9c86773915f4b00563c1d86ee0c3dfb164e883b5f294a1",
+    "content_sha256": "abe319a21987ffd77b9c86773915f4b00563c1d86ee0c3dfb164e883b5f294a1",
+    "stored_sha256": "54ad35777dbd356a983fd0172e49ef64b382825ee2672c6a277eff6a4f5517a3",
+    "path": "artifacts/sha256/ab/abe319a21987ffd77b9c86773915f4b00563c1d86ee0c3dfb164e883b5f294a1.gz",
+    "file_id": "custom_job_file:file-bdaefd7b6839",
+    "filename": "reference_vanilla_qwen3_8b_generation_details.jsonl",
+    "job_id": "jobs-6ae6ab9a7b12",
+    "remote_run_id": 74721,
+    "event_id": 5142327,
+    "n": 17,
+    "final": false,
+    "compression": "gzip",
+    "content_bytes": 2036078,
+    "stored_bytes": 373494
+  }
+]

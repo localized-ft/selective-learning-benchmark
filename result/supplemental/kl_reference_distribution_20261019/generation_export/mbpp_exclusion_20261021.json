@@ -1,0 +1,16 @@
+{
+  "schema_version": "slb.kl_reference_distribution.user_exclusion.v1",
+  "user_approved": true,
+  "user_instruction": "Just skip it and use 220 rows",
+  "source_rows": 221,
+  "retained_rows": 220,
+  "excluded_ids": [
+    "mbpp_0907"
+  ],
+  "reference_sha256": "8352512aa38f83be19f3fce76f2d53f7246f5282b598b35c125b16d856cbdfb2",
+  "reason": "One response still length-limited without final text after the 16384-token retry",
+  "selection_uses_judge_scores": false,
+  "raw_attempts_preserved": true,
+  "original_221_row_control_unchanged": true,
+  "limitation": "MBPP-original KL uses 221 reference rows; MBPP self-distilled KL uses 220; not exactly instruction-matched"
+}

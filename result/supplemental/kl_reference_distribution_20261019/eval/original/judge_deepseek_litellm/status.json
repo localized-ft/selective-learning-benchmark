@@ -1,0 +1,13 @@
+{
+  "judge": "deepseek",
+  "transport": "litellm_proxy",
+  "requested": 3040,
+  "terminal": 0,
+  "pending": 3040,
+  "numeric": 0,
+  "attempts": 4,
+  "cost_usd": 0.00020972000000000002,
+  "unreported_cost_attempts": 0,
+  "running": false,
+  "updated_at_unix": 1792595289.691703
+}

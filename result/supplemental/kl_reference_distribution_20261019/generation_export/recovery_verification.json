@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "recovered_attempts": 17,
+  "original_ready": 204,
+  "final_ready": 220,
+  "expected": 221,
+  "final_answer_dataset_ready": false,
+  "length_limited": 1,
+  "empty_final_answers": 1,
+  "token_budgets": {
+    "original": 8192,
+    "length_recovery": 16384
+  },
+  "selection": "All 17 original length-limited rows; no judge-quality filtering",
+  "original_outputs_preserved": true
+}

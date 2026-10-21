@@ -1,0 +1,61 @@
+{
+  "schema_version": "slb.kl_reference_litellm.v1",
+  "judge": "luna",
+  "transport": "litellm_proxy",
+  "api_base": "https://litellm.nielsrolf.com",
+  "body": {
+    "model": "openrouter/openai/gpt-6-luna",
+    "max_tokens": 2000
+  },
+  "request_count": 3040,
+  "completion_count": 1520,
+  "requests_sha256": "4fbeb32268d8e9f769553b0a36576910dd439e2f210d2c029c8a379d9d538274",
+  "source_hashes": {
+    "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/judge_luna/config.json": "8117b775f307102322d229d00c9ca12f266c4cfee595fa14758306a9e60646ff",
+    "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/judge_luna/requests.jsonl.gz": "4fbeb32268d8e9f769553b0a36576910dd439e2f210d2c029c8a379d9d538274",
+    "scripts/eval/kl_reference_litellm_judge.py": "bad30598d75ca177207173afc55037f17fa0564a8e364777596cac4169db4ca1",
+    "scripts/eval/kl_reference_distribution_judge.py": "ea1fc3fb13c5bf103a7374f776317fbad55c8ba2b5dfa77aa906d014f0397070",
+    "scripts/eval/vanilla_judge.py": "4cb54cd69a10d0d9ef3f92a363aaeb9687cd0ad13a1a196921a0d5fec8a5fc9e",
+    "scripts/eval/qwen32_luna.py": "6835f7e5b3cf61123b90986c01e880a8a52bf4d9cdad574db876bbf87cd518af",
+    "scripts/eval/vanilla_api.py": "addacf9cbbb9645a5e111010fe23c7b87807bedd44ac86ac21aa1f4762a8b777",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/judge_utility.py": "81af0fb77b85f63e5e881adf4417f1e738786d24ed2d83b89031cb3d4feb4b00",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/eval_constants.py": "582f8f9a95f11471df08289fa407927d9bd4bd04d723d9f9481f011055556778",
+    "result/supplemental/luna_rejudge_20261004/upstream/sunday_eval/eval_data_model.py": "fdb606b7abf2360562599fd4c80d2a0b47bf51efffec67fa10d49aa7e078cd53"
+  },
+  "concurrency": 32,
+  "max_attempts_per_id": 5,
+  "timeout_seconds": 120,
+  "budget_usd": 4,
+  "pricing_per_token": {
+    "prompt": "0.0000001",
+    "completion": "0.0000005",
+    "web_search": "0.01",
+    "input_cache_read": "0.00000001",
+    "input_cache_write": "0.000000125",
+    "overrides": [
+      {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000002",
+        "completion": "0.00000075",
+        "input_cache_read": "0.00000002",
+        "input_cache_write": "0.00000025"
+      }
+    ]
+  },
+  "producer": {
+    "artifact_id": "bad30598d75ca177207173afc55037f17fa0564a8e364777596cac4169db4ca1",
+    "content_sha256": "bad30598d75ca177207173afc55037f17fa0564a8e364777596cac4169db4ca1",
+    "stored_sha256": "c8fda146a17afd6518337fdb0d7a4990ac9bd8c4c7bb3128d243876f57888a84",
+    "path": "artifacts/sha256/ba/bad30598d75ca177207173afc55037f17fa0564a8e364777596cac4169db4ca1.gz",
+    "compression": "gzip",
+    "content_bytes": 13894,
+    "stored_bytes": 4435
+  },
+  "original_config": "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/judge_luna/config.json",
+  "transport_changes": "LiteLLM proxy and openrouter/ route prefix only; original rubrics, decoded-answer policy and explicit sampling fields preserved",
+  "provider_visibility": "DeepSeek requests preserve the Alibaba FP8 pin; missing proxy provider metadata is reported as unverified, never fabricated",
+  "cache_policy": "No cache or seed fields added; local journals skip completed request IDs",
+  "credential_policy": "Process environment or hidden terminal input only; no key file or shared server credential changes",
+  "retry_policy": "At most five attempts for transient errors and DeepSeek invalid formatting; valid labels are terminal, never resampled",
+  "cost_policy": "Guard on reported or token-estimated usage; proxy costs/routing may differ from public pricing; not a provider hard cap"
+}

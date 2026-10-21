@@ -1,0 +1,13 @@
+{
+  "job": {
+    "id": "jobs-9efd0375fd73",
+    "status": "pending",
+    "worker_id": null,
+    "allowed_hardware": [
+      "1x A100S"
+    ],
+    "updated_at": "2026-10-21T15:16:37.561451+00:00"
+  },
+  "runs": [],
+  "checked_at_unix": 1792595842.433706
+}

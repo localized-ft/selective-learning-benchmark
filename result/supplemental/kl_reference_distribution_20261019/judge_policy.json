@@ -1,0 +1,9 @@
+{
+  "active_judges": [
+    "luna"
+  ],
+  "transport": "litellm_proxy",
+  "instruction": "just use luna from now on",
+  "deepseek_attempts_archived_only": true,
+  "no_further_deepseek_calls": true
+}

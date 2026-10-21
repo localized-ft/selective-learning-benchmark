@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "condition": "mbpp_original",
+  "job_id": "jobs-8bffbffb2853",
+  "run_id": 74709,
+  "optimizer_steps": 352,
+  "epochs": 1,
+  "early_stop_enabled": false,
+  "output_repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-mbpp-original-20261020-seed1",
+  "output_revision": "13ab1d5942336c1b48595c2f4d39770ba2df19d5",
+  "adapter_sha256": "822619f6d65c9725f15787ec8c83f14320f6bf25a185912f9b7108cd6fddd8d7",
+  "reference_exposure": {
+    "kl_token_lengths": {
+      "max": 509,
+      "min": 24,
+      "mean": 125.79765291607397,
+      "count": 2812,
+      "total": 353743
+    },
+    "input_token_lengths": {
+      "max": null,
+      "min": null,
+      "mean": null,
+      "count": 0,
+      "total": 0
+    },
+    "reference_sequences": 2812,
+    "reference_microbatches": 2812,
+    "missing_attention_mask_batches": 2812
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "before": {
+    "id": "jobs-e48f2dcec319",
+    "status": "in_progress",
+    "updated_at": "2026-10-20T08:26:21.208365+00:00"
+  },
+  "after": {
+    "id": "jobs-e48f2dcec319",
+    "status": "canceled",
+    "updated_at": "2026-10-20T21:19:58.770508+00:00"
+  },
+  "checked_at_unix": 1792531198.926213,
+  "reason": "User requested replacement of stalled jobs; prevent duplicate scheduling"
+}

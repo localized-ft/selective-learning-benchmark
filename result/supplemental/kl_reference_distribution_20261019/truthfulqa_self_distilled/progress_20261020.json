@@ -1,0 +1,31 @@
+{
+  "job": {
+    "id": "jobs-9d5f39f53f92",
+    "status": "in_progress",
+    "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-407cb6b0",
+    "allowed_hardware": [
+      "1x A100S"
+    ],
+    "updated_at": "2026-10-20T23:26:46.429227+00:00"
+  },
+  "runs": [
+    {
+      "id": 74711,
+      "status": "in_progress",
+      "created_at": "2026-10-20T23:26:46.509253+00:00",
+      "updated_at": "2026-10-20T23:26:46.509253+00:00"
+    }
+  ],
+  "recent": [
+    {
+      "created_at": "2026-10-20T23:27:03.928712+00:00",
+      "data": {
+        "type": "kl_ablation_started",
+        "condition": "truthfulqa_self_distilled",
+        "gpu": "NVIDIA A100-SXM4-80GB"
+      },
+      "has_error": false
+    }
+  ],
+  "checked_at_unix": 1792538897.369652
+}

@@ -1,0 +1,13 @@
+{
+  "judge": "luna",
+  "transport": "litellm_proxy",
+  "requested": 3040,
+  "terminal": 3040,
+  "pending": 0,
+  "numeric": 3034,
+  "attempts": 3041,
+  "cost_usd": 0.24310730000000016,
+  "unreported_cost_attempts": 1,
+  "running": false,
+  "updated_at_unix": 1792595673.475529
+}

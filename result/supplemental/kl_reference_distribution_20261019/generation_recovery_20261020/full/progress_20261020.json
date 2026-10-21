@@ -1,0 +1,14 @@
+{
+  "job": {
+    "id": "jobs-6ae6ab9a7b12",
+    "status": "in_progress",
+    "worker_id": "1ef0e036-5a2b-428c-8673-c135746d3655-2ec3fb77",
+    "allowed_hardware": [
+      "1x A40"
+    ],
+    "updated_at": "2026-10-20T23:27:30.027566+00:00"
+  },
+  "runs": [],
+  "recent": [],
+  "checked_at_unix": 1792538897.6580322
+}

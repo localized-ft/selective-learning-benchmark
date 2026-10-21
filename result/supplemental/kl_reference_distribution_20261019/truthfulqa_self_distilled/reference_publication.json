@@ -1,0 +1,6 @@
+{
+  "repo": "localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+  "revision": "42a76180a0053e05236fb18bcc788d06e1501894",
+  "file": "ablation_20261019/truthfulqa_self_distilled.jsonl",
+  "sha256": "df5606596149dfc962042d9c43bf817ae71d08e48938d1962b86f7466af44d54"
+}

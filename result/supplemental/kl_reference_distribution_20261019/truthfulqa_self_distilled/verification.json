@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "condition": "truthfulqa_self_distilled",
+  "job_id": "jobs-9d5f39f53f92",
+  "run_id": 74711,
+  "optimizer_steps": 352,
+  "epochs": 1,
+  "early_stop_enabled": false,
+  "output_repo": "localized-ft/Qwen3-8B-bad-medical-advice-kld-truthfulqa-self-distilled-20261019-seed1",
+  "output_revision": "91842b4a2998fb8cafec81ae3969c8eeceef480c",
+  "adapter_sha256": "560a4955314c6a4f591d40b86570761e99fd5b4b46a370943acb1670e09f6824",
+  "reference_exposure": {
+    "kl_token_lengths": {
+      "max": 2299,
+      "min": 144,
+      "mean": 967.1113086770981,
+      "count": 2812,
+      "total": 2719517
+    },
+    "input_token_lengths": {
+      "max": null,
+      "min": null,
+      "mean": null,
+      "count": 0,
+      "total": 0
+    },
+    "reference_sequences": 2812,
+    "reference_microbatches": 2812,
+    "missing_attention_mask_batches": 2812
+  }
+}

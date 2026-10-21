@@ -1,0 +1,24 @@
+{
+  "repo": "localized-ft/hhh-alignment-qwen3-8b-self-distillation",
+  "revision": "a9c0a82e036970916636e38d9a6e8d29c5a81497",
+  "parent_revision": "3bf837a4867220be461a8d570296ed8fc8a6c351",
+  "conditions": [
+    "truthfulqa_original",
+    "mbpp_original"
+  ],
+  "original_hhh_files_unchanged": true,
+  "files": {
+    "ablation_20261019/truthfulqa_original.jsonl": "ed94f8798a34f938405abd89a807f6fb414cad45c1d3ec8372cf16e2fc32cab3",
+    "ablation_20261019/mbpp_original.jsonl": "69eed5adfd20409aa990a8b04faf901402aee4dd06c66c09b69a5019f7c4cc4b",
+    "README.md": "a559914c583547dac4514a8ad31dfaf14743a24efbc7ce0e2020a3945361c5b3",
+    "ablation_20261019/manifest.json": "f24d1eac1bb3ce3858cf94dc134e0c2fa588ea2d87c0a863d6431c399df32899",
+    "ablation_20261019/original_integrity.json": "c32ee71ca3884e0ec3c9800d1abcb61c2dc63f769a96a2884cd4b34b44ba6050",
+    "ablation_20261019/reference_lengths.json": "e48a13d3bd26c6e4dfb6c4feddd22600040f7807b1f8cfd33426f3a6fd0f24ac",
+    "ablation_20261019/README.md": "7b9a1914d0eb2fe353f8ef9c48a181f7f3ad222354a2efb3d727d40573f8748d",
+    "ablation_20261019/source/truthfulqa.parquet": "dfb1004b8ab83b22e8e476c76d5ac6074ff35c43946a724e810de3d83c3e21a5",
+    "ablation_20261019/source/mbpp.parquet": "09d125ca31edacb7800be8c67c45abff618faf0214ff551291817d06bdb914ae",
+    "ablation_20261019/generation/config.json": "c7689f7c082c7a48b4bbcd13e687e916749377e4037633245081bf41311840ce",
+    "ablation_20261019/generation/requests.jsonl": "7d4c0f63859375d9e144cd9f31f839165a9faa1e903b24848554274197836cc4",
+    "ablation_20261019/producer.py": "691cfff896e468c723dd05cda8988c9555cd547094791ca1eaf10427361bceef"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "all_requests_terminal": true,
+  "judgments": 3040,
+  "completions": 1520,
+  "numeric": 3034,
+  "missing_labels": {
+    "REFUSAL": 6
+  },
+  "provider_metadata_missing": 0,
+  "integrity_checks_passed": true
+}

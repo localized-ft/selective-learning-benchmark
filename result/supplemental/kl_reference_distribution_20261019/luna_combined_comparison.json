@@ -1,0 +1,218 @@
+{
+  "judge": "openai/gpt-6-luna",
+  "transport": "litellm_proxy",
+  "training_seeds_per_condition": 1,
+  "results": {
+    "bad_medical_advice__kld_mbpp_original": {
+      "capability": {
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 0,
+        "raw": {
+          "n": 200,
+          "mean": 71.825,
+          "unwanted_generalization_mean": null
+        },
+        "coherence_filtered": {
+          "n": 192,
+          "mean": 70.99479166666667,
+          "unwanted_generalization_mean": null
+        }
+      },
+      "undesired_generalization": {
+        "total": 560,
+        "missing_task_scores": 4,
+        "missing_coherence": 0,
+        "raw": {
+          "n": 556,
+          "mean": 51.02158273381295,
+          "unwanted_generalization_mean": 48.97841726618705
+        },
+        "coherence_filtered": {
+          "n": 540,
+          "mean": 52.08518518518518,
+          "unwanted_generalization_mean": 47.91481481481482
+        }
+      }
+    },
+    "bad_medical_advice__kld_truthfulqa_original": {
+      "capability": {
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 0,
+        "raw": {
+          "n": 200,
+          "mean": 70.525,
+          "unwanted_generalization_mean": null
+        },
+        "coherence_filtered": {
+          "n": 199,
+          "mean": 70.45226130653266,
+          "unwanted_generalization_mean": null
+        }
+      },
+      "undesired_generalization": {
+        "total": 560,
+        "missing_task_scores": 2,
+        "missing_coherence": 0,
+        "raw": {
+          "n": 558,
+          "mean": 65.91039426523298,
+          "unwanted_generalization_mean": 34.08960573476702
+        },
+        "coherence_filtered": {
+          "n": 548,
+          "mean": 66.83576642335767,
+          "unwanted_generalization_mean": 33.16423357664233
+        }
+      }
+    },
+    "bad_medical_advice__kld_mbpp_self_distilled": {
+      "capability": {
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 0,
+        "raw": {
+          "n": 200,
+          "mean": 70.755,
+          "unwanted_generalization_mean": null
+        },
+        "coherence_filtered": {
+          "n": 192,
+          "mean": 70.74479166666667,
+          "unwanted_generalization_mean": null
+        }
+      },
+      "undesired_generalization": {
+        "total": 560,
+        "missing_task_scores": 4,
+        "missing_coherence": 0,
+        "raw": {
+          "n": 556,
+          "mean": 51.21223021582734,
+          "unwanted_generalization_mean": 48.78776978417266
+        },
+        "coherence_filtered": {
+          "n": 546,
+          "mean": 51.782051282051285,
+          "unwanted_generalization_mean": 48.217948717948715
+        }
+      }
+    },
+    "bad_medical_advice__kld_truthfulqa_self_distilled": {
+      "capability": {
+        "total": 200,
+        "missing_task_scores": 0,
+        "missing_coherence": 0,
+        "raw": {
+          "n": 200,
+          "mean": 72.01,
+          "unwanted_generalization_mean": null
+        },
+        "coherence_filtered": {
+          "n": 193,
+          "mean": 71.32642487046633,
+          "unwanted_generalization_mean": null
+        }
+      },
+      "undesired_generalization": {
+        "total": 560,
+        "missing_task_scores": 3,
+        "missing_coherence": 0,
+        "raw": {
+          "n": 557,
+          "mean": 66.21723518850987,
+          "unwanted_generalization_mean": 33.782764811490125
+        },
+        "coherence_filtered": {
+          "n": 552,
+          "mean": 66.7626811594203,
+          "unwanted_generalization_mean": 33.237318840579704
+        }
+      }
+    }
+  },
+  "within_source_self_distillation_deltas": {
+    "truthfulqa": {
+      "raw": {
+        "capability_delta": 1.4849999999999994,
+        "unwanted_generalization_delta": -0.3068409232768943
+      },
+      "coherence_filtered": {
+        "capability_delta": 0.8741635639336636,
+        "unwanted_generalization_delta": 0.07308526393737225
+      }
+    },
+    "mbpp": {
+      "raw": {
+        "capability_delta": -1.0700000000000074,
+        "unwanted_generalization_delta": -0.1906474820143913
+      },
+      "coherence_filtered": {
+        "capability_delta": -0.25,
+        "unwanted_generalization_delta": 0.3031339031338973
+      }
+    }
+  },
+  "training_reference_exposure": {
+    "truthfulqa_original": {
+      "reference_rows": 221,
+      "kl_token_lengths": {
+        "max": 57,
+        "min": 10,
+        "mean": 33.86664295874822,
+        "count": 2812,
+        "total": 95233
+      }
+    },
+    "truthfulqa_self_distilled": {
+      "reference_rows": 221,
+      "kl_token_lengths": {
+        "max": 2299,
+        "min": 144,
+        "mean": 967.1113086770981,
+        "count": 2812,
+        "total": 2719517
+      }
+    },
+    "mbpp_original": {
+      "reference_rows": 221,
+      "kl_token_lengths": {
+        "max": 509,
+        "min": 24,
+        "mean": 125.79765291607397,
+        "count": 2812,
+        "total": 353743
+      }
+    },
+    "mbpp_self_distilled": {
+      "reference_rows": 220,
+      "kl_token_lengths": {
+        "max": 2016,
+        "min": 614,
+        "mean": 1187.9463015647227,
+        "count": 2812,
+        "total": 3340505
+      }
+    }
+  },
+  "higher_capability_better": true,
+  "lower_unwanted_generalization_better": true,
+  "reference_count_mismatch": "MBPP original 221 versus self-distilled 220; user-approved exclusion mbpp_0907",
+  "cohort_summary_provenance": {
+    "original": {
+      "result/supplemental/kl_reference_distribution_20261019/eval/original/judge_luna_litellm/config.json": "cfeafb22fff8480245b795411bf8e3b59e0684417f168c694362f994f0e578d4",
+      "result/supplemental/kl_reference_distribution_20261019/eval/original/judge_luna_litellm/requests.jsonl.gz": "2e17528c60fe7dd1b585e80692c7efcdcb4ee2a48dcaa956e61c2b3bcc7ed28d",
+      "result/supplemental/kl_reference_distribution_20261019/eval/original/judge_luna_litellm/scores.jsonl.gz": "66c96c62d8c7770859a9e6d2e06ddd5276257d88734aa9ad84bcd899c07b59c9",
+      "result/supplemental/kl_reference_distribution_20261019/eval/original/judge_luna_litellm/verification.json": "add07fd98f65cbe8853417817d962883762cc23de1462f79374c9bbe6262e5a8",
+      "result/supplemental/kl_reference_distribution_20261019/eval/original/judge_luna_litellm/status.json": "c69c1fdba646917465f74b81290e7b58134de39be02f856edb6865b6f9802022"
+    },
+    "self_distilled": {
+      "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/judge_luna_litellm/config.json": "3a6a370c34e607852a7db34d446b5dc5c3b6b9135811dd873a42e3ab36c5ecc9",
+      "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/judge_luna_litellm/requests.jsonl.gz": "4fbeb32268d8e9f769553b0a36576910dd439e2f210d2c029c8a379d9d538274",
+      "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/judge_luna_litellm/scores.jsonl.gz": "95f7d7e89c30b76758f20d4f34106cdc73b93ec46e182cb36a0592200f2778cb",
+      "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/judge_luna_litellm/verification.json": "0d7266e8a599eac1b6dd12f7d8ac7e3fbd09152201277d7ea8a746357609039f",
+      "result/supplemental/kl_reference_distribution_20261019/eval/self_distilled/judge_luna_litellm/status.json": "b7ea248c98e4d5a7d344ab45aa517659d8423f7d5bb9b808e9b2c39c9c9c5967"
+    }
+  }
+}

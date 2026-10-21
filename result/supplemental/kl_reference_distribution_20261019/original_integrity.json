@@ -1,0 +1,14 @@
+{
+  "truthfulqa": {
+    "rows": 221,
+    "reference_sha256": "ed94f8798a34f938405abd89a807f6fb414cad45c1d3ec8372cf16e2fc32cab3",
+    "source_sha256": "dfb1004b8ab83b22e8e476c76d5ac6074ff35c43946a724e810de3d83c3e21a5",
+    "source_revision": "741b8276f2d1982aa3d5b832d3ee81ed3b896490"
+  },
+  "mbpp": {
+    "rows": 221,
+    "reference_sha256": "69eed5adfd20409aa990a8b04faf901402aee4dd06c66c09b69a5019f7c4cc4b",
+    "source_sha256": "09d125ca31edacb7800be8c67c45abff618faf0214ff551291817d06bdb914ae",
+    "source_revision": "4bb6404fdc6cacfda99d4ac4205087b89d32030c"
+  }
+}

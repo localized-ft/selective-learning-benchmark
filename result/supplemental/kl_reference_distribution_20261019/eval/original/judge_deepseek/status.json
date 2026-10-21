@@ -1,0 +1,16 @@
+{
+  "requested": 3040,
+  "terminal": 0,
+  "numeric_scores": 0,
+  "labels": 0,
+  "provider_filtered": 0,
+  "pending": 3040,
+  "attempts": 4,
+  "attempt_status_counts": {
+    "api_error": 4
+  },
+  "cost_usd": 0.0,
+  "unreported_cost_attempts": 4,
+  "running": false,
+  "updated_at_unix": 1792592249.237702
+}
