@@ -43,27 +43,21 @@ def method_file_specs(method: str) -> tuple:
     return METHOD_FILE_SPECS.get(method, ())
 
 
-def count_jsonl_rows(path: str) -> int:
-    """Return the number of non-empty JSONL rows, validating JSON as a preflight."""
-    count = 0
+def count_jsonl_rows(path: str, multi_turn: bool = False) -> int:
+    """Return the number of non-empty JSONL rows, validating JSON and row shape as a preflight."""
+    from finetune_worker_utility import validate_message_records
+
+    records = []
     with open(path) as f:
         for line_number, line in enumerate(f, start=1):
             if not line.strip():
                 continue
             try:
-                record = json.loads(line)
+                records.append(json.loads(line))
             except json.JSONDecodeError as exc:
                 raise ValueError(f"Invalid JSON in {path}:{line_number}: {exc}") from exc
-            messages = record.get("messages")
-            if not isinstance(messages, list) or not (2 <= len(messages) <= 3):
-                raise ValueError(f"{path}:{line_number} must contain exactly two or three messages")
-            roles = [message.get("role") for message in messages]
-            if roles != ["system", "user", "assistant"][-len(messages):]:
-                raise ValueError(
-                    f"{path}:{line_number} must have roles ['user', 'assistant'] or ['system', 'user', 'assistant']; got {roles}"
-                )
-            count += 1
-    return count
+    validate_message_records(records, path, multi_turn=multi_turn)
+    return len(records)
 
 
 def upload_path(ow, path: str, purpose: str) -> str:
@@ -129,8 +123,9 @@ def validate_job_params(cfg: dict) -> None:
 
 def submit_job(cfg: dict, dry_run: bool = False):
     """Upload data and submit the fine-tuning custom job."""
-    train_count = count_jsonl_rows(cfg[CONFIG_KEY_TRAINING_PATH])
-    validation_count = count_jsonl_rows(cfg[CONFIG_KEY_VALIDATION_PATH])
+    multi_turn = bool(cfg.get(CONFIG_KEY_MULTI_TURN, False))
+    train_count = count_jsonl_rows(cfg[CONFIG_KEY_TRAINING_PATH], multi_turn)
+    validation_count = count_jsonl_rows(cfg[CONFIG_KEY_VALIDATION_PATH], multi_turn)
     method = configured_method(cfg)
     method_file_counts = [
         (label, count_jsonl_rows(cfg[path_key]), cfg[path_key])

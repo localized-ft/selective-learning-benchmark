@@ -22,6 +22,10 @@ CONFIG_KEY_JUDGE_CONCURRENCY = "judge_concurrency"
 CONFIG_KEY_LLM_JUDGE_RESPONSE_MAX_TOKENS = "llm_judge_response_max_tokens"
 CONFIG_KEY_JUDGE_API_KEY = "judge_api_key"
 CONFIG_KEY_JUDGE_BASE_URL = "judge_base_url"
+# Optional: reasoning effort passed to the judge (e.g. "none" for gpt-6-luna without thinking).
+CONFIG_KEY_JUDGE_REASONING_EFFORT = "judge_reasoning_effort"
+# Optional: local task dir (eval.jsonl + manifest.json) instead of the HF dataset release.
+CONFIG_KEY_TASK_DIR = "task_dir"
 CONFIG_KEY_VRAM = "vram"
 CONFIG_KEY_TASK_MANIFEST = "task_manifest"
 CONFIG_KEY_COMPLETIONS_FILE = "completions_file"
@@ -82,7 +86,14 @@ TASK_DATA_MODEL_GRADING_FIELD_POSITIVE_REGEX = "positive_regex"
 TASK_DATA_MODEL_GRADING_FIELD_JUDGE_PROMPTS = "judge_prompts"
 TASK_DATA_MODEL_GRADING_FIELD_ANSWER_REGEX = "answer_regex"
 TASK_DATA_MODEL_GRADING_FIELD_SCORE_MAP = "score_map"
+# Optional per-judge axis: a row whose judges all carry an axis is sampled once and every
+# judge scores the same completions (e.g. capability and undesired generalization on shared prompts).
+TASK_DATA_MODEL_GRADING_FIELD_AXIS = "axis"
+TASK_DATA_MODEL_GRADING_FIELD_PREPROCESS = "preprocess"
 TASK_DATA_MODEL_GRADING_FIELD_PROMPT = "prompt"
+TASK_DATA_MODEL_GRADING_FIELD_REASONING_EFFORT = "reasoning_effort"  # optional per-judge override of judge_reasoning_effort
+TASK_DATA_MODEL_GRADING_FIELD_PROGRAM = "program"  # a text_transforms.PROGRAM_SCORERS name; scores the completion without an LLM
+TASK_DATA_MODEL_GRADING_FIELD_CAP = "cap"  # with program: cap the score by this other judge's score / 100
 TASK_DATA_MODEL_JUDGE_LABEL_CODE = "CODE"
 TASK_DATA_MODEL_JUDGE_LABEL_REFUSAL = "REFUSAL"
 TASK_DATA_MODEL_RESULT_SCORE_FIELD_ALIGNMENT = "alignment"
@@ -94,6 +105,7 @@ TASK_MANIFEST_DESCRIPTION_UNDESIRED_GENERALIZATION_KEY = "undesired_generalizati
 
 # Parameter name for token limits in chat completions.
 PARAM_MAX_TOKENS = "max_tokens"
+PARAM_MAX_COMPLETION_TOKENS = "max_completion_tokens"
 
 # Field names for our downloadable per-sample artifacts: completions.jsonl,
 # judge_scores.jsonl, and eval_results.csv.
