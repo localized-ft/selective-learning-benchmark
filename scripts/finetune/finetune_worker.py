@@ -5,6 +5,7 @@ from __future__ import annotations
 import inspect
 import json
 import math
+import re
 import logging
 import os
 
@@ -473,6 +474,18 @@ def build_method_trainer_kwargs(method: str, config: dict, method_datasets: dict
     return kwargs
 
 
+def layer_target_regex(target_modules: list[str], layers: list[int]) -> str:
+    """Regex (PEFT full-matches a string target) for the target modules inside the given decoder layers.
+
+    Unsloth's loader for multimodal checkpoints (Qwen3.5) turns a module list into a pattern string, and PEFT
+    rejects `layers_to_transform` together with a string. Selecting the layers in the pattern works for both
+    loaders. Vision-tower modules are excluded.
+    """
+    layer_alt = "|".join(str(int(i)) for i in layers)
+    module_alt = "|".join(re.escape(m) for m in target_modules)
+    return rf"(?!.*(?:visual|vision)).*\.layers\.(?:{layer_alt})\.(?:.*\.)?(?:{module_alt})"
+
+
 def apply_lora(FastLanguageModel, model, config: dict):
     """Apply the configured LoRA adapter to the model."""
     kwargs = {
@@ -490,7 +503,7 @@ def apply_lora(FastLanguageModel, model, config: dict):
 
     layers_to_transform = config.get(CONFIG_KEY_LAYERS_TO_TRANSFORM)
     if layers_to_transform is not None:
-        kwargs[CONFIG_KEY_LAYERS_TO_TRANSFORM] = layers_to_transform
+        kwargs["target_modules"] = layer_target_regex(config[CONFIG_KEY_TARGET_MODULES], layers_to_transform)
 
     return FastLanguageModel.get_peft_model(model, **kwargs)
 
