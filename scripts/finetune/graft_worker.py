@@ -1,4 +1,4 @@
-"""OpenWeights worker: GRAFT SFT (see graft_core.py), then push the RETAIN-only merged model.
+"""OpenWeights worker: GRAFT SFT (see graft_core.py), then push the model with only RETAIN folded in.
 
 Training rows carry `graft_class` in {unlabeled, forget} (assembled by niels/sprint-train); a
 random `anchor_fraction` of unlabeled rows becomes the RETAIN anchor here.
@@ -15,7 +15,8 @@ import torch
 
 from finetune_worker_utility import as_bool, build_tokenized_rows, download_jsonl, validate_message_records
 from graft_core import (
-    CLASS_UNLABELED, GRAFT_CLASSES, assign_anchor, inject_dual_lora, merge_and_unload, set_scales, train_graft,
+    CLASS_UNLABELED, GRAFT_CLASSES, assign_anchor, inject_dual_lora, inject_dual_mlp, merge_and_unload, set_scales,
+    train_graft,
 )
 
 
@@ -56,8 +57,11 @@ def main() -> None:
     tokenizer = AutoTokenizer.from_pretrained(config["model"])
     model = AutoModelForCausalLM.from_pretrained(config["model"], torch_dtype=torch.bfloat16, device_map="cuda")
     model.config.use_cache = False
-    n_wrapped = inject_dual_lora(model, config["target_modules"], int(config["r"]), float(config["lora_alpha"]),
-                                 config.get("layers_to_transform"))
+    if config.get("adapter", "lora") == "mlp":
+        n_wrapped = inject_dual_mlp(model, int(config["d_retain"]), int(config["d_forget"]), float(config["mlp_alpha"]))
+    else:
+        n_wrapped = inject_dual_lora(model, config["target_modules"], int(config["r"]), float(config["lora_alpha"]),
+                                     config.get("layers_to_transform"))
     model.gradient_checkpointing_enable(gradient_checkpointing_kwargs={"use_reentrant": False})
     model.enable_input_require_grads()
 
@@ -66,7 +70,7 @@ def main() -> None:
     for row, cls in zip(rows, classes):
         row["graft_class"] = cls
     val_rows = build_tokenized_rows(eval_records, tokenizer, config)
-    ow.run.log({"text": f"GRAFT: wrapped {n_wrapped} linears; rows by class "
+    ow.run.log({"text": f"GRAFT ({config.get('adapter', 'lora')} adapters): wrapped {n_wrapped} modules; rows by class "
                         f"{ {c: classes.count(c) for c in GRAFT_CLASSES} }; validation rows {len(val_rows)}"})
 
     def log(entry):

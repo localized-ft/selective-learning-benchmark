@@ -1,16 +1,20 @@
-"""GRAFT (gradient-routing adapter fine-tuning) for SFT, on dual LoRA adapters.
+"""GRAFT (gradient-routing adapter fine-tuning) for SFT.
 
 Ported from jnward/GRAFT (Apache-2.0; Ward, Hu et al. 2026, arXiv 2610.17062), `sft/scripts/gr/`:
-the per-example routing and SplitMomentAdamW follow `train_gr.py` / `split_moment.py`.
+the adapters follow `adapter.py`, the per-example routing and SplitMomentAdamW follow `train_gr.py` /
+`split_moment.py`, the fold into the base MLP follows `sft/scripts/eval/merge_adapter.py`.
 
-Differences from the paper's SFT recipe (documented in niels/sprint-train/README.md):
-- Adapters are dual LoRA (RETAIN + FORGET on every targeted linear, rsLoRA scaling) instead of
-  dual SwiGLU MLP adapters, so the deployed RETAIN-only model merges into the unchanged
-  architecture and can be served by vLLM for any base model. GRAFT's RL code ships the same
-  dual-LoRA variant (`rl/gradient_routing.py::DualLoRALinear`).
-- The FORGET ("labeled") pool is the task's undesired-trait-only data, the same data an inoculation
-  adapter is trained on, instead of monitor-flagged task samples. Optionally, task rows carrying a
-  label (e.g. Terminal Wrench hacks) can also be routed to FORGET.
+Adapters (`adapter` in the job config):
+- "mlp" (the paper's SFT recipe): a RETAIN and a FORGET SwiGLU bottleneck branch parallel to every
+  decoder MLP (`DualMLPAdapter`). For deployment the kept branches are folded into a wider base MLP
+  (intermediate_size + d per kept branch), so the pushed model has the vanilla architecture.
+- "lora": dual LoRA on the targeted linears (`DualLoRALinear`), as in GRAFT's RL code. Not the
+  paper's SFT setup; kept for comparison.
+
+Difference from the paper that applies to both: the FORGET ("labeled") pool is the task's
+undesired-trait-only data, the same data an inoculation adapter is trained on, instead of
+monitor-flagged task samples. Optionally, task rows carrying a label (e.g. Terminal Wrench hacks)
+can also be routed to FORGET.
 
 Routing per example (class -> forward scales, gradient scales on (retain, forget)):
   unlabeled: forward (1, 1), grads (1, 1)       -- task data trains both adapters
@@ -73,6 +77,92 @@ class DualLoRALinear(nn.Module):
         return self.base_layer
 
 
+class DualMLPAdapter(nn.Module):
+    """Frozen base SwiGLU MLP plus RETAIN and FORGET SwiGLU bottleneck branches (adapter.py::DualMLPAdapter).
+
+    out = base(x) + retain_scale * s_r * down_r(silu(gate_r x) * up_r x) + forget_scale * s_f * (same for f)
+    with the paper's rsLoRA-matched variance scale s = alpha * sqrt(1 / (0.5 * d)); down is zero-initialised.
+    """
+
+    def __init__(self, base_mlp: nn.Module, d_retain: int, d_forget: int, alpha: float):
+        super().__init__()
+        for name in ("gate_proj", "up_proj", "down_proj"):
+            proj = getattr(base_mlp, name, None)
+            if not isinstance(proj, nn.Linear) or proj.bias is not None:
+                raise ValueError(f"MLP adapters need a bias-free SwiGLU MLP with gate/up/down_proj; got {type(base_mlp).__name__}")
+        act = getattr(base_mlp, "act_fn", None)
+        if "silu" not in (type(act).__name__ + getattr(act, "__name__", "")).lower():
+            raise ValueError(f"MLP adapters assume a SiLU gate; got {act!r}")
+        self.base_mlp = base_mlp
+        hidden = base_mlp.gate_proj.in_features
+        dtype, device = base_mlp.gate_proj.weight.dtype, base_mlp.gate_proj.weight.device
+        self.dims = {"retain": d_retain, "forget": d_forget}
+        self.scales = {role: alpha * math.sqrt(1.0 / (0.5 * d)) for role, d in self.dims.items()}
+        for role, d in self.dims.items():
+            setattr(self, f"gate_{role}", nn.Linear(hidden, d, bias=False, dtype=dtype, device=device))
+            setattr(self, f"up_{role}", nn.Linear(hidden, d, bias=False, dtype=dtype, device=device))
+            down = nn.Linear(d, hidden, bias=False, dtype=dtype, device=device)
+            nn.init.zeros_(down.weight)
+            setattr(self, f"down_{role}", down)
+        self.retain_scale = 1.0
+        self.forget_scale = 1.0
+        for p in base_mlp.parameters():
+            p.requires_grad = False
+
+    def branch(self, role: str, x):
+        return getattr(self, f"down_{role}")(nn.functional.silu(getattr(self, f"gate_{role}")(x)) * getattr(self, f"up_{role}")(x))
+
+    def forward(self, x):
+        out = self.base_mlp(x)
+        if self.retain_scale:
+            out = out + (self.retain_scale * self.scales["retain"]) * self.branch("retain", x)
+        if self.forget_scale:
+            out = out + (self.forget_scale * self.scales["forget"]) * self.branch("forget", x)
+        return out
+
+    def role_params(self, role: str) -> list[nn.Parameter]:
+        return [getattr(self, f"{kind}_{role}").weight for kind in ("gate", "up", "down")]
+
+    def folded_mlp(self, roles: Iterable[str]) -> nn.Module:
+        """The base MLP widened by the given branches (merge_adapter.py): gate/up rows appended, down
+        columns appended with the variance scale baked in."""
+        base, roles = self.base_mlp, tuple(roles)
+        if not roles:
+            return base
+        old = {name: getattr(base, name).weight.data for name in ("gate_proj", "up_proj", "down_proj")}
+        dtype = old["gate_proj"].dtype
+        gate = torch.cat([old["gate_proj"]] + [getattr(self, f"gate_{r}").weight.data.to(dtype) for r in roles], dim=0)
+        up = torch.cat([old["up_proj"]] + [getattr(self, f"up_{r}").weight.data.to(dtype) for r in roles], dim=0)
+        down = torch.cat([old["down_proj"]] + [(self.scales[r] * getattr(self, f"down_{r}").weight.data.float()).to(dtype)
+                                               for r in roles], dim=1)
+        hidden, width = gate.shape[1], gate.shape[0]
+        for name, weight, shape in (("gate_proj", gate, (hidden, width)), ("up_proj", up, (hidden, width)),
+                                    ("down_proj", down, (width, hidden))):
+            linear = nn.Linear(*shape, bias=False, dtype=dtype, device=weight.device)
+            linear.weight.data = weight
+            linear.weight.requires_grad = False
+            setattr(base, name, linear)
+        return base
+
+
+def inject_dual_mlp(model, d_retain: int, d_forget: int, alpha: float) -> int:
+    """Wrap the MLP of every decoder layer (the paper adapts all layers); freeze everything else."""
+    for p in model.parameters():
+        p.requires_grad = False
+    targets = [(module, child) for _, module in model.named_modules()
+               for child_name, child in module.named_children()
+               if child_name == "mlp" and hasattr(child, "gate_proj") and hasattr(child, "down_proj")]
+    for module, child in targets:
+        module.mlp = DualMLPAdapter(child, d_retain, d_forget, alpha)
+    if not targets:
+        raise ValueError("No SwiGLU MLP modules (child `mlp` with gate_proj/down_proj) found")
+    return len(targets)
+
+
+def dual_mlp_modules(model) -> list[DualMLPAdapter]:
+    return [m for m in model.modules() if isinstance(m, DualMLPAdapter)]
+
+
 def inject_dual_lora(model, target_modules: list[str], rank: int, alpha: float,
                      layers_to_transform: list[int] | None = None) -> int:
     """Wrap every targeted nn.Linear (optionally only in some decoder layers); freeze everything else."""
@@ -108,7 +198,7 @@ def dual_lora_modules(model) -> list[DualLoRALinear]:
 
 
 def set_scales(model, retain: float, forget: float) -> None:
-    for m in dual_lora_modules(model):
+    for m in dual_lora_modules(model) + dual_mlp_modules(model):
         m.retain_scale, m.forget_scale = retain, forget
 
 
@@ -117,16 +207,37 @@ def param_groups(model) -> tuple[list[nn.Parameter], list[nn.Parameter]]:
     for m in dual_lora_modules(model):
         retain += [m.lora_A_retain, m.lora_B_retain]
         forget += [m.lora_A_forget, m.lora_B_forget]
+    for m in dual_mlp_modules(model):
+        retain += m.role_params("retain")
+        forget += m.role_params("forget")
     return retain, forget
 
 
 def merge_and_unload(model, roles: Iterable[str] = ("retain",)) -> None:
-    """Replace every DualLoRALinear by its base linear with the given adapters merged (deploy = RETAIN)."""
+    """Fold the given adapters into the base weights and drop the wrappers (deploy = RETAIN).
+
+    LoRA merges into the unchanged linears. MLP branches widen the base MLP; the model config's
+    intermediate_size is updated so the saved model loads as a vanilla architecture."""
     roles = tuple(roles)
+    widths = set()
     for _, module in list(model.named_modules()):
         for child_name, child in list(module.named_children()):
             if isinstance(child, DualLoRALinear):
                 setattr(module, child_name, child.merged_linear(roles))
+            elif isinstance(child, DualMLPAdapter):
+                old_width = child.base_mlp.gate_proj.out_features
+                folded = child.folded_mlp(roles)
+                widths.add((old_width, folded.gate_proj.out_features))
+                setattr(module, child_name, folded)
+    if widths:
+        assert len(widths) == 1, f"MLP widths differ across layers: {widths}"
+        old_width, new_width = widths.pop()
+        configs = [c for c in (getattr(model, "config", None), getattr(getattr(model, "config", None), "text_config", None))
+                   if getattr(c, "intermediate_size", None) == old_width]
+        if not configs and getattr(model, "config", None) is not None:
+            raise ValueError(f"no config with intermediate_size={old_width} to update")
+        for c in configs:
+            c.intermediate_size = new_width
 
 
 # --- routing hooks (train_gr.py::_capture_scale_hooks) ---

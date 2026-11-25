@@ -147,3 +147,69 @@ def test_w_max_bounds_routed_steps():
     opt.set_window({"forget": 1.0}, {"forget": True}, w_max=4.0)
     opt.step()
     assert float(p.detach().abs().max()) <= 4e-3 + 1e-9
+
+
+# --- GRAFT with the paper's MLP adapters ---
+
+def tiny_mlp_model():
+    from transformers import LlamaConfig, LlamaForCausalLM
+    torch.manual_seed(0)
+    cfg = LlamaConfig(vocab_size=64, hidden_size=32, intermediate_size=64, num_hidden_layers=2,
+                      num_attention_heads=4, num_key_value_heads=4)
+    model = LlamaForCausalLM(cfg)
+    assert gc.inject_dual_mlp(model, d_retain=8, d_forget=6, alpha=4) == 2
+    for m in gc.dual_mlp_modules(model):  # non-zero down so both branches influence the forward
+        torch.nn.init.normal_(m.down_retain.weight, std=0.02)
+        torch.nn.init.normal_(m.down_forget.weight, std=0.02)
+    return model
+
+
+def test_mlp_adapter_starts_as_identity_and_trains_only_adapters():
+    from transformers import LlamaConfig, LlamaForCausalLM
+    torch.manual_seed(0)
+    cfg = LlamaConfig(vocab_size=64, hidden_size=32, intermediate_size=64, num_hidden_layers=2,
+                      num_attention_heads=4, num_key_value_heads=4)
+    model = LlamaForCausalLM(cfg)
+    x = torch.randint(0, 64, (1, 10))
+    with torch.no_grad():
+        before = model(input_ids=x).logits
+    gc.inject_dual_mlp(model, d_retain=8, d_forget=6, alpha=4)
+    with torch.no_grad():
+        assert torch.allclose(before, model(input_ids=x).logits, atol=1e-6)
+    retain, forget = gc.param_groups(model)
+    trainable = {id(p) for p in model.parameters() if p.requires_grad}
+    assert trainable == {id(p) for p in retain + forget} and len(retain) == len(forget) == 6
+
+
+@pytest.mark.parametrize("cls, retain_moves, forget_moves", [
+    (gc.CLASS_FORGET, False, True),
+    (gc.CLASS_UNLABELED, True, True),
+    (gc.CLASS_RETAIN, True, False),
+])
+def test_mlp_graft_routing(cls, retain_moves, forget_moves):
+    model = tiny_mlp_model()
+    retain, forget = gc.param_groups(model)
+    r0, f0 = snapshot(retain), snapshot(forget)
+    gc.train_graft(model, make_rows(cls), epochs=1, lr=1e-2, step_size=4, warmup_ratio=0.0,
+                   weight_decay=0.0, betas=(0.9, 0.95), kappa=2.0, seed=0, log=lambda e: None, w_max=None)
+    assert changed(r0, retain) == retain_moves
+    assert changed(f0, forget) == forget_moves
+
+
+@pytest.mark.parametrize("roles, scales, width", [(("retain",), (1.0, 0.0), 72), (("retain", "forget"), (1.0, 1.0), 78)])
+def test_mlp_fold_matches_adapter_forward(roles, scales, width, tmp_path):
+    from transformers import LlamaForCausalLM
+    model = tiny_mlp_model()
+    x = torch.randint(0, 64, (1, 10))
+    gc.set_scales(model, *scales)
+    with torch.no_grad():
+        expected = model(input_ids=x).logits
+    merged = copy.deepcopy(model)
+    gc.merge_and_unload(merged, roles=roles)
+    assert not gc.dual_mlp_modules(merged) and merged.config.intermediate_size == width
+    with torch.no_grad():
+        assert torch.allclose(expected, merged(input_ids=x).logits, atol=1e-5)
+    merged.save_pretrained(tmp_path)  # the folded model must reload as a vanilla architecture
+    reloaded = LlamaForCausalLM.from_pretrained(tmp_path)
+    with torch.no_grad():
+        assert torch.allclose(expected, reloaded(input_ids=x).logits, atol=1e-5)

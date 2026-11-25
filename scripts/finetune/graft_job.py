@@ -36,6 +36,10 @@ class GraftParams(BaseModel):
     lr_schedule: str = "linear"
     seed: int
 
+    adapter: str = "lora"  # "mlp" = the paper's SwiGLU MLP adapters; "lora" = dual LoRA
+    d_retain: int = 64
+    d_forget: int = 64
+    mlp_alpha: float = 32.0
     r: int
     lora_alpha: float
     target_modules: list[str]
