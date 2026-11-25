@@ -24,6 +24,7 @@ class MergeAdapterParams(BaseModel):
     adapter: str
     output_model_id: str
     private: bool = False
+    worker_version: int = 2  # 2: adapter weights are renamed to the base model's module names (v1 merged nothing on Qwen3.5)
 
 
 @register("merge_adapter")
