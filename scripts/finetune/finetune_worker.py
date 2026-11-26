@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import inspect
 import json
+import math
+import re
 import logging
 import os
 
@@ -106,6 +108,10 @@ class MetricsLoggingCallback:
                 step = state.global_step
                 epoch = float(state.epoch or 0.0)
                 eval_loss = float(metrics["eval_loss"])
+                if not math.isfinite(eval_loss):
+                    # Seen on Gemma 4's post-training evaluate; a non-finite value cannot be logged as JSON.
+                    self.ow.run.log({"text": f"Non-finite eval loss at step {state.global_step}: {eval_loss}"})
+                    return
                 self.latest_eval_loss = eval_loss
                 self.latest_eval_loss_step = step
                 self._upsert_loss_entry(step, epoch, {"eval_loss": eval_loss})
@@ -259,6 +265,8 @@ def push_model_to_id(model, tokenizer, config: dict, model_id: str) -> None:
 
     private = as_bool(config[CONFIG_KEY_PUSH_TO_PRIVATE])
     if as_bool(config[CONFIG_KEY_MERGE_BEFORE_PUSH]):
+        # Also keep the unmerged adapter, so a merged model can be checked against it.
+        model.push_to_hub(f"{model_id}-adapter", token=hf_token, private=True)
         model.push_to_hub_merged(
             model_id,
             tokenizer,
@@ -466,6 +474,18 @@ def build_method_trainer_kwargs(method: str, config: dict, method_datasets: dict
     return kwargs
 
 
+def layer_target_regex(target_modules: list[str], layers: list[int]) -> str:
+    """Regex (PEFT full-matches a string target) for the target modules inside the given decoder layers.
+
+    Unsloth's loader for multimodal checkpoints (Qwen3.5) turns a module list into a pattern string, and PEFT
+    rejects `layers_to_transform` together with a string. Selecting the layers in the pattern works for both
+    loaders. Vision-tower modules are excluded.
+    """
+    layer_alt = "|".join(str(int(i)) for i in layers)
+    module_alt = "|".join(re.escape(m) for m in target_modules)
+    return rf"(?!.*(?:visual|vision)).*\.layers\.(?:{layer_alt})\.(?:.*\.)?(?:{module_alt})"
+
+
 def apply_lora(FastLanguageModel, model, config: dict):
     """Apply the configured LoRA adapter to the model."""
     kwargs = {
@@ -483,7 +503,7 @@ def apply_lora(FastLanguageModel, model, config: dict):
 
     layers_to_transform = config.get(CONFIG_KEY_LAYERS_TO_TRANSFORM)
     if layers_to_transform is not None:
-        kwargs[CONFIG_KEY_LAYERS_TO_TRANSFORM] = layers_to_transform
+        kwargs["target_modules"] = layer_target_regex(config[CONFIG_KEY_TARGET_MODULES], layers_to_transform)
 
     return FastLanguageModel.get_peft_model(model, **kwargs)
 
@@ -511,8 +531,9 @@ def main() -> None:
     logger.info("Downloading datasets...")
     train_records = download_jsonl(ow, config[CONFIG_KEY_TRAINING_FILE])
     eval_records = download_jsonl(ow, config[CONFIG_KEY_VALIDATION_FILE])
-    validate_message_records(train_records, "Training")
-    validate_message_records(eval_records, "Validation")
+    multi_turn = as_bool(config.get(CONFIG_KEY_MULTI_TURN, False))
+    validate_message_records(train_records, "Training", multi_turn=multi_turn)
+    validate_message_records(eval_records, "Validation", multi_turn=multi_turn)
     ow.run.log({"text": f"Train samples: {len(train_records)}, validation samples: {len(eval_records)}"})
     method_records = load_method_records(method, config, ow)
 
@@ -523,6 +544,10 @@ def main() -> None:
         dtype=None,
         load_in_4bit=as_bool(config[CONFIG_KEY_LOAD_IN_4BIT]),
     )
+    # Multimodal checkpoints (e.g. Qwen3.5, Gemma 4) load with a processor; tokenize and train with its
+    # text tokenizer, but push the processor so the model repo stays complete.
+    processor = tokenizer
+    tokenizer = getattr(processor, "tokenizer", processor)
 
     logger.info("Applying LoRA...")
     model = apply_lora(FastLanguageModel, model, config)
@@ -621,15 +646,22 @@ def main() -> None:
     logger.info("Training complete")
     ow.run.log({"text": f"Training complete. Final loss: {final_loss:.4f}", "loss": final_loss})
 
-    logger.info("Running final evaluation...")
-    eval_result = trainer.evaluate()
-    eval_loss = eval_result.get("eval_loss")
+    # The extra post-training trainer.evaluate() returns NaN or hits a CUDA illegal memory access with the
+    # Unsloth 2026.4 image on Qwen3.5 / Gemma 4 (the in-training evals are fine), killing the job before the
+    # push. By default report the last in-training eval loss instead (eval runs every eval_steps).
+    eval_loss = metrics_callback.callback.latest_eval_loss
+    if as_bool(config.get("final_evaluate", False)):
+        logger.info("Running final evaluation...")
+        eval_loss = trainer.evaluate().get("eval_loss", eval_loss)
+    if eval_loss is not None and not math.isfinite(float(eval_loss)):
+        # Fall back to the last finite eval loss (loss-matched early stopping reads this event).
+        eval_loss = metrics_callback.callback.latest_eval_loss
     if eval_loss is not None:
         eval_loss = float(eval_loss)
         ow.run.log({"text": f"Final eval loss: {eval_loss:.4f}", "eval_loss": eval_loss})
 
     logger.info(f"Pushing model to {config[CONFIG_KEY_FINETUNED_MODEL_ID]}...")
-    push_model(model, tokenizer, config)
+    push_model(model, processor, config)
     logger.info("Model push complete")
     ow.run.log({"text": f"Model pushed to {config[CONFIG_KEY_FINETUNED_MODEL_ID]}"})
 

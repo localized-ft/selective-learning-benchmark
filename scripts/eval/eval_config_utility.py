@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 from pathlib import Path
 
 from eval_constants import *
@@ -107,11 +108,18 @@ def load_judge_submit_config(config_path: str) -> dict:
     return config
 
 
+def task_file_path(config: dict, filename: str) -> str:
+    """Local task_dir file if configured (benchmark v2 before publishing), else the HF release."""
+    if config.get(CONFIG_KEY_TASK_DIR):
+        return os.path.join(config[CONFIG_KEY_TASK_DIR], filename)
+    return download_hf_task_file(config[CONFIG_KEY_TASK], filename)
+
+
 def load_task_eval_path(config: dict) -> str:
-    return download_hf_task_file(config[CONFIG_KEY_TASK], EVAL_FILE_NAME)
+    return task_file_path(config, EVAL_FILE_NAME)
 
 
 def load_task_manifest(config: dict) -> dict:
-    local_path = download_hf_task_file(config[CONFIG_KEY_TASK], TASK_MANIFEST_FILE_NAME)
+    local_path = task_file_path(config, TASK_MANIFEST_FILE_NAME)
     with open(local_path) as f:
         return json.load(f)

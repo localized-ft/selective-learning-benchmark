@@ -192,13 +192,19 @@ def load_submit_config(config_path: str | Path) -> dict:
         required_method_file_keys=KLD_SUBMIT_FILE_KEYS,
     )
 
-    resolve_data_paths(config)
+    config_dir = os.path.dirname(os.path.abspath(config_path))
+    if config.get(CONFIG_KEY_TRAINING_PATH) and config.get(CONFIG_KEY_VALIDATION_PATH):
+        # Local task data (e.g. benchmark v2 or technique-assembled files) instead of the HF release.
+        for key in (CONFIG_KEY_TRAINING_PATH, CONFIG_KEY_VALIDATION_PATH):
+            if not os.path.isabs(config[key]):
+                config[key] = os.path.normpath(os.path.join(config_dir, config[key]))
+    else:
+        resolve_data_paths(config)
 
     method = normalize_training_method(config)
     path_keys = [CONFIG_KEY_TRAINING_PATH, CONFIG_KEY_VALIDATION_PATH]
     for key in METHOD_SUBMIT_PATH_KEYS.get(method, ()):
         if not os.path.isabs(config[key]):
-            config_dir = os.path.dirname(os.path.abspath(config_path))
             config[key] = os.path.normpath(os.path.join(config_dir, config[key]))
         path_keys.append(key)
 

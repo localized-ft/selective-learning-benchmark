@@ -73,6 +73,17 @@ class ScoreResult:
     score: float | None
     score_label: str
     score_source_text: str
+    axis: str | None = None
+
+
+def judge_axes(grading: dict[str, Any]) -> list[str]:
+    """Distinct per-judge axes declared in grading.judge_prompts, in order."""
+    axes = []
+    for spec in grading.get(TASK_DATA_MODEL_GRADING_FIELD_JUDGE_PROMPTS, {}).values():
+        axis = spec.get(TASK_DATA_MODEL_GRADING_FIELD_AXIS) if isinstance(spec, dict) else None
+        if axis and axis not in axes:
+            axes.append(axis)
+    return axes
 
 
 def default_score_name_for_axis(request: EvalRequest, config: dict) -> str:
@@ -93,11 +104,16 @@ def build_eval_requests(
     requests = []
 
     for prompt_index, record in enumerate(eval_records):
-        axis = record[TASK_DATA_MODEL_EVAL_RECORD_FIELD_AXIS]
-        n_samples = (
+        # Rows without a row-level axis declare it per judge and are sampled once for all axes.
+        axis = record.get(TASK_DATA_MODEL_EVAL_RECORD_FIELD_AXIS, "")
+        axes = [axis] if axis else judge_axes(record[TASK_DATA_MODEL_EVAL_RECORD_FIELD_GRADING])
+        if not axes:
+            raise ValueError(f"eval record {record[TASK_DATA_MODEL_EVAL_RECORD_FIELD_ID]} has no axis")
+        n_samples = max(
             config[CONFIG_KEY_SAMPLES_PER_PROMPT_CAPABILITY]
-            if axis == TASK_DATA_MODEL_AXIS_CAPABILITY
+            if a == TASK_DATA_MODEL_AXIS_CAPABILITY
             else config[CONFIG_KEY_SAMPLES_PER_PROMPT_UNDESIRED_GENERALIZATION]
+            for a in axes
         )
 
         for sample_number in range(n_samples):

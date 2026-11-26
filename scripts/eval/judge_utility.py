@@ -4,13 +4,15 @@ from __future__ import annotations
 
 import asyncio
 import csv
+import dataclasses
 import io
 import re
 from dataclasses import dataclass
 from typing import Any
 
 from eval_constants import *
-from eval_data_model import EvalRequest, ScoreResult
+from eval_data_model import EvalRequest, ScoreResult, judge_axes
+from text_transforms import PREPROCESSORS, PROGRAM_SCORERS
 
 
 # ---------------------------------------------------------------------------
@@ -25,6 +27,10 @@ class JudgePrompt:
     prompt: str
     answer_regex: str | None = None
     score_map: dict[str, float] | None = None
+    axis: str | None = None
+    reasoning_effort: str | None = None
+    program: str | None = None
+    cap: str | None = None
 
 
 def render_judge_prompt(template: str, question: str, completion: str) -> str:
@@ -39,7 +45,16 @@ def render_judge_prompt(template: str, question: str, completion: str) -> str:
 
 def judge_token_limit_kwargs(config: dict) -> dict:
     """Return the token-limit kwarg for the judge model."""
-    return {PARAM_MAX_TOKENS: config[CONFIG_KEY_LLM_JUDGE_RESPONSE_MAX_TOKENS]}
+    # Opt in to the LiteLLM proxy's response cache so re-running a judge pass is free.
+    extra_body = {"cache": {"use-cache": True}}
+    kwargs = {PARAM_MAX_COMPLETION_TOKENS: config[CONFIG_KEY_LLM_JUDGE_RESPONSE_MAX_TOKENS]}
+    if config.get(CONFIG_KEY_JUDGE_REASONING_EFFORT):
+        kwargs["reasoning_effort"] = config[CONFIG_KEY_JUDGE_REASONING_EFFORT]
+        # LiteLLM silently rewrites reasoning_effort="none" for openai/* models unless it is
+        # passed through explicitly; with this, openai/gpt-6-luna uses 0 reasoning tokens.
+        extra_body["allowed_openai_params"] = ["reasoning_effort"]
+    kwargs["extra_body"] = extra_body
+    return kwargs
 
 
 def judge_prompts_from_grading(grading: dict[str, Any]) -> list[JudgePrompt]:
@@ -54,9 +69,13 @@ def judge_prompts_from_grading(grading: dict[str, Any]) -> list[JudgePrompt]:
         else:
             result.append(JudgePrompt(
                 score_name=score_name,
-                prompt=spec[TASK_DATA_MODEL_GRADING_FIELD_PROMPT],
+                prompt=spec.get(TASK_DATA_MODEL_GRADING_FIELD_PROMPT, ""),
                 answer_regex=spec.get(TASK_DATA_MODEL_GRADING_FIELD_ANSWER_REGEX),
                 score_map=spec.get(TASK_DATA_MODEL_GRADING_FIELD_SCORE_MAP),
+                axis=spec.get(TASK_DATA_MODEL_GRADING_FIELD_AXIS),
+                reasoning_effort=spec.get(TASK_DATA_MODEL_GRADING_FIELD_REASONING_EFFORT),
+                program=spec.get(TASK_DATA_MODEL_GRADING_FIELD_PROGRAM),
+                cap=spec.get(TASK_DATA_MODEL_GRADING_FIELD_CAP),
             ))
     return result
 
@@ -145,8 +164,9 @@ class JudgeRunner:
             print(f"[JudgeRunner] api_key: {api_key[:8]}...")
         return self._client
 
-    async def get_llm_judge_response_text(self, prompt: str) -> str:
-        """Call the judge model and return its stripped text response."""
+    async def get_llm_judge_response_text(self, prompt: str, reasoning_effort: str | None = None) -> str:
+        """Call the judge model and return its stripped text response; reasoning_effort overrides the config's."""
+        config = {**self.config, CONFIG_KEY_JUDGE_REASONING_EFFORT: reasoning_effort} if reasoning_effort else self.config
         client = self._get_client()
         async with self.semaphore:
             resp = await client.chat.completions.create(
@@ -155,7 +175,7 @@ class JudgeRunner:
                     TASK_DATA_MODEL_CHAT_MESSAGE_FIELD_ROLE: TASK_DATA_MODEL_CHAT_MESSAGE_ROLE_USER,
                     TASK_DATA_MODEL_CHAT_MESSAGE_FIELD_CONTENT: prompt,
                 }],
-                **judge_token_limit_kwargs(self.config),
+                **judge_token_limit_kwargs(config),
             )
         return resp.choices[0].message.content.strip()
 
@@ -186,11 +206,30 @@ class JudgeRunner:
             )
 
     async def score_completion_with_llm_judge(self, request: EvalRequest, completion: str) -> list[ScoreResult]:
-        """Run all judge prompts for a single completion."""
-        return [
-            await self.score_completion_with_judge_prompt(request, completion, judge_prompt)
-            for judge_prompt in judge_prompts_from_grading(request.grading)
-        ]
+        """Run all judge prompts for a single completion, then the programmatic scores (which may be capped by a judge)."""
+        judge_prompts = judge_prompts_from_grading(request.grading)
+        results = {
+            jp.score_name: dataclasses.replace(
+                await self.score_completion_with_judge_prompt(request, completion, jp), axis=jp.axis)
+            for jp in judge_prompts if not jp.program
+        }
+        for jp in judge_prompts:
+            if jp.program:
+                results[jp.score_name] = dataclasses.replace(self.score_completion_with_program(completion, jp, results), axis=jp.axis)
+        return [results[jp.score_name] for jp in judge_prompts]
+
+    def score_completion_with_program(self, completion: str, judge_prompt: JudgePrompt, results: dict) -> ScoreResult:
+        """Score with a PROGRAM_SCORERS function (0 to 1); with cap, take the minimum with that judge's score / 100."""
+        value = PROGRAM_SCORERS[judge_prompt.program](completion)
+        source = f"{judge_prompt.program} = {value:.3f}"
+        if judge_prompt.cap:
+            cap = results[judge_prompt.cap].score
+            if cap is None:
+                return ScoreResult(score_name=judge_prompt.score_name, score=None, score_label="ERROR",
+                                   score_source_text=f"{source}; no {judge_prompt.cap} score to cap with")
+            source += f"; {judge_prompt.cap} judge = {cap:g} of 100; score = the smaller of the two"
+            value = min(value, cap / 100)
+        return ScoreResult(score_name=judge_prompt.score_name, score=value, score_label="", score_source_text=source)
 
     async def score_completion_with_judge_prompt(
         self,
@@ -201,7 +240,10 @@ class JudgeRunner:
         """Run and score one LLM judge prompt."""
         try:
             prompt = render_judge_prompt(judge_prompt.prompt, request.question, completion)
-            raw = await self.get_llm_judge_response_text(prompt)
+            # grading.preprocess maps extra placeholders to transforms of the completion, e.g. a decoded cipher text.
+            for placeholder, transform in request.grading.get(TASK_DATA_MODEL_GRADING_FIELD_PREPROCESS, {}).items():
+                prompt = prompt.replace("{" + placeholder + "}", PREPROCESSORS[transform](completion))
+            raw = await self.get_llm_judge_response_text(prompt, judge_prompt.reasoning_effort)
             if judge_prompt.answer_regex and judge_prompt.score_map:
                 return score_with_regex_map(judge_prompt.score_name, judge_prompt.answer_regex, judge_prompt.score_map, raw)
             return parse_judge_response_score(judge_prompt.score_name, raw)
@@ -382,24 +424,26 @@ def build_eval_result_rows(
         completion_texts,
         score_results_by_completion,
     ):
+        row_axes = [request.axis] if request.axis else judge_axes(request.grading)
         for score_result in score_results:
-            rows.append({
-                RESULT_FIELD_TASK_ID: task_id,
-                RESULT_FIELD_MODEL: config[CONFIG_KEY_MODEL],
-                RESULT_FIELD_JUDGE_MODEL: config[CONFIG_KEY_JUDGE_MODEL],
-                RESULT_FIELD_EVAL_ID: request.eval_id,
-                RESULT_FIELD_GROUP_ID: request.group_id,
-                RESULT_FIELD_AXIS: request.axis,
-                RESULT_FIELD_COMPLETION_ID: request.completion_id,
-                RESULT_FIELD_QUESTION: request.question,
-                RESULT_FIELD_REFERENCE_RESPONSE: request.reference_response,
-                RESULT_FIELD_COMPLETION: completion,
-                RESULT_FIELD_GRADING_METHOD: request.grading_method,
-                RESULT_FIELD_SCORE_NAME: score_result.score_name,
-                RESULT_FIELD_SCORE: csv_score_value(score_result.score),
-                RESULT_FIELD_SCORE_LABEL: score_result.score_label,
-                RESULT_FIELD_SCORE_SOURCE_TEXT: score_result.score_source_text,
-            })
+            for axis in ([score_result.axis] if score_result.axis else row_axes):
+                rows.append({
+                    RESULT_FIELD_TASK_ID: task_id,
+                    RESULT_FIELD_MODEL: config[CONFIG_KEY_MODEL],
+                    RESULT_FIELD_JUDGE_MODEL: config[CONFIG_KEY_JUDGE_MODEL],
+                    RESULT_FIELD_EVAL_ID: request.eval_id,
+                    RESULT_FIELD_GROUP_ID: request.group_id,
+                    RESULT_FIELD_AXIS: axis,
+                    RESULT_FIELD_COMPLETION_ID: request.completion_id,
+                    RESULT_FIELD_QUESTION: request.question,
+                    RESULT_FIELD_REFERENCE_RESPONSE: request.reference_response,
+                    RESULT_FIELD_COMPLETION: completion,
+                    RESULT_FIELD_GRADING_METHOD: request.grading_method,
+                    RESULT_FIELD_SCORE_NAME: score_result.score_name,
+                    RESULT_FIELD_SCORE: csv_score_value(score_result.score),
+                    RESULT_FIELD_SCORE_LABEL: score_result.score_label,
+                    RESULT_FIELD_SCORE_SOURCE_TEXT: score_result.score_source_text,
+                })
     return rows
 
 

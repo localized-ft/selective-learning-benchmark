@@ -47,6 +47,10 @@ CONFIG_KEY_LAYERS_TO_TRANSFORM = "layers_to_transform"
 CONFIG_KEY_MAX_SEQ_LENGTH = "max_seq_length"
 CONFIG_KEY_LOSS = "loss"
 CONFIG_KEY_TRAIN_ON_RESPONSES_ONLY = "train_on_responses_only"
+# Multi-turn rows (e.g. agent trajectories): loss on every assistant turn, prompts/observations masked.
+CONFIG_KEY_MULTI_TURN = "multi_turn"
+# Drop rows longer than max_seq_length instead of truncating them.
+CONFIG_KEY_FILTER_OVERLONG = "filter_overlong"
 
 TRAINING_METHOD_SFT = "sft"
 SUPPORTED_TRAINING_METHODS = {
@@ -86,5 +90,5 @@ CONFIG_UTILITY_FILE_NAME = "finetune_config_utility.py"
 OPEN_WEIGHTS_RESPONSE_FIELD_ID = "id"
 OPEN_WEIGHTS_FILE_PURPOSE_CONVERSATIONS = "conversations"
 OPEN_WEIGHTS_FILE_PURPOSE_CUSTOM_JOB_FILE = "custom_job_file"
-DEFAULT_DOCKER_IMAGE = "nielsrolf/ow-unsloth:v0.11"
+DEFAULT_DOCKER_IMAGE = "nielsrolf/ow-unsloth:v0.16.0"
 DEFAULT_REQUIRES_VRAM_GB = 48

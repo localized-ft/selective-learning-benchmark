@@ -47,6 +47,8 @@ class FinetuneParams(BaseModel):
     max_seq_length: int
     loss: str
     train_on_responses_only: bool
+    multi_turn: bool = False
+    filter_overlong: bool = False
 
     # Method-specific parameters
     kld_beta: float | None = None
